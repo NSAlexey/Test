@@ -1,0 +1,171 @@
+.RadSlider_Silk {
+  color: #333333;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Silk div.rslHorizontal .rslTrack {
+    border-color: #c4c4c4;
+    background: url('Slider/TrackBgr.png') repeat-x; }
+  .RadSlider_Silk div.rslHorizontal .rslSelectedregion {
+    background: url('Slider/SelectedRegionHorizontalBgr.png') right top; }
+  .RadSlider_Silk div.rslHorizontal a.rslHandle {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSlider_Silk div.rslHorizontal a.rslDecrease {
+    margin: -1px 0 0 -4px;
+    background-position: -12px -112px; }
+  .RadSlider_Silk div.rslHorizontal a.rslDecrease:hover {
+    background-position: -62px -112px; }
+  .RadSlider_Silk div.rslHorizontal a.rslIncrease {
+    margin: -1px -2px 0 0;
+    background-position: -12px -162px; }
+  .RadSlider_Silk div.rslHorizontal a.rslIncrease:hover {
+    background-position: -62px -162px; }
+  .RadSlider_Silk div.rslHorizontal a.rslDraghandle {
+    background-image: url('../Common/Gradients/radGradientDarkV20.png');
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    box-shadow: 0 2px 2px #999;
+    width: 15px;
+    height: 15px;
+    border-radius: 45px;
+    top: 5px;
+    margin-top: -9px;
+    filter: none; }
+  .RadSlider_Silk div.rslHorizontal a.rslDraghandle:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab);
+    filter: none; }
+  .RadSlider_Silk div.rslHorizontal a.rslDraghandle:active,
+  .RadSlider_Silk div.rslHorizontal a.rslDraghandle:focus {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none;
+    filter: none; }
+  .RadSlider_Silk div.rslHorizontal div.rslTrack {
+    height: 8px;
+    line-height: 8px;
+    background-color: #c4c4c4; }
+  .RadSlider_Silk div.rslHorizontal div.rslSelectedregion {
+    height: 8px;
+    line-height: 8px;
+    background-color: #e3e3e3; }
+  .RadSlider_Silk div.rslHorizontal .rslItem {
+    background-image: url('Slider/ItemHorizontalBgr.png'); }
+  .RadSlider_Silk div.rslHorizontal.rslMiddle .rslHandle {
+    margin-top: -15px; }
+  .RadSlider_Silk div.rslHorizontal li.rslItem span {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    font-size: 13px; }
+  .RadSlider_Silk div.rslHorizontal.rslMiddle div.rslTrack {
+    margin-top: -5px; }
+  .RadSlider_Silk div.rslVertical a.rslHandle {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 45px;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSlider_Silk div.rslVertical a.rslDecrease {
+    margin: -4px -3px 0 2px;
+    background-position: -12px -12px; }
+  .RadSlider_Silk div.rslVertical a.rslDecrease:hover {
+    background-position: -62px -12px; }
+  .RadSlider_Silk div.rslVertical a.rslIncrease {
+    margin: 0 -3px -2px 2px;
+    background-position: -12px -62px; }
+  .RadSlider_Silk div.rslVertical a.rslIncrease:hover {
+    background-position: -62px -62px; }
+  .RadSlider_Silk div.rslVertical div.rslTrack {
+    width: 8px;
+    left: 11px;
+    background: url('Slider/TrackVerticalBgr.png') repeat-y; }
+  .RadSlider_Silk div.rslVertical.rslRight div.rslTrack {
+    left: auto; }
+  .RadSlider_Silk div.rslVertical.rslCenter div.rslTrack {
+    left: 50%;
+    margin-left: 11px; }
+  .RadSlider_Silk div.rslVertical.rslCenter .rslItemsWrapper .rslLargeTick,
+  .RadSlider_Silk div.rslVertical.rslCenter .rslItemsWrapper .rslSmallTick {
+    margin: 0 0 0 15px; }
+  .RadSlider_Silk div.rslVertical .rslSelectedregion {
+    width: 8px;
+    background: url('Slider/SelectedRegionVerticalBgr.png') left bottom; }
+  .RadSlider_Silk div.rslVertical a.rslDraghandle {
+    background-image: url('../Common/Gradients/radGradientDarkV20.png');
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    box-shadow: 0 2px 2px #999;
+    width: 15px;
+    height: 15px;
+    border-radius: 45px;
+    left: 4px !important;
+    *left: -4px !important;
+    filter: none; }
+  .RadSlider_Silk div.rslVertical a.rslDraghandle:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    filter: none; }
+  .RadSlider_Silk div.rslVertical a.rslDraghandle:active,
+  .RadSlider_Silk div.rslVertical a.rslDraghandle:focus {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: none; }
+  .RadSlider_Silk div.rslVertical .rslItem {
+    background-image: url('Slider/ItemVerticalBgr.png'); }
+  .RadSlider_Silk div.rslVertical li.rslItem span {
+    font-size: 13px;
+    padding: 1px 3px; }
+  .RadSlider_Silk .rslItemsWrapper .rslItem,
+  .RadSlider_Silk .rslItemsWrapper .rslLargeTick span,
+  .RadSlider_Silk .rslItemsWrapper .rslItemSelected {
+    color: #5f5f5f;
+    font: 10px Arial,Helvetica,sans-serif; }
+  .RadSlider_Silk .rslTop .rslSmallTick,
+  .RadSlider_Silk .rslBottom .rslSmallTick {
+    background-image: url('Slider/SmallChangeHorizontal.png'); }
+  .RadSlider_Silk .rslTop .rslLargeTick,
+  .RadSlider_Silk .rslBottom .rslLargeTick {
+    background-image: url('Slider/LargeChangeHorizontal.png'); }
+  .RadSlider_Silk .rslLeft .rslSmallTick,
+  .RadSlider_Silk .rslRight .rslSmallTick {
+    background-image: url('Slider/SmallChangeVertical.png'); }
+  .RadSlider_Silk .rslLeft .rslLargeTick,
+  .RadSlider_Silk .rslRight .rslLargeTick {
+    background-image: url('Slider/LargelChangeVertical.png'); }
+  .RadSlider_Silk .rslMiddle .rslSmallTick {
+    background-image: url('Slider/SmallChangeMiddleHorizontal.png'); }
+  .RadSlider_Silk .rslLargeTick {
+    background-image: url('Slider/LargeChangeMiddleHorizontal.png'); }
+  .RadSlider_Silk .rslCenter .rslSmallTick {
+    background-image: url('Slider/SmallChangeCenterVertical.png'); }
+  .RadSlider_Silk .rslCenter .rslLargeTick {
+    background-image: url('Slider/LargelChangeCenterVertical.png'); }
+

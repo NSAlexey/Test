@@ -1,0 +1,63 @@
+.RadColorPicker_Bootstrap {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadColorPicker_Bootstrap .rcpPalette {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #fcfcfc; }
+  .RadColorPicker_Bootstrap .rcpHeader {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .RadColorPicker_Bootstrap .rcpImageButton,
+  .RadColorPicker_Bootstrap a.rslDraghandle {
+    color: #333333; }
+  .RadColorPicker_Bootstrap .rcpImageButton:hover {
+    color: #337ab7; }
+  .RadColorPicker_Bootstrap .rcpIcon em,
+  .RadColorPicker_Bootstrap .rcpColorPreview,
+  .RadColorPicker_Bootstrap .rcpInput,
+  .RadColorPicker_Bootstrap .rcpHexInput,
+  .RadColorPicker_Bootstrap .rcpMillionColorsPalette,
+  .RadColorPicker_Bootstrap .rcpMillionColorsSlider div.rslTrack {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadColorPicker_Bootstrap .rcpIcon a,
+  .RadColorPicker_Bootstrap .rcpTabs li,
+  .RadColorPicker_Bootstrap .rcpButton {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadColorPicker_Bootstrap .rcpIcon a:hover,
+  .RadColorPicker_Bootstrap .rcpTabs li:hover,
+  .RadColorPicker_Bootstrap .rcpButton:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadColorPicker_Bootstrap .rcpIcon a:active,
+  .RadColorPicker_Bootstrap .rcpTabs .rcpSelectedTab,
+  .RadColorPicker_Bootstrap .rcpTabs .rcpSelectedTab:hover,
+  .RadColorPicker_Bootstrap .rcpButton:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadColorPicker_Bootstrap .rcpIcon a:focus {
+    box-shadow: inset 0 0 5px rgba(173, 173, 173, 0.5); }
+  .RadColorPicker_Bootstrap.rcpCustomColorWrapper .rcpPalette {
+    box-shadow: 2px 2px 3px rgba(222, 222, 222, 0.5); }
+  .RadColorPicker_Bootstrap .rcpIcon {
+    padding: 7px 0; }
+  .RadColorPicker_Bootstrap .rcpSlider.RadSlider_Bootstrap a.rslDraghandle,
+  .RadColorPicker_Bootstrap .rcpMillionColorsSlider.RadSlider_Bootstrap a.rslDraghandle {
+    color: #333333; }
+  .RadColorPicker_Bootstrap .rcpSlider.RadSlider_Bootstrap a.rslDraghandle:hover,
+  .RadColorPicker_Bootstrap .rcpSlider.RadSlider_Bootstrap a.rslDraghandle:active,
+  .RadColorPicker_Bootstrap .rcpSlider.RadSlider_Bootstrap a.rslDraghandle:focus,
+  .RadColorPicker_Bootstrap .rcpMillionColorsSlider.RadSlider_Bootstrap a.rslDraghandle:hover,
+  .RadColorPicker_Bootstrap .rcpMillionColorsSlider.RadSlider_Bootstrap a.rslDraghandle:active,
+  .RadColorPicker_Bootstrap .rcpMillionColorsSlider.RadSlider_Bootstrap a.rslDraghandle:focus {
+    color: #337ab7; }
+  .RadColorPicker_Bootstrap .rcpEmptyColorPreview:before,
+  .RadColorPicker_Bootstrap .rcpEmptyIcon em:before {
+    color: #d9534f; }
+

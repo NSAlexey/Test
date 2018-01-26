@@ -1,0 +1,23 @@
+.RadToolTip_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000; }
+  .RadToolTip_BlackMetroTouch .rtClose {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadToolTip_BlackMetroTouch .rtClose:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadToolTip_BlackMetroTouch .rtClose:active {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadToolTip_BlackMetroTouch .rtCallout {
+    border-color: #333333; }
+  .RadToolTip_BlackMetroTouch .rtCallout:before {
+    border-color: #000000; }
+  .RadToolTip_BlackMetroTouch.rtLoading {
+    background-image: url('../BlackMetroTouch/Common/loading.gif'); }
+

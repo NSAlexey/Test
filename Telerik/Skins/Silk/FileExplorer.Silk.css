@@ -1,0 +1,153 @@
+.RadFileExplorer_Silk {
+  padding-bottom: 16px;
+  /* Thumbnail view */
+  /* Thumbnail filter */ }
+  .RadFileExplorer_Silk .RadToolBar .rtbText {
+    background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+    background-repeat: no-repeat; }
+  .RadFileExplorer_Silk span.rfeFileExtension,
+  .RadFileExplorer_Silk div.rfeFileExtension {
+    background: transparent url('../Common/FileExplorer/FileExtensionMonoLightSprites.png') no-repeat -7px -681px; }
+  .RadFileExplorer_Silk,
+  .RadFileExplorer_Silk .rfeAddressBox,
+  .RadFileExplorer_Silk .rfeFilterTxt {
+    background-color: #ffffff;
+    color: #3b3b3b;
+    border-color: #c4c4c4; }
+  .RadFileExplorer_Silk .rfeAddressBox,
+  .RadFileExplorer_Silk .rfeFilterTxt {
+    height: 26px !important; }
+  .RadFileExplorer_Silk .rfeAddressBox {
+    font-size: 13px; }
+  .RadFileExplorer_Silk div.selectedFileName {
+    border-top: 1px solid #c4c4c4; }
+  .RadFileExplorer_Silk .RadToolBar_Silk .rtbItem {
+    margin: 0 1px 0; }
+  .RadFileExplorer_Silk .RadToolBar_Silk .rtbWrap {
+    background-color: transparent;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    background-image: none;
+    filter: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-repeat: repeat-x; }
+  .RadFileExplorer_Silk .RadToolBar_Silk a.rtbWrap:hover {
+    background-image: url('../Common/Gradients/radGradientDarkV20.png');
+    background-color: #89D5E1;
+    background-image: linear-gradient(#89D5E1, #89D5E1);
+    border: 1px solid #68b8c5; }
+  .RadFileExplorer_Silk .RadToolBar_Silk .rtbIconOnly .rtbText {
+    margin: 5px 0 0 3px; }
+  .RadFileExplorer_Silk .RadToolBar_Silk .rtbDisabled .rtbWrap,
+  .RadFileExplorer_Silk .RadToolBar_Silk .rtbDisabled .rtbWrap:hover {
+    background-color: transparent;
+    background-image: none;
+    filter: none;
+    border-color: transparent; }
+  .RadFileExplorer_Silk .RadToolBar_Silk .icnUpload {
+    width: auto;
+    padding: 0 2px; }
+  .RadFileExplorer_Silk .RadToolBar_Silk .icnUpload:hover {
+    color: #5f5f5f; }
+  .RadFileExplorer_Silk .RadToolBar_Silk .icnUpload .rtbOut {
+    margin-top: 5px; }
+  .RadFileExplorer_Silk .rfeThumbnailView .rfeThumbList a {
+    color: #5f5f5f;
+    background-repeat: repeat-x; }
+  .RadFileExplorer_Silk .rfeThumbnailView li.rfeThumbList a:hover,
+  .RadFileExplorer_Silk .rfeThumbnailView li.rfeThumbList .rfeHoveredLink,
+  .RadFileExplorer_Silk .rfeThumbnailView .rfeThumbList .rfeSelectedLink:hover {
+    background-image: url('../Common/Gradients/radGradientDarkV20.png');
+    background-color: #00a9c7;
+    background-image: linear-gradient(#00a9c7, #007d93);
+    border-color: #00a9c7;
+    background-position: 0 0;
+    color: #ffffff; }
+  .RadFileExplorer_Silk .rfeThumbnailView li.rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_Silk .rfeThumbnailView li.rfeThumbList .rfeSelectedLink:hover,
+  .RadFileExplorer_Silk .rfeThumbnailView .rfeThumbList .rfeSelectedLink {
+    background-color: #2dabc1;
+    background-image: linear-gradient(#2dabc1, #2dabc1);
+    border-color: #2292a8;
+    box-shadow: inset 0 0 4px #29a3b9;
+    background-position: 0 0;
+    color: #ffffff; }
+  .RadFileExplorer_Silk .rfeFilterContainer {
+    background-color: #e3e3e3; }
+  .RadFileExplorer_Silk .rfeThumbnailView span.rfeThumbTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 15px; }
+  .RadFileExplorer_Silk .rfeDropZone {
+    background-color: rgba(227, 227, 227, 0.8); }
+  .RadFileExplorer_Silk .rfeDropUploadInfoPanel {
+    background-color: #e3e3e3;
+    color: #5f5f5f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; }
+  .RadFileExplorer_Silk .rfeDropUploadProgress {
+    margin-top: 5px; }
+
+.RadWindow_Silk .RadUpload_rtl.RadUpload_Silk .ruRemove {
+  padding-right: 0; }
+
+.RadWindow_Silk .RadUpload_rtl.RadUpload_Silk .ruButton {
+  margin-right: 3px; }
+
+.RadWindow_Silk .rfeUploadContainer .RadUpload,
+.RadWindow_Silk .rfeUploadContainer .RadUploadProgressArea {
+  width: 430px; }
+
+div.rfeUploadInfoPanel {
+  background-color: #e3e3e3;
+  border: 1px solid #c4c4c4; }
+
+#ImagePreviewToolBar.RadToolBar_Silk .rtbItem {
+  margin: 0 1px 0; }
+
+#ImagePreviewToolBar.RadToolBar_Silk .rtbWrap {
+  background-color: transparent;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  background-image: none;
+  filter: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-repeat: repeat-x; }
+
+#ImagePreviewToolBar.RadToolBar_Silk a.rtbWrap:hover {
+  background-image: url('../Common/Gradients/radGradientDarkV20.png');
+  background-color: #89D5E1;
+  background-image: linear-gradient(#89D5E1, #89D5E1);
+  border: 1px solid #68b8c5; }
+
+#ImagePreviewToolBar.RadToolBar_Silk .rtbIconOnly .rtbText {
+  margin: 5px 0 0 3px; }
+
+#ImagePreviewToolBar.RadToolBar_Silk .rtbDisabled .rtbWrap,
+#ImagePreviewToolBar.RadToolBar_Silk .rtbDisabled .rtbWrap:hover {
+  background-color: transparent;
+  background-image: none;
+  filter: none;
+  border-color: transparent; }
+
+#ImagePreviewToolBar.RadToolBar_Silk .icnImageEditor {
+  width: auto;
+  padding: 0 2px; }
+
+#ImagePreviewToolBar.RadToolBar_Silk .icnImageEditor:hover,
+#ImagePreviewToolBar.RadToolBar_Silk .rtbDisabled .rtbWrap {
+  color: #5f5f5f; }
+
+#ImagePreviewToolBar.RadToolBar_Silk .icnImageEditor .rtbText {
+  margin-top: 7px; }
+
+.RadForm_Silk .imagePreview {
+  height: 300px; }
+
+.RadForm_Silk .imagePreviewer div#propertiesPage {
+  height: 358px !important; }
+

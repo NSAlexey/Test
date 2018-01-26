@@ -1,0 +1,128 @@
+.RadWindow_Office2010Black {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  /* Window Background */
+  /* Horiznotal */
+  /* Vertical */
+  /* Window Shadows */
+  /* Horiznotal */
+  /* Vertical */
+  /* Shadows End */
+  /* Loading Indicators */
+  /* When ShowContentDuringLoad="true" */
+  /* When ShowContentDuringLoad="false" */
+  /* Shadow Control Buttons */
+  /* ctrl buttons when winodw is minimized */
+  /* Icon when winodw is minimized */
+  /*title buttons when winodw is minimized */ }
+  .RadWindow_Office2010Black .rwTopLeft,
+  .RadWindow_Office2010Black .rwTopRight,
+  .RadWindow_Office2010Black .rwTitlebar,
+  .RadWindow_Office2010Black .rwFooterLeft,
+  .RadWindow_Office2010Black .rwFooterRight,
+  .RadWindow_Office2010Black .rwFooterCenter,
+  .RadWindow_Office2010Black .rwTopResize,
+  .RadWindow_Office2010Black .rwStatusbar div,
+  .RadWindow_Office2010Black .rwStatusbar,
+  .RadWindow_Office2010Black .rwPopupButton,
+  .RadWindow_Office2010Black .rwPopupButton span,
+  .RadWindow_Office2010Black.rwMinimizedWindow .rwCorner {
+    background-image: url('Window/WindowHorizontalSprites.gif'); }
+  .RadWindow_Office2010Black .rwBodyLeft,
+  .RadWindow_Office2010Black .rwBodyRight,
+  .RadWindow_Office2010Black .rwStatusbarRow .rwCorner {
+    background-image: url('Window/WindowVerticalSprites.gif'); }
+  .RadWindow_Office2010Black .rwShadow .rwTopLeft,
+  .RadWindow_Office2010Black .rwShadow .rwTopRight,
+  .RadWindow_Office2010Black .rwShadow .rwTitlebar,
+  .RadWindow_Office2010Black .rwShadow .rwFooterLeft,
+  .RadWindow_Office2010Black .rwShadow .rwFooterRight,
+  .RadWindow_Office2010Black .rwShadow .rwFooterCenter,
+  .RadWindow_Office2010Black .rwShadow .rwTopResize,
+  .RadWindow_Office2010Black .rwShadow .rwStatusbar div,
+  .RadWindow_Office2010Black .rwShadow .rwStatusbar,
+  .RadWindow_Office2010Black .rwShadow .rwPopupButton,
+  .RadWindow_Office2010Black .rwShadow .rwPopupButton span,
+  .RadWindow_Office2010Black .rwShadow .rwBodyLeft,
+  .RadWindow_Office2010Black .rwShadow .rwBodyRight,
+  .RadWindow_Office2010Black .rwShadow .rwStatusbarRow .rwBodyLeft,
+  .RadWindow_Office2010Black .rwShadow .rwStatusbarRow .rwBodyRight {
+    background-image: url('Window/WindowHorizontalSprites.png'); }
+  .RadWindow_Office2010Black .rwShadow .rwBodyLeft,
+  .RadWindow_Office2010Black .rwShadow .rwBodyRight,
+  .RadWindow_Office2010Black .rwShadow .rwStatusbarRow .rwBodyLeft,
+  .RadWindow_Office2010Black .rwShadow .rwStatusbarRow .rwBodyRight {
+    background-image: url('Window/WindowVerticalSprites.png'); }
+  .RadWindow_Office2010Black .rwStatusbar input {
+    background-color: #f7f3e9;
+    color: #fff; }
+  .RadWindow_Office2010Black .rwControlButtons a {
+    background-image: url('Window/CommandButtonSprites.gif'); }
+  .RadWindow_Office2010Black a.rwIcon {
+    background-image: url('Window/WindowHorizontalSprites.gif'); }
+  .RadWindow_Office2010Black table.rwTitlebarControls em {
+    color: #e2e2e2; }
+  .RadWindow_Office2010Black input.rwDialogInput {
+    border: 1px solid #5e5e5e; }
+  .RadWindow_Office2010Black input.rwDialogInput:hover {
+    border: 1px solid #f7c840;
+    color: #565656; }
+  .RadWindow_Office2010Black td.rwWindowContent {
+    background-color: #a1a1a1; }
+  .RadWindow_Office2010Black table tr td.rwLoading {
+    background-color: #fff; }
+  .RadWindow_Office2010Black td.rwWindowContent.rwLoading,
+  .RadWindow_Office2010Black .rwIframeWrapperIOS.rwLoading {
+    background-image: url('Common/loading.gif'); }
+  .RadWindow_Office2010Black input.rwLoading {
+    background-image: url('Common/loading_small.gif'); }
+  .RadWindow_Office2010Black .rwShadow .rwControlButtons {
+    margin: 5px -2px 0 0; }
+  .RadWindow_Office2010Black .rwShadow .rwControlButtons {
+    margin: 5px -1px 0 0\9; }
+  .RadWindow_Office2010Black.rwMinimizedWindowShadow .rwShadow .rwControlButtons {
+    margin: 7px -8px 0 0; }
+  .RadWindow_Office2010Black.rwMinimizedWindowShadow .rwShadow .rwIcon {
+    margin: 9px 6px 0 0; }
+  .RadWindow_Office2010Black.rwMinimizedWindowShadow .rwShadow em {
+    margin: 4px 0 0 -1px; }
+  .RadWindow_Office2010Black .rwShadow .rwControlButtons li {
+    float: left;
+    padding: 0; }
+  .RadWindow_Office2010Black ul.rwControlButtons a {
+    width: 26px; }
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwTopLeft,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwTopRight,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwTitlebar,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwFooterLeft,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwFooterRight,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwFooterCenter,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwTopResize,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwStatusbar div,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwStatusbar,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwPopupButton,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwPopupButton span,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow.rwMinimizedWindow .rwCorner,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopLeft,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTitlebar,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwTopRight,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterLeft,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterCenter,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwFooterRight {
+    background-image: url('Window/WindowHorizontalSprites.gif') !important; }
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwBodyLeft,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwBodyRight,
+  .RadWindow_Office2010Black.rwInactiveWindow .rwShadow .rwStatusbarRow .rwCorner,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyLeft,
+  .RadWindow_Office2010Black.rwNoTitleBar.rwInactiveWindow .rwShadow .rwBodyRight {
+    background-image: url('Window/WindowVerticalSprites.gif') !important; }
+
+div.RadWindow_Office2010Black a.rwCancel,
+div.RadWindow_Office2010Black a.rwCancel span {
+  background: none;
+  cursor: pointer; }
+
+div.RadWindow_Office2010Black a.rwCancel span span {
+  color: #000000;
+  text-decoration: underline; }
+

@@ -1,0 +1,24 @@
+.RadLightBox_BlackMetroTouch {
+  font: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadLightBox_BlackMetroTouch .rltbWrapper {
+    border-color: #333333;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadLightBox_BlackMetroTouch .rltbDescOverlayTop,
+  .RadLightBox_BlackMetroTouch .rltbDescOverlayBottom {
+    background-color: rgba(0, 0, 0, 0.5); }
+  .RadLightBox_BlackMetroTouch .rltbActionButton:hover {
+    color: #0082cc; }
+  .RadLightBox_BlackMetroTouch .rltbCloseButton {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadLightBox_BlackMetroTouch .rltbCloseButton:hover {
+    border-color: #006299;
+    color: #ffffff;
+    background-color: #006299; }
+  .RadLightBox_BlackMetroTouch .rltbCloseButton:active {
+    border-color: #004166;
+    color: #ffffff;
+    background-color: #004166; }
+

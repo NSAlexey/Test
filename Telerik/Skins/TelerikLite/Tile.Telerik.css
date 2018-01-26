@@ -1,0 +1,18 @@
+.RadTile_Telerik {
+  color: #000000;
+  background-color: #eeeeee; }
+  .RadTile_Telerik .rtilePeekContent {
+    background-color: #eeeeee; }
+  .RadTile_Telerik.rtileSelected .rtileSelectedIcon {
+    color: #ffffff;
+    background-color: #66b340; }
+  .RadTile_Telerik.rtileHovered {
+    border-color: #515151; }
+  .RadTile_Telerik.rtileSelected {
+    border-color: #66b340; }
+  .RadTile_Telerik.rtileSelected.rtileHovered {
+    border-color: #518d33; }
+  .RadTile_Telerik.rtileLoading,
+  .RadTile_Telerik .rtileLoading {
+    background-image: url('../Telerik/Common/loading_small.gif'); }
+

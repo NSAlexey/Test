@@ -1,0 +1,29 @@
+.RecurrenceEditor_Simple {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RecurrenceEditor_Simple .rsAdvRecurrenceTitle {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RecurrenceEditor_Simple .rsTabbedOptionList {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+    .RecurrenceEditor_Simple .rsTabbedOptionList label:hover {
+      border-color: #ffc350;
+      color: #882501;
+      background-color: #ffe79c; }
+  .RecurrenceEditor_Simple .rsAdvRecurrenceSave {
+    border-color: #e69600;
+    color: #000000;
+    background-color: #ffcd33; }
+    .RecurrenceEditor_Simple .rsAdvRecurrenceSave:hover {
+      border-color: #ffc350;
+      color: #882501;
+      background-color: #ffe79c; }
+    .RecurrenceEditor_Simple .rsAdvRecurrenceSave:active {
+      border-color: #ca4900;
+      color: #882501;
+      background-color: #ffa517; }
+

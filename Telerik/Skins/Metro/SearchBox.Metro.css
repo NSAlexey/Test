@@ -1,0 +1,63 @@
+.RadSearchBox_Metro {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_Metro .rsbInner {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSearchBox_Metro .rsbInner.rsbHovered {
+      border-color: #cecece;
+      color: #333333;
+      background-color: #ffffff; }
+    .RadSearchBox_Metro .rsbInner.rsbFocused {
+      border-color: #25a0da;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadSearchBox_Metro .rsbButton:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSearchBox_Metro .rsbButton:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadSearchBox_Metro .rsbButtonSearch .rsbIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -2px -1882px; }
+  .RadSearchBox_Metro .rsbButtonSearch:active .rsbIcon {
+    background-position: -42px -1882px; }
+  .RadSearchBox_Metro .rsbSCInner {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSearchBox_Metro .rsbSCIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -2px -422px; }
+  .RadSearchBox_Metro .rsbSCHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSearchBox_Metro .rsbSCFocused {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadSearchBox_Metro .rsbLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+
+.rsbPopup_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rsbPopup_Metro .rsbListItemHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .rsbPopup_Metro .rsbListItemSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+  .rsbPopup_Metro .rsbListItemLoading {
+    color: #000000;
+    background-color: #e7e7e7; }
+

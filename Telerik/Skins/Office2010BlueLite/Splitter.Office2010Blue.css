@@ -1,0 +1,99 @@
+.RadSplitter_Office2010Blue {
+  border-color: #9babc2; }
+  .RadSplitter_Office2010Blue .rspPane,
+  .RadSplitter_Office2010Blue .rspPaneHorizontal {
+    border-color: #9babc2; }
+  .RadSplitter_Office2010Blue .rspSlidePane {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #ffffff; }
+  .RadSplitter_Office2010Blue .rspSlideHeader,
+  .RadSplitter_Office2010Blue .rspSlideTitleContainer {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .RadSplitter_Office2010Blue .rspSlideTitleContainer,
+  .RadSplitter_Office2010Blue .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #87a0c3; }
+  .RadSplitter_Office2010Blue .rspSlideHeaderDockIcon:hover,
+  .RadSplitter_Office2010Blue .rspSlideHeaderUndockIcon:hover,
+  .RadSplitter_Office2010Blue .rspSlideHeaderCollapseIcon:hover {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Blue .rspResizeBar,
+  .RadSplitter_Office2010Blue .rspSlideContainerResize {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(to left, #fafbfd, #bfcddf); }
+  .RadSplitter_Office2010Blue .rspResizeBarOver,
+  .RadSplitter_Office2010Blue .rspSlideContainerResizeOver {
+    background-image: linear-gradient(to left, #fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Blue .rspResizeBarHorizontal,
+  .RadSplitter_Office2010Blue .rspSlideContainerResizeHorizontal {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadSplitter_Office2010Blue .rspResizeBarOverHorizontal,
+  .RadSplitter_Office2010Blue .rspSlideContainerResizeOverHorizontal {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Blue .rspCollapseBarExpand,
+  .RadSplitter_Office2010Blue .rspCollapseBarCollapse {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(to right, #fafbfd, #bfcddf); }
+  .RadSplitter_Office2010Blue .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Office2010Blue .rspCollapseBarHorizontalCollapse {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadSplitter_Office2010Blue .rspCollapseBarExpandOver,
+  .RadSplitter_Office2010Blue .rspCollapseBarCollapseOver {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(to right, #fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Blue .rspCollapseBarHorizontalExpandOver,
+  .RadSplitter_Office2010Blue .rspCollapseBarHorizontalCollapseOver {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Blue .rspTabsContainer {
+    background-color: #dbe3ee; }
+  .RadSplitter_Office2010Blue .rspPaneTabContainer {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(to left, #fafbfd, #bfcddf); }
+  .RadSplitter_Office2010Blue .rspTop .rspPaneTabContainer,
+  .RadSplitter_Office2010Blue .rspBottom .rspPaneTabContainer {
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadSplitter_Office2010Blue .rspPaneTabContainer:hover {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(to left, #fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Blue .rspTop .rspPaneTabContainer:hover,
+  .RadSplitter_Office2010Blue .rspBottom .rspPaneTabContainer:hover {
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Blue .rspPaneTabContainerExpanded {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(to left, #ffe272, #ffd86b, #ffef7c); }
+  .RadSplitter_Office2010Blue .rspTop .rspPaneTabContainerExpanded,
+  .RadSplitter_Office2010Blue .rspBottom .rspPaneTabContainerExpanded {
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadSplitter_Office2010Blue .rspLoading {
+    background-image: url('../Office2010Blue/Common/loading_small.gif'); }
+

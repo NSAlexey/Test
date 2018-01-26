@@ -1,0 +1,58 @@
+/*global*/
+.RadListView_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b;
+  font: normal 13px Arial, Helvetica, sans-serif;
+  line-height: 22px; }
+  .RadListView_Glow .rlvI, .RadListView_Glow .rlvA {
+    background: #35434b; }
+  .RadListView_Glow .rlvISel {
+    background: #ffa915;
+    color: #000000; }
+  .RadListView_Glow .rlvBAdd,
+  .RadListView_Glow .rlvBUpdate, .RadListView_Glow .rlvBCancel, .RadListView_Glow .rlvBDel, .RadListView_Glow .rlvBEdit {
+    background-image: url('Common/radActionsSprite.png');
+    width: 28px;
+    height: 28px; }
+  .RadListView_Glow .rlvBAdd {
+    background-position: -111px -3011px; }
+  .RadListView_Glow .rlvBUpdate {
+    background-position: -11px -2611px; }
+  .RadListView_Glow .rlvBCancel {
+    background-position: -11px -2811px; }
+  .RadListView_Glow .rlvBSel {
+    background-image: url('FormDecorator/CheckBoxSprites.gif');
+    background-position: -2px -2px; }
+  .RadListView_Glow .rlvBDel {
+    background-position: -11px -3211px; }
+  .RadListView_Glow .rlvBEdit {
+    background-position: -11px -3111px; }
+  .RadListView_Glow .rlvDrag {
+    background-image: url('ListView/drag.gif');
+    background-position: center center; }
+  .RadListView_Glow div.rlvI, .RadListView_Glow div.rlvA, .RadListView_Glow div.rlvIEmpty, .RadListView_Glow div.rlvIEdit {
+    border-color: #1c2327; }
+  .RadListView_Glow div.rlvISel {
+    border-color: #1c2327; }
+  .RadListView_Glow tr.rlvHeader th {
+    border: 0;
+    border-bottom: 1px solid #1c2327;
+    border-left: 1px solid #1c2327;
+    background: #1c262c; }
+  .RadListView_Glow tr.rlvI td, .RadListView_Glow tr.rlvA td, .RadListView_Glow tr.rlvISel td, .RadListView_Glow tr.rlvIEmpty td, .RadListView_Glow tr.rlvIEdit td {
+    border: 1px solid #1c2327;
+    border-top: 0;
+    border-right: 0; }
+  .RadListView_Glow td.rlvI, .RadListView_Glow td.rlvA, .RadListView_Glow td.rlvISel, .RadListView_Glow td.rlvIEmpty, .RadListView_Glow td.rlvIEdit {
+    border: 0;
+    border-right: 1px solid #c3c3c3; }
+  .RadListView_Glow td.rlvISel {
+    border-color: #ca4b0c; }
+  .RadListView_Glow .rlvFloated .rlvI, .RadListView_Glow .rlvFloated .rlvA, .RadListView_Glow .rlvFloated .rlvISel, .RadListView_Glow .rlvFloated .rlvIEdit {
+    border-color: #999; }
+  .RadListView_Glow .rlvInput {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c; }
+

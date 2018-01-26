@@ -1,0 +1,90 @@
+.RadTreeList_Simple .rtlDrag,
+.RadTreeList_Simple .rtlDragClue,
+.RadTreeList_Simple .rtlActionButton {
+  color: #000000; }
+
+.rtlRightResizer_Simple:before,
+.RadTreeList_Simple .rtlCommand .rtlActionButton:hover,
+.RadTreeList_Simple .rtlCommand .rtlActionButton:focus,
+.RadTreeList_Simple .rtlCommand .rtlActionButton:active,
+.RadTreeList_Simple.RadTreeList_Drag .rtlColumnItem {
+  background: linear-gradient();
+  color: #882501; }
+
+.RadTreeList_Simple {
+  border-color: #cccccc;
+  background: #ffffff;
+  color: #333333; }
+  .RadTreeList_Simple .rtlCommand {
+    background-color: #c6c6c6; }
+  .RadTreeList_Simple .rtlHeader {
+    background-color: #eaeaea;
+    border-color: #cccccc; }
+  .RadTreeList_Simple .rtlHeader,
+  .RadTreeList_Simple .rtlHeader a {
+    color: #333333; }
+  .RadTreeList_Simple .rtlHeader th {
+    border-color: #cccccc; }
+  .RadTreeList_Simple .rtlScroller {
+    border-color: #cccccc; }
+  .RadTreeList_Simple .rtlRFooter {
+    background-color: #e4e4e4; }
+  .RadTreeList_Simple .rtlR td,
+  .RadTreeList_Simple .rtlA td,
+  .RadTreeList_Simple .rtlREdit td,
+  .RadTreeList_Simple .rtlRFooter td,
+  .RadTreeList_Simple .rtlEditForm {
+    border-color: #cccccc; }
+  .RadTreeList_Simple .rtlR a,
+  .RadTreeList_Simple .rtlA a,
+  .RadTreeList_Simple .rtlREdit a,
+  .RadTreeList_Simple .rtlEditForm a {
+    color: #882501; }
+  .RadTreeList_Simple .rtlRSel {
+    background-image: linear-gradient();
+    color: #000000; }
+  .RadTreeList_Simple .rtlL {
+    background-color: #688caf; }
+  .RadTreeList_Simple .rtlDelIcon {
+    color: #ff0000; }
+  .RadTreeList_Simple .rtlPagerCell {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+    .RadTreeList_Simple .rtlPagerCell .rtlNumPart a {
+      color: inherit; }
+      .RadTreeList_Simple .rtlPagerCell .rtlNumPart a:hover {
+        border-color: #ca8500;
+        color: #882501;
+        background-color: #ffe79c; }
+      .RadTreeList_Simple .rtlPagerCell .rtlNumPart a.rtlCurrentPage {
+        border-color: #882501;
+        color: #882501;
+        background: none; }
+    .RadTreeList_Simple .rtlPagerCell .rtlPagerButton,
+    .RadTreeList_Simple .rtlPagerCell .rtlActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-color: #7c7c7c;
+      color: #000000;
+      background-color: #e2e2e2; }
+      .RadTreeList_Simple .rtlPagerCell .rtlPagerButton:hover,
+      .RadTreeList_Simple .rtlPagerCell .rtlActionButton:hover {
+        border-color: #ca8500;
+        color: #882501;
+        background-color: #ffe79c; }
+  .RadTreeList_Simple .rtlDrag:before {
+    border-right: 1px solid #cccccc; }
+  .RadTreeList_Simple .rtlMobileMenu {
+    background: #ffffff; }
+  .RadTreeList_Simple .rtlColumnItem {
+    background-image: linear-gradient();
+    border-color: #7c7c7c; }
+  .RadTreeList_Simple .rtlValue {
+    border: 1px solid #cccccc;
+    color: #333333; }
+
+.rtlLeftResizer_Simple,
+.rtlRightResizer_Simple {
+  background-color: #882501; }
+

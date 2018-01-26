@@ -1,0 +1,22 @@
+.RadTreeView_Vista {
+  color: #333333; }
+  .RadTreeView_Vista .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Vista .rtChkTristate:hover {
+    color: #3c7fb1; }
+  .RadTreeView_Vista .rtLoadingIcon {
+    background-image: url('../Vista/Common/loading_small.gif'); }
+  .RadTreeView_Vista .rtPlusHover,
+  .RadTreeView_Vista .rtMinusHover {
+    color: #3c7fb1; }
+  .RadTreeView_Vista .rtHover .rtIn {
+    border-color: #9dd9f8;
+    color: #000000;
+    background-color: #d6effc;
+    background-image: linear-gradient(#f1f8fd, #d6effc); }
+  .RadTreeView_Vista .rtSelected .rtIn {
+    border-color: #92d0f1;
+    color: #000000;
+    background-color: #a9daf4;
+    background-image: linear-gradient(#e3f4fc, #a9daf4); }
+

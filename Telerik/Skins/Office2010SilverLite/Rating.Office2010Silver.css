@@ -1,0 +1,23 @@
+.RadRating_Office2010Silver a:before {
+  color: #9f9f9f; }
+
+.RadRating_Office2010Silver .rrtOver span,
+.RadRating_Office2010Silver a:hover .rrtPartComplement,
+.RadRating_Office2010Silver .rrtVertical .rrtSelected.rrtOver a,
+.RadRating_Office2010Silver .rrtSelected .rrtPartSelected,
+.RadRating_Office2010Silver .rrtSelected.rrtOver a {
+  color: #9f9f9f; }
+
+.RadRating_Office2010Silver .rrtSelected span {
+  color: #e29f00; }
+
+.RadRating_Office2010Silver .rrtSelected .rrtPart,
+.RadRating_Office2010Silver .rrtSelected.rrtOver span {
+  color: #7c5700; }
+
+.RadRating_Office2010Silver .rrtReversed .rrtPart:before {
+  color: #9f9f9f; }
+
+.RadRating_Office2010Silver .rrtReversed .rrtSelected .rrtPartComplement:before {
+  color: #7c5700; }
+

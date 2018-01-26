@@ -1,0 +1,263 @@
+.RadSpreadsheet_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadSpreadsheet_Telerik .rssToolbarWrapper {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+  .RadSpreadsheet_Telerik .rssTabstrip .rtsLevel1 {
+    border-color: #989898; }
+  .RadSpreadsheet_Telerik .rssTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+    border-color: #989898;
+    color: #000000;
+    background-color: #eeeeee; }
+  .RadSpreadsheet_Telerik .rssFormulaBar {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Telerik .k-syntax-startexp {
+    font-weight: bold; }
+  .RadSpreadsheet_Telerik .k-syntax-func {
+    font-weight: bold; }
+  .RadSpreadsheet_Telerik .k-syntax-paren-match {
+    background-color: #caf200; }
+  .RadSpreadsheet_Telerik .k-syntax-bool {
+    color: #a9169c; }
+  .RadSpreadsheet_Telerik .k-syntax-num {
+    color: #0099ff; }
+  .RadSpreadsheet_Telerik .k-syntax-str {
+    color: #38b714; }
+  .RadSpreadsheet_Telerik .k-syntax-ref {
+    color: #ff8822; }
+  .RadSpreadsheet_Telerik .k-syntax-error {
+    color: red; }
+  .RadSpreadsheet_Telerik .rssSheetsbar {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+    .RadSpreadsheet_Telerik .rssSheetsbar .t-spreadsheet-sheets-bar-add:hover {
+      border-color: #47ba22;
+      color: #000000;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+      box-shadow: none; }
+  .RadSpreadsheet_Telerik .rssPane {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Telerik .rssTopCorner {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea; }
+  .RadSpreadsheet_Telerik .rssRowHeader,
+  .RadSpreadsheet_Telerik .rssColumnHeader {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea; }
+  .RadSpreadsheet_Telerik .rssRowHeader > div:hover,
+  .RadSpreadsheet_Telerik .rssColumnHeader > div:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b; }
+  .RadSpreadsheet_Telerik .rssRowHeader .k-selection-partial,
+  .RadSpreadsheet_Telerik .rssColumnHeader .k-selection-partial {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39; }
+    .RadSpreadsheet_Telerik .rssRowHeader .k-selection-partial:before,
+    .RadSpreadsheet_Telerik .rssColumnHeader .k-selection-partial:before {
+      border-color: #66b340; }
+  .RadSpreadsheet_Telerik .rssSelection {
+    border-color: #66b340;
+    background-color: rgba(102, 179, 64, 0.2);
+    box-shadow: 0 0 0 1px #66b340; }
+    .RadSpreadsheet_Telerik .rssSelection:after {
+      border-color: #ffffff;
+      background-color: #66b340; }
+  .RadSpreadsheet_Telerik .rssActiveCell {
+    border-color: #66b340;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Telerik .k-auto-fill {
+    border-color: #66b340;
+    box-shadow: inset 0 0 0 1px #66b340; }
+  .RadSpreadsheet_Telerik .rssCellEditor {
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Telerik .k-spreadsheet-editor-button {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+    .RadSpreadsheet_Telerik .k-spreadsheet-editor-button:hover {
+      border-color: #47ba22;
+      color: #000000;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+      box-shadow: none; }
+  .RadSpreadsheet_Telerik .k-spreadsheet-merged-cell {
+    background-color: #ffffff; }
+  .RadSpreadsheet_Telerik .k-resize-handle,
+  .RadSpreadsheet_Telerik .k-resize-hint-handle,
+  .RadSpreadsheet_Telerik .k-resize-hint-marker {
+    background-color: #b6b6b6; }
+  .RadSpreadsheet_Telerik .k-filter-range {
+    border-color: #b6b6b6; }
+  .RadSpreadsheet_Telerik .k-spreadsheet-filter {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #cccccc; }
+  .RadSpreadsheet_Telerik .k-spreadsheet-filter:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none;
+    box-shadow: inset 0 0 0 1px #47ba22; }
+
+.rssSkin .t-button,
+.rssSkin .rssButton {
+  border-color: #cccccc;
+  color: #000000;
+  background-color: #eeeeee;
+  background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  border-radius: 3px; }
+
+.rssSkin .t-button:hover,
+.rssSkin .t-button.t-state-hover,
+.rssSkin .rssButton.rssHovered {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+  box-shadow: none; }
+
+.rssSkin .rssButton.rssPrimary {
+  border-color: #91e675;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.3)); }
+
+.rssSkin .rssButton.rssPrimary.rssHovered {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+  box-shadow: none; }
+
+.rssSkin .t-tabstrip .t-state-hover {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #a2ea8b);
+  border-top-color: #cccccc; }
+
+.rssSkin .t-tabstrip .t-state-active {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: none; }
+
+.rssSkin .t-tabstrip-bottom > .t-tabstrip-items .t-item {
+  margin-right: 0;
+  border-radius: 0; }
+
+.rssSkin .t-spreadsheet-sheets-remove.t-state-hover {
+  color: #d51923; }
+
+.rssSkin .rssInput {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.rssSkin .rssMenu .rssLink {
+  border-radius: 3px; }
+
+.rssSkin .rssMenu .rssHovered > .rssLink {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+
+.rssSkin .rssMenu .rssSelected > .rssLink {
+  border-color: #4d862c;
+  color: #000000;
+  background-color: #63ac39;
+  background-image: linear-gradient(#95cf65, #63ac39); }
+
+.rssSkin .rssCollapsibleList .rssLink {
+  border-radius: 3px; }
+
+.rssSkin .rssCollapsibleList .rssHovered > .rssLink {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+
+.rssSkin .rssCollapsibleList .rssExpanded > .rssLink {
+  border-color: transparent;
+  color: inherit;
+  background: none; }
+
+.rssPopup {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #cccccc; }
+  .rssPopup .rssFilterMenu:before {
+    border-color: white;
+    background: white; }
+  .rssPopup .rssSeparator {
+    border-color: #e6e6e6 white white #e6e6e6; }
+
+.rssWindow {
+  border-color: #d1d1d1;
+  color: #000000;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #d1d1d1; }
+  .rssWindow .rssWindowTitlebar {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea);
+    border-radius: 5px 5px 0 0; }
+  .rssWindow .rssWindowAction {
+    border-color: transparent; }
+  .rssWindow .rssWindowAction:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none;
+    border-radius: 3px; }
+  .rssWindow .rssWindowContent {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .rssWindow .rssWindowTabstrip {
+    background-color: #ededed; }
+    .rssWindow .rssWindowTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+      color: #333333;
+      background: #ffffff; }
+  .rssWindow hr {
+    border-color: #cccccc; }
+
+.rssFormulaList {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .rssFormulaList .k-item.k-state-hover {
+    color: #000000;
+    background-color: #a2ea8b; }
+  .rssFormulaList .k-item.k-state-focused {
+    color: #000000;
+    background-color: #63ac39; }
+

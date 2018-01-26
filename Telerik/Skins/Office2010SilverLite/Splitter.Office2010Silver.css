@@ -1,0 +1,99 @@
+.RadSplitter_Office2010Silver {
+  border-color: #a4abb2; }
+  .RadSplitter_Office2010Silver .rspPane,
+  .RadSplitter_Office2010Silver .rspPaneHorizontal {
+    border-color: #a4abb2; }
+  .RadSplitter_Office2010Silver .rspSlidePane {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Office2010Silver .rspSlideHeader,
+  .RadSplitter_Office2010Silver .rspSlideTitleContainer {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #edeff2;
+    background-image: linear-gradient(#ffffff, #edeff2); }
+  .RadSplitter_Office2010Silver .rspSlideTitleContainer,
+  .RadSplitter_Office2010Silver .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #a4abb2; }
+  .RadSplitter_Office2010Silver .rspSlideHeaderDockIcon:hover,
+  .RadSplitter_Office2010Silver .rspSlideHeaderUndockIcon:hover,
+  .RadSplitter_Office2010Silver .rspSlideHeaderCollapseIcon:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Silver .rspResizeBar,
+  .RadSplitter_Office2010Silver .rspSlideContainerResize {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(to left, #f1f2f3, #dbdde1); }
+  .RadSplitter_Office2010Silver .rspResizeBarOver,
+  .RadSplitter_Office2010Silver .rspSlideContainerResizeOver {
+    background-image: linear-gradient(to left, #fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Silver .rspResizeBarHorizontal,
+  .RadSplitter_Office2010Silver .rspSlideContainerResizeHorizontal {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadSplitter_Office2010Silver .rspResizeBarOverHorizontal,
+  .RadSplitter_Office2010Silver .rspSlideContainerResizeOverHorizontal {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Silver .rspCollapseBarExpand,
+  .RadSplitter_Office2010Silver .rspCollapseBarCollapse {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(to right, #f1f2f3, #dbdde1); }
+  .RadSplitter_Office2010Silver .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Office2010Silver .rspCollapseBarHorizontalCollapse {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadSplitter_Office2010Silver .rspCollapseBarExpandOver,
+  .RadSplitter_Office2010Silver .rspCollapseBarCollapseOver {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(to right, #fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Silver .rspCollapseBarHorizontalExpandOver,
+  .RadSplitter_Office2010Silver .rspCollapseBarHorizontalCollapseOver {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Silver .rspTabsContainer {
+    background-color: #e2e5e9; }
+  .RadSplitter_Office2010Silver .rspPaneTabContainer {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(to left, #f1f2f3, #dbdde1); }
+  .RadSplitter_Office2010Silver .rspTop .rspPaneTabContainer,
+  .RadSplitter_Office2010Silver .rspBottom .rspPaneTabContainer {
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadSplitter_Office2010Silver .rspPaneTabContainer:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(to left, #fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Silver .rspTop .rspPaneTabContainer:hover,
+  .RadSplitter_Office2010Silver .rspBottom .rspPaneTabContainer:hover {
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSplitter_Office2010Silver .rspPaneTabContainerExpanded {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(to left, #ffe272, #ffd86b, #ffef7c); }
+  .RadSplitter_Office2010Silver .rspTop .rspPaneTabContainerExpanded,
+  .RadSplitter_Office2010Silver .rspBottom .rspPaneTabContainerExpanded {
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadSplitter_Office2010Silver .rspLoading {
+    background-image: url('../Office2010Silver/Common/loading_small.gif'); }
+

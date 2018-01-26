@@ -1,0 +1,330 @@
+.RadGrid_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+  .RadGrid_Windows7 .rgInput,
+  .RadGrid_Windows7 .rgEditRow > td > [type="text"],
+  .RadGrid_Windows7 .rgEditForm td > [type="text"],
+  .RadGrid_Windows7 .rgBatchContainer > [type="text"],
+  .RadGrid_Windows7 .rgFilterBox {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #ffffff; }
+    .RadGrid_Windows7 .rgInput:hover,
+    .RadGrid_Windows7 .rgEditRow > td > [type="text"]:hover,
+    .RadGrid_Windows7 .rgEditForm td > [type="text"]:hover,
+    .RadGrid_Windows7 .rgBatchContainer > [type="text"]:hover,
+    .RadGrid_Windows7 .rgFilterBox:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #ffffff; }
+    .RadGrid_Windows7 .rgInput:focus,
+    .RadGrid_Windows7 .rgEditRow > td > [type="text"]:focus,
+    .RadGrid_Windows7 .rgEditForm td > [type="text"]:focus,
+    .RadGrid_Windows7 .rgBatchContainer > [type="text"]:focus,
+    .RadGrid_Windows7 .rgFilterBox:focus {
+      border-color: #9cc8ff;
+      color: #1e395b;
+      background-color: #ffffff; }
+  .RadGrid_Windows7 .rgActionButton {
+    color: #1e395b; }
+  .RadGrid_Windows7 .rgHeader:first-child, .RadGrid_Windows7 th.rgResizeCol:first-child, .RadGrid_Windows7 .rgFilterRow > td:first-child, .RadGrid_Windows7 .rgRow > td:first-child, .RadGrid_Windows7 .rgAltRow > td:first-child {
+    border-left-width: 0; }
+  .RadGrid_Windows7 .rgHeaderDiv {
+    background: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadGrid_Windows7 .rgHeaderDiv {
+    border-right-color: #aabfd6; }
+  .RadGrid_Windows7 .rgHeader, .RadGrid_Windows7 th.rgResizeCol, .RadGrid_Windows7 .rgHeaderWrapper {
+    border: 1px solid;
+    border-color: #f6f9fb #fff #c2cedb #e1eaf3;
+    border-top-width: 0;
+    background: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadGrid_Windows7 .rgMultiHeaderRow th.rgHeader, .RadGrid_Windows7 .rgMultiHeaderRow th.rgResizeCol {
+    border: 1px solid;
+    border-color: #f6f9fb #fff #c2cedb #e1eaf3;
+    border-top-width: 0; }
+  .RadGrid_Windows7 th.rgSorted {
+    background: linear-gradient(#c9d4e4, #d8e4f1 50%, #cfdbec 50%, #cfdced); }
+  .RadGrid_Windows7 .rgHeader {
+    color: #4c607a; }
+    .RadGrid_Windows7 .rgHeader a {
+      color: #4c607a; }
+  .RadGrid_Windows7 .rgRow > td,
+  .RadGrid_Windows7 .rgAltRow > td,
+  .RadGrid_Windows7 .rgEditRow > td,
+  .RadGrid_Windows7 .rgFooter > td {
+    border-style: solid;
+    border-width: 0 1px 1px; }
+  .RadGrid_Windows7 .rgRow {
+    background-color: #ebeff3; }
+  .RadGrid_Windows7 .rgRow > td,
+  .RadGrid_Windows7 .rgAltRow > td {
+    border-color: transparent; }
+  .RadGrid_Windows7 .rgRow .rgSorted,
+  .RadGrid_Windows7 .rgAltRow .rgSorted {
+    background-color: #e5ecf5;
+    border-color: #e5ecf5; }
+  .RadGrid_Windows7 .rgActiveRow td:not(.rgExpandCol) {
+    box-shadow: inset 0px 5px 5px -5px #8eb0da, inset 0px -5px 5px -5px #8eb0da; }
+  .RadGrid_Windows7 .rgActiveRow td:first-child:not(.rgExpandCol),
+  .RadGrid_Windows7 .rgActiveRow .rgExpandCol + td {
+    box-shadow: inset 0px 5px 5px -5px #8eb0da, inset 0px -5px 5px -5px #8eb0da, inset 5px 0px 5px -5px #8eb0da; }
+  .RadGrid_Windows7 .rgActiveRow td:not(.rgExpandCol):last-child {
+    box-shadow: inset 0px 5px 5px -5px #8eb0da, inset 0px -5px 5px -5px #8eb0da, inset -5px 0px 5px -5px #8eb0da; }
+  .RadGrid_Windows7 .rgActiveCell {
+    box-shadow: inset 0 0 5px #8eb0da; }
+  .RadGrid_Windows7 .rgSelectedRow .rgSorted,
+  .RadGrid_Windows7 .rgHoveredRow .rgSorted,
+  .RadGrid_Windows7 .rgEditRow .rgSorted {
+    background-color: transparent; }
+  .RadGrid_Windows7 .rgRow a,
+  .RadGrid_Windows7 .rgAltRow a,
+  .RadGrid_Windows7 .rgEditRow a,
+  .RadGrid_Windows7 .rgFooter a,
+  .RadGrid_Windows7 .rgEditForm a {
+    color: #4c93cc; }
+  .RadGrid_Windows7 .rgMasterTable .rgSelectedCell,
+  .RadGrid_Windows7 .rgSelectedRow {
+    border-color: #8eb0da;
+    color: #1e395b;
+    background-color: #c2dcfc;
+    background-image: linear-gradient(#daeafc, #c2dcfc);
+    box-shadow: 0 1px 0 0 #8eb0da inset; }
+  .RadGrid_Windows7 .rgSelectedRow > td,
+  .RadGrid_Windows7 .rgSelectedRow .rgSorted {
+    border-bottom-color: #8eb0da; }
+  .RadGrid_Windows7 .rgHoveredRow {
+    border-color: #bfd8f8;
+    color: #1e395b;
+    background-color: #edf4fd;
+    background-image: linear-gradient(#f9fbfd, #edf4fd);
+    box-shadow: 0 1px 0 0 #bfd8f8 inset; }
+    .RadGrid_Windows7 .rgHoveredRow > td,
+    .RadGrid_Windows7 .rgHoveredRow .rgSorted {
+      border-bottom-color: #a8d8eb;
+      border-bottom-color: #bfd8f8; }
+  .RadGrid_Windows7 .rgEditRow {
+    background: #e6f0fd 0 -4900px repeat-x url('../Windows7/Grid/sprite.png'); }
+  .RadGrid_Windows7 .rgEditRow > td, .RadGrid_Windows7 .rgEditRow .rgSorted {
+    border-bottom-color: #8daed5; }
+  .RadGrid_Windows7 .rgEditRow {
+    background-color: rgba(170, 191, 214, 0.75);
+    color: #1e395b; }
+  .RadGrid_Windows7 .rgDeletedRow > td {
+    border-bottom-color: #7698bd;
+    color: #1e395b; }
+    .RadGrid_Windows7 .rgDeletedRow > td a {
+      color: #1e395b; }
+  .RadGrid_Windows7 .rgBatchOverlay {
+    background: rgba(170, 191, 214, 0.75); }
+  .RadGrid_Windows7 .rgBatchUndoDeleteButton {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+    .RadGrid_Windows7 .rgBatchUndoDeleteButton:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadGrid_Windows7 .rgDrag {
+    background-image: url('../Windows7/Grid/rgDrag.gif'); }
+  html .RadGrid_Windows7 .rgFooterDiv td,
+  html .RadGrid_Windows7 .rgFooter td,
+  .RadGrid_Windows7 .rgFooterWrapper {
+    background: #f1f5fb; }
+  .RadGrid_Windows7 .rgFooter > td,
+  .RadGrid_Windows7 .rgFooterWrapper {
+    border-top-width: 1px;
+    border-color: #e2eaf4; }
+  .RadGrid_Windows7 .rgStatus {
+    border-color: #c2cedb; }
+  .RadGrid_Windows7 .rgStatus div {
+    background-image: url('../Windows7/Common/loading_small.gif'); }
+  .RadGrid_Windows7 .rgPagerCell {
+    border-color: #aabfd6;
+    color: #4c607a;
+    background-color: #f1f5fb; }
+    .RadGrid_Windows7 .rgPagerCell .rgNumPart a {
+      border-radius: 2px;
+      color: inherit; }
+      .RadGrid_Windows7 .rgPagerCell .rgNumPart a:hover {
+        border-color: #b5cdeb;
+        color: #1e395b;
+        background-color: #e7ecf5;
+        background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+        box-shadow: inset 0 0 0 1px #f9f9fc; }
+      .RadGrid_Windows7 .rgPagerCell .rgNumPart a.rgCurrentPage {
+        border-color: #4c93cc;
+        color: #4c93cc;
+        background: none; }
+    .RadGrid_Windows7 .rgPagerCell .rgPagerButton,
+    .RadGrid_Windows7 .rgPagerCell .rgActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 2px;
+      border-color: #c3cedd;
+      color: #1e395b;
+      background-color: #dde8f6;
+      background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+      box-shadow: inset 0 0 0 1px #f5f8fa; }
+      .RadGrid_Windows7 .rgPagerCell .rgPagerButton:hover,
+      .RadGrid_Windows7 .rgPagerCell .rgActionButton:hover {
+        border-color: #b5cdeb;
+        color: #1e395b;
+        background-color: #e7ecf5;
+        background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+        box-shadow: inset 0 0 0 1px #f9f9fc; }
+
+.GridReorderTop_Windows7,
+.GridReorderBottom_Windows7 {
+  color: #033ca1; }
+
+.RadGrid_Windows7 .rgFilterRow {
+  background: #f1f5fb; }
+  .RadGrid_Windows7 .rgFilterRow > td {
+    border-left: 1px solid #f1f5fb;
+    border-right: 1px solid #f1f5fb; }
+
+.RadGrid_Windows7 .rgFilter {
+  border: 1px solid;
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadGrid_Windows7 .rgFilter:hover, .RadGrid_Windows7 .rgFilter:focus {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+
+.RadGrid_Windows7 .rgFilterActive, .RadGrid_Windows7 .rgFilterActive:hover, .RadGrid_Windows7 .rgFilterActive:focus {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #9cc8ff;
+  box-shadow: inset 0 0 6px rgba(165, 165, 165, 0.5); }
+
+.RadGrid_Windows7 .rgFiltered {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #9cc8ff;
+  background-image: linear-gradient(#e3effb, #d9e9fc 50%, #d0e1f7 50%, #d0e3f9);
+  box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadGrid_Windows7 .rgFiltered:hover, .RadGrid_Windows7 .rgFiltered:focus {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadGrid_Windows7 .rgFiltered.rgFilterActive {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+
+.RadGrid_Windows7 .rgFilterBox {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadGrid_Windows7 .rgOptions {
+  color: #4c607a; }
+
+.RadGrid_Windows7 .rgOptSelected {
+  color: #4c93cc; }
+
+.RadMenu_Windows7 .rgHCMClear, .RadMenu_Windows7 .rgHCMFilter {
+  border-color: #c2cedb;
+  background: #dde8f6 center -23px repeat-x url('../Windows7/FormDecorator/ButtonSprites.gif');
+  color: #1e395b; }
+
+.RadMenu_Windows7 .rgHCMClear:hover, .RadMenu_Windows7 .rgHCMFilter:hover {
+  border-color: #c2dbfb;
+  background-position: center -67px;
+  background-color: #e7edf5; }
+
+.RadMenu_Windows7_Context .rgFilterApply,
+.RadMenu_Windows7_Context .rgFilterCancel {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa; }
+
+div.RadMenu_Windows7_Context .rlbGroup {
+  border-color: #bacce3; }
+
+.RadGrid_Windows7 .rgGroupPanel {
+  border: 1px solid;
+  border-color: #f2f5fa #f6f9fb #f6f9fb;
+  background: #eef3f8 0 -1900px repeat-x url('../Windows7/Grid/sprite.png'); }
+  .RadGrid_Windows7 .rgGroupPanel td {
+    border: 0;
+    padding: 0; }
+    .RadGrid_Windows7 .rgGroupPanel td td {
+      padding: 2px 3px 1px; }
+      .RadGrid_Windows7 .rgGroupPanel td td td {
+        padding: 0; }
+
+.RadGrid_Windows7 .rgGroupItem {
+  border: 1px solid #9bc9ff;
+  background: #dde8f6 0 -7000px repeat-x url('../Windows7/Grid/sprite.png'); }
+
+.RadGrid_Windows7 .rgGroupHeader {
+  background: 0 -6489px repeat-x url('../Windows7/Grid/sprite.png');
+  font-size: 1.1em;
+  line-height: 21px;
+  color: #1e3287; }
+  .RadGrid_Windows7 .rgGroupHeader > td {
+    padding: 0 8px; }
+
+.RadGrid_Windows7 .rgGroupHeader .rgExpand, .RadGrid_Windows7 .rgGroupHeader .rgCollapse {
+  background-color: #fcfcfc; }
+
+.RadGrid_Windows7 .rgGroupHeader > td p, .RadGrid_Windows7 .rgGroupHeader > td div div {
+  background: #fcfcfc; }
+
+.RadGrid_Windows7 .rgEditForm {
+  border-bottom: 1px solid #666; }
+
+.RadGrid_Windows7 .rgDetailTable {
+  border-color: #a5b3c5; }
+
+.RadGrid_Windows7 .rgCommandCell {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6); }
+  .RadGrid_Windows7 .rgCommandCell .t-button:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadGrid_Windows7 .rgCommandCell .t-button:focus, .RadGrid_Windows7 .rgCommandCell .t-button:active {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+
+.rgCellSelectorArea_Windows7,
+.GridRowSelector_Windows7 {
+  background: #039; }
+
+.GridItemDropIndicator_Windows7 {
+  border-top: 1px dashed #039; }
+
+.GridToolTip_Windows7 {
+  border: 1px solid #a0afc3;
+  padding: 3px;
+  background: #eef4fb;
+  color: #4c607a; }
+

@@ -1,0 +1,134 @@
+.RadCalendar_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadCalendar_Glow .rcTitlebar {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c);
+    text-transform: uppercase; }
+  .RadCalendar_Glow .t-button:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadCalendar_Glow .t-button:focus,
+  .RadCalendar_Glow .t-button:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .RadCalendar_Glow td {
+    border-color: transparent; }
+  .RadCalendar_Glow th {
+    color: white;
+    background-color: #1c262c; }
+  .RadCalendar_Glow .rcHeader,
+  .RadCalendar_Glow .rcFooter {
+    border-color: #182126; }
+  .RadCalendar_Glow .rcWeek th {
+    border-color: #182126;
+    color: #e2e8eb; }
+  .RadCalendar_Glow .rcWeek .rcViewSel {
+    background-color: #1c262c; }
+  .RadCalendar_Glow .rcToday a,
+  .RadCalendar_Glow .rcToday span {
+    border-color: #ffa915;
+    color: #ffa915; }
+  .RadCalendar_Glow .rcHover a,
+  .RadCalendar_Glow .rcHover span {
+    border-color: #4d5c65;
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .RadCalendar_Glow .rcSelected a,
+  .RadCalendar_Glow .rcSelected span {
+    border-color: #ffa915;
+    color: #000000;
+    background-color: #ffa915; }
+  .RadCalendar_Glow .rcFocus {
+    border-color: #ffa915;
+    box-shadow: inset 0 0 5px #ffa915; }
+
+.RadCalendarMultiView_Glow .rcTitlebar {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #2e3b43;
+  background-image: linear-gradient(#44525b, #2e3b43); }
+
+.RadCalendarMultiView_Glow .rcCalendar {
+  border-color: #1c2327; }
+
+.RadCalendarMultiView_Glow td.rcTitle {
+  border-color: #182126;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#303e46, #1c262c); }
+
+.RadCalendarMonthView_Glow {
+  border-color: #20282d;
+  color: #e2e8eb;
+  background-color: #242e33; }
+  .RadCalendarMonthView_Glow a:hover {
+    border-color: #4d5c65;
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .RadCalendarMonthView_Glow .rcSelected a {
+    border-color: #ffa915;
+    color: #000000;
+    background-color: #ffa915; }
+  .RadCalendarMonthView_Glow .rcButtons a {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .RadCalendarMonthView_Glow .rcButtons a:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadCalendarMonthView_Glow .rcButtons a:focus,
+  .RadCalendarMonthView_Glow .rcButtons a:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+
+.RadCalendarTimeView_Glow {
+  border-color: #20282d;
+  color: #e2e8eb;
+  background-color: #242e33; }
+  .RadCalendarTimeView_Glow th {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .RadCalendarTimeView_Glow td {
+    border-color: #20282d; }
+  .RadCalendarTimeView_Glow .rcSelected a {
+    border-color: #ffa915;
+    color: #000000;
+    background-color: #ffa915; }
+  .RadCalendarTimeView_Glow .rcHover a {
+    border-color: #4d5c65;
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .RadCalendarTimeView_Glow .rcFooter {
+    border-color: #20282d; }
+
+.RadPicker_Glow .riLabel {
+  color: #e2e8eb; }
+
+.RadPicker_Glow.rcCalPopupOpen .RadInput, .RadPicker_Glow.rcMYPopupOpen .RadInput, .RadPicker_Glow.rcTimePopupOpen .RadInput {
+  border-color: #cd8100;
+  color: #fff;
+  background-color: #1c262c; }
+
+.RadPicker_Glow.rcCalPopupOpen .rcCalPopup,
+.RadPicker_Glow.rcMYPopupOpen .rcCalPopup,
+.RadPicker_Glow.rcTimePopupOpen .rcTimePopup {
+  border-color: #cd8100;
+  color: #733700;
+  background-color: #ffa915;
+  background-image: none; }
+

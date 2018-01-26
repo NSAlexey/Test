@@ -1,0 +1,34 @@
+.RadFileExplorer_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadFileExplorer_Glow .rfeFilterTxt,
+  .RadFileExplorer_Glow .rfeAddressBox {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadFileExplorer_Glow .rfeLink:hover {
+    border-color: #4d5c65;
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .RadFileExplorer_Glow .rfeSelectedLink,
+  .RadFileExplorer_Glow .rfeSelectedLink:hover {
+    border-color: #ffa915;
+    color: #000000;
+    background-color: #ffa915; }
+  .RadFileExplorer_Glow .rfeDropZone,
+  .RadFileExplorer_Glow .rfeFilterContainer,
+  .RadFileExplorer_Glow .rfePageControlContainer {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+  .RadFileExplorer_Glow .rfeDropUploadInfoPanel {
+    border-color: #1c2327;
+    color: #e2e8eb;
+    background-color: #35434b; }
+
+.RadWindow_Glow .rfeUploadInfoPanel {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c; }
+

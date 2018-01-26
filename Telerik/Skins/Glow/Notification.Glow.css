@@ -1,0 +1,31 @@
+.RadNotification_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif; }
+  .RadNotification_Glow .rnTitleBar {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c262c', endColorstr='#1c262c',GradientType=0 );
+    border-bottom-color: inherit;
+    line-height: 1.5; }
+  .RadNotification_Glow .rnTitleBarTitle {
+    width: 65%; }
+  .RadNotification_Glow .rnCommands a {
+    width: 20px;
+    height: 20px;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadNotification_Glow .rnCommands .rnMenuIcon a {
+    background-position: -15px -65px; }
+  .RadNotification_Glow .rnCommands .rnMenuIcon a:hover {
+    background-position: -65px -65px; }
+  .RadNotification_Glow .rnCommands .rnCloseIcon a {
+    background-position: -15px -1915px; }
+  .RadNotification_Glow .rnCommands .rnCloseIcon a:hover {
+    background-position: -65px -1915px; }
+  .RadNotification_Glow.rnShadows {
+    box-shadow: 2px 2px 3px #1c2327; }
+

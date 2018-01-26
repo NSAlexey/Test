@@ -1,0 +1,8 @@
+.RadAjax_Glow .raDiv {
+  background-image: url('Common/loading.gif'); }
+
+.RadAjax_Glow .raColor {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+

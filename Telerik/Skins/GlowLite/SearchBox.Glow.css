@@ -1,0 +1,75 @@
+.RadSearchBox_Glow .rsbInner {
+  border-color: #35434b;
+  color: #fff;
+  background-color: #1c262c; }
+  .RadSearchBox_Glow .rsbInner.rsbHovered {
+    border-color: #cd8100;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadSearchBox_Glow .rsbInner.rsbFocused {
+    border-color: #cd8100;
+    color: #fff;
+    background-color: #1c262c; }
+
+.RadSearchBox_Glow .rsbButtonSearch {
+  color: #fff; }
+
+.RadSearchBox_Glow .rsbSCInner {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#30414b, #1c262c);
+  line-height: inherit; }
+
+.RadSearchBox_Glow .rsbLoadingIcon {
+  background-image: url('../Glow/Common/loading_small.gif'); }
+
+.RadSearchBox_Glow .rsbHovered.rsbInner {
+  border-color: #cd8100;
+  color: #fff;
+  background-color: #1c262c; }
+
+.RadSearchBox_Glow .rsbHovered .rsbSCInner {
+  border-color: #cd8100; }
+
+.RadSearchBox_Glow .rsbHovered.rsbSCInner, .RadSearchBox_Glow .rsbHovered.rsbButton {
+  border-color: #cd8100;
+  color: #733700;
+  background-color: #cd8100;
+  background-image: linear-gradient(#ffa201, #cd8100); }
+
+.RadSearchBox_Glow .rsbFocused.rsbInner {
+  border-color: #cd8100;
+  color: #fff;
+  background-color: #1c262c; }
+
+.RadSearchBox_Glow .rsbFocused .rsbSCInner,
+.RadSearchBox_Glow .rsbFocused .rsbHovered.rsbButton {
+  border-color: #cd8100; }
+
+.RadSearchBox_Glow .rsbFocused.rsbSCInner, .RadSearchBox_Glow .rsbFocused.rsbButton {
+  border-color: #cd8100;
+  color: #733700;
+  background-color: #ffa915;
+  background-image: none; }
+
+.RadSearchBox_Glow .rsbSelected.rsbButton {
+  border-color: #cd8100;
+  color: #733700;
+  background-color: #ffa915;
+  background-image: none; }
+
+.rsbPopup_Glow {
+  border-color: #20282d;
+  color: #e2e8eb;
+  background-color: #242e33; }
+  .rsbPopup_Glow .rsbListItemHovered {
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .rsbPopup_Glow .rsbListItemSelected {
+    color: #000000;
+    background-color: #ffa915; }
+  .rsbPopup_Glow .rsbListItemLoading {
+    color: #ffffff;
+    background-color: #4d5c65; }
+

@@ -1,0 +1,31 @@
+.RadImageGallery_Silk {
+  color: #333333; }
+  .RadImageGallery_Silk .rigDotList > a {
+    background: #ffffff;
+    border-color: #d9d9d9; }
+  .RadImageGallery_Silk .rigDotList .rigCurrentItem {
+    color: #14afca; }
+  .RadImageGallery_Silk .rigToolbar {
+    color: #5f5f5f;
+    background-color: rgba(227, 227, 227, 0.8); }
+  .RadImageGallery_Silk .rigCloseButton,
+  .RadImageGallery_Silk .rigDrawerButton {
+    color: #5f5f5f;
+    background-color: rgba(227, 227, 227, 0.8); }
+  .RadImageGallery_Silk .rigProgressBar div {
+    background-color: #14afca; }
+  .RadImageGallery_Silk .rigPager {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3; }
+    .RadImageGallery_Silk .rigPager a.rigCurrentPage {
+      border-color: #14afca;
+      color: #14afca; }
+  .RadImageGallery_Silk .rigTooltip {
+    background-color: #ffffff;
+    border-color: #d9d9d9; }
+    .RadImageGallery_Silk .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Silk .rigToolbar .rigActionButton:hover {
+    color: #14afca; }
+

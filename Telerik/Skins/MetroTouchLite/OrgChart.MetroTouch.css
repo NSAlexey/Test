@@ -1,0 +1,60 @@
+.RadOrgChart_MetroTouch {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadOrgChart_MetroTouch .rocGroup {
+    background-color: rgba(249, 249, 249, 0.5); }
+  .RadOrgChart_MetroTouch .rocItem,
+  .RadOrgChart_MetroTouch .rocItemTemplate {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadOrgChart_MetroTouch .rocExpandArrow,
+  .RadOrgChart_MetroTouch .rocCollapseArrow,
+  .RadOrgChart_MetroTouch .rocExpandGroupArrow,
+  .RadOrgChart_MetroTouch .rocCollapseGroupArrow {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadOrgChart_MetroTouch .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_MetroTouch .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_MetroTouch .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_MetroTouch .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+  .RadOrgChart_MetroTouch .rocExpandArrow:hover,
+  .RadOrgChart_MetroTouch .rocCollapseArrow:hover,
+  .RadOrgChart_MetroTouch .rocExpandGroupArrow:hover,
+  .RadOrgChart_MetroTouch .rocCollapseGroupArrow:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadOrgChart_MetroTouch .rocExpandArrow:active,
+  .RadOrgChart_MetroTouch .rocCollapseArrow:active,
+  .RadOrgChart_MetroTouch .rocExpandGroupArrow:active,
+  .RadOrgChart_MetroTouch .rocCollapseGroupArrow:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+
+.RadOrgChart_MetroTouch.rocDetachedItem,
+.RadOrgChart_MetroTouch.rocDetachedNode {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.rocToolbar_MetroTouch {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+  .rocToolbar_MetroTouch .rocToolbarButton {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .rocToolbar_MetroTouch .rocToolbarButton:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .rocToolbar_MetroTouch .rocToolbarButton:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+

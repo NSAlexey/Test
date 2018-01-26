@@ -1,0 +1,98 @@
+.RadCloudUpload_Sunset {
+  color: #272722;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCloudUpload_Sunset .rcuButton {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #938973;
+    color: #3d1400;
+    background-color: #ded7c6;
+    background-image: linear-gradient(#f1eadf, #ded7c6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .RadCloudUpload_Sunset .rcuInfoPanel {
+    border-color: #d2c7b4;
+    color: #272522;
+    background-color: #f4eee6; }
+  .RadCloudUpload_Sunset .rcuHeader {
+    background-image: url('CloudUpload/rcuHeader.png');
+    border-color: #972f01;
+    color: #ffffff;
+    background-color: #bb3a01;
+    background-image: linear-gradient(#c85323, #bb3a01); }
+  .RadCloudUpload_Sunset .rcuFileList {
+    border-color: #938879;
+    color: #272722;
+    background-color: #ffffff; }
+  .RadCloudUpload_Sunset .rcuErrorNotification {
+    color: #b32d34; }
+  .RadCloudUpload_Sunset .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #8e8570;
+    background-image: linear-gradient(#c7c0b1, #ddd7c5); }
+  .RadCloudUpload_Sunset .rcuProgress {
+    height: 4px;
+    background-image: url('Upload/ruProgress.gif');
+    background-position: 0 -11px;
+    border: 1px solid #854903; }
+  .RadCloudUpload_Sunset .p-icon {
+    background-image: url('CloudUpload/rcuActionSprite.png'); }
+  .RadCloudUpload_Sunset .p-i-loading {
+    background-image: url('Common/loading_small.gif'); }
+  .RadCloudUpload_Sunset .rcuDropZone {
+    background-color: rgba(189, 179, 161, 0.8);
+    border-color: #938879; }
+  .RadCloudUpload_Sunset .rcuDropZoneText:before {
+    background-image: url('CloudUpload/rcuActionSprite.png'); }
+  .RadCloudUpload_Sunset .rcuButton:hover {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121;
+    background-image: linear-gradient(#faef93, #f1d121);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .RadCloudUpload_Sunset .rcuButton:active {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+
+.RadCloudUpload_Sunset .rcuDisabled .rcuButton {
+  box-shadow: none; }
+  .RadCloudUpload_Sunset .rcuDisabled .rcuButton .rcuIconCollapse {
+    background-position: -62px -2px; }
+  .RadCloudUpload_Sunset .rcuDisabled .rcuButton .rcuIconExpand {
+    background-position: -62px -22px; }
+
+.RadCloudUpload_Sunset .rcuDisabled .rcuRemoveButton .rcuIcon {
+  background-position: -62px -142px; }
+
+.RadCloudUpload_Sunset .rcuDisabled .rcuCancelButton .rcuIcon {
+  background-position: -62px -162px; }
+
+.RadCloudUpload_Sunset .rcuDisabled .rcuLIFailed .rcuFakeButton .rcuIcon {
+  background-position: -2px -102px; }
+
+.RadCloudUpload_Sunset .rcuDisabled .rcuLIFailed .rcuFakeButton .rcuIcon {
+  background-position: -62px -102px; }
+
+.RadCloudUpload_Sunset .rcuDisabled .rcuButtons .rcuButton {
+  background-image: none;
+  background-color: transparent; }
+  .RadCloudUpload_Sunset .rcuDisabled .rcuButtons .rcuButton .rcuButtonText {
+    text-decoration: none; }
+
+.rcuToolTip_Sunset {
+  padding: 4px 6px 5px;
+  background-color: #fff3a8;
+  border: 1px solid #bb903e;
+  color: #272722;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rcuToolTip_Sunset:before {
+    width: 9px;
+    height: 7px;
+    left: 31px;
+    top: 22px;
+    background-image: url('CloudUpload/toolTipBefore.png');
+    border-width: 0; }
+

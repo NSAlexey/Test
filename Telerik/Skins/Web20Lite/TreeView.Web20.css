@@ -1,0 +1,20 @@
+.RadTreeView_Web20 {
+  color: #333333; }
+  .RadTreeView_Web20 .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Web20 .rtChkTristate:hover {
+    color: #12398a; }
+  .RadTreeView_Web20 .rtLoadingIcon {
+    background-image: url('../Web20/Common/loading_small.gif'); }
+  .RadTreeView_Web20 .rtPlusHover,
+  .RadTreeView_Web20 .rtMinusHover {
+    color: #12398a; }
+  .RadTreeView_Web20 .rtHover .rtIn {
+    border-color: #b4d3ff;
+    color: #0f3789;
+    background-color: #e7f1ff; }
+  .RadTreeView_Web20 .rtSelected .rtIn {
+    border-color: #81c85a;
+    color: #0e4302;
+    background-color: #d4ffbc; }
+

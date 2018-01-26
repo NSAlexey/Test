@@ -1,0 +1,55 @@
+.RadDataForm_Glow {
+  font: normal 13px / 1.33 Arial, Helvetica, sans-serif;
+  color: white;
+  overflow: hidden; }
+  .RadDataForm_Glow .rdfLegend,
+  .RadDataForm_Glow .rdfBorders {
+    border-color: #656d72; }
+  .RadDataForm_Glow .rdfHr {
+    color: #35434b; }
+  .RadDataForm_Glow .rdfFieldHint {
+    color: rgba(226, 232, 235, 0.5); }
+  .RadDataForm_Glow .rdfLegend {
+    font-size: 1.17em; }
+  .RadDataForm_Glow .rdfFieldHint {
+    font-size: 0.83em;
+    line-height: .8;
+    padding: 0 0 0 .42em; }
+  .RadDataForm_Glow .rdfFieldHint.rdfBlock {
+    padding: .42em 0 0 0; }
+  .RadDataForm_Glow .rdfLabel.rdfBlock {
+    padding: 0 0 .17em 0; }
+  .RadDataForm_Glow .rdfPager {
+    margin-top: 1.25em; }
+    .RadDataForm_Glow .rdfPager .rdfFirst,
+    .RadDataForm_Glow .rdfPager .rdfPrev,
+    .RadDataForm_Glow .rdfPager .rdfNext,
+    .RadDataForm_Glow .rdfPager .rdfLast {
+      width: 32px;
+      height: 32px;
+      background: transparent no-repeat url('DataForm/sprite.png');
+      border: none; }
+    .RadDataForm_Glow .rdfPager .rdfFirst {
+      background-position: 0 0; }
+      .RadDataForm_Glow .rdfPager .rdfFirst:hover {
+        background-position: 0 -64px; }
+    .RadDataForm_Glow .rdfPager .rdfPrev {
+      background-position: 0 -128px; }
+      .RadDataForm_Glow .rdfPager .rdfPrev:hover {
+        background-position: 0 -192px; }
+    .RadDataForm_Glow .rdfPager .rdfNext {
+      background-position: 0 -256px; }
+      .RadDataForm_Glow .rdfPager .rdfNext:hover {
+        background-position: 0 -320px; }
+    .RadDataForm_Glow .rdfPager .rdfLast {
+      background-position: 0 -384px; }
+      .RadDataForm_Glow .rdfPager .rdfLast:hover {
+        background-position: 0 -448px; }
+  .RadDataForm_Glow .rdfPagerRight {
+    float: right; }
+    .RadDataForm_Glow .rdfPagerRight .rdfFirst,
+    .RadDataForm_Glow .rdfPagerRight .rdfPrev,
+    .RadDataForm_Glow .rdfPagerRight .rdfNext,
+    .RadDataForm_Glow .rdfPagerRight .rdfLast {
+      float: none; }
+

@@ -1,0 +1,18 @@
+.RadNotification_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadNotification_Outlook .rnTitleBar {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .RadNotification_Outlook .rnCommands a:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .RadNotification_Outlook.rnShadows {
+    box-shadow: 2px 2px 3px rgba(137, 174, 229, 0.5); }
+

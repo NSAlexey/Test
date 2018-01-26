@@ -1,0 +1,80 @@
+.RadSearchBox_Windows7 {
+  color: #1e395b;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_Windows7 .rsbInner {
+    border-radius: 3px;
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #ffffff; }
+    .RadSearchBox_Windows7 .rsbInner.rsbHovered {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #ffffff; }
+    .RadSearchBox_Windows7 .rsbInner.rsbFocused {
+      border-color: #9cc8ff;
+      color: #1e395b;
+      background-color: #ffffff; }
+  .RadSearchBox_Windows7 .rsbButton {
+    border-radius: 2px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    background-image: linear-gradient(transparent, transparent); }
+    .RadSearchBox_Windows7 .rsbButton:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+    .RadSearchBox_Windows7 .rsbButton:focus {
+      border-color: #9cc8ff;
+      color: #1e395b;
+      background-color: #dde8f6;
+      background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+      box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadSearchBox_Windows7 .rsbButtonSearch {
+    border-radius: 0 3px 3px 0; }
+    .RadSearchBox_Windows7 .rsbButtonSearch .rsbIcon {
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -2px -1882px; }
+  .RadSearchBox_Windows7 .rsbSCInner {
+    border-radius: 3px 0 0 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadSearchBox_Windows7 .rsbSCIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -2px -422px; }
+  .RadSearchBox_Windows7 .rsbSCHovered {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadSearchBox_Windows7 .rsbSCFocused {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadSearchBox_Windows7 .rsbLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+
+.rsbPopup_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rsbPopup_Windows7 .rsbListItemHovered {
+    color: #1e395b;
+    background-color: #edf4fd; }
+  .rsbPopup_Windows7 .rsbListItemSelected {
+    color: #1e395b;
+    background-color: #c2dcfc; }
+  .rsbPopup_Windows7 .rsbListItemLoading {
+    color: #1e395b;
+    background-color: #edf4fd; }
+

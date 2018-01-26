@@ -1,0 +1,148 @@
+.RadToolBar_WebBlue {
+  border-color: #3d556c;
+  color: #ffffff;
+  background-color: #4d5f75;
+  background-image: linear-gradient(#576b82, #36485b 50%, #2c3c4d 50%, #4d5f75); }
+  .RadToolBar_WebBlue .rtbSeparator {
+    border-color: #6e8aa8 rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) #6e8aa8; }
+  .RadToolBar_WebBlue .rtbButton {
+    border-radius: 3px; }
+  .RadToolBar_WebBlue .rtbMore {
+    border-color: #3d556c;
+    color: #ffffff;
+    background-color: #4d5f75;
+    background-image: linear-gradient(#576b82, #36485b 50%, #2c3c4d 50%, #4d5f75); }
+  .RadToolBar_WebBlue .rtbFocused .rtbButton,
+  .RadToolBar_WebBlue .rtbFocused.rtbMore {
+    border-color: rgba(58, 134, 158, 0.5);
+    box-shadow: inset 0 0 0.3em rgba(58, 134, 158, 0.5); }
+  .RadToolBar_WebBlue .rtbHovered .rtbButton:not(.rtbSplitButton) {
+    border-color: #1c9fcc;
+    color: #0e3d4f;
+    background-color: #bee3f6;
+    background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+  .RadToolBar_WebBlue .rtbHovered .rtbSplitButton,
+  .RadToolBar_WebBlue .rtbHovered .rtbArrow {
+    border-color: #1c9fcc; }
+  .RadToolBar_WebBlue .rtbSplitButton .rtbHovered.rtbSplBtnActivator, .RadToolBar_WebBlue .rtbSplitButton .rtbHovered.rtbArrow {
+    border-color: #1c9fcc;
+    color: #0e3d4f;
+    background-color: #bee3f6;
+    background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+  .RadToolBar_WebBlue .rtbChecked .rtbButton,
+  .RadToolBar_WebBlue .rtbExpanded .rtbButton,
+  .RadToolBar_WebBlue .rtbExpanded .rtbButton.rtbMenuButton,
+  .RadToolBar_WebBlue .rtbExpanded.rtbMore {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .RadToolBar_WebBlue .rtbExpanded .rtbButton.rtbSplitButton .rtbSplBtnActivator,
+  .RadToolBar_WebBlue .rtbExpanded .rtbButton.rtbSplitButton .rtbArrow {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .RadToolBar_WebBlue .rtbPressed .rtbButton:not(.rtbSplitButton) {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .RadToolBar_WebBlue .rtbPressed .rtbSplitButton,
+  .RadToolBar_WebBlue .rtbPressed .rtbArrow {
+    border-color: #3a869e; }
+  .RadToolBar_WebBlue .rtbSplitButton .rtbPressed.rtbSplBtnActivator, .RadToolBar_WebBlue .rtbSplitButton .rtbPressed.rtbArrow {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+
+.rtbPopup_WebBlue {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+  .rtbPopup_WebBlue .rtbLink,
+  .rtbPopup_WebBlue .rtbInner {
+    border-radius: 3px; }
+  .rtbPopup_WebBlue .rtbSeparator {
+    border-color: #e6e6e6 white white #e6e6e6; }
+  .rtbPopup_WebBlue .rtbFocused > .rtbLink {
+    border-color: rgba(19, 60, 68, 0.5);
+    box-shadow: inset 0 0 0.3em rgba(19, 60, 68, 0.5); }
+  .rtbPopup_WebBlue .rtbFocused > .rtbInner {
+    border-color: rgba(58, 134, 158, 0.5);
+    box-shadow: inset 0 0 0.3em rgba(58, 134, 158, 0.5); }
+    .rtbPopup_WebBlue .rtbFocused > .rtbInner .rtbArrow {
+      border-left-color: rgba(58, 134, 158, 0.5); }
+  .rtbPopup_WebBlue .rtbHovered > .rtbLink {
+    border-color: #5d9fb7;
+    color: #0e3d4f;
+    background-color: #e9f8ff; }
+  .rtbPopup_WebBlue .rtbHovered:not(.rtbSplitItem) > .rtbInner {
+    border-color: #1c9fcc;
+    color: #0e3d4f;
+    background-color: #bee3f6;
+    background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+  .rtbPopup_WebBlue .rtbHovered.rtbSplitItem > .rtbInner,
+  .rtbPopup_WebBlue .rtbHovered > .rtbInner .rtbArrow {
+    border-color: #1c9fcc; }
+  .rtbPopup_WebBlue .rtbSplitItem .rtbHovered.rtbSplBtnActivator, .rtbPopup_WebBlue .rtbSplitItem .rtbHovered.rtbArrow {
+    border-color: #1c9fcc;
+    color: #0e3d4f;
+    background-color: #bee3f6;
+    background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+  .rtbPopup_WebBlue .rtbSelected > .rtbLink {
+    border-color: #133c44;
+    color: #0d202b;
+    background-color: #9edaf2; }
+  .rtbPopup_WebBlue .rtbSelected > .rtbInner,
+  .rtbPopup_WebBlue .rtbChecked > .rtbInner,
+  .rtbPopup_WebBlue .rtbExpanded > .rtbInner,
+  .rtbPopup_WebBlue .rtbExpanded > .rtbInner.rtbButton {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+    .rtbPopup_WebBlue .rtbSelected > .rtbInner .rtbArrow,
+    .rtbPopup_WebBlue .rtbChecked > .rtbInner .rtbArrow,
+    .rtbPopup_WebBlue .rtbExpanded > .rtbInner .rtbArrow,
+    .rtbPopup_WebBlue .rtbExpanded > .rtbInner.rtbButton .rtbArrow {
+      border-left-color: #3a869e; }
+  .rtbPopup_WebBlue .rtbExpanded.rtbSplitItem .rtbInner .rtbSplBtnActivator,
+  .rtbPopup_WebBlue .rtbExpanded.rtbSplitItem .rtbInner .rtbArrow {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .rtbPopup_WebBlue .rtbPressed:not(.rtbSplitItem) > .rtbInner {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .rtbPopup_WebBlue .rtbExpanded .rtbButton.rtbMenuButton,
+  .rtbPopup_WebBlue .rtbPressed.rtbSplitItem > .rtbInner,
+  .rtbPopup_WebBlue .rtbPressed > .rtbInner .rtbArrow {
+    border-color: #3a869e; }
+  .rtbPopup_WebBlue .rtbSplitItem .rtbPressed.rtbSplBtnActivator, .rtbPopup_WebBlue .rtbSplitItem .rtbPressed.rtbArrow {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .rtbPopup_WebBlue .rtbMenu:before {
+    border-color: white;
+    background: white; }
+  .rtbPopup_WebBlue.rtbShadows {
+    box-shadow: 3px 3px 3px #768ca5; }
+

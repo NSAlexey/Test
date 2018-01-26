@@ -1,0 +1,63 @@
+.RadSearchBox_BlackMetroTouch {
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_BlackMetroTouch .rsbInner {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+    .RadSearchBox_BlackMetroTouch .rsbInner.rsbHovered {
+      border-color: #555555;
+      color: #ffffff;
+      background-color: #000000; }
+    .RadSearchBox_BlackMetroTouch .rsbInner.rsbFocused {
+      border-color: #0082cc;
+      color: #ffffff;
+      background-color: #000000; }
+  .RadSearchBox_BlackMetroTouch .rsbSCInner {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadSearchBox_BlackMetroTouch .rsbLoadingIcon {
+    background-image: url('../BlackMetroTouch/Common/loading_small.gif'); }
+  .RadSearchBox_BlackMetroTouch .rsbHovered.rsbInner {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadSearchBox_BlackMetroTouch .rsbHovered .rsbSCInner {
+    border-color: #555555; }
+  .RadSearchBox_BlackMetroTouch .rsbHovered.rsbSCInner, .RadSearchBox_BlackMetroTouch .rsbHovered.rsbButton {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadSearchBox_BlackMetroTouch .rsbFocused.rsbInner {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadSearchBox_BlackMetroTouch .rsbFocused .rsbSCInner,
+  .RadSearchBox_BlackMetroTouch .rsbFocused .rsbHovered.rsbButton {
+    border-color: #0082cc; }
+  .RadSearchBox_BlackMetroTouch .rsbFocused.rsbSCInner, .RadSearchBox_BlackMetroTouch .rsbFocused.rsbButton {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadSearchBox_BlackMetroTouch .rsbSelected.rsbButton {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+
+.rsbPopup_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000;
+  font-weight: 100;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rsbPopup_BlackMetroTouch .rsbListItemHovered {
+    color: #ffffff;
+    background-color: #555555; }
+  .rsbPopup_BlackMetroTouch .rsbListItemSelected {
+    color: #ffffff;
+    background-color: #0082cc; }
+  .rsbPopup_BlackMetroTouch .rsbListItemLoading {
+    color: #ffffff;
+    background-color: #555555; }
+

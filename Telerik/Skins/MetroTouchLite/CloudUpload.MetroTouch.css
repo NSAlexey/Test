@@ -1,0 +1,52 @@
+.RadCloudUpload_MetroTouch {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCloudUpload_MetroTouch .rcuButton {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCloudUpload_MetroTouch .rcuInfoPanel {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCloudUpload_MetroTouch .rcuHeader {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCloudUpload_MetroTouch .rcuFileList {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_MetroTouch .rcuProgressBar {
+    border-color: #e5e5e5;
+    background-color: #e5e5e5;
+    background-image: linear-gradient(); }
+  .RadCloudUpload_MetroTouch .rcuProgress {
+    border-color: #fff;
+    background-color: #25a0da;
+    background-image: linear-gradient(); }
+  .RadCloudUpload_MetroTouch .p-i-loading {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+  .RadCloudUpload_MetroTouch .rcuDropZone {
+    border-color: #1e80ae;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCloudUpload_MetroTouch .rcuButton.rcuHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCloudUpload_MetroTouch .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #25a0da;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_MetroTouch .rcuButton.rcuPressed {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+
+.rcuToolTip_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff; }
+

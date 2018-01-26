@@ -1,0 +1,147 @@
+span.RadButton_BlackMetroTouch {
+  height: auto;
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+  span.RadButton_BlackMetroTouch.rbSkinnedButton, span.RadButton_BlackMetroTouch.rbVerticalButton, span.RadButton_BlackMetroTouch.rbLinkButton,
+  span.RadButton_BlackMetroTouch .rbSplitRight,
+  span.RadButton_BlackMetroTouch .rbSplitLeft {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  span.RadButton_BlackMetroTouch.rbSkinnedButton {
+    padding: 5px 0;
+    border-width: 1px;
+    border-style: solid; }
+    span.RadButton_BlackMetroTouch.rbSkinnedButton:focus, span.RadButton_BlackMetroTouch.rbSkinnedButton:active {
+      border-width: 1px; }
+  span.RadButton_BlackMetroTouch .rbDecorated {
+    padding: 0 15px;
+    height: auto;
+    line-height: inherit; }
+  span.RadButton_BlackMetroTouch .rbDecorated.rbPrimary {
+    padding-left: 35px; }
+  span.RadButton_BlackMetroTouch .rbDecorated.rbSecondary {
+    padding-right: 35px; }
+  span.RadButton_BlackMetroTouch .rbPrimaryIcon {
+    top: 9px;
+    left: 5px; }
+  span.RadButton_BlackMetroTouch .rbSecondaryIcon {
+    top: 9px;
+    right: 5px; }
+  span.RadButton_BlackMetroTouch .rbToggleCheckbox,
+  span.RadButton_BlackMetroTouch .rbToggleCheckboxChecked,
+  span.RadButton_BlackMetroTouch .rbToggleCheckboxFilled,
+  span.RadButton_BlackMetroTouch .rbToggleRadio,
+  span.RadButton_BlackMetroTouch .rbToggleRadioChecked {
+    width: 22px;
+    height: 22px;
+    background-image: url('Common/radFormToggleSprite.png');
+    top: 9px; }
+  span.RadButton_BlackMetroTouch .rbToggleCheckbox + .rbText.rbPrimary,
+  span.RadButton_BlackMetroTouch .rbToggleCheckboxChecked + .rbText.rbPrimary,
+  span.RadButton_BlackMetroTouch .rbToggleRadio + .rbText.rbPrimary,
+  span.RadButton_BlackMetroTouch .rbToggleRadioChecked + .rbText.rbPrimary {
+    padding: 0 25px; }
+  span.RadButton_BlackMetroTouch.rbToggleButton {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 0; }
+  span.RadButton_BlackMetroTouch.rbToggleButton .rbText {
+    padding: 0 8px; }
+  span.RadButton_BlackMetroTouch.rbToggleButton, span.RadButton_BlackMetroTouch.rbToggleButton.rbHovered, span.RadButton_BlackMetroTouch.rbToggleButton.rbDisabled:hover {
+    color: #ffffff;
+    background: none; }
+  span.RadButton_BlackMetroTouch.rbToggleButton:hover {
+    color: #ffffff; }
+  span.RadButton_BlackMetroTouch.rbToggleButton.rbTextButton .rbText {
+    padding: 0 28px; }
+  span.RadButton_BlackMetroTouch.rbLinkButton {
+    padding: 5px 15px; }
+  span.RadButton_BlackMetroTouch.rbLinkButton.rbRounded {
+    border-radius: 0; }
+  span.RadButton_BlackMetroTouch span.rbPrimary {
+    padding-left: 20px; }
+  span.RadButton_BlackMetroTouch span.rbSecondary {
+    padding-right: 20px; }
+  span.RadButton_BlackMetroTouch.rbNativeButton {
+    padding: 0; }
+  span.RadButton_BlackMetroTouch.rbHovered, span.RadButton_BlackMetroTouch.rbSkinnedButton:hover, span.RadButton_BlackMetroTouch.rbVerticalButton:hover, span.RadButton_BlackMetroTouch.rbLinkButton:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  span.RadButton_BlackMetroTouch.rbPressedButton, span.RadButton_BlackMetroTouch.rbSkinnedButton:active, span.RadButton_BlackMetroTouch.rbSkinnedButton:focus, span.RadButton_BlackMetroTouch.rbVerticalButton:active, span.RadButton_BlackMetroTouch.rbVerticalButton:focus, span.RadButton_BlackMetroTouch.rbLinkButton:active, span.RadButton_BlackMetroTouch.rbLinkButton:focus, span.RadButton_BlackMetroTouch.rbSkinnedButtonChecked, span.RadButton_BlackMetroTouch.rbSkinnedButtonChecked:hover, span.RadButton_BlackMetroTouch.rbLinkButtonChecked, span.RadButton_BlackMetroTouch.rbLinkButtonChecked:hover, span.RadButton_BlackMetroTouch.rbVerticalButtonChecked, span.RadButton_BlackMetroTouch.rbVerticalButtonChecked:hover {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  span.RadButton_BlackMetroTouch .rbSplitRight,
+  span.RadButton_BlackMetroTouch .rbSplitLeft {
+    width: 28px;
+    background-image: url('Common/radActionsSprite.png');
+    background-color: #222222; }
+  span.RadButton_BlackMetroTouch .rbSplitRight,
+  span.RadButton_BlackMetroTouch .rbSplitLeft,
+  span.RadButton_BlackMetroTouch.rbDisabled .rbSplitLeft,
+  span.RadButton_BlackMetroTouch.rbDisabled .rbSplitRight {
+    background-position: -11px -58px; }
+  span.RadButton_BlackMetroTouch .rbSplitLeft:hover,
+  span.RadButton_BlackMetroTouch .rbSplitRight:hover {
+    background-color: #3c3c3c;
+    background-position: -11px -58px; }
+  span.RadButton_BlackMetroTouch .rbSplitRight:active,
+  span.RadButton_BlackMetroTouch .rbSplitRight:focus,
+  span.RadButton_BlackMetroTouch .rbSplitLeft:active,
+  span.RadButton_BlackMetroTouch .rbSplitLeft:focus {
+    background-color: #0082cc;
+    border-color: #0082cc;
+    background-position: -11px -58px; }
+  span.RadButton_BlackMetroTouch .rbAdd,
+  span.RadButton_BlackMetroTouch .rbRemove,
+  span.RadButton_BlackMetroTouch .rbOk,
+  span.RadButton_BlackMetroTouch .rbCancel,
+  span.RadButton_BlackMetroTouch .rbPrevious,
+  span.RadButton_BlackMetroTouch .rbNext,
+  span.RadButton_BlackMetroTouch .rbSave,
+  span.RadButton_BlackMetroTouch .rbConfig,
+  span.RadButton_BlackMetroTouch .rbRefresh,
+  span.RadButton_BlackMetroTouch .rbEdit {
+    background-image: url('../Common/Button/rbBasicIcons16x16Lite.png') !important; }
+  span.RadButton_BlackMetroTouch .rbUpload,
+  span.RadButton_BlackMetroTouch .rbDownload,
+  span.RadButton_BlackMetroTouch .rbOpen,
+  span.RadButton_BlackMetroTouch .rbAttach,
+  span.RadButton_BlackMetroTouch .rbPrint,
+  span.RadButton_BlackMetroTouch .rbSearch,
+  span.RadButton_BlackMetroTouch .rbHelp,
+  span.RadButton_BlackMetroTouch .rbCart,
+  span.RadButton_BlackMetroTouch .rbRSS,
+  span.RadButton_BlackMetroTouch .rbMail,
+  span.RadButton_BlackMetroTouch .rbFB,
+  span.RadButton_BlackMetroTouch .rbTwitter {
+    background-image: url('../Common/Button/rbExtendedIcons16x16Lite.png') !important; }
+  span.RadButton_BlackMetroTouch .rbAdd24,
+  span.RadButton_BlackMetroTouch .rbRemove24,
+  span.RadButton_BlackMetroTouch .rbOk24,
+  span.RadButton_BlackMetroTouch .rbCancel24,
+  span.RadButton_BlackMetroTouch .rbPrevious24,
+  span.RadButton_BlackMetroTouch .rbNext24,
+  span.RadButton_BlackMetroTouch .rbSave24,
+  span.RadButton_BlackMetroTouch .rbConfig24,
+  span.RadButton_BlackMetroTouch .rbRefresh24,
+  span.RadButton_BlackMetroTouch .rbEdit24 {
+    background-image: url('../Common/Button/rbBasicIcons24x24Lite.png') !important; }
+  span.RadButton_BlackMetroTouch .rbUpload24,
+  span.RadButton_BlackMetroTouch .rbDownload24,
+  span.RadButton_BlackMetroTouch .rbOpen24,
+  span.RadButton_BlackMetroTouch .rbAttach24,
+  span.RadButton_BlackMetroTouch .rbPrint24,
+  span.RadButton_BlackMetroTouch .rbSearch24,
+  span.RadButton_BlackMetroTouch .rbHelp24,
+  span.RadButton_BlackMetroTouch .rbCart24,
+  span.RadButton_BlackMetroTouch .rbRSS24,
+  span.RadButton_BlackMetroTouch .rbMail24,
+  span.RadButton_BlackMetroTouch .rbFB24,
+  span.RadButton_BlackMetroTouch .rbTwitter24 {
+    background-image: url('../Common/Button/rbExtendedIcons24x24Lite.png') !important; }
+

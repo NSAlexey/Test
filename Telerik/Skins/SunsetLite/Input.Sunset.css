@@ -1,0 +1,81 @@
+.RadInput_Sunset .riTextBox,
+.RadInput_Sunset .riSelect,
+.RadInput_Sunset .rcSelect,
+.RadInputMgr_Sunset {
+  border-color: #938973;
+  color: #272722;
+  background-color: #ffffff; }
+
+.RadInput_Sunset .riEmpty,
+.RadInput_Empty_Sunset {
+  color: rgba(39, 39, 34, 0.8); }
+
+.RadInput_Sunset.RadInputHovered .riTextBox,
+.RadInput_Sunset.RadInputHovered .riSelect,
+.RadInput_Sunset.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #d2b40d;
+  color: #272722;
+  background-color: #ffffff; }
+
+.RadInput_Sunset.RadInputFocused .riTextBox,
+.RadInput_Sunset.RadInputFocused .riSelect,
+.RadInput_Sunset.RadInputFocused .rcSelect,
+.RadInput_Focused_Sunset {
+  border-color: #e2711c;
+  color: #272722;
+  background-color: #ffffff; }
+
+.RadInput_Sunset.RadInputError .riTextBox,
+.RadInput_Sunset.RadInputError .riSelect,
+.RadInput_Sunset.RadInputError .rcSelect,
+.RadInput_Error_Sunset,
+.RadForm.rfdTextbox .RadInput_Sunset .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #b32d34;
+  color: #b32d34; }
+
+.RadInput_Sunset.RadInputError {
+  color: #b32d34; }
+
+.RadInput_Sunset .riNegative, .RadInput_Negative_Sunset {
+  color: #444; }
+
+.RadInput_Sunset a,
+.RadInput_Sunset.RadInputDisabled a:hover,
+.RadInput_Sunset.RadInputDisabled a:active {
+  border-color: #938973;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: linear-gradient(#f1eadf, #ded7c6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadInput_Sunset a:hover {
+  border-color: #d2b40d;
+  color: #863d02;
+  background-color: #f1d121;
+  background-image: linear-gradient(#faef93, #f1d121);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+
+.RadInput_Sunset a:focus, .RadInput_Sunset a:active {
+  border-color: #e2711c;
+  color: #5d1f00;
+  background-color: #e88d49;
+  background-image: linear-gradient(#f3bc8b, #e88d49);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+
+.RadInput_Sunset .riLabel {
+  color: #272722; }
+
+.RadInput_Sunset .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../Sunset/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_Sunset .riError, .RadInputRTL_Error_Sunset {
+  background-position: 3px -298px; }
+
+.RadInputRTL_Sunset .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_Sunset .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_Sunset[type="text"] {
+  background-position: 3px -298px; }
+

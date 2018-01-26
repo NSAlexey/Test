@@ -1,0 +1,25 @@
+.RadListView_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+  .RadListView_Windows7 .rlvHeader th {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadListView_Windows7 .rlvI {
+    border-color: #aabfd6; }
+  .RadListView_Windows7 .rlvA {
+    background: #f2f2f2;
+    border-color: #aabfd6; }
+  .RadListView_Windows7 .rlvISel {
+    background: #c2dcfc;
+    color: #1e395b;
+    border-color: #8eb0da; }
+  .RadListView_Windows7 .rlvDrag {
+    background-image: url('../Windows7/ListView/drag.gif'); }
+  .RadListView_Windows7 .rlvInput {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #ffffff; }
+

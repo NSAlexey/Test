@@ -1,0 +1,16 @@
+.RadLightBox_Telerik .rltbWrapper {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadLightBox_Telerik .rltbDescOverlayTop,
+.RadLightBox_Telerik .rltbDescOverlayBottom {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.RadLightBox_Telerik .rltbToolbar .rltbActionButton {
+  color: #000000;
+  background: #eeeeee; }
+
+.RadLightBox_Telerik .rltbToolbar .rltbActionButton:active {
+  color: #66b340; }
+

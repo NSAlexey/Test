@@ -1,0 +1,128 @@
+.RadWizard_Office2007 {
+  color: #333333;
+  background: #ffffff; }
+  .RadWizard_Office2007 .rwzButton {
+    border-radius: 3px;
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+  .RadWizard_Office2007 .rwzNext,
+  .RadWizard_Office2007 .rwzFinish {
+    border-color: #384986;
+    color: #ffffff;
+    background-color: #41559c;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+  .RadWizard_Office2007 .rwzLink {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+    .RadWizard_Office2007 .rwzLink:before {
+      border-color: #a1bcdd;
+      background-image: linear-gradient(135deg, #e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+      @media screen\0 {
+        .RadWizard_Office2007 .rwzLink:before {
+          background-color: #e8f1fc; } }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .RadWizard_Office2007 .rwzLink:before {
+          background-color: transparent; } }
+  .RadWizard_Office2007 .rwzProgressBar {
+    border-radius: 3px;
+    border-color: #85b0e3;
+    background-color: #c3d8f1; }
+  .RadWizard_Office2007 .rwzProgress {
+    border-color: #c3bba3;
+    background-color: #fde292; }
+  .RadWizard_Office2007 .rwzHovered.rwzButton,
+  .RadWizard_Office2007 .rwzHovered .rwzLink {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+  .RadWizard_Office2007 .rwzHovered.rwzNext,
+  .RadWizard_Office2007 .rwzHovered.rwzFinish {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+  .RadWizard_Office2007 .rwzHovered .rwzLink:before {
+    border-color: #c4ba9c;
+    background-image: linear-gradient(135deg, #fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+    @media screen\0 {
+      .RadWizard_Office2007 .rwzHovered .rwzLink:before {
+        background-color: #ffe18a; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Office2007 .rwzHovered .rwzLink:before {
+        background-color: transparent; } }
+  .RadWizard_Office2007 .rwzFocused.rwzButton {
+    border-color: #c3bba3;
+    box-shadow: 0 0 5px #c3bba3 inset; }
+  .RadWizard_Office2007 .rwzFocused.rwzNext {
+    border-color: #c3bba3;
+    box-shadow: 0 0 5px #c3bba3 inset; }
+  .RadWizard_Office2007 .rwzSelected .rwzLink {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadWizard_Office2007 .rwzSelected .rwzLink:before {
+    border-color: #c3bba3;
+    background-image: linear-gradient(135deg, #ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+    @media screen\0 {
+      .RadWizard_Office2007 .rwzSelected .rwzLink:before {
+        background-color: #fde292; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Office2007 .rwzSelected .rwzLink:before {
+        background-color: transparent; } }
+
+.RadWizard_Office2007.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadWizard_Office2007.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Office2007.rwzHorizontal .rwzFirst.rwzLast .rwzLink {
+  border-radius: 3px; }
+
+.RadWizard_Office2007.rwzHorizontal .rwzProgressBar {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Office2007.rwzHorizontal .rwzProgress {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Office2007.rwzVertical .rwzFirst .rwzLink {
+  border-radius: 0.25em 0.25em 0em 0em; }
+
+.RadWizard_Office2007.rwzVertical .rwzLast .rwzLink {
+  border-radius: 0em 0em 0.25em 0.25em; }
+
+.RadWizard_Office2007.rwzVertical .rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Office2007.rwzVertical .rwzProgressBar {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Office2007.rwzVertical .rwzProgress {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Office2007.rwzRightBreadCrumb .rwzFirst .rwzLink,
+.RadWizard_Office2007.RadWizard_rtl.rwzVertical .rwzFirst .rwzLink {
+  border-top-right-radius: 3px; }
+
+.RadWizard_Office2007.rwzRightBreadCrumb .rwzLast .rwzLink,
+.RadWizard_Office2007.RadWizard_rtl.rwzVertical .rwzLast .rwzLink {
+  border-bottom-right-radius: 3px; }
+
+.RadWizard_Office2007.rwzRightBreadCrumb .rwzSelected .rwzLink,
+.RadWizard_Office2007.RadWizard_rtl.rwzVertical .rwzSelected .rwzLink {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.RadWizard_Office2007.RadWizard_rtl.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Office2007.RadWizard_rtl.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+

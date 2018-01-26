@@ -1,0 +1,57 @@
+.RadCloudUpload_Office2010Silver {
+  color: #333333; }
+  .RadCloudUpload_Office2010Silver .rcuButton {
+    border-radius: 3px;
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadCloudUpload_Office2010Silver .rcuInfoPanel {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #e2e5e9; }
+  .RadCloudUpload_Office2010Silver .rcuHeader {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #edeff2;
+    background-image: linear-gradient(#ffffff, #edeff2); }
+  .RadCloudUpload_Office2010Silver .rcuFileList {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Office2010Silver .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #a4abb2;
+    background-color: #edeff2;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Office2010Silver .rcuProgress {
+    border-color: #000000;
+    background-color: #ffd86b;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Office2010Silver .p-i-loading {
+    background-image: url('../Office2010Silver/Common/loading_small.gif'); }
+  .RadCloudUpload_Office2010Silver .rcuDropZone {
+    border-color: #af7b00;
+    color: #333333;
+    background-color: #e29f00; }
+  .RadCloudUpload_Office2010Silver .rcuButton.rcuHovered {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadCloudUpload_Office2010Silver .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #e29f00;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Office2010Silver .rcuButton.rcuPressed {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.rcuToolTip_Office2010Silver {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff; }
+

@@ -1,0 +1,41 @@
+.RadRotator_Web20 .rrClipRegion {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Web20 .rrButton {
+  border-color: #687dc1;
+  color: #ffffff;
+  background-color: #687dc1;
+  background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+
+.RadRotator_Web20 .rrButton:hover {
+  border-color: #2a5795;
+  color: #0f3789;
+  background-color: #cddcf1;
+  background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+
+.RadRotator_Web20 .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(42, 56, 102, 0.5); }
+
+.RadRotator_Web20 .rrButton:active {
+  border-color: #2a3866;
+  color: #ffffff;
+  background-color: #687dc1;
+  background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+
+.RadRotator_Web20 .rrButtonDisabled,
+.RadRotator_Web20 .rrButtonDisabled:hover,
+.RadRotator_Web20 .rrButtonDisabled:focus,
+.RadRotator_Web20 .rrButtonDisabled:active {
+  border-color: #687dc1;
+  color: #ffffff;
+  background-color: #687dc1;
+  background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+  box-shadow: none; }
+
+.RadRotator_Web20 .rrLoadingSign {
+  background: url('../Web20/Common/loading_small.gif') no-repeat center; }
+

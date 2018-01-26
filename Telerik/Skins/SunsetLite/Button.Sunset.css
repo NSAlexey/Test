@@ -1,0 +1,86 @@
+.RadButton_Sunset.rbButton, .RadButton_Sunset.rbButton.rbDisabled,
+.RadButton_Sunset .rbSplitPart {
+  border-color: #938973;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: linear-gradient(#f1eadf, #ded7c6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadButton_Sunset.rbButton.rbHovered, .RadButton_Sunset.rbButton.rbToggled.rbHovered,
+.RadButton_Sunset.rbButton .rbHovered {
+  border-color: #d2b40d;
+  color: #863d02;
+  background-color: #f1d121;
+  background-image: linear-gradient(#faef93, #f1d121);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+
+.RadButton_Sunset.rbButton:focus {
+  box-shadow: inset 0 0 5px rgba(226, 113, 28, 0.5); }
+
+.RadButton_Sunset.rbButton.rbSelected, .RadButton_Sunset.rbButton.rbToggled,
+.RadButton_Sunset.rbSelected .rbHovered {
+  border-color: #e2711c;
+  color: #5d1f00;
+  background-color: #e88d49;
+  background-image: linear-gradient(#f3bc8b, #e88d49);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+
+.RadButton_Sunset.rbButton:hover,
+.RadButton_Sunset.rbButton.rbHovered .rbSplitPart {
+  border-color: #d2b40d; }
+
+.RadButton_Sunset.rbButton.rbSelected,
+.RadButton_Sunset.rbButton.rbSelected:active .rbSplitPart {
+  border-color: #e2711c; }
+
+.RadButton_Sunset.rbCheckBox .rbText,
+.RadButton_Sunset.rbRadioButton .rbText,
+.RadButton_Sunset.rbToggleButton .rbText {
+  color: #272722; }
+
+.RadButton_Sunset .rbToggleCheckboxChecked,
+.RadButton_Sunset .rbToggleCheckboxFilled,
+.RadButton_Sunset .rbToggleRadioChecked {
+  color: #982e00; }
+
+.RadButton_Sunset.rbHovered .rbToggleCheckboxChecked,
+.RadButton_Sunset.rbHovered .rbToggleCheckboxFilled,
+.RadButton_Sunset.rbHovered .rbToggleRadioChecked {
+  color: #4c1700; }
+
+.RadButton_Sunset:focus .rbToggleCheckbox:before,
+.RadButton_Sunset:focus .rbToggleRadio:before {
+  box-shadow: 0 0 1px 1px rgba(39, 39, 34, 0.5); }
+
+.RadButton_Sunset:focus .rbToggleCheckboxChecked:before,
+.RadButton_Sunset:focus .rbToggleCheckboxFilled:before,
+.RadButton_Sunset:focus .rbToggleRadioChecked:before {
+  box-shadow: 0 0 1px 1px rgba(152, 46, 0, 0.5); }
+
+.RadButton_Sunset.rbPrimaryButton {
+  border-color: #a95518;
+  color: #ffffff;
+  background-color: #d66b1e;
+  background-image: linear-gradient(#e88d49, #d66b1e);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+  .RadButton_Sunset.rbPrimaryButton.rbHovered, .RadButton_Sunset.rbPrimaryButton.rbToggled.rbHovered, .RadButton_Sunset.rbPrimaryButton.rbFocused {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121;
+    background-image: linear-gradient(#faef93, #f1d121);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    box-shadow: none; }
+  .RadButton_Sunset.rbPrimaryButton.rbSelected, .RadButton_Sunset.rbPrimaryButton.rbToggled {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+
+.RadButton_Sunset.rbPrimaryButton.rbDisabled {
+  border-color: #a95518;
+  color: #ffffff;
+  background-color: #d66b1e;
+  background-image: linear-gradient(#e88d49, #d66b1e);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+

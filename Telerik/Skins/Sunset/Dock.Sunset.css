@@ -1,0 +1,26 @@
+.RadDock_Sunset .rdMiddle .rdLeft,
+.RadDock_Sunset .rdMiddle .rdRight {
+  background-image: url('Dock/VerticalSprite.gif'); }
+
+.RadDock_Sunset .rdTop .rdLeft,
+.RadDock_Sunset .rdTop .rdRight,
+.RadDock_Sunset .rdTop .rdCenter,
+.RadDock_Sunset .rdBottom .rdLeft,
+.RadDock_Sunset .rdBottom .rdRight,
+.RadDock_Sunset .rdBottom .rdCenter {
+  background-image: url('Dock/HorizontalSprite.png'); }
+
+.RadDock_Sunset .rdCenter .rdCommands a span {
+  background-image: url('Dock/CommandSprite.gif'); }
+
+.RadDock_Sunset .rdMiddle .rdCenter,
+.RadDock_Sunset .rdBottom .rdCenter {
+  background-color: #ffffff; }
+
+.RadDock_Sunset .rdContent {
+  color: #333333; }
+
+.RadDock_Sunset .rdTitleBar em {
+  color: #ffffff;
+  /* used bgcolor var to match white color */ }
+

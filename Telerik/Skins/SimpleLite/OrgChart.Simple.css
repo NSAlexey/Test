@@ -1,0 +1,59 @@
+.RadOrgChart_Simple {
+  color: #333333; }
+  .RadOrgChart_Simple .rocGroup {
+    background-color: rgba(234, 234, 234, 0.5); }
+  .RadOrgChart_Simple .rocItem,
+  .RadOrgChart_Simple .rocItemTemplate {
+    border-color: #616161;
+    color: #000000;
+    background-color: #ffffff; }
+  .RadOrgChart_Simple .rocExpandArrow,
+  .RadOrgChart_Simple .rocCollapseArrow,
+  .RadOrgChart_Simple .rocExpandGroupArrow,
+  .RadOrgChart_Simple .rocCollapseGroupArrow {
+    border-color: #7c7c7c;
+    color: #000000;
+    background-color: #e2e2e2; }
+  .RadOrgChart_Simple .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Simple .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Simple .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Simple .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Simple/Common/loading_small.gif'); }
+  .RadOrgChart_Simple .rocExpandArrow:hover,
+  .RadOrgChart_Simple .rocCollapseArrow:hover,
+  .RadOrgChart_Simple .rocExpandGroupArrow:hover,
+  .RadOrgChart_Simple .rocCollapseGroupArrow:hover {
+    border-color: #ca8500;
+    color: #882501;
+    background-color: #ffe79c; }
+  .RadOrgChart_Simple .rocExpandArrow:active,
+  .RadOrgChart_Simple .rocCollapseArrow:active,
+  .RadOrgChart_Simple .rocExpandGroupArrow:active,
+  .RadOrgChart_Simple .rocCollapseGroupArrow:active {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+
+.RadOrgChart_Simple.rocDetachedItem,
+.RadOrgChart_Simple.rocDetachedNode {
+  border-color: #616161;
+  color: #000000;
+  background-color: #ffffff; }
+
+.rocToolbar_Simple {
+  border-color: #adadad;
+  color: #000000;
+  background-color: #c6c6c6; }
+  .rocToolbar_Simple .rocToolbarButton {
+    border-color: #7c7c7c;
+    color: #000000;
+    background-color: #e2e2e2; }
+  .rocToolbar_Simple .rocToolbarButton:hover {
+    border-color: #ca8500;
+    color: #882501;
+    background-color: #ffe79c; }
+  .rocToolbar_Simple .rocToolbarButton:active {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+

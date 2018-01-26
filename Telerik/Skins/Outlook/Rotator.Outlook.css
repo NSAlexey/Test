@@ -1,0 +1,11 @@
+.RadRotator_Outlook .rrClipRegion {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Outlook .rrButton {
+  background-image: url('Rotator/RotatorButtons.gif'); }
+
+.RadRotator_Outlook .rrLoadingSign {
+  background: url('Common/loading_small.gif') no-repeat center; }
+

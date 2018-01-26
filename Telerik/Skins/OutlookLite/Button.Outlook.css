@@ -1,0 +1,85 @@
+.RadButton_Outlook.rbButton, .RadButton_Outlook.rbButton.rbDisabled,
+.RadButton_Outlook .rbSplitPart {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+
+.RadButton_Outlook.rbButton.rbHovered, .RadButton_Outlook.rbButton.rbToggled.rbHovered,
+.RadButton_Outlook.rbButton .rbHovered {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #fbc860; }
+
+.RadButton_Outlook.rbButton:focus {
+  box-shadow: inset 0 0 5px rgba(0, 60, 116, 0.5); }
+
+.RadButton_Outlook.rbButton.rbSelected, .RadButton_Outlook.rbButton.rbToggled,
+.RadButton_Outlook.rbSelected .rbHovered {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadButton_Outlook.rbButton:hover,
+.RadButton_Outlook.rbButton.rbHovered .rbSplitPart {
+  border-color: #003c74; }
+
+.RadButton_Outlook.rbButton.rbSelected,
+.RadButton_Outlook.rbButton.rbSelected:active .rbSplitPart {
+  border-color: #003c74; }
+
+.RadButton_Outlook.rbCheckBox .rbText,
+.RadButton_Outlook.rbRadioButton .rbText,
+.RadButton_Outlook.rbToggleButton .rbText {
+  color: #333333; }
+
+.RadButton_Outlook .rbToggleCheckboxChecked,
+.RadButton_Outlook .rbToggleCheckboxFilled,
+.RadButton_Outlook .rbToggleRadioChecked {
+  color: #306ac5; }
+
+.RadButton_Outlook.rbHovered .rbToggleCheckboxChecked,
+.RadButton_Outlook.rbHovered .rbToggleCheckboxFilled,
+.RadButton_Outlook.rbHovered .rbToggleRadioChecked {
+  color: #214987; }
+
+.RadButton_Outlook:focus .rbToggleCheckbox:before,
+.RadButton_Outlook:focus .rbToggleRadio:before {
+  box-shadow: 0 0 1px 1px rgba(51, 51, 51, 0.5); }
+
+.RadButton_Outlook:focus .rbToggleCheckboxChecked:before,
+.RadButton_Outlook:focus .rbToggleCheckboxFilled:before,
+.RadButton_Outlook:focus .rbToggleRadioChecked:before {
+  box-shadow: 0 0 1px 1px rgba(48, 106, 197, 0.5); }
+
+.RadButton_Outlook.rbPrimaryButton {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #97b8e8; }
+  .RadButton_Outlook.rbPrimaryButton.rbHovered, .RadButton_Outlook.rbPrimaryButton.rbToggled.rbHovered, .RadButton_Outlook.rbPrimaryButton.rbFocused {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860;
+    box-shadow: none; }
+  .RadButton_Outlook.rbPrimaryButton.rbSelected, .RadButton_Outlook.rbPrimaryButton.rbToggled {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadButton_Outlook.rbPrimaryButton.rbDisabled {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #97b8e8; }
+

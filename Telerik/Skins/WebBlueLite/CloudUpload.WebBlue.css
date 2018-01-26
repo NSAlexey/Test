@@ -1,0 +1,60 @@
+.RadCloudUpload_WebBlue {
+  color: #333333; }
+  .RadCloudUpload_WebBlue .rcuButton {
+    border-radius: 3px;
+    border-color: #6e8aa8;
+    color: #0d202b;
+    background-color: #d7e2e7;
+    background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+  .RadCloudUpload_WebBlue .rcuInfoPanel {
+    border-color: #768ca5;
+    color: #333333;
+    background-color: #dae2e8; }
+  .RadCloudUpload_WebBlue .rcuHeader {
+    border-color: #465a6b;
+    color: #ffffff;
+    background-color: #748ea3;
+    background-image: linear-gradient(#748ea3, #6b849d 50%, #597791 50%, #748ea3); }
+  .RadCloudUpload_WebBlue .rcuFileList {
+    border-color: #768ca5;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_WebBlue .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #b0becf;
+    background-color: #e0e7ed;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_WebBlue .rcuProgress {
+    border-color: #fff;
+    background-color: #378fb1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_WebBlue .p-i-loading {
+    background-image: url('../WebBlue/Common/loading_small.gif'); }
+  .RadCloudUpload_WebBlue .rcuDropZone {
+    border-color: #55a7c0;
+    color: #333333;
+    background-color: #7abace; }
+  .RadCloudUpload_WebBlue .rcuButton.rcuHovered {
+    border-color: #1c9fcc;
+    color: #0e3d4f;
+    background-color: #bee3f6;
+    background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+  .RadCloudUpload_WebBlue .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #7abace;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_WebBlue .rcuButton.rcuPressed {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+
+.rcuToolTip_WebBlue {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+

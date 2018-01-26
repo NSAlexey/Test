@@ -1,0 +1,78 @@
+.RadMenu_Black .rmRootGroup {
+  border-color: #0e0e0e;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  background-image: linear-gradient(#353535, #1b1b1b); }
+  .RadMenu_Black .rmRootGroup.rmVertical {
+    background-image: none; }
+  .RadMenu_Black .rmRootGroup .rmItem {
+    border-color: #0e0e0e; }
+  .RadMenu_Black .rmRootGroup .rmRootLink:hover {
+    border-color: black;
+    color: #ffffff;
+    background-color: black;
+    background-image: linear-gradient(#1a1a1a, black); }
+  .RadMenu_Black .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Black .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #131313;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#3a3a3a, #202020); }
+  .RadMenu_Black .rmRootGroup .rmFocused > .rmRootLink {
+    border-color: #131313;
+    box-shadow: inset 0 0 5px #535353; }
+
+.RadMenu_Black .rmGroup,
+.RadMenu_Black .rmMultiColumn,
+.RadMenu_Black .rmPopup {
+  border-color: #131313;
+  color: #ffffff;
+  background-color: #464646; }
+
+.RadMenu_Black .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_Black .rmGroup .rmLink:hover,
+.RadMenu_Black .rmGroup .rmToggle:hover {
+  border-color: black;
+  color: #ffffff;
+  background-color: black;
+  background-image: linear-gradient(#1a1a1a, black); }
+
+.RadMenu_Black .rmGroup .rmSelected > .rmLink,
+.RadMenu_Black .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Black .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Black .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #131313;
+  color: #9eda29;
+  background-color: #202020;
+  background-image: linear-gradient(#3a3a3a, #202020); }
+
+.RadMenu_Black .rmGroup .rmFocused > .rmLink,
+.RadMenu_Black .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #131313;
+  box-shadow: inset 0 0 5px #131313; }
+
+.RadMenu_Black .rmSeparator {
+  border-color: #0e0e0e; }
+
+.RadMenu_Black .rmGroup .rmSeparator {
+  border-color: #131313; }
+
+.RadMenu_Black .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #131313; }
+
+.RadMenu_Black .rmGroup:before,
+.RadMenu_Black .rmMultiColumn:before,
+.RadMenu_Black .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Black .rmScrollWrap > .rmVertical:before {
+  border-color: transparent;
+  background-color: #2d2d2d; }
+
+.RadMenu_Black .rmArrow {
+  border-color: #202020;
+  background-color: #393939; }
+
+.RadMenu_Black .rmArrow:hover {
+  background-color: #2d2d2d; }
+

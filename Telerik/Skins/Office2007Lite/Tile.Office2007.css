@@ -1,0 +1,18 @@
+.RadTile_Office2007 {
+  color: #00156e;
+  background-color: #e8f1fc; }
+  .RadTile_Office2007 .rtilePeekContent {
+    background-color: #e8f1fc; }
+  .RadTile_Office2007.rtileSelected .rtileSelectedIcon {
+    color: #ffffff;
+    background-color: #41559c; }
+  .RadTile_Office2007.rtileHovered {
+    border-color: #c4ba9c; }
+  .RadTile_Office2007.rtileSelected {
+    border-color: #41559c; }
+  .RadTile_Office2007.rtileSelected.rtileHovered {
+    border-color: #324178; }
+  .RadTile_Office2007.rtileLoading,
+  .RadTile_Office2007 .rtileLoading {
+    background-image: url('../Office2007/Common/loading_small.gif'); }
+

@@ -1,0 +1,20 @@
+.ReminderDialog_Office2010Blue .rsRemList .rsLi:hover {
+  color: #1e395b;
+  background-color: #ffe791; }
+
+.ReminderDialog_Office2010Blue .rsRemList .rsLiSelected,
+.ReminderDialog_Office2010Blue .rsRemList .rsLiSelected:hover {
+  color: #1e395b;
+  background-color: #fff17c; }
+
+.ReminderDialog_Office2010Blue .rsRemSnoozePanel .rsLi:before {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px #9db2ce; }
+
+.ReminderDialog_Office2010Blue .rsRemSnoozePanel .rsLi:hover:before {
+  background-color: #9db2ce; }
+
+.ReminderDialog_Office2010Blue .rsRemSnoozePanel .rsLi:active:before {
+  background-color: #c38e00; }
+

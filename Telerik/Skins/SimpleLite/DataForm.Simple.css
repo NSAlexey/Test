@@ -1,0 +1,10 @@
+.RadDataForm_Simple {
+  color: #333333; }
+  .RadDataForm_Simple .rdfLegend,
+  .RadDataForm_Simple .rdfBorders {
+    border-color: #616161; }
+  .RadDataForm_Simple .rdfHr {
+    color: #616161; }
+  .RadDataForm_Simple .rdfFieldHint {
+    color: #b3b3b3; }
+

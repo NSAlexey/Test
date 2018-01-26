@@ -1,0 +1,50 @@
+.RadSlider_Metro {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSlider_Metro .rslTrack {
+    border-color: #e0e0e0;
+    background-color: #f9f9f9; }
+  .RadSlider_Metro .rslItem {
+    background-image: url('../Metro/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Metro .rslSelectedregion {
+    background-color: #25a0da; }
+  .RadSlider_Metro .rslHandle,
+  .RadSlider_Metro .rslDraghandle {
+    border-radius: 0;
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+    .RadSlider_Metro .rslHandle:hover,
+    .RadSlider_Metro .rslDraghandle:hover {
+      border-color: #cecece;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadSlider_Metro .rslHandle:active, .RadSlider_Metro .rslHandle:focus,
+    .RadSlider_Metro .rslDraghandle:active,
+    .RadSlider_Metro .rslDraghandle:focus {
+      border-color: #25a0da;
+      color: #ffffff;
+      background-color: #25a0da; }
+  .RadSlider_Metro .rslVertical .rslItem {
+    background-image: url('../Metro/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Metro .rslTop .rslSmallTick,
+  .RadSlider_Metro .rslBottom .rslSmallTick {
+    background-image: url('../Metro/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Metro .rslTop .rslLargeTick,
+  .RadSlider_Metro .rslBottom .rslLargeTick {
+    background-image: url('../Metro/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Metro .rslLeft .rslSmallTick,
+  .RadSlider_Metro .rslRight .rslSmallTick {
+    background-image: url('../Metro/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Metro .rslLeft .rslLargeTick,
+  .RadSlider_Metro .rslRight .rslLargeTick {
+    background-image: url('../Metro/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Metro .rslMiddle .rslSmallTick {
+    background-image: url('../Metro/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Metro .rslMiddle .rslLargeTick {
+    background-image: url('../Metro/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Metro .rslCenter .rslSmallTick {
+    background-image: url('../Metro/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Metro .rslCenter .rslLargeTick {
+    background-image: url('../Metro/Slider/LargelChangeCenterVertical.gif'); }
+

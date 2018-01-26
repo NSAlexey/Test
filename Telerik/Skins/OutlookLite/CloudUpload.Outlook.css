@@ -1,0 +1,59 @@
+.RadCloudUpload_Outlook {
+  color: #333333; }
+  .RadCloudUpload_Outlook .rcuButton {
+    border-radius: 3px;
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+  .RadCloudUpload_Outlook .rcuInfoPanel {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #d6e6f4; }
+  .RadCloudUpload_Outlook .rcuHeader {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .RadCloudUpload_Outlook .rcuFileList {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Outlook .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #b7bdcd;
+    background-color: #d6e6f4;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Outlook .rcuProgress {
+    border-color: #fff;
+    background-color: #326cc6;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Outlook .p-i-loading {
+    background-image: url('../Outlook/Common/loading_small.gif'); }
+  .RadCloudUpload_Outlook .rcuDropZone {
+    border-color: #26549c;
+    color: #ffffff;
+    background-color: #306ac5; }
+  .RadCloudUpload_Outlook .rcuButton.rcuHovered {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .RadCloudUpload_Outlook .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #306ac5;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Outlook .rcuButton.rcuPressed {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+
+.rcuToolTip_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+

@@ -1,0 +1,12 @@
+.RadDock_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000; }
+  .RadDock_BlackMetroTouch .rdTitleWrapper {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    border-color: inherit; }
+  .RadDock_BlackMetroTouch .rdCommandButton:hover {
+    color: #0082cc; }
+

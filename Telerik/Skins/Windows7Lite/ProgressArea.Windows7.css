@@ -1,0 +1,37 @@
+.RadUploadProgressArea_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+  .RadUploadProgressArea_Windows7 .ruHeader {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadUploadProgressArea_Windows7 .ruFooter {
+    border-color: #aabfd6;
+    color: #4c607a;
+    background-color: #f1f5fb; }
+  .RadUploadProgressArea_Windows7 .ruProgressBar {
+    border-radius: 3px;
+    border-color: #c1cdde;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadUploadProgressArea_Windows7 .ruProgress {
+    border-radius: 3px;
+    border-color: #c1cdde;
+    background-color: #c3dcfc;
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadUploadProgressArea_Windows7 .radButton {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa;
+    border-radius: 3px; }
+    .RadUploadProgressArea_Windows7 .radButton.ruHovered {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+

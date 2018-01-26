@@ -1,0 +1,58 @@
+.RadFilter_Web20 {
+  color: #333333; }
+  .RadFilter_Web20 .rfMid,
+  .RadFilter_Web20 .rfTools {
+    border-color: #243567;
+    color: #ffffff;
+    background-color: #3d568e;
+    background-image: linear-gradient(#5971a5, #293c6e 50%, #35447b 51%, #3d568e); }
+  .RadFilter_Web20 .rfOper:hover,
+  .RadFilter_Web20 .rfField:hover,
+  .RadFilter_Web20 .rfExp:hover,
+  .RadFilter_Web20 .rfAddExp:hover,
+  .RadFilter_Web20 .rfAddGr:hover {
+    border-color: #2a5795;
+    color: #0f3789;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RadFilter_Web20 .rfOper:focus,
+  .RadFilter_Web20 .rfField:focus,
+  .RadFilter_Web20 .rfExp:focus,
+  .RadFilter_Web20 .rfAddExp:focus,
+  .RadFilter_Web20 .rfAddGr:focus,
+  .RadFilter_Web20 .rfOper:active,
+  .RadFilter_Web20 .rfField:active,
+  .RadFilter_Web20 .rfExp:active,
+  .RadFilter_Web20 .rfAddExp:active,
+  .RadFilter_Web20 .rfAddGr:active {
+    border-color: #2a3866;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+  .RadFilter_Web20 .rfDel:hover,
+  .RadFilter_Web20 .rfDel:focus,
+  .RadFilter_Web20 .rfDel:active {
+    color: #b32d34; }
+  .RadFilter_Web20 .rfText {
+    border-color: #687dc1;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFilter_Web20 .rfPreview strong {
+    color: #5ec232; }
+  .RadFilter_Web20 .rfPreview em,
+  .RadFilter_Web20 .rfPreview .rfBr {
+    color: #3e80ed; }
+  .RadFilter_Web20 .rfApply a,
+  .RadFilter_Web20 .rfApply span {
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    border-radius: 3px; }
+  .RadFilter_Web20 .rfLast .rfDiv:after,
+  .RadFilter_Web20 .rfLines li li:before,
+  .RadFilter_Web20 .rfLines li li .rfDiv:before {
+    border-color: #687dc1; }
+

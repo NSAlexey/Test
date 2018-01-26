@@ -1,0 +1,48 @@
+.RadRotator_Bootstrap {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadRotator_Bootstrap .rrClipRegion {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 0.28571429em; }
+  .RadRotator_Bootstrap a.rrButton,
+  .RadRotator_Bootstrap a.rrButton.rrButtonDisabled,
+  .RadRotator_Bootstrap a.rrButton.rrButtonDisabled:hover,
+  .RadRotator_Bootstrap a.rrButton.rrButtonDisabled:active,
+  .RadRotator_Bootstrap a.rrButton.rrButtonDisabled:focus {
+    padding: 6px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    box-shadow: none; }
+  .RadRotator_Bootstrap a.rrButtonUp {
+    top: 0.07142857em; }
+  .RadRotator_Bootstrap a.rrButtonLeft {
+    left: 1px; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .RadRotator_Bootstrap a.rrButtonUp {
+      top: 0; }
+    .RadRotator_Bootstrap a.rrButtonRight {
+      right: 0; }
+    .RadRotator_Bootstrap a.rrButtonDown {
+      bottom: 0; }
+    .RadRotator_Bootstrap a.rrButtonLeft {
+      left: 0; } }
+  .RadRotator_Bootstrap a.rrButton:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadRotator_Bootstrap a.rrButton:focus {
+    outline-width: thin;
+    outline-offset: -2px;
+    outline-color: #adadad; }
+  .RadRotator_Bootstrap a.rrButton:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    color: #333333;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset; }
+  .RadRotator_Bootstrap .rrLoadingSign {
+    background-image: url('../Bootstrap/Common/loading_small.gif'); }
+

@@ -1,0 +1,29 @@
+.RadImageEditor_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed; }
+
+.RadImageEditor_Telerik.rieDialogs .riePrintContent,
+.RadImageEditor_Telerik .rieHighlightVertical,
+.RadImageEditor_Telerik .rieHighlightHorizontal,
+.RadDock_Telerik.rieDialogs .rieActiveThumbsLink,
+.RadDock_Telerik.rieDialogs .rieThumbsLink:hover,
+.RadDock_Telerik.rieDialogs .riePrintContent,
+.RadDock_Telerik.rieDialogs .riePrintContent img {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed; }
+
+.RadImageEditor_Telerik .rieContentArea,
+.RadDock_Telerik.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Telerik.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Telerik.rieDialogs .rieThumbsLink {
+  border-color: #cccccc; }
+
+.rieRotateTable .rbHovered .rbIcon:before,
+.rieResizeButtons .rbHovered .rbIcon:before {
+  color: #66b340; }
+
+.rieBottomCell {
+  border-color: #cccccc; }
+

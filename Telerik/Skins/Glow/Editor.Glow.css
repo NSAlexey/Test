@@ -1,0 +1,788 @@
+.Glow {
+  /* reWrapper */
+  /* common settings for .reModule, .reEditorModes and .reWrapper */
+  /* end of module */
+  /* Toolbar overrides */
+  /* reTool */
+  /* these settings will not be included in the common CSS file of RadEditor */
+  /* end of reTool_text */
+  /* reDropdown */
+  /* Vertical mode */
+  /* end of reDropdown */
+  /* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+  /* end of context menu and toolstrip */
+  /* spinbox */
+  /* end of spinbox */
+  /* DOM inspector */
+  /* end of DOM inspector */
+  /* end of expanded dropdowns */
+  /* color picker */
+  /* end of color picker */
+  /* ajax spellchecker */
+  /* ajax spellchecker */
+  /* custom links */
+  /* end of custom links */
+  /* insert table dropdown */
+  /* end of insert table dropdown */
+  /* Popup Comments */
+  /* Commnet popups */
+  /* Inline Editor */
+  /* Right to Left */ }
+  .Glow.RadEditor,
+  .Glow.RadEditor .reModule,
+  .Glow.RadEditor .reEditorModes,
+  .Glow.RadEditor .reWrapper {
+    background-color: #1c262c;
+    font-size: 13px; }
+  .Glow .reEmptyMessage {
+    color: #fff; }
+  .Glow.RadEditor .reContentCell {
+    background-color: #35434b; }
+  .Glow .reModule span {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    color: #e2e8eb; }
+  .Glow.RadEditor .reEditorModes a {
+    font-size: 13px;
+    border: 0;
+    margin: 1px;
+    width: 90px;
+    height: 26px;
+    border-radius: 3px; }
+  .Glow.RadEditor .reEditorModes a:hover {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa800;
+    background-image: linear-gradient(#ffa800, #d07f00);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-color: transparent;
+    color: #e2e8eb; }
+  .Glow.RadEditor .reEditorModes a:focus,
+  .Glow.RadEditor .reEditorModes a:active,
+  .Glow.RadEditor a.reMode_selected,
+  .Glow.RadEditor a.reMode_selected:hover,
+  .Glow.reToolWrapper .reSplitButton.reTool:hover,
+  .Glow.reToolbarWrapper .reTool.reSplitButton:hover,
+  .Glow .reToolWrapper .reTool.reSplitButton:hover,
+  .Glow .reToolbarWrapper .reTool.reSplitButton:hover,
+  .Glow .reModule .reSplitButton.reTool:hover,
+  .Glow.reToolbarWrapper .reTool_selected,
+  .Glow.reToolbarWrapper .reTool_selected:hover {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa915;
+    background-image: linear-gradient(#ffa915, #ffa915);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa915', endColorstr='#ffa915',GradientType=0 );
+    box-shadow: inset 0 0 3px #592e00;
+    background-position: 0 0 !important;
+    background-repeat: repeat-x;
+    border-color: transparent;
+    color: #e2e8eb; }
+  .Glow a.reSpinBoxIncrease,
+  .Glow a.reSpinBoxDecrease {
+    background-image: url('Common/radActionsSprite.png'); }
+  .Glow a.reSpinBoxIncrease {
+    background-position: -20px -1022px; }
+  .Glow a.reSpinBoxDecrease {
+    background-position: -20px -1072px; }
+  .Glow.reToolWrapper .reSplitButton.reTool:hover .split_arrow,
+  .Glow .reModule .reSplitButton.reTool:hover .split_arrow {
+    background-position: -117px -63px; }
+  .Glow .reToolbar a, .Glow .reDropdown,
+  .Glow .reSpinBox input, .Glow .RadEditor input,
+  .Glow .reModule, .Glow .reModule td, .Glow .reEditorModes a,
+  .Glow .reDropDownBody,
+  .Glow .reDropDownBody td,
+  .Glow .reAjaxspell_wrapper,
+  .Glow .reAjaxspell_button,
+  .Glow .reAjaxspell_addicon,
+  .Glow .reAjaxspell_ignoreicon,
+  .Glow .reAjaxspell_okicon,
+  .Glow .reInsertTable .reTlbVertical ul a.reTool_text span.reButton_text,
+  .Glow .reColorPicker .reCustomColor {
+    color: #e2e8eb; }
+  .Glow.RadEditor .reEditorModes a span {
+    line-height: 26px;
+    color: #e2e8eb; }
+  .Glow.RadEditor .reEditorModes a:hover span,
+  .Glow.RadEditor .reEditorModes .reMode_selected span {
+    color: #e2e8eb; }
+  .Glow a.reMode_design span,
+  .Glow a.reMode_selected.reMode_design span {
+    background-position: -7px -2px; }
+  .Glow a.reMode_html span,
+  .Glow a.reMode_selected.reMode_html span {
+    background-position: -7px -36px; }
+  .Glow a.reMode_preview span,
+  .Glow a.reMode_selected.reMode_preview span {
+    background-position: -7px -66px; }
+  .Glow .reResizeCell div {
+    width: 14px;
+    height: 14px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -18px -2218px;
+    margin: 0 -1px -2px 0; }
+  .Glow.reToolBarLeft .reResizeCell div,
+  .Glow.reToolBarRight .reResizeCell div {
+    bottom: -1px;
+    right: -59px; }
+  .Glow .reToolbarWrapper .reToolbar li a.reSplitButton,
+  .Glow .reToolbar li a.reTool.reSplitButton {
+    width: 42px; }
+  .Glow.reToolbar li .reSplitButton .split_arrow {
+    width: 16px;
+    height: 26px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -17px -62px;
+    margin: 10px 0 0 6px; }
+  .Glow.reToolbar li .reSplitButton:hover .split_arrow,
+  .Glow.reToolbar li .reSplitButton:active .split_arrow,
+  .Glow.reToolbar li .reSplitButton:focus .split_arrow {
+    background-position: -117px -62px; }
+  .Glow .reToolbarWrapper .reSplitButton.reTool_disabled:hover .split_arrow,
+  .Glow .reToolWrapper .reSplitButton.reTool_disabled:hover .split_arrow {
+    background-position: -17px -62px; }
+  .Glow .reTool .ToggleFloatingToolbar {
+    width: 23px; }
+  .Glow .reSplitButton.reTool {
+    width: 45px; }
+  .Glow .reSplitButton.reTool .split_arrow {
+    width: 16px;
+    height: 24px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -17px -63px;
+    margin: 10px 0 0 4px; }
+  .Glow.reWrapper,
+  .Glow.RadEditor .reContentCell, .Glow.reColorPicker, .Glow.reInsertTable, .Glow.reDropDownBody,
+  .Glow.reCustomLinks a:hover {
+    border: 1px solid #35434b; }
+  .Glow.RadEditor .reContentCell.reNoBorder {
+    border: none; }
+  .Glow.RadEditor .reNoBorder div.reContentArea {
+    border: 1px solid #35434b; }
+  .Glow.reDropDownBody {
+    background-color: #242e33; }
+  .Glow.reDropDownBody table {
+    background: #242e33;
+    min-width: 100% !important; }
+  .Glow.reDropDownBody table td {
+    font-size: 13px;
+    height: 28px;
+    min-width: 28px !important;
+    color: #e2e8eb; }
+  .Glow.reCustomLinks a,
+  .Glow.reCustomLinks a:link,
+  .Glow.reCustomLinks a:visited {
+    border: 1px solid #ffa915;
+    /* should be the same as the background of the dropdown */
+    color: #ffa915; }
+  .Glow.reCustomLinks a:hover {
+    color: #c87e00;
+    border: 1px solid #c87e00; }
+  .Glow.reCustomLinks span {
+    color: #e2e8eb; }
+  .Glow .reTool,
+  .Glow .reToolbarWrapper .reToolbar li .reTool,
+  .Glow .reRibbonBarWrapper .reToolbar li .reTool,
+  .Glow.RadEditor .reDialog .reTool,
+  .Glow.RadEditor .reToolbar .reTool,
+  .Glow.RadEditor .reModule .reTool,
+  .Glow .reToolbarWindow .reToolbar .reTool {
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+    background-repeat: repeat-x; }
+  .Glow .reTool:hover,
+  .Glow .reToolbarWrapper .reToolbar li .reTool:hover,
+  .Glow .reRibbonBarWrapper .reToolbar li .reTool:hover,
+  .Glow.RadEditor .reDialog .reTool:hover,
+  .Glow.RadEditor .reToolbar .reTool:hover,
+  .Glow.RadEditor .reModule .reTool:hover,
+  .Glow .reToolbarWindow .reToolbar .reTool:hover {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa800;
+    background-image: linear-gradient(#ffa800, #d07f00);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa800', endColorstr='#d07f00',GradientType=0 );
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    border-color: transparent;
+    background-position: 0 0 !important;
+    background-repeat: repeat-x; }
+  .Glow .reToolbarWrapper .reToolbar li .reTool:active,
+  .Glow .reToolbarWrapper .reToolbar li .reTool:focus,
+  .Glow .reToolbarWrapper .reToolbar li .reTool_selected,
+  .Glow .reRibbonBarWrapper .reToolbar li .reTool:active,
+  .Glow .reRibbonBarWrapper .reToolbar li .reTool:focus,
+  .Glow .reRibbonBarWrapper .reToolbar li .reTool_selected,
+  .Glow.RadEditor .reDialog .reTool:active,
+  .Glow.RadEditor .reToolbar .reTool:active,
+  .Glow.RadEditor .reModule .reTool:active,
+  .Glow .reToolbarWindow .reToolbar .reTool:active {
+    background-color: #ffa915;
+    background-image: linear-gradient(#ffa915, #ffa915);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa915', endColorstr='#ffa915',GradientType=0 );
+    box-shadow: inset 0 0 3px #592e00;
+    border-color: transparent;
+    background-position: 0 0;
+    background-repeat: repeat-x; }
+  .Glow .reToolbarWrapper .reToolbar li .reTool_disabled,
+  .Glow .reToolbarWrapper .reToolbar li .reTool_disabled:hover,
+  .Glow .reToolbarWrapper .reToolbar li .reTool_disabled:focus,
+  .Glow .reToolbarWrapper .reToolbar li .reTool_disabled:active,
+  .Glow.RadEditor .reDialog .reTool_disabled:hover,
+  .Glow.RadEditor .reToolbar .reTool_disabled:hover,
+  .Glow.RadEditor .reModule .reTool_disabled:hover,
+  .Glow .reToolbarWindow .reToolbar .reTool_disabled:hover,
+  .Glow.RadEditor .reDialog .reTool_disabled:active,
+  .Glow.RadEditor .reToolbar .reTool_disabled:active,
+  .Glow.RadEditor .reModule .reTool_disabled:active,
+  .Glow .reToolbarWindow .reToolbar .reTool_disabled:active {
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    min-width: auto; }
+  .Glow.RadEditor.reWrapper .reSplitButton.reTool {
+    width: 42px; }
+  .Glow.RadEditor.reWrapper .reSplitButton.reTool span.split_arrow {
+    height: 26px; }
+  .Glow.reToolbar li .reTool_disabled:hover span.split_arrow,
+  .Glow.reToolbar li .reTool_disabled:active span.split_arrow,
+  .Glow.reToolbar li .reTool_disabled:focus span.split_arrow {
+    border: 0 none;
+    background-position: -17px -62px; }
+  .Glow.reToolbar li .reTool span {
+    margin: 5px 0 0 4px; }
+  .Glow.reToolbar {
+    background-image: url('../Common/Gradients/radGradientLightV50.png');
+    _background-image: none;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(#404C54, #2B373D);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404C54', endColorstr='#2B373D',GradientType=0 );
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #35434b;
+    border-radius: 3px; }
+  .Glow ul.reToolbar li {
+    color: #e2e8eb;
+    height: 31px; }
+  .Glow .reTool span,
+  .Glow .RadWindow_Glow .reTool span,
+  .Glow .RadForm_Glow .reTool span,
+  .Glow.reInsertTable .reTlbVertical ul .reTool_text span,
+  .Glow .reToolbar .reTool_text span {
+    background-image: url('../Common/CommandSpritesMonoDark.png'); }
+  .Glow .reToolbar .reTool_text:hover,
+  .Glow .reToolbar .reTool_text.reTool_selected,
+  .Glow .reToolbar .reTool_text.reTool_selected:hover {
+    border-left: 1px solid #cd8100;
+    border-right: 1px solid #cd8100; }
+  .Glow .reToolbar .reTool_text.reTool_disabled,
+  .Glow .reToolbar .reTool_text.reTool_disabled:hover {
+    margin-left: 0;
+    margin-right: 0;
+    border: 0; }
+  .Glow .reDropdown,
+  .Glow .reTool_disabled.reDropdown:hover {
+    position: relative;
+    height: 26px;
+    min-width: 80px;
+    margin: 3px 2px 0 0;
+    padding: 0 15px 0 5px;
+    font-size: 13px;
+    border-radius: 3px;
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #1c262c;
+    background-image: linear-gradient(#414c53, #1d272d);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-repeat: repeat-x; }
+  .Glow .reDropdown span {
+    line-height: 24px;
+    min-width: 80px; }
+  .Glow .reDropdown:hover {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa800;
+    background-image: linear-gradient(#ffa800, #d07f00);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-repeat: repeat-x;
+    color: #e2e8eb;
+    border: 0; }
+  .Glow .reDropdown:active,
+  .Glow .reDropdown:focus {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa915;
+    background-image: linear-gradient(#ffa915, #ffa915);
+    box-shadow: inset 0 0 3px #592e00;
+    background-repeat: repeat-x;
+    color: #e2e8eb; }
+  .Glow .reDropdown:before {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -12px -64px;
+    content: "";
+    width: 26px;
+    height: 24px;
+    position: absolute;
+    top: 1px;
+    left: auto;
+    right: 0; }
+  .Glow .reDropdown:hover:before,
+  .Glow .reDropdown:active:before,
+  .Glow .reDropdown:focus:before {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -112px -64px; }
+  .Glow .reTool_disabled.reDropdown:hover:before {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -12px -64px; }
+  .Glow .reTool_disabled.reDropdown:hover span {
+    color: #e2e8eb; }
+  .Glow td.reTlbVertical .reTool {
+    margin-left: 8px;
+    border-radius: 3px;
+    background-repeat: repeat-x; }
+  .Glow td.reTlbVertical .reTool:hover {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa800;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(#ffa800, #d07f00);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    border: 0;
+    background-position: 0 0; }
+  .Glow td.reTlbVertical .reTool:active,
+  .Glow td.reTlbVertical .reTool:focus {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa915;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(#ffa915, #ffa915);
+    box-shadow: inset 0 0 3px #592e00;
+    border-color: transparent;
+    background-position: 0 0; }
+  .Glow .reTlbVertical {
+    background-color: #35434b; }
+  .Glow .reTlbVertical .reDropdown {
+    min-width: 36px;
+    height: 26px;
+    margin: 1px 0 0 4px;
+    padding: 0; }
+  .Glow .reTlbVertical .reDropdown:hover {
+    min-width: 36px;
+    height: 26px;
+    margin: 1px 0 0 4px; }
+  .Glow.reDropDownBody .reTlbVertical .reToolbar {
+    background-color: #35434b;
+    background-image: none; }
+  .Glow table.reSpinBox {
+    border: 1px solid #35434b;
+    background-color: #1c262c;
+    height: 26px; }
+  .Glow table.reSpinBox:hover,
+  .Glow.RadEditor input:hover {
+    border: 1px solid #cd8100; }
+  .Glow .reModule .reModuleLabel {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #e2e8eb; }
+  .Glow .reModule .reDropdown {
+    border: 1px solid #35434b;
+    border-radius: 0; }
+  .Glow .reModule_domlink {
+    color: #ffa915;
+    font-size: 13px; }
+  .Glow .reModule_domlink_selected {
+    color: #ffa915; }
+  .Glow.reDropDownBody .reItemOver {
+    background-color: #4d5c65;
+    color: #ffffff; }
+  .Glow.reColorPicker table div,
+  .Glow.reColorPicker span {
+    border: 1px solid #1c2327; }
+  .Glow.reColorPicker table td.reItemOver div {
+    border-color: #e2e8eb; }
+  .Glow .reAjaxspell_wrapper {
+    font-size: 13px;
+    background-color: #35434b !important; }
+  .Glow .reAjaxspell_button {
+    height: 34px;
+    font-size: 13px;
+    border: 1px solid #1c2327;
+    background-color: #1c262c;
+    color: #e2e8eb; }
+  .Glow .reAjaxspell_button:hover {
+    background-color: #cd8100; }
+  .Glow .reAjaxspell_button:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .Glow .reAjaxSpellCheckSeparator {
+    background-color: #e2e8eb; }
+  .Glow.reCustomLinks,
+  .Glow.reCustomLinks ul {
+    color: #e2e8eb; }
+  .Glow.reCustomLinks a {
+    background: none transparent;
+    color: #e2e8eb;
+    cursor: default !important; }
+  .Glow.reCustomLinks a:hover {
+    color: #35434b; }
+  .Glow.reInsertTable table,
+  .Glow.reInsertTable .reTlbVertical ul {
+    background-color: transparent; }
+  .Glow.reInsertTable table tr td {
+    border: 1px solid #35434b;
+    background-color: #1c262c;
+    height: 20px;
+    min-width: 20px !important; }
+  .Glow.reInsertTable table tr td div {
+    height: 20px;
+    width: 20px; }
+  .Glow.reWrapper td.reTlbVertical ul.reToolbar {
+    width: 54px !important; }
+  .Glow .reTlbVertical .split_arrow,
+  .Glow .reTlbVertical .reTool_text.reSplitButton .split_arrow {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline; }
+  .Glow.reDropDownBody.reInsertTable {
+    width: 200px !important; }
+  .Glow.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text,
+  .Glow.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link,
+  .Glow.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited {
+    color: #e2e8eb !important; }
+  div.reInsertTable .Glow.reToolbar li,
+  div.reInsertTable .Glow.reToolbar li .reTool {
+    width: 30px !important;
+    height: 30px; }
+  div.reInsertTable .Glow.reToolbar li .reTool span {
+    margin: 7px 0 0 6px; }
+  .Glow.reDropDownBody.reAlignmentSelector {
+    width: 87px !important;
+    height: 116px !important; }
+  .Glow.reColorPicker {
+    height: 330px !important; }
+  .Glow.reColorPicker table tr td {
+    min-width: 20px !important; }
+  .Glow.reColorPicker table td div {
+    width: 20px;
+    height: 20px; }
+  .Glow a.reCustomColor {
+    font-size: 13px;
+    color: #e2e8eb; }
+  .Glow div.reColorPickerFooter {
+    height: 38px; }
+  .Glow div.reColorPickerFooter span {
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px; }
+  .Glow.reDropDownBody .reTlbVertical ul li .reTool_text {
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px; }
+  .Glow.reDropDownBody .reTlbVertical ul li .reTool_text:hover {
+    background-color: #4d5c65;
+    color: #4d5c65;
+    background-position: 0 0; }
+  .Glow.reDropDownBody .reTlbVertical ul li .reTool_text .reButton_text,
+  .Glow.reDropDownBody .reTlbVertical ul li .reTool_text:hover .reButton_text {
+    color: #e2e8eb; }
+  .Glow div.reCommentEdit,
+  .Glow div.reCommentTextArea,
+  .Glow div.reCommentView,
+  .Glow div.reCommentButton,
+  .Glow div.rePopupButton,
+  .Glow div.rePopupMessage,
+  .Glow div.rePopupContainer .rePopupTitle,
+  .Glow div.reCommentTextAreaWatermark,
+  .Glow div.reCommentInfoPanel {
+    font: 13px Arial,Helvetica,sans-serif; }
+  .Glow .reCommentEdit,
+  .Glow .reCommentTextArea,
+  .Glow .reCommentView,
+  .Glow .reCommentInfoPanel {
+    border-color: #35434b;
+    background-color: #1c262c; }
+  .Glow .reCommentTitle,
+  .Glow .reCommentInfoPanel {
+    color: #e2e8eb; }
+  .Glow .reCommentTextArea {
+    border-color: #1c2327;
+    background-color: #35434b; }
+  .Glow.RadEditor .reCommentButton,
+  .Glow .rePopupButtonContainer .rePopupButton {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    height: 28px;
+    padding: 0 10px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-radius: 4px; }
+  .Glow.RadEditor .reCommentButton:hover,
+  .Glow .rePopupButtonContainer .rePopupButton:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); }
+  .Glow.RadEditor .reCommentButton:active,
+  .Glow.RadEditor .rePopupButtonContainer .rePopupButton:active {
+    box-shadow: inset 0 0 4px #1c262c;
+    border: 1px solid #485258;
+    height: 26px;
+    padding: 0 9px; }
+  .Glow.rePopupContainer {
+    border-color: #1c2327;
+    background-color: #35434b; }
+  .Glow.rePopupContainer .rePopupTitle {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c);
+    border-radius: 0; }
+  .Glow div.reCommentInfoPanel {
+    font: 16px Arial, Helvetica, sans-serif; }
+  .Glow .RadRibbonBar_Glow .reDropdown,
+  .Glow .RadRibbonBar_Glow .reTool_disabled.reDropdown:hover {
+    height: 20px;
+    margin: 0 2px 0 0; }
+  .Glow .RadRibbonBar_Glow .reDropdown span {
+    line-height: 20px; }
+  .Glow .reTool .ToggleEditMode {
+    background-image: url('../Common/CommonIconsDark.png');
+    background-position: -7px -39px; }
+  .Glow.RadWindow.RadEditor.reWrapper .rwWindowContent {
+    background-color: #1c262c; }
+  .Glow.reWrapper.reInlineEditor .reTlbVertical {
+    background-color: transparent; }
+  .Glow.reWrapper.reInlineEditor:hover {
+    border-color: #35434b; }
+  .Glow.reWrapper.reInlineEditorSelected, .Glow.reWrapper.reInlineEditorSelected:hover {
+    border-color: #cd8100; }
+  .Glow.RadEditor.reRtl .reTool .split_arrow:hover {
+    border-right-color: #cd8100; }
+  .Glow.RadEditor.reRtl .reDropdown:hover {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa800;
+    background-image: linear-gradient(#ffa800, #d07f00);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-repeat: repeat-x;
+    color: #e2e8eb;
+    border: 0; }
+  .Glow.RadEditor.reRtl .reDropdown:before {
+    left: -4px;
+    right: auto; }
+  .Glow.RadEditor.reRtl .reEditorModes .reMode_design span {
+    background-position: 55px -3px; }
+  .Glow.RadEditor.reRtl .reEditorModes .reMode_html span {
+    background-position: 55px -33px; }
+  .Glow.RadEditor.reRtl .reEditorModes .reMode_preview span {
+    background-position: 55px -67px; }
+
+.reTool span,
+.Glow.reInsertTable .reTlbVertical ul .reTool_text span,
+.reToolbar .reTool_text span {
+  background-image: url('../Common/CommandSpritesMonoDark.png'); }
+
+/* the rule below styles RadWindow's content cell, which is used in the floating and show on focus toolbar modes */
+.RadWindow.RadWindow_Glow.reToolbarWindow td.rwWindowContent,
+.RadWindow.RadWindow_Glow.reToolbarWindow div.rwContent {
+  background-color: #1c262c; }
+
+.RadWindow_Default .reInsertTableLightWrapper .lightTable {
+  border-color: #1c2327; }
+
+a.reTool .split_arrow {
+  width: 16px;
+  height: 26px;
+  background-image: url('Common/radActionsSprite.png');
+  background-position: -117px -62px;
+  top: -10px;
+  right: 0; }
+
+.reToolWrapper.Glow .reSplitButton.reTool {
+  width: 42px; }
+
+.RadForm_Glow .reStyleBuilderFonts a.reTool .split_arrow {
+  width: 12px !important;
+  height: 24px !important;
+  top: 0;
+  right: 5px;
+  background-position: -18px -63px !important;
+  margin: 0 !important; }
+
+.RadForm_Glow .reStyleBuilderFonts a.reTool:hover .split_arrow,
+.RadForm_Glow .reStyleBuilderFonts a.reTool .split_arrow:hover {
+  background-position: -118px -63px !important; }
+
+.reTool .split_arrow:hover {
+  border-left-color: #35434b; }
+
+/* Dialogs overrides */
+.RadForm_Glow .HelpDialog,
+.RadForm_Glow .reStyleBuilderFonts,
+.RadForm_Glow .reStyleBuilderBgColor,
+.RadForm_Glow .reStyleBuilderSize,
+.RadForm_Glow .reStyleBuilderFontAttr,
+.RadForm_Glow .reStyleBuilderBgImg,
+.RadForm_Glow .reStyleBuilderTextAlignment,
+.RadForm_Glow .reStyleBuilderTextSpacing,
+.RadForm_Glow .reStyleBuilderTextFlow,
+.RadForm_Glow .reStyleBuilderLayoutFlow,
+.RadForm_Glow .reStyleBuilderLayoutContent,
+.RadForm_Glow .reStyleBuilderBoxSize,
+.RadForm_Glow .reStyleBuilderBoxPadding,
+.RadForm_Glow .reStyleBuilderBoxMargin,
+.RadForm_Glow .reStyleBuilderLists,
+.RadForm_Glow #BorderContent .Labels,
+.RadForm_Glow .reImageMapChooseImage,
+.RadForm_Glow .reImageMapSelectAreaShape,
+.RadForm_Glow .reImageMapDefineArea,
+.RadForm_Glow .reTableWizardColumns,
+.RadForm_Glow .reTableWizardRows,
+.RadForm_Glow .reTablePropertiesDimensions,
+.RadForm_Glow .reTablePropertiesCssClass,
+.RadForm_Glow .reTablePropertiesLayout,
+.RadForm_Glow .reCellProperties,
+.RadForm_Glow .reCellPropertiesPreview,
+.RadForm_Glow .reTableWizardAccessible,
+.RadForm_Glow #dialogControl,
+.RadForm_Glow .reDialog,
+.RadForm_Glow #dialogControl fieldset,
+.RadForm_Glow .reDialog fieldset,
+.RadForm_Glow #MessageContaner,
+.RadForm_Glow .reFormatCodeBlockPaste,
+.RadForm_Glow .reFormatCodeBlockOptions,
+.RadForm_Glow .reFormatCodeBlockPreview,
+.RadWindow_Glow .reInsertImageWrapper,
+.RadWindow_Glow .reInsertLinkWrapper,
+.RadWindow_Glow .reInsertTableLightWrapper,
+.RadForm_Glow .FindAndReplaceDialog,
+.RadForm_Glow .FindAndReplaceDialog .rfdRoundedCorners {
+  font: 13px Arial, Helvetica, sans-serif;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reStyleBuilderBgImg li,
+.RadForm_Glow .reStyleBuilderTextAlignment li,
+.RadForm_Glow .reStyleBuilderTextSpacing li,
+.RadForm_Glow .reStyleBuilderTextFlow li,
+.RadForm_Glow .reStyleBuilderLayoutFlow li,
+.RadForm_Glow .reStyleBuilderLayoutContent li,
+.RadForm_Glow .reStyleBuilderBoxSize li,
+.RadForm_Glow .reStyleBuilderBoxPadding li,
+.RadForm_Glow .reStyleBuilderBoxMargin li,
+.RadForm_Glow .reStyleBuilderLists li,
+.RadForm_Glow #BoxWidthContainer {
+  margin-bottom: 3px;
+  color: #e2e8eb; }
+
+.RadForm_Glow #sbMainPane,
+.RadForm_Glow #BorderContent {
+  width: 510px;
+  color: #e2e8eb; }
+
+.RadForm_Glow #fontAttributes {
+  width: 396px; }
+
+.RadForm_Glow fieldset fieldset {
+  width: auto;
+  color: #e2e8eb; }
+
+.RadForm_Glow #BorderContent .Labels {
+  width: 55px;
+  padding: 61px 2px 0 0;
+  color: #e2e8eb; }
+
+.RadForm_Glow #BorderContent .Labels .columnLabel {
+  line-height: 26px;
+  color: #e2e8eb; }
+
+.RadForm_Glow #borderStylePane,
+.RadForm_Glow #borderWidthPane,
+.RadForm_Glow #borderColorPane {
+  height: 190px;
+  color: #e2e8eb; }
+
+.RadForm_Glow #borderColorPane ul {
+  padding: 10px 0 0;
+  color: #e2e8eb; }
+
+.RadForm_Glow #borderColorPane li {
+  height: 26px;
+  color: #e2e8eb; }
+
+.RadWindow_Glow .reTool span,
+.RadForm_Glow .reTool span {
+  background-image: url('../Common/CommandSpritesMonoDark.png'); }
+
+.RadForm_Glow .reMiddlecell.reTableWizardDialog {
+  height: 450px !important;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reStyleBuilderSize .reInlineBlock.reMetroTouchFix {
+  width: 150px;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reStyleBuilderSize .reInlineBlock.reMetroTouchFix .riLabel {
+  width: 69px !important;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reImageMapDefineArea .reDefineSize .rfdDecorated {
+  width: 32px !important;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reImageMapPreviewWrapper {
+  width: 460px;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reImageMapPreview {
+  width: 350px;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reCellPropertiesPreview {
+  width: 400px;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reTableWizardColumns .propertyLabel {
+  width: 100px !important;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reTableWizardRows .propertyLabel {
+  width: 80px !important;
+  color: #e2e8eb; }
+
+.RadForm_Glow .reTableWizardAccessible .reLabelCell {
+  vertical-align: top;
+  color: #e2e8eb; }
+
+.RadWindow_Glow .reTablePropertyControlCell .short {
+  width: 95px;
+  color: #e2e8eb; }
+
+.RadWindow_Glow table.reControlsLayout .reTablePropertyControlCell input.rfdIgnore,
+.RadWindow_Glow table.reControlsLayout .reImgPropertyControlCell input.rfdIgnore,
+.RadWindow_Glow .reControlCellLight input.rfdIgnore,
+.RadWindow_Glow .reInsertLinkWrapper input {
+  height: 23px;
+  border: 1px solid #35434b;
+  background-color: #1c262c;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px; }
+
+.RadWindow_Glow .reControlsLayout .reConfirmCancelButtonsTblLight button {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  height: 28px;
+  padding: 0 10px;
+  *padding: 0;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  border: 0 none; }
+
+.RadWindow_Glow .reControlsLayout .reConfirmCancelButtonsTblLight button:hover {
+  background-position: 0 0; }
+
+.RadWindow_Glow .reControlsLayout .reConfirmCancelButtonsTblLight button:active,
+.RadWindow_Glow .reControlsLayout .reConfirmCancelButtonsTblLight button:active {
+  box-shadow: inset 0 0 4px #888;
+  background-position: 0 0; }
+
+.RadForm_Glow label {
+  color: #e2e8eb !important; }
+
+.RadForm_Glow .reDialog.FormatCodeBlock {
+  margin: 20px 5px 5px\9  !important; }
+

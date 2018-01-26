@@ -1,0 +1,56 @@
+.RadFilter_Glow {
+  color: #e2e8eb; }
+  .RadFilter_Glow .rfMid,
+  .RadFilter_Glow .rfTools {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #2e3b43;
+    background-image: linear-gradient(#44525b, #2e3b43); }
+  .RadFilter_Glow .rfOper:hover,
+  .RadFilter_Glow .rfField:hover,
+  .RadFilter_Glow .rfExp:hover,
+  .RadFilter_Glow .rfAddExp:hover,
+  .RadFilter_Glow .rfAddGr:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadFilter_Glow .rfOper:focus,
+  .RadFilter_Glow .rfField:focus,
+  .RadFilter_Glow .rfExp:focus,
+  .RadFilter_Glow .rfAddExp:focus,
+  .RadFilter_Glow .rfAddGr:focus,
+  .RadFilter_Glow .rfOper:active,
+  .RadFilter_Glow .rfField:active,
+  .RadFilter_Glow .rfExp:active,
+  .RadFilter_Glow .rfAddExp:active,
+  .RadFilter_Glow .rfAddGr:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .RadFilter_Glow .rfDel:hover,
+  .RadFilter_Glow .rfDel:focus,
+  .RadFilter_Glow .rfDel:active {
+    color: #d51923; }
+  .RadFilter_Glow .rfText {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadFilter_Glow .rfPreview strong {
+    color: #5ec232; }
+  .RadFilter_Glow .rfPreview em,
+  .RadFilter_Glow .rfPreview .rfBr {
+    color: #3e80ed; }
+  .RadFilter_Glow .rfApply a,
+  .RadFilter_Glow .rfApply span {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    border-radius: 3px; }
+  .RadFilter_Glow .rfLast .rfDiv:after,
+  .RadFilter_Glow .rfLines li li:before,
+  .RadFilter_Glow .rfLines li li .rfDiv:before {
+    border-color: #35434b; }
+

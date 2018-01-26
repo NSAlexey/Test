@@ -1,0 +1,74 @@
+.RadColorPicker_Telerik .rcpPalette {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed; }
+
+.RadColorPicker_Telerik .rcpHeader {
+  border-color: #d1d1d1;
+  color: #000000;
+  background-color: #eaeaea;
+  background-image: linear-gradient(#fdfdfd, #eaeaea); }
+
+.RadColorPicker_Telerik .rcpImageButton,
+.RadColorPicker_Telerik a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Telerik .rcpImageButton:hover {
+  color: #66b340; }
+
+.RadColorPicker_Telerik .rcpIcon em,
+.RadColorPicker_Telerik .rcpColorPreview,
+.RadColorPicker_Telerik .rcpInput,
+.RadColorPicker_Telerik .rcpHexInput,
+.RadColorPicker_Telerik .rcpMillionColorsPalette,
+.RadColorPicker_Telerik .rcpMillionColorsSlider div.rslTrack {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadColorPicker_Telerik .rcpIcon a,
+.RadColorPicker_Telerik .rcpTabs li,
+.RadColorPicker_Telerik .rcpButton {
+  border-color: #cccccc;
+  color: #000000;
+  background-color: #eeeeee;
+  background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadColorPicker_Telerik .rcpIcon a:hover,
+.RadColorPicker_Telerik .rcpTabs li:hover,
+.RadColorPicker_Telerik .rcpButton:hover {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+  box-shadow: none; }
+
+.RadColorPicker_Telerik .rcpIcon a:active,
+.RadColorPicker_Telerik .rcpTabs .rcpSelectedTab,
+.RadColorPicker_Telerik .rcpTabs .rcpSelectedTab:hover,
+.RadColorPicker_Telerik .rcpButton:active {
+  border-color: #4d862c;
+  color: #000000;
+  background-color: #63ac39;
+  background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+  box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+
+.RadColorPicker_Telerik .rcpIcon a:focus {
+  box-shadow: inset 0 0 5px rgba(77, 134, 44, 0.5); }
+
+.RadColorPicker_Telerik.rcpCustomColorWrapper .rcpPalette {
+  box-shadow: 2px 2px 3px rgba(204, 204, 204, 0.5); }
+
+.RadColorPicker_Telerik .rcpSlider.RadSlider_Telerik a.rslDraghandle,
+.RadColorPicker_Telerik .rcpMillionColorsSlider.RadSlider_Telerik a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Telerik .rcpSlider.RadSlider_Telerik a.rslDraghandle:hover,
+.RadColorPicker_Telerik .rcpSlider.RadSlider_Telerik a.rslDraghandle:active,
+.RadColorPicker_Telerik .rcpSlider.RadSlider_Telerik a.rslDraghandle:focus,
+.RadColorPicker_Telerik .rcpMillionColorsSlider.RadSlider_Telerik a.rslDraghandle:hover,
+.RadColorPicker_Telerik .rcpMillionColorsSlider.RadSlider_Telerik a.rslDraghandle:active,
+.RadColorPicker_Telerik .rcpMillionColorsSlider.RadSlider_Telerik a.rslDraghandle:focus {
+  color: #66b340; }
+

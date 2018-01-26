@@ -1,0 +1,108 @@
+.RadProgressBar_Material {
+  background-color: #CFD8DC;
+  color: #455A64;
+  border-color: #f8fafb;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadProgressBar_Material > .rpbLabelWrapper,
+  .RadProgressBar_Material li.rpbChunkLast {
+    border-color: #CFD8DC; }
+  .RadProgressBar_Material .rpbStateSelected,
+  .RadProgressBar_Material .rpbStateSelected:hover,
+  .RadProgressBar_Material .rpbStateSelected:link,
+  .RadProgressBar_Material .rpbStateSelected:visited {
+    background-color: #8BC34A;
+    color: #ffffff; }
+  .RadProgressBar_Material .rpbChunk {
+    border-color: transparent #f8fafb transparent transparent; }
+  .RadProgressBar_Material .rpbChunk.rpbStateDefault {
+    background-color: #CFD8DC; }
+  .RadProgressBar_Material .rpbStateSelected,
+  .RadProgressBar_Material .rpbStateSelected:hover,
+  .RadProgressBar_Material .rpbStateSelected:link,
+  .RadProgressBar_Material .rpbStateSelected:visited,
+  .RadProgressBar_Material .rpbChunk.rpbStateSelected {
+    border-color: #8BC34A #f8fafb #8BC34A #8BC34A; }
+  .RadProgressBar_Material.rpbReversed .rpbChunk {
+    border-color: transparent transparent transparent #f8fafb; }
+  .RadProgressBar_Material.rpbReversed li.rpbChunkFirst {
+    border-color: transparent #f8fafb transparent transparent; }
+  .RadProgressBar_Material.rpbReversed .rpbStateSelected,
+  .RadProgressBar_Material.rpbReversed .rpbStateSelected:hover,
+  .RadProgressBar_Material.rpbReversed .rpbStateSelected:link,
+  .RadProgressBar_Material.rpbReversed .rpbStateSelected:visited,
+  .RadProgressBar_Material.rpbReversed .rpbChunk.rpbStateSelected {
+    border-color: #8BC34A #8BC34A #8BC34A #f8fafb; }
+  .RadProgressBar_Material.rpbVertical .rpbChunk {
+    border-color: #f8fafb transparent transparent; }
+  .RadProgressBar_Material.rpbVertical .rpbChunk.rpbChunkFirst {
+    border-color: transparent; }
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected,
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected:hover,
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected:link,
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected:visited,
+  .RadProgressBar_Material.rpbVertical .rpbChunk.rpbStateSelected {
+    border-color: #f8fafb #8BC34A #8BC34A; }
+  .RadProgressBar_Material.rpbVertical.rpbReversed .rpbChunk.rpbChunkFirst {
+    border-color: transparent; }
+  .RadProgressBar_Material.rpbVertical.rpbReversed.rpbRtl .rpbStateSelected,
+  .RadProgressBar_Material.rpbVertical.rpbReversed.rpbRtl .rpbStateSelected:hover,
+  .RadProgressBar_Material.rpbVertical.rpbReversed.rpbRtl .rpbStateSelected:link,
+  .RadProgressBar_Material.rpbVertical.rpbReversed.rpbRtl .rpbStateSelected:visited,
+  .RadProgressBar_Material.rpbVertical.rpbReversed.rpbRtl .rpbChunk.rpbStateSelected {
+    border-color: #8BC34A #8BC34A #f8fafb; }
+  .RadProgressBar_Material.rpbVertical.rpbIndeterminate, .RadProgressBar_Material.rpbHorizontal.rpbIndeterminate {
+    background-image: url('../Material/Common/radIndeterminate.gif'); }
+  .RadProgressBar_Material,
+  .RadProgressBar_Material.rpbHorizontal > .rpbStateSelected.rpbStateCompleted,
+  .RadProgressBar_Material.rpbHorizontal.rpbRtl > .rpbStateSelected.rpbStateCompleted,
+  .RadProgressBar_Material.rpbVertical > .rpbStateSelected.rpbStateCompleted,
+  .RadProgressBar_Material.rpbVertical.rpbRtl > .rpbStateSelected.rpbStateCompleted,
+  .RadProgressBar_Material > .rpbReset,
+  .RadProgressBar_Material > .rpbLabelWrapper,
+  .RadProgressBar_Material.rpbHorizontal > .rpbStateSelected,
+  .RadProgressBar_Material.rpbHorizontal.rpbRtl.rpbReversed > .rpbStateSelected,
+  .RadProgressBar_Material > .rpbChunksWrapper,
+  .RadProgressBar_Material.rpbHorizontal .rpbChunkFirst,
+  .RadProgressBar_Material.rpbHorizontal.rpbRtl .rpbChunkLast,
+  .RadProgressBar_Material.rpbHorizontal .rpbChunkLast,
+  .RadProgressBar_Material.rpbHorizontal.rpbRtl .rpbChunkFirst,
+  .RadProgressBar_Material.rpbVertical > .rpbStateSelected,
+  .RadProgressBar_Material.rpbVertical .rpbChunkFirst,
+  .RadProgressBar_Material.rpbVertical .rpbChunkLast,
+  .RadProgressBar_Material.rpbHorizontal.rpbReversed > .rpbStateSelected,
+  .RadProgressBar_Material.rpbHorizontal.rpbRtl > .rpbStateSelected,
+  .RadProgressBar_Material.rpbHorizontal .rpbChunkFirst,
+  .RadProgressBar_Material.rpbHorizontal.rpbRtl .rpbChunkLast,
+  .RadProgressBar_Material.rpbHorizontal.rpbRtl.rpbReversed .rpbChunkLast,
+  .RadProgressBar_Material.rpbVertical.rpbReversed > .rpbStateSelected {
+    border-radius: 0; }
+  .RadProgressBar_Material,
+  .RadProgressBar_Material .rpbStateSelected,
+  .RadProgressBar_Material .rpbStateSelected:hover, .RadProgressBar_Material.rpbVertical,
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected,
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected:hover,
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected:link,
+  .RadProgressBar_Material.rpbVertical .rpbStateSelected:visited {
+    background-image: none; }
+  .RadProgressBar_Material .rpbLabel {
+    color: #607D8B;
+    font-size: 0.85714286em; }
+  .RadProgressBar_Material.rpbHorizontal {
+    height: 0.35714286em;
+    margin: 0em 0em 1.78571429em; }
+    .RadProgressBar_Material.rpbHorizontal .rpbLabel {
+      padding: 2px 0 0; }
+  .RadProgressBar_Material.rpbVertical {
+    width: 0.35714286em;
+    margin: 0em 1.42857143em 0em 0em; }
+    .RadProgressBar_Material.rpbVertical .rpbChunk {
+      border-width: 1px 0 0; }
+    .RadProgressBar_Material.rpbVertical .rpbLabel {
+      margin: 0em 0em 0em -0.07142857em;
+      padding: 0em 0em 0.28571429em; }
+  .RadProgressBar_Material.rpbVertical.rpbReversed .rpbLabel {
+    margin: 0em -0.07142857em 0em 0em;
+    padding: 0.21428571em 0em 0em; }
+  .RadProgressBar_Material.rpbVertical.rpbReversed .rpbChunk {
+    border-width: 1px 0 0; }
+

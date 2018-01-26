@@ -1,0 +1,74 @@
+.RadColorPicker_WebBlue .rcpPalette {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #dae2e8; }
+
+.RadColorPicker_WebBlue .rcpHeader {
+  border-color: #465a6b;
+  color: #ffffff;
+  background-color: #748ea3;
+  background-image: linear-gradient(#748ea3, #6b849d 50%, #597791 50%, #748ea3); }
+
+.RadColorPicker_WebBlue .rcpImageButton,
+.RadColorPicker_WebBlue a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_WebBlue .rcpImageButton:hover {
+  color: #7abace; }
+
+.RadColorPicker_WebBlue .rcpIcon em,
+.RadColorPicker_WebBlue .rcpColorPreview,
+.RadColorPicker_WebBlue .rcpInput,
+.RadColorPicker_WebBlue .rcpHexInput,
+.RadColorPicker_WebBlue .rcpMillionColorsPalette,
+.RadColorPicker_WebBlue .rcpMillionColorsSlider div.rslTrack {
+  border-color: #6e8aa8;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadColorPicker_WebBlue .rcpIcon a,
+.RadColorPicker_WebBlue .rcpTabs li,
+.RadColorPicker_WebBlue .rcpButton {
+  border-color: #6e8aa8;
+  color: #0d202b;
+  background-color: #d7e2e7;
+  background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+
+.RadColorPicker_WebBlue .rcpIcon a:hover,
+.RadColorPicker_WebBlue .rcpTabs li:hover,
+.RadColorPicker_WebBlue .rcpButton:hover {
+  border-color: #1c9fcc;
+  color: #0e3d4f;
+  background-color: #bee3f6;
+  background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+
+.RadColorPicker_WebBlue .rcpIcon a:active,
+.RadColorPicker_WebBlue .rcpTabs .rcpSelectedTab,
+.RadColorPicker_WebBlue .rcpTabs .rcpSelectedTab:hover,
+.RadColorPicker_WebBlue .rcpButton:active {
+  border-color: #3a869e;
+  color: #ffffff;
+  background-color: #7abace;
+  background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+
+.RadColorPicker_WebBlue .rcpIcon a:focus {
+  box-shadow: inset 0 0 5px rgba(58, 134, 158, 0.5); }
+
+.RadColorPicker_WebBlue.rcpCustomColorWrapper .rcpPalette {
+  box-shadow: 2px 2px 3px rgba(118, 140, 165, 0.5); }
+
+.RadColorPicker_WebBlue .rcpSlider.RadSlider_WebBlue a.rslDraghandle,
+.RadColorPicker_WebBlue .rcpMillionColorsSlider.RadSlider_WebBlue a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_WebBlue .rcpSlider.RadSlider_WebBlue a.rslDraghandle:hover,
+.RadColorPicker_WebBlue .rcpSlider.RadSlider_WebBlue a.rslDraghandle:active,
+.RadColorPicker_WebBlue .rcpSlider.RadSlider_WebBlue a.rslDraghandle:focus,
+.RadColorPicker_WebBlue .rcpMillionColorsSlider.RadSlider_WebBlue a.rslDraghandle:hover,
+.RadColorPicker_WebBlue .rcpMillionColorsSlider.RadSlider_WebBlue a.rslDraghandle:active,
+.RadColorPicker_WebBlue .rcpMillionColorsSlider.RadSlider_WebBlue a.rslDraghandle:focus {
+  color: #7abace; }
+

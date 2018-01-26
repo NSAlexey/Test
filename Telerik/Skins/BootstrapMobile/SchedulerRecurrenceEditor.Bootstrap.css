@@ -1,0 +1,41 @@
+.RecurrenceEditor_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RecurrenceEditor_Bootstrap .rsAdvRecurrenceTitle {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke;
+    padding: 8px; }
+  .RecurrenceEditor_Bootstrap .rsButton {
+    padding: 6px 12px; }
+  .RecurrenceEditor_Bootstrap .rsTabbedOptionList {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+    .RecurrenceEditor_Bootstrap .rsTabbedOptionList li:first-child label {
+      border-radius: 4px 0 0 4px; }
+    .RecurrenceEditor_Bootstrap .rsTabbedOptionList li:last-child label {
+      border-radius: 0 4px 4px 0; }
+    .RecurrenceEditor_Bootstrap .rsTabbedOptionList label {
+      padding: 10px 15px; }
+    .RecurrenceEditor_Bootstrap .rsTabbedOptionList label:hover {
+      color: #333333;
+      background-color: #e6e6e6; }
+    .RecurrenceEditor_Bootstrap .rsTabbedOptionList input:checked + label {
+      color: #333333;
+      background-color: #e6e6e6; }
+  .RecurrenceEditor_Bootstrap .rsAdvRecurrenceSave {
+    border-color: #2e6da4;
+    color: #ffffff;
+    background-color: #337ab7; }
+    .RecurrenceEditor_Bootstrap .rsAdvRecurrenceSave:hover {
+      border-color: #204d74;
+      color: #ffffff;
+      background-color: #286090; }
+    .RecurrenceEditor_Bootstrap .rsAdvRecurrenceSave:active {
+      border-color: #122b40;
+      color: #ffffff;
+      background-color: #286090; }
+

@@ -1,0 +1,64 @@
+.RadNavigation_Silk .rnvRootGroupWrapper {
+  border-color: #e3e3e3;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+
+.RadNavigation_Silk .rnvRootLink {
+  border-color: transparent; }
+
+.RadNavigation_Silk .rnvMore {
+  border-color: #e3e3e3;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+
+.RadNavigation_Silk .rnvHovered.rnvMore,
+.RadNavigation_Silk .rnvHovered > .rnvRootLink {
+  border-color: #d1d1d1;
+  color: #404040;
+  background-color: #d1d1d1;
+  background-image: linear-gradient(#f7f7f7, #d1d1d1); }
+
+.RadNavigation_Silk .rnvSelected.rnvMore,
+.RadNavigation_Silk .rnvSelected > .rnvRootLink,
+.RadNavigation_Silk .rnvExpanded > .rnvRootLink {
+  border-color: #e3e3e3;
+  color: #14afca;
+  background-color: #ffffff;
+  background-image: linear-gradient(#ebebeb, #ffffff); }
+
+.RadNavigation_Silk .rnvSelected > .rnvRootLink:before,
+.RadNavigation_Silk .rnvExpanded > .rnvRootLink:before {
+  content: "";
+  width: 100%;
+  border-width: 4px 0 0;
+  border-style: solid;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.RadNavigation_Silk .rnvFocused.rnvMore,
+.RadNavigation_Silk .rnvFocused > .rnvRootLink {
+  border-color: rgba(189, 189, 189, 0.5);
+  box-shadow: inset 0 0 3px 1px rgba(227, 227, 227, 0.8); }
+
+.radSkin_Silk .rnvPopup {
+  border: 0;
+  color: #292929;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 0; }
+  @media \0screen {
+    .radSkin_Silk .rnvPopup {
+      border: 1px solid #d9d9d9; } }
+  .radSkin_Silk .rnvPopup .rnvHovered > .rnvLink {
+    color: #333333;
+    background-color: #bceff8; }
+  .radSkin_Silk .rnvPopup .rnvSelected > .rnvLink,
+  .radSkin_Silk .rnvPopup .rnvExpanded > .rnvLink {
+    color: #ffffff;
+    background-color: #81cfdc; }
+  .radSkin_Silk .rnvPopup .rnvFocused > .rnvLink {
+    box-shadow: inset 0 0 5px 1px #81cfdc; }
+

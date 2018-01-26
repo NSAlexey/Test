@@ -1,0 +1,126 @@
+.RadWizard_Black {
+  color: #ffffff;
+  background: #464646; }
+  .RadWizard_Black .rwzButton {
+    border-radius: 3px;
+    border-color: #080808;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    background-image: linear-gradient(#7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b); }
+  .RadWizard_Black .rwzNext,
+  .RadWizard_Black .rwzFinish {
+    border-color: #8cc322;
+    color: #202020;
+    background-color: #9eda29;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+  .RadWizard_Black .rwzLink {
+    border-color: #080808;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    background-image: linear-gradient(#7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b); }
+    .RadWizard_Black .rwzLink:before {
+      border-color: #080808;
+      background-image: linear-gradient(135deg, #7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b); }
+      @media screen\0 {
+        .RadWizard_Black .rwzLink:before {
+          background-color: #1b1b1b; } }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .RadWizard_Black .rwzLink:before {
+          background-color: transparent; } }
+  .RadWizard_Black .rwzProgressBar {
+    border-radius: 3px;
+    border-color: #0e0e0e;
+    background-color: #1b1b1b; }
+  .RadWizard_Black .rwzProgress {
+    border-color: #80b11f;
+    background-color: #9eda29; }
+  .RadWizard_Black .rwzHovered.rwzButton,
+  .RadWizard_Black .rwzHovered .rwzLink {
+    border-color: black;
+    color: #ffffff;
+    background-color: #020202;
+    background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+  .RadWizard_Black .rwzHovered.rwzNext,
+  .RadWizard_Black .rwzHovered.rwzFinish {
+    border-color: #79a91d;
+    color: #202020;
+    background-color: #8cc322;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+  .RadWizard_Black .rwzHovered .rwzLink:before {
+    border-color: black;
+    background-image: linear-gradient(135deg, #5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+    @media screen\0 {
+      .RadWizard_Black .rwzHovered .rwzLink:before {
+        background-color: #020202; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Black .rwzHovered .rwzLink:before {
+        background-color: transparent; } }
+  .RadWizard_Black .rwzFocused.rwzButton {
+    box-shadow: 0 0 5px black inset; }
+  .RadWizard_Black .rwzFocused.rwzNext {
+    box-shadow: 0 0 5px #6d971a inset; }
+  .RadWizard_Black .rwzSelected .rwzLink {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+  .RadWizard_Black .rwzSelected .rwzLink:before {
+    border-color: #070707;
+    background-image: linear-gradient(135deg, #6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+    @media screen\0 {
+      .RadWizard_Black .rwzSelected .rwzLink:before {
+        background-color: #202020; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Black .rwzSelected .rwzLink:before {
+        background-color: transparent; } }
+
+.RadWizard_Black.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadWizard_Black.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Black.rwzHorizontal .rwzFirst.rwzLast .rwzLink {
+  border-radius: 3px; }
+
+.RadWizard_Black.rwzHorizontal .rwzProgressBar {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Black.rwzHorizontal .rwzProgress {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Black.rwzVertical .rwzFirst .rwzLink {
+  border-radius: 0.25em 0.25em 0em 0em; }
+
+.RadWizard_Black.rwzVertical .rwzLast .rwzLink {
+  border-radius: 0em 0em 0.25em 0.25em; }
+
+.RadWizard_Black.rwzVertical .rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Black.rwzVertical .rwzProgressBar {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Black.rwzVertical .rwzProgress {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Black.rwzRightBreadCrumb .rwzFirst .rwzLink,
+.RadWizard_Black.RadWizard_rtl.rwzVertical .rwzFirst .rwzLink {
+  border-top-right-radius: 3px; }
+
+.RadWizard_Black.rwzRightBreadCrumb .rwzLast .rwzLink,
+.RadWizard_Black.RadWizard_rtl.rwzVertical .rwzLast .rwzLink {
+  border-bottom-right-radius: 3px; }
+
+.RadWizard_Black.rwzRightBreadCrumb .rwzSelected .rwzLink,
+.RadWizard_Black.RadWizard_rtl.rwzVertical .rwzSelected .rwzLink {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.RadWizard_Black.RadWizard_rtl.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Black.RadWizard_rtl.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+

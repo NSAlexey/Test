@@ -1,0 +1,40 @@
+.RadUploadProgressArea_Telerik {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUploadProgressArea_Telerik .ruProgressHeader {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea); }
+  .RadUploadProgressArea_Telerik .ruActions {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eaeaea; }
+  .RadUploadProgressArea_Telerik .ruButton {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUploadProgressArea_Telerik .ruButtonHover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadUploadProgressArea_Telerik .ruProgress {
+    border-color: #828282;
+    color: #222222;
+    background-color: #ffffff; }
+  .RadUploadProgressArea_Telerik .ruCurrentFile {
+    color: #222222; }
+  .RadUploadProgressArea_Telerik .ruBar {
+    border-color: #87df6c; }
+    .RadUploadProgressArea_Telerik .ruBar div {
+      border-color: #58ba3a;
+      background-image: url('Upload/ruProgress.gif'); }
+

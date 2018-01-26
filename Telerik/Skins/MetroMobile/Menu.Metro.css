@@ -1,0 +1,30 @@
+.RadMenu_Metro .rmRootToggle {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadMenu_Metro .rmRootToggle:active,
+.RadMenu_Metro .rmRootToggle.rmExpanded {
+  border-color: #25a0da;
+  color: #ffffff;
+  background-color: #25a0da; }
+
+.RadMenuPopup_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadMenuPopup_Metro:before {
+    border-bottom-color: #e6e6e6; }
+  .RadMenuPopup_Metro:after {
+    border-bottom-color: #ffffff; }
+  .RadMenuPopup_Metro .rmItem {
+    border-color: #e6e6e6; }
+  .RadMenuPopup_Metro .rmItem.rmSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadMenuPopup_Metro .rmLoading:after {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadMenuPopup_Metro .rmLoadingIcon:after {
+    background-image: url('../Metro/Common/loading_small.gif'); }
+

@@ -1,0 +1,72 @@
+.RadMenu_Material .rmRootToggle {
+  padding: 7px;
+  font-size: 24px;
+  color: #607D8B;
+  border: 0;
+  background: transparent; }
+  .RadMenu_Material .rmRootToggle:before {
+    font-family: "Material Icons";
+    content: "\e5d2"; }
+
+.RadMenu_Material:focus {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+
+.RadMenu_Material .rmRootToggle.rmExpanded {
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #CFD8DC; }
+
+.RadMenuPopup_Material {
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #ffffff;
+  border: 0;
+  font-family: "Roboto", "Noto", sans-serif;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+  .RadMenuPopup_Material:before, .RadMenuPopup_Material:after {
+    display: none; }
+  .RadMenuPopup_Material .rmItem {
+    border: 0;
+    padding-right: 48px; }
+  .RadMenuPopup_Material .rmLink {
+    padding: 14px 0 14px 14px;
+    font-weight: 500; }
+  .RadMenuPopup_Material .rmParentItem {
+    padding: 14px 14px 14px 40px;
+    font-weight: 500; }
+    .RadMenuPopup_Material .rmParentItem:before {
+      left: 12px;
+      font-weight: normal;
+      font-size: 18px;
+      font-family: "Material Icons";
+      content: "\e314"; }
+  .RadMenuPopup_Material .rmToggle {
+    padding: 14px; }
+    .RadMenuPopup_Material .rmToggle:before {
+      font-size: 18px;
+      font-family: "Material Icons";
+      content: "\e315"; }
+  .RadMenuPopup_Material .rmLoading:after {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadMenuPopup_Material .rmLoadingIcon:after {
+    background-image: url('../Material/Common/loading_small.gif'); }
+  .RadMenuPopup_Material .rmSelected {
+    background-color: #ECEFF1; }
+    .RadMenuPopup_Material .rmSelected .rmLink {
+      color: #03A9F4; }
+
+.RadMenuPopup_Material.RadMenuPopup_rtl .rmLink {
+  padding-left: 0;
+  padding-right: 14px; }
+
+.RadMenuPopup_Material.RadMenuPopup_rtl .rmParentItem {
+  padding-left: 14px;
+  padding-right: 40px; }
+  .RadMenuPopup_Material.RadMenuPopup_rtl .rmParentItem:before {
+    left: auto;
+    right: 12px;
+    content: "\e315"; }
+
+.RadMenuPopup_Material.RadMenuPopup_rtl .rmToggle:before {
+  content: "\e314"; }
+

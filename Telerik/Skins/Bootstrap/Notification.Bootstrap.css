@@ -1,0 +1,61 @@
+.RadNotification_Bootstrap {
+  background-color: #ffffff;
+  color: #333333;
+  border-color: #dedede;
+  font-size: 1em;
+  /* base style overwrites */ }
+  .RadNotification_Bootstrap.rnRoundedCorners {
+    border-radius: 0.28571em; }
+  .RadNotification_Bootstrap.rnShadows {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+  .RadNotification_Bootstrap .rnTitleBar {
+    padding: 0.35714em 0.85714em;
+    background-color: whitesmoke;
+    border-bottom-color: #dedede; }
+  .RadNotification_Bootstrap .rnTitleBarTitle {
+    width: 50%;
+    font-size: 1.14286em;
+    height: 1.92857em;
+    line-height: 1.92857em;
+    color: #333333; }
+  .RadNotification_Bootstrap .rnTitleBarIcon {
+    margin: 0.5em 0.28571em 0em 0em;
+    position: relative; }
+  .RadNotification_Bootstrap .rnTitleBarIcon img {
+    position: absolute; }
+  .RadNotification_Bootstrap.rnRtl span.rnTitleBarIcon {
+    margin: 10px 0 0 0; }
+  .RadNotification_Bootstrap .rnCommands {
+    height: 2.28571em;
+    line-height: 2.28571em;
+    margin: -0.21429em 0em 0em; }
+  .RadNotification_Bootstrap .rnCommands a {
+    width: 2.28571em;
+    height: 2.28571em;
+    *background-image: url('Common/radActionsSprite.png');
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    text-align: center; }
+  .RadNotification_Bootstrap .rnCommands a:hover {
+    background-color: #ebebeb;
+    border-color: #adadad;
+    border-radius: 0.21429em; }
+  .RadNotification_Bootstrap .rnCommands .rnMenuIcon a,
+  .RadNotification_Bootstrap .rnCommands .rnMenuIcon a:hover {
+    *background-position: -9px -59px; }
+  .RadNotification_Bootstrap .rnCommands .rnCloseIcon a,
+  .RadNotification_Bootstrap .rnCommands .rnCloseIcon a:hover {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -9px -1909px; }
+  .RadNotification_Bootstrap .rnCommands li a:before {
+    font-size: 1.71429em;
+    font-size: 1.28571em \9;
+    color: #333333; }
+  .RadNotification_Bootstrap _:-ms-fullscreen, :root .RadNotification_Bootstrap .rnCommands li a:before {
+    font-size: 0.75em; }
+  .RadNotification_Bootstrap .rnCommands .rnMenuIcon a:before {
+    content: "\E002"; }
+  .RadNotification_Bootstrap .rnContentIconClipIn {
+    float: none; }
+

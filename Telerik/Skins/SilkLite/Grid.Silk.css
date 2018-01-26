@@ -1,0 +1,343 @@
+.RadGrid_Silk {
+  border-color: #d9d9d9;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadGrid_Silk .rgInput,
+  .RadGrid_Silk .rgEditRow > td > [type="text"],
+  .RadGrid_Silk .rgEditForm td > [type="text"],
+  .RadGrid_Silk .rgBatchContainer > [type="text"],
+  .RadGrid_Silk .rgFilterBox {
+    border-color: #c4c4c4;
+    color: #3b3b3b;
+    background-color: #ffffff; }
+    .RadGrid_Silk .rgInput:hover,
+    .RadGrid_Silk .rgEditRow > td > [type="text"]:hover,
+    .RadGrid_Silk .rgEditForm td > [type="text"]:hover,
+    .RadGrid_Silk .rgBatchContainer > [type="text"]:hover,
+    .RadGrid_Silk .rgFilterBox:hover {
+      border-color: #0092ab;
+      color: black;
+      background-color: #ffffff; }
+    .RadGrid_Silk .rgInput:focus,
+    .RadGrid_Silk .rgEditRow > td > [type="text"]:focus,
+    .RadGrid_Silk .rgEditForm td > [type="text"]:focus,
+    .RadGrid_Silk .rgBatchContainer > [type="text"]:focus,
+    .RadGrid_Silk .rgFilterBox:focus {
+      border-color: #1193aa;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadGrid_Silk .rgActionButton {
+    color: #5f5f5f; }
+
+.RadGrid_Silk .rgHeader,
+.RadGrid_Silk th.rgResizeCol,
+.RadGrid_Silk .rgHeaderWrapper,
+.RadGrid_Silk .rgFilterRow {
+  background-color: #e8e8e8;
+  border-bottom: 1px solid #ffffff; }
+
+.RadGrid_Silk .rgHeaderDiv {
+  border-right-color: #ffffff; }
+
+.RadGrid_Silk .rgMultiHeaderRow th.rgHeader, .RadGrid_Silk .rgMultiHeaderRow th.rgResizeCol {
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff; }
+
+.RadGrid_Silk th.rgSorted {
+  background-color: #c2c2c2; }
+  .RadGrid_Silk th.rgSorted, .RadGrid_Silk th.rgSorted a {
+    color: #333333; }
+
+.RadGrid_Silk .rgHeader {
+  color: #888888;
+  text-transform: uppercase;
+  font-size: 0.714em;
+  line-height: 2; }
+  .RadGrid_Silk .rgHeader a {
+    color: #888888; }
+  .RadGrid_Silk .rgHeader .t-button {
+    font-size: 1.4em;
+    line-height: 1.42857; }
+
+.RadGrid_Silk .rgRow > td,
+.RadGrid_Silk .rgAltRow > td,
+.RadGrid_Silk .rgEditRow > td {
+  border-style: solid;
+  border-bottom: 1px solid #e3e3e3;
+  border-width: 0 0 1px; }
+
+.RadGrid_Silk .rgRow a,
+.RadGrid_Silk .rgAltRow a, .RadGrid_Silk tr.rgEditRow a,
+.RadGrid_Silk .rgFooter a,
+.RadGrid_Silk .rgEditForm a {
+  color: #000; }
+
+.RadGrid_Silk .rgHoveredRow {
+  background: #e5e5e5; }
+
+.RadGrid_Silk .rgMasterTable .rgSelectedCell,
+.RadGrid_Silk .rgSelectedRow {
+  color: #ffffff;
+  background: #81cfdc; }
+
+.RadGrid_Silk .rgActiveRow td:not(.rgExpandCol) {
+  box-shadow: inset 0px 5px 5px -5px #81cfdc, inset 0px -5px 5px -5px #81cfdc; }
+
+.RadGrid_Silk .rgActiveRow td:first-child:not(.rgExpandCol),
+.RadGrid_Silk .rgActiveRow .rgExpandCol + td {
+  box-shadow: inset 0px 5px 5px -5px #81cfdc, inset 0px -5px 5px -5px #81cfdc, inset 5px 0px 5px -5px #81cfdc; }
+
+.RadGrid_Silk .rgActiveRow td:not(.rgExpandCol):last-child {
+  box-shadow: inset 0px 5px 5px -5px #81cfdc, inset 0px -5px 5px -5px #81cfdc, inset -5px 0px 5px -5px #81cfdc; }
+
+.RadGrid_Silk .rgActiveCell {
+  box-shadow: inset 0 0 5px #81cfdc; }
+
+.RadGrid_Silk .rgSelectedCell a,
+.RadGrid_Silk .rgSelectedRow a {
+  color: #ffffff; }
+
+.RadGrid_Silk .rgHoveredRow {
+  background: #bceff8;
+  color: #333333; }
+  .RadGrid_Silk .rgHoveredRow a {
+    color: #333333; }
+
+.RadGrid_Silk .rgSorted {
+  background-color: whitesmoke;
+  color: #1a1a1a; }
+
+.RadGrid_Silk .rgSelectedRow .rgSorted,
+.RadGrid_Silk .rgHoveredRow .rgSorted {
+  /*background-color: desaturate( lighten( $grid-hovered-bg-color, 1%), 40% );*/
+  background-color: rgba(245, 245, 245, 0.6); }
+
+.RadGrid_Silk .rgEditRow {
+  background: rgba(217, 217, 217, 0.75);
+  color: #333333; }
+  .RadGrid_Silk .rgEditRow > td {
+    border-color: #999; }
+
+.RadGrid_Silk .rgDeletedRow > td {
+  border-color: #b3b3b3;
+  color: #333333; }
+  .RadGrid_Silk .rgDeletedRow > td a {
+    color: #333333; }
+
+.RadGrid_Silk .rgBatchOverlay {
+  background: rgba(217, 217, 217, 0.75); }
+
+.RadGrid_Silk .rgBatchUndoDeleteButton {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+  .RadGrid_Silk .rgBatchUndoDeleteButton:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+
+.RadGrid_Silk .rgDrag {
+  background-image: url('../Silk/Grid/rgDrag.gif'); }
+
+.RadGrid_Silk .rgFooterDiv,
+.RadGrid_Silk .rgFooter,
+.RadGrid_Silk .rgFooterWrapper {
+  background: #e3e3e3; }
+
+.RadGrid_Silk .rgFooterWrapper {
+  border-top: 0 none; }
+
+.RadGrid_Silk .rgPagerCell {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3; }
+  .RadGrid_Silk .rgPagerCell .rgNumPart a {
+    border-radius: 2px;
+    color: inherit; }
+    .RadGrid_Silk .rgPagerCell .rgNumPart a:hover {
+      border-color: #0092ab;
+      color: #ffffff;
+      background-color: #0092ab;
+      background-image: linear-gradient(#00acca, #0092ab); }
+    .RadGrid_Silk .rgPagerCell .rgNumPart a.rgCurrentPage {
+      border-color: #14afca;
+      color: #14afca;
+      background: none; }
+  .RadGrid_Silk .rgPagerCell .rgPagerButton,
+  .RadGrid_Silk .rgPagerCell .rgActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+    .RadGrid_Silk .rgPagerCell .rgPagerButton:hover,
+    .RadGrid_Silk .rgPagerCell .rgActionButton:hover {
+      border-color: #0092ab;
+      color: #ffffff;
+      background-color: #0092ab;
+      background-image: linear-gradient(#00acca, #0092ab); }
+
+.RadGrid_Silk .rgFilterRow > td {
+  border-bottom: 1px solid #d9d9d9; }
+
+.RadGrid_Silk .rgFilter {
+  border: 1px solid;
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+  .RadGrid_Silk .rgFilter:hover, .RadGrid_Silk .rgFilter:focus {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+
+.RadGrid_Silk .rgFilterActive, .RadGrid_Silk .rgFilterActive:hover, .RadGrid_Silk .rgFilterActive:focus {
+  border-color: #1193aa;
+  color: #ffffff;
+  background-color: #14afca;
+  background-image: none;
+  box-shadow: inset 0 0 6px rgba(165, 165, 165, 0.5); }
+
+.RadGrid_Silk .rgFiltered {
+  border-color: #14afca;
+  color: #ffffff;
+  background-color: #14afca;
+  background-image: linear-gradient(#27cdea, #14afca); }
+  .RadGrid_Silk .rgFiltered:hover, .RadGrid_Silk .rgFiltered:focus {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadGrid_Silk .rgFiltered.rgFilterActive {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+
+.RadGrid_Silk .rgOptions {
+  color: #5f5f5f; }
+
+.RadGrid_Silk .rgOptSelected {
+  color: #14afca; }
+
+.GridContextMenu_Silk .rgHCMClear,
+.GridContextMenu_Silk .rgHCMFilter {
+  font-size: 1em;
+  height: 2.15385em;
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3);
+  border-radius: 0; }
+  .GridContextMenu_Silk .rgHCMClear:hover,
+  .GridContextMenu_Silk .rgHCMFilter:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+
+.GridContextMenu_Silk .rmGroup .rgHCMItem div.rmContent {
+  padding: 15px;
+  margin: 0 auto; }
+
+.RadMenu_Silk_Context .rgFilterApply,
+.RadMenu_Silk_Context .rgFilterCancel {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3);
+  color: #5f5f5f;
+  border-color: #c4c4c4;
+  height: 28px; }
+
+.GridContextMenu_Silk .rgFilterMenu.rmTemplate div.rmContent,
+.GridContextMenu_Silk .rgFilterListMenu.rmTemplate div.rmContent {
+  padding-right: 8px;
+  padding-bottom: 10px; }
+
+.RadGrid_Silk .rgGroupPanel {
+  background-color: #e8e8e8;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  color: #5f5f5f; }
+  .RadGrid_Silk .rgGroupPanel td {
+    border: 0;
+    padding: 3px 4px; }
+    .RadGrid_Silk .rgGroupPanel td td {
+      padding: 0; }
+
+.RadGrid_Silk .rgGroupItem {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3);
+  color: #5f5f5f;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px; }
+
+.RadGrid_Silk .rgGroupHeader {
+  background-image: linear-gradient(#ffffff 0%, #f2f2f2 30%, #d5d4d3 100%);
+  box-shadow: 0 1px 3px #c4c4c4;
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 22px;
+  color: #888888; }
+  .RadGrid_Silk .rgGroupHeader td {
+    padding: 5px 8px 2px;
+    border-bottom: 1px solid #e3e3e3; }
+
+.RadGrid_Silk .rgEditForm {
+  border-bottom: 1px solid #999; }
+
+.RadGrid_Silk .rgDetailTable {
+  border-color: #ccc; }
+
+.RadGrid_Silk td.rgExpandCol {
+  border-bottom-color: #e6e6e6;
+  background-color: #e6e6e6; }
+
+.RadGrid_Silk .rgCommandCell {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+  .RadGrid_Silk .rgCommandCell .t-button:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadGrid_Silk .rgCommandCell .t-button:focus, .RadGrid_Silk .rgCommandCell .t-button:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+
+.rgCellSelectorArea_Silk,
+.GridRowSelector_Silk {
+  background: #4c4e54; }
+
+.GridItemDropIndicator_Silk {
+  border-top: 1px dashed #666; }
+
+.GridReorderTop_Silk,
+.GridReorderBottom_Silk {
+  color: #a2a2a2; }
+
+.GridToolTip_Silk {
+  border: 1px solid #c98400;
+  padding: 3px;
+  background: #ffefbd;
+  color: #333; }
+
+.RadGridRTL_Silk .rgHeader:first-child, .RadGridRTL_Silk th.rgResizeCol:first-child,
+.RadGridRTL_Silk .rgFilterRow > td:first-child,
+.RadGridRTL_Silk .rgRow > td:first-child,
+.RadGridRTL_Silk .rgAltRow > td:first-child {
+  padding-left: 7px; }
+

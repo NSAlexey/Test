@@ -1,0 +1,75 @@
+.RadMediaPlayer_Office2010Black {
+  color: #333333; }
+  .RadMediaPlayer_Office2010Black .rmpToolbar {
+    color: #000000;
+    background-image: linear-gradient(rgba(199, 199, 199, 0.9), rgba(111, 111, 111, 0.9));
+    border-color: #565656; }
+  .RadMediaPlayer_Office2010Black div.rmpVolContrBar {
+    background-image: linear-gradient(rgba(111, 111, 111, 0.9), rgba(199, 199, 199, 0.9));
+    border-color: #565656; }
+  .RadMediaPlayer_Office2010Black.rmpSolidBgr .rmpToolbar {
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .RadMediaPlayer_Office2010Black.rmpSolidBgr div.rmpVolContrBar {
+    background-image: linear-gradient(#6f6f6f, #c7c7c7); }
+  .RadMediaPlayer_Office2010Black .rmpPlaylist {
+    background-color: #ffffff; }
+    .RadMediaPlayer_Office2010Black .rmpPlaylist li a {
+      background-color: #f6f6f6;
+      color: #000000; }
+      .RadMediaPlayer_Office2010Black .rmpPlaylist li a:hover {
+        background-color: #ffe791;
+        color: #000000; }
+    .RadMediaPlayer_Office2010Black .rmpPlaylist li.rmpActive a {
+      background-color: #fff17c;
+      color: #000000; }
+    .RadMediaPlayer_Office2010Black .rmpPlaylist .rmpPlaylistPrevButton,
+    .RadMediaPlayer_Office2010Black .rmpPlaylist .rmpPlaylistNextButton {
+      background-color: #6f6f6f; }
+      .RadMediaPlayer_Office2010Black .rmpPlaylist .rmpPlaylistPrevButton:hover,
+      .RadMediaPlayer_Office2010Black .rmpPlaylist .rmpPlaylistNextButton:hover {
+        background-color: #fff3c9; }
+  .RadMediaPlayer_Office2010Black .rmpPlaylistVertical li,
+  .RadMediaPlayer_Office2010Black .rmpPlaylistVerticalInside li {
+    border-top: 1px solid rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid #919191; }
+  .RadMediaPlayer_Office2010Black .rmpPlaylistVertical .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Office2010Black .rmpPlaylistVerticalInside .rmpPlaylistPrevButtonWrap {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.85); }
+  .RadMediaPlayer_Office2010Black .rmpPlaylistVertical .rmpPlaylistNextButtonWrap,
+  .RadMediaPlayer_Office2010Black .rmpPlaylistVerticalInside .rmpPlaylistNextButtonWrap {
+    border-top: 1px solid rgba(255, 255, 255, 0.85); }
+  .RadMediaPlayer_Office2010Black .rmpPlaylistHorizontal.rmpPlaylistNavButtons {
+    border-bottom: 1px solid #919191;
+    border-bottom: 1px solid #565656; }
+  .RadMediaPlayer_Office2010Black .rmpPlaylistHorizontal li {
+    border-left: 1px solid rgba(255, 255, 255, 0.85);
+    border-right: 1px solid #919191; }
+  .RadMediaPlayer_Office2010Black .rmpPlaylistHorizontal .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Office2010Black .rmpPlaylistHorizontal .rmpPlaylistNextButtonWrap {
+    border-left: 1px solid #565656;
+    border-right: 1px solid #565656; }
+  .RadMediaPlayer_Office2010Black .rmpBanner {
+    border: 1px solid #5e5e5e; }
+    .RadMediaPlayer_Office2010Black .rmpBanner .rmpActionButton {
+      background-color: #6f6f6f;
+      color: #000000; }
+  .RadMediaPlayer_Office2010Black .rmpBigPlayButton,
+  .RadMediaPlayer_Office2010Black .rmpBigPauseButton {
+    background: rgba(75, 75, 75, 0.4); }
+  .RadMediaPlayer_Office2010Black .rmpToolbar .rmpActionButton:hover,
+  .RadMediaPlayer_Office2010Black .rmpToolbar .rmpActionButton .rmpSubtitlesActiveIcon,
+  .RadMediaPlayer_Office2010Black .rmpToolbar .rmpActionButton .rmpHDActiveIcon {
+    color: #f7c840; }
+  .RadMediaPlayer_Office2010Black .rmpSocialShareBox {
+    background-color: #f7c840; }
+  .RadMediaPlayer_Office2010Black .RadSocialShare .sshLinkItem {
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+    .RadMediaPlayer_Office2010Black .RadSocialShare .sshLinkItem:active, .RadMediaPlayer_Office2010Black .RadSocialShare .sshLinkItem:hover {
+      border-color: #ffcc1c;
+      color: #000000;
+      background-color: #fff3c9;
+      background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+

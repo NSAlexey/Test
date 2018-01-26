@@ -1,0 +1,30 @@
+.RadLightBox_BlackMetroTouch {
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadLightBox_BlackMetroTouch .rltbWrapper {
+    border-color: #333333;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadLightBox_BlackMetroTouch .rltbDescOverlayTop,
+  .RadLightBox_BlackMetroTouch .rltbDescOverlayBottom {
+    background-color: rgba(0, 0, 0, 0.5); }
+  .RadLightBox_BlackMetroTouch .rltbClose,
+  .RadLightBox_BlackMetroTouch .rltbCloseIcon,
+  .RadLightBox_BlackMetroTouch .rltbPrevButton,
+  .RadLightBox_BlackMetroTouch .rltbNextButton {
+    background-image: url('LightBox/sprite.png'); }
+  .RadLightBox_BlackMetroTouch .rltbToolbar .rltbActionButton {
+    background-color: #222222; }
+  .RadLightBox_BlackMetroTouch .rltbToolbar .rltbActionButton:hover {
+    background-color: #3c3c3c; }
+  .RadLightBox_BlackMetroTouch .rltbToolbar .rltbIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadLightBox_BlackMetroTouch .rltbMaximizeIcon {
+    background-position: -15px -5265px; }
+  .RadLightBox_BlackMetroTouch .rltbActionButton:hover .rltbMaximizeIcon {
+    background-position: -65px -5265px; }
+  .RadLightBox_BlackMetroTouch .rltbRestoreIcon {
+    background-position: -15px -5315px; }
+  .RadLightBox_BlackMetroTouch .rltbActionButton:hover .rltbRestoreIcon {
+    background-position: -65px -5315px; }
+

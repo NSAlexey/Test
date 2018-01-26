@@ -1,0 +1,60 @@
+.RadCloudUpload_Telerik {
+  color: #333333; }
+  .RadCloudUpload_Telerik .rcuButton {
+    border-radius: 3px;
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .RadCloudUpload_Telerik .rcuInfoPanel {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+  .RadCloudUpload_Telerik .rcuHeader {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea); }
+  .RadCloudUpload_Telerik .rcuFileList {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Telerik .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #d1d1d1;
+    background-color: #eaeaea;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Telerik .rcuProgress {
+    border-color: #000000;
+    background-color: #239500;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Telerik .p-i-loading {
+    background-image: url('../Telerik/Common/loading_small.gif'); }
+  .RadCloudUpload_Telerik .rcuDropZone {
+    border-color: #518d33;
+    color: #ffffff;
+    background-color: #66b340; }
+  .RadCloudUpload_Telerik .rcuButton.rcuHovered {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadCloudUpload_Telerik .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #66b340;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Telerik .rcuButton.rcuPressed {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+    box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+
+.rcuToolTip_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+

@@ -1,0 +1,133 @@
+﻿using System.Windows.Forms;
+
+namespace TestWindowsFormsApplication
+{
+    partial class MultiLanguageTextBox 
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.radMLPopupContainer = new Telerik.WinControls.UI.RadPopupContainer();
+            this.dataGridViewMultiLang = new System.Windows.Forms.DataGridView();
+            this.dGVCultureInfoName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dGVText = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.radMultiLangPopupEditor = new Telerik.WinControls.UI.RadPopupEditor();
+            ((System.ComponentModel.ISupportInitialize)(this.radMLPopupContainer)).BeginInit();
+            this.radMLPopupContainer.PanelContainer.SuspendLayout();
+            this.radMLPopupContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMultiLang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radMultiLangPopupEditor)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // radMLPopupContainer
+            // 
+            this.radMLPopupContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radMLPopupContainer.Location = new System.Drawing.Point(0, 0);
+            this.radMLPopupContainer.Name = "radMLPopupContainer";
+            // 
+            // radMLPopupContainer.PanelContainer
+            // 
+            this.radMLPopupContainer.PanelContainer.Controls.Add(this.dataGridViewMultiLang);
+            this.radMLPopupContainer.PanelContainer.Size = new System.Drawing.Size(364, 75);
+            this.radMLPopupContainer.Size = new System.Drawing.Size(366, 77);
+            this.radMLPopupContainer.TabIndex = 2;
+            this.radMLPopupContainer.Text = "radMLPopupContainer";
+            this.radMLPopupContainer.Enter += new System.EventHandler(this.radMLPopupContainer_Enter);
+            this.radMLPopupContainer.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewMultiLang_KeyDown);
+            // 
+            // dataGridViewMultiLang
+            // 
+            this.dataGridViewMultiLang.AllowUserToAddRows = false;
+            this.dataGridViewMultiLang.AllowUserToDeleteRows = false;
+            this.dataGridViewMultiLang.AllowUserToResizeColumns = false;
+            this.dataGridViewMultiLang.AllowUserToResizeRows = false;
+            this.dataGridViewMultiLang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewMultiLang.ColumnHeadersVisible = false;
+            this.dataGridViewMultiLang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dGVCultureInfoName,
+            this.dGVText});
+            this.dataGridViewMultiLang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewMultiLang.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.dataGridViewMultiLang.Location = new System.Drawing.Point(0, 0);
+            this.dataGridViewMultiLang.MultiSelect = false;
+            this.dataGridViewMultiLang.Name = "dataGridViewMultiLang";
+            this.dataGridViewMultiLang.RowHeadersVisible = false;
+            this.dataGridViewMultiLang.Size = new System.Drawing.Size(364, 75);
+            this.dataGridViewMultiLang.TabIndex = 0;
+            this.dataGridViewMultiLang.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridViewMultiLang_KeyDown);
+            // 
+            // dGVCultureInfoName
+            // 
+            this.dGVCultureInfoName.Frozen = true;
+            this.dGVCultureInfoName.HeaderText = "CultureInfoName";
+            this.dGVCultureInfoName.MinimumWidth = 10;
+            this.dGVCultureInfoName.Name = "dGVCultureInfoName";
+            this.dGVCultureInfoName.ReadOnly = true;
+            this.dGVCultureInfoName.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dGVCultureInfoName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.dGVCultureInfoName.Width = 40;
+            // 
+            // dGVText
+            // 
+            this.dGVText.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dGVText.HeaderText = "Text";
+            this.dGVText.Name = "dGVText";
+            this.dGVText.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // radMultiLangPopupEditor
+            // 
+            this.radMultiLangPopupEditor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.radMultiLangPopupEditor.Location = new System.Drawing.Point(0, 0);
+            this.radMultiLangPopupEditor.Name = "radMultiLangPopupEditor";
+            this.radMultiLangPopupEditor.ShowTextBox = false;
+            this.radMultiLangPopupEditor.Size = new System.Drawing.Size(366, 20);
+            this.radMultiLangPopupEditor.TabIndex = 3;
+            this.radMultiLangPopupEditor.Text = "radPopupEditor1";
+            // 
+            // MultiLanguageTextBox
+            // 
+            this.Controls.Add(this.radMultiLangPopupEditor);
+            this.Controls.Add(this.radMLPopupContainer);
+            this.Name = "MultiLanguageTextBox";
+            this.Size = new System.Drawing.Size(366, 77);
+            this.radMLPopupContainer.PanelContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.radMLPopupContainer)).EndInit();
+            this.radMLPopupContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMultiLang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radMultiLangPopupEditor)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private Telerik.WinControls.UI.RadPopupContainer radMLPopupContainer;
+        private DataGridView dataGridViewMultiLang;
+        private DataGridViewTextBoxColumn dGVCultureInfoName;
+        private DataGridViewTextBoxColumn dGVText;
+        private Telerik.WinControls.UI.RadPopupEditor radMultiLangPopupEditor;
+    }
+}

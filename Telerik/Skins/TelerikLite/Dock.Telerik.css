@@ -1,0 +1,17 @@
+.RadDock_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadDock_Telerik .rdTitleWrapper {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea);
+    border-color: inherit; }
+  .RadDock_Telerik .rdCommandButton:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+

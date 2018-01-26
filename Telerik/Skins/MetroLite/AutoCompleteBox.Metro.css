@@ -1,0 +1,47 @@
+.RadAutoCompleteBox_Metro {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBox_Metro .racTokenList {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_Metro .racToken {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadAutoCompleteBox_Metro .racTokenList.racHovered {
+    border-color: #cecece;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_Metro .racToken.racHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadAutoCompleteBox_Metro .racTokenList.racFocused {
+    border-color: #25a0da;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_Metro .racToken.racFocused {
+    border-color: #25a0da;
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadAutoCompleteBox_Metro .racToken.racSelected {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadAutoCompleteBox_Metro .p-i-loading {
+    background-image: url('../Metro/Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBoxPopup_Metro .racItemHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadAutoCompleteBoxPopup_Metro .racFocused {
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadAutoCompleteBoxPopup_Metro .racItemSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+

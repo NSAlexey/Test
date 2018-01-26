@@ -1,0 +1,78 @@
+.RadInput_Black .riTextBox,
+.RadInput_Black .riSelect,
+.RadInput_Black .rcSelect,
+.RadInputMgr_Black {
+  border-color: #080808;
+  color: #ffffff;
+  background-color: #464646; }
+
+.RadInput_Black .riEmpty,
+.RadInput_Empty_Black {
+  color: rgba(255, 255, 255, 0.8); }
+
+.RadInput_Black.RadInputHovered .riTextBox,
+.RadInput_Black.RadInputHovered .riSelect,
+.RadInput_Black.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: black;
+  color: #ffffff;
+  background-color: #464646; }
+
+.RadInput_Black.RadInputFocused .riTextBox,
+.RadInput_Black.RadInputFocused .riSelect,
+.RadInput_Black.RadInputFocused .rcSelect,
+.RadInput_Focused_Black {
+  border-color: #070707;
+  color: #ffffff;
+  background-color: #464646; }
+
+.RadInput_Black.RadInputError .riTextBox,
+.RadInput_Black.RadInputError .riSelect,
+.RadInput_Black.RadInputError .rcSelect,
+.RadInput_Error_Black,
+.RadForm.rfdTextbox .RadInput_Black .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #c7000b;
+  color: #c7000b; }
+
+.RadInput_Black.RadInputError {
+  color: #c7000b; }
+
+.RadInput_Black .riNegative, .RadInput_Negative_Black {
+  color: #aaa; }
+
+.RadInput_Black a,
+.RadInput_Black.RadInputDisabled a:hover,
+.RadInput_Black.RadInputDisabled a:active {
+  border-color: #080808;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  background-image: linear-gradient(#7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b); }
+
+.RadInput_Black a:hover {
+  border-color: black;
+  color: #ffffff;
+  background-color: #020202;
+  background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+
+.RadInput_Black a:focus, .RadInput_Black a:active {
+  border-color: #070707;
+  color: #9eda29;
+  background-color: #202020;
+  background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+
+.RadInput_Black .riLabel {
+  color: #fff; }
+
+.RadInput_Black .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../Black/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_Black .riError, .RadInputRTL_Error_Black {
+  background-position: 3px -298px; }
+
+.RadInputRTL_Black .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_Black .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_Black[type="text"] {
+  background-position: 3px -298px; }
+

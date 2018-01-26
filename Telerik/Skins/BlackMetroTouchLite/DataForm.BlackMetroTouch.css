@@ -1,0 +1,11 @@
+.RadDataForm_BlackMetroTouch {
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataForm_BlackMetroTouch .rdfLegend,
+  .RadDataForm_BlackMetroTouch .rdfBorders {
+    border-color: #555555; }
+  .RadDataForm_BlackMetroTouch .rdfHr {
+    color: #555555; }
+  .RadDataForm_BlackMetroTouch .rdfFieldHint {
+    color: white; }
+

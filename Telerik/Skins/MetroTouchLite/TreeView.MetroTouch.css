@@ -1,0 +1,19 @@
+.RadTreeView_MetroTouch {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_MetroTouch .rtChkTristate:hover {
+    color: #25a0da; }
+  .RadTreeView_MetroTouch .rtLoadingIcon {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+  .RadTreeView_MetroTouch .rtPlusHover,
+  .RadTreeView_MetroTouch .rtMinusHover {
+    color: #25a0da; }
+  .RadTreeView_MetroTouch .rtHover .rtIn {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadTreeView_MetroTouch .rtSelected .rtIn {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+

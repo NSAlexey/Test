@@ -1,0 +1,197 @@
+.RadForm_Windows7 {
+  color: #1e395b;
+  background-color: #ffffff; }
+  .RadForm_Windows7 .rfdHeading {
+    color: #1e395b;
+    border-bottom-color: #aabfd6; }
+  .RadForm_Windows7.rfdFieldset fieldset {
+    border-color: #aabfd6;
+    color: #4c607a;
+    background-color: #f1f5fb; }
+  .RadForm_Windows7 .rfdAspLabel,
+  .RadForm_Windows7.rfdLabel label {
+    color: #1e395b; }
+  .RadForm_Windows7 .rfdSkinnedButton {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadForm_Windows7 .rfdSkinnedButton:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadForm_Windows7 .rfdSkinnedButton:active,
+  .RadForm_Windows7 .rfdClickedButton,
+  .RadForm_Windows7 .rfdFocusedButton {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadForm_Windows7 .rfdSkinnedButton.rfdInputDisabled {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadForm_Windows7 .rfdPrimaryButton {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #9cc8ff;
+    background-image: linear-gradient(#e3effb, #d9e9fc 50%, #d0e1f7 50%, #d0e3f9);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadForm_Windows7 .rfdPrimaryButton:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadForm_Windows7 .rfdPrimaryButton:active,
+  .RadForm_Windows7 .rfdPrimaryButton.rfdClickedButton,
+  .RadForm_Windows7 .rfdPrimaryButton.rfdFocusedButton {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadForm_Windows7 .rfdPrimaryButton.rfdInputDisabled {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #9cc8ff;
+    background-image: linear-gradient(#e3effb, #d9e9fc 50%, #d0e1f7 50%, #d0e3f9);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadForm_Windows7 .rfdTextInput,
+  .RadForm_Windows7.rfdTextarea textarea {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadForm_Windows7 .rfdTextInput:hover,
+  .RadForm_Windows7.rfdTextarea textarea:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadForm_Windows7 .rfdTextInput:active,
+  .RadForm_Windows7.rfdTextarea textarea:active,
+  .RadForm_Windows7 .rfdTextInput:focus,
+  .RadForm_Windows7.rfdTextarea textarea:focus {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadForm_Windows7 .rfdTextInput:disabled,
+  .RadForm_Windows7.rfdTextarea textarea:disabled {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadForm_Windows7 .rfdRadioChecked:before,
+  .RadForm_Windows7 .rfdCheckboxChecked:before {
+    color: #4c93cc; }
+  .RadForm_Windows7 .rfdRadioUnchecked:hover:before,
+  .RadForm_Windows7 .rfdCheckboxUnchecked:hover:before,
+  .RadForm_Windows7 .rfdRadioChecked:hover:before,
+  .RadForm_Windows7 .rfdCheckboxChecked:hover:before {
+    color: #2d6c9e; }
+  .RadForm_Windows7 .rfdRealInput:focus + .rfdRadioUnchecked:before,
+  .RadForm_Windows7 .rfdRealInput:focus + .rfdCheckboxUnchecked:before {
+    box-shadow: 0 0 1px 1px rgba(30, 57, 91, 0.5); }
+  .RadForm_Windows7 .rfdRealInput:focus + .rfdRadioChecked:before,
+  .RadForm_Windows7 .rfdRealInput:focus + .rfdCheckboxChecked:before {
+    box-shadow: 0 0 1px 1px rgba(76, 147, 204, 0.5); }
+  .RadForm_Windows7 .rfdSelect_Windows7 {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadForm_Windows7 .rfdSelect_Windows7:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadForm_Windows7 .rfdSelect_Windows7:active,
+  .RadForm_Windows7 .rfdSelect_Windows7:focus {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadForm_Windows7 .rfdSelect_Windows7.rfdSelectDisabled {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadForm_Windows7.rfdScrollBars .rfdSelectBox::-webkit-scrollbar,
+  .RadForm_Windows7.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Windows7.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:horizontal,
+  .RadForm_Windows7.rfdScrollBars form::-webkit-scrollbar,
+  .RadForm_Windows7.rfdScrollBars form::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Windows7.rfdScrollBars form::-webkit-scrollbar-thumb:horizontal {
+    background-color: #f1f5fb; }
+  .RadForm_Windows7.rfdScrollBars textarea::-webkit-scrollbar-corner {
+    background-color: #e6e6e6; }
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal {
+    border-color: #aabfd6;
+    background-color: #f1f5fb; }
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_Windows7.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+    background-image: url('../Windows7/Common/radActionsSprite.png');
+    background-color: #f1f5fb; }
+  .RadForm_Windows7.rfdScrollBars {
+    scrollbar-3dlight-color: #ccdaea;
+    scrollbar-arrow-color: #526680;
+    scrollbar-base-color: #ff6347;
+    scrollbar-darkshadow-color: #a9bfd6;
+    scrollbar-face-color: #dce6f4;
+    scrollbar-highlight-color: #f0f0f0;
+    scrollbar-shadow-color: #dce6f4;
+    scrollbar-track-color: #f6f9fe; }
+  .RadForm_Windows7 .rfdTable {
+    border-color: #aabfd6;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadForm_Windows7 .rfdTable th {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb; }
+  .RadForm_Windows7 .rfdTable a {
+    color: #4c93cc; }
+  .RadForm_Windows7 .rfdTable a:hover {
+    color: #2d6c9e; }
+  .RadForm_Windows7 .rfdLoginControl,
+  .RadForm_Windows7 .rfdValidationSummaryControl {
+    border-color: #aabfd6;
+    color: #4c607a;
+    background-color: #f1f5fb; }
+  .RadForm_Windows7 a.rfdLoginControl,
+  .RadForm_Windows7 a.rfdLoginControl:active,
+  .RadForm_Windows7 a.rfdLoginControl:visited {
+    color: #1e395b; }
+  .RadForm_Windows7 a.rfdLoginControl:hover {
+    color: #000000; }
+
+.rfdSelectBox_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.rfdSelectBox_Windows7 li:hover,
+.rfdSelectBox_Windows7 .rfdSelect_hovered {
+  color: #1e395b;
+  background-color: #edf4fd; }
+
+.rfdSelectBox_Windows7 .rfdSelect_selected,
+.rfdSelectBox_Windows7 .rfdSelect_selected:hover {
+  color: #1e395b;
+  background-color: #c2dcfc; }
+

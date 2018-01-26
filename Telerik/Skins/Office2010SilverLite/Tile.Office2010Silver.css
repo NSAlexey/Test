@@ -1,0 +1,18 @@
+.RadTile_Office2010Silver {
+  color: #3b3b3b;
+  background-color: #dbdde1; }
+  .RadTile_Office2010Silver .rtilePeekContent {
+    background-color: #dbdde1; }
+  .RadTile_Office2010Silver.rtileSelected .rtileSelectedIcon {
+    color: #333333;
+    background-color: #e29f00; }
+  .RadTile_Office2010Silver.rtileHovered {
+    border-color: #f3d64a; }
+  .RadTile_Office2010Silver.rtileSelected {
+    border-color: #e29f00; }
+  .RadTile_Office2010Silver.rtileSelected.rtileHovered {
+    border-color: #af7b00; }
+  .RadTile_Office2010Silver.rtileLoading,
+  .RadTile_Office2010Silver .rtileLoading {
+    background-image: url('../Office2010Silver/Common/loading_small.gif'); }
+

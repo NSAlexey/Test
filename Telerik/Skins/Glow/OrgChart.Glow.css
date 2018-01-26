@@ -1,0 +1,129 @@
+.RadOrgChart_Glow {
+  color: #e2e8eb;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Loading states */ }
+  .RadOrgChart_Glow .rocGroup {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #999999; }
+    :root .RadOrgChart_Glow .rocGroup {
+      background-color: rgba(0, 0, 0, 0.4); }
+  .RadOrgChart_Glow .rocItemContent,
+  .RadOrgChart_Glow .rocItemTemplate {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    border-radius: 5px; }
+  .RadOrgChart_Glow .rocExpandArrow,
+  .RadOrgChart_Glow .rocCollapseArrow,
+  .RadOrgChart_Glow .rocExpandGroupArrow,
+  .RadOrgChart_Glow .rocCollapseGroupArrow {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background-image: url('Common/radActionsSprite.png');
+    z-index: 1000; }
+    .RadOrgChart_Glow .rocExpandArrow:hover,
+    .RadOrgChart_Glow .rocCollapseArrow:hover,
+    .RadOrgChart_Glow .rocExpandGroupArrow:hover,
+    .RadOrgChart_Glow .rocCollapseGroupArrow:hover {
+      border-color: #cd8100;
+      color: #733700;
+      background-color: #cd8100;
+      background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadOrgChart_Glow .rocExpandArrow,
+  .RadOrgChart_Glow .rocCollapseArrow {
+    margin-left: -9px;
+    bottom: -9px; }
+  .RadOrgChart_Glow .rocExpandArrow {
+    background-position: -17px -1067px; }
+    .RadOrgChart_Glow .rocExpandArrow:hover {
+      background-position: -67px -1067px; }
+  .RadOrgChart_Glow .rocCollapseArrow {
+    background-position: -17px -1017px; }
+    .RadOrgChart_Glow .rocCollapseArrow:hover {
+      background-position: -67px -1017px; }
+  .RadOrgChart_Glow .rocExpandGroupArrow {
+    background-position: -17px -1167px; }
+    .RadOrgChart_Glow .rocExpandGroupArrow:hover {
+      background-position: -67px -1167px; }
+  .RadOrgChart_Glow .rocCollapseGroupArrow {
+    background-position: -17px -1117px; }
+    .RadOrgChart_Glow .rocCollapseGroupArrow:hover {
+      background-position: -67px -1117px; }
+  .RadOrgChart_Glow .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Glow .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Glow .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Glow .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('Common/loading_small.gif'); }
+  .RadOrgChart_Glow .rocLineUp,
+  .RadOrgChart_Glow .rocLineDown,
+  .RadOrgChart_Glow .rocLineHorizontal {
+    background-image: url('../Common/OrgChart/rocLinesDark.png'); }
+  .RadOrgChart_Glow.rocDetachedItemContainer .rocGhostItem,
+  .RadOrgChart_Glow.rocDetachedItemContainer .rocGhostNode, .RadOrgChart_Glow.rocDetachedNodeContainer .rocGhostItem,
+  .RadOrgChart_Glow.rocDetachedNodeContainer .rocGhostNode {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .RadOrgChart_Glow.rocDetachedItemContainer .rocDropClue, .RadOrgChart_Glow.rocDetachedNodeContainer .rocDropClue {
+    background-image: url('../Common/Actions/actionDragDropDark.png'); }
+
+.rocToolbar_Glow {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none; }
+  @media \0screen\,screen\9 {
+    .rocToolbar_Glow {
+      background-color: #999999; } }
+  .rocToolbar_Glow ul {
+    margin-left: -5px; }
+  .rocToolbar_Glow li {
+    margin-left: 5px;
+    border-radius: 3px; }
+  .rocToolbar_Glow .rocToolbarButton {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    border-radius: 3px;
+    border-color: #35434b;
+    background-image: url('OrgChart/rocActionsSprite.png');
+    background-position: 0 0;
+    text-indent: -999em;
+    float: left;
+    overflow: hidden; }
+    .rocToolbar_Glow .rocToolbarButton:first-child {
+      margin: 0; }
+    .rocToolbar_Glow .rocToolbarButton:hover {
+      border-color: #cd8100;
+      color: #733700;
+      background-color: #cd8100;
+      background-image: linear-gradient(#ffa201, #cd8100); }
+    .rocToolbar_Glow .rocToolbarButton:active {
+      border-color: #cd8100;
+      color: #733700;
+      background-color: #ffa915;
+      background-image: none; }
+    .rocToolbar_Glow .rocToolbarButton.rocActionDrillHere {
+      background-position: 0px 0; }
+      .rocToolbar_Glow .rocToolbarButton.rocActionDrillHere:hover {
+        background-position: -16px 0; }
+      .rocToolbar_Glow .rocToolbarButton.rocActionDrillHere:active {
+        background-position: -32px 0; }
+    .rocToolbar_Glow .rocToolbarButton.rocActionGoToParent {
+      background-position: 0px -16px; }
+      .rocToolbar_Glow .rocToolbarButton.rocActionGoToParent:hover {
+        background-position: -16px -16px; }
+    .rocToolbar_Glow .rocToolbarButton.rocActionGoToRoot {
+      background-position: 0px -32px; }
+      .rocToolbar_Glow .rocToolbarButton.rocActionGoToRoot:hover {
+        background-position: -16px -32px; }
+

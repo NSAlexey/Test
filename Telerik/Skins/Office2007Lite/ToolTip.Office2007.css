@@ -1,0 +1,26 @@
+.RadToolTip_Office2007 {
+  border-color: #688caf;
+  color: #00156e;
+  background-color: #d6e6f4; }
+  .RadToolTip_Office2007 .rtClose {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+  .RadToolTip_Office2007 .rtClose:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+  .RadToolTip_Office2007 .rtClose:active {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadToolTip_Office2007 .rtCallout {
+    border-color: #688caf; }
+  .RadToolTip_Office2007 .rtCallout:before {
+    border-color: #d6e6f4; }
+  .RadToolTip_Office2007.rtLoading {
+    background-image: url('../Office2007/Common/loading.gif'); }
+

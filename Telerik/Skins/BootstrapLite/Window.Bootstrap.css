@@ -1,0 +1,76 @@
+.RadWindow_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadWindow_Bootstrap .rwTitleBar {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke;
+    margin: 0;
+    border-radius: 4px 4px 0 0; }
+  .RadWindow_Bootstrap .rwTitleWrapper {
+    padding: 10px; }
+  .RadWindow_Bootstrap .rwCommands {
+    margin-top: -15px; }
+  .RadWindow_Bootstrap .rwCommandButton {
+    padding: 6px; }
+  .RadWindow_Bootstrap .rwCommandButton:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadWindow_Bootstrap .rwContent {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff;
+    border-width: 1px 0; }
+  .RadWindow_Bootstrap .rwStatusBar {
+    padding: 10px 15px;
+    border-width: 0; }
+  .RadWindow_Bootstrap .rwDialogButtons button {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Bootstrap .rwDialogButtons button:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadWindow_Bootstrap .rwDialogButtons button:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadWindow_Bootstrap .rwPromptDialog .rwOkBtn,
+  .RadWindow_Bootstrap .rwConfirmDialog .rwOkBtn {
+    border-color: #2e6da4;
+    color: #ffffff;
+    background-color: #337ab7; }
+  .RadWindow_Bootstrap .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Bootstrap .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #204d74;
+    color: #ffffff;
+    background-color: #286090; }
+  .RadWindow_Bootstrap .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Bootstrap .rwConfirmDialog .rwOkBtn:active {
+    border-color: #122b40;
+    color: #ffffff;
+    background-color: #286090; }
+  .RadWindow_Bootstrap .rwPromptInput {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Bootstrap .rwPromptInput:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Bootstrap .rwPromptInput:active,
+  .RadWindow_Bootstrap .rwPromptInput:focus {
+    border-color: #3c87c8;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Bootstrap .rwLoading.rwStatusBar {
+    background-image: url('../Bootstrap/Common/loading_small.gif'); }
+  .RadWindow_Bootstrap.rwLoading .rwExternalContent {
+    background-image: url('../Bootstrap/Common/loading.gif'); }
+

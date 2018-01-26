@@ -1,0 +1,36 @@
+.RadUploadProgressArea_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadUploadProgressArea_Outlook .ruHeader {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .RadUploadProgressArea_Outlook .ruFooter {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #d6e6f4; }
+  .RadUploadProgressArea_Outlook .ruProgressBar {
+    border-radius: 3px;
+    border-color: #b7bdcd;
+    background-color: #d6e6f4;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadUploadProgressArea_Outlook .ruProgress {
+    border-radius: 3px;
+    border-color: #b7bdcd;
+    background-color: #326cc6;
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadUploadProgressArea_Outlook .radButton {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    border-radius: 3px; }
+    .RadUploadProgressArea_Outlook .radButton.ruHovered {
+      border-color: #003c74;
+      color: #000000;
+      background-color: #ebe8e3;
+      background-image: linear-gradient(#fdfdfd, #ebe8e3);
+      box-shadow: inset 0 0 1px 2px #fbc860; }
+

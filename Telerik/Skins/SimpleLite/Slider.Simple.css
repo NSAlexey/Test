@@ -1,0 +1,49 @@
+.RadSlider_Simple {
+  color: #333333; }
+  .RadSlider_Simple .rslTrack {
+    border-color: #c4c4c4;
+    background-color: #eaeaea; }
+  .RadSlider_Simple .rslItem {
+    background-image: url('../Simple/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Simple .rslSelectedregion {
+    background-color: #ffe79c; }
+  .RadSlider_Simple .rslHandle,
+  .RadSlider_Simple .rslDraghandle {
+    border-radius: 0;
+    border-color: #7c7c7c;
+    color: #000000;
+    background-color: #e2e2e2; }
+    .RadSlider_Simple .rslHandle:hover,
+    .RadSlider_Simple .rslDraghandle:hover {
+      border-color: #ca8500;
+      color: #882501;
+      background-color: #ffe79c; }
+    .RadSlider_Simple .rslHandle:active, .RadSlider_Simple .rslHandle:focus,
+    .RadSlider_Simple .rslDraghandle:active,
+    .RadSlider_Simple .rslDraghandle:focus {
+      border-color: #ca4900;
+      color: #882501;
+      background-color: #ffa517; }
+  .RadSlider_Simple .rslVertical .rslItem {
+    background-image: url('../Simple/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Simple .rslTop .rslSmallTick,
+  .RadSlider_Simple .rslBottom .rslSmallTick {
+    background-image: url('../Simple/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Simple .rslTop .rslLargeTick,
+  .RadSlider_Simple .rslBottom .rslLargeTick {
+    background-image: url('../Simple/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Simple .rslLeft .rslSmallTick,
+  .RadSlider_Simple .rslRight .rslSmallTick {
+    background-image: url('../Simple/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Simple .rslLeft .rslLargeTick,
+  .RadSlider_Simple .rslRight .rslLargeTick {
+    background-image: url('../Simple/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Simple .rslMiddle .rslSmallTick {
+    background-image: url('../Simple/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Simple .rslMiddle .rslLargeTick {
+    background-image: url('../Simple/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Simple .rslCenter .rslSmallTick {
+    background-image: url('../Simple/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Simple .rslCenter .rslLargeTick {
+    background-image: url('../Simple/Slider/LargelChangeCenterVertical.gif'); }
+

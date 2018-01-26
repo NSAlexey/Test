@@ -1,0 +1,284 @@
+.RadTreeList_Glow,
+.rtlCEdit div.RadTreeList_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+
+.RadTreeList_Glow a,
+.RadTreeList_Glow input {
+  color: #e2e8eb; }
+
+.RadTreeList_Glow .rtlAdd,
+.RadTreeList_Glow .rtlEdit,
+.RadTreeList_Glow .rtlUpdate,
+.RadTreeList_Glow .rtlCancel,
+.RadTreeList_Glow .rtlDel {
+  background-image: url('Common/radActionsSprite.png');
+  width: 23px;
+  height: 23px; }
+
+.RadTreeList_Glow .rtlCancel {
+  background-position: -12px -2812px; }
+  .RadTreeList_Glow .rtlCancel:hover, .RadTreeList_Glow .rtlCancel:active {
+    background-position: -62px -2812px; }
+
+.RadTreeList_Glow .rtlUpdate {
+  background-position: -12px -2612px; }
+  .RadTreeList_Glow .rtlUpdate:hover, .RadTreeList_Glow .rtlUpdate:active {
+    background-position: -62px -2612px; }
+
+.RadTreeList_Glow .rtlAdd,
+.RadTreeList_Glow .rtlHeader .rtlAdd {
+  background-position: -12px -3012px; }
+  .RadTreeList_Glow .rtlAdd:hover, .RadTreeList_Glow .rtlAdd:active,
+  .RadTreeList_Glow .rtlHeader .rtlAdd:hover,
+  .RadTreeList_Glow .rtlHeader .rtlAdd:active {
+    background-position: -62px -3012px; }
+
+.RadTreeList_Glow .rtlRefresh {
+  background-position: -12px -1312px; }
+  .RadTreeList_Glow .rtlRefresh:hover, .RadTreeList_Glow .rtlRefresh:active {
+    background-position: -62px -1312px; }
+
+.RadTreeList_Glow .rtlEdit {
+  background-position: -12px -3112px; }
+  .RadTreeList_Glow .rtlEdit:hover, .RadTreeList_Glow .rtlEdit:active {
+    background-position: -62px -3112px; }
+
+.RadTreeList_Glow .rtlDel {
+  background-position: -12px -3312px; }
+  .RadTreeList_Glow .rtlDel:hover, .RadTreeList_Glow .rtlDel:active {
+    background-position: -62px -3312px; }
+
+.RadTreeList_Glow .rtlTable {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 22px; }
+
+.TreeListToolTip_Glow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 22px; }
+
+.RadTreeList_Glow table.rtlHBorders .rtlR > td,
+.RadTreeList_Glow table.rtlHBorders .rtlA > td,
+.RadTreeList_Glow table.rtlHBorders .rtlREdit > td,
+.RadTreeList_Glow table.rtlHBorders .rtlRFooter > td,
+.RadTreeList_Glow table .rtlHeader th {
+  padding: 7px 10px; }
+
+.RadTreeList_Glow .rtlPagerCell {
+  padding: 7px 0; }
+
+.RadTreeList_Glow thead .rtlPagerCell {
+  border-color: #1c2327; }
+
+.RadTreeList_Glow .rtlHeader {
+  background: #1c262c;
+  color: #e2e8eb;
+  border-width: 0;
+  font-size: 9px;
+  text-transform: uppercase;
+  border-color: #182126; }
+  .RadTreeList_Glow .rtlHeader a {
+    color: #e2e8eb; }
+
+.RadTreeList_Glow .rtlVBorders .rtlHeader th {
+  border-width: 0; }
+
+.RadTreeList_Glow .rtlScroller {
+  border-color: #35434b; }
+
+.RadTreeList_Glow .rtlRFooter {
+  background-color: #242e35; }
+
+.rtlCEdit .RadTreeList_Glow {
+  border-right: 1px solid;
+  border-top: 1px solid; }
+
+.RadTreeList_Glow .rtlR td,
+.RadTreeList_Glow .rtlA td,
+.RadTreeList_Glow .rtlREdit td,
+.RadTreeList_Glow .rtlRFooter td,
+.RadTreeList_Glow .rtlEditForm {
+  border-color: #1c2327; }
+
+.RadTreeList_Glow .rtlVBorders .rtlR td,
+.RadTreeList_Glow .rtlVBorders .rtlA td,
+.RadTreeList_Glow .rtlVBorders .rtlREdit td,
+.RadTreeList_Glow .rtlVBorders .rtlRFooter td {
+  border-left-width: 0; }
+
+.RadTreeList_Glow .rtlRSel {
+  background: #ffa915; }
+  .RadTreeList_Glow .rtlRSel, .RadTreeList_Glow .rtlRSel input {
+    color: #000000; }
+  .RadTreeList_Glow .rtlRSel a {
+    color: #b35000;
+    text-decoration: none; }
+    .RadTreeList_Glow .rtlRSel a:hover {
+      text-decoration: underline; }
+
+.RadTreeList_Glow .rtlRActive {
+  background: #4d5c65;
+  color: #733700; }
+
+.RadTreeList_Glow .rtlVBorders td.rtlL,
+.RadTreeList_Glow .rtlLines td.rtlL {
+  background-color: #35434b; }
+
+.RadTreeList_Glow .rtlDrag,
+.RadTreeList_Glow .rtlExpand,
+.RadTreeList_Glow .rtlCollapse,
+.RadTreeList_Glow .rtlSortAsc,
+.RadTreeList_Glow .rtlSortDesc {
+  background-image: url('Common/radActionsSprite.png'); }
+
+.RadTreeList_Glow .rtlExpand,
+.RadTreeList_Glow .rtlCollapse {
+  width: 17px;
+  height: 19px;
+  margin: 0 0 0 16px;
+  background-color: #35434b; }
+
+.RadTreeList_Glow .rtlExpand {
+  background-position: -16.5px -166.5px; }
+
+.RadTreeList_Glow .rtlCollapse {
+  background-position: -66.5px -65.5px; }
+
+.RadTreeList_Glow .rtlSortAsc {
+  background-position: -17.5px -18px;
+  height: 14px;
+  width: 15px; }
+
+.RadTreeList_Glow .rtlSortDesc {
+  background-position: -17.5px -68px;
+  height: 14px;
+  width: 15px; }
+
+.RadTreeList_Glow .rtlLines td.rtlL0 {
+  background-image: url('TreeList/rtlSingle.gif'); }
+
+.RadTreeList_Glow .rtlLines td.rtlL1 {
+  background-image: url('TreeList/rtlTop.gif'); }
+
+.RadTreeList_Glow .rtlLines td.rtlL2 {
+  background-image: url('TreeList/rtlMiddle.gif'); }
+
+.RadTreeList_Glow .rtlLines td.rtlL3 {
+  background-image: url('TreeList/rtlBottom.gif'); }
+
+html .RadTreeList_Glow table.rtlLines td.rtlL {
+  padding: 3px; }
+
+.TreeListReorderTop_Glow,
+.TreeListReorderBottom_Glow {
+  background-image: url('Common/radActionsSprite.png');
+  background-repeat: no-repeat;
+  background-position: -20px -70px; }
+
+.TreeListReorderBottom_Glow {
+  background-position: -20px -20px; }
+
+.RadTreeList_Glow .rtlDragHandle {
+  background-image: url('Grid/rgDrag.gif'); }
+
+.TreeListToolTip_Glow {
+  border-color: #828282;
+  background: #35434b;
+  color: #e2e8eb; }
+
+.RadTreeListRTL_Glow .rtlLines td.rtlL1 {
+  background-image: url('TreeList/rtlTopRTL.gif'); }
+
+.RadTreeListRTL_Glow .rtlLines td.rtlL2 {
+  background-image: url('TreeList/rtlMiddleRTL.gif'); }
+
+.RadTreeListRTL_Glow .rtlLines td.rtlL3 {
+  background-image: url('TreeList/rtlBottomRTL.gif'); }
+
+.RadTreeList_Glow .rtlPager {
+  background: #202b32;
+  color: #e2e8eb; }
+
+.RadTreeList_Glow .rtlPagerCell {
+  border-width: 0; }
+
+.RadTreeList_Glow .rtlPager .rtlWrap {
+  line-height: 28px; }
+
+.RadTreeList_Glow .rtlPager .rtlPagerLabel,
+.RadTreeList_Glow .rtlPager .RadComboBox {
+  vertical-align: middle; }
+
+.RadTreeList_Glow .rtlPager .rtlPagerButton,
+.RadTreeList_Glow .rtlPager .riSingle .riTextBox {
+  height: 29px;
+  line-height: 22px; }
+
+.RadTreeList_Glow .rtlPager .rtlInfoPart strong {
+  color: #ffa915; }
+
+.RadTreeList_Glow .rtlPager .rtlPageFirst,
+.RadTreeList_Glow .rtlPager .rtlPagePrev,
+.RadTreeList_Glow .rtlPager .rtlPageNext,
+.RadTreeList_Glow .rtlPager .rtlPageLast {
+  background-image: url('Grid/sprite.png');
+  width: 30px;
+  height: 30px; }
+
+.RadTreeList_Glow .rtlPager .rtlPageFirst {
+  background-position: 0 -150px; }
+  .RadTreeList_Glow .rtlPager .rtlPageFirst:hover {
+    background-position: 0 -350px; }
+  .RadTreeList_Glow .rtlPager .rtlPageFirst:active {
+    background-position: 0 -550px; }
+
+.RadTreeList_Glow .rtlPager .rtlPagePrev {
+  background-position: 0 -200px; }
+  .RadTreeList_Glow .rtlPager .rtlPagePrev:hover {
+    background-position: 0 -400px; }
+  .RadTreeList_Glow .rtlPager .rtlPagePrev:active {
+    background-position: 0 -600px; }
+
+.RadTreeList_Glow .rtlPager .rtlPageNext {
+  background-position: 0 -250px; }
+  .RadTreeList_Glow .rtlPager .rtlPageNext:hover {
+    background-position: 0 -450px; }
+  .RadTreeList_Glow .rtlPager .rtlPageNext:active {
+    background-position: 0 -650px; }
+
+.RadTreeList_Glow .rtlPager .rtlPageLast {
+  background-position: 0 -300px; }
+  .RadTreeList_Glow .rtlPager .rtlPageLast:hover {
+    background-position: 0 -500px; }
+  .RadTreeList_Glow .rtlPager .rtlPageLast:active {
+    background-position: 0 -700px; }
+
+.RadTreeList_Glow .rtlPager .rtlPagerButton {
+  background-image: url('../Common/Gradients/radGradientLightV20.png');
+  background-repeat: repeat-x;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  border: 1px solid #35434b;
+  color: #e2e8eb;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 22px; }
+
+.RadTreeList_Glow .rtlPager .rtlNumPart a {
+  border-radius: 4px;
+  line-height: 28px;
+  color: white;
+  margin-right: 1px;
+  margin-top: 1px; }
+  .RadTreeList_Glow .rtlPager .rtlNumPart a:hover {
+    color: #000;
+    background-color: #ffa800;
+    background-image: linear-gradient(#ffa800, #d07f00); }
+  .RadTreeList_Glow .rtlPager .rtlNumPart a.rtlCurrentPage {
+    border: 1px solid #ffa915;
+    color: #ffa915;
+    margin-top: 0; }
+

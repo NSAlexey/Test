@@ -1,0 +1,276 @@
+.RadRibbonBar_Office2010Blue {
+  font: 11px "Segoe UI", Arial, sans-serif; }
+  .RadRibbonBar_Office2010Blue .rrbContentWrapIn {
+    border-color: #9fb2c7;
+    background-color: #d8e4f2;
+    background-image: url('RibbonBar/rrbGradients.png'); }
+
+.RadRibbonBar_Office2010Blue a.rrbCollapsedGroup span.rrbButtonMid .rrbButtonIn {
+  background-position: 0 -1px; }
+
+.RadRibbonBar_Office2010Blue span.rrbDecoration span.rrbButtonMid .rrbButtonIn {
+  background-image: none; }
+
+.RadRibbonBar_Office2010Blue .rrbContentWrapIn {
+  background-color: #d8e4f2; }
+
+.RadRibbonBar_Office2010Blue .rrbDecoration,
+.RadRibbonBar_Office2010Blue .rrbDecoration .rrbButtonMid,
+.RadRibbonBar_Office2010Blue .rrbButtonArea .rrbCollapsedGroup,
+.RadRibbonBar_Office2010Blue .rrbCollapsedGroup .rrbButtonMid {
+  background-color: #d8e4f2;
+  border-color: #9fb2c7; }
+
+.RadRibbonBar_Office2010Blue .rrbTabs {
+  border-bottom-color: #9fb2c7; }
+
+.RadRibbonBar_Office2010Blue .rrbApplicationTab .rrbTabLabel {
+  border-color: #9db2ce;
+  color: #384e73;
+  background-color: #bfcddf;
+  background-image: linear-gradient(#fafbfd, #bfcddf); }
+
+.RadRibbonBar_Office2010Blue .rrbHeaderBar {
+  border-color: #9babc2;
+  background-color: #bdcbde; }
+
+.RadRibbonBar_Office2010Blue .rrbContextualTab .rrbContextualTabLabel {
+  color: #ffffff; }
+
+.RadRibbonBar_Office2010Blue .rrbTab .rrbTabLabel {
+  border-color: transparent;
+  color: #1e395b;
+  border-radius: 5px 5px 0 0; }
+
+.RadRibbonBar_Office2010Blue .rrbHoveredTab .rrbTabLabel {
+  border-color: #8ba0bc; }
+
+.RadRibbonBar_Office2010Blue .rrbSelectedTab .rrbTabLabel {
+  border-color: #8ba0bc;
+  background: #ebf1f8; }
+
+.RadRibbonBar_Office2010Blue .rrbMenu .rrbMenuLabel {
+  color: #384e73;
+  background-color: #bdcbde; }
+
+.RadRibbonBar_Office2010Blue .rrbToolTip {
+  border-color: #8ba0bc;
+  border-radius: 3px;
+  color: #384e73;
+  background-color: #bdcbde; }
+
+.RadRibbonBar_Office2010Blue .rrbToggleHandle {
+  background-position: -2px -622px; }
+
+.RadRibbonBar_Office2010Blue.rrbMinimized .rrbToggleHandle,
+.RadRibbonBar_Office2010Blue.rrbExtendedChromeMinimized .rrbToggleHandle {
+  background-position: -2px -662px; }
+
+.RadRibbonBar_Office2010Blue .rrbButtonArea {
+  background-color: #f0f7fd;
+  background-image: url('RibbonBar/rrbGradients.png'); }
+
+.RadRibbonBar_Office2010Blue .rrbResizeHandle {
+  background-position: -5px -885px; }
+
+.RadRibbonBar_Office2010Blue .rrbGroupTitle {
+  color: #384e73;
+  background-color: #d8e4f2; }
+
+.RadRibbonBar_Office2010Blue .rrbGroupLauncher {
+  background-position: -6px -1926px; }
+
+.RadRibbonBar_Office2010Blue .rrbButtonGroupIn {
+  border-color: #9fb2c7;
+  border-radius: 3px;
+  background-color: #d8e4f2;
+  background-image: url('RibbonBar/rrbGradients.png');
+  background-position: 0 0; }
+
+.RadRibbonBar_Office2010Blue .rrbButtonGroupHover .rrbButtonGroupIn {
+  background-color: #d8e4f2; }
+
+.RadRibbonBar_Office2010Blue .rrbCollapsedGroup .rrbGroupToggleIcon {
+  background-position: -2px -422px; }
+
+.RadRibbonBar_Office2010Blue .rrbCollapsedGroup .rrbGroupIcon {
+  border-color: #9db2ce; }
+
+.RadRibbonBar_Office2010Blue .rrbQatButton, .RadRibbonBar_Office2010Blue .rrbButtonOut, .RadRibbonBar_Office2010Blue .rrbSplitButton:hover .rrbButtonArrow, .RadRibbonBar_Office2010Blue .rrbButtonStripPart, .RadRibbonBar_Office2010Blue .rrbComboBox .rrbActionButton,
+.RadRibbonBar_Office2010Blue .rrbDropDown .rrbActionButton,
+.RadRibbonBar_Office2010Blue .rrbNumericTextBox .rrbActionButton,
+.RadRibbonBar_Office2010Blue .rrbColorPicker .rrbActionButton, .RadRibbonBar_Office2010Blue .rrbDropDown .rrbDDInner, .RadRibbonBar_Office2010Blue .rrbColorPicker .rrbCPInner, .RadRibbonBar_Office2010Blue .rrbGalleryAction {
+  background-image: url('Common/radGradientButtonSprite.png');
+  border-color: #9db2ce;
+  color: #384e73;
+  background-color: #bfcddf;
+  background-image: linear-gradient(#fafbfd, #bfcddf); }
+
+.RadRibbonBar_Office2010Blue .rrbQatButton, .RadRibbonBar_Office2010Blue .rrbButtonOut {
+  border-color: transparent;
+  background-color: transparent; }
+
+.RadRibbonBar_Office2010Blue .rrbQatButton:hover, .RadRibbonBar_Office2010Blue .rrbButtonOut:hover, .RadRibbonBar_Office2010Blue .rrbButtonOut.rrbButtonHovered, .RadRibbonBar_Office2010Blue .rrbSplitButton .rrbButtonArrow:hover, .RadRibbonBar_Office2010Blue .rrbButtonStripPart:hover, .RadRibbonBar_Office2010Blue .rrbComboBox .rrbActionButton:hover,
+.RadRibbonBar_Office2010Blue .rrbDropDown .rrbActionButton:hover,
+.RadRibbonBar_Office2010Blue .rrbNumericTextBox .rrbActionButton:hover,
+.RadRibbonBar_Office2010Blue .rrbColorPicker .rrbActionButton:hover, .RadRibbonBar_Office2010Blue .rrbDropDown .rrbDDInner:hover, .RadRibbonBar_Office2010Blue .rrbColorPicker .rrbCPInner:hover, .RadRibbonBar_Office2010Blue .rrbGalleryAction:hover, .RadRibbonBar_Office2010Blue .rrbGalleryItemHovered, .rrbSlide_Office2010Blue .rrbGalleryItemHovered {
+  border-color: #f2d359;
+  color: #1e395b;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+
+.RadRibbonBar_Office2010Blue .rrbQatButton:active, .RadRibbonBar_Office2010Blue .rrbButtonOut.rrbButtonClicked, .RadRibbonBar_Office2010Blue .rrbButtonOut.rrbButtonPressed, .RadRibbonBar_Office2010Blue .rrbButtonOut.rrbToggled, .RadRibbonBar_Office2010Blue .rrbExpanded .rrbSplitButton .rrbButtonArrow,
+.RadRibbonBar_Office2010Blue .rrbButtonClicked .rrbSplitButton .rrbButtonArrow, .RadRibbonBar_Office2010Blue .rrbButtonStripPart:active,
+.RadRibbonBar_Office2010Blue .rrbButtonStripPart.rrbButtonClicked,
+.RadRibbonBar_Office2010Blue .rrbButtonStripPart.rrbButtonPressed, .RadRibbonBar_Office2010Blue .rrbComboBox .rrbActionButton:active,
+.RadRibbonBar_Office2010Blue .rrbDropDown .rrbActionButton:active,
+.RadRibbonBar_Office2010Blue .rrbNumericTextBox .rrbActionButton:active,
+.RadRibbonBar_Office2010Blue .rrbColorPicker .rrbActionButton:active, .RadRibbonBar_Office2010Blue .rrbDropDown .rrbDDInner:active, .RadRibbonBar_Office2010Blue .rrbColorPicker .rrbCPInner:active, .RadRibbonBar_Office2010Blue .rrbGalleryAction:active, .RadRibbonBar_Office2010Blue .rrbGalleryItemSelected, .rrbSlide_Office2010Blue .rrbGalleryItemSelected {
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.RadRibbonBar_Office2010Blue .rrbMenu, .RadRibbonBar_Office2010Blue .rrbMenuGroupMid, .rrbDropDownSlide_Office2010Blue .rrbPopup, .rrbSlide_Office2010Blue .rrbPopup, .rrbPopup_Office2010Blue, .rrbPopup_Office2010Blue .rrbPopup {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff;
+  border-color: #9fb2c7;
+  background-color: #d8e4f2; }
+
+.RadRibbonBar_Office2010Blue .rrbMenu .rrbMenuItem, .RadRibbonBar_Office2010Blue .rrbMenuGroupOut .rrbButtonOut, .rrbPopup_Office2010Blue .rrbMenuItem .rrbMIInner,
+.rrbPopup_Office2010Blue .rrbMenuItem .rrbMIToggle {
+  color: #384e73;
+  background-image: url('Common/radGradientListSprite.png');
+  background-repeat: repeat-x;
+  background-position: 0 0; }
+
+.RadRibbonBar_Office2010Blue .rrbMenu .rrbMenuItem:hover,
+.RadRibbonBar_Office2010Blue .rrbMenu .rrbMenuItemHovered, .RadRibbonBar_Office2010Blue .rrbMenuGroupOut .rrbButtonOut:hover, .rrbPopup_Office2010Blue .rrbMIHovered > .rrbMIInner, .rrbPopup_Office2010Blue .rrbMIHovered > .rrbMIInner .rrbMIToggle, .rrbPopup_Office2010Blue .rrbMIExpanded > .rrbMIInner {
+  background-position: 0 -1000px\9;
+  border-color: #ffcb12;
+  color: #1e395b;
+  background-color: #ffe791;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+
+.RadRibbonBar_Office2010Blue .rrbMenuGroupOut .rrbButtonOut.rrbExpanded,
+.RadRibbonBar_Office2010Blue .rrbMenuGroupOut .rrbButtonOut.rrbButtonClicked, .rrbPopup_Office2010Blue .rrbMIExpanded > .rrbMIInner .rrbMIToggle {
+  background-position: 0 -2000px\9;
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #fff17c;
+  background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+
+.RadRibbonBar_Office2010Blue .rrbIcon,
+.RadRibbonBar_Office2010Blue .rrbToggleHandle,
+.RadRibbonBar_Office2010Blue .rrbResizeHandle,
+.RadRibbonBar_Office2010Blue .rrbGroupLauncher,
+.RadRibbonBar_Office2010Blue .rrbGroupToggleIcon {
+  background-image: url('Common/radActionsSprite.png'); }
+
+.RadRibbonBar_Office2010Blue .rrbButtonOut {
+  border-radius: 3px; }
+  .RadRibbonBar_Office2010Blue .rrbButtonOut .rrbIcon {
+    background-position: -2px -422px; }
+
+.RadRibbonBar_Office2010Blue .rrbMenuGroupMid {
+  box-shadow: 3px 2px 3px #888; }
+
+.RadRibbonBar_Office2010Blue .rrbComboBox .rrbCBInner {
+  border-color: #9db2ce;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Office2010Blue .rrbComboBox .rrbCBInput {
+  color: #384e73; }
+
+.RadRibbonBar_Office2010Blue .rrbComboBox .rrbIcon {
+  background-position: -2px -422px; }
+
+.RadRibbonBar_Office2010Blue .rrbDropDown .rrbActionButton,
+.RadRibbonBar_Office2010Blue .rrbDropDown .rrbActionButton:hover {
+  background: none; }
+
+.RadRibbonBar_Office2010Blue .rrbDropDown .rrbIcon {
+  background-position: -2px -422px; }
+
+.RadRibbonBar_Office2010Blue .rrbNumericTextBox .rrbNTBInner {
+  border-color: #9db2ce;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Office2010Blue .rrbNumericTextBox .rrbNTBInput {
+  color: #384e73; }
+
+.RadRibbonBar_Office2010Blue .rrbNumericTextBox .rrbActionButtonUp .rrbIcon {
+  background-position: -2px -402px; }
+
+.RadRibbonBar_Office2010Blue .rrbNumericTextBox .rrbActionButtonDown .rrbIcon {
+  background-position: -2px -422px; }
+
+.RadRibbonBar_Office2010Blue .rrbColorPicker .rrbActionButton,
+.RadRibbonBar_Office2010Blue .rrbColorPicker .rrbActionButton:hover {
+  background: none; }
+
+.RadRibbonBar_Office2010Blue .rrbColorPicker .rrbIcon {
+  background-position: -2px -422px; }
+
+.RadRibbonBar_Office2010Blue .rrbGallery {
+  border-color: #9db2ce;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Office2010Blue .rrbGalleryActionUp .rrbIcon {
+  background-position: -2px -2px; }
+
+.RadRibbonBar_Office2010Blue .rrbGalleryActionDown .rrbIcon {
+  background-position: -2px -22px; }
+
+.RadRibbonBar_Office2010Blue .rrbGalleryActionExpand .rrbIcon {
+  background-position: -2px -182px; }
+
+.RadRibbonBar_Office2010Blue .rrbCategoryTitle {
+  color: #384e73;
+  background-color: #bdcbde; }
+
+.RadRibbonBar_Office2010Blue .rrbGalleryItemInner {
+  color: #384e73;
+  background-color: #ffffff; }
+
+.rrbDropDownSlide_Office2010Blue .rrbPopup {
+  font: 11px "Segoe UI", Arial, Helvetica, sans-serif; }
+
+.rrbDropDownSlide_Office2010Blue .rrbListItem:hover {
+  color: #1e395b;
+  background-color: #ffe791; }
+
+.rrbSlide_Office2010Blue .rrbPopup {
+  font: 11px "Segoe UI", Arial, Helvetica, sans-serif; }
+
+.rrbSlide_Office2010Blue .rrbGallery {
+  background-color: #ffffff; }
+
+.rrbSlide_Office2010Blue .rrbCategoryTitle {
+  color: #384e73;
+  background-color: #bdcbde; }
+
+.rrbSlide_Office2010Blue .rrbGalleryItemInner {
+  color: #384e73;
+  background-color: #ffffff; }
+
+.rrbPopup_Office2010Blue {
+  font: 11px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rrbPopup_Office2010Blue .rrbHeaderBar {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .rrbPopup_Office2010Blue .rrbMenuItem .rrbMIToggle .rrbIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .rrbPopup_Office2010Blue .rrbHeader {
+    border-color: #c5c5c5;
+    background: #ebebeb; }
+  .rrbPopup_Office2010Blue .rrbAuxiliaryPane {
+    background: #eeeeee;
+    border-color: #8a8a8a; }
+  .rrbPopup_Office2010Blue .rrbFooterPane {
+    border-color: #c5c5c5;
+    background: #ebebeb; }
+

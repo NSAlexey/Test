@@ -1,0 +1,39 @@
+.RecurrenceEditor_Sunset {
+  border-color: #938879;
+  color: #272722;
+  background-color: #ffffff; }
+  .RecurrenceEditor_Sunset .rsAdvRecurrenceTitle {
+    border-color: #972f01;
+    color: #ffffff;
+    background-color: #bb3a01; }
+  .RecurrenceEditor_Sunset .rsTabbedOptionList {
+    border-color: #938973;
+    color: #3d1400;
+    background-color: #ded7c6;
+    background-image: linear-gradient(#f1eadf, #ded7c6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+    .RecurrenceEditor_Sunset .rsTabbedOptionList label:hover {
+      border-color: #d2b40d;
+      color: #863d02;
+      background-color: #f1d121;
+      background-image: linear-gradient(#faef93, #f1d121);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .RecurrenceEditor_Sunset .rsAdvRecurrenceSave {
+    border-color: #a95518;
+    color: #ffffff;
+    background-color: #d66b1e;
+    background-image: linear-gradient(#e88d49, #d66b1e);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+    .RecurrenceEditor_Sunset .rsAdvRecurrenceSave:hover {
+      border-color: #d2b40d;
+      color: #863d02;
+      background-color: #f1d121;
+      background-image: linear-gradient(#faef93, #f1d121);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+    .RecurrenceEditor_Sunset .rsAdvRecurrenceSave:active {
+      border-color: #e2711c;
+      color: #5d1f00;
+      background-color: #e88d49;
+      background-image: linear-gradient(#f3bc8b, #e88d49);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+

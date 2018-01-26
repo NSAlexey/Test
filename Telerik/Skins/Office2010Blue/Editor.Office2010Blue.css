@@ -1,0 +1,359 @@
+.Office2010Blue {
+  /* reWrapper */
+  /* common settings for .reModule, .reEditorModes and .reWrapper */
+  /* end of module */
+  /*Toolbar sprites*/
+  /* .reTool_text */
+  /* these settings will not be included in the common CSS file of RadEditor */
+  /* end of reTool_text */
+  /* reDropdown */
+  /* end of reDropdown */
+  /* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+  /* end of context menu and toolstrip */
+  /* spinbox */
+  /* end of spinbox */
+  /* DOM inspector */
+  /* end of DOM inspector */
+  /* end of expanded dropdowns */
+  /* color picker */
+  /* end of color picker */
+  /* ajax spellchecker */
+  /* ajax spellchecker */
+  /* custom links */
+  /* end of custom links */
+  /* insert table dropdown */
+  /* end of insert table dropdown */
+  /* Popup Comments */
+  /* Commnet popups */
+  /* Inline Editor */
+  /* Right to Left */
+}
+
+.Office2010Blue.RadEditor,
+.Office2010Blue.RadEditor .reModule,
+.Office2010Blue.RadEditor .reEditorModes,
+.Office2010Blue.RadEditor .reWrapper {
+  background-color: #dbe3ee;
+}
+
+.Office2010Blue.reWrapper,
+.Office2010Blue.RadEditor .reContentCell,
+.Office2010Blue.reColorPicker,
+.Office2010Blue.reInsertTable,
+.Office2010Blue.reCustomLinks a:hover {
+  border: 1px solid #8ba0bc;
+  background-color: #dbe3ee;
+}
+
+.Office2010Blue .reEmptyMessage {
+  color: #8ba0bc;
+}
+
+.Office2010Blue.RadEditor .reContentCell {
+  background-color: #ffffff;
+}
+
+.Office2010Blue.RadEditor .reContentCell.reNoBorder {
+  border: none;
+}
+
+.Office2010Blue.RadEditor .reNoBorder div.reContentArea {
+  border: 1px solid #8ba0bc;
+}
+
+.Office2010Blue.reDropDownBody {
+  border: 1px solid #8ba0bc;
+  background-color: #dbe3ee;
+}
+
+.Office2010Blue.reDropDownBody table {
+  background: transparent;
+}
+
+.Office2010Blue.RadEditor .reModule {
+  border-top: 1px solid #8ba0bc;
+}
+
+.Office2010Blue.reCustomLinks a,
+.Office2010Blue.reCustomLinks a:link,
+.Office2010Blue.reCustomLinks a:visited {
+  border: 1px solid #ffffff;
+  /* should be the same as the background of the dropdown */
+  color: #384e73 !important;
+}
+
+.Office2010Blue.reCustomLinks a:hover {
+  background-color: #fcf5d9;
+  border: 1px solid #8ba0bc;
+}
+
+.Office2010Blue .reToolbar li,
+.Office2010Blue .reSpinBox a,
+.Office2010Blue.reToolbar .reSeparator,
+.Office2010Blue.reToolbar .reGrip,
+.Office2010Blue .reDialog .reTool,
+.Office2010Blue .reModule .reTool,
+.Office2010Blue .reDialog .reTool:hover,
+.Office2010Blue .reToolbar .reTool:hover,
+.Office2010Blue .reModule .reTool:hover,
+.Office2010Blue .reToolbar .reTool.reTool_selected,
+.Office2010Blue .reToolbar .reTool.reTool_selected:hover,
+.Office2010Blue .reToolbar .reTool_text:hover,
+.Office2010Blue .reToolbar .reTool_text.reTool_selected,
+.Office2010Blue .reToolbar .reTool_text.reTool_selected:hover,
+.Office2010Blue .reTool .split_arrow,
+.Office2010Blue .reSplitButton.reTool_text .split_arrow,
+.Office2010Blue .reToolbar .reTool_text .split_arrow,
+.Office2010Blue .reDialog .reTool.reSplitButton,
+.Office2010Blue .reModule .reTool.reSplitButton,
+.Office2010Blue .reDropdown,
+.Office2010Blue .reTool_disabled.reDropdown:hover,
+.Office2010Blue .reResizeCell div,
+.Office2010Blue.reInsertTable .reToolbar li .reTool:hover,
+.Office2010Blue.RadEditor.reRtl .reDropdown:hover {
+  background-image: url('Editor/ToolBarSprites.gif');
+}
+
+.Office2010Blue.RadEditor .reTlbVertical li,
+.Office2010Blue .reDropdown:hover,
+.Office2010Blue.RadEditor .reTlbVertical .reToolbar.Default .reGrip,
+.Office2010Blue.RadEditor.reTlbVertical .reToolbar.Default .reSeparator,
+.Office2010Blue .reTlbVertical .reTool:hover,
+.Office2010Blue .reTlbVertical .reTool_text.reSplitButton:hover,
+.Office2010Blue .reTlbVertical .reSplitButton:hover,
+.Office2010Blue .reTlbVertical .reTool_text:hover,
+.Office2010Blue .reTlbVertical .reTool.reTool_selected,
+.Office2010Blue .reTlbVertical .reTool_text.reTool_selected,
+.Office2010Blue .reTlbVertical .reTool_text.reTool_selected:hover,
+.Office2010Blue.reDropDownBody .reTlbVertical ul li a:hover,
+.Office2010Blue.reDropDownBody .reTlbVertical .reToolbar,
+.Office2010Blue .reMode_selected,
+.Office2010Blue.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:hover {
+  background-image: url('Editor/ToolbarVerticalSprites.gif');
+}
+
+.Office2010Blue .reToolbar li {
+  color: #384e73;
+}
+
+.Office2010Blue .reToolbar .reTool_text:hover,
+.Office2010Blue .reToolbar .reTool_text.reTool_selected,
+.Office2010Blue .reToolbar .reTool_text.reTool_selected:hover {
+  border-left: 1px solid #f3d64a;
+  border-right: 1px solid #f3d64a;
+}
+
+.Office2010Blue .reToolbar .reTool_text.reTool_disabled,
+.Office2010Blue .reToolbar .reTool_text.reTool_disabled:hover {
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
+}
+
+.Office2010Blue .reDropdown:link,
+.Office2010Blue .reDropdown:visited {
+  color: #384e73 !important;
+}
+
+.Office2010Blue .reDropdown,
+.Office2010Blue .reTool_disabled.reDropdown:hover {
+  border: 1px solid #9babc2;
+  background-color: #ffffff;
+}
+
+.Office2010Blue .reDropdown:hover {
+  border-color: #515151;
+  color: #384e73;
+}
+
+.Office2010Blue.reDropDownBody .reTlbVertical .reToolbar {
+  background-color: #ffffff;
+}
+
+.Office2010Blue table.reSpinBox,
+.Office2010Blue.RadEditor input {
+  border-color: #9babc2;
+  background-color: #ffffff;
+}
+
+.Office2010Blue table.reSpinBox:hover,
+.Office2010Blue.RadEditor input:hover {
+  border: 1px solid #f3d64a;
+}
+
+.Office2010Blue .reModule_domlink_selected,
+.Office2010Blue .reModule_domlink {
+  color: #384e73;
+}
+
+.Office2010Blue.reDropDownBody .reItemOver {
+  background: #f3d64a;
+  color: #1e395b;
+}
+
+.Office2010Blue.reColorPicker table div,
+.Office2010Blue.reColorPicker span {
+  border: 1px solid #8ba0bc;
+}
+
+.Office2010Blue.reColorPicker table td.reItemOver div {
+  border-color: #384e73;
+}
+
+.Office2010Blue .reAjaxspell_button {
+  border: 1px solid #8ba0bc;
+  background-color: #bfcddf;
+  color: #384e73;
+}
+
+.Office2010Blue .reAjaxSpellCheckSeparator {
+  background-color: #ffffff;
+}
+
+.Office2010Blue.reCustomLinks,
+.Office2010Blue.reCustomLinks ul {
+  color: #384e73;
+}
+
+.Office2010Blue.reCustomLinks a {
+  background: none transparent;
+  color: #384e73;
+  cursor: default !important;
+}
+
+.Office2010Blue.reCustomLinks a:hover {
+  color: #ffffff;
+}
+
+.Office2010Blue.reInsertTable table {
+  background-color: #ffffff;
+}
+
+.Office2010Blue.reInsertTable table td {
+  border: 1px solid #9babc2;
+  background-color: #ffffff;
+}
+
+.Office2010Blue.reInsertTable table .reItemOver {
+  border: 1px solid #515151;
+  background-color: #f3d64a;
+}
+
+.Office2010Blue.reInsertTable .reTlbVertical ul {
+  background-color: #ffffff;
+}
+
+.Office2010Blue.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text,
+.Office2010Blue.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link,
+.Office2010Blue.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited {
+  color: #384e73 !important;
+  background: transparent none;
+}
+
+.Office2010Blue .reCommentEdit,
+.Office2010Blue .reCommentTextArea,
+.Office2010Blue .reCommentView,
+.Office2010Blue .reCommentInfoPanel {
+  border-color: transparent;
+  background-color: #dbe3ee;
+}
+
+.Office2010Blue .reCommentTitle,
+.Office2010Blue .reCommentInfoPanel {
+  color: #384e73;
+}
+
+.Office2010Blue .reCommentTextArea {
+  border-color: #8ba0bc;
+  background-color: #dbe3ee;
+}
+
+.Office2010Blue.RadEditor .reCommentButton,
+.Office2010Blue .rePopupButtonContainer .rePopupButton {
+  border-color: #8ba0bc;
+  color: #4e6283;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: linear-gradient(#fafbfd 0%, #bfcddf 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5e6', endColorstr='#bfcddf',GradientType=0 );
+  /* IE6-8 */
+}
+
+.Office2010Blue.RadEditor .reCommentButton:hover,
+.Office2010Blue .rePopupButtonContainer .rePopupButton:hover {
+  border-color: #f3d64a;
+  color: #4e6283;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: linear-gradient(#fceaab 0%, #fcf5d9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceaab', endColorstr='#fcf5d9',GradientType=0 );
+  /* IE6-8 */
+}
+
+.Office2010Blue.RadEditor .reCommentButton:active,
+.Office2010Blue .rePopupButtonContainer .rePopupButton:active {
+  color: #4e6283;
+  border-color: #c28b31;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: linear-gradient(#ffe272 0%, #ffef7c 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe272', endColorstr='#ffef7c',GradientType=0 );
+  /* IE6-8 */
+}
+
+.Office2010Blue.rePopupContainer {
+  border-color: #9babc2;
+  background-color: #dbe3ee;
+}
+
+.Office2010Blue.rePopupContainer .rePopupTitle {
+  color: #384e73;
+  border-color: #8ba0bc;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: linear-gradient(#fafbfd 0%, #bccadd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafbfd', endColorstr='#bccadd',GradientType=0 );
+  /* IE6-8 */
+}
+
+.Office2010Blue.reWrapper.reInlineEditor:hover {
+  border-color: #9babc2;
+}
+
+.Office2010Blue.reWrapper.reInlineEditorSelected,
+.Office2010Blue.reWrapper.reInlineEditorSelected:hover {
+  border-color: #c28b31;
+}
+
+.Office2010Blue.RadEditor.reRtl .reTool .split_arrow:hover {
+  border-right-color: #f3d64a;
+}
+
+.Office2010Blue.RadEditor.reRtl .reDropdown:hover {
+  background-color: #fae185;
+}
+
+/* the rule below styles RadWindow's content cell, which is used in the floating and show on focus toolbar modes */
+.RadWindow.RadWindow_Office2010Blue.reToolbarWindow td.rwWindowContent,
+.RadWindow.RadWindow_Office2010Blue.reToolbarWindow div.rwContent {
+  background-color: #dbe3ee;
+}
+
+.RadWindow_Office2010Blue .reInsertTableLightWrapper .lightTable {
+  border-color: #8ba0bc;
+}
+
+.Office2010Blue .reTool.reSplitButton:hover {
+  background-image: url('Editor/ToolBarSprites.gif');
+}
+
+/* reTool */
+.reTool span,
+.Office2010Blue.reInsertTable .reTlbVertical ul .reTool_text span,
+.reToolbar .reTool_text span {
+  background-image: url('../Common/CommandSpritesLight.png');
+}
+
+.reTool .split_arrow:hover {
+  border-left-color: #f3d64a;
+}

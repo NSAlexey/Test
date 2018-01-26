@@ -1,0 +1,88 @@
+.RadCloudUpload_Office2010Blue {
+  color: #384e73;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCloudUpload_Office2010Blue .rcuButton {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadCloudUpload_Office2010Blue .rcuInfoPanel {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #dbe3ee; }
+  .RadCloudUpload_Office2010Blue .rcuHeader {
+    background-image: url('PanelBar/RootItemBg.png');
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .RadCloudUpload_Office2010Blue .rcuFileList {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #ffffff; }
+  .RadCloudUpload_Office2010Blue .rcuErrorNotification {
+    color: #e50000; }
+  .RadCloudUpload_Office2010Blue .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #b5c6da;
+    background-image: linear-gradient(#b5c6da, #d7e4f2); }
+  .RadCloudUpload_Office2010Blue .rcuProgress {
+    background-image: url('Upload/ruProgress.gif');
+    background-position: 0 -7px; }
+  .RadCloudUpload_Office2010Blue .p-icon {
+    background-image: url('CloudUpload/rcuActionSprite.png'); }
+  .RadCloudUpload_Office2010Blue .p-i-loading {
+    background-image: url('Common/loading_small.gif'); }
+  .RadCloudUpload_Office2010Blue .rcuDropZone {
+    background-color: rgba(220, 232, 246, 0.8);
+    border-color: #9db2ce; }
+  .RadCloudUpload_Office2010Blue .rcuDropZoneText:before {
+    background-image: url('CloudUpload/rcuActionSprite.png'); }
+  .RadCloudUpload_Office2010Blue .rcuButton:hover {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadCloudUpload_Office2010Blue .rcuButton:active {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.RadCloudUpload_Office2010Blue .rcuDisabled .rcuButton:hover, .RadCloudUpload_Office2010Blue .rcuDisabled .rcuButton:active {
+  background-position: 0 0; }
+
+.RadCloudUpload_Office2010Blue .rcuDisabled .rcuButton .rcuIconCollapse {
+  background-position: -62px -2px; }
+
+.RadCloudUpload_Office2010Blue .rcuDisabled .rcuRemoveButton .rcuIcon {
+  background-position: -62px -142px; }
+
+.RadCloudUpload_Office2010Blue .rcuDisabled .rcuCancelButton .rcuIcon {
+  background-position: -62px -162px; }
+
+.RadCloudUpload_Office2010Blue .rcuDisabled .rcuBody {
+  color: #494949; }
+
+.RadCloudUpload_Office2010Blue .rcuDisabled .rcuLIFailed .rcuFakeButton .rcuIcon {
+  background-position: -62px -102px; }
+
+.RadCloudUpload_Office2010Blue .rcuDisabled .rcuButtons .rcuButton {
+  background-image: none;
+  background-color: transparent; }
+
+.rcuToolTip_Office2010Blue {
+  background-color: #d8e4f2;
+  border: 1px solid #9db2ce;
+  color: #384e73;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rcuToolTip_Office2010Blue:before {
+    width: 7px;
+    height: 7px;
+    left: 31px;
+    background-image: url('CloudUpload/toolTipBefore.png');
+    border-width: 0; }
+

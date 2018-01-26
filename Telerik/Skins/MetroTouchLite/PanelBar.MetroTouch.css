@@ -1,0 +1,47 @@
+.RadPanelBar_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadPanelBar_MetroTouch .rpRootLink,
+  .RadPanelBar_MetroTouch .rpHeaderTemplate {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadPanelBar_MetroTouch .rpGroup .rpItem {
+    padding: 0; }
+    .RadPanelBar_MetroTouch .rpGroup .rpItem + .rpItem {
+      margin-top: 0; }
+    .RadPanelBar_MetroTouch .rpGroup .rpItem.rpFirst, .RadPanelBar_MetroTouch .rpGroup .rpItem.rpLast {
+      padding: 0; }
+  .RadPanelBar_MetroTouch .rpLink.rpHovered {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadPanelBar_MetroTouch .rpRootLink.rpHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadPanelBar_MetroTouch .rpExpandHandle.rpHovered {
+    border-color: #cecece; }
+  .RadPanelBar_MetroTouch .rpSelected .rpExpandHandle.rpHovered {
+    border-color: #7cc6e9; }
+  .RadPanelBar_MetroTouch .rpRootLink .rpExpandHandle.rpHovered {
+    border-color: #cecece; }
+  .RadPanelBar_MetroTouch .rpRootLink.rpSelected .rpExpandHandle.rpHovered {
+    border-color: #7cc6e9; }
+  .RadPanelBar_MetroTouch .rpLink.rpFocused {
+    border-color: #25a0da;
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadPanelBar_MetroTouch .rpRootLink.rpFocused {
+    border-color: #25a0da;
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadPanelBar_MetroTouch .rpLink.rpSelected {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadPanelBar_MetroTouch .rpRootLink.rpSelected {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+

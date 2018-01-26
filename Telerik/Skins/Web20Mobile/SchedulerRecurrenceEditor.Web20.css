@@ -1,0 +1,36 @@
+.RecurrenceEditor_Web20 {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #ffffff; }
+  .RecurrenceEditor_Web20 .rsAdvRecurrenceTitle {
+    border-color: #5f90cf;
+    color: #ffffff;
+    background-color: #92b3de; }
+  .RecurrenceEditor_Web20 .rsTabbedOptionList {
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+    .RecurrenceEditor_Web20 .rsTabbedOptionList label:hover {
+      border-color: #2a5795;
+      color: #0f3789;
+      background-color: #cddcf1;
+      background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RecurrenceEditor_Web20 .rsAdvRecurrenceSave {
+    border-color: #73b334;
+    color: #333333;
+    background-color: #85c843;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.2)); }
+    .RecurrenceEditor_Web20 .rsAdvRecurrenceSave:hover {
+      border-color: #85c843;
+      color: #333333;
+      background-color: #d4ffbc;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+    .RecurrenceEditor_Web20 .rsAdvRecurrenceSave:active {
+      border-color: #73b334;
+      color: #333333;
+      background-color: #85c843;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.2));
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+

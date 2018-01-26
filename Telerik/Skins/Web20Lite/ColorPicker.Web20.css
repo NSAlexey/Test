@@ -1,0 +1,73 @@
+.RadColorPicker_Web20 .rcpPalette {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #e7f1ff; }
+
+.RadColorPicker_Web20 .rcpHeader {
+  border-color: #5f90cf;
+  color: #ffffff;
+  background-color: #92b3de;
+  background-image: linear-gradient(#9db7db, #7b95c6 50%, #698ac0 50%, #92b3de); }
+
+.RadColorPicker_Web20 .rcpImageButton,
+.RadColorPicker_Web20 a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Web20 .rcpImageButton:hover {
+  color: #12398a; }
+
+.RadColorPicker_Web20 .rcpIcon em,
+.RadColorPicker_Web20 .rcpColorPreview,
+.RadColorPicker_Web20 .rcpInput,
+.RadColorPicker_Web20 .rcpHexInput,
+.RadColorPicker_Web20 .rcpMillionColorsPalette,
+.RadColorPicker_Web20 .rcpMillionColorsSlider div.rslTrack {
+  border-color: #687dc1;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadColorPicker_Web20 .rcpIcon a,
+.RadColorPicker_Web20 .rcpTabs li,
+.RadColorPicker_Web20 .rcpButton {
+  border-color: #687dc1;
+  color: #ffffff;
+  background-color: #687dc1;
+  background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+
+.RadColorPicker_Web20 .rcpIcon a:hover,
+.RadColorPicker_Web20 .rcpTabs li:hover,
+.RadColorPicker_Web20 .rcpButton:hover {
+  border-color: #2a5795;
+  color: #0f3789;
+  background-color: #cddcf1;
+  background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+
+.RadColorPicker_Web20 .rcpIcon a:active,
+.RadColorPicker_Web20 .rcpTabs .rcpSelectedTab,
+.RadColorPicker_Web20 .rcpTabs .rcpSelectedTab:hover,
+.RadColorPicker_Web20 .rcpButton:active {
+  border-color: #2a3866;
+  color: #ffffff;
+  background-color: #687dc1;
+  background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+
+.RadColorPicker_Web20 .rcpIcon a:focus {
+  box-shadow: inset 0 0 5px rgba(42, 56, 102, 0.5); }
+
+.RadColorPicker_Web20.rcpCustomColorWrapper .rcpPalette {
+  box-shadow: 2px 2px 3px rgba(103, 136, 190, 0.5); }
+
+.RadColorPicker_Web20 .rcpSlider.RadSlider_Web20 a.rslDraghandle,
+.RadColorPicker_Web20 .rcpMillionColorsSlider.RadSlider_Web20 a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Web20 .rcpSlider.RadSlider_Web20 a.rslDraghandle:hover,
+.RadColorPicker_Web20 .rcpSlider.RadSlider_Web20 a.rslDraghandle:active,
+.RadColorPicker_Web20 .rcpSlider.RadSlider_Web20 a.rslDraghandle:focus,
+.RadColorPicker_Web20 .rcpMillionColorsSlider.RadSlider_Web20 a.rslDraghandle:hover,
+.RadColorPicker_Web20 .rcpMillionColorsSlider.RadSlider_Web20 a.rslDraghandle:active,
+.RadColorPicker_Web20 .rcpMillionColorsSlider.RadSlider_Web20 a.rslDraghandle:focus {
+  color: #12398a; }
+

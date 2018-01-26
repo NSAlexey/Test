@@ -1,0 +1,71 @@
+.RadWindow_Office2010Silver {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #e2e5e9;
+  border-radius: 4px; }
+  .RadWindow_Office2010Silver .rwTitleBar {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #edeff2;
+    background-image: linear-gradient(#ffffff, #edeff2);
+    border-radius: 3px 3px 0 0; }
+  .RadWindow_Office2010Silver .rwCommandButton:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadWindow_Office2010Silver .rwContent {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2010Silver .rwDialogButtons button {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadWindow_Office2010Silver .rwDialogButtons button:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadWindow_Office2010Silver .rwDialogButtons button:active {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadWindow_Office2010Silver .rwPromptDialog .rwOkBtn,
+  .RadWindow_Office2010Silver .rwConfirmDialog .rwOkBtn {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffef7c, #ffd86b, #ffe272); }
+  .RadWindow_Office2010Silver .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Office2010Silver .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadWindow_Office2010Silver .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Office2010Silver .rwConfirmDialog .rwOkBtn:active {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadWindow_Office2010Silver .rwPromptInput {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2010Silver .rwPromptInput:hover {
+    border-color: #f2d359;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2010Silver .rwPromptInput:active,
+  .RadWindow_Office2010Silver .rwPromptInput:focus {
+    border-color: #c38e00;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2010Silver .rwLoading.rwStatusBar {
+    background-image: url('../Office2010Silver/Common/loading_small.gif'); }
+  .RadWindow_Office2010Silver.rwLoading .rwExternalContent {
+    background-image: url('../Office2010Silver/Common/loading.gif'); }
+

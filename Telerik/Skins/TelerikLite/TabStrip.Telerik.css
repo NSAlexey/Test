@@ -1,0 +1,53 @@
+.RadTabStrip_Telerik {
+  color: #333333; }
+  .RadTabStrip_Telerik .rtsLevel1 {
+    border-color: #cccccc; }
+    .RadTabStrip_Telerik .rtsLevel1 .rtsLink {
+      border-color: #d1d1d1;
+      color: #000000;
+      background-color: #eaeaea;
+      background-image: linear-gradient(#fdfdfd, #eaeaea); }
+    .RadTabStrip_Telerik .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: #47ba22;
+      color: #000000;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+    .RadTabStrip_Telerik .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #cccccc;
+      color: #333333;
+      background-color: #ffffff;
+      background-image: none; }
+    .RadTabStrip_Telerik .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #d1d1d1;
+      box-shadow: inset 0 0 5px #d1d1d1; }
+  .RadTabStrip_Telerik .rtsLevel1 ~ .rtsLevel {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadTabStrip_Telerik .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #66b340; }
+    .RadTabStrip_Telerik .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #467b2c; }
+    .RadTabStrip_Telerik .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit; }
+    .RadTabStrip_Telerik .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #4d862c;
+      box-shadow: inset 0 0 5px #4d862c; }
+  .RadTabStrip_Telerik .rtsGhostTab {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea); }
+
+.RadTabStrip_Telerik.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+  border-bottom-color: transparent; }
+
+.RadTabStrip_Telerik.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+  border-top-color: transparent; }
+
+.RadTabStrip_Telerik.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+  border-right-color: transparent; }
+
+.RadTabStrip_Telerik.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+  border-left-color: transparent; }
+

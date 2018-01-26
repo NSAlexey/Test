@@ -1,0 +1,8 @@
+.RadAjax_Black .raDiv {
+  background-image: url('Common/loading.gif'); }
+
+.RadAjax_Black .raColor {
+  border-color: #080808;
+  color: #ffffff;
+  background-color: #464646; }
+

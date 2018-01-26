@@ -1,0 +1,144 @@
+.RadTreeList_Material .rtlDrag,
+.RadTreeList_Material .rtlDragClue,
+.RadTreeList_Material .rtlActionButton {
+  color: #455A64; }
+
+.rtlRightResizer_Material:before,
+.RadTreeList_Material .rtlCommand .rtlActionButton:hover,
+.RadTreeList_Material .rtlCommand .rtlActionButton:focus,
+.RadTreeList_Material .rtlCommand .rtlActionButton:active,
+.RadTreeList_Material.RadTreeList_Drag .rtlColumnItem {
+  background: linear-gradient();
+  color: #455A64; }
+
+.RadTreeList_Material {
+  border-color: #CFD8DC;
+  background: #ffffff;
+  color: #455A64;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadTreeList_Material .rtlCommand {
+    background-color: #8BC34A; }
+  .RadTreeList_Material .rtlHeader {
+    background-color: #ffffff;
+    border: 0;
+    border-bottom: 1px solid #CFD8DC; }
+  .RadTreeList_Material .rtlHeader,
+  .RadTreeList_Material .rtlHeader a {
+    color: #455A64; }
+  .RadTreeList_Material .rtlHeader th {
+    border-color: transparent; }
+  .RadTreeList_Material .rtlScroller {
+    border-color: #CFD8DC; }
+  .RadTreeList_Material .rtlA {
+    height: 50px; }
+  .RadTreeList_Material .rtlRFooter {
+    background-color: #ffffff; }
+  .RadTreeList_Material .rtlR td,
+  .RadTreeList_Material .rtlA td,
+  .RadTreeList_Material .rtlREdit td,
+  .RadTreeList_Material .rtlRFooter td,
+  .RadTreeList_Material .rtlEditForm {
+    border: 0;
+    border-bottom: 1px solid #CFD8DC;
+    padding: 8px; }
+  .RadTreeList_Material .rtlR a,
+  .RadTreeList_Material .rtlA a,
+  .RadTreeList_Material .rtlREdit a,
+  .RadTreeList_Material .rtlEditForm a {
+    color: #8BC34A; }
+  .RadTreeList_Material .rtlRSel {
+    background-color: #E1F5FE;
+    color: #455A64; }
+  .RadTreeList_Material .rtlDelIcon {
+    color: #f34235; }
+  .RadTreeList_Material .rtlPagerCell {
+    color: #455A64;
+    padding: 5px 15px 0;
+    border-top: 1px solid #CFD8DC; }
+    .RadTreeList_Material .rtlPagerCell .rgIcon:before {
+      font-family: "WebComponentsIcons"; }
+    .RadTreeList_Material .rtlPagerCell .rtlIcon:before {
+      font-size: 18px; }
+    .RadTreeList_Material .rtlPagerCell .rtlWrap {
+      padding: 0; }
+    .RadTreeList_Material .rtlPagerCell .rtlNumPart a {
+      color: #ffffff; }
+    .RadTreeList_Material .rtlPagerCell .rtlPagerButton {
+      border: 0 none;
+      background-color: #f4f7f8;
+      color: #455A64;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+    .RadTreeList_Material .rtlPagerCell .rtlActionButton {
+      border-radius: 90px; }
+      .RadTreeList_Material .rtlPagerCell .rtlActionButton:hover {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1; }
+    .RadTreeList_Material .rtlPagerCell .rtlNumPart a,
+    .RadTreeList_Material .rtlPagerCell .rtlNumPart a:before,
+    .RadTreeList_Material .rtlPagerCell .rtlActionButton {
+      margin: 0;
+      width: 1.42857em;
+      height: 1.42857em;
+      content: "";
+      position: relative;
+      z-index: 1; }
+    .RadTreeList_Material .rtlPagerCell .rtlNumPart a {
+      height: calc(1.42857em + 5px); }
+    .RadTreeList_Material .rtlPagerCell .rtlNumPart a {
+      color: #455A64;
+      text-align: center;
+      border-width: 0 0 2px;
+      border-bottom: 2px solid transparent; }
+      .RadTreeList_Material .rtlPagerCell .rtlNumPart a:not(.rtlCurrentPage):hover:before {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1;
+        border-radius: 90px;
+        padding: 6px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; }
+      .RadTreeList_Material .rtlPagerCell .rtlNumPart a.rtlCurrentPage {
+        border-color: #8BC34A;
+        color: #8BC34A;
+        border-radius: 0; }
+    .RadTreeList_Material .rtlPagerCell .rtlInfoPart,
+    .RadTreeList_Material .rtlPagerCell .rtlPagerLabel {
+      font-size: .857em;
+      color: #607D8B;
+      font-weight: 500;
+      line-height: 1.66666667;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+      .RadTreeList_Material .rtlPagerCell .rtlInfoPart strong,
+      .RadTreeList_Material .rtlPagerCell .rtlPagerLabel strong {
+        font-weight: 500;
+        font-size: 1.167em;
+        line-height: 1.42857143;
+        color: #455A64; }
+    .RadTreeList_Material .rtlPagerCell .RadInput,
+    .RadTreeList_Material .rtlPagerCell .RadComboBox {
+      min-width: 90px; }
+    .RadTreeList_Material .rtlPagerCell .rtlActionButton {
+      box-sizing: content-box; }
+    .RadTreeList_Material .rtlPagerCell .rtlPagerButton {
+      border-color: #CFD8DC;
+      color: #455A64;
+      background-color: #f4f7f8; }
+  .RadTreeList_Material .rtlDrag:before {
+    border-right: 1px solid #CFD8DC; }
+  .RadTreeList_Material .rtlMobileMenu {
+    background: #455A64; }
+  .RadTreeList_Material .rtlColumnItem {
+    background-image: linear-gradient();
+    border-color: #CFD8DC; }
+  .RadTreeList_Material .rtlValue {
+    border: 1px solid #cfd8dc;
+    color: #455a64; }
+
+.rtlLeftResizer_Material,
+.rtlRightResizer_Material {
+  background-color: #03A9F4; }
+

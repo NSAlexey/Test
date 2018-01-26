@@ -1,0 +1,18 @@
+.RadNotification_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadNotification_Telerik .rnTitleBar {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea); }
+  .RadNotification_Telerik .rnCommands a:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadNotification_Telerik.rnShadows {
+    box-shadow: 2px 2px 3px rgba(204, 204, 204, 0.5); }
+

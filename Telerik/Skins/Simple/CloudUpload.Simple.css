@@ -1,0 +1,67 @@
+.RadCloudUpload_Simple {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCloudUpload_Simple .rcuButton {
+    border-color: #7c7c7c;
+    color: #000000;
+    background-color: #e2e2e2; }
+  .RadCloudUpload_Simple .rcuInfoPanel {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+  .RadCloudUpload_Simple .rcuHeader {
+    border-color: #c4c4c4;
+    color: #000000;
+    background-color: #eaeaea; }
+  .RadCloudUpload_Simple .rcuFileList {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Simple .rcuProgressBar {
+    border-radius: 0;
+    border-color: #c4c4c4;
+    background-color: #eaeaea; }
+  .RadCloudUpload_Simple .rcuProgress {
+    border-radius: 0;
+    border-color: #000000;
+    background-color: #ffa517; }
+  .RadCloudUpload_Simple .p-icon {
+    background-image: url('CloudUpload/rcuActionSprite.png'); }
+  .RadCloudUpload_Simple .p-i-loading {
+    background-image: url('Common/loading_small.gif'); }
+  .RadCloudUpload_Simple .rcuDropZone {
+    border-color: #551701;
+    color: #ffffff;
+    background-color: #882501; }
+  .RadCloudUpload_Simple .rcuDropZoneText:before {
+    background-image: url('CloudUpload/rcuActionSprite.png'); }
+  .RadCloudUpload_Simple .rcuButton:hover {
+    border-color: #ca8500;
+    color: #882501;
+    background-color: #ffe79c; }
+  .RadCloudUpload_Simple .rcuButton:active {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+
+.RadCloudUpload_Simple .rcuDisabled .rcuButton,
+.RadCloudUpload_Simple .rcuDisabled .rcuButton:hover,
+.RadCloudUpload_Simple .rcuDisabled .rcuButton:focus,
+.RadCloudUpload_Simple .rcuDisabled .rcuButton:active {
+  border-color: #7c7c7c;
+  color: #000000;
+  background-color: #e2e2e2; }
+
+.rcuToolTip_Simple {
+  background-color: #ffe79c;
+  border: 1px solid #ca8500;
+  color: #333333;
+  font: normal 11px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rcuToolTip_Simple:before {
+    width: 9px;
+    height: 7px;
+    left: 31px;
+    background-image: url('CloudUpload/toolTipBefore.png');
+    border-width: 0; }
+

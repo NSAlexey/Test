@@ -1,0 +1,8 @@
+.ReminderDialog_Default {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 4px; }
+  .ReminderDialog_Default .rsTitle {
+    border-radius: 4px 4px 0 0; }
+

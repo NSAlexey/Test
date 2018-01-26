@@ -1,0 +1,30 @@
+.RadLightBox_Office2010Black {
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadLightBox_Office2010Black .rltbWrapper {
+    border-color: #5e5e5e;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadLightBox_Office2010Black .rltbDescOverlayTop,
+  .RadLightBox_Office2010Black .rltbDescOverlayBottom {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadLightBox_Office2010Black .rltbClose,
+  .RadLightBox_Office2010Black .rltbCloseIcon,
+  .RadLightBox_Office2010Black .rltbPrevButton,
+  .RadLightBox_Office2010Black .rltbNextButton {
+    background-image: url('LightBox/sprite.png'); }
+  .RadLightBox_Office2010Black .rltbToolbar .rltbActionButton {
+    background-color: #6f6f6f; }
+  .RadLightBox_Office2010Black .rltbToolbar .rltbActionButton:hover {
+    background-color: #fff3c9; }
+  .RadLightBox_Office2010Black .rltbToolbar .rltbIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadLightBox_Office2010Black .rltbMaximizeIcon {
+    background-position: 0px -2100px; }
+  .RadLightBox_Office2010Black .rltbActionButton:hover .rltbMaximizeIcon {
+    background-position: -20px -2100px; }
+  .RadLightBox_Office2010Black .rltbRestoreIcon {
+    background-position: 0px -2120px; }
+  .RadLightBox_Office2010Black .rltbActionButton:hover .rltbRestoreIcon {
+    background-position: -20px -2120px; }
+

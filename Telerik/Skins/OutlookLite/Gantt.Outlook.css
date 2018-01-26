@@ -1,0 +1,273 @@
+.RadGantt_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadGantt_Outlook .k-loading-color {
+    background-color: #ffffff; }
+  .RadGantt_Outlook .k-loading-image {
+    background-image: url('../Outlook/Common/loading.gif'); }
+  .RadGantt_Outlook .rgtHeader {
+    border-color: #002d96;
+    color: #ffffff;
+    background-color: #002d96;
+    background-image: linear-gradient(#5987d6, #002d96); }
+  .RadGantt_Outlook .rgtViews > li:first-child + li .radButton {
+    border-radius: 3px 0 0 3px; }
+  .RadGantt_Outlook .rgtFooter {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #d6e6f4; }
+  .RadGantt_Outlook .rgtTreelist {
+    background-color: #fdfdf5; }
+  .RadGantt_Outlook .rgtTreelist .radAlt {
+    background-color: #f6f6e5; }
+  .RadGantt_Outlook .rgtTreelist .radStateFocused {
+    box-shadow: inset 0 0 5px #97b8e8; }
+  .RadGantt_Outlook .rgtTreelist .radStateSelected {
+    border-color: #97b8e8;
+    color: #000000;
+    background-color: #97b8e8;
+    background-image: linear-gradient(#dceafc, #97b8e8); }
+  .RadGantt_Outlook .rgtSplitbar {
+    border-color: #89aee5;
+    background-color: #d6e6f4; }
+  .RadGantt_Outlook .rgtSplitbar .radResizeHandle {
+    border-radius: 2px;
+    background-color: #89aee5; }
+  .RadGantt_Outlook .rgtSplitbarHover {
+    border-color: #b3cbee;
+    background-color: #feffff; }
+  .RadGantt_Outlook .radLine {
+    background-color: #002d96; }
+  .RadGantt_Outlook .radArrowE,
+  .RadGantt_Outlook .radArrowW {
+    color: #002d96; }
+  .RadGantt_Outlook .radLine.radStateSelected {
+    background-color: #1e395b;
+    box-shadow: 0 1px 3px #dbdbde; }
+  .RadGantt_Outlook .radLine.radStateSelected .radArrowE,
+  .RadGantt_Outlook .radLine.radStateSelected .radArrowW {
+    color: #1e395b; }
+  .RadGantt_Outlook .radMarqueeColor {
+    background-color: rgba(197, 213, 234, 0.6); }
+  .RadGantt_Outlook .rgtTaskDot:after {
+    border-color: #ffffff;
+    background-color: #002d96; }
+  .RadGantt_Outlook .rgtTaskDot:hover:after {
+    border-color: #002d96;
+    background-color: #ffffff; }
+  .RadGantt_Outlook .rgtResource {
+    background-color: #ffffff; }
+  .RadGantt_Outlook .rgtResource.radAlt {
+    background-color: #eff5fc; }
+  .RadGantt_Outlook .rgtTaskMilestone {
+    border-color: #002d96;
+    background-color: #002d96;
+    background-image: linear-gradient(135deg, #5987d6, #002d96); }
+  .RadGantt_Outlook .rgtTaskMilestone.radStateSelected {
+    border-color: #e68b2c;
+    background-color: #e68b2c;
+    background-image: linear-gradient(135deg, #ffd091, #e68b2c); }
+  .RadGantt_Outlook .rgtTaskSummary {
+    border-color: #75a2ef;
+    background-color: #75a2ef; }
+  .RadGantt_Outlook .rgtComplete {
+    border-color: #3560c4;
+    background-color: #3560c4; }
+  .RadGantt_Outlook .rgtTaskSummary.radStateSelected {
+    border-color: #ffd091;
+    background-color: #ffd091; }
+  .RadGantt_Outlook .radStateSelected .rgtComplete {
+    border-color: #e99c49;
+    background-color: #e99c49; }
+  .RadGantt_Outlook .rgtTaskSingle {
+    border-color: #6187b8;
+    border-radius: 3px;
+    background-color: #b5cef1;
+    background-image: linear-gradient(#fefeff, #b5cef1); }
+  .RadGantt_Outlook .rgtTaskComplete {
+    border-color: #6187b8;
+    background-color: #93b5e7;
+    background-image: linear-gradient(#deebfd, #93b5e7); }
+  .RadGantt_Outlook .rgtTaskSingle .radResizeHandle:after {
+    background-color: #6187b8; }
+  .RadGantt_Outlook .rgtTaskSingle.radStateSelected,
+  .RadGantt_Outlook .rgtTaskSingle.radStateSelected .rgtTaskComplete {
+    border-color: #001952; }
+
+.radSkin_Outlook {
+  color: #333333; }
+  .radSkin_Outlook .k-grid, .radSkin_Outlook .radCalendar {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #ffffff; }
+  .radSkin_Outlook .k-popup, .radSkin_Outlook.k-popup,
+  .radSkin_Outlook .radPopup, .radSkin_Outlook.radPopup, .radSkin_Outlook .radDragClue, .radSkin_Outlook.radDragClue, .radSkin_Outlook.k-window {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #ffffff; }
+  .radSkin_Outlook .k-button,
+  .radSkin_Outlook .radButton, .radSkin_Outlook .k-numeric-wrap .k-link,
+  .radSkin_Outlook .k-numeric-wrap .k-select, .radSkin_Outlook .k-dropdown-wrap, .radSkin_Outlook .k-picker-wrap .k-select {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+  .radSkin_Outlook .radButton:focus {
+    border-color: rgba(0, 60, 116, 0.5);
+    box-shadow: 0 0 5px rgba(0, 60, 116, 0.5) inset; }
+  .radSkin_Outlook .k-button:hover,
+  .radSkin_Outlook .radButton:hover,
+  .radSkin_Outlook .radButton.radStateHovered,
+  .radSkin_Outlook .radStateHovered > .radButton, .radSkin_Outlook .k-numeric-wrap .k-link:hover, .radSkin_Outlook .k-dropdown-wrap.k-state-hover, .radSkin_Outlook .k-picker-wrap .k-select:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .radSkin_Outlook .radButton:active,
+  .radSkin_Outlook .radButton.radStateSelected,
+  .radSkin_Outlook .radStateSelected > .radButton, .radSkin_Outlook .k-numeric-wrap .k-link.k-state-selected, .radSkin_Outlook .k-dropdown-wrap.k-state-active {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+  .radSkin_Outlook .radPrimary {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #97b8e8; }
+  .radSkin_Outlook .radPrimary:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .radSkin_Outlook .radPrimary:active {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+  .radSkin_Outlook .k-textbox,
+  .radSkin_Outlook .radTextbox, .radSkin_Outlook .k-numeric-wrap, .radSkin_Outlook .k-picker-wrap {
+    border-color: #003c74;
+    color: #333333;
+    background-color: #ffffff; }
+  .radSkin_Outlook .radDragClue, .radSkin_Outlook.radDragClue {
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(130, 130, 130, 0.5); }
+  .radSkin_Outlook .radList > .radStateHovered,
+  .radSkin_Outlook .k-list > .k-state-hover {
+    color: #000000;
+    background-color: #ffd294; }
+  .radSkin_Outlook .radList > .radStateFocused,
+  .radSkin_Outlook .k-list > .k-state-focused {
+    box-shadow: inset 0 0 5px #97b8e8; }
+  .radSkin_Outlook .radList > .radStateSelected,
+  .radSkin_Outlook .k-list > .k-state-selected {
+    color: #000000;
+    background-color: #97b8e8; }
+  .radSkin_Outlook .radGrid td {
+    border-color: #d0d7e5; }
+  .radSkin_Outlook .radGridHeader,
+  .radSkin_Outlook .radGridHeaderWrap {
+    border-color: #89aee5;
+    background-color: #d6e5f3; }
+  .radSkin_Outlook .radGridHeader th {
+    border-color: #89aee5;
+    color: #000000;
+    background-color: #d6e5f3; }
+  .radSkin_Outlook .radFauxRows .radAlt {
+    background-color: #eff5fc; }
+  .radSkin_Outlook .radFauxColumns .radNonwork {
+    background-color: rgba(237, 239, 169, 0.3); }
+  .radSkin_Outlook .k-grid-header,
+  .radSkin_Outlook .k-grid-header-wrap {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0; }
+  .radSkin_Outlook .k-grid-header .k-header {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .radSkin_Outlook .k-grid-content .k-alt {
+    background-color: #eff5fc; }
+  .radSkin_Outlook .k-grid-content td {
+    border-color: #89aee5; }
+  .radSkin_Outlook .k-tooltip,
+  .radSkin_Outlook .radTooltip {
+    border-color: #ffd091;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffd091;
+    background-image: linear-gradient(#fff4cc, #ffd091);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
+  .radSkin_Outlook .k-tooltip-validation {
+    border-color: #ffffff;
+    color: #d51923;
+    background-color: #ffffff;
+    background-image: none; }
+  .radSkin_Outlook .k-button,
+  .radSkin_Outlook .radButton {
+    border-radius: 3px; }
+  .radSkin_Outlook .radToolbar .radButton {
+    border-radius: 0; }
+  .radSkin_Outlook .radToolbar > li:first-child .radButton {
+    border-radius: 3px 0 0 3px; }
+  .radSkin_Outlook .radToolbar > li:last-child .radButton {
+    border-radius: 0 3px 3px 0; }
+  .radSkin_Outlook .radToolbar > li:only-child .radButton {
+    border-radius: 3px; }
+  .radSkin_Outlook .k-numeric-wrap {
+    border-color: #003c74; }
+  .radSkin_Outlook .k-picker-wrap {
+    border-color: #003c74; }
+  .radSkin_Outlook .radCalendar .k-header {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .radSkin_Outlook .radCalendar th {
+    border-color: #5d8fd8; }
+  .radSkin_Outlook .radCalendar td.k-weekend {
+    color: #666666; }
+  .radSkin_Outlook .radCalendar td.k-other-month {
+    color: #999999; }
+  .radSkin_Outlook .radCalendar td.k-state-hover {
+    border-color: #ffd294;
+    color: #000000;
+    background-color: #ffd294;
+    background-image: linear-gradient(#fff3ca, #ffd294); }
+  .radSkin_Outlook .radCalendar td.k-state-focused {
+    box-shadow: inset 0 0 5px #97b8e8; }
+  .radSkin_Outlook .radCalendar td.k-state-selected {
+    border-color: #97b8e8;
+    color: #000000;
+    background-color: #97b8e8;
+    background-image: linear-gradient(#dceafc, #97b8e8); }
+  .radSkin_Outlook .k-window-titlebar {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .radSkin_Outlook .radPopupEditForm .rgtButtonsContainer {
+    border-color: #5d8fd8; }
+
+.radSkin_Outlook.k-rtl .rgtViews > li:first-child + li .radButton {
+  border-radius: 0 3px 3px 0; }
+
+.radSkin_Outlook.k-rtl .rgtViews > li:last-child .radButton {
+  border-radius: 3px 0 0 3px; }
+
+@media only screen and (max-width: 1024px) {
+  .RadGantt_Outlook .rgtToolbar > .rgtViews.rgtExpanded {
+    color: #333333;
+    background: #ffffff;
+    border-color: #89aee5; }
+  .RadGantt_Outlook .rgtToolbar > .rgtViews.radToolbar .radButton {
+    border-radius: 3px; } }
+

@@ -1,0 +1,67 @@
+.RadWindow_Metro {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9;
+  padding: 0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_Metro .rwTitleBar {
+    margin: 0;
+    color: #ffffff;
+    background: #25a0da; }
+  .RadWindow_Metro .rwCommandButton {
+    opacity: .7; }
+  .RadWindow_Metro .rwCommandButton:hover {
+    opacity: .9; }
+  .RadWindow_Metro .rwContent {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff;
+    border-width: 0; }
+  .RadWindow_Metro .rwStatusBar {
+    border-width: 0;
+    border-top-width: 1px; }
+  .RadWindow_Metro .rwDialogButtons button {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadWindow_Metro .rwDialogButtons button:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadWindow_Metro .rwDialogButtons button:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadWindow_Metro .rwPromptDialog .rwOkBtn,
+  .RadWindow_Metro .rwConfirmDialog .rwOkBtn {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadWindow_Metro .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Metro .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #1e80ae;
+    color: #ffffff;
+    background-color: #1e80ae; }
+  .RadWindow_Metro .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Metro .rwConfirmDialog .rwOkBtn:active {
+    border-color: #166083;
+    color: #ffffff;
+    background-color: #166083; }
+  .RadWindow_Metro .rwPromptInput {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Metro .rwPromptInput:hover {
+    border-color: #cecece;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Metro .rwPromptInput:active,
+  .RadWindow_Metro .rwPromptInput:focus {
+    border-color: #25a0da;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Metro .rwLoading.rwStatusBar {
+    background-image: url('../Metro/Common/loading_small.gif'); }
+  .RadWindow_Metro.rwLoading .rwExternalContent {
+    background-image: url('../Metro/Common/loading.gif'); }
+

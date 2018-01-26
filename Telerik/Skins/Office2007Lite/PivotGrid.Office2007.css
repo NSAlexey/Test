@@ -1,0 +1,137 @@
+.RadPivotGrid_Office2007 {
+  border-color: #9eb6ce;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadPivotGrid_Office2007 th,
+  .RadPivotGrid_Office2007 td,
+  .RadPivotGrid_Office2007 .rpgOuterTableWrapper,
+  .RadPivotGrid_Office2007 .rpgContentZoneDiv td {
+    border-color: #9eb6ce; }
+  .RadPivotGrid_Office2007 .rpgIcon {
+    color: #00156e; }
+  .RadPivotGrid_Office2007 .rpgPagerCell .rpgIcon:before {
+    display: block; }
+  .RadPivotGrid_Office2007 input {
+    border-color: #a1bcdd;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadPivotGrid_Office2007 .rpgRowHeader,
+  .RadPivotGrid_Office2007 .rpgRowHeaderTotal,
+  .RadPivotGrid_Office2007 .rpgRowHeaderGrandTotal {
+    border-color: #85b0e3;
+    color: #333333;
+    background-color: #c3d8f1; }
+  .RadPivotGrid_Office2007 .rpgColumnTotalDataCell,
+  .RadPivotGrid_Office2007 .rpgRowGrandTotalDataCell,
+  .RadPivotGrid_Office2007 .rpgColumnGrandTotalDataCell,
+  .RadPivotGrid_Office2007 .rpgRowTotalDataCell {
+    background-color: #f2f2f2; }
+  .RadPivotGrid_Office2007 .rpgRowTotalDataCell.rpgColumnTotalDataCell {
+    background-color: #e6e6e6; }
+  .RadPivotGrid_Office2007 .rpgFilterZone,
+  .RadPivotGrid_Office2007 .rpgRowsZone,
+  .RadPivotGrid_Office2007 .rpgColumnsZone,
+  .RadPivotGrid_Office2007 .rpgDataZone,
+  .RadPivotGrid_Office2007 .rpgColumnHeader,
+  .RadPivotGrid_Office2007 .rpgColumnHeaderTotal,
+  .RadPivotGrid_Office2007 .rpgColumnHeaderGrandTotal,
+  .RadPivotGrid_Office2007 .rpgContentZoneDiv th {
+    border-color: #85b0e3;
+    color: #333333;
+    background-color: #c3d8f1;
+    background-image: linear-gradient(#dee8f5, #c3d8f1); }
+  .RadPivotGrid_Office2007 .rpgColumnHeader {
+    vertical-align: middle; }
+  .RadPivotGrid_Office2007 .rpgFieldsPopupWrapper {
+    background: #ffffff; }
+  .RadPivotGrid_Office2007 .rpgFieldItem > a:first-of-type {
+    color: #00156e; }
+  .RadPivotGrid_Office2007 .rpgFieldItem,
+  .RadPivotGrid_Office2007 .rpgUpdateButton {
+    border: 1px solid #a1bcdd;
+    border-radius: 4px;
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+    .RadPivotGrid_Office2007 .rpgFieldItem:hover,
+    .RadPivotGrid_Office2007 .rpgUpdateButton:hover {
+      border-color: #c4ba9c;
+      color: #000000;
+      background-color: #ffe18a;
+      background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+    .RadPivotGrid_Office2007 .rpgFieldItem:disabled:hover,
+    .RadPivotGrid_Office2007 .rpgUpdateButton:disabled:hover {
+      border-color: #a1bcdd;
+      color: #00156e;
+      background-color: #e8f1fc;
+      background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+  .RadPivotGrid_Office2007 .rpgConfigurationPanel {
+    background: #ffffff; }
+  .RadPivotGrid_Office2007 .rpgFieldsContainer {
+    border: 1px solid #9eb6ce;
+    border-radius: 4px; }
+  .RadPivotGrid_Office2007 .rpgPagerCell {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #d6e6f4; }
+    .RadPivotGrid_Office2007 .rpgPagerCell .rpgNumPart a {
+      border-radius: 2px;
+      color: inherit; }
+      .RadPivotGrid_Office2007 .rpgPagerCell .rpgNumPart a:hover {
+        border-color: #c4ba9c;
+        color: #000000;
+        background-color: #ffe18a;
+        background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+      .RadPivotGrid_Office2007 .rpgPagerCell .rpgNumPart a.rpgCurrentPage {
+        border-color: #41559c;
+        color: #41559c;
+        background: none; }
+    .RadPivotGrid_Office2007 .rpgPagerCell .rpgPagerButton,
+    .RadPivotGrid_Office2007 .rpgPagerCell .rpgActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 2px;
+      border-color: #a1bcdd;
+      color: #00156e;
+      background-color: #e8f1fc;
+      background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+      .RadPivotGrid_Office2007 .rpgPagerCell .rpgPagerButton:hover,
+      .RadPivotGrid_Office2007 .rpgPagerCell .rpgActionButton:hover {
+        border-color: #c4ba9c;
+        color: #000000;
+        background-color: #ffe18a;
+        background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+
+.PivotGridWindow_Office2007 .rpgFilterButtonOk,
+.PivotGridWindow_Office2007 .rpgFilterButtonCancel {
+  border: 1px solid;
+  border-radius: 4px;
+  border-color: #a1bcdd;
+  color: #00156e;
+  background-color: #e8f1fc;
+  background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+  .PivotGridWindow_Office2007 .rpgFilterButtonOk:hover,
+  .PivotGridWindow_Office2007 .rpgFilterButtonCancel:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+
+.PivotGridWindow_Office2007 .rpgFilterWindowContainer .RadMenu .rmRootGroup.rmVertical {
+  float: left; }
+
+.PivotGridWindow_Office2007 .RadMenu_Office2007 {
+  background: none; }
+
+.PivotGridToolTip_Office2007 {
+  background: #ffffff;
+  border-color: #9eb6ce;
+  color: #333333; }
+
+.PivotGridReorderLeft_Office2007:before,
+.PivotGridReorderRight_Office2007:before,
+.PivotGridReorderTop_Office2007:before,
+.PivotGridReorderBottom_Office2007:before {
+  color: #000000; }
+

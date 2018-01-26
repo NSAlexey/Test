@@ -1,0 +1,10 @@
+.RadDataForm_Sunset {
+  color: #333333; }
+  .RadDataForm_Sunset .rdfLegend,
+  .RadDataForm_Sunset .rdfBorders {
+    border-color: #938879; }
+  .RadDataForm_Sunset .rdfHr {
+    color: #938879; }
+  .RadDataForm_Sunset .rdfFieldHint {
+    color: #b3b3b3; }
+

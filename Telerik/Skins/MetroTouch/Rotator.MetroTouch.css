@@ -1,0 +1,56 @@
+.RadRotator_MetroTouch .rrClipRegion {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_MetroTouch a.rrButton {
+  width: 26px;
+  height: 26px;
+  border-radius: 100px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  background-image: url('Common/radActionsSprite.png');
+  background-repeat: no-repeat; }
+
+.RadRotator_MetroTouch .rrButton:hover {
+  border-color: #cecece;
+  color: #000000;
+  background-color: #e7e7e7; }
+
+.RadRotator_MetroTouch .rrButton:active {
+  border-color: #25a0da;
+  color: #ffffff;
+  background-color: #25a0da; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonLeft,
+.RadRotator_MetroTouch a.rrButton.rrButtonLeft:hover {
+  background-position: -12px -112px; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonLeft:active {
+  background-position: -112px -112px; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonRight,
+.RadRotator_MetroTouch a.rrButton.rrButtonRight:hover {
+  background-position: -12px -162px; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonRight:active {
+  background-position: -112px -162px; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonUp,
+.RadRotator_MetroTouch a.rrButton.rrButtonUp:hover {
+  background-position: -12px -12px; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonUp:active {
+  background-position: -112px -12px; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonDown,
+.RadRotator_MetroTouch a.rrButton.rrButtonDown:hover {
+  top: auto;
+  background-position: -12px -62px; }
+
+.RadRotator_MetroTouch a.rrButton.rrButtonDown:active {
+  background-position: -112px -62px; }
+
+.RadRotator_MetroTouch .rrLoadingSign {
+  background: url('Common/loading_small.gif') no-repeat center; }
+

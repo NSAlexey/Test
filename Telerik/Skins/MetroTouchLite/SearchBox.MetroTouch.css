@@ -1,0 +1,63 @@
+.RadSearchBox_MetroTouch {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_MetroTouch .rsbInner {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSearchBox_MetroTouch .rsbInner.rsbHovered {
+      border-color: #cecece;
+      color: #333333;
+      background-color: #ffffff; }
+    .RadSearchBox_MetroTouch .rsbInner.rsbFocused {
+      border-color: #25a0da;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadSearchBox_MetroTouch .rsbSCInner {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSearchBox_MetroTouch .rsbLoadingIcon {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+  .RadSearchBox_MetroTouch .rsbHovered.rsbInner {
+    border-color: #cecece;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_MetroTouch .rsbHovered .rsbSCInner {
+    border-color: #cecece; }
+  .RadSearchBox_MetroTouch .rsbHovered.rsbSCInner, .RadSearchBox_MetroTouch .rsbHovered.rsbButton {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSearchBox_MetroTouch .rsbFocused.rsbInner {
+    border-color: #25a0da;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_MetroTouch .rsbFocused .rsbSCInner,
+  .RadSearchBox_MetroTouch .rsbFocused .rsbHovered.rsbButton {
+    border-color: #25a0da; }
+  .RadSearchBox_MetroTouch .rsbFocused.rsbSCInner, .RadSearchBox_MetroTouch .rsbFocused.rsbButton {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadSearchBox_MetroTouch .rsbSelected.rsbButton {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+
+.rsbPopup_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-weight: 100;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rsbPopup_MetroTouch .rsbListItemHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .rsbPopup_MetroTouch .rsbListItemSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+  .rsbPopup_MetroTouch .rsbListItemLoading {
+    color: #000000;
+    background-color: #e7e7e7; }
+

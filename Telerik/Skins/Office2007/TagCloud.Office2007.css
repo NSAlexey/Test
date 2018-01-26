@@ -1,0 +1,14 @@
+.RadTagCloud_Office2007 {
+  border-color: #9eb6ce;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTagCloud_Office2007.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadTagCloud_Office2007 .rtcTagItem a {
+    color: #41559c; }
+  .RadTagCloud_Office2007 .rtcTagItem a:hover {
+    color: #2b3866; }
+  .RadTagCloud_Office2007.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

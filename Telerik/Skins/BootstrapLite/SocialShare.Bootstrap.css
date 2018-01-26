@@ -1,0 +1,10 @@
+.RadSocialShare_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #fcfcfc;
+  padding: 6px 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadSocialShare_Bootstrap .sshLinkItem:hover {
+    color: #337ab7; }
+

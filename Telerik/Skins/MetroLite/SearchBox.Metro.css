@@ -1,0 +1,62 @@
+.RadSearchBox_Metro {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_Metro .rsbInner {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSearchBox_Metro .rsbInner.rsbHovered {
+      border-color: #cecece;
+      color: #333333;
+      background-color: #ffffff; }
+    .RadSearchBox_Metro .rsbInner.rsbFocused {
+      border-color: #25a0da;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadSearchBox_Metro .rsbSCInner {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSearchBox_Metro .rsbLoadingIcon {
+    background-image: url('../Metro/Common/loading_small.gif'); }
+  .RadSearchBox_Metro .rsbHovered.rsbInner {
+    border-color: #cecece;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Metro .rsbHovered .rsbSCInner {
+    border-color: #cecece; }
+  .RadSearchBox_Metro .rsbHovered.rsbSCInner, .RadSearchBox_Metro .rsbHovered.rsbButton {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSearchBox_Metro .rsbFocused.rsbInner {
+    border-color: #25a0da;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Metro .rsbFocused .rsbSCInner,
+  .RadSearchBox_Metro .rsbFocused .rsbHovered.rsbButton {
+    border-color: #25a0da; }
+  .RadSearchBox_Metro .rsbFocused.rsbSCInner, .RadSearchBox_Metro .rsbFocused.rsbButton {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadSearchBox_Metro .rsbSelected.rsbButton {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+
+.rsbPopup_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rsbPopup_Metro .rsbListItemHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .rsbPopup_Metro .rsbListItemSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+  .rsbPopup_Metro .rsbListItemLoading {
+    color: #000000;
+    background-color: #e7e7e7; }
+

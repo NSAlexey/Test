@@ -1,0 +1,23 @@
+.RadDock_Office2010Blue .rdMiddle .rdLeft,
+.RadDock_Office2010Blue .rdMiddle .rdRight {
+  background-image: url('Dock/VerticalSprite.gif'); }
+
+.RadDock_Office2010Blue .rdTop .rdLeft,
+.RadDock_Office2010Blue .rdTop .rdRight,
+.RadDock_Office2010Blue .rdTop .rdCenter,
+.RadDock_Office2010Blue .rdBottom .rdLeft,
+.RadDock_Office2010Blue .rdBottom .rdRight,
+.RadDock_Office2010Blue .rdBottom .rdCenter {
+  background-image: url('Dock/HorizontalSprite.png'); }
+
+.RadDock_Office2010Blue .rdCenter .rdCommands a span {
+  background-image: url('Dock/CommandSprite.gif'); }
+
+.RadDock_Office2010Blue .rdMiddle .rdCenter,
+.RadDock_Office2010Blue .rdBottom .rdCenter {
+  background-color: #becce0; }
+
+.RadDock_Office2010Blue .rdContent,
+.RadDock_Office2010Blue .rdTitleBar em {
+  color: #333333; }
+

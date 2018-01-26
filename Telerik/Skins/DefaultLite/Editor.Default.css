@@ -1,0 +1,135 @@
+.RadEditor_Default {
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #e6e6e6; }
+  .RadEditor_Default .reToolBar, .RadEditor_Default.rePopupContainer,
+  .RadEditor_Default .rePopupTitle,
+  .RadEditor_Default .reCommentInfoPanel,
+  .RadEditor_Default .reCommentView,
+  .RadEditor_Default .reCommentViewText,
+  .RadEditor_Default .reCommentEdit {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .RadEditor_Default .rePopupButton,
+  .RadEditor_Default .reCommentButton,
+  .RadEditor_Default .reAjaxSpellButton {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .RadEditor_Default .reTool:hover,
+  .RadEditor_Default .reToolText:hover,
+  .RadEditor_Default .reModes a:hover,
+  .RadEditor_Default .reDropdown:hover,
+  .RadEditor_Default .reSpinBoxButtons span:hover,
+  .RadEditor_Default.reInsertTable .reTool:hover:before,
+  .RadEditor_Default.reAlignmentSelector td div:hover:before,
+  .RadEditor_Default .rePopupButton:hover,
+  .RadEditor_Default .reCommentButton:hover,
+  .RadEditor_Default .reAjaxSpellButton:hover {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .RadEditor_Default .reTool:active,
+  .RadEditor_Default .reTool:focus,
+  .RadEditor_Default .reToolText:active,
+  .RadEditor_Default .reToolText:focus,
+  .RadEditor_Default .reToolSelected,
+  .RadEditor_Default .reToolSelected:hover,
+  .RadEditor_Default .reModes a:active,
+  .RadEditor_Default .reModes a:focus,
+  .RadEditor_Default .reModes .reSelectedMode,
+  .RadEditor_Default .reModes .reSelectedMode:hover,
+  .RadEditor_Default .reDropdown:active,
+  .RadEditor_Default .reDropdown:focus,
+  .RadEditor_Default .reSpinBoxButtons span:active,
+  .RadEditor_Default .reSpinBoxButtons span:focus,
+  .RadEditor_Default .rePopupButton:active,
+  .RadEditor_Default .rePopupButton:focus,
+  .RadEditor_Default .reCommentButton:active,
+  .RadEditor_Default .reCommentButton:focus,
+  .RadEditor_Default .reAjaxSpellButton:focus,
+  .RadEditor_Default .reAjaxSpellButton:active {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(#9a9a9a, #808080); }
+  .RadEditor_Default .reTool.reToolIcon span,
+  .RadEditor_Default .reTool.reToolIcon:before,
+  .RadEditor_Default .reDropdown,
+  .RadEditor_Default .reToolText,
+  .RadEditor_Default .reModes a,
+  .RadEditor_Default .reDOMElement,
+  .RadEditor_Default .reCustomColor,
+  .RadEditor_Default .reCustomLinks a {
+    color: #333333; }
+  .RadEditor_Default .reTool:hover .reSplitArrow {
+    border-left-color: darkgray; }
+  .RadEditor_Default .reTool:active .reSplitArrow,
+  .RadEditor_Default .reTool:focus .reSplitArrow {
+    border-left-color: #676767; }
+  .RadEditor_Default .reSeparator {
+    border-right-color: rgba(255, 255, 255, 0.85);
+    border-left-color: rgba(179, 179, 179, 0.9); }
+  .RadEditor_Default .reToolBarWrapperLeft .reSeparator,
+  .RadEditor_Default .reToolBarWrapperRight .reSeparator {
+    border-color: #b3b3b3; }
+  .RadEditor_Default .reContent {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadEditor_Default .reTableDiv .reModule,
+  .RadEditor_Default .reTableDiv .reRow {
+    border-top-color: #cccccc; }
+  .RadEditor_Default .reDropdown,
+  .RadEditor_Default .reDropdown.reToolDisabled,
+  .RadEditor_Default .reDropdown.reToolDisabled:hover,
+  .RadEditor_Default .reDropdown.reToolDisabled:active,
+  .RadEditor_Default .reDropdown.reToolDisabled:focus {
+    background-color: #ffffff;
+    border-color: #cccccc; }
+  .RadEditor_Default .reRemoveDOMElement,
+  .RadEditor_Default .reRemoveDOMElement:before {
+    color: #d51923; }
+  .RadEditor_Default.reDropDownBody.reAjaxSpellCheck input[type="text"],
+  .RadEditor_Default .reTableDiv input[type="text"] {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadEditor_Default.reDropDownBody.reAjaxSpellCheck input[type="text"]:hover,
+  .RadEditor_Default .reTableDiv input[type="text"]:hover {
+    border-color: darkgray;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadEditor_Default.reDropDownBody.reAjaxSpellCheck input[type="text"]:focus,
+  .RadEditor_Default .reTableDiv input[type="text"]:focus,
+  .RadEditor_Default.reDropDownBody.reAjaxSpellCheck input[type="text"]:active,
+  .RadEditor_Default .reTableDiv input[type="text"]:active {
+    border-color: #676767;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadEditor_Default.reInlineEditor:hover {
+    border-color: darkgray; }
+  .RadEditor_Default.RadWindow, .RadEditor_Default.RadWindow.reInlineEditor:hover, .RadEditor_Default.reInlineEditorSelected, .RadEditor_Default.reInlineEditorSelected:hover {
+    border-color: #cccccc; }
+  .RadEditor_Default.RadWindow,
+  .RadEditor_Default.RadWindow .rwContent {
+    background-color: #ffffff; }
+  .RadEditor_Default.reDropDownBody {
+    background-color: #ffffff; }
+  .RadEditor_Default.reDropDownBody li:hover {
+    color: #000000;
+    background-color: #c2c2c2; }
+  .RadEditor_Default.reInsertTable td {
+    border-color: #333333; }
+  .RadEditor_Default .reFormatSetsHeader,
+  .RadEditor_Default.reInsertTable .reItemOver {
+    color: #000000;
+    background-color: #c2c2c2; }
+
+.reTool .reNoAlignment {
+  color: #333333; }
+

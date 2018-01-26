@@ -1,0 +1,81 @@
+.RadSlider_BlackMetroTouch {
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSlider_BlackMetroTouch .rslTrack {
+    border-radius: 0;
+    border-color: #555555;
+    background-color: #222222; }
+  .RadSlider_BlackMetroTouch .rslItem {
+    background-image: url('../BlackMetroTouch/Slider/ItemHorizontalBgr.png'); }
+  .RadSlider_BlackMetroTouch .rslSelectedregion {
+    border-radius: 0;
+    background-color: #0082cc; }
+  .RadSlider_BlackMetroTouch .rslHorizontal.rslTop a.rslHandle {
+    top: .65em; }
+  .RadSlider_BlackMetroTouch .rslHandle,
+  .RadSlider_BlackMetroTouch .rslDraghandle {
+    border-radius: 45px;
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+    .RadSlider_BlackMetroTouch .rslHandle:hover,
+    .RadSlider_BlackMetroTouch .rslDraghandle:hover {
+      border-color: #555555;
+      color: #ffffff;
+      background-color: #3c3c3c; }
+    .RadSlider_BlackMetroTouch .rslHandle:active,
+    .RadSlider_BlackMetroTouch .rslHandle:focus,
+    .RadSlider_BlackMetroTouch .rslDraghandle:active,
+    .RadSlider_BlackMetroTouch .rslDraghandle:focus {
+      border-color: #0082cc;
+      color: #ffffff;
+      background-color: #0082cc; }
+  .RadSlider_BlackMetroTouch .rslTrack a.rslDraghandle {
+    width: 1.25em;
+    height: 1.25em;
+    margin-top: -0.4em;
+    border: 2px solid #000000;
+    background-color: #3c3c3c;
+    top: 0.0625em; }
+    .RadSlider_BlackMetroTouch .rslTrack a.rslDraghandle:hover {
+      width: 1.125em;
+      height: 1.125em;
+      background-color: #3c3c3c;
+      border: 3px solid #000000; }
+    .RadSlider_BlackMetroTouch .rslTrack a.rslDraghandle:active,
+    .RadSlider_BlackMetroTouch .rslTrack a.rslDraghandle:focus {
+      width: 1.125em;
+      height: 1.125em;
+      border: 3px solid #555555;
+      background-color: #000000; }
+    .RadSlider_BlackMetroTouch .rslTrack a.rslDraghandle .rslTrack a.rslDraghandle span {
+      width: 1.375em;
+      height: 1.375em;
+      border-radius: 45px;
+      overflow: hidden; }
+  .RadSlider_BlackMetroTouch .rslVertical .rslItem {
+    background-image: url('../BlackMetroTouch/Slider/ItemVerticalBgr.png'); }
+  .RadSlider_BlackMetroTouch .rslVertical a.rslDraghandle {
+    margin-left: -0.4375em; }
+  .RadSlider_BlackMetroTouch .rslVertical.rslLeft a.rslHandle {
+    left: 1.5em; }
+  .RadSlider_BlackMetroTouch .rslTop .rslSmallTick,
+  .RadSlider_BlackMetroTouch .rslBottom .rslSmallTick {
+    background-image: url('../BlackMetroTouch/Slider/SmallChangeHorizontal.png'); }
+  .RadSlider_BlackMetroTouch .rslTop .rslLargeTick,
+  .RadSlider_BlackMetroTouch .rslBottom .rslLargeTick {
+    background-image: url('../BlackMetroTouch/Slider/LargeChangeHorizontal.png'); }
+  .RadSlider_BlackMetroTouch .rslLeft .rslSmallTick,
+  .RadSlider_BlackMetroTouch .rslRight .rslSmallTick {
+    background-image: url('../BlackMetroTouch/Slider/SmallChangeVertical.png'); }
+  .RadSlider_BlackMetroTouch .rslLeft .rslLargeTick,
+  .RadSlider_BlackMetroTouch .rslRight .rslLargeTick {
+    background-image: url('../BlackMetroTouch/Slider/LargelChangeVertical.png'); }
+  .RadSlider_BlackMetroTouch .rslMiddle .rslSmallTick {
+    background-image: url('../BlackMetroTouch/Slider/SmallChangeMiddleHorizontal.png'); }
+  .RadSlider_BlackMetroTouch .rslMiddle .rslLargeTick {
+    background-image: url('../BlackMetroTouch/Slider/LargeChangeMiddleHorizontal.png'); }
+  .RadSlider_BlackMetroTouch .rslCenter .rslSmallTick {
+    background-image: url('../BlackMetroTouch/Slider/SmallChangeCenterVertical.png'); }
+  .RadSlider_BlackMetroTouch .rslCenter .rslLargeTick {
+    background-image: url('../BlackMetroTouch/Slider/LargelChangeCenterVertical.png'); }

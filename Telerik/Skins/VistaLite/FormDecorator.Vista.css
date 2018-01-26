@@ -1,0 +1,208 @@
+.RadForm_Vista {
+  color: #333333;
+  background-color: #ffffff; }
+  .RadForm_Vista .rfdHeading {
+    color: #333333;
+    border-bottom-color: #aec5d1; }
+  .RadForm_Vista.rfdFieldset fieldset {
+    border-color: #aec5d1;
+    color: #333333;
+    background-color: #eff7fc; }
+  .RadForm_Vista .rfdAspLabel,
+  .RadForm_Vista.rfdLabel label {
+    color: #333333; }
+  .RadForm_Vista .rfdSkinnedButton {
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3;
+    box-shadow: none; }
+  .RadForm_Vista .rfdSkinnedButton:hover {
+    border-color: #5094b9;
+    color: #000000;
+    background-color: #abdcf7;
+    background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78);
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Vista .rfdSkinnedButton:active,
+  .RadForm_Vista .rfdClickedButton,
+  .RadForm_Vista .rfdFocusedButton {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+    box-shadow: inset 0 0 3px 1px #41d7fc;
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Vista .rfdSkinnedButton.rfdInputDisabled {
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3;
+    box-shadow: none; }
+  .RadForm_Vista .rfdPrimaryButton {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#e5eff4, #d8eaf4 50%, #c2e2f4 50%, #b0d8ee);
+    box-shadow: inset 0 0 3px 1px #41d7fc;
+    box-shadow: none; }
+  .RadForm_Vista .rfdPrimaryButton:hover {
+    border-color: #5094b9;
+    color: #000000;
+    background-color: #abdcf7;
+    background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78);
+    box-shadow: none; }
+  .RadForm_Vista .rfdPrimaryButton:active,
+  .RadForm_Vista .rfdPrimaryButton.rfdClickedButton,
+  .RadForm_Vista .rfdPrimaryButton.rfdFocusedButton {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+    box-shadow: inset 0 0 3px 1px #41d7fc;
+    box-shadow: none; }
+  .RadForm_Vista .rfdPrimaryButton.rfdInputDisabled {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#e5eff4, #d8eaf4 50%, #c2e2f4 50%, #b0d8ee);
+    box-shadow: inset 0 0 3px 1px #41d7fc;
+    box-shadow: none; }
+  .RadForm_Vista .rfdTextInput,
+  .RadForm_Vista.rfdTextarea textarea {
+    border-color: #acacac;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Vista .rfdTextInput:hover,
+  .RadForm_Vista.rfdTextarea textarea:hover {
+    border-color: #5094b9;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Vista .rfdTextInput:active,
+  .RadForm_Vista.rfdTextarea textarea:active,
+  .RadForm_Vista .rfdTextInput:focus,
+  .RadForm_Vista.rfdTextarea textarea:focus {
+    border-color: #3d7899;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Vista .rfdTextInput:disabled,
+  .RadForm_Vista.rfdTextarea textarea:disabled {
+    border-color: #acacac;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Vista .rfdRadioChecked:before,
+  .RadForm_Vista .rfdCheckboxChecked:before {
+    color: #3c7fb1; }
+  .RadForm_Vista .rfdRadioUnchecked:hover:before,
+  .RadForm_Vista .rfdCheckboxUnchecked:hover:before,
+  .RadForm_Vista .rfdRadioChecked:hover:before,
+  .RadForm_Vista .rfdCheckboxChecked:hover:before {
+    color: #295678; }
+  .RadForm_Vista .rfdRealInput:focus + .rfdRadioUnchecked:before,
+  .RadForm_Vista .rfdRealInput:focus + .rfdCheckboxUnchecked:before {
+    box-shadow: 0 0 1px 1px rgba(51, 51, 51, 0.5); }
+  .RadForm_Vista .rfdRealInput:focus + .rfdRadioChecked:before,
+  .RadForm_Vista .rfdRealInput:focus + .rfdCheckboxChecked:before {
+    box-shadow: 0 0 1px 1px rgba(60, 127, 177, 0.5); }
+  .RadForm_Vista .rfdSelect_Vista {
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3; }
+  .RadForm_Vista .rfdSelect_Vista:hover {
+    border-color: #5094b9;
+    color: #000000;
+    background-color: #abdcf7;
+    background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78);
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Vista .rfdSelect_Vista:active,
+  .RadForm_Vista .rfdSelect_Vista:focus {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+    box-shadow: inset 0 0 3px 1px #41d7fc;
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Vista .rfdSelect_Vista.rfdSelectDisabled {
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3;
+    box-shadow: none; }
+  .RadForm_Vista.rfdScrollBars .rfdSelectBox::-webkit-scrollbar,
+  .RadForm_Vista.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Vista.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:horizontal,
+  .RadForm_Vista.rfdScrollBars form::-webkit-scrollbar,
+  .RadForm_Vista.rfdScrollBars form::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Vista.rfdScrollBars form::-webkit-scrollbar-thumb:horizontal {
+    background-color: #eff7fc; }
+  .RadForm_Vista.rfdScrollBars textarea::-webkit-scrollbar-corner {
+    background-color: #e6e6e6; }
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal {
+    border-color: #aec5d1;
+    background-color: #eff7fc; }
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_Vista.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+    background-image: url('../Vista/Common/radActionsSprite.png');
+    background-color: #eff7fc; }
+  .RadForm_Vista.rfdScrollBars {
+    scrollbar-3dlight-color: #ccc;
+    scrollbar-arrow-color: #292929;
+    scrollbar-base-color: #ff6347;
+    scrollbar-darkshadow-color: #595959;
+    scrollbar-face-color: #e4e4e4;
+    scrollbar-highlight-color: #fff;
+    scrollbar-shadow-color: #a3a3a3;
+    scrollbar-track-color: #f0f0f0; }
+  .RadForm_Vista .rfdTable {
+    border-color: #aec5d1;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Vista .rfdTable th {
+    border-color: #74b6da;
+    color: #000000;
+    background-color: #a6d9f4; }
+  .RadForm_Vista .rfdTable a {
+    color: #3c7fb1; }
+  .RadForm_Vista .rfdTable a:hover {
+    color: #295678; }
+  .RadForm_Vista .rfdLoginControl,
+  .RadForm_Vista .rfdValidationSummaryControl {
+    border-color: #aec5d1;
+    color: #333333;
+    background-color: #eff7fc; }
+  .RadForm_Vista a.rfdLoginControl,
+  .RadForm_Vista a.rfdLoginControl:active,
+  .RadForm_Vista a.rfdLoginControl:visited {
+    color: #333333; }
+  .RadForm_Vista a.rfdLoginControl:hover {
+    color: #000000; }
+
+.rfdSelectBox_Vista {
+  border-color: #aec5d1;
+  color: #333333;
+  background-color: #ffffff; }
+
+.rfdSelectBox_Vista li:hover,
+.rfdSelectBox_Vista .rfdSelect_hovered {
+  color: #000000;
+  background-color: #d6effc; }
+
+.rfdSelectBox_Vista .rfdSelect_selected,
+.rfdSelectBox_Vista .rfdSelect_selected:hover {
+  color: #000000;
+  background-color: #a9daf4; }
+

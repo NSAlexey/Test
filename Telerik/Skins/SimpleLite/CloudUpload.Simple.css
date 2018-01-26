@@ -1,0 +1,51 @@
+.RadCloudUpload_Simple {
+  color: #333333; }
+  .RadCloudUpload_Simple .rcuButton {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RadCloudUpload_Simple .rcuInfoPanel {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RadCloudUpload_Simple .rcuHeader {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RadCloudUpload_Simple .rcuFileList {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Simple .rcuProgressBar {
+    border-color: #c7c7c7;
+    background-color: #ededed;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Simple .rcuProgress {
+    border-color: #882501;
+    background-color: #ffa517;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Simple .p-i-loading {
+    background-image: url('../Simple/Common/loading_small.gif'); }
+  .RadCloudUpload_Simple .rcuDropZone {
+    border-color: #551701;
+    color: #ffffff;
+    background-color: #882501; }
+  .RadCloudUpload_Simple .rcuButton.rcuHovered {
+    border-color: #ffc350;
+    color: #882501;
+    background-color: #ffe79c; }
+  .RadCloudUpload_Simple .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #882501;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Simple .rcuButton.rcuPressed {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+
+.rcuToolTip_Simple {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+

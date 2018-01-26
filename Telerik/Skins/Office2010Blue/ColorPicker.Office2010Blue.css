@@ -1,0 +1,58 @@
+.RadColorPicker_Office2010Blue {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Rounded corners and shadows */ }
+  .RadColorPicker_Office2010Blue .rcpViews,
+  .RadColorPicker_Office2010Blue .rcpHeader,
+  .RadColorPicker_Office2010Blue .rcpPageView {
+    background-color: #dbe3ee; }
+  .RadColorPicker_Office2010Blue .rcpColorPreview,
+  .RadColorPicker_Office2010Blue .rcpInput,
+  .RadColorPicker_Office2010Blue .rcpHexInput,
+  .RadColorPicker_Office2010Blue .rcpMillionColorsPalette,
+  .RadColorPicker_Office2010Blue .rcpMillionColorsSlider div.rslTrack {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #ffffff; }
+  .RadColorPicker_Office2010Blue .rcpPalette,
+  .RadColorPicker_Office2010Blue input,
+  .RadColorPicker_Office2010Blue a,
+  .RadColorPicker_Office2010Blue .rcpApplyButton:hover span {
+    color: #384e73; }
+  .RadColorPicker_Office2010Blue .rcpTabs ul li a {
+    color: #384e73;
+    background-position: left -289px;
+    padding: 0 0 0 6px !important; }
+  .RadColorPicker_Office2010Blue .rcpTabs ul li a span {
+    padding: 0 6px 0 0 !important;
+    background-position: right top; }
+  .RadColorPicker_Office2010Blue .rcpTabs ul li.rcpSelectedTab a {
+    color: #384e73;
+    background-position: -1014px -289px;
+    padding-left: 6px !important; }
+  .RadColorPicker_Office2010Blue .rcpTabs ul li.rcpSelectedTab a span {
+    background-position: right -26px;
+    padding-right: 6px !important; }
+  .RadColorPicker_Office2010Blue .rcpHeader,
+  .RadColorPicker_Office2010Blue .rcpHeader .rcpImageButton,
+  .RadColorPicker_Office2010Blue .rcpRecentColors,
+  .RadColorPicker_Office2010Blue .rcpIcon a,
+  .RadColorPicker_Office2010Blue .rcpTabs a,
+  .RadColorPicker_Office2010Blue .rcpTabs a span,
+  .RadColorPicker_Office2010Blue .rcpButton,
+  .RadColorPicker_Office2010Blue .rcpButton span,
+  .RadColorPicker_Office2010Blue .rcpMillionColorsHandle,
+  .RadColorPicker_Office2010Blue .rcpSlider div.rslTrack,
+  .RadColorPicker_Office2010Blue .rcpSlider .rslTrack a.rslDraghandle,
+  .RadColorPicker_Office2010Blue div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle {
+    background-image: url('ColorPicker/ColorPickerSprites.png');
+    background-repeat: no-repeat; }
+  .RadColorPicker_Office2010Blue .rcpPalette,
+  .RadColorPicker_Office2010Blue .rcpRoundedRight,
+  .RadColorPicker_Office2010Blue .rcpRoundedBottomRight,
+  .RadColorPicker_Office2010Blue .rcpRightShadow,
+  .RadColorPicker_Office2010Blue .rcpCornerShadow {
+    background-image: url('ColorPicker/rcpVerticalSprites.png'); }
+  .RadColorPicker_Office2010Blue .rcpRoundedBottomLeft,
+  .RadColorPicker_Office2010Blue .rcpBottomShadow {
+    background-image: url('ColorPicker/ColorPickerSprites.png'); }
+

@@ -1,0 +1,269 @@
+.RadRibbonBar_Outlook .rrbWrap {
+  border-color: #5d8fd8;
+  color: #000000;
+  background-color: #7ea6e0;
+  background-image: linear-gradient(#e3eeff, #7ea6e0); }
+
+.RadRibbonBar_Outlook .rrbTabs {
+  border-bottom-color: #5d8fd8; }
+  .RadRibbonBar_Outlook .rrbTabs .rrbItem .rrbLink {
+    border-color: transparent;
+    border-radius: 5px 5px 0 0;
+    color: #000000; }
+  .RadRibbonBar_Outlook .rrbTabs .rrbItem.rrbSelected .rrbLink {
+    border-color: #5e88cd;
+    color: #000000;
+    background-color: #5e88cd; }
+
+.RadRibbonBar_Outlook .rrbApplicationItem .rrbLink {
+  color: #000000;
+  border-color: #003c74;
+  background-color: #ebe8e3; }
+
+.RadRibbonBar_Outlook .rrbApplicationItem.rrbSelected .rrbHeaderBar {
+  border-color: #89aee5;
+  background: #7ea6e0;
+  background-image: linear-gradient(#e3eeff, #7ea6e0); }
+
+.RadRibbonBar_Outlook .rrbApplicationItem.rrbSelected .rrbLink {
+  color: #000000;
+  border-color: #5e88cd;
+  background-color: #5e88cd;
+  background-image: linear-gradient(#aabee5, #5e88cd); }
+
+.RadRibbonBar_Outlook .rrbContextualItem .rrbLabel {
+  color: #ffffff; }
+
+.RadRibbonBar_Outlook .rrbMenu .rrbHeader {
+  color: #000000;
+  background-color: #7ea6e0; }
+
+.RadRibbonBar_Outlook .rrbToolTip {
+  color: #333333;
+  border-color: #89aee5;
+  border-radius: 3px;
+  background-color: #d6e6f4; }
+
+.RadRibbonBar_Outlook .rrbCommandGroup {
+  border-radius: 3px;
+  border-color: #003c74;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+
+.RadRibbonBar_Outlook .rrbCommandArea {
+  background-color: #7ea6e0;
+  background-image: linear-gradient(#e3eeff, #7ea6e0); }
+
+.RadRibbonBar_Outlook .rrbResizeHandle {
+  background-position: -5px -885px; }
+
+.RadRibbonBar_Outlook .rrbAbox > .rrbButtonGroup .rrbButton {
+  border-radius: 0; }
+  .RadRibbonBar_Outlook .rrbAbox > .rrbButtonGroup .rrbButton + .rrbButton {
+    margin-left: -1px; }
+
+.RadRibbonBar_Outlook .rrbAbox > .rrbButtonGroup .rrbButton:first-child {
+  border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadRibbonBar_Outlook .rrbAbox > .rrbButtonGroup .rrbButton:last-child {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadRibbonBar_Outlook .rrbTitle {
+  border-top: 1px solid #003c74;
+  color: #000000;
+  background-color: #7ea6e0; }
+
+.RadRibbonBar_Outlook .rrbCollapsedGroup {
+  border-color: #89aee5; }
+  .RadRibbonBar_Outlook .rrbCollapsedGroup .rrbIcon {
+    border-color: #003c74; }
+
+.RadRibbonBar_Outlook .rrbButton, .RadRibbonBar_Outlook .rrbButtonGroup .rrbButton, .RadRibbonBar_Outlook .rrbComboBox .rrbButton,
+.RadRibbonBar_Outlook .rrbDropDown .rrbButton,
+.RadRibbonBar_Outlook .rrbNumericTextBox .rrbButton,
+.RadRibbonBar_Outlook .rrbColorPicker .rrbButton, .RadRibbonBar_Outlook .rrbDropDown .rrbDDInner, .RadRibbonBar_Outlook .rrbColorPicker .rrbCPInner, .RadRibbonBar_Outlook .rrbGalleryActions .rrbButton {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+
+.RadRibbonBar_Outlook .rrbQat .rrbButton, .RadRibbonBar_Outlook .rrbButton {
+  border-color: transparent;
+  background: transparent; }
+
+.RadRibbonBar_Outlook .rrbQat .rrbButton:hover, .RadRibbonBar_Outlook .rrbButton:hover, .RadRibbonBar_Outlook .rrbButton.rrbHovered, .RadRibbonBar_Outlook .rrbButtonGroup .rrbButton:hover, .RadRibbonBar_Outlook .rrbComboBox .rrbButton.rrbHovered,
+.RadRibbonBar_Outlook .rrbDropDown .rrbButton.rrbHovered,
+.RadRibbonBar_Outlook .rrbNumericTextBox .rrbButton.rrbHovered,
+.RadRibbonBar_Outlook .rrbColorPicker .rrbButton.rrbHovered, .RadRibbonBar_Outlook .rrbDropDown .rrbDDInner:hover, .RadRibbonBar_Outlook .rrbColorPicker .rrbCPInner:hover, .RadRibbonBar_Outlook .rrbGallery .rrbItem.rrbHovered, .RadRibbonBar_Outlook .rrbGalleryActions .rrbButton.rrbHovered, .rrbSlide_Outlook .rrbItem.rrbHovered {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #fbc860; }
+
+.RadRibbonBar_Outlook .rrbQat .rrbButton:active, .RadRibbonBar_Outlook .rrbButton.rrbClicked, .RadRibbonBar_Outlook .rrbButton.rrbPressed, .RadRibbonBar_Outlook .rrbButton.rrbExpanded, .RadRibbonBar_Outlook .rrbButton.rrbToggled, .RadRibbonBar_Outlook .rrbButtonGroup .rrbButton:active, .RadRibbonBar_Outlook .rrbButtonGroup .rrbButton.rrbClicked, .RadRibbonBar_Outlook .rrbButtonGroup .rrbButton.rrbPressed, .RadRibbonBar_Outlook .rrbComboBox .rrbButton.rrbClicked,
+.RadRibbonBar_Outlook .rrbDropDown .rrbButton.rrbClicked,
+.RadRibbonBar_Outlook .rrbNumericTextBox .rrbButton.rrbClicked,
+.RadRibbonBar_Outlook .rrbColorPicker .rrbButton.rrbClicked, .RadRibbonBar_Outlook .rrbDropDown .rrbDDInner:active, .RadRibbonBar_Outlook .rrbColorPicker .rrbCPInner:active, .RadRibbonBar_Outlook .rrbGallery .rrbItem.rrbSelected, .RadRibbonBar_Outlook .rrbGalleryActions .rrbButton.rrbClicked, .rrbSlide_Outlook .rrbItem.rrbSelected {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadRibbonBar_Outlook .rrbMenu, .rrbDropDownSlide_Outlook .rrbPopup, .rrbSlide_Outlook .rrbPopup, .rrbPopup_Outlook, .rrbPopup_Outlook .rrbPopup {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+
+/*%menu-item {
+	color: $list-item-text;
+	background-color: $list-item-bg;
+}*/
+.RadRibbonBar_Outlook .rrbMenu .rrbItem.rrbHovered, .rrbPopup_Outlook .rrbItem.rrbHovered > .rrbInner, .rrbPopup_Outlook .rrbItem.rrbHovered > .rrbInner .rrbToggle, .rrbPopup_Outlook .rrbItem.rrbExpanded > .rrbInner {
+  border-color: #ffd294;
+  color: #000000;
+  background-color: #ffd294;
+  background-image: linear-gradient(#fff3ca, #ffd294); }
+
+.rrbPopup_Outlook .rrbItem.rrbExpanded > .rrbInner .rrbToggle {
+  border-color: #97b8e8;
+  color: #000000;
+  background-color: #97b8e8;
+  background-image: linear-gradient(#dceafc, #97b8e8); }
+
+.RadRibbonBar_Outlook .rrbToggleHandle,
+.RadRibbonBar_Outlook .rrbResizeHandle,
+.RadRibbonBar_Outlook .rrbGroupLauncher,
+.RadRibbonBar_Outlook .rrbGroupToggleIcon {
+  /*background-image: url($actions-sprite);*/ }
+
+.RadRibbonBar_Outlook .rrbButton {
+  border-radius: 3px; }
+
+.RadRibbonBar_Outlook .rrbLargeButton .rrbArrow {
+  border-radius: 0 0 3px 3px; }
+
+.RadRibbonBar_Outlook .rrbSmallButton.rrbSplitButton .rrbArrow,
+.RadRibbonBar_Outlook .rrbMediumButton.rrbSplitButton .rrbArrow {
+  border-radius: 0 3px 3px 0; }
+
+.RadRibbonBar_Outlook .rrbSplitButton:hover .rrbArrow {
+  color: inherit;
+  background: transparent;
+  border-color: #305090;
+  box-shadow: none; }
+
+.RadRibbonBar_Outlook .rrbSplitButton.rrbArrowHovered {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  border-color: #003c74;
+  box-shadow: none; }
+  .RadRibbonBar_Outlook .rrbSplitButton.rrbArrowHovered .rrbArrow {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+
+.RadRibbonBar_Outlook .rrbSplitButton.rrbClicked .rrbArrow {
+  color: inherit;
+  background: transparent;
+  border-color: #305090;
+  box-shadow: none; }
+
+.RadRibbonBar_Outlook .rrbSplitButton.rrbArrowHovered.rrbClicked {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  border-color: #003c74; }
+  .RadRibbonBar_Outlook .rrbSplitButton.rrbArrowHovered.rrbClicked .rrbArrow {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadRibbonBar_Outlook .rrbSplitButton.rrbExpanded, .RadRibbonBar_Outlook .rrbSplitButton.rrbExpanded.rrbClicked {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #e59700; }
+  .RadRibbonBar_Outlook .rrbSplitButton.rrbExpanded.rrbClicked .rrbArrow,
+  .RadRibbonBar_Outlook .rrbSplitButton.rrbExpanded .rrbArrow, .RadRibbonBar_Outlook .rrbSplitButton.rrbExpanded.rrbClicked.rrbClicked .rrbArrow,
+  .RadRibbonBar_Outlook .rrbSplitButton.rrbExpanded.rrbClicked .rrbArrow {
+    border-color: #003c74; }
+
+.RadRibbonBar_Outlook .rrbComboBox .rrbCBInner {
+  border-color: #003c74;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Outlook .rrbComboBox .rrbCBInput {
+  color: #333333; }
+
+.RadRibbonBar_Outlook .rrbDropDown .rrbButton,
+.RadRibbonBar_Outlook .rrbDropDown .rrbButton.rrbHovered {
+  background: none; }
+
+.RadRibbonBar_Outlook .rrbNumericTextBox .rrbNTBInner {
+  border-color: #003c74;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Outlook .rrbNumericTextBox .rrbNTBInput {
+  color: #333333; }
+
+.RadRibbonBar_Outlook .rrbColorPicker .rrbButton,
+.RadRibbonBar_Outlook .rrbColorPicker .rrbButton.rrbHovered {
+  background: none; }
+
+.RadRibbonBar_Outlook .rrbGallery {
+  border-color: #89aee5;
+  background-color: #ffffff; }
+  .RadRibbonBar_Outlook .rrbGallery .rrbItem .rrbLink {
+    color: #333333;
+    background-color: #ffffff; }
+
+.RadRibbonBar_Outlook .rrbGalleryActions .rrbButton {
+  border-radius: 0; }
+
+.RadRibbonBar_Outlook .rrbCategoryTitle {
+  color: #000000;
+  background-color: #7ea6e0; }
+
+.rrbDropDownSlide_Outlook .rrbListItem:hover {
+  color: #000000;
+  background-color: #ffd294; }
+
+.rrbSlide_Outlook .rrbCategoryTitle {
+  color: #000000;
+  background-color: #7ea6e0; }
+
+.rrbSlide_Outlook .rrbGallery {
+  background: #d6e6f4; }
+
+.rrbSlide_Outlook .rrbLink {
+  color: #333333;
+  background-color: #ffffff; }
+
+.rrbPopup_Outlook .rrbHeaderBar {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+
+.rrbPopup_Outlook .rrbAuxiliaryPane {
+  color: #000000;
+  border-color: #89aee5;
+  background: #9bbae7; }
+
+.rrbPopup_Outlook .rrbHeader,
+.rrbPopup_Outlook .rrbFooter {
+  color: #000000;
+  border-color: #5d8fd8;
+  background: #7ea6e0;
+  background-image: linear-gradient(#e3eeff, #7ea6e0); }
+

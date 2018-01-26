@@ -1,0 +1,10 @@
+.RecurrenceEditor_Bootstrap {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RecurrenceEditor_Bootstrap .rsPanel {
+    border-color: #dedede; }
+  .RecurrenceEditor_Bootstrap .rsAdvRecurrenceFreq,
+  .RecurrenceEditor_Bootstrap .rsAdvPatternPanel {
+    border-color: #dedede; }
+  .RecurrenceEditor_Bootstrap .RadInput .riTextBox {
+    height: inherit; }
+

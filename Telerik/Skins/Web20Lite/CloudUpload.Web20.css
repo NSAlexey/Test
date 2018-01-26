@@ -1,0 +1,59 @@
+.RadCloudUpload_Web20 {
+  color: #333333; }
+  .RadCloudUpload_Web20 .rcuButton {
+    border-radius: 3px;
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+  .RadCloudUpload_Web20 .rcuInfoPanel {
+    border-color: #6788be;
+    color: #333333;
+    background-color: #e7f1ff; }
+  .RadCloudUpload_Web20 .rcuHeader {
+    border-color: #5f90cf;
+    color: #ffffff;
+    background-color: #92b3de;
+    background-image: linear-gradient(#9db7db, #7b95c6 50%, #698ac0 50%, #92b3de); }
+  .RadCloudUpload_Web20 .rcuFileList {
+    border-color: #6788be;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Web20 .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #a8c0e7;
+    background-color: #d6dfeb;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Web20 .rcuProgress {
+    border-color: #000;
+    background-color: #81c15f;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Web20 .p-i-loading {
+    background-image: url('../Web20/Common/loading_small.gif'); }
+  .RadCloudUpload_Web20 .rcuDropZone {
+    border-color: #0c265d;
+    color: #ffffff;
+    background-color: #12398a; }
+  .RadCloudUpload_Web20 .rcuButton.rcuHovered {
+    border-color: #2a5795;
+    color: #0f3789;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RadCloudUpload_Web20 .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #12398a;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Web20 .rcuButton.rcuPressed {
+    border-color: #2a3866;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+
+.rcuToolTip_Web20 {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #ffffff; }
+

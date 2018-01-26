@@ -1,0 +1,75 @@
+.RadMenu_Windows7 .rmRootGroup {
+  border-color: #aabfd6;
+  color: #4c607a;
+  background-color: #f1f5fb; }
+  .RadMenu_Windows7 .rmRootGroup .rmItem {
+    border-color: #ccd9e7; }
+  .RadMenu_Windows7 .rmRootGroup .rmRootLink:hover {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #c2d3e9;
+    background-image: linear-gradient(#fdfeff, #e8f2fa 50%, #dce6f4 50%, #c2d3e9); }
+  .RadMenu_Windows7 .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Windows7 .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #aac1df;
+    color: #4c607a;
+    background-color: #cfdced;
+    background-image: linear-gradient(#c9d4e4, #d8e4f1 50%, #cfdbec 50%, #cfdced); }
+  .RadMenu_Windows7 .rmRootGroup .rmFocused > .rmLink {
+    border-color: #aac1df;
+    box-shadow: inset 0 0 5px #aac1df; }
+
+.RadMenu_Windows7 .rmGroup,
+.RadMenu_Windows7 .rmMultiColumn,
+.RadMenu_Windows7 .rmPopup {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadMenu_Windows7 .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_Windows7 .rmGroup .rmLink:hover,
+.RadMenu_Windows7 .rmGroup .rmToggle:hover {
+  border-color: #bfd8f8;
+  color: #1e395b;
+  background-color: #edf4fd;
+  background-image: linear-gradient(#f9fbfd, #edf4fd); }
+
+.RadMenu_Windows7 .rmGroup .rmSelected > .rmLink,
+.RadMenu_Windows7 .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Windows7 .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Windows7 .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #8eb0da;
+  color: #1e395b;
+  background-color: #c2dcfc;
+  background-image: linear-gradient(#daeafc, #c2dcfc); }
+
+.RadMenu_Windows7 .rmGroup .rmFocused > .rmLink,
+.RadMenu_Windows7 .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #8eb0da;
+  box-shadow: inset 0 0 5px #8eb0da; }
+
+.RadMenu_Windows7 .rmSeparator {
+  border-color: #c1cdde; }
+
+.RadMenu_Windows7 .rmGroup .rmSeparator {
+  border-color: #aabfd6; }
+
+.RadMenu_Windows7 .rmArrow {
+  border-color: #b6cbea;
+  background-color: #dde7f5; }
+
+.RadMenu_Windows7 .rmArrow:hover {
+  background-color: #c9d9f0; }
+
+.RadMenu_Windows7 .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #aabfd6; }
+
+.RadMenu_Windows7 .rmGroup:before,
+.RadMenu_Windows7 .rmMultiColumn:before,
+.RadMenu_Windows7 .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Windows7 .rmScrollWrap > .rmVertical:before {
+  border-color: #ccd9e7;
+  background-color: #f1f5fb; }
+

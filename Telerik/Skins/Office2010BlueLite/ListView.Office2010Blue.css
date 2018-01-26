@@ -1,0 +1,25 @@
+.RadListView_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+  .RadListView_Office2010Blue .rlvHeader th {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .RadListView_Office2010Blue .rlvI {
+    border-color: #9babc2; }
+  .RadListView_Office2010Blue .rlvA {
+    background: #f2f2f2;
+    border-color: #9babc2; }
+  .RadListView_Office2010Blue .rlvISel {
+    background: #fff17c;
+    color: #1e395b;
+    border-color: #c38e00; }
+  .RadListView_Office2010Blue .rlvDrag {
+    background-image: url('../Office2010Blue/ListView/drag.gif'); }
+  .RadListView_Office2010Blue .rlvInput {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #ffffff; }
+

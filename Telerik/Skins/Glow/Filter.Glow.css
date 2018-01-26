@@ -1,0 +1,125 @@
+.RadFilter_Glow {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e2e8eb; }
+  .RadFilter_Glow .rfOper:hover,
+  .RadFilter_Glow .rfField:hover,
+  .RadFilter_Glow .rfExp:hover,
+  .RadFilter_Glow .rfOper:focus,
+  .RadFilter_Glow .rfField:focus,
+  .RadFilter_Glow .rfExp:focus,
+  .RadFilter_Glow .rfOper:active,
+  .RadFilter_Glow .rfField:active,
+  .RadFilter_Glow .rfExp:active,
+  .RadFilter_Glow .rfAddGr,
+  .RadFilter_Glow .rfAddExp,
+  .RadFilter_Glow .rfDel {
+    background-image: url('Filter/sprite.png');
+    background-repeat: no-repeat; }
+  .RadFilter_Glow .rfLeft,
+  .RadFilter_Glow .rfMid,
+  .RadFilter_Glow .rfTools,
+  .RadFilter_Glow .rfRight {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    *background-repeat: repeat-x;
+    background-image: linear-gradient(#4b5a63, #323f47);
+    border-color: #1c2327;
+    border-style: solid;
+    border-width: 1px 0;
+    height: 30px;
+    padding-top: 2px; }
+  .RadFilter_Glow .rfLeft {
+    border-left-width: 1px; }
+  .RadFilter_Glow .rfRight {
+    border-right-width: 1px; }
+  .RadFilter_Glow .rfText {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .RadFilter_Glow a {
+    color: #ffa915; }
+  .RadFilter_Glow .rfLines li li {
+    background-image: url('Filter/rfLine.gif'); }
+    .RadFilter_Glow .rfLines li li .rfDiv {
+      background-image: url('Filter/rfMiddle.gif');
+      padding-bottom: 2px; }
+    .RadFilter_Glow .rfLines li li.rfLast .rfDiv {
+      background-image: url('Filter/rfLast.gif');
+      background-repeat: no-repeat; }
+  .RadFilter_Glow .rfField {
+    color: #e2e8eb; }
+  .RadFilter_Glow .rfOper:hover,
+  .RadFilter_Glow .rfField:hover,
+  .RadFilter_Glow .rfExp:hover,
+  .RadFilter_Glow .rfOper:focus,
+  .RadFilter_Glow .rfField:focus,
+  .RadFilter_Glow .rfExp:focus,
+  .RadFilter_Glow .rfOper:active,
+  .RadFilter_Glow .rfField:active,
+  .RadFilter_Glow .rfExp:active {
+    background-position: 100% -24px;
+    color: #e2e8eb; }
+  .RadFilter_Glow .rfText {
+    border-color: #35434b;
+    background-color: #1c262c;
+    color: #fff; }
+    .RadFilter_Glow .rfText:hover {
+      border-color: #cd8100;
+      color: #fff; }
+  .RadFilter_Glow .rfAddExp {
+    background-position: 1px 4px; }
+  .RadFilter_Glow .rfAddGr {
+    background-position: -29px 4px; }
+  .RadFilter_Glow .rfDel {
+    background-position: -57px 5px; }
+  .RadFilter_Glow .rfAddExp:hover,
+  .RadFilter_Glow .rfAddGr:hover,
+  .RadFilter_Glow .rfDel:hover {
+    background-image: linear-gradient(#dd9415, #ffba43);
+    background-color: #f0a92f;
+    border-radius: 4px; }
+  .RadFilter_Glow .rfPreview,
+  .RadFilter_Glow .rfPreview strong,
+  .RadFilter_Glow .rfPreview .rfBr {
+    color: #e2e8eb; }
+  .RadFilter_Glow .rfPreview em {
+    color: #ffa915; }
+  .RadFilter_Glow .rfApply a,
+  .RadFilter_Glow .rfApply span {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-repeat: repeat-x;
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    height: 24px;
+    padding: 2px 10px;
+    border-radius: 4px; }
+    .RadFilter_Glow .rfApply a:hover,
+    .RadFilter_Glow .rfApply span:hover {
+      border-color: #cd8100;
+      color: #733700;
+      background-color: #cd8100;
+      background-image: linear-gradient(#ffa201, #cd8100);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); }
+  .RadFilter_Glow .rfApply input {
+    color: inherit; }
+
+.RadFilterRTL_Glow .rfLines li li {
+  background-image: url('Filter/rfLine-rtl.gif'); }
+  .RadFilterRTL_Glow .rfLines li li .rfDiv {
+    background-image: url('Filter/rfMiddle-rtl.gif'); }
+  .RadFilterRTL_Glow .rfLines li li.rfLast .rfDiv {
+    background-image: url('Filter/rfLast-rtl.gif'); }
+
+.RadFilterRTL_Glow .rfOper:hover,
+.RadFilterRTL_Glow .rfField:hover,
+.RadFilterRTL_Glow .rfExp:hover,
+.RadFilterRTL_Glow .rfOper:focus,
+.RadFilterRTL_Glow .rfField:focus,
+.RadFilterRTL_Glow .rfExp:focus,
+.RadFilterRTL_Glow .rfOper:active,
+.RadFilterRTL_Glow .rfField:active,
+.RadFilterRTL_Glow .rfExp:active {
+  background-position: -586px -76px; }
+

@@ -1,0 +1,75 @@
+.RadColorPicker_Simple .rcpPalette,
+.RadColorPicker_Simple .rcpHeader,
+.RadColorPicker_Simple .rcpIcon,
+.RadColorPicker_Simple .rcpIcon a,
+.RadColorPicker_Simple .rcpTabs .rcpSelectedTab,
+.RadColorPicker_Simple .rcpButton {
+  border-radius: 0; }
+
+.RadColorPicker_Simple .rcpPalette {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed; }
+
+.RadColorPicker_Simple .rcpHeader {
+  border-color: #c4c4c4;
+  color: #000000;
+  background-color: #eaeaea; }
+
+.RadColorPicker_Simple .rcpImageButton,
+.RadColorPicker_Simple a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Simple .rcpImageButton:hover {
+  color: #882501; }
+
+.RadColorPicker_Simple .rcpIcon em,
+.RadColorPicker_Simple .rcpColorPreview,
+.RadColorPicker_Simple .rcpInput,
+.RadColorPicker_Simple .rcpHexInput,
+.RadColorPicker_Simple .rcpMillionColorsPalette,
+.RadColorPicker_Simple .rcpMillionColorsSlider div.rslTrack {
+  border-color: #7c7c7c;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadColorPicker_Simple .rcpIcon a,
+.RadColorPicker_Simple .rcpTabs li,
+.RadColorPicker_Simple .rcpButton {
+  border-color: #7c7c7c;
+  color: #000000;
+  background-color: #e2e2e2; }
+
+.RadColorPicker_Simple .rcpIcon a:hover,
+.RadColorPicker_Simple .rcpTabs li:hover,
+.RadColorPicker_Simple .rcpButton:hover {
+  border-color: #ca8500;
+  color: #882501;
+  background-color: #ffe79c; }
+
+.RadColorPicker_Simple .rcpIcon a:active,
+.RadColorPicker_Simple .rcpTabs .rcpSelectedTab,
+.RadColorPicker_Simple .rcpTabs .rcpSelectedTab:hover,
+.RadColorPicker_Simple .rcpButton:active {
+  border-color: #ca4900;
+  color: #882501;
+  background-color: #ffa517; }
+
+.RadColorPicker_Simple .rcpIcon a:focus {
+  box-shadow: inset 0 0 5px rgba(202, 73, 0, 0.5); }
+
+.RadColorPicker_Simple.rcpCustomColorWrapper .rcpPalette {
+  box-shadow: 2px 2px 3px rgba(204, 204, 204, 0.5); }
+
+.RadColorPicker_Simple .rcpSlider.RadSlider_Simple a.rslDraghandle,
+.RadColorPicker_Simple .rcpMillionColorsSlider.RadSlider_Simple a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Simple .rcpSlider.RadSlider_Simple a.rslDraghandle:hover,
+.RadColorPicker_Simple .rcpSlider.RadSlider_Simple a.rslDraghandle:active,
+.RadColorPicker_Simple .rcpSlider.RadSlider_Simple a.rslDraghandle:focus,
+.RadColorPicker_Simple .rcpMillionColorsSlider.RadSlider_Simple a.rslDraghandle:hover,
+.RadColorPicker_Simple .rcpMillionColorsSlider.RadSlider_Simple a.rslDraghandle:active,
+.RadColorPicker_Simple .rcpMillionColorsSlider.RadSlider_Simple a.rslDraghandle:focus {
+  color: #882501; }
+

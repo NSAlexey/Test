@@ -1,0 +1,42 @@
+.RadDropDownList_Office2010Silver {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Office2010Silver .rddlInner {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadDropDownList_Office2010Silver .rddlIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -2px -20px; }
+  .RadDropDownList_Office2010Silver .rddlHovered {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+    .RadDropDownList_Office2010Silver .rddlHovered .rddlIcon {
+      background-position: -2px -20px; }
+  .RadDropDownList_Office2010Silver .rddlFocused {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+    .RadDropDownList_Office2010Silver .rddlFocused .rddlIcon {
+      background-position: -2px -20px; }
+
+.rddlPopup_Office2010Silver {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rddlPopup_Office2010Silver .rddlItemHovered, .rddlPopup_Office2010Silver .rddlItemLoading {
+    color: #3b3b3b;
+    background-color: #ffe791; }
+  .rddlPopup_Office2010Silver .rddlItemSelected {
+    color: #3b3b3b;
+    background-color: #fff17c; }
+

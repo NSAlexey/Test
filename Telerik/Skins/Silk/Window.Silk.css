@@ -1,0 +1,153 @@
+.RadWindow_Silk {
+  border-color: #d9d9d9;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px #c4c4c4;
+  /* override base shadow dimensions */
+  /* Loading Indicators */
+  /* When ShowContentDuringLoad="true" */
+  /* When ShowContentDuringLoad="false" */
+  /* Alert buttons */ }
+  .RadWindow_Silk .rwTitleRow .rwTopLeft,
+  .RadWindow_Silk .rwTitleRow .rwTitlebar,
+  .RadWindow_Silk .rwTitleRow .rwTopRight {
+    background-image: url('../Common/Gradients/radGradientDarkV20.png');
+    background-image: linear-gradient(white, #e3e3e3);
+    background-position: 0 0 !important;
+    background-repeat: repeat-x; }
+  .RadWindow_Silk .rwTitleRow .rwTopLeft {
+    border-radius: 6px 0 0; }
+  .RadWindow_Silk .rwTitleRow .rwTopRight {
+    border-radius: 0 6px 0 0; }
+  .RadWindow_Silk table.rwShadow .rwTopLeft,
+  .RadWindow_Silk table.rwShadow .rwTopRight,
+  .RadWindow_Silk.rwMinimizedWindow table.rwShadow .rwCorner.rwTopLeft,
+  .RadWindow_Silk.rwMinimizedWindow table.rwShadow .rwCorner.rwTopRight,
+  .RadWindow_Silk table.rwShadow .rwBodyLeft,
+  .RadWindow_Silk table.rwShadow .rwBodyRight,
+  .RadWindow_Silk table.rwShadow .rwFooterLeft,
+  .RadWindow_Silk table.rwShadow .rwFooterRight {
+    width: 8px !important; }
+  .RadWindow_Silk table.rwShadow .rwTopLeft,
+  .RadWindow_Silk table.rwShadow .rwTopRight {
+    height: 8px !important; }
+  .RadWindow_Silk table.rwShadow .rwFooterLeft,
+  .RadWindow_Silk table.rwShadow .rwFooterRight,
+  .RadWindow_Silk table.rwShadow .rwFooterCenter {
+    height: 8px; }
+  .RadWindow_Silk.rwNoTitleBar table.rwShadow .rwTitlebar,
+  .RadWindow_Silk.rwNoTitleBar table.rwShadow .rwTopLeft,
+  .RadWindow_Silk.rwNoTitleBar table.rwShadow .rwTopRight {
+    height: 8px !important; }
+  .RadWindow_Silk table.rwShadow em {
+    padding: 0 0 0 1px; }
+  .RadWindow_Silk .rwStatusbar div {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -12px -2212px; }
+  .RadWindow_Silk .rwTable .rwTitlebarControls .rwIcon {
+    background-image: url('Window/rwIcon.png');
+    background-position: 0 0;
+    margin: 5px 5px 0 0; }
+  .RadWindow_Silk .rwTable.rwShadow .rwTitlebarControls .rwIcon {
+    margin: 2px 5px 0 0; }
+  .RadWindow_Silk .rwTable .rwTitlebarControls em {
+    color: #5f5f5f;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: "Segoue UI Light", "Segoue UI", Helvetica, sans-serif; }
+  .RadWindow_Silk .rwTable .rwDialogInput {
+    border-color: #c4c4c4;
+    color: #3b3b3b;
+    background-color: #ffffff; }
+  .RadWindow_Silk .rwTable .rwDialogInput:hover {
+    border-color: #0092ab;
+    color: black;
+    background-color: #ffffff; }
+  .RadWindow_Silk td.rwWindowContent {
+    border-color: #d9d9d9;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Silk .rwTable tr td.rwLoading {
+    background-color: #e3e3e3; }
+  .RadWindow_Silk td.rwWindowContent.rwLoading,
+  .RadWindow_Silk .rwIframeWrapperIOS.rwLoading {
+    background-image: url('Common/loading.gif'); }
+  .RadWindow_Silk input.rwLoading {
+    background-image: url('Common/loading_small.gif'); }
+  .RadWindow_Silk .rwTable a.rwCancel,
+  .RadWindow_Silk .rwTable a.rwCancel span {
+    background: none;
+    cursor: pointer; }
+  .RadWindow_Silk .rwTable a.rwCancel span span {
+    color: #5f5f5f;
+    text-decoration: underline; }
+  .RadWindow_Silk ul.rwControlButtons {
+    margin: -4px 0 0; }
+  .RadWindow_Silk .rwTable .rwControlButtons li a {
+    background-image: url('Common/radActionsSprite.png');
+    width: 28px;
+    height: 28px;
+    margin: 0 2px; }
+  .RadWindow_Silk a.rwCloseButton {
+    background-position: -11px -1911px; }
+  .RadWindow_Silk a.rwCloseButton:hover {
+    background-position: -61px -1911px; }
+  .RadWindow_Silk a.rwPinButton {
+    background-position: -11px -1261px; }
+  .RadWindow_Silk a.rwPinButton:hover {
+    background-position: -61px -1261px; }
+  .RadWindow_Silk a.rwPinButton.on {
+    background-position: -11px -1211px; }
+  .RadWindow_Silk a.rwPinButton.on:hover {
+    background-position: -61px -1211px; }
+  .RadWindow_Silk a.rwMinimizeButton {
+    background-position: -11px -1511px; }
+  .RadWindow_Silk a.rwMinimizeButton:hover {
+    background-position: -61px -1511px; }
+  .RadWindow_Silk a.rwMaximizeButton {
+    background-position: -11px -1611px; }
+  .RadWindow_Silk a.rwMaximizeButton:hover {
+    background-position: -61px -1611px; }
+  .RadWindow_Silk.rwMaximizedWindow a.rwMaximizeButton,
+  .RadWindow_Silk.rwMinimizedWindow a.rwMinimizeButton {
+    background-position: -11px -1811px; }
+  .RadWindow_Silk.rwMaximizedWindow a.rwMaximizeButton:hover,
+  .RadWindow_Silk.rwMinimizedWindow a.rwMinimizeButton:hover {
+    background-position: -61px -1811px; }
+  .RadWindow_Silk a.rwReloadButton {
+    background-position: -11px -1311px; }
+  .RadWindow_Silk a.rwReloadButton:hover {
+    background-position: -61px -1311px; }
+  .RadWindow_Silk a.rwPopupButton span {
+    height: 26px;
+    line-height: 26px; }
+  .RadWindow_Silk a.rwPopupButton {
+    background-image: url('../Common/Gradients/radGradientDarkV20.png');
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3);
+    height: 26px;
+    border-width: 1px;
+    border-style: solid;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-radius: 4px; }
+  .RadWindow_Silk .rwWindowContent a.rwPopupButton:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab);
+    background-position: 0 0; }
+  .RadWindow_Silk a.rwPopupButton:focus,
+  .RadWindow_Silk a.rwPopupButton:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none;
+    box-shadow: inset 0 0 4px #c0c0c0;
+    background-position: 0 0; }
+

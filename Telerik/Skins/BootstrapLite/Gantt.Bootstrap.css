@@ -1,0 +1,428 @@
+.RadGantt_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadGantt_Bootstrap .k-loading-color {
+    background-color: #ffffff; }
+  .RadGantt_Bootstrap .k-loading-image {
+    background-image: url('../Bootstrap/Common/loading.gif'); }
+  .RadGantt_Bootstrap .rgtHeader {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke;
+    padding: 8px;
+    min-height: calc(1.42857143em + 12px); }
+  .RadGantt_Bootstrap .rgtViews > li:first-child + li .radButton {
+    border-radius: 4px 0 0 4px; }
+  .RadGantt_Bootstrap .rgtFooter {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #fcfcfc;
+    padding: 8px; }
+  .RadGantt_Bootstrap .rgtTreelist {
+    background-color: #fafafa; }
+  .RadGantt_Bootstrap .rgtTreelist .radGridHeader th {
+    padding: 31px 7px 10px; }
+  .RadGantt_Bootstrap .rgtTreelist .rgtTreelistGroup {
+    font-weight: inherit; }
+  .RadGantt_Bootstrap .rgtTreelist .radAlt {
+    background-color: #ededed; }
+  .RadGantt_Bootstrap .rgtTreelist .radStateFocused {
+    box-shadow: inset 0 0 5px #286090; }
+  .RadGantt_Bootstrap .rgtTreelist .radStateSelected {
+    border-color: #337ab7;
+    color: #ffffff;
+    background-color: #337ab7; }
+  .RadGantt_Bootstrap .rgtTreelist td.k-edit-cell {
+    padding-top: 0;
+    padding-bottom: 0; }
+  .RadGantt_Bootstrap .rgtSplitbar {
+    border-color: #dedede;
+    background-color: #ffffff; }
+  .RadGantt_Bootstrap .rgtSplitbar .radResizeHandle {
+    border-radius: 2px;
+    background-color: #dedede; }
+  .RadGantt_Bootstrap .rgtSplitbarHover {
+    border-color: #c4c4c4; }
+  .RadGantt_Bootstrap .radLine {
+    background-color: #333333; }
+  .RadGantt_Bootstrap .radArrowE,
+  .RadGantt_Bootstrap .radArrowW {
+    color: #333333; }
+  .RadGantt_Bootstrap .radLine.radStateSelected {
+    background-color: #1a1a1a;
+    box-shadow: 0 1px 3px #333333; }
+  .RadGantt_Bootstrap .radLine.radStateSelected .radArrowE,
+  .RadGantt_Bootstrap .radLine.radStateSelected .radArrowW {
+    color: #1a1a1a; }
+  .RadGantt_Bootstrap .radMarqueeColor {
+    background-color: rgba(51, 122, 183, 0.4); }
+  .RadGantt_Bootstrap .rgtTaskWrap {
+    margin-top: -7px; }
+  .RadGantt_Bootstrap .rgtTaskDot {
+    top: 4px; }
+  .RadGantt_Bootstrap .rgtTaskDot:after {
+    border-color: #333333;
+    background-color: #333333; }
+  .RadGantt_Bootstrap .rgtTaskDot:hover:after {
+    border-color: #333333;
+    background-color: #ffffff; }
+  .RadGantt_Bootstrap .rgtResource {
+    background-color: #ffffff; }
+  .RadGantt_Bootstrap .rgtResource.radAlt {
+    background-color: #f9f9f9; }
+  .RadGantt_Bootstrap .rgtTaskMilestone {
+    margin-top: 5px;
+    width: 1.42857143em;
+    height: 1.42857143em;
+    border-color: #337ab7;
+    background-color: #337ab7; }
+  .RadGantt_Bootstrap .rgtTaskMilestone.radStateSelected {
+    border-color: #286090;
+    background-color: #337ab7; }
+  .RadGantt_Bootstrap .rgtMilestoneWrap {
+    margin-left: -31px;
+    margin-top: -7px; }
+  .RadGantt_Bootstrap .rgtTaskMilestone ~ .rgtTaskDot {
+    top: 8px; }
+  .RadGantt_Bootstrap .rgtTaskSummary {
+    margin-top: 12px;
+    border-color: #999999;
+    background-color: #999999; }
+  .RadGantt_Bootstrap .rgtComplete {
+    border-color: #333333;
+    background-color: #333333; }
+  .RadGantt_Bootstrap .rgtTaskSummary.radStateSelected {
+    border-color: #64a0d3;
+    background-color: #64a0d3; }
+  .RadGantt_Bootstrap .radStateSelected .rgtComplete {
+    border-color: #337ab7;
+    background-color: #337ab7; }
+  .RadGantt_Bootstrap .rgtTaskSummary ~ .rgtTaskDot {
+    top: 8px; }
+  .RadGantt_Bootstrap .rgtTaskSingle {
+    border-color: #337ab7;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #68a2d5;
+    text-shadow: 0 0 1px rgba(51, 51, 51, 0.3); }
+  .RadGantt_Bootstrap .rgtTaskComplete {
+    border-color: #337ab7;
+    background-color: #337ab7; }
+  .RadGantt_Bootstrap .rgtTaskTemplate {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 1.42857143; }
+  .RadGantt_Bootstrap .rgtTaskSingle ~ .rgtTaskDot {
+    top: 8px; }
+  .RadGantt_Bootstrap .rgtTaskSingle .radResizeHandle:after {
+    background-color: #ffffff; }
+  .RadGantt_Bootstrap .rgtTaskActions {
+    top: 8px;
+    right: 5px; }
+  .RadGantt_Bootstrap .rgtTaskSingle.radStateSelected,
+  .RadGantt_Bootstrap .rgtTaskSingle.radStateSelected .rgtTaskComplete {
+    border-color: #1d4568; }
+
+.radSkin_Bootstrap {
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .radSkin_Bootstrap .k-grid, .radSkin_Bootstrap .radCalendar {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff; }
+  .radSkin_Bootstrap .k-popup, .radSkin_Bootstrap.k-popup,
+  .radSkin_Bootstrap .radPopup, .radSkin_Bootstrap.radPopup, .radSkin_Bootstrap .radDragClue, .radSkin_Bootstrap.radDragClue, .radSkin_Bootstrap.k-window {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff; }
+  .radSkin_Bootstrap .k-button,
+  .radSkin_Bootstrap .radButton, .radSkin_Bootstrap .k-numeric-wrap .k-link,
+  .radSkin_Bootstrap .k-numeric-wrap .k-select, .radSkin_Bootstrap .k-dropdown-wrap, .radSkin_Bootstrap .k-picker-wrap .k-select {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .radSkin_Bootstrap .radButton:focus {
+    border-color: rgba(173, 173, 173, 0.5);
+    box-shadow: 0 0 5px rgba(173, 173, 173, 0.5) inset; }
+  .radSkin_Bootstrap .k-button:hover,
+  .radSkin_Bootstrap .radButton:hover,
+  .radSkin_Bootstrap .radButton.radStateHovered,
+  .radSkin_Bootstrap .radStateHovered > .radButton, .radSkin_Bootstrap .k-numeric-wrap .k-link:hover, .radSkin_Bootstrap .k-dropdown-wrap.k-state-hover, .radSkin_Bootstrap .k-picker-wrap .k-select:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .radSkin_Bootstrap .radButton:active,
+  .radSkin_Bootstrap .radButton.radStateSelected,
+  .radSkin_Bootstrap .radStateSelected > .radButton, .radSkin_Bootstrap .k-numeric-wrap .k-link.k-state-selected, .radSkin_Bootstrap .k-dropdown-wrap.k-state-active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  .radSkin_Bootstrap .radPrimary {
+    border-color: #2e6da4;
+    color: #ffffff;
+    background-color: #337ab7; }
+  .radSkin_Bootstrap .radPrimary:hover {
+    border-color: #204d74;
+    color: #ffffff;
+    background-color: #286090; }
+  .radSkin_Bootstrap .radPrimary:active {
+    border-color: #122b40;
+    color: #ffffff;
+    background-color: #286090; }
+  .radSkin_Bootstrap .k-textbox,
+  .radSkin_Bootstrap .radTextbox, .radSkin_Bootstrap .k-numeric-wrap, .radSkin_Bootstrap .k-picker-wrap {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .radSkin_Bootstrap .k-popup, .radSkin_Bootstrap.k-popup,
+  .radSkin_Bootstrap .radPopup, .radSkin_Bootstrap.radPopup {
+    padding: 0;
+    border-radius: 4px; }
+  .radSkin_Bootstrap .radDragClue, .radSkin_Bootstrap.radDragClue {
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(130, 130, 130, 0.5); }
+  .radSkin_Bootstrap .radList,
+  .radSkin_Bootstrap .k-list {
+    white-space: nowrap; }
+  .radSkin_Bootstrap .radList > .radItem,
+  .radSkin_Bootstrap .k-list > .k-item {
+    padding: 3px 15px;
+    min-height: 0;
+    line-height: inherit; }
+  .radSkin_Bootstrap .radList > .radStateHovered,
+  .radSkin_Bootstrap .k-list > .k-state-hover {
+    color: #000000;
+    background-color: #eeeeee; }
+  .radSkin_Bootstrap .radList > .radStateFocused,
+  .radSkin_Bootstrap .k-list > .k-state-focused {
+    box-shadow: inset 0 0 5px #286090; }
+  .radSkin_Bootstrap .radList > .radStateSelected,
+  .radSkin_Bootstrap .k-list > .k-state-selected {
+    color: #ffffff;
+    background-color: #337ab7; }
+  .radSkin_Bootstrap .radGrid td {
+    padding: 9px 10px 10px;
+    border-top-width: 1px;
+    border-color: #dedede; }
+  .radSkin_Bootstrap .radGridHeader,
+  .radSkin_Bootstrap .radGridHeaderWrap {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .radSkin_Bootstrap .radGridHeader th {
+    padding: 10px;
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .radSkin_Bootstrap .radFauxRows .radAlt {
+    background-color: #f9f9f9; }
+  .radSkin_Bootstrap .radFauxColumns .radNonwork {
+    background-color: rgba(245, 245, 245, 0.4); }
+  .radSkin_Bootstrap .k-grid-header,
+  .radSkin_Bootstrap .k-grid-header-wrap {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .radSkin_Bootstrap .k-grid-header .k-header {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .radSkin_Bootstrap .k-grid-content .k-alt {
+    background-color: #f9f9f9; }
+  .radSkin_Bootstrap .k-grid-content td {
+    border-color: #dedede; }
+  .radSkin_Bootstrap .k-tooltip,
+  .radSkin_Bootstrap .radTooltip {
+    border-color: black;
+    color: #cccccc;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
+  .radSkin_Bootstrap .k-tooltip-validation {
+    border-color: #ffffff;
+    color: #d51923;
+    background-color: #ffffff;
+    background-image: none; }
+  .radSkin_Bootstrap .k-button,
+  .radSkin_Bootstrap .radButton {
+    padding: 6px 12px;
+    border-radius: 4px; }
+  .radSkin_Bootstrap .radButton.radPrimary {
+    border-color: #2e6da4;
+    color: #ffffff;
+    background-color: #337ab7; }
+  .radSkin_Bootstrap .radButton.radPrimary:hover,
+  .radSkin_Bootstrap .radButton.radPrimary.radStateHovered {
+    border-color: #204d74;
+    color: #ffffff;
+    background-color: #286090; }
+  .radSkin_Bootstrap .radButton.radPrimary:focus,
+  .radSkin_Bootstrap .radButton.radPrimary.radStateSelected {
+    border-color: #122b40;
+    color: #ffffff;
+    background-color: #286090; }
+  .radSkin_Bootstrap .radToolbar .radButton {
+    border-radius: 0; }
+  .radSkin_Bootstrap .radToolbar > li:first-child .radButton {
+    border-radius: 4px 0 0 4px; }
+  .radSkin_Bootstrap .radToolbar > li:last-child .radButton {
+    border-radius: 0 4px 4px 0; }
+  .radSkin_Bootstrap .radToolbar > li:only-child .radButton {
+    border-radius: 4px; }
+  .radSkin_Bootstrap .k-textbox,
+  .radSkin_Bootstrap .radTextbox {
+    padding: 6px 12px;
+    width: 160px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    line-height: 1.42857143; }
+  .radSkin_Bootstrap .k-numeric-wrap {
+    padding: 0 34px 0 12px;
+    border-radius: 4px;
+    line-height: 1.42857143; }
+    .radSkin_Bootstrap .k-numeric-wrap .k-input {
+      padding: 6px 0; }
+    .radSkin_Bootstrap .k-numeric-wrap .k-select {
+      width: 32px;
+      border-radius: 0 4px 4px 0; }
+  .radSkin_Bootstrap .radDatePicker .k-picker-wrap,
+  .radSkin_Bootstrap .radTimePicker .k-picker-wrap {
+    padding: 0 34px 0 12px; }
+  .radSkin_Bootstrap .radDatePicker .k-select,
+  .radSkin_Bootstrap .radTimePicker .k-select {
+    width: 32px; }
+  .radSkin_Bootstrap .radDateTimePicker .k-picker-wrap {
+    padding: 0 66px 0 12px; }
+  .radSkin_Bootstrap .radDateTimePicker .k-select {
+    width: 64px; }
+  .radSkin_Bootstrap .radDateTimePicker .k-select .k-i-calendar {
+    margin-left: -24px; }
+  .radSkin_Bootstrap .radDateTimePicker .k-select .k-i-clock {
+    margin-left: 8px; }
+  .radSkin_Bootstrap .k-picker-wrap {
+    border-radius: 4px;
+    line-height: 1.42857143; }
+    .radSkin_Bootstrap .k-picker-wrap .k-input {
+      padding: 6px 0; }
+    .radSkin_Bootstrap .k-picker-wrap .k-select {
+      border-radius: 0 4px 4px 0; }
+  .radSkin_Bootstrap .radCalendar {
+    width: 252px;
+    border-radius: 4px;
+    line-height: 1.42857143; }
+    .radSkin_Bootstrap .radCalendar .k-header {
+      border-color: #dedede;
+      color: #333333;
+      background-color: whitesmoke; }
+    .radSkin_Bootstrap .radCalendar .k-nav-prev,
+    .radSkin_Bootstrap .radCalendar .k-nav-next {
+      padding: 8px; }
+    .radSkin_Bootstrap .radCalendar .k-nav-fast {
+      padding: 6px 0; }
+    .radSkin_Bootstrap .radCalendar .k-nav-today {
+      padding: 6px 0; }
+    .radSkin_Bootstrap .radCalendar th {
+      padding: 6px 8px;
+      border-color: #dedede;
+      line-height: 1.42857143; }
+    .radSkin_Bootstrap .radCalendar td.k-weekend {
+      color: #666666; }
+    .radSkin_Bootstrap .radCalendar td.k-other-month {
+      color: #999999; }
+    .radSkin_Bootstrap .radCalendar td .k-link {
+      padding: 6px 8px;
+      width: 16px; }
+    .radSkin_Bootstrap .radCalendar .k-meta-view td .k-link {
+      padding: 6px 12px;
+      width: auto;
+      white-space: normal; }
+    .radSkin_Bootstrap .radCalendar .k-link {
+      border: 1px solid transparent;
+      border-radius: 4px; }
+    .radSkin_Bootstrap .radCalendar .k-link.k-state-hover,
+    .radSkin_Bootstrap .radCalendar .k-state-hover > .k-link {
+      border-color: #e1e1e1;
+      color: #000000;
+      background-color: #eeeeee; }
+    .radSkin_Bootstrap .radCalendar .k-link.k-state-focused,
+    .radSkin_Bootstrap .radCalendar .k-state-focused > .k-link {
+      border-color: #286090;
+      box-shadow: 0 0 6px #286090; }
+    .radSkin_Bootstrap .radCalendar .k-link.k-state-selected,
+    .radSkin_Bootstrap .radCalendar .k-state-selected > .k-link {
+      border-color: #286090;
+      color: #ffffff;
+      background-color: #337ab7; }
+  .radSkin_Bootstrap.k-window {
+    border-radius: 4px; }
+  .radSkin_Bootstrap .k-window-titlebar {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke;
+    padding: 6px 12px;
+    width: auto;
+    height: auto;
+    border-radius: 4px 4px 0 0;
+    position: relative; }
+  .radSkin_Bootstrap .k-window-title {
+    position: static; }
+  .radSkin_Bootstrap .radEditFormContainer .radFormLabel {
+    width: 25%; }
+  .radSkin_Bootstrap .radEditFormContainer .radFormField {
+    width: 65%; }
+  .radSkin_Bootstrap .radEditFormContainer .radTextBox,
+  .radSkin_Bootstrap .radEditFormContainer .radDateTimePicker {
+    width: 100%; }
+  .radSkin_Bootstrap .radEditFormContainer .radNumericTextBox {
+    width: 50%; }
+  .radSkin_Bootstrap .rgtButtonsContainer {
+    border-color: #dedede;
+    background-color: whitesmoke; }
+
+.radSkin_Bootstrap.k-rtl .rgtViews > li:first-child + li .radButton {
+  border-radius: 0 4px 4px 0; }
+
+.radSkin_Bootstrap.k-rtl .rgtViews > li:last-child .radButton {
+  border-radius: 4px 0 0 4px; }
+
+.radSkin_Bootstrap.k-rtl .rgtTaskActions {
+  right: auto;
+  left: 5px; }
+
+.radSkin_Bootstrap.k-rtl .k-numeric-wrap {
+  padding-right: 12px;
+  padding-left: 34px; }
+  .radSkin_Bootstrap.k-rtl .k-numeric-wrap .k-select {
+    border-radius: 4px 0 0 4px; }
+
+.radSkin_Bootstrap.k-rtl .radDatePicker .k-picker-wrap,
+.radSkin_Bootstrap.k-rtl .radTimePicker .k-picker-wrap {
+  padding-right: 12px;
+  padding-left: 34px; }
+
+.radSkin_Bootstrap.k-rtl .radDateTimePicker .k-picker-wrap {
+  padding-right: 12px;
+  padding-left: 66px; }
+
+.radSkin_Bootstrap.k-rtl .radDateTimePicker .k-select .k-i-calendar {
+  margin-left: 8px; }
+
+.radSkin_Bootstrap.k-rtl .radDateTimePicker .k-select .k-i-clock {
+  margin-left: -24px; }
+
+.radSkin_Bootstrap.k-rtl .k-picker-wrap .k-select {
+  border-radius: 4px 0 0 4px; }
+
+@media only screen and (max-width: 1024px) {
+  .RadGantt_Bootstrap .rgtToolbar > .rgtViews {
+    top: 5px;
+    right: 5px; }
+    .RadGantt_Bootstrap .rgtToolbar > .rgtViews.rgtExpanded {
+      color: #333333;
+      background: #ffffff;
+      border-color: #dedede; }
+    .RadGantt_Bootstrap .rgtToolbar > .rgtViews.radToolbar .radButton {
+      border-radius: 4px; } }
+

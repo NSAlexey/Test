@@ -1,0 +1,78 @@
+.RadMenu_Web20 .rmRootGroup {
+  border-color: #5f90cf;
+  color: #ffffff;
+  background-color: #92b3de;
+  background-image: linear-gradient(#9db7db, #7b95c6 50%, #698ac0 50%, #92b3de); }
+  .RadMenu_Web20 .rmRootGroup.rmVertical {
+    background-color: #6b8dc2;
+    background-image: none; }
+  .RadMenu_Web20 .rmRootGroup .rmItem {
+    border-color: #86abda; }
+  .RadMenu_Web20 .rmRootGroup .rmRootLink:hover {
+    border-color: #5f90cf;
+    color: #0f3789;
+    background-color: #c4d8f0;
+    background-image: linear-gradient(#dbe6f4, #abbedf 50%, #91acd9 50%, #c4d8f0); }
+  .RadMenu_Web20 .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Web20 .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #5f90cf;
+    color: #0f3789;
+    background-color: #eaf3ff;
+    background-image: linear-gradient(#ffffff, #c7d6f3 50%, #b0caf3 50%, #eaf3ff); }
+  .RadMenu_Web20 .rmRootGroup .rmFocused > .rmLink {
+    border-color: #5f90cf;
+    box-shadow: inset 0 0 5px #eaf3ff; }
+
+.RadMenu_Web20 .rmGroup,
+.RadMenu_Web20 .rmMultiColumn,
+.RadMenu_Web20 .rmPopup {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadMenu_Web20 .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_Web20 .rmGroup .rmLink:hover,
+.RadMenu_Web20 .rmGroup .rmToggle:hover {
+  border-color: #b4d3ff;
+  color: #0f3789;
+  background-color: #e7f1ff; }
+
+.RadMenu_Web20 .rmGroup .rmSelected > .rmLink,
+.RadMenu_Web20 .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Web20 .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Web20 .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #81c85a;
+  color: #0e4302;
+  background-color: #d4ffbc; }
+
+.RadMenu_Web20 .rmGroup .rmFocused > .rmLink,
+.RadMenu_Web20 .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #81c85a;
+  box-shadow: inset 0 0 5px #81c85a; }
+
+.RadMenu_Web20 .rmSeparator {
+  border-color: #5f90cf; }
+
+.RadMenu_Web20 .rmGroup .rmSeparator {
+  border-color: #6788be; }
+
+.RadMenu_Web20 .rmArrow {
+  border-color: #d9d9d9;
+  color: #333333;
+  background-color: #f2f2f2; }
+
+.RadMenu_Web20 .rmArrow:hover {
+  background-color: #e6e6e6; }
+
+.RadMenu_Web20 .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #6788be; }
+
+.RadMenu_Web20 .rmGroup:before,
+.RadMenu_Web20 .rmMultiColumn:before,
+.RadMenu_Web20 .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Web20 .rmScrollWrap > .rmVertical:before {
+  border-color: transparent;
+  background-color: #ecf4ff; }
+

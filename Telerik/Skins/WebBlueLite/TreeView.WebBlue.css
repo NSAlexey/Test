@@ -1,0 +1,20 @@
+.RadTreeView_WebBlue {
+  color: #333333; }
+  .RadTreeView_WebBlue .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_WebBlue .rtChkTristate:hover {
+    color: #7abace; }
+  .RadTreeView_WebBlue .rtLoadingIcon {
+    background-image: url('../WebBlue/Common/loading_small.gif'); }
+  .RadTreeView_WebBlue .rtPlusHover,
+  .RadTreeView_WebBlue .rtMinusHover {
+    color: #7abace; }
+  .RadTreeView_WebBlue .rtHover .rtIn {
+    border-color: #5d9fb7;
+    color: #0e3d4f;
+    background-color: #e9f8ff; }
+  .RadTreeView_WebBlue .rtSelected .rtIn {
+    border-color: #133c44;
+    color: #0d202b;
+    background-color: #9edaf2; }
+

@@ -1,0 +1,210 @@
+.RadScheduler_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+  .RadScheduler_Windows7 .rsToolbar .rsButton {
+    border-radius: 0; }
+  .RadScheduler_Windows7 .rsToolbar > li:first-child .rsButton {
+    border-radius: 3px 0 0 3px; }
+  .RadScheduler_Windows7 .rsToolbar > li:last-child .rsButton {
+    border-radius: 0 3px 3px 0; }
+  .RadScheduler_Windows7 .rsToolbar > li:only-child .rsButton {
+    border-radius: 3px; }
+  .RadScheduler_Windows7 .rsButton {
+    border-radius: 3px;
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadScheduler_Windows7 .rsHovered > .rsButton,
+  .RadScheduler_Windows7 .rsButton.rsHovered,
+  .RadScheduler_Windows7 .rsButton:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadScheduler_Windows7 .rsSelected > .rsButton,
+  .RadScheduler_Windows7 .rsPressed > .rsButton,
+  .RadScheduler_Windows7 .rsButton:active,
+  .RadScheduler_Windows7 .rsButton.rsPressed {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadScheduler_Windows7 .rsPrimary {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #9cc8ff;
+    background-image: linear-gradient(#e3effb, #d9e9fc 50%, #d0e1f7 50%, #d0e3f9);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+    .RadScheduler_Windows7 .rsPrimary:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+    .RadScheduler_Windows7 .rsPrimary:active {
+      border-color: #9cc8ff;
+      color: #1e395b;
+      background-color: #dde8f6;
+      background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+      box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadScheduler_Windows7 .rsHeader {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6); }
+  .RadScheduler_Windows7 .rsFooter {
+    border-color: #aabfd6;
+    color: #4c607a;
+    background-color: #f1f5fb; }
+  .RadScheduler_Windows7 .rsHorizontalHeaderWrapper {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadScheduler_Windows7 .rsSpacerCell,
+  .RadScheduler_Windows7 .rsAllDayHeader {
+    border-color: #d4dbe5;
+    background-color: #f1f5fb; }
+  .RadScheduler_Windows7 .rsHorizontalHeaderTable {
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadScheduler_Windows7 .rsHorizontalHeaderTable th {
+    border-color: #d4dbe5; }
+  .RadScheduler_Windows7 .rsVerticalHeaderTable {
+    background-color: #f1f5fb; }
+  .RadScheduler_Windows7 .rsVerticalHeaderTable th {
+    border-color: transparent #d4dbe5; }
+  .RadScheduler_Windows7 .rsVerticalHeaderTable .rsAlt th {
+    border-color: #d4dbe5 #d4dbe5; }
+  .RadScheduler_Windows7 .rsVerticalHeaderTable .rsMainHeader th:first-child {
+    border-bottom-color: #d4dbe5; }
+  .RadScheduler_Windows7 .rsAllDayRow td,
+  .RadScheduler_Windows7 .rsContentTable .rsAllDayRow td {
+    border-color: #d4dbe5; }
+  .RadScheduler_Windows7 .rsContentTable td {
+    border-color: #eaedf2 #eaedf2; }
+  .RadScheduler_Windows7 .rsContentTable .rsAlt td {
+    border-color: #d4dbe5 #eaedf2; }
+  .RadScheduler_Windows7 .rsOtherMonth,
+  .RadScheduler_Windows7 .rsNonWorkHour,
+  .RadScheduler_Windows7 .rsSunCol,
+  .RadScheduler_Windows7 .rsSatCol {
+    background-color: #f5fcff; }
+  .RadScheduler_Windows7 .rsApt {
+    color: #1e395b; }
+  .RadScheduler_Windows7 .rsAptContent {
+    border-radius: 4px;
+    color: #1e395b;
+    background-color: #c2dcfc; }
+  .RadScheduler_Windows7 .rsOvertimeArrow {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadScheduler_Windows7 .rsOvertimeArrow:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadScheduler_Windows7 .rsResourceMarker {
+    background-color: #f6fafe; }
+  .RadScheduler_Windows7 .rsYearView .rsMonthHeader {
+    border-color: #d4dbe5; }
+  .RadScheduler_Windows7 .rsYearView thead tr:nth-child(2) {
+    color: #8f9cad; }
+  .RadScheduler_Windows7 .rsYearView .rsDateHeader {
+    border-color: transparent;
+    border-radius: 4px; }
+  .RadScheduler_Windows7 .rsYearView .rsDateHeader:hover {
+    border-color: #bfd8f8;
+    color: #1e395b;
+    background-color: #edf4fd;
+    background-image: linear-gradient(#f9fbfd, #edf4fd); }
+  .RadScheduler_Windows7 .rsYearView .rsOccupiedSlot {
+    background-color: #f6fafe;
+    border-radius: 4px; }
+  .RadScheduler_Windows7 .rsYearView .rsTodayCell .rsDateHeader {
+    border-color: #bfd8f8; }
+  .RadScheduler_Windows7 .rsYearView .rsSatCol:not(.rsOccupiedSlot),
+  .RadScheduler_Windows7 .rsYearView .rsSunCol:not(.rsOccupiedSlot) {
+    color: #8f9cad; }
+  .RadScheduler_Windows7 .rsYearView .rsYearMonthsWrap {
+    border-color: #ccd9e7; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltip .rsToolTipContent {
+    border-radius: 4px;
+    border-color: #aabfd6;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltip .rsCategoryPattern .rsResourceMarker {
+    background-color: #f6fafe; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltip .rsToolTipArrow {
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltip .rsToolTipArrowUp {
+    border-radius: 4px 4px 0 0; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltip .rsToolTipArrowDown {
+    border-radius: 0 0 4px 4px; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltipRight .rsToolTipCallOut {
+    border-right-color: #aabfd6; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltipRight .rsToolTipCallOut:before {
+    border-right-color: #ffffff; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltipLeft .rsToolTipCallOut {
+    border-left-color: #aabfd6; }
+  .RadScheduler_Windows7 .rsYearView .rsTooltipLeft .rsToolTipCallOut:before {
+    border-left-color: #ffffff; }
+  .RadScheduler_Windows7 .rsAgendaView .rsDateBox small {
+    opacity: .75; }
+  .RadScheduler_Windows7 .rsAgendaTable th, .RadScheduler_Windows7 .rsAgendaTable td {
+    border-bottom-color: #d2d2d2;
+    border-right-color: #d2d2d2; }
+  .RadScheduler_Windows7 .rsAgendaTable th {
+    color: #4c607a;
+    background-color: #f1f5fb; }
+  .RadScheduler_Windows7 .rsAgendaTable .rsAgendaRowHovered {
+    border-color: #bfd8f8;
+    color: #1e395b;
+    background-color: #edf4fd;
+    background-image: linear-gradient(#f9fbfd, #edf4fd); }
+  .RadScheduler_Windows7 .rsAgendaTable .rsAgendaRowSelected {
+    border-color: #8eb0da;
+    color: #1e395b;
+    background-color: #c2dcfc;
+    background-image: linear-gradient(#daeafc, #c2dcfc); }
+  .RadScheduler_Windows7 .rsSelectedSlot {
+    color: #1e395b;
+    background-color: #c2dcfc; }
+  .RadScheduler_Windows7 .rsAptCreate {
+    border-color: #bfd8f8;
+    color: #1e395b;
+    background-color: #edf4fd;
+    background-image: linear-gradient(#f9fbfd, #edf4fd); }
+  .RadScheduler_Windows7 .rsDialog {
+    border-color: #aabfd6;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadScheduler_Windows7 .rsTitle {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadScheduler_Windows7 .rsInlineForm {
+    border-color: #aabfd6;
+    color: #1e395b;
+    background-color: #ffffff; }
+    .RadScheduler_Windows7 .rsInlineForm .rsTextarea {
+      border-color: #c3cedd;
+      color: #1e395b;
+      background-color: #ffffff; }
+  .RadScheduler_Windows7 .rsBody .rsCommandFooter {
+    background: #f1f5fb; }
+  .RadScheduler_Windows7 .rsAdvancedEdit .rsInvalid {
+    color: #b32d34; }
+    .RadScheduler_Windows7 .rsAdvancedEdit .rsInvalid textarea {
+      border-color: #d18185; }
+

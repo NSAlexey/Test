@@ -1,0 +1,45 @@
+.RadMap_Office2010Silver .k-navigator {
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3, #dbdde1); }
+
+.RadMap_Office2010Silver .k-button {
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3, #dbdde1); }
+
+.RadMap_Office2010Silver .k-button:hover,
+.RadMap_Office2010Silver .k-navigator > .k-button:hover {
+  border-color: #f2d359;
+  color: #000000;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+
+.RadMap_Office2010Silver .k-button:active,
+.RadMap_Office2010Silver .k-button:focus,
+.RadMap_Office2010Silver .k-navigator > .k-button:active,
+.RadMap_Office2010Silver .k-navigator > .k-button:focus {
+  border-color: #c38e00;
+  color: #000000;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.RadMap_Office2010Silver .k-marker {
+  color: #e29f00; }
+
+.RadMap_Office2010Silver.k-tooltip {
+  border-color: #9aa0a6;
+  color: #3b3b3b;
+  background-color: #ffffff; }
+  .RadMap_Office2010Silver.k-tooltip .k-tooltip-button {
+    color: #333333;
+    background-color: #dbdde1; }
+  .RadMap_Office2010Silver.k-tooltip .k-tooltip-button:hover {
+    color: #e29f00; }
+
+@media \0screen\,screen\9 {
+  .RadMap_Office2010Silver .k-icon {
+    background-image: url('../Office2010Silver/Common/radActionsSprite.png'); } }
+

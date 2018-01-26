@@ -1,0 +1,13 @@
+.RadSocialShare_Sunset {
+  border-color: #cabaab;
+  color: #272522;
+  background-color: #e1dac7;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSocialShare_Sunset .sshLinkItem:hover {
+    color: #982e00; }
+
+.RadComboBox_Sunset.sshComboWrapper td.rcbArrowCellRight,
+.RadComboBox_Sunset.sshComboWrapper .rcbFocused td.rcbArrowCellRight {
+  background-position: right -154px; }
+

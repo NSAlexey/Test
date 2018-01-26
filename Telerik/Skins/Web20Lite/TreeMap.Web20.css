@@ -1,0 +1,19 @@
+.RadTreeMap_Web20 {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTreeMap_Web20 .k-treemap-title,
+  .RadTreeMap_Web20 .k-treemap-title-vertical {
+    border-color: #5f90cf;
+    color: #ffffff;
+    background-color: #92b3de; }
+  .RadTreeMap_Web20 .k-leaf {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: #333333; }
+  .RadTreeMap_Web20 .k-leaf.k-inverse {
+    color: #333333;
+    background-color: #ffffff; }
+  .RadTreeMap_Web20 .k-leaf.k-state-hover {
+    box-shadow: inset 0 0 0 5px #ffffff; }
+

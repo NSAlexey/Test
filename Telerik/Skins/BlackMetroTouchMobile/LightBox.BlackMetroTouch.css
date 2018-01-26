@@ -1,0 +1,16 @@
+.RadLightBox_BlackMetroTouch .rltbWrapper {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000; }
+
+.RadLightBox_BlackMetroTouch .rltbDescOverlayTop,
+.RadLightBox_BlackMetroTouch .rltbDescOverlayBottom {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.RadLightBox_BlackMetroTouch .rltbToolbar .rltbActionButton {
+  color: #ffffff;
+  background: #222222; }
+
+.RadLightBox_BlackMetroTouch .rltbToolbar .rltbActionButton:active {
+  color: #0082cc; }
+

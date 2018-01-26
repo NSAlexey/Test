@@ -1,0 +1,45 @@
+/*========================================= Toolbar related CSS ========================*/
+.RadFileExplorer_Office2010Blue {
+  background-color: #ffffff;
+  /* Overwrites padding for better presentation and space saving */
+  /* Thumbnail view */
+  /* Thumbnail filter */ }
+  .RadFileExplorer_Office2010Blue .RadToolBar .rtbText {
+    background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+    background-repeat: no-repeat; }
+  .RadFileExplorer_Office2010Blue .rgDataDiv {
+    background-color: #ffffff; }
+  .RadFileExplorer_Office2010Blue,
+  .RadFileExplorer_Office2010Blue .rfeAddressBox,
+  .RadFileExplorer_Office2010Blue .rfeFilterTxt {
+    border-color: #9db2ce; }
+  .RadFileExplorer_Office2010Blue div.selectedFileName {
+    border-top: 1px solid #9db2ce; }
+  .RadFileExplorer_Office2010Blue .RadSplitter_Office2010Blue,
+  .RadFileExplorer_Office2010Blue .RadSplitter_Office2010Blue .rspPaneTabContainer {
+    border: none; }
+  .RadFileExplorer_Office2010Blue .RadGrid .rgRow td,
+  .RadFileExplorer_Office2010Blue .RadGrid .rgAltRow td,
+  .RadFileExplorer_Office2010Blue .RadGrid .rgEditRow td,
+  .RadFileExplorer_Office2010Blue .RadGrid .rgFooter td {
+    padding-left: 8px;
+    padding-right: 8px; }
+  .RadFileExplorer_Office2010Blue .rfeThumbList a:hover,
+  .RadFileExplorer_Office2010Blue .rfeThumbList .rfeHoveredLink,
+  .RadFileExplorer_Office2010Blue .rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_Office2010Blue .rfeThumbList .rfeSelectedLink:hover {
+    background-image: url('../Common/Gradients/office2010Blue_smoothSprite_20.png');
+    background-color: #fcf5d9;
+    border-color: #fceaab; }
+  .RadFileExplorer_Office2010Blue .rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_Office2010Blue .rfeThumbList .rfeSelectedLink:hover {
+    background-color: #ffef7c; }
+  .RadFileExplorer_Office2010Blue .rfeFilterContainer {
+    background-image: url('../Common/Gradients/office2010Blue_smoothSprite_20.png');
+    background-color: #c2cfe0; }
+  .RadFileExplorer_Office2010Blue .rfeDropZone {
+    background-color: rgba(220, 232, 246, 0.8); }
+  .RadFileExplorer_Office2010Blue .rfeDropUploadInfoPanel {
+    background-color: #d8e4f2;
+    color: #384e73; }
+

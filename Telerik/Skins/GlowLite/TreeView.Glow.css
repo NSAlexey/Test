@@ -1,0 +1,20 @@
+.RadTreeView_Glow {
+  color: #e2e8eb; }
+  .RadTreeView_Glow .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Glow .rtChkTristate:hover {
+    color: #ffa915; }
+  .RadTreeView_Glow .rtLoadingIcon {
+    background-image: url('../Glow/Common/loading_small.gif'); }
+  .RadTreeView_Glow .rtPlusHover,
+  .RadTreeView_Glow .rtMinusHover {
+    color: #ffa915; }
+  .RadTreeView_Glow .rtHover .rtIn {
+    border-color: #4d5c65;
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .RadTreeView_Glow .rtSelected .rtIn {
+    border-color: #ffa915;
+    color: #000000;
+    background-color: #ffa915; }
+

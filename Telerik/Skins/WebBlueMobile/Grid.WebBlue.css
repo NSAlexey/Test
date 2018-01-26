@@ -1,0 +1,297 @@
+.RadGrid_WebBlue {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadGrid_WebBlue .rgInput {
+    border-color: #6e8aa8;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadGrid_WebBlue .rgActionButton,
+  .RadGrid_WebBlue .rgDrag,
+  .RadGrid_WebBlue .rgDragClue,
+  .RadGrid_WebBlue .rgExpandIcon,
+  .RadGrid_WebBlue .rgCollapseIcon,
+  .RadGrid_WebBlue .rgGroupPanelExpand,
+  .RadGrid_WebBlue .rgGroupPanelCollapse,
+  .RadGrid_WebBlue .rgButtonSortDesc,
+  .RadGrid_WebBlue .rgButtonSortDesc,
+  .RadGrid_WebBlue .rgButtonSortAsc,
+  .RadGrid_WebBlue .rgButtonSortClear,
+  .RadGrid_WebBlue .rgMobileExportForm .rgColumnItem,
+  .RadGrid_WebBlue a.rgFilter,
+  .RadGrid_WebBlue a.rgColumns {
+    color: #333333; }
+  .RadGrid_WebBlue .rgMobileMenu {
+    background: #dae2e8; }
+  .RadGrid_WebBlue .rgMobileForm,
+  .RadGrid_WebBlue .rgMobileColumnForm {
+    background: #ffffff; }
+  .RadGrid_WebBlue .rgValue {
+    border: 1px solid #768ca5; }
+  .RadGrid_WebBlue .rgColumnItem,
+  .RadGrid_WebBlue .rgClear {
+    border-color: #6e8aa8;
+    color: #0d202b;
+    background-color: #d7e2e7;
+    background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+  .RadGrid_WebBlue .rgColumnItem .rgDrag:before {
+    border-right: 1px solid #768ca5; }
+  .RadGrid_WebBlue .rgMobileGroupForm .rgMobileForm {
+    border-color: #768ca5;
+    background: #dae2e8; }
+
+.RadGrid_WebBlue .rgHeader:first-child, .RadGrid_WebBlue th.rgResizeCol:first-child, .RadGrid_WebBlue .rgFilterRow > td:first-child, .RadGrid_WebBlue .rgRow > td:first-child, .RadGrid_WebBlue .rgAltRow > td:first-child {
+  border-left-width: 0;
+  padding-left: 8px; }
+
+.RadGrid_WebBlue .rgHeaderDiv {
+  background: #dae2e8 0 -7050px repeat-x url('../WebBlue/Grid/sprite.gif'); }
+
+.rgTwoLines .rgHeaderDiv {
+  background-position: 0 -6550px; }
+
+.RadGrid_WebBlue .rgHeader, .RadGrid_WebBlue th.rgResizeCol, .RadGrid_WebBlue .rgHeaderWrapper {
+  border: 1px solid;
+  border-color: #98acbf #728ba1 #3d556c #455f77;
+  border-top-width: 0;
+  background: 0 -2300px repeat-x #718ca1 url('../WebBlue/Grid/sprite.gif'); }
+
+.RadGrid_WebBlue .rgMultiHeaderRow th.rgHeader, .RadGrid_WebBlue .rgMultiHeaderRow th.rgResizeCol {
+  border: 1px solid;
+  border-color: #98acbf #728ba1 #3d556c #455f77;
+  border-top-width: 0; }
+
+.RadGrid_WebBlue .rgHeaderDiv {
+  border-right-color: #768ca5; }
+
+.RadGrid_WebBlue th.rgSorted {
+  border-color: #7c93a8 #758ea4 #334d65 #39556e;
+  background-color: #5c7990;
+  background-position: 0 -2600px; }
+
+.RadGrid_WebBlue .rgHeader {
+  color: #fff; }
+  .RadGrid_WebBlue .rgHeader a {
+    color: #fff; }
+
+.RadGrid_WebBlue .rgRow > td, .RadGrid_WebBlue .rgAltRow > td, .RadGrid_WebBlue .rgEditRow > td, .RadGrid_WebBlue .rgFooter > td {
+  border-style: solid;
+  border-width: 0 1px 1px; }
+
+.RadGrid_WebBlue .rgRow > td {
+  border-color: #fff #fff #fff #dae2e8; }
+
+.RadGrid_WebBlue .rgAltRow {
+  background: #dae2e8; }
+  .RadGrid_WebBlue .rgAltRow > td {
+    border-color: #dae2e8; }
+
+.RadGrid_WebBlue .rgRow .rgSorted {
+  border-bottom-color: #f0f0f0;
+  background-color: #f0f0f0; }
+
+.RadGrid_WebBlue .rgSelectedRow .rgSorted, .RadGrid_WebBlue .rgActiveRow .rgSorted, .RadGrid_WebBlue .rgHoveredRow .rgSorted, .RadGrid_WebBlue .rgEditRow .rgSorted {
+  background-color: transparent; }
+
+.RadGrid_WebBlue .rgRow a, .RadGrid_WebBlue .rgAltRow a, .RadGrid_WebBlue .rgEditRow a, .RadGrid_WebBlue .rgFooter a, .RadGrid_WebBlue .rgEditForm a {
+  color: #0e3d4f; }
+
+.RadGrid_WebBlue .rgMasterTable .rgSelectedCell, .RadGrid_WebBlue .rgSelectedRow {
+  background: #7bbbcf 0 -3900px repeat-x url('../WebBlue/Grid/sprite.gif'); }
+
+RadGrid_WebBlue .rgMasterTable .rgActiveCell, RadGrid_WebBlue .rgActiveRow, RadGrid_WebBlue .rgHoveredRow {
+  background: #bfe3f6 0 -2900px repeat-x url('../WebBlue/Grid/sprite.gif'); }
+
+.RadGrid_WebBlue .rgEditRow {
+  background: white 0 -4900px repeat-x url('../WebBlue/Grid/sprite.gif'); }
+
+.RadGrid_WebBlue .rgSelectedRow > td, .RadGrid_WebBlue .rgActiveRow > td, .RadGrid_WebBlue .rgHoveredRow > td, .RadGrid_WebBlue .rgEditRow > td {
+  border-left-width: 0;
+  border-right-width: 0;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.RadGrid_WebBlue .rgSelectedRow > td {
+  border-bottom-color: #133c44; }
+  .RadGrid_WebBlue .rgSelectedRow > td.rgSorted {
+    border-bottom-color: #133c44; }
+
+.RadGrid_WebBlue .rgActiveRow > td, .RadGrid_WebBlue .rgHoveredRow > td, .RadGrid_WebBlue .rgActiveRow td.rgSorted, .RadGrid_WebBlue .rgHoveredRow td.rgSorted {
+  border-bottom-color: #5d9fb7; }
+
+.RadGrid_WebBlue .rgEditRow > td {
+  border-color: #fff #fff #768ca5 #fff; }
+  .RadGrid_WebBlue .rgEditRow > td.rgSorted {
+    border-color: #fff #fff #768ca5 #fff; }
+
+.RadGrid_WebBlue .rgEditRow {
+  background: rgba(118, 140, 165, 0.75);
+  color: #333333; }
+
+.RadGrid_WebBlue .rgDeletedRow > td {
+  border-bottom-color: #52667d;
+  color: #333333; }
+  .RadGrid_WebBlue .rgDeletedRow > td a {
+    color: #333333; }
+
+.RadGrid_WebBlue .rgBatchOverlay {
+  background: rgba(118, 140, 165, 0.75); }
+
+.RadGrid_WebBlue .rgBatchUndoDeleteButton {
+  padding: 2px;
+  left: 7px;
+  border: 1px solid;
+  border-color: #6e8aa8;
+  color: #0d202b;
+  background-color: #d7e2e7;
+  background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+  border-radius: 4px; }
+  .RadGrid_WebBlue .rgBatchUndoDeleteButton:hover {
+    border-color: #1c9fcc;
+    color: #0e3d4f;
+    background-color: #bee3f6;
+    background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+
+.RadGrid_WebBlue .rgFooterDiv, .RadGrid_WebBlue .rgFooter, .RadGrid_WebBlue .rgFooterWrapper {
+  background: #dae2e8; }
+
+.RadGrid_WebBlue .rgFooter > td, .RadGrid_WebBlue .rgFooterWrapper {
+  border-top-width: 1px;
+  border-color: #a2b3c7 #dae2e8 #fff #dae2e8; }
+
+.RadGrid_WebBlue .rgFooterWrapper .rgFooter > td {
+  border-bottom: 0; }
+
+.RadGrid_WebBlue .rgFooterWrapper {
+  border-bottom: 1px solid #fff; }
+
+.RadGrid_WebBlue .rgPager .rgStatus {
+  border-color: #a2b3c7 #9cb6c5 #fff #9cb6c5; }
+
+.RadGrid_WebBlue .rgStatus div {
+  background-image: url('../WebBlue/Common/loading_small.gif'); }
+
+.RadGrid_WebBlue .rgPagerCell > div {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #dae2e8; }
+  .RadGrid_WebBlue .rgPagerCell > div .rgNumPart a {
+    border-radius: 2px;
+    color: inherit; }
+    .RadGrid_WebBlue .rgPagerCell > div .rgNumPart a:hover {
+      border-color: #1c9fcc;
+      color: #0e3d4f;
+      background-color: #bee3f6;
+      background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+    .RadGrid_WebBlue .rgPagerCell > div .rgNumPart a.rgCurrentPage {
+      border-color: #7abace;
+      color: #7abace;
+      background: none; }
+  .RadGrid_WebBlue .rgPagerCell > div .rgPagerButton,
+  .RadGrid_WebBlue .rgPagerCell > div .rgActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #6e8aa8;
+    color: #0d202b;
+    background-color: #d7e2e7;
+    background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+    .RadGrid_WebBlue .rgPagerCell > div .rgPagerButton:hover,
+    .RadGrid_WebBlue .rgPagerCell > div .rgActionButton:hover {
+      border-color: #1c9fcc;
+      color: #0e3d4f;
+      background-color: #bee3f6;
+      background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+
+.GridReorderTop_WebBlue {
+  background: 0 0 no-repeat url('../WebBlue/Grid/sprite.gif'); }
+
+.GridReorderBottom_WebBlue {
+  background: 0 0 no-repeat url('../WebBlue/Grid/sprite.gif');
+  background-position: 0 -50px; }
+
+.RadGrid_WebBlue .rgFilterRow {
+  background: #dae2e8; }
+  .RadGrid_WebBlue .rgFilterRow > td {
+    border: 1px solid;
+    border-top-width: 0;
+    border-color: #dae2e8 #dae2e8 #a2b3c7; }
+
+.RadGrid_WebBlue .rgFilterBox {
+  border-color: #768ca5;
+  color: #000; }
+
+.RadGrid_WebBlue .rgGroupPanel {
+  border: 0;
+  border-bottom: 1px solid #3d556c;
+  background: #dfeeff; }
+  .RadGrid_WebBlue .rgGroupPanel td {
+    border: 0;
+    padding: 3px;
+    vertical-align: middle; }
+    .RadGrid_WebBlue .rgGroupPanel td td {
+      padding: 0; }
+
+.RadGrid_WebBlue .rgGroupItem {
+  border: 1px solid #506175;
+  background: #ebf7ff;
+  color: #0053a5; }
+
+.RadGrid_WebBlue .rgGroupHeader {
+  background: #8ea3b9;
+  font-size: 1.1em;
+  line-height: 21px;
+  color: #fff; }
+  .RadGrid_WebBlue .rgGroupHeader td {
+    padding: 0 8px; }
+
+.RadGrid_WebBlue td.rgGroupCol, .RadGrid_WebBlue td.rgExpandCol {
+  background: #8ea3b9 none;
+  border-color: #8ea3b9; }
+
+.RadGrid_WebBlue .rgDetailTable {
+  border-color: #768ca5; }
+
+.RadGrid_WebBlue .rgCommandRow {
+  background: #495a70 0 -2099px repeat-x url('../WebBlue/Grid/sprite.gif');
+  color: #fff; }
+  .RadGrid_WebBlue .rgCommandRow .rgActionButton {
+    color: #fff; }
+
+.RadGrid_WebBlue .rgCommandCell {
+  border: 1px solid #212f41;
+  padding: 0; }
+
+.RadGrid_WebBlue .rgCommandTable {
+  border: 1px solid;
+  border-color: #63758a #3d4b5b #58697d; }
+  .RadGrid_WebBlue .rgCommandTable td {
+    border: 0;
+    padding: 2px 7px; }
+
+.RadGrid_WebBlue .rgCommandRow a {
+  color: #fff;
+  text-decoration: none; }
+
+.rgCellSelectorArea_WebBlue, .GridRowSelector_WebBlue {
+  background: #3d556c; }
+
+.GridItemDropIndicator_WebBlue {
+  border-top: 1px dashed #3d556c; }
+
+.GridToolTip_WebBlue {
+  border: 1px solid #768ca5;
+  padding: 3px;
+  background: #dae2e8;
+  color: #000; }
+
+.RadGridRTL_WebBlue .rgHeader:first-child, .RadGridRTL_WebBlue th.rgResizeCol:first-child, .RadGridRTL_WebBlue .rgFilterRow > td:first-child, .RadGridRTL_WebBlue .rgRow > td:first-child, .RadGridRTL_WebBlue .rgAltRow > td:first-child {
+  border-left-width: 1px;
+  padding-left: 7px; }
+

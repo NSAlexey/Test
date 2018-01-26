@@ -1,0 +1,81 @@
+.RadWizard_Web20 {
+  color: #333333;
+  background: #ffffff; }
+  .RadWizard_Web20 .rwzHeader {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); }
+  .RadWizard_Web20 .rwzBreadCrumb {
+    border-color: #687dc1;
+    border-radius: 4px; }
+    .RadWizard_Web20 .rwzBreadCrumb .rwzLink {
+      border-color: #687dc1;
+      color: #ffffff;
+      background-color: #687dc1;
+      background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+      .RadWizard_Web20 .rwzBreadCrumb .rwzLink:before {
+        border-color: #687dc1;
+        background: linear-gradient(135deg, #8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1); }
+    .RadWizard_Web20 .rwzBreadCrumb .rwzHovered .rwzLink {
+      border-color: #2a5795;
+      color: #0f3789;
+      background-color: #cddcf1;
+      background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+      .RadWizard_Web20 .rwzBreadCrumb .rwzHovered .rwzLink:before {
+        border-color: #2a5795;
+        background: linear-gradient(135deg, #dee7f4, #afbede 50%, #98acd5 50%, #cddcf1); }
+    .RadWizard_Web20 .rwzBreadCrumb .rwzSelected .rwzLink {
+      border-color: #2a3866;
+      color: #ffffff;
+      background-color: #687dc1;
+      background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+      .RadWizard_Web20 .rwzBreadCrumb .rwzSelected .rwzLink:before {
+        border-color: #2a3866;
+        background: linear-gradient(135deg, #8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1), -1px 1px 1px 0 rgba(255, 255, 255, 0.8) inset; }
+    .RadWizard_Web20 .rwzBreadCrumb .rwzDisabled .rwzLink {
+      border-color: #687dc1;
+      color: #ffffff;
+      background-color: #687dc1;
+      background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+      .RadWizard_Web20 .rwzBreadCrumb .rwzDisabled .rwzLink:before {
+        border-color: #687dc1;
+        background: linear-gradient(135deg, #8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+    .RadWizard_Web20 .rwzBreadCrumb .rwzPager {
+      border-color: #2a5795;
+      color: #0f3789;
+      background-color: #cddcf1;
+      background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+      .RadWizard_Web20 .rwzBreadCrumb .rwzPager .rwzCallout:before, .RadWizard_Web20 .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        border-color: #687dc1; }
+      .RadWizard_Web20 .rwzBreadCrumb .rwzPager .rwzCallout:before {
+        background: #cddcf1 linear-gradient(135deg, #dee7f4 50%, #afbede 100%); }
+      .RadWizard_Web20 .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        background: #cddcf1 linear-gradient(135deg, #98acd5, #cddcf1 48%); }
+  .RadWizard_Web20 .rwzProgressBar {
+    background: #d6dfeb; }
+  .RadWizard_Web20 .rwzProgress {
+    background: #80c05d; }
+  .RadWizard_Web20 .rwzButton {
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    border-radius: 3px; }
+    .RadWizard_Web20 .rwzButton.rwzHovered {
+      border-color: #2a5795;
+      color: #0f3789;
+      background-color: #cddcf1;
+      background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+    .RadWizard_Web20 .rwzButton.rwzActive {
+      border-color: #2a3866;
+      color: #ffffff;
+      background-color: #687dc1;
+      background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+  .RadWizard_Web20 .rwzCancelWrapper {
+    border-color: #6788be; }
+

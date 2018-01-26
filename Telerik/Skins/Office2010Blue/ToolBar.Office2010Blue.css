@@ -1,0 +1,109 @@
+.RadToolBar_Office2010Blue {
+  color: #384e73;
+  background-color: #bfcddf;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadToolBar_Office2010Blue .rtbOuter {
+    border-color: #9db2ce;
+    background-color: #dae6f3; }
+  .RadToolBar_Office2010Blue .rtbWrap {
+    *color: #384e73; }
+  .RadToolBar_Office2010Blue .rtbChoiceArrow {
+    background-image: url('ToolBar/rtbDropArrows.png'); }
+  .RadToolBar_Office2010Blue .rtbItemHovered .rtbWrap,
+  .RadToolBar_Office2010Blue .rtbItemHovered .rtbOut,
+  .RadToolBar_Office2010Blue .rtbItemHovered .rtbMid,
+  .RadToolBar_Office2010Blue .rtbItemHovered .rtbIn {
+    color: #1e395b;
+    background-image: url('ToolBar/rtbHoverBg.png'); }
+  .RadToolBar_Office2010Blue .rtbItemFocused .rtbWrap,
+  .RadToolBar_Office2010Blue .rtbItemFocused .rtbOut,
+  .RadToolBar_Office2010Blue .rtbItemFocused .rtbMid,
+  .RadToolBar_Office2010Blue .rtbItemFocused .rtbIn {
+    color: #1e395b;
+    background-image: url('ToolBar/rtbHoverBg.png'); }
+  .RadToolBar_Office2010Blue .rtbItemClicked .rtbWrap,
+  .RadToolBar_Office2010Blue .rtbItemClicked .rtbOut,
+  .RadToolBar_Office2010Blue .rtbItemClicked .rtbMid,
+  .RadToolBar_Office2010Blue .rtbItemClicked .rtbIn {
+    color: #1e395b;
+    background-image: url('ToolBar/rtbClickedBg.png'); }
+  .RadToolBar_Office2010Blue .rtbSplBtnExpanded .rtbWrap,
+  .RadToolBar_Office2010Blue .rtbSplBtnExpanded .rtbOut,
+  .RadToolBar_Office2010Blue .rtbSplBtnExpanded .rtbMid,
+  .RadToolBar_Office2010Blue .rtbSplBtnExpanded .rtbIn,
+  .RadToolBar_Office2010Blue .rtbDropDownExpanded .rtbWrap,
+  .RadToolBar_Office2010Blue .rtbDropDownExpanded .rtbOut,
+  .RadToolBar_Office2010Blue .rtbDropDownExpanded .rtbMid,
+  .RadToolBar_Office2010Blue .rtbDropDownExpanded .rtbIn,
+  .RadToolBar_Office2010Blue .rtbChecked .rtbWrap,
+  .RadToolBar_Office2010Blue .rtbChecked .rtbOut,
+  .RadToolBar_Office2010Blue .rtbChecked .rtbMid,
+  .RadToolBar_Office2010Blue .rtbChecked .rtbIn {
+    color: #1e395b;
+    background-image: url('ToolBar/rtbActiveBg.png'); }
+  .RadToolBar_Office2010Blue .rtbSeparator {
+    border-color: #8ba0bc;
+    background-color: #f5faff; }
+
+.RadToolBar_Office2010Blue_Horizontal .rtbOuter {
+  background-image: url('ToolBar/rtbControlBg.png'); }
+
+.RadToolBar_Office2010Blue_Vertical .rtbOuter {
+  background-image: url('ToolBar/rtbVerticalControlBg.png'); }
+
+.RadToolBarDropDown_Office2010Blue {
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #384e73;
+  border-color: #9babc2;
+  background-color: #ffffff;
+  background-image: url('ToolBar/rtbDropDownBg.png'); }
+  .RadToolBarDropDown_Office2010Blue .rtbTopFix,
+  .RadToolBarDropDown_Office2010Blue .rtbBottomFix,
+  .RadToolBarDropDown_Office2010Blue .rtbRoundedCorners .rtbGroup {
+    background-image: url('ToolBar/rtbDropDownBg.png');
+    background-color: #ffffff; }
+  .RadToolBarDropDown_Office2010Blue .rtbBottomLeft,
+  .RadToolBarDropDown_Office2010Blue .rtbRoundedCorners {
+    background-image: url('ToolBar/rtbRoundedLeft.png'); }
+  .RadToolBarDropDown_Office2010Blue .rtbTopRight,
+  .RadToolBarDropDown_Office2010Blue .rtbBottomRight {
+    background-image: url('ToolBar/rtbRoundedRight.png'); }
+  .RadToolBarDropDown_Office2010Blue .rtbTopFix,
+  .RadToolBarDropDown_Office2010Blue .rtbBottomFix {
+    border-color: #9babc2; }
+  .RadToolBarDropDown_Office2010Blue .rtbWrap {
+    border-radius: 3px;
+    *color: #384e73;
+    background-image: url('Common/radGradientListSprite.png') \9; }
+  .RadToolBarDropDown_Office2010Blue .rtbItemHovered .rtbWrap,
+  .RadToolBarDropDown_Office2010Blue .rtbItemFocused .rtbWrap {
+    border-color: #ffcb12;
+    color: #1e395b;
+    background-color: #ffe791;
+    background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+  .RadToolBarDropDown_Office2010Blue .rtbItemClicked .rtbWrap {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #fff17c;
+    background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+  .RadToolBarDropDown_Office2010Blue .rtbSeparator {
+    border-color: #c7c8c9;
+    background-color: #ffffff; }
+
+.RadToolBarDropDown_Office2010Blue_rtl .rtbBottomLeft,
+.RadToolBarDropDown_Office2010Blue_rtl .rtbRoundedCorners {
+  background-image: url('ToolBar/rtbRoundedLeft_rtl.png'); }
+
+.RadToolBarDropDown_Office2010Blue_rtl .rtbTopRight,
+.RadToolBarDropDown_Office2010Blue_rtl .rtbBottomRight {
+  background-image: url('ToolBar/rtbRoundedRight_rtl.png'); }
+
+.RadToolBarDropDown_Office2010Blue_rtl .rtbTopFix,
+.RadToolBarDropDown_Office2010Blue_rtl .rtbBottomFix,
+.RadToolBarDropDown_Office2010Blue_rtl .rtbGroup,
+.RadToolBarDropDown_Office2010Blue_rtl .rtbShadows .rtbGroup {
+  background-position: 101% 0; }
+

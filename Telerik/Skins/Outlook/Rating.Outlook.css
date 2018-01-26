@@ -1,0 +1,9 @@
+.RadRating_Outlook a,
+.RadRating_Outlook a span {
+  background-image: url('Rating/Sprite.png'); }
+
+@media print {
+  .RadRating_Outlook a:before,
+  .RadRating_Outlook a span:before {
+    content: url('Rating/Sprite.png'); } }
+

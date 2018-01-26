@@ -1,0 +1,76 @@
+.RadTabStrip_Silk {
+  color: #333333; }
+  .RadTabStrip_Silk .rtsLevel1 {
+    border-color: #d9d9d9; }
+    .RadTabStrip_Silk .rtsLevel1 .rtsLink {
+      border-color: #e3e3e3;
+      color: #5f5f5f;
+      background-color: #e3e3e3;
+      background-image: linear-gradient(white, #e3e3e3); }
+    .RadTabStrip_Silk .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: #d1d1d1;
+      color: #404040;
+      background-color: #d1d1d1;
+      background-image: linear-gradient(#f7f7f7, #d1d1d1); }
+    .RadTabStrip_Silk .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #e3e3e3;
+      color: #14afca;
+      background-color: #ffffff;
+      background-image: linear-gradient(#ebebeb, #ffffff); }
+    .RadTabStrip_Silk .rtsLevel1 .rtsSelected .rtsLink:before {
+      content: "";
+      display: block;
+      position: absolute;
+      border-color: #14afca; }
+    .RadTabStrip_Silk .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #e3e3e3;
+      box-shadow: inset 0 0 5px #e3e3e3; }
+  .RadTabStrip_Silk.rtsHorizontal .rtsLevel1 .rtsLink:before {
+    width: 100%;
+    border-width: 4px 0 0;
+    border-style: solid;
+    left: 0; }
+  .RadTabStrip_Silk.rtsVertical .rtsLevel1 .rtsLink:before {
+    height: 100%;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    top: 0; }
+  .RadTabStrip_Silk.rtsTop .rtsLevel1 .rtsLink:before {
+    top: 0; }
+  .RadTabStrip_Silk.rtsBottom .rtsLevel1 .rtsLink:before {
+    bottom: 0; }
+  .RadTabStrip_Silk.rtsLeft .rtsLevel1 .rtsLink:before {
+    left: 0; }
+  .RadTabStrip_Silk.rtsRight .rtsLevel1 .rtsLink:before {
+    right: 0; }
+  .RadTabStrip_Silk .rtsLevel1 ~ .rtsLevel {
+    border-color: #d9d9d9;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadTabStrip_Silk .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #14afca; }
+    .RadTabStrip_Silk .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #0d7384; }
+    .RadTabStrip_Silk .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit; }
+    .RadTabStrip_Silk .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #e3e3e3;
+      box-shadow: inset 0 0 5px #e3e3e3; }
+  .RadTabStrip_Silk .rtsGhostTab {
+    border-color: #e3e3e3;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+
+.RadTabStrip_Silk.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+  border-bottom-color: transparent; }
+
+.RadTabStrip_Silk.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+  border-top-color: transparent; }
+
+.RadTabStrip_Silk.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+  border-right-color: transparent; }
+
+.RadTabStrip_Silk.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+  border-left-color: transparent; }
+

@@ -1,0 +1,11 @@
+.RadDataForm_Metro {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataForm_Metro .rdfLegend,
+  .RadDataForm_Metro .rdfBorders {
+    border-color: #e0e0e0; }
+  .RadDataForm_Metro .rdfHr {
+    color: #e0e0e0; }
+  .RadDataForm_Metro .rdfFieldHint {
+    color: #b3b3b3; }
+

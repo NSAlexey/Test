@@ -1,0 +1,55 @@
+.RadFilter_Default {
+  color: #333333; }
+  .RadFilter_Default .rfMid,
+  .RadFilter_Default .rfTools {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .RadFilter_Default .rfOper:hover,
+  .RadFilter_Default .rfField:hover,
+  .RadFilter_Default .rfExp:hover,
+  .RadFilter_Default .rfAddExp:hover,
+  .RadFilter_Default .rfAddGr:hover {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .RadFilter_Default .rfOper:focus,
+  .RadFilter_Default .rfField:focus,
+  .RadFilter_Default .rfExp:focus,
+  .RadFilter_Default .rfAddExp:focus,
+  .RadFilter_Default .rfAddGr:focus,
+  .RadFilter_Default .rfOper:active,
+  .RadFilter_Default .rfField:active,
+  .RadFilter_Default .rfExp:active,
+  .RadFilter_Default .rfAddExp:active,
+  .RadFilter_Default .rfAddGr:active {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(#9a9a9a, #808080); }
+  .RadFilter_Default .rfDel:hover,
+  .RadFilter_Default .rfDel:focus,
+  .RadFilter_Default .rfDel:active {
+    color: #d51923; }
+  .RadFilter_Default .rfText {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFilter_Default .rfPreview strong {
+    color: #5ec232; }
+  .RadFilter_Default .rfPreview em,
+  .RadFilter_Default .rfPreview .rfBr {
+    color: #3e80ed; }
+  .RadFilter_Default .rfApply a,
+  .RadFilter_Default .rfApply span {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .RadFilter_Default .rfLast .rfDiv:after,
+  .RadFilter_Default .rfLines li li:before,
+  .RadFilter_Default .rfLines li li .rfDiv:before {
+    border-color: #b3b3b3; }
+

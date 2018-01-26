@@ -1,0 +1,19 @@
+.RecurrenceEditor_Office2010Silver {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff; }
+  .RecurrenceEditor_Office2010Silver .rsAdvRecurrenceTitle {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #edeff2; }
+  .RecurrenceEditor_Office2010Silver .rsTabbedOptionList {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+    .RecurrenceEditor_Office2010Silver .rsTabbedOptionList label:hover {
+      border-color: #f2d359;
+      color: #000000;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+

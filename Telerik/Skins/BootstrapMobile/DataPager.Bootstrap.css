@@ -1,0 +1,56 @@
+.RadDataPager_Bootstrap {
+  color: #333333;
+  background: whitesmoke;
+  border: 1px solid #dedede;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadDataPager_Bootstrap .rdpWrap {
+    padding: 0; }
+  .RadDataPager_Bootstrap .rdpNumPart a,
+  .RadDataPager_Bootstrap .rdpPagerButton,
+  .RadDataPager_Bootstrap .rdpActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    box-sizing: content-box;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    font-size: 1em; }
+    .RadDataPager_Bootstrap .rdpNumPart a:hover,
+    .RadDataPager_Bootstrap .rdpPagerButton:hover,
+    .RadDataPager_Bootstrap .rdpActionButton:hover {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+  .RadDataPager_Bootstrap .rdpNumPart a,
+  .RadDataPager_Bootstrap .rdpActionButton {
+    margin: 0;
+    width: 1.42857em;
+    border-left-width: 0;
+    border-radius: 0;
+    text-align: center; }
+    .RadDataPager_Bootstrap .rdpNumPart a.rdpCurrentPage,
+    .RadDataPager_Bootstrap .rdpActionButton.rdpCurrentPage {
+      border-color: #2e6da4;
+      color: #ffffff;
+      background-color: #337ab7; }
+  .RadDataPager_Bootstrap .rdpNumPart a + a,
+  .RadDataPager_Bootstrap .rdpActionButton + .rdpActionButton {
+    margin-left: 0; }
+  .RadDataPager_Bootstrap .rdpNumPart {
+    margin: 0 !important; }
+  .RadDataPager_Bootstrap .rdpPageFirst {
+    border-left-width: 1px;
+    border-radius: 0.28571429em 0 0 0.28571429em; }
+  .RadDataPager_Bootstrap .rdpPageLast {
+    border-radius: 0 0.28571429em 0.28571429em 0; }
+  .RadDataPager_Bootstrap .NumericPages .rdpNumPart a:first-child {
+    border-left-width: 1px;
+    border-radius: 0.28571429em 0 0 0.28571429em; }
+  .RadDataPager_Bootstrap .NumericPages .rdpNumPart a:last-child {
+    border-radius: 0 0.28571429em 0.28571429em 0; }
+  .RadDataPager_Bootstrap .rdpActionButton {
+    box-sizing: content-box; }
+  .RadDataPager_Bootstrap .rdpPagerButton {
+    border-radius: 0.28571429em; }
+

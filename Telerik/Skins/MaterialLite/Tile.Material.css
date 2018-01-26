@@ -1,0 +1,38 @@
+.RadTile_Material {
+  color: #ffffff;
+  background-color: #8BC34A;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadTile_Material .rtilePeekContent {
+    background-color: #8BC34A; }
+  .RadTile_Material .rtileBadgeIcon {
+    color: #ffffff; }
+  .RadTile_Material.rtileSelected .rtileSelectedIcon {
+    background-color: #f8fafb;
+    color: #03A9F4; }
+  .RadTile_Material.rtileHovered {
+    border-color: #689F38; }
+  .RadTile_Material.rtileSelected {
+    border-color: #f8fafb; }
+  .RadTile_Material.rtileSelected.rtileHovered {
+    border-color: rgba(104, 159, 56, 0.7); }
+  .RadTile_Material.rtileLoading,
+  .RadTile_Material .rtileLoading {
+    background-image: url('../Material/Common/loading_small.gif'); }
+  .RadTile_Material .rtileBadgeIcon:before {
+    font-family: 'Material Icons';
+    font-size: 24px; }
+  .RadTile_Material .rtileAlertBadge:before {
+    content: "\E7F5"; }
+  .RadTile_Material .rtileAttentionBadge:before {
+    content: "\E001"; }
+  .RadTile_Material .rtileErrorBadge:before {
+    content: "\E888"; }
+  .RadTile_Material .rtilePausedBadge::before {
+    content: "\E036"; }
+  .RadTile_Material .rtileActivityBadge:before {
+    content: "\E5D5"; }
+  .RadTile_Material .rtileNewMessageBadge:before {
+    content: "\E0E1"; }
+  .RadTile_Material .rtilePlayingBadge:before {
+    content: "\E039"; }
+

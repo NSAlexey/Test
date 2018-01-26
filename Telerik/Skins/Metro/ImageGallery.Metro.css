@@ -1,0 +1,67 @@
+.RadImageGallery_Metro {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333; }
+  .RadImageGallery_Metro .rigDotList > a {
+    background: #ffffff;
+    border-color: #e6e6e6; }
+  .RadImageGallery_Metro .rigDotList .rigCurrentItem {
+    color: #25a0da; }
+  .RadImageGallery_Metro .rigToolbar {
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadImageGallery_Metro .rigCloseButton,
+  .RadImageGallery_Metro .rigDrawerButton {
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadImageGallery_Metro .rigProgressBar div {
+    background-color: #25a0da; }
+  .RadImageGallery_Metro .rigPager {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadImageGallery_Metro .rigPager a.rigCurrentPage {
+      border-color: #25a0da;
+      color: #25a0da; }
+  .RadImageGallery_Metro .rigTooltip {
+    background-color: #ffffff;
+    border-color: #e6e6e6; }
+    .RadImageGallery_Metro .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Metro .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_Metro .rigPlayIcon {
+    background-position: -39px -1999px; }
+  .RadImageGallery_Metro .rigActionButton:hover .rigPlayIcon {
+    background-position: -19px -1999px; }
+  .RadImageGallery_Metro .rigPauseIcon {
+    background-position: -39px -2019px; }
+  .RadImageGallery_Metro .rigActionButton:hover .rigPauseIcon {
+    background-position: -19px -2019px; }
+  .RadImageGallery_Metro .rigFullScrIcon {
+    background-position: -39px -2099px; }
+  .RadImageGallery_Metro .rigActionButton:hover .rigFullScrIcon {
+    background-position: -19px -2099px; }
+  .RadImageGallery_Metro .rigExtFullScrIcon {
+    background-position: -39px -2119px; }
+  .RadImageGallery_Metro .rigActionButton:hover .rigExtFullScrIcon {
+    background-position: -19px -2119px; }
+  .RadImageGallery_Metro .rigShowThumbnIcon {
+    background-position: -40px -2159px; }
+  .RadImageGallery_Metro .rigActionButton:hover .rigShowThumbnIcon {
+    background-position: -20px -2159px; }
+  .RadImageGallery_Metro .rigHideThumbnIcon {
+    background-position: -40px -2179px; }
+  .RadImageGallery_Metro .rigActionButton:hover .rigHideThumbnIcon {
+    background-position: -20px -2179px; }
+  .RadImageGallery_Metro .rigPrevButton,
+  .RadImageGallery_Metro .rigNextButton,
+  .RadImageGallery_Metro .rigScrollPrevIcon,
+  .RadImageGallery_Metro .rigScrollNextIcon,
+  .RadImageGallery_Metro .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+  .RadImageGallery_Metro .rigPrevButton {
+    left: 0; }
+  .RadImageGallery_Metro .rigNextButton {
+    right: 0; }
+
