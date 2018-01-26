@@ -1,0 +1,78 @@
+.RadTabStrip_Outlook {
+  color: #333333; }
+  .RadTabStrip_Outlook .rtsLevel1 {
+    border-color: #89aee5; }
+    .RadTabStrip_Outlook .rtsLevel1 .rtsLink {
+      border-color: #003c74;
+      color: #000000;
+      background-color: #ebe8e3;
+      background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+    .RadTabStrip_Outlook .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: #003c74;
+      color: #000000;
+      background-color: #ebe8e3;
+      background-image: linear-gradient(#fdfdfd, #ebe8e3);
+      box-shadow: inset 0 0 1px 2px #fbc860; }
+    .RadTabStrip_Outlook .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #89aee5;
+      color: #333333;
+      background-color: #ffffff;
+      background-image: none; }
+    .RadTabStrip_Outlook .rtsLevel1 .rtsSelected .rtsLink:before {
+      content: "";
+      width: 100%;
+      height: 2px;
+      border: 1px solid #e68b2c;
+      border-radius: 4px 4px 0 0;
+      background: #ffc83c;
+      position: absolute;
+      left: -1px;
+      top: -1px; }
+    .RadTabStrip_Outlook .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #5e88cd;
+      box-shadow: inset 0 0 5px #5e88cd; }
+  .RadTabStrip_Outlook .rtsLevel1 ~ .rtsLevel {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadTabStrip_Outlook .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #306ac5; }
+    .RadTabStrip_Outlook .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #214987; }
+    .RadTabStrip_Outlook .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit;
+      text-decoration: underline; }
+    .RadTabStrip_Outlook .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #5e88cd;
+      box-shadow: inset 0 0 5px #5e88cd; }
+  .RadTabStrip_Outlook .rtsGhostTab {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0);
+    border-radius: 4px; }
+
+.RadTabStrip_Outlook.rtsTop .rtsLevel1 .rtsLink {
+  border-radius: 4px 4px 0 0; }
+
+.RadTabStrip_Outlook.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+  border-bottom-color: transparent; }
+
+.RadTabStrip_Outlook.rtsBottom .rtsLevel1 .rtsLink {
+  border-radius: 0 0 4px 4px; }
+
+.RadTabStrip_Outlook.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+  border-top-color: transparent; }
+
+.RadTabStrip_Outlook.rtsLeft .rtsLevel1 .rtsLink {
+  border-radius: 4px 0 0 4px; }
+
+.RadTabStrip_Outlook.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+  border-right-color: transparent; }
+
+.RadTabStrip_Outlook.rtsRight .rtsLevel1 .rtsLink {
+  border-radius: 0 4px 4px 0; }
+
+.RadTabStrip_Outlook.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+  border-left-color: transparent; }
+

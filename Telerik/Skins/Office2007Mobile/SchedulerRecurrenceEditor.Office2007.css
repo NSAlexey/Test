@@ -1,0 +1,34 @@
+.RecurrenceEditor_Office2007 {
+  border-color: #9eb6ce;
+  color: #333333;
+  background-color: #ffffff; }
+  .RecurrenceEditor_Office2007 .rsAdvRecurrenceTitle {
+    border-color: #85b0e3;
+    color: #333333;
+    background-color: #c3d8f1; }
+  .RecurrenceEditor_Office2007 .rsTabbedOptionList {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+    .RecurrenceEditor_Office2007 .rsTabbedOptionList label:hover {
+      border-color: #c4ba9c;
+      color: #000000;
+      background-color: #ffe18a;
+      background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+  .RecurrenceEditor_Office2007 .rsAdvRecurrenceSave {
+    border-color: #384986;
+    color: #ffffff;
+    background-color: #41559c;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+    .RecurrenceEditor_Office2007 .rsAdvRecurrenceSave:hover {
+      border-color: #c4ba9c;
+      color: #000000;
+      background-color: #ffe18a;
+      background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+    .RecurrenceEditor_Office2007 .rsAdvRecurrenceSave:active {
+      border-color: #c3bba3;
+      color: #000000;
+      background-color: #fde292;
+      background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+

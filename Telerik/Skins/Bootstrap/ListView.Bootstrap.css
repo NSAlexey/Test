@@ -1,0 +1,69 @@
+/*global*/
+.RadListView_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font: 14px/1.42857143 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadListView_Bootstrap .rlvI {
+    background: #ffffff; }
+  .RadListView_Bootstrap .rlvA {
+    background: #f9f9f9; }
+  .RadListView_Bootstrap .rlvISel {
+    background: #337ab7;
+    color: #ffffff; }
+  .RadListView_Bootstrap .rlvBAdd,
+  .RadListView_Bootstrap .rlvBUpdate,
+  .RadListView_Bootstrap .rlvBCancel,
+  .RadListView_Bootstrap .rlvBDel,
+  .RadListView_Bootstrap .rlvBEdit {
+    background-image: url('Common/radActionsSprite.png');
+    width: 32px;
+    height: 32px; }
+  .RadListView_Bootstrap .rlvBAdd {
+    background-position: -109px -3009px; }
+  .RadListView_Bootstrap .rlvBUpdate {
+    background-position: -9px -2609px; }
+  .RadListView_Bootstrap .rlvBCancel {
+    background-position: -9px -2809px; }
+  .RadListView_Bootstrap .rlvBSel {
+    background-image: url('FormDecorator/CheckBoxSprites.gif');
+    background-position: -2px -2px; }
+  .RadListView_Bootstrap .rlvBDel {
+    background-position: -9px -3209px; }
+  .RadListView_Bootstrap .rlvBEdit {
+    background-position: -9px -3109px; }
+  .RadListView_Bootstrap .rlvDrag {
+    background-image: url('ListView/drag.gif');
+    background-position: center center; }
+  .RadListView_Bootstrap div.rlvI, .RadListView_Bootstrap div.rlvA, .RadListView_Bootstrap div.rlvIEmpty, .RadListView_Bootstrap div.rlvIEdit {
+    border-color: #dedede; }
+  .RadListView_Bootstrap div.rlvISel {
+    border-color: #dedede; }
+  .RadListView_Bootstrap tr.rlvHeader th {
+    border: 0;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    background: whitesmoke; }
+  .RadListView_Bootstrap tr.rlvI td,
+  .RadListView_Bootstrap tr.rlvA td,
+  .RadListView_Bootstrap tr.rlvISel td,
+  .RadListView_Bootstrap tr.rlvIEmpty td,
+  .RadListView_Bootstrap tr.rlvIEdit td {
+    border: 1px solid #dedede;
+    border-top: 0;
+    border-right: 0; }
+  .RadListView_Bootstrap td.rlvI, .RadListView_Bootstrap td.rlvA, .RadListView_Bootstrap td.rlvISel, .RadListView_Bootstrap td.rlvIEmpty, .RadListView_Bootstrap td.rlvIEdit {
+    border: 0;
+    border-right: 1px solid #dedede; }
+  .RadListView_Bootstrap td.rlvISel {
+    border-color: #dedede; }
+  .RadListView_Bootstrap .rlvFloated .rlvI,
+  .RadListView_Bootstrap .rlvFloated .rlvA,
+  .RadListView_Bootstrap .rlvFloated .rlvISel,
+  .RadListView_Bootstrap .rlvFloated .rlvIEdit {
+    border-color: #dedede; }
+  .RadListView_Bootstrap .rlvInput {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+

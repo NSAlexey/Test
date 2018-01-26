@@ -1,0 +1,73 @@
+.RadOrgChart_Outlook {
+  color: #333333; }
+  .RadOrgChart_Outlook .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(126, 166, 224, 0.5); }
+  .RadOrgChart_Outlook .rocItem,
+  .RadOrgChart_Outlook .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #c3d9f9;
+    color: #000000;
+    background-color: #ffffff; }
+  .RadOrgChart_Outlook .rocExpandArrow,
+  .RadOrgChart_Outlook .rocCollapseArrow,
+  .RadOrgChart_Outlook .rocExpandGroupArrow,
+  .RadOrgChart_Outlook .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3; }
+  .RadOrgChart_Outlook .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Outlook .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Outlook .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Outlook .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Outlook/Common/loading_small.gif'); }
+  .RadOrgChart_Outlook .rocExpandArrow:hover,
+  .RadOrgChart_Outlook .rocCollapseArrow:hover,
+  .RadOrgChart_Outlook .rocExpandGroupArrow:hover,
+  .RadOrgChart_Outlook .rocCollapseGroupArrow:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .RadOrgChart_Outlook .rocExpandArrow:active,
+  .RadOrgChart_Outlook .rocCollapseArrow:active,
+  .RadOrgChart_Outlook .rocExpandGroupArrow:active,
+  .RadOrgChart_Outlook .rocCollapseGroupArrow:active {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadOrgChart_Outlook.rocDetachedItem,
+.RadOrgChart_Outlook.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #c3d9f9;
+  color: #000000;
+  background-color: #ffffff; }
+
+.rocToolbar_Outlook {
+  border-radius: 5px;
+  border-color: #002d96;
+  color: #ffffff;
+  background-color: #002d96;
+  background-image: linear-gradient(#5987d6, #002d96); }
+  .rocToolbar_Outlook .rocToolbarButton {
+    border-radius: 3px;
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+  .rocToolbar_Outlook .rocToolbarButton:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .rocToolbar_Outlook .rocToolbarButton:active {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+

@@ -1,0 +1,50 @@
+.RadPanelBar_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+  .RadPanelBar_Windows7 .rpRootLink,
+  .RadPanelBar_Windows7 .rpHeaderTemplate {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadPanelBar_Windows7 .rpGroup .rpLink {
+    border-radius: 2px; }
+  .RadPanelBar_Windows7 .rpExpandHandle {
+    border-radius: 2px; }
+  .RadPanelBar_Windows7 .rpLink.rpHovered {
+    border-color: #bfd8f8;
+    color: #1e395b;
+    background-color: #edf4fd;
+    background-image: linear-gradient(#f9fbfd, #edf4fd); }
+  .RadPanelBar_Windows7 .rpRootLink.rpHovered {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #c2d3e9;
+    background-image: linear-gradient(#fdfeff, #e8f2fa 50%, #dce6f4 50%, #c2d3e9);
+    background-color: #cddbed; }
+  .RadPanelBar_Windows7 .rpExpandHandle.rpHovered {
+    border-color: #bfd8f8; }
+  .RadPanelBar_Windows7 .rpSelected .rpExpandHandle.rpHovered {
+    border-color: #8eb0da; }
+  .RadPanelBar_Windows7 .rpRootLink .rpExpandHandle.rpHovered {
+    border-color: #c1cdde; }
+  .RadPanelBar_Windows7 .rpRootLink.rpSelected .rpExpandHandle.rpHovered {
+    border-color: #aac1df; }
+  .RadPanelBar_Windows7 .rpLink.rpFocused {
+    border-color: #8eb0da;
+    box-shadow: inset 0 0 5px #8eb0da; }
+  .RadPanelBar_Windows7 .rpRootLink.rpFocused {
+    border-color: #aac1df;
+    box-shadow: inset 0 0 5px #aac1df; }
+  .RadPanelBar_Windows7 .rpLink.rpSelected {
+    border-color: #8eb0da;
+    color: #1e395b;
+    background-color: #c2dcfc;
+    background-image: linear-gradient(#daeafc, #c2dcfc); }
+  .RadPanelBar_Windows7 .rpRootLink.rpSelected {
+    border-color: #aac1df;
+    color: #4c607a;
+    background-color: #cfdced;
+    background-image: linear-gradient(#c9d4e4, #d8e4f1 50%, #cfdbec 50%, #cfdced); }
+

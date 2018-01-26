@@ -1,0 +1,57 @@
+/*========================================= Toolbar related CSS ========================*/
+.RadFileExplorer_Office2010Black {
+  background: #ffffff;
+  /* Overwrites padding for better presentation and space saving */
+  /* Thumbnail view */
+  /* Thumbnail filter */ }
+  .RadFileExplorer_Office2010Black .RadTreeView_Office2010Black {
+    color: #333333; }
+  .RadFileExplorer_Office2010Black .RadToolBar .rtbText {
+    background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+    background-repeat: no-repeat; }
+  .RadFileExplorer_Office2010Black .rgDataDiv {
+    background-color: #ffffff;
+    /* used error-bg-color var to match white bg color */ }
+  .RadFileExplorer_Office2010Black,
+  .RadFileExplorer_Office2010Black .rfeAddressBox,
+  .RadFileExplorer_Office2010Black .rfeFilterTxt {
+    border-color: #565656;
+    /* used button-border-color-var to match the right color */ }
+  .RadFileExplorer_Office2010Black div.selectedFileName {
+    border-top: 1px solid #2c2c2c; }
+  .RadFileExplorer_Office2010Black .RadSplitter_Office2010Black,
+  .RadFileExplorer_Office2010Black .RadSplitter_Office2010Black .rspPaneTabContainer {
+    border: none; }
+  .RadFileExplorer_Office2010Black .RadGrid .rgRow td,
+  .RadFileExplorer_Office2010Black .RadGrid .rgAltRow td,
+  .RadFileExplorer_Office2010Black .RadGrid .rgEditRow td,
+  .RadFileExplorer_Office2010Black .RadGrid .rgFooter td {
+    padding-left: 8px;
+    padding-right: 8px; }
+  .RadFileExplorer_Office2010Black .rfeThumbList a:hover,
+  .RadFileExplorer_Office2010Black .rfeThumbList .rfeHoveredLink,
+  .RadFileExplorer_Office2010Black .rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_Office2010Black .rfeThumbList .rfeSelectedLink:hover {
+    background-image: url('../Common/Gradients/office2010Black_smoothSprite_20.png');
+    background-color: #fff3c9;
+    border-color: #ffe68b; }
+  .RadFileExplorer_Office2010Black .rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_Office2010Black .rfeThumbList .rfeSelectedLink:hover {
+    background-color: #feed76; }
+  .RadFileExplorer_Office2010Black .rfeFilterContainer {
+    background-image: url('../Common/Gradients/office2010Black_smoothSprite_20.png');
+    background-color: #424242; }
+  .RadFileExplorer_Office2010Black .rfeFilterContainer .rfeFilterLbl {
+    color: #fff; }
+  .RadFileExplorer_Office2010Black .rfeLink,
+  .RadFileExplorer_Office2010Black .rfeLink:hover,
+  .RadFileExplorer_Office2010Black .rfeSelectedLink {
+    color: #333333; }
+  .RadFileExplorer_Office2010Black div.rfePageControlContainer {
+    color: #ffffff; }
+  .RadFileExplorer_Office2010Black .rfeDropZone {
+    background-color: rgba(75, 75, 75, 0.8); }
+  .RadFileExplorer_Office2010Black .rfeDropUploadInfoPanel {
+    background-color: #f6f6f6;
+    color: #000000; }
+

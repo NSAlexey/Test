@@ -1,0 +1,217 @@
+.reTopcell {
+  background-color: #f0f0f0; }
+
+.selectedFileName {
+  border-top: 1px solid #cccccc; }
+
+.RadTabStripBottom_Default {
+  background: #f0f0f0;
+  width: 264px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 6px !important; }
+
+.reTableWizardSelectAllBtn {
+  color: #333333; }
+
+.imagePreviewer {
+  overflow: hidden; }
+
+.RadToolBar_Default .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  background-repeat: no-repeat; }
+
+.redMainContainer {
+  background-color: #ffffff; }
+  .redMainContainer.redTabStrip {
+    background-color: #e6e6e6; }
+  .redMainContainer .redBlockRight {
+    border-color: #b3b3b3; }
+  .redMainContainer .redWrapper {
+    background-color: #ffffff; }
+  .redMainContainer .redActionButtonsWrapperExternal {
+    background-color: #ffffff;
+    border-color: #b3b3b3; }
+
+.redWrapper .redSection {
+  border-bottom-color: #cccccc; }
+
+.redWrapper .reTool {
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(white, #e6e6e6); }
+
+.redWrapper .reTool:hover {
+  border-color: darkgray;
+  color: #000000;
+  background-color: #c2c2c2;
+  background-image: linear-gradient(gainsboro, #c2c2c2);
+  box-shadow: inset 0 0 1px #ffffff; }
+  .redWrapper .reTool:hover .reSplitArrow {
+    border-color: darkgray; }
+
+.redWrapper .reTool:active,
+.redWrapper .reTool:focus {
+  border-color: #676767;
+  color: #ffffff;
+  background-color: #808080;
+  background-image: linear-gradient(#9a9a9a, #808080);
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.redWrapper a.reDropdown:hover {
+  background-color: #c2c2c2; }
+
+.redWrapper .redDialogSeparator {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  background-image: linear-gradient(#fdfdfd, #eaeaea);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#eaeaea',GradientType=0 );
+  filter: none;
+  background-color: #e6e6e6;
+  background-position: 0 0; }
+
+.redWrapper .redMsgContainerFBDialogs #propertyValueDescription,
+.redWrapper .redMsgContainerFBDialogs #propertyValuePane {
+  background-color: #e6e6e6;
+  color: #333333; }
+
+.redWrapper .redImageMapProperties {
+  border-left-color: #cccccc; }
+
+.reLightweightDialog .reTool {
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(white, #e6e6e6); }
+
+.reLightweightDialog .reTool:hover {
+  border-color: darkgray;
+  color: #000000;
+  background-color: #c2c2c2;
+  background-image: linear-gradient(gainsboro, #c2c2c2);
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.reLightweightDialog .reTool:active,
+.reLightweightDialog .reTool:focus {
+  border-color: #676767;
+  color: #ffffff;
+  background-color: #808080;
+  background-image: linear-gradient(#9a9a9a, #808080);
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.reLightweightDialog .reSplitButton,
+.reLightweightDialog a.reTool {
+  border-color: #b3b3b3; }
+
+.reLightweightDialog .reSpinBox input[type="text"] {
+  width: 3.2em; }
+
+.reLightweightDialog .reSpinBoxButtons {
+  right: 0; }
+
+.reLightweightDialog .reSpinBoxButtons span:before {
+  width: 1em;
+  height: 1em; }
+
+.RadForm_Default .redRtl .redWrapper .reTool .split_arrow:hover {
+  border-right-color: darkgray; }
+
+.RadForm_Default .redRtl .reDropdown:hover {
+  background-image: url('Editor/ToolbarSprites.gif');
+  background-color: #c2c2c2; }
+
+.RadForm_Default .redRtl .redLabel,
+.RadForm_Default .redRtl .redDimensionPixels,
+.RadForm_Default .redRtl .redConstrainButton,
+.RadForm_Default .redRtl .reSpinBoxButtons,
+.RadForm_Default .redRtl .redSpanLabel {
+  color: #333333; }
+
+.RadForm_Default .redRtl .redImageMapPreview {
+  border-left-color: #cccccc; }
+
+.reLightweightDialog.RadForm_Default .selectedFileName {
+  border-color: #cdcdcd; }
+
+.reLightweightDialog.RadForm_Default .reSpinBox input[type="text"],
+.reLightweightDialog.RadForm_Default .redWrapper a.reDropdown {
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #ffffff; }
+
+.reLightweightDialog.RadForm_Default a.reDropdown {
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #ffffff; }
+
+.reLightweightDialog.RadForm_Default .reSpinBox input[type="text"]:hover,
+.reLightweightDialog.RadForm_Default .redWrapper a.reDropdown:hover {
+  border-color: darkgray;
+  color: #333333;
+  background-color: #ffffff; }
+
+.reLightweightDialog.RadForm_Default .reSpinBox input[type="text"]:focus,
+.reLightweightDialog.RadForm_Default .reSpinBox input[type="text"]:active,
+.reLightweightDialog.RadForm_Default .redWrapper a.reDropdown:active,
+.reLightweightDialog.RadForm_Default .redWrapper a.reDropdown:focus {
+  border-color: #676767;
+  color: #333333;
+  background-color: #ffffff; }
+
+.reLightweightDialog.RadForm_Default .reDropDownBody {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .reLightweightDialog.RadForm_Default .reDropDownBody li:hover,
+  .reLightweightDialog.RadForm_Default .reDropDownBody .reItemOver {
+    color: #000000;
+    background-color: #c2c2c2; }
+
+.reMobileDialog.RadForm_Default {
+  font-size: 14px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .reMobileDialog.RadForm_Default.rfdZone {
+    background-color: #f4f4f4; }
+  .reMobileDialog.RadForm_Default .reMobileDialogTitleBar {
+    background-image: linear-gradient(#fafafa, #e6e6e6);
+    border-color: #cccccc; }
+  .reMobileDialog.RadForm_Default .reToolList > li {
+    background-color: #ffffff;
+    color: #333333;
+    border-color: #cdcdcd; }
+  .reMobileDialog.RadForm_Default .reIcon {
+    color: #333333; }
+  .reMobileDialog.RadForm_Default .reIconSelected {
+    color: #1976d2; }
+  .reMobileDialog.RadForm_Default .reDialog {
+    background-color: #e6e6e6;
+    color: #333333; }
+  .reMobileDialog.RadForm_Default .reToolList.reImageManagerHeader > li,
+  .reMobileDialog.RadForm_Default .reToolList > .reColorBoxWrapper,
+  .reMobileDialog.RadForm_Default .reColorPicker {
+    background-color: #f4f4f4; }
+  .reMobileDialog.RadForm_Default .reCurrentColor {
+    border-color: #b3b3b3; }
+  .reMobileDialog.RadForm_Default .reSpinBoxButtons span,
+  .reMobileDialog.RadForm_Default .reDialog .reButton,
+  .reMobileDialog.RadForm_Default .reColorPicker .reButton {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .reMobileDialog.RadForm_Default .reSpinBoxButtons span.reSpinBoxButtonHover,
+  .reMobileDialog.RadForm_Default .reDialog .reButton:hover,
+  .reMobileDialog.RadForm_Default .reColorPicker .reButton:hover {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(#9a9a9a, #808080); }
+  .reMobileDialog.RadForm_Default span.ruFakeInput,
+  .reMobileDialog.RadForm_Default .reSpinBox input,
+  .reMobileDialog.RadForm_Default .reSelect {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #ffffff; }
+  .reMobileDialog.RadForm_Default .RadButton_Default.reRatioLinkButton {
+    color: #1976d2; }
+

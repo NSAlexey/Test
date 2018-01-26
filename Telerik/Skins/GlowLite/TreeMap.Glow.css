@@ -1,0 +1,19 @@
+.RadTreeMap_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadTreeMap_Glow .k-treemap-title,
+  .RadTreeMap_Glow .k-treemap-title-vertical {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+  .RadTreeMap_Glow .k-leaf {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #35434b; }
+  .RadTreeMap_Glow .k-leaf.k-inverse {
+    color: #35434b;
+    background-color: #e2e8eb; }
+  .RadTreeMap_Glow .k-leaf.k-state-hover {
+    box-shadow: inset 0 0 0 5px #35434b; }
+

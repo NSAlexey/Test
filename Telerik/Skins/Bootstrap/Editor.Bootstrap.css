@@ -1,0 +1,1211 @@
+.Bootstrap {
+  border-radius: 0.28571em;
+  /* reWrapper */
+  /* common settings for .reModule, .reEditorModes and .reWrapper */
+  /* end of module */
+  /* Toolbar overrides */
+  /* reTool */
+  /* these settings will not be included in the common CSS file of RadEditor */
+  /* end of reTool_text */
+  /* add weight to the selector for IE6 so it is applied */
+  /* end of reSplitButton */
+  /* reDropdown */
+  /* Vertical mode */
+  /* end of reDropdown */
+  /* InsertTable itself is a kind of tool strip, so it must be styled as a toolstrip */
+  /* end of context menu and toolstrip */
+  /* spinbox */
+  /* end of spinbox */
+  /* DOM inspector */
+  /* end of DOM inspector */
+  /* end of expanded dropdowns */
+  /* color picker */
+  /* end of color picker */
+  /* ajax spellchecker */
+  /* ajax spellchecker */
+  /* custom links */
+  /* end of custom links */
+  /* insert table dropdown */
+  /* end of insert table dropdown */
+  /* Popup Comments */
+  /* Commnet popups */
+  /* Inline Editor */
+  /* Right to Left */
+}
+
+.Bootstrap.RadEditor,
+.Bootstrap.RadEditor .reModule,
+.Bootstrap.RadEditor .reEditorModes,
+.Bootstrap.RadEditor .reWrapper {
+  background-color: #f5f5f5;
+  font-size: 14px;
+}
+
+.Bootstrap .reEmptyMessage {
+  color: #555555;
+}
+
+.Bootstrap.RadEditor .reContentCell {
+  background-color: #ffffff;
+}
+
+.Bootstrap .reModule span {
+  width: auto !important;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+.Bootstrap.RadEditor .reEditorModes a {
+  font-size: 14px;
+  margin-right: 7px;
+  width: 90px;
+  height: 32px;
+  border-radius: 4px;
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: linear-gradient();
+  border-width: 1px;
+  border-style: solid;
+}
+
+.Bootstrap.RadEditor .reEditorModes a:hover {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  box-shadow: inset 0 0 1px #ffffff;
+}
+
+.Bootstrap.RadEditor .reEditorModes a:focus,
+.Bootstrap.RadEditor .reEditorModes a:active,
+.Bootstrap.RadEditor a.reMode_selected,
+.Bootstrap.RadEditor a.reMode_selected:hover,
+.Bootstrap.reToolWrapper .reSplitButton.reTool:hover,
+.Bootstrap.reToolbarWrapper .reTool.reSplitButton:hover,
+.Bootstrap .reToolWrapper .reTool.reSplitButton:hover,
+.Bootstrap .reToolbarWrapper .reTool.reSplitButton:hover,
+.Bootstrap .reModule .reSplitButton.reTool:hover,
+.Bootstrap.reToolbarWrapper .reTool_selected,
+.Bootstrap.reToolbarWrapper .reTool_selected:hover {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  color: #333333;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+.Bootstrap a.reSpinBoxIncrease,
+.Bootstrap a.reSpinBoxDecrease {
+  width: 32px;
+  height: 16px;
+  background-image: url('Common/radActionsSprite.png');
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: linear-gradient();
+}
+
+.Bootstrap a.reSpinBoxIncrease:hover,
+.Bootstrap a.reSpinBoxDecrease:hover {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  box-shadow: inset 0 0 1px #ffffff;
+}
+
+.Bootstrap a.reSpinBoxIncrease {
+  background-position: -9px -1017px;
+}
+
+.Bootstrap a.reSpinBoxDecrease {
+  background-position: -9px -1067px;
+}
+
+.Bootstrap .reSpinBox input {
+  width: 49px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.Bootstrap .reSpinBox table {
+  width: 33px;
+  height: 32px;
+  border-left: 1px solid #cccccc;
+}
+
+.Bootstrap .reModule .reTool,
+.Bootstrap .reModule .reDropdown,
+.Bootstrap .reModule .reDropdown:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.Bootstrap .reLayoutWrapper .reToolZone .reModule .reTool.reSplitButton {
+  width: 65px;
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: linear-gradient();
+  border-width: 1px;
+  border-style: solid;
+}
+
+.Bootstrap .reLayoutWrapper .reToolZone .reModule .reTool.reSplitButton:hover,
+.Bootstrap .reModule .reDropdown:hover {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+}
+
+.Bootstrap .reModule .reTool span {
+  width: 32px;
+  min-width: 32px;
+  margin: 7px 0 0 7px;
+}
+
+.Bootstrap .reModule .reTool .borderColor,
+.Bootstrap .reModule .reTool .bgColor,
+.Bootstrap .reModule .reTool .SetImageProperties,
+.Bootstrap .reModule .reTool .reTopLeft,
+.Bootstrap .reModule .reTool .reTopCenter,
+.Bootstrap .reModule .reTool .reTopRight,
+.Bootstrap .reModule .reTool .reMiddleLeft,
+.Bootstrap .reModule .reTool .reMiddleCenter,
+.Bootstrap .reModule .reTool .reMiddleRight,
+.Bootstrap .reModule .reTool .reBottomLeft,
+.Bootstrap .reModule .reTool .reBottomCenter,
+.Bootstrap .reModule .reTool .reBottomRight {
+  min-width: 20px;
+}
+
+.Bootstrap .reModule .reTool span.split_arrow {
+  width: 32px;
+  min-width: 32px;
+  border-left: 1px solid #cccccc;
+  background-position: -9px -1059px;
+}
+
+.Bootstrap .reModule td input[type='checkbox'] {
+  margin-top: 13px;
+}
+
+.Bootstrap.RadEditor .reEditorModes a span {
+  line-height: 32px;
+}
+
+.Bootstrap a.reMode_design span,
+.Bootstrap a.reMode_selected.reMode_design span {
+  background-position: -7px 1px;
+}
+
+.Bootstrap a.reMode_html span,
+.Bootstrap a.reMode_selected.reMode_html span {
+  background-position: -7px -33px;
+}
+
+.Bootstrap a.reMode_preview span,
+.Bootstrap a.reMode_selected.reMode_preview span {
+  background-position: -7px -63px;
+}
+
+.Bootstrap .reResizeCell div {
+  width: 14px;
+  height: 20px;
+  background-image: url('Common/radActionsSprite.png');
+  background-position: -18px -2218px;
+  margin: 0 -1px -2px 0;
+}
+
+.Bootstrap.reToolBarLeft .reResizeCell div,
+.Bootstrap.reToolBarRight .reResizeCell div {
+  bottom: -4px;
+  right: -56px;
+}
+
+.Bootstrap .reToolbarWrapper .reToolbar li a.reSplitButton,
+.Bootstrap .reToolbar li a.reTool.reSplitButton {
+  width: 42px;
+}
+
+.Bootstrap .reTool .ToggleFloatingToolbar {
+  width: 23px;
+}
+
+.Bootstrap .reSplitButton.reTool .split_arrow {
+  width: 16px;
+  height: 32px;
+  background-image: url('Common/radActionsSprite.png');
+  background-position: -17px -1059px;
+  margin: 10px 0 0 4px;
+}
+
+.Bootstrap.reWrapper,
+.Bootstrap.RadEditor .reContentCell,
+.Bootstrap.reColorPicker,
+.Bootstrap.reInsertTable,
+.Bootstrap.reDropDownBody {
+  border: 1px solid #dddddd;
+}
+
+.Bootstrap.RadEditor .reContentCell.reNoBorder {
+  border: none;
+}
+
+.Bootstrap.RadEditor .reNoBorder div.reContentArea {
+  border: 1px solid #dddddd;
+}
+
+.Bootstrap.reDropDownBody table {
+  background: transparent;
+  min-width: 100% !important;
+}
+
+.Bootstrap.reDropDownBody table td {
+  font-size: 14px;
+  height: 28px;
+  min-width: 28px !important;
+  color: #555555;
+}
+
+.Bootstrap.reCustomLinks a,
+.Bootstrap.reCustomLinks a:link,
+.Bootstrap.reCustomLinks a:visited {
+  border: 1px solid transparent;
+  /* should be the same as the background of the dropdown */
+  color: #337ab7 !important;
+  text-decoration: none;
+}
+
+.Bootstrap.reCustomLinks a:hover {
+  border: 1px solid transparent;
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.Bootstrap ul.reCustomLinks .reCustomLinksIcon {
+  margin: 5px 4px 0 0 !important;
+}
+
+.Bootstrap .reTool,
+.Bootstrap .reToolbar li .reTool,
+.Bootstrap .reRibbonBarWrapper .reToolbar li .reTool,
+.RadWindow .Bootstrap.reToolbarWrapper .reToolbar li .reTool,
+.Bootstrap.RadEditor .reDialog .reTool,
+.Bootstrap.RadEditor .reToolbar .reTool,
+.Bootstrap.RadEditor .reModule .reTool,
+.Bootstrap .reToolbarWindow .reToolbar .reTool {
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: linear-gradient();
+}
+
+.Bootstrap .reToolbar li,
+.RadWindow .Bootstrap.reToolbarWrapper .reToolbar li {
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+
+.Bootstrap .reToolbar li.reSeparator,
+.RadWindow .Bootstrap.reToolbarWrapper .reToolbar li.reSeparator {
+  height: 34px;
+  border: 0;
+}
+
+.Bootstrap .reGrip {
+  display: none;
+}
+
+.Bootstrap .reToolbar .reToolFirstItem,
+.Bootstrap .reToolbar .reToolFirstItem .reTool,
+.RadWindow .Bootstrap.reToolbarWrapper .reToolbar .reToolFirstItem,
+.RadWindow .Bootstrap.reToolbarWrapper .reToolbar .reToolFirstItem .reTool {
+  border-radius: 4px 0 0 4px;
+}
+
+.Bootstrap .reToolbar .reToolLastItem,
+.RadWindow .Bootstrap.reToolbarWrapper .reToolbar .reToolLastItem,
+.RadWindow .Bootstrap.reToolbarWrapper .reToolbar .reToolLastItem .reTool {
+  border-radius: 0 4px 4px 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #cccccc;
+}
+
+.Bootstrap .reToolbar .reToolLastItem .reTool {
+  border-radius: 0 4px 4px 0;
+}
+
+.Bootstrap .reToolbar .reToolLastItem + .reSeparator {
+  border-width: 0;
+}
+
+.Bootstrap .reTool:hover,
+.Bootstrap .reToolbar li .reTool:hover,
+.RadWindow .Bootstrap.reToolbarWrapper li .reTool:hover,
+.Bootstrap .reRibbonBarWrapper .reToolbar li .reTool:hover,
+.Bootstrap.RadEditor .reDialog .reTool:hover,
+.Bootstrap.RadEditor .reToolbar .reTool:hover,
+.Bootstrap.RadEditor .reModule .reTool:hover,
+.Bootstrap .reToolbarWindow .reToolbar .reTool:hover,
+.Bootstrap .reToolbar li .reTool:focus {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  box-shadow: inset 0 0 1px #ffffff;
+}
+
+.Bootstrap .reToolbar li .reTool:focus,
+.RadWindow .Bootstrap.reToolbarWrapper li .reTool:focus {
+  outline-width: thin;
+  outline-offset: -2px;
+  outline-color: #c2c2c2;
+}
+
+.Bootstrap .reToolbar li .reTool:active,
+.Bootstrap .reToolbar li .reTool_selected,
+.RadWindow .Bootstrap.reToolbarWrapper li .reTool:active,
+.RadWindow .Bootstrap.reToolbarWrapper li .reTool_selected,
+.Bootstrap .reRibbonBarWrapper .reToolbar li .reTool:active,
+.Bootstrap .reRibbonBarWrapper .reToolbar li .reTool:focus,
+.Bootstrap .reRibbonBarWrapper .reToolbar li .reTool_selected,
+.Bootstrap.RadEditor .reDialog .reTool:active,
+.Bootstrap.RadEditor .reToolbar .reTool:active,
+.Bootstrap.RadEditor .reModule .reTool:active,
+.Bootstrap .reToolbarWindow .reToolbar .reTool:active {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  color: #333333;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+.Bootstrap .reToolbar li .reTool_disabled,
+.RadWindow .Bootstrap.reToolbarWrapper li .reTool_disabled,
+.Bootstrap .reToolbar li .reTool_disabled:hover,
+.Bootstrap .reToolbar li .reTool_disabled:focus,
+.Bootstrap .reToolbar li .reTool_disabled:active,
+.Bootstrap.RadEditor .reDialog .reTool_disabled:hover,
+.Bootstrap.RadEditor .reToolbar .reTool_disabled:hover,
+.Bootstrap.RadEditor .reModule .reTool_disabled:hover,
+.Bootstrap .reToolbarWindow .reToolbar .reTool_disabled:hover,
+.Bootstrap.RadEditor .reDialog .reTool_disabled:active,
+.Bootstrap.RadEditor .reToolbar .reTool_disabled:active,
+.Bootstrap.RadEditor .reModule .reTool_disabled:active,
+.Bootstrap .reToolbarWindow .reToolbar .reTool_disabled:active {
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  min-width: auto;
+}
+
+.Bootstrap.RadEditor.reWrapper .reSplitButton.reTool {
+  width: 42px;
+}
+
+.Bootstrap.reToolbar li .reTool_disabled:hover span.split_arrow,
+.Bootstrap.reToolbar li .reTool_disabled:active span.split_arrow,
+.Bootstrap.reToolbar li .reTool_disabled:focus span.split_arrow {
+  border: 0 none;
+  background-position: -17px -1059px;
+}
+
+.Bootstrap.reToolbar li .reTool span {
+  margin: 7px 0 0 7px;
+}
+
+.Bootstrap.reToolbar {
+  margin: 0 7px 7px 0 !important;
+}
+
+.Bootstrap .reToolbar:after {
+  display: inline-block;
+  width: 1px;
+  height: 34px;
+  margin: 0 0 0 7px;
+  background-color: #dddddd;
+  content: "";
+  vertical-align: top;
+}
+
+.Bootstrap .reToolbar:last-child:after {
+  display: none;
+}
+
+.Bootstrap ul.reToolbar li {
+  color: #333333;
+  height: 32px;
+}
+
+.Bootstrap .reTool span,
+.Bootstrap .RadWindow_Bootstrap .reTool span,
+.Bootstrap .RadForm_Bootstrap .reTool span,
+.Bootstrap.reInsertTable .reTlbVertical ul .reTool_text span,
+.Bootstrap .reToolbar .reTool_text span {
+  background-image: url('../Common/CommandSpritesMonoLight.png');
+}
+
+.Bootstrap .reToolbar .reTool_text:hover,
+.Bootstrap .reToolbar .reTool_text.reTool_selected,
+.Bootstrap .reToolbar .reTool_text.reTool_selected:hover {
+  border-left: 1px solid #adadad;
+  border-right: 1px solid #adadad;
+}
+
+.Bootstrap .reToolbar .reTool_text.reTool_disabled,
+.Bootstrap .reToolbar .reTool_text.reTool_disabled:hover {
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
+  opacity: .6;
+}
+
+.Bootstrap .reToolbar .reTool.reSplitButton.reTool_disabled:hover {
+  background-color: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.Bootstrap .reDropdown,
+.Bootstrap .reTool_disabled.reDropdown:hover {
+  position: relative;
+  height: 32px;
+  min-width: 80px;
+  margin: 0;
+  padding: 0 15px 0 5px;
+  font-size: 14px;
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: linear-gradient();
+}
+
+.Bootstrap .reDropdown span {
+  line-height: 30px;
+  color: #333333;
+  min-width: 80px;
+}
+
+.Bootstrap .reDropdown:hover {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  box-shadow: inset 0 0 1px #ffffff;
+  border: 0;
+}
+
+.Bootstrap .reDropdown:hover span {
+  color: #333333;
+}
+
+.Bootstrap .reDropdown:active,
+.Bootstrap .reDropdown:focus {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  color: #333333;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+.Bootstrap .reDropdown:before {
+  background-image: url('Common/radActionsSprite.png');
+  background-position: -12px -1059px;
+  content: "";
+  width: 26px;
+  height: 30px;
+  position: absolute;
+  top: 1px;
+  left: auto;
+  right: 0;
+}
+
+.Bootstrap .reTool_disabled.reDropdown:hover span {
+  color: #333333;
+}
+
+.Bootstrap .reTlbVertical .reToolbar {
+  margin: 0 !important;
+}
+
+.Bootstrap .reTlbVertical .reToolbar li {
+  border: 0;
+}
+
+.Bootstrap .reTlbVertical .reToolbar .reToolFirstItem .reTool {
+  border-radius: 4px 4px 0 0;
+}
+
+.Bootstrap .reTlbVertical .reToolbar .reToolLastItem .reTool,
+.Bootstrap .reTlbVertical .reToolbar .reToolLastItem .reDropdown {
+  border-radius: 0 0 4px 4px;
+}
+
+.reTlbVertical .Bootstrap.reToolbar .reTool.reSplitButton,
+.reTlbVertical .Bootstrap.reToolbar .reTool {
+  width: 42px;
+  margin: auto;
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+
+.reTlbVertical .Bootstrap.reToolbar .reTool span {
+  margin: 7px 0 0 12px;
+}
+
+.Bootstrap .reTlbVertical .reSeparator {
+  display: none;
+}
+
+.Bootstrap .reTlbVertical .reDropdown,
+.Bootstrap .reTlbVertical .reDropdown:hover {
+  min-width: 22px;
+  width: 22px;
+  height: 32px;
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  margin: -1px 0 0 5px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.Bootstrap.reDropDownBody .reTlbVertical .reToolbar {
+  background-color: #ffffff;
+  background-image: none;
+}
+
+.Bootstrap table.reSpinBox {
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #cccccc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 4px;
+}
+
+.Bootstrap table.reSpinBox:hover,
+.Bootstrap.RadEditor input:hover {
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #adadad;
+}
+
+.Bootstrap table.reSpinBox:focus,
+.Bootstrap.RadEditor input:focus {
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #66afe9;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: 0 none;
+}
+
+.Bootstrap table.reSpinBox:active,
+.Bootstrap.RadEditor input:active {
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #cccccc;
+}
+
+.Bootstrap .reModule td {
+  vertical-align: top;
+  padding-right: 16px;
+}
+
+.Bootstrap .reModule .reModuleLabel {
+  font-size: 14px;
+  color: #333333;
+}
+
+.Bootstrap .reModule_domlink {
+  color: #428bca;
+  font-size: 14px;
+}
+
+.Bootstrap .reModule_domlink_selected {
+  color: #2a6496;
+}
+
+.Bootstrap .reModule.reStatistic {
+  color: #999999;
+}
+
+.Bootstrap .reModule input[type="text"] {
+  height: 28px;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #cccccc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.Bootstrap .reModule input[type="text"]:hover {
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #adadad;
+}
+
+.Bootstrap .reModule input[type="text"]:focus {
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #66afe9;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: 0 none;
+}
+
+.Bootstrap .reModule input[type="text"]:active {
+  background-color: #ffffff;
+  color: #555555;
+  border-color: #cccccc;
+}
+
+.Bootstrap.reDropDownBody .reItemOver {
+  background-color: #f5f5f5;
+}
+
+.Bootstrap.reColorPicker table div,
+.Bootstrap.reColorPicker span {
+  border: 1px solid #cccccc;
+}
+
+.Bootstrap.reColorPicker table td.reItemOver div {
+  border-color: #adadad;
+}
+
+.Bootstrap .reAjaxspell_wrapper {
+  font-size: 14px;
+  background-color: #fcfcfc !important;
+}
+
+.Bootstrap .reAjaxspell_button {
+  height: 34px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.Bootstrap .reAjaxspell_button:hover {
+  background-color: #e0e0e0;
+}
+
+.Bootstrap .reAjaxspell_button:active {
+  background-color: #e0e0e0;
+  color: #333333;
+}
+
+.Bootstrap .reAjaxSpellCheckSeparator {
+  background-color: #333333;
+}
+
+.Bootstrap.reCustomLinks,
+.Bootstrap.reCustomLinks ul {
+  color: #333333;
+}
+
+.Bootstrap.reCustomLinks a {
+  background: none transparent;
+  color: #333333;
+  cursor: default !important;
+}
+
+.Bootstrap.reCustomLinks a:hover {
+  color: #ffffff;
+}
+
+.Bootstrap.reInsertTable table {
+  background-color: #ffffff;
+}
+
+.Bootstrap.reInsertTable table tr td {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  height: 20px;
+  min-width: 20px !important;
+}
+
+.Bootstrap.reInsertTable table tr td div {
+  height: 20px;
+  width: 20px;
+}
+
+.Bootstrap.reWrapper td.reTlbVertical ul.reToolbar {
+  width: 54px !important;
+}
+
+.Bootstrap .reTlbVertical .split_arrow,
+.Bootstrap .reTlbVertical .reTool_text.reSplitButton .split_arrow {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.Bootstrap.reInsertTable .reTlbVertical ul {
+  background-color: #ffffff;
+  margin-left: 3px;
+}
+
+.Bootstrap.reDropDownBody.reInsertTable {
+  width: 200px !important;
+}
+
+.Bootstrap.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text,
+.Bootstrap.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:link,
+.Bootstrap.reDropDownBody.reInsertTable div.reTlbVertical a.reTool_text:visited {
+  color: #333333 !important;
+  background: transparent none;
+}
+
+div.reInsertTable .Bootstrap.reToolbar li,
+div.reInsertTable .Bootstrap.reToolbar li .reTool {
+  border: 0 none;
+}
+
+div.reInsertTable .Bootstrap.reToolbar li,
+div.reInsertTable .Bootstrap.reToolbar li .reTool {
+  width: 30px !important;
+  height: 30px;
+}
+
+div.reInsertTable .Bootstrap.reToolbar li .reTool span {
+  margin: 7px 0 0 6px;
+}
+
+.Bootstrap.reDropDownBody.reInsertTable .reToolbar:after {
+  display: none;
+}
+
+.Bootstrap.reDropDownBody.reAlignmentSelector {
+  width: 87px !important;
+  height: 116px !important;
+}
+
+.Bootstrap.reColorPicker {
+  height: 260px !important;
+}
+
+.Bootstrap.reColorPicker table tr td {
+  min-width: 20px !important;
+}
+
+.Bootstrap.reColorPicker table td div {
+  width: 20px;
+  height: 20px;
+}
+
+.Bootstrap a.reCustomColor {
+  font-size: 14px;
+}
+
+.Bootstrap div.reColorPickerFooter {
+  height: 38px;
+}
+
+.Bootstrap div.reColorPickerFooter span {
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+}
+
+.Bootstrap.reDropDownBody .reTlbVertical ul li .reTool_text {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.Bootstrap.reDropDownBody .reTlbVertical ul li .reTool_text .reButton_text {
+  color: #555555;
+}
+
+.Bootstrap.reDropDownBody .reTlbVertical ul li .reTool_text:hover {
+  background-color: #f5f5f5;
+}
+
+.Bootstrap.reDropDownBody .reTlbVertical ul li .reTool_text:hover .reButton_text {
+  color: #333333;
+}
+
+.Bootstrap div.reCommentEdit,
+.Bootstrap div.reCommentTextArea,
+.Bootstrap div.reCommentView,
+.Bootstrap div.reCommentButton,
+.Bootstrap div.rePopupButton,
+.Bootstrap div.rePopupMessage,
+.Bootstrap div.rePopupContainer .rePopupTitle,
+.Bootstrap div.reCommentTextAreaWatermark,
+.Bootstrap div.reCommentInfoPanel {
+  font: 13px Arial,Helvetica,sans-serif;
+}
+
+.Bootstrap .reCommentEdit,
+.Bootstrap .reCommentTextArea,
+.Bootstrap .reCommentView,
+.Bootstrap .reCommentInfoPanel {
+  border-color: #dddddd;
+  background-color: #fcfcfc;
+}
+
+.Bootstrap .reCommentTitle,
+.Bootstrap .reCommentInfoPanel {
+  color: #333333;
+}
+
+.Bootstrap .reCommentTextArea {
+  border-color: #dddddd;
+  background-color: #ffffff;
+}
+
+.Bootstrap.RadEditor .reCommentButton,
+.Bootstrap .rePopupButtonContainer .rePopupButton {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: linear-gradient();
+  height: 26px;
+  padding: 0 10px;
+  border-width: 1px;
+  border-style: solid;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+}
+
+.Bootstrap.RadEditor .reCommentButton:hover,
+.Bootstrap .rePopupButtonContainer .rePopupButton:hover {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+}
+
+.Bootstrap.RadEditor .reCommentButton:active,
+.Bootstrap.RadEditor .rePopupButtonContainer .rePopupButton:active {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  box-shadow: inset 0 0 4px #c0c0c0;
+}
+
+.Bootstrap.rePopupContainer {
+  border-color: #dddddd;
+  background-color: #ffffff;
+}
+
+.Bootstrap.rePopupContainer .rePopupTitle {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+  border-radius: 0;
+}
+
+.Bootstrap div.reCommentInfoPanel {
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+.Bootstrap .RadRibbonBar_Bootstrap .reDropdown,
+.Bootstrap .RadRibbonBar_Bootstrap .reTool_disabled.reDropdown:hover {
+  height: 20px;
+  margin: 0 2px 0 0;
+}
+
+.Bootstrap .RadRibbonBar_Bootstrap .reDropdown span {
+  line-height: 20px;
+}
+
+.Bootstrap .reTool .ToggleEditMode {
+  background-image: url('../Common/CommonIconsLight.png');
+  background-position: -8px -40px;
+}
+
+.Bootstrap.RadWindow.RadEditor.reWrapper .rwWindowContent {
+  background-color: #fcfcfc;
+}
+
+.Bootstrap.reWrapper.reInlineEditor:hover {
+  border-color: #dddddd;
+}
+
+.Bootstrap.reWrapper.reInlineEditorSelected,
+.Bootstrap.reWrapper.reInlineEditorSelected:hover {
+  border-color: #66afe9;
+}
+
+.Bootstrap.RadEditor.reRtl .reTool .split_arrow:hover {
+  border-right-color: transparent;
+}
+
+.Bootstrap.RadEditor.reRtl .reDropdown:hover {
+  color: #333333;
+}
+
+.Bootstrap.RadEditor.reRtl .reDropdown:before {
+  left: -4px;
+  right: auto;
+}
+
+.Bootstrap.RadEditor.reRtl .reEditorModes .reMode_design span {
+  background-position: 55px -3px;
+}
+
+.Bootstrap.RadEditor.reRtl .reEditorModes .reMode_html span {
+  background-position: 55px -33px;
+}
+
+.Bootstrap.RadEditor.reRtl .reEditorModes .reMode_preview span {
+  background-position: 55px -67px;
+}
+
+.reTool span,
+.Bootstrap.reInsertTable .reTlbVertical ul .reTool_text span,
+.reToolbar .reTool_text span {
+  background-image: url('../Common/CommandSpritesMonoLight.png');
+}
+
+/* the rule below styles RadWindow's content cell, which is used in the floating and show on focus toolbar modes */
+.RadWindow.RadWindow_Bootstrap.reToolbarWindow td.rwWindowContent,
+.RadWindow.RadWindow_Bootstrap.reToolbarWindow div.rwContent {
+  background-color: #ffffff;
+}
+
+.RadWindow_Bootstrap .reInsertTableLightWrapper .lightTable {
+  border-color: #dddddd;
+}
+
+.reToolWrapper.Bootstrap .reSplitButton.reTool {
+  width: 42px;
+}
+
+a.reTool .split_arrow {
+  width: 16px;
+  height: 26px;
+  background-image: url('Common/radActionsSprite.png');
+  background-position: -117px -1059px;
+  top: -10px;
+  right: 0;
+}
+
+.reTool .split_arrow:hover {
+  border-left-color: transparent;
+}
+
+/* Dialogs overrides */
+.RadForm_Bootstrap .reStyleBuilderBgImg li,
+.RadForm_Bootstrap .reStyleBuilderTextAlignment li,
+.RadForm_Bootstrap .reStyleBuilderTextSpacing li,
+.RadForm_Bootstrap .reStyleBuilderTextFlow li,
+.RadForm_Bootstrap .reStyleBuilderLayoutFlow li,
+.RadForm_Bootstrap .reStyleBuilderLayoutContent li,
+.RadForm_Bootstrap .reStyleBuilderBoxSize li,
+.RadForm_Bootstrap .reStyleBuilderBoxPadding li,
+.RadForm_Bootstrap .reStyleBuilderBoxMargin li,
+.RadForm_Bootstrap .reStyleBuilderLists li,
+.RadForm_Bootstrap #BoxWidthContainer {
+  margin-bottom: 3px;
+}
+
+.RadForm_Bootstrap #sbMainPane,
+.RadForm_Bootstrap #BorderContent {
+  width: 437px;
+}
+
+.RadForm_Bootstrap #fontAttributes {
+  width: 396px;
+}
+
+.RadForm_Bootstrap fieldset fieldset {
+  width: auto;
+}
+
+.RadForm_Bootstrap #BorderContent .Labels {
+  width: 55px;
+  padding: 61px 2px 0 0;
+}
+
+.RadForm_Bootstrap #BorderContent .Labels .columnLabel {
+  line-height: 26px;
+}
+
+.RadForm_Bootstrap #borderStylePane,
+.RadForm_Bootstrap #borderWidthPane,
+.RadForm_Bootstrap #borderColorPane {
+  height: 190px;
+}
+
+.RadForm_Bootstrap #borderColorPane ul {
+  padding: 10px 0 0;
+}
+
+.RadForm_Bootstrap #borderColorPane li {
+  height: 26px;
+}
+
+.RadWindow_Bootstrap .reTool span,
+.RadForm_Bootstrap .reTool span {
+  background-image: url('../Common/CommandSpritesMonoLight.png');
+}
+
+.RadForm_Bootstrap .reMiddlecell.reTableWizardDialog {
+  height: 450px !important;
+}
+
+.RadForm_Bootstrap .reStyleBuilderSize .reInlineBlock.reMetroTouchFix {
+  width: 150px;
+}
+
+.RadForm_Bootstrap .reStyleBuilderSize .reInlineBlock.reMetroTouchFix .riLabel {
+  width: 69px !important;
+  color: #000;
+}
+
+.RadForm_Bootstrap .reImageMapDefineArea .reDefineSize .rfdDecorated {
+  width: 32px !important;
+}
+
+.RadForm_Bootstrap .reImageMapPreviewWrapper {
+  width: 360px;
+}
+
+.RadForm_Bootstrap .reImageMapPreview {
+  width: 338px;
+}
+
+.RadForm_Bootstrap .reCellPropertiesPreview {
+  width: 400px;
+}
+
+.RadForm_Bootstrap .reTableWizardColumns .propertyLabel {
+  width: 100px !important;
+}
+
+.RadForm_Bootstrap .reTableWizardRows .propertyLabel {
+  width: 80px !important;
+}
+
+.RadForm_Bootstrap .reTableWizardAccessible .reLabelCell {
+  vertical-align: top;
+}
+
+.RadWindow_Bootstrap .reTablePropertyControlCell .short {
+  width: 95px;
+}
+
+.RadWindow_Bootstrap .reInsertImageWrapper,
+.RadWindow_Bootstrap .reInsertLinkWrapper,
+.RadWindow_Bootstrap .reInsertTableLightWrapper {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.RadWindow_Bootstrap table.reControlsLayout .reTablePropertyControlCell input.rfdIgnore,
+.RadWindow_Bootstrap table.reControlsLayout .reImgPropertyControlCell input.rfdIgnore,
+.RadWindow_Bootstrap .reInsertLinkWrapper input {
+  height: 23px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.RadWindow_Bootstrap .reControlsLayout .reConfirmCancelButtonsTblLight button {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: linear-gradient();
+  height: 26px;
+  padding: 0 10px;
+  *padding: 0;
+  border: 1px solid #cccccc !important;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  border-radius: 4px;
+}
+
+.RadWindow_Bootstrap .reControlsLayout .reConfirmCancelButtonsTblLight button:hover {
+  background-position: 0 0;
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  border: 1px solid #c2c2c2 !important;
+}
+
+.RadWindow_Bootstrap .reControlsLayout .reConfirmCancelButtonsTblLight button:active,
+.RadWindow_Bootstrap .reControlsLayout .reConfirmCancelButtonsTblLight button:focus {
+  border-color: #c2c2c2;
+  color: #333333;
+  background-color: #e0e0e0;
+  background-image: linear-gradient();
+  background-position: 0 0;
+  box-shadow: inset 0 0 4px #c0c0c0;
+  border: 1px solid #c2c2c2 !important;
+}
+
+.reToolbar a,
+.reDropdown,
+.reSpinBox input,
+.RadEditor input,
+.reModule,
+.reModule td,
+.reEditorModes a,
+.reDropDownBody,
+.reDropDownBody td,
+.reAjaxspell_wrapper,
+.reAjaxspell_button,
+.reAjaxspell_addicon,
+.reAjaxspell_ignoreicon,
+.reAjaxspell_okicon,
+.reInsertTable .reTlbVertical ul a.reTool_text span.reButton_text,
+.reColorPicker .reCustomColor {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reToolbar.Bootstrap {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.reToolbar.Bootstrap li {
+  height: 32px;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: #cccccc;
+  border-radius: 0;
+}
+
+.reToolbar.Bootstrap .reToolFirstItem {
+  border-width: 1px;
+}
+
+.reToolbar.Bootstrap .reSeparator {
+  border-color: transparent;
+}
+
+.reToolbar.Bootstrap .reToolFirstItem,
+.reToolbar.Bootstrap .reToolFirstItem .reTool {
+  border-radius: 4px 0 0 4px;
+}
+
+.reToolbar.Bootstrap .reToolLastItem,
+.reToolbar.Bootstrap .reToolLastItem .reTool {
+  border-radius: 0 4px 4px 0;
+}
+
+.reToolbar.Bootstrap .reSeparator + li {
+  border-width: 1px;
+}

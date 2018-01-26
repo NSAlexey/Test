@@ -1,0 +1,18 @@
+.RadTile_Simple {
+  color: #000000;
+  background-color: #ededed; }
+  .RadTile_Simple .rtilePeekContent {
+    background-color: #ededed; }
+  .RadTile_Simple.rtileSelected .rtileSelectedIcon {
+    color: #ffffff;
+    background-color: #882501; }
+  .RadTile_Simple.rtileHovered {
+    border-color: #ffc350; }
+  .RadTile_Simple.rtileSelected {
+    border-color: #882501; }
+  .RadTile_Simple.rtileSelected.rtileHovered {
+    border-color: #551701; }
+  .RadTile_Simple.rtileLoading,
+  .RadTile_Simple .rtileLoading {
+    background-image: url('../Simple/Common/loading_small.gif'); }
+

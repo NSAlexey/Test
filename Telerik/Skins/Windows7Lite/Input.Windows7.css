@@ -1,0 +1,84 @@
+.RadInput_Windows7 .riTextBox,
+.RadInput_Windows7 .riSelect,
+.RadInput_Windows7 .rcSelect,
+.RadInputMgr_Windows7 {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadInput_Windows7 .riEmpty,
+.RadInput_Empty_Windows7 {
+  color: rgba(30, 57, 91, 0.8); }
+
+.RadInput_Windows7.RadInputHovered .riTextBox,
+.RadInput_Windows7.RadInputHovered .riSelect,
+.RadInput_Windows7.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #b5cdeb;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadInput_Windows7.RadInputFocused .riTextBox,
+.RadInput_Windows7.RadInputFocused .riSelect,
+.RadInput_Windows7.RadInputFocused .rcSelect,
+.RadInput_Focused_Windows7 {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadInput_Windows7.RadInputError .riTextBox,
+.RadInput_Windows7.RadInputError .riSelect,
+.RadInput_Windows7.RadInputError .rcSelect,
+.RadInput_Error_Windows7,
+.RadForm.rfdTextbox .RadInput_Windows7 .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #d18185;
+  color: #b32d34;
+  background-color: #ffffff; }
+
+.RadInput_Windows7.RadInputError {
+  color: #b32d34; }
+
+.RadInput_Windows7 .riNegative,
+.RadInput_Negative_Windows7 {
+  color: #565656; }
+
+.RadInput_Windows7 a,
+.RadInput_Windows7.RadInputDisabled a:hover,
+.RadInput_Windows7.RadInputDisabled a:active {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa; }
+
+.RadInput_Windows7 a:hover {
+  border-color: #b5cdeb;
+  color: #1e395b;
+  background-color: #e7ecf5;
+  background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+  box-shadow: inset 0 0 0 1px #f9f9fc; }
+
+.RadInput_Windows7 a:focus, .RadInput_Windows7 a:active {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #9cc8ff; }
+
+.RadInput_Windows7 .riLabel {
+  color: #1e395b; }
+
+.RadInput_Windows7 .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../Windows7/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_Windows7 .riError,
+.RadInputRTL_Error_Windows7 {
+  background-position: 3px -298px; }
+
+.RadInputRTL_Windows7 .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_Windows7 .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_Windows7[type="text"] {
+  background-position: 3px -298px; }
+

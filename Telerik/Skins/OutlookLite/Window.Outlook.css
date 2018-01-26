@@ -1,0 +1,77 @@
+.RadWindow_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #d6e6f4;
+  border-radius: 4px; }
+  .RadWindow_Outlook .rwTitleBar {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0);
+    border-radius: 3px 3px 0 0; }
+  .RadWindow_Outlook .rwCommandButton:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .RadWindow_Outlook .rwContent {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Outlook .rwDialogButtons button {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+  .RadWindow_Outlook .rwDialogButtons button:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .RadWindow_Outlook .rwDialogButtons button:active {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+  .RadWindow_Outlook .rwPromptDialog .rwOkBtn,
+  .RadWindow_Outlook .rwConfirmDialog .rwOkBtn {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #97b8e8; }
+  .RadWindow_Outlook .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Outlook .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .RadWindow_Outlook .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Outlook .rwConfirmDialog .rwOkBtn:active {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+  .RadWindow_Outlook .rwPromptInput {
+    border-color: #003c74;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Outlook .rwPromptInput:hover {
+    border-color: #003c74;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Outlook .rwPromptInput:active,
+  .RadWindow_Outlook .rwPromptInput:focus {
+    border-color: #003c74;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Outlook .rwLoading.rwStatusBar {
+    background-image: url('../Outlook/Common/loading_small.gif'); }
+  .RadWindow_Outlook.rwLoading .rwExternalContent {
+    background-image: url('../Outlook/Common/loading.gif'); }
+

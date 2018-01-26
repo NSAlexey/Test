@@ -1,0 +1,77 @@
+.RadMenu_WebBlue .rmRootGroup {
+  border-color: #465a6b;
+  color: #ffffff;
+  background-color: #748ea3;
+  background-image: linear-gradient(#748ea3, #6b849d 50%, #597791 50%, #748ea3); }
+  .RadMenu_WebBlue .rmRootGroup.rmVertical {
+    background-image: none; }
+  .RadMenu_WebBlue .rmRootGroup .rmItem {
+    border-color: #5b7489; }
+  .RadMenu_WebBlue .rmRootGroup .rmRootLink:hover {
+    border-color: #82bcd7;
+    color: #0e3d4f;
+    background-color: #9dd5ef;
+    background-image: linear-gradient(#c2e3f5, #91cce9 50%, #5fb2dc 50%, #9dd5ef); }
+  .RadMenu_WebBlue .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_WebBlue .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #3a869e;
+    color: #ffffff;
+    background-color: #7abace;
+    background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace); }
+  .RadMenu_WebBlue .rmRootGroup .rmFocused > .rmLink {
+    border-color: #3a869e;
+    box-shadow: inset 0 0 5px #3a869e; }
+
+.RadMenu_WebBlue .rmGroup,
+.RadMenu_WebBlue .rmMultiColumn,
+.RadMenu_WebBlue .rmPopup {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff;
+  background-color: #f0f2f4; }
+
+.RadMenu_WebBlue .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_WebBlue .rmGroup .rmLink:hover,
+.RadMenu_WebBlue .rmGroup .rmToggle:hover {
+  border-color: #5d9fb7;
+  color: #0e3d4f;
+  background-color: #e9f8ff; }
+
+.RadMenu_WebBlue .rmGroup .rmSelected > .rmLink,
+.RadMenu_WebBlue .rmGroup .rmExpanded > .rmLink,
+.RadMenu_WebBlue .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_WebBlue .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #133c44;
+  color: #0d202b;
+  background-color: #9edaf2; }
+
+.RadMenu_WebBlue .rmGroup .rmFocused > .rmLink,
+.RadMenu_WebBlue .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #133c44;
+  box-shadow: inset 0 0 5px #133c44; }
+
+.RadMenu_WebBlue .rmSeparator {
+  border-color: #465a6b; }
+
+.RadMenu_WebBlue .rmGroup .rmSeparator {
+  border-color: #768ca5; }
+
+.RadMenu_WebBlue .rmArrow {
+  border-color: #d9d9d9;
+  color: #333333;
+  background-color: #f2f2f2; }
+
+.RadMenu_WebBlue .rmArrow:hover {
+  background-color: #e6e6e6; }
+
+.RadMenu_WebBlue .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #768ca5; }
+
+.RadMenu_WebBlue .rmGroup:before,
+.RadMenu_WebBlue .rmMultiColumn:before,
+.RadMenu_WebBlue .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_WebBlue .rmScrollWrap > .rmVertical:before {
+  border-color: #e2e3ea; }
+

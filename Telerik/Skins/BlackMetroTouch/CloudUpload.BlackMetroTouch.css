@@ -1,0 +1,188 @@
+.RadCloudUpload_BlackMetroTouch {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1.42857143; }
+  .RadCloudUpload_BlackMetroTouch .rcuButton {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    padding: 4px 20px; }
+    .RadCloudUpload_BlackMetroTouch .rcuButton .rcuButtonText {
+      line-height: inherit; }
+  .RadCloudUpload_BlackMetroTouch .rcuInfoPanel {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    min-width: 525px;
+    margin-top: 15px; }
+  .RadCloudUpload_BlackMetroTouch .rcuHeader {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    padding: 10px;
+    font-weight: bolder; }
+    .RadCloudUpload_BlackMetroTouch .rcuHeader .rcuToggleButton {
+      height: 30px;
+      right: 10px;
+      padding: 4px;
+      border-radius: 14px; }
+  .RadCloudUpload_BlackMetroTouch .rcuBody {
+    padding: 10px;
+    padding-top: 0; }
+  .RadCloudUpload_BlackMetroTouch .rcuFileList {
+    border-color: #333333;
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 10px; }
+  .RadCloudUpload_BlackMetroTouch .rcuList {
+    padding: 5px 10px;
+    line-height: 35px; }
+  .RadCloudUpload_BlackMetroTouch .rcuLI > .p-icon {
+    margin-top: 10px; }
+  .RadCloudUpload_BlackMetroTouch .rcuFileName {
+    max-width: 22%; }
+  .RadCloudUpload_BlackMetroTouch .rcuErrorNotification {
+    max-width: 36%;
+    left: 45%;
+    margin-top: -14px;
+    color: #de3914; }
+  .RadCloudUpload_BlackMetroTouch .rcuProgressBar {
+    margin-top: 12px;
+    height: 8px;
+    border: 0;
+    border-radius: 0;
+    border-color: #555555;
+    background-color: #222222; }
+  .RadCloudUpload_BlackMetroTouch .rcuProgress {
+    height: 8px;
+    border-radius: 0;
+    border-color: #000;
+    background-color: #25a0da; }
+  .RadCloudUpload_BlackMetroTouch .rcuButtons {
+    height: 20px; }
+    .RadCloudUpload_BlackMetroTouch .rcuButtons .rcuButton {
+      margin-left: 15px; }
+    .RadCloudUpload_BlackMetroTouch .rcuButtons .rcuButtonText {
+      min-width: 60px;
+      margin-left: 5px; }
+  .RadCloudUpload_BlackMetroTouch .rcuRemoveButton:hover .p-i-trash {
+    background-position: -35px -215px; }
+  .RadCloudUpload_BlackMetroTouch .rcuCancelButton:hover .p-i-cancel {
+    background-position: -35px -245px; }
+  .RadCloudUpload_BlackMetroTouch .radHideButtonText.rcuInfoPanel {
+    min-width: 460px; }
+  .RadCloudUpload_BlackMetroTouch .p-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('CloudUpload/rcuActionSprite.png'); }
+  .RadCloudUpload_BlackMetroTouch .p-i-loading {
+    background-image: url('Common/loading_small.gif'); }
+  .RadCloudUpload_BlackMetroTouch .p-i-arrow-60-up {
+    background-position: -5px -5px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-arrow-60-down {
+    background-position: -5px -35px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-x {
+    background-position: -5px -65px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-upload {
+    background-position: -5px -95px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-check {
+    background-position: -5px -125px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-info {
+    background-position: -5px -155px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-refresh {
+    background-position: -5px -185px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-trash {
+    background-position: -5px -215px; }
+  .RadCloudUpload_BlackMetroTouch .p-i-cancel {
+    background-position: -5px -245px; }
+  .RadCloudUpload_BlackMetroTouch .rcuButton:hover .p-i-arrow-60-up {
+    background-position: -5px -5px; }
+  .RadCloudUpload_BlackMetroTouch .rcuButton:hover .p-i-arrow-60-down {
+    background-position: -5px -35px; }
+  .RadCloudUpload_BlackMetroTouch .rcuButton:active .p-i-arrow-60-up {
+    background-position: -5px -5px; }
+  .RadCloudUpload_BlackMetroTouch .rcuButton:active .p-i-arrow-60-down {
+    background-position: -5px -35px; }
+  .RadCloudUpload_BlackMetroTouch .rcuDropZone {
+    border-color: #006299;
+    color: #ffffff;
+    background-color: #0082cc;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px; }
+  .RadCloudUpload_BlackMetroTouch .rcuDropZoneText {
+    height: 30px; }
+  .RadCloudUpload_BlackMetroTouch .rcuDropZoneText:before {
+    width: 30px;
+    height: 30px;
+    background-image: url('CloudUpload/rcuActionSprite.png');
+    background-position: 0px -270px; }
+  .RadCloudUpload_BlackMetroTouch .rcuButton:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadCloudUpload_BlackMetroTouch .rcuButton:active {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+
+.RadCloudUpload_BlackMetroTouch.RadCloudUploadSeparated .rcuDropZone {
+  top: -11px; }
+
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .rcuButton,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .rcuButton:hover,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .rcuButton:focus,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .rcuButton:active {
+  border-color: #555555;
+  color: #ffffff;
+  background-color: #222222; }
+
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .p-icon.p-i-arrow-60-up,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :hover > .p-icon.p-i-arrow-60-up,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :focus > .p-icon.p-i-arrow-60-up,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :active > .p-icon.p-i-arrow-60-up {
+  background-position: -95px -5px; }
+
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .p-icon.p-i-arrow-60-down,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :hover > .p-icon.p-i-arrow-60-down,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :focus > .p-icon.p-i-arrow-60-down,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :active > .p-icon.p-i-arrow-60-down {
+  background-position: -95px -35px; }
+
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .p-icon.p-i-info,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :hover > .p-icon.p-i-info,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :focus > .p-icon.p-i-info,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :active > .p-icon.p-i-info {
+  background-position: -95px -155px; }
+
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .p-icon.p-i-trash,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :hover > .p-icon.p-i-trash,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :focus > .p-icon.p-i-trash,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :active > .p-icon.p-i-trash {
+  background-position: -95px -215px; }
+
+.RadCloudUpload_BlackMetroTouch .rcuDisabled .p-icon.p-i-cancel,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :hover > .p-icon.p-i-cancel,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :focus > .p-icon.p-i-cancel,
+.RadCloudUpload_BlackMetroTouch .rcuDisabled :active > .p-icon.p-i-cancel {
+  background-position: -95px -245px; }
+
+.rcuToolTip_BlackMetroTouch {
+  height: 20px;
+  padding: 10px 14px;
+  background-color: #000000;
+  border: 1px solid #333333;
+  box-shadow: none;
+  color: #ffffff;
+  font: 100 15px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rcuToolTip_BlackMetroTouch:before {
+    width: 12px;
+    height: 7px;
+    top: 40px;
+    left: 28px;
+    background-image: url('CloudUpload/toolTipBefore.png');
+    border-width: 0; }
+

@@ -1,0 +1,35 @@
+.RadDataPager_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed; }
+  .RadDataPager_Telerik .rdpNumPart a {
+    border-radius: 2px;
+    color: inherit; }
+    .RadDataPager_Telerik .rdpNumPart a:hover {
+      border-color: #47ba22;
+      color: #000000;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+      box-shadow: none; }
+    .RadDataPager_Telerik .rdpNumPart a.rdpCurrentPage {
+      border-color: #66b340;
+      color: #66b340;
+      background: none; }
+  .RadDataPager_Telerik .rdpPagerButton,
+  .RadDataPager_Telerik .rdpActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+    .RadDataPager_Telerik .rdpPagerButton:hover,
+    .RadDataPager_Telerik .rdpActionButton:hover {
+      border-color: #47ba22;
+      color: #000000;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+      box-shadow: none; }
+

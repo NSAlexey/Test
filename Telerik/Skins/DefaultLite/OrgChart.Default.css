@@ -1,0 +1,71 @@
+.RadOrgChart_Default {
+  color: #333333; }
+  .RadOrgChart_Default .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.5); }
+  .RadOrgChart_Default .rocItem,
+  .RadOrgChart_Default .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .RadOrgChart_Default .rocExpandArrow,
+  .RadOrgChart_Default .rocCollapseArrow,
+  .RadOrgChart_Default .rocExpandGroupArrow,
+  .RadOrgChart_Default .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadOrgChart_Default .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Default .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Default .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Default .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Default/Common/loading_small.gif'); }
+  .RadOrgChart_Default .rocExpandArrow:hover,
+  .RadOrgChart_Default .rocCollapseArrow:hover,
+  .RadOrgChart_Default .rocExpandGroupArrow:hover,
+  .RadOrgChart_Default .rocCollapseGroupArrow:hover {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2; }
+  .RadOrgChart_Default .rocExpandArrow:active,
+  .RadOrgChart_Default .rocCollapseArrow:active,
+  .RadOrgChart_Default .rocExpandGroupArrow:active,
+  .RadOrgChart_Default .rocCollapseGroupArrow:active {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080; }
+
+.RadOrgChart_Default.rocDetachedItem,
+.RadOrgChart_Default.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(white, #e6e6e6); }
+
+.rocToolbar_Default {
+  border-radius: 5px;
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(white, #e6e6e6); }
+  .rocToolbar_Default .rocToolbarButton {
+    border-radius: 3px;
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .rocToolbar_Default .rocToolbarButton:hover {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .rocToolbar_Default .rocToolbarButton:active {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(#9a9a9a, #808080); }
+

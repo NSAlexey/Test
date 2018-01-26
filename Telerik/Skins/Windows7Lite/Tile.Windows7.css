@@ -1,0 +1,18 @@
+.RadTile_Windows7 {
+  color: #1e395b;
+  background-color: #dde8f6; }
+  .RadTile_Windows7 .rtilePeekContent {
+    background-color: #dde8f6; }
+  .RadTile_Windows7.rtileSelected .rtileSelectedIcon {
+    color: #ffffff;
+    background-color: #4c93cc; }
+  .RadTile_Windows7.rtileHovered {
+    border-color: #c1dbfc; }
+  .RadTile_Windows7.rtileSelected {
+    border-color: #4c93cc; }
+  .RadTile_Windows7.rtileSelected.rtileHovered {
+    border-color: #3379b2; }
+  .RadTile_Windows7.rtileLoading,
+  .RadTile_Windows7 .rtileLoading {
+    background-image: url('../Windows7/Common/loading_small.gif'); }
+

@@ -1,0 +1,95 @@
+.RadFileExplorer_Material {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadFileExplorer_Material,
+  .RadFileExplorer_Material .rfeFilterTxt {
+    border-color: #CFD8DC; }
+  .RadFileExplorer_Material .rfeAddressBox,
+  .RadFileExplorer_Material .rfeAddressBox:hover,
+  .RadFileExplorer_Material .rfeAddressBox:active,
+  .RadFileExplorer_Material .rfeAddressBox:focus {
+    border-color: #cfd8dc;
+    color: #455a64;
+    background-color: transparent; }
+  .RadFileExplorer_Material .rfeLink {
+    background-color: #f4f7f8;
+    color: #455A64; }
+  .RadFileExplorer_Material .rfeLink:hover {
+    background-color: #ECEFF1;
+    color: #455A64; }
+  .RadFileExplorer_Material .rfeSelectedLink,
+  .RadFileExplorer_Material .rfeSelectedLink:hover {
+    background-color: #CFD8DC;
+    color: #455A64; }
+  .RadFileExplorer_Material .rfeFilterContainer {
+    background-color: #ffffff; }
+  .RadFileExplorer_Material .rfeDropZone {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .RadFileExplorer_Material .rfePageControlContainer {
+    background-color: #f4f7f8;
+    border-color: #CFD8DC;
+    color: #455A64; }
+  .RadFileExplorer_Material .rfeThumbnailView .rlvI .rfeFileCount span,
+  .RadFileExplorer_Material .rfeDropUploadInfoPanel {
+    background-color: #ffffff;
+    color: #455A64; }
+  .RadFileExplorer_Material .rfePageControlContainer span {
+    color: #455A64; }
+  .RadFileExplorer_Material {
+    border-radius: 0.14285714em; }
+  .RadFileExplorer_Material .rfeAddressBox {
+    padding: 0.67857143em 1.14285714em; }
+  .RadFileExplorer_Material .rfeLink {
+    border-radius: 0.14285714em; }
+  .RadFileExplorer_Material .rfePageInfo {
+    font-size: 0.85714286em;
+    font-weight: 500;
+    color: #607D8B; }
+  .RadFileExplorer_Material .rfeCurrentPage,
+  .RadFileExplorer_Material .rfeTotalPages,
+  .RadFileExplorer_Material .rfeStartItem,
+  .RadFileExplorer_Material .rfeEndItem,
+  .RadFileExplorer_Material .rfeTotalItems {
+    font-size: 1.16666666em;
+    font-weight: normal;
+    color: #455A64; }
+  .RadFileExplorer_Material .RadToolBar_Material {
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: #f4f7f8;
+    width: auto !important;
+    height: 36px;
+    padding: 0;
+    border-width: 0;
+    overflow: visible;
+    font: inherit; }
+    .RadFileExplorer_Material .RadToolBar_Material .rtbButton:not(.rtbSplitButton),
+    .RadFileExplorer_Material .RadToolBar_Material .rtbSplitButton .rtbSplBtnActivator,
+    .RadFileExplorer_Material .RadToolBar_Material .rtbArrow {
+      padding: 8px 10px; }
+    .RadFileExplorer_Material .RadToolBar_Material .rtbMore {
+      padding: 8px; }
+    .RadFileExplorer_Material .RadToolBar_Material:before {
+      padding: 8px 0; }
+
+.RadWindow_Material .rfeUploadInfoPanel {
+  background-color: #f4f7f8;
+  color: #455A64;
+  border-color: #CFD8DC; }
+
+.RadWindow_Material.rfeDeleteDialog .rwDialogMessage {
+  min-height: 120px; }
+
+.RadWindow_Material .rwDialogMessage,
+.RadWindow_Material .rfeUploadInfoPanel dt {
+  font-size: 0.85714286em;
+  font-weight: 500;
+  color: #607D8B; }
+
+.RadWindow_Material .rwDialog.rwConfirmDialog {
+  background-position: 30px 30%; }
+
+.RadWindow_Material.rfeDeleteDialog div.rwDialogButtons {
+  position: absolute; }
+

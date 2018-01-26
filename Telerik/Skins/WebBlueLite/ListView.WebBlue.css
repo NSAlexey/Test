@@ -1,0 +1,25 @@
+.RadListView_WebBlue {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadListView_WebBlue .rlvHeader th {
+    border-color: #465a6b;
+    color: #ffffff;
+    background-color: #748ea3;
+    background-image: linear-gradient(#748ea3, #6b849d 50%, #597791 50%, #748ea3); }
+  .RadListView_WebBlue .rlvI {
+    border-color: #768ca5; }
+  .RadListView_WebBlue .rlvA {
+    background: #f2f2f2;
+    border-color: #768ca5; }
+  .RadListView_WebBlue .rlvISel {
+    background: #9edaf2;
+    color: #0d202b;
+    border-color: #133c44; }
+  .RadListView_WebBlue .rlvDrag {
+    background-image: url('../WebBlue/ListView/drag.gif'); }
+  .RadListView_WebBlue .rlvInput {
+    border-color: #6e8aa8;
+    color: #333333;
+    background-color: #ffffff; }
+

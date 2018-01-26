@@ -1,0 +1,74 @@
+.RadColorPicker_Windows7 .rcpPalette {
+  border-color: #aabfd6;
+  color: #4c607a;
+  background-color: #f1f5fb; }
+
+.RadColorPicker_Windows7 .rcpHeader {
+  border-color: #c1cdde;
+  color: #4c607a;
+  background-color: #f1f5fb;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+
+.RadColorPicker_Windows7 .rcpImageButton,
+.RadColorPicker_Windows7 a.rslDraghandle {
+  color: #1e395b; }
+
+.RadColorPicker_Windows7 .rcpImageButton:hover {
+  color: #4c93cc; }
+
+.RadColorPicker_Windows7 .rcpIcon em,
+.RadColorPicker_Windows7 .rcpColorPreview,
+.RadColorPicker_Windows7 .rcpInput,
+.RadColorPicker_Windows7 .rcpHexInput,
+.RadColorPicker_Windows7 .rcpMillionColorsPalette,
+.RadColorPicker_Windows7 .rcpMillionColorsSlider div.rslTrack {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadColorPicker_Windows7 .rcpIcon a,
+.RadColorPicker_Windows7 .rcpTabs li,
+.RadColorPicker_Windows7 .rcpButton {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa; }
+
+.RadColorPicker_Windows7 .rcpIcon a:hover,
+.RadColorPicker_Windows7 .rcpTabs li:hover,
+.RadColorPicker_Windows7 .rcpButton:hover {
+  border-color: #b5cdeb;
+  color: #1e395b;
+  background-color: #e7ecf5;
+  background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+  box-shadow: inset 0 0 0 1px #f9f9fc; }
+
+.RadColorPicker_Windows7 .rcpIcon a:active,
+.RadColorPicker_Windows7 .rcpTabs .rcpSelectedTab,
+.RadColorPicker_Windows7 .rcpTabs .rcpSelectedTab:hover,
+.RadColorPicker_Windows7 .rcpButton:active {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #9cc8ff; }
+
+.RadColorPicker_Windows7 .rcpIcon a:focus {
+  box-shadow: inset 0 0 5px rgba(156, 200, 255, 0.5); }
+
+.RadColorPicker_Windows7.rcpCustomColorWrapper .rcpPalette {
+  box-shadow: 2px 2px 3px rgba(170, 191, 214, 0.5); }
+
+.RadColorPicker_Windows7 .rcpSlider.RadSlider_Windows7 a.rslDraghandle,
+.RadColorPicker_Windows7 .rcpMillionColorsSlider.RadSlider_Windows7 a.rslDraghandle {
+  color: #1e395b; }
+
+.RadColorPicker_Windows7 .rcpSlider.RadSlider_Windows7 a.rslDraghandle:hover,
+.RadColorPicker_Windows7 .rcpSlider.RadSlider_Windows7 a.rslDraghandle:active,
+.RadColorPicker_Windows7 .rcpSlider.RadSlider_Windows7 a.rslDraghandle:focus,
+.RadColorPicker_Windows7 .rcpMillionColorsSlider.RadSlider_Windows7 a.rslDraghandle:hover,
+.RadColorPicker_Windows7 .rcpMillionColorsSlider.RadSlider_Windows7 a.rslDraghandle:active,
+.RadColorPicker_Windows7 .rcpMillionColorsSlider.RadSlider_Windows7 a.rslDraghandle:focus {
+  color: #4c93cc; }
+

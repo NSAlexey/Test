@@ -1,0 +1,13 @@
+.RadNotification_Simple {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadNotification_Simple .rnTitleBar {
+    border-color: #c4c4c4;
+    color: #000000;
+    background-color: #eaeaea; }
+  .RadNotification_Simple .rnCommands a:hover {
+    color: #882501; }
+  .RadNotification_Simple.rnShadows {
+    box-shadow: 2px 2px 3px rgba(204, 204, 204, 0.5); }
+

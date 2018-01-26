@@ -1,0 +1,18 @@
+.RadTreeView_Simple {
+  color: #333333; }
+  .RadTreeView_Simple .rtChkTristate:hover {
+    color: #882501; }
+  .RadTreeView_Simple .rtLoadingIcon {
+    background-image: url('../Simple/Common/loading_small.gif'); }
+  .RadTreeView_Simple .rtPlusHover,
+  .RadTreeView_Simple .rtMinusHover {
+    color: #882501; }
+  .RadTreeView_Simple .rtHover .rtIn {
+    border-color: #fff7ac;
+    color: #000000;
+    background-color: #fff7ac; }
+  .RadTreeView_Simple .rtSelected .rtIn {
+    border-color: #ffe79c;
+    color: #000000;
+    background-color: #ffe79c; }
+

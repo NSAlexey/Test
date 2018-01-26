@@ -1,0 +1,10 @@
+.RadDataForm_Outlook {
+  color: #333333; }
+  .RadDataForm_Outlook .rdfLegend,
+  .RadDataForm_Outlook .rdfBorders {
+    border-color: #c3d9f9; }
+  .RadDataForm_Outlook .rdfHr {
+    color: #c3d9f9; }
+  .RadDataForm_Outlook .rdfFieldHint {
+    color: #b3b3b3; }
+

@@ -1,0 +1,14 @@
+.RadTagCloud_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadTagCloud_Glow.rtcClassic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; }
+  .RadTagCloud_Glow .rtcTagItem a {
+    color: #ffa915; }
+  .RadTagCloud_Glow .rtcTagItem a:hover {
+    color: #c87e00; }
+  .RadTagCloud_Glow.rtcLoading {
+    background-image: url('../Glow/Common/loading_small.gif'); }
+

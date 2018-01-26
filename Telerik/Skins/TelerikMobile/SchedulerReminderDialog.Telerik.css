@@ -1,0 +1,20 @@
+.ReminderDialog_Telerik .rsRemList .rsLi:hover {
+  color: #000000;
+  background-color: #a2ea8b; }
+
+.ReminderDialog_Telerik .rsRemList .rsLiSelected,
+.ReminderDialog_Telerik .rsRemList .rsLiSelected:hover {
+  color: #000000;
+  background-color: #63ac39; }
+
+.ReminderDialog_Telerik .rsRemSnoozePanel .rsLi:before {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px #cccccc; }
+
+.ReminderDialog_Telerik .rsRemSnoozePanel .rsLi:hover:before {
+  background-color: #cccccc; }
+
+.ReminderDialog_Telerik .rsRemSnoozePanel .rsLi:active:before {
+  background-color: #4d862c; }
+

@@ -1,0 +1,14 @@
+.RadNotification_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadNotification_Glow .rnTitleBar {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .RadNotification_Glow .rnCommands a:hover {
+    color: #ffa915; }
+  .RadNotification_Glow.rnShadows {
+    box-shadow: 2px 2px 3px rgba(28, 35, 39, 0.5); }
+

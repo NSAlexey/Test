@@ -1,0 +1,179 @@
+.RadMediaPlayer_Bootstrap {
+  font: 14px/1.42857143 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333; }
+  .RadMediaPlayer_Bootstrap .rmpTitleBar .rmpSocialShareBar {
+    margin-left: -12px; }
+  .RadMediaPlayer_Bootstrap .rmpToolbarWrapper .rmpToolbar {
+    color: #333333; }
+  .RadMediaPlayer_Bootstrap .rmpVolContrBarWrapper .rmpActionButton {
+    bottom: 5px; }
+  .RadMediaPlayer_Bootstrap .rmpVolContr .rmpVolContrBar {
+    margin: -1px;
+    padding: 10px 10px 20px 8px;
+    width: 23px; }
+  .RadMediaPlayer_Bootstrap div.rmpVolContrBar,
+  .RadMediaPlayer_Bootstrap .rmpToolbarWrapper .rmpToolbar {
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background: #e4e4e4;
+    background-color: rgba(228, 228, 228, 0.85); }
+  .RadMediaPlayer_Bootstrap div.rmpRightControlsSet {
+    padding-top: 10px; }
+  .RadMediaPlayer_Bootstrap .RadSlider div.rslHorizontal .rslSelectedregion {
+    top: 0; }
+  * + html .RadMediaPlayer_Bootstrap .RadSlider .rslVertical {
+    margin: 0; }
+  .RadMediaPlayer_Bootstrap div.rslVertical a.rslDraghandle {
+    right: 0; }
+  .RadMediaPlayer_Bootstrap div.rmpLoadProgressBar {
+    background: #e0e0e0;
+    height: 100%; }
+  .RadMediaPlayer_Bootstrap div.rslHorizontal div.rslSelectedregion {
+    height: 100%; }
+  .RadMediaPlayer_Bootstrap .rmpSeekBar .rslHorizontal {
+    margin: 0; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylist {
+    background: #ffffff;
+    color: #333333; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist li a {
+      background: #ffffff;
+      color: #333333; }
+      .RadMediaPlayer_Bootstrap .rmpPlaylist li a:hover {
+        background: #eeeeee; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist li.rmpActive a {
+      background: #337ab7;
+      color: #ffffff; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpTitle {
+      margin-right: 12px;
+      text-transform: none; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistPrevButton,
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistNextButton {
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+      vertical-align: top; }
+      .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistPrevButton:hover,
+      .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistNextButton:hover {
+        background: #e6e6e6; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpIcon {
+      margin: 0;
+      width: 28px;
+      height: 28px; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistNextIcon,
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistPrevIcon {
+      margin: 2px; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVertical,
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside {
+    border-color: #dedede;
+    border-style: solid;
+    border-width: 0 1px; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVertical li,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside li {
+      border-bottom: 1px solid #dedede; }
+      .RadMediaPlayer_Bootstrap .rmpPlaylistVertical li a,
+      .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside li a {
+        padding: 15px; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVertical .rmpPlaylistPrevButtonWrap,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVertical .rmpPlaylistNextButtonWrap,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside .rmpPlaylistPrevButtonWrap,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside .rmpPlaylistNextButtonWrap {
+      border-width: 1px 0;
+      border-color: #dedede;
+      border-style: solid; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVertical.rmpPlaylistNavButtons ul,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside.rmpPlaylistNavButtons ul {
+      padding-top: 34px; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVertical.rmpPlaylistNavButtons .rmpPlaylistPrevButtonWrap,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVertical.rmpPlaylistNavButtons .rmpPlaylistNextButtonWrap,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside.rmpPlaylistNavButtons .rmpPlaylistPrevButtonWrap,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside.rmpPlaylistNavButtons .rmpPlaylistNextButtonWrap {
+      height: 34px; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal {
+    border-top: 1px solid #dedede; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal.rmpPlaylistNavButtons {
+      border-bottom: 1px solid #dedede; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal li {
+      border-right: 1px solid #dedede; }
+      .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal li a {
+        padding: .94em; }
+      .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal li .rmpTitle {
+        padding-top: 7px;
+        max-height: 45px;
+        line-height: 15px; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal .rmpPlaylistPrevButtonWrap,
+    .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal .rmpPlaylistNextButtonWrap {
+      border-left: 1px solid #dedede;
+      border-right: 1px solid #dedede; }
+  .RadMediaPlayer_Bootstrap .rmpBanner .rmpActionButton {
+    background: #ffffff; }
+  .RadMediaPlayer_Bootstrap .rmpBigPlayButton,
+  .RadMediaPlayer_Bootstrap .rmpBigPauseButton {
+    background: #e6e6e6;
+    background-color: rgba(230, 230, 230, 0.4); }
+  .RadMediaPlayer_Bootstrap .rmpIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadMediaPlayer_Bootstrap .rmpToolTip,
+  .RadMediaPlayer_Bootstrap .rmpBigPlayIcon,
+  .RadMediaPlayer_Bootstrap .rmpBigPauseIcon {
+    background-image: url('MediaPlayer/sprite.png'); }
+  .RadMediaPlayer_Bootstrap .rmpBigPlayIcon {
+    background-position: 6px -108px; }
+  .RadMediaPlayer_Bootstrap .rmpBigPauseIcon {
+    background-position: -122px 4px; }
+  .RadMediaPlayer_Bootstrap .rmpToolTip {
+    background-position: -123px -241px; }
+  .RadMediaPlayer_Bootstrap .rmpPlayIcon {
+    background-position: -14px -5015px; }
+  .RadMediaPlayer_Bootstrap .rmpPauseIcon {
+    background-position: -14px -5064px; }
+  .RadMediaPlayer_Bootstrap .rmpVolumeIcon {
+    background-position: -14px -5114px; }
+  .RadMediaPlayer_Bootstrap .rmpMuteIcon {
+    background-position: -14px -5164px; }
+  .RadMediaPlayer_Bootstrap .rmpHDIcon {
+    background-position: -14px -5214px; }
+  .RadMediaPlayer_Bootstrap .rmpFullScrIcon {
+    background-position: -14px -5265px; }
+  .RadMediaPlayer_Bootstrap .rmpExtFullScrIcon {
+    background-position: -14px -5315px; }
+  .RadMediaPlayer_Bootstrap .rmpShareIcon {
+    background-position: -114px -5364px; }
+  .RadMediaPlayer_Bootstrap .rmpClosePlaylistIcon {
+    background-position: -16px -5565px; }
+  .RadMediaPlayer_Bootstrap .rmpOpenPlaylistIcon {
+    background-position: -16px -5515px; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVertical .rmpPlaylistPrevIcon,
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside .rmpPlaylistPrevIcon {
+    background-position: -10px -5610px; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVertical .rmpPlaylistNextIcon,
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside .rmpPlaylistNextIcon {
+    background-position: -10px -5660px; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal .rmpPlaylistPrevIcon {
+    background-position: -10px -5710px; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal .rmpPlaylistNextIcon {
+    background-position: -10px -5760px; }
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpPlayIcon {
+    background-position: -64px -5015px; }
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpPauseIcon {
+    background-position: -64px -5064px; }
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpVolumeIcon {
+    background-position: -64px -5114px; }
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpMuteIcon {
+    background-position: -64px -5164px; }
+  .RadMediaPlayer_Bootstrap .rmpHDActiveIcon,
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpHDIcon {
+    background-position: -64px -5214px; }
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpFullScrIcon {
+    background-position: -64px -5265px; }
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpExtFullScrIcon {
+    background-position: -64px -5315px; }
+  .RadMediaPlayer_Bootstrap .rmpCloseBannerIcon {
+    background-position: -14px -1914px; }
+  .RadMediaPlayer_Bootstrap .rmpCloseBannerIcon:hover {
+    background-position: -64px -1914px; }
+  .RadMediaPlayer_Bootstrap .rmpSubtitlesIcon {
+    background-position: -14px -5814px; }
+  .RadMediaPlayer_Bootstrap .rmpSubtitlesActiveIcon,
+  .RadMediaPlayer_Bootstrap .rmpActionButton:hover .rmpSubtitlesIcon {
+    background-position: -64px -5814px; }
+

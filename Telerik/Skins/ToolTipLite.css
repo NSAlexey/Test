@@ -1,0 +1,175 @@
+.RadToolTip {
+  position: absolute;
+  word-wrap: break-word;
+  border-width: 1px;
+  border-style: solid;
+  cursor: default;
+  font-size: .85em;
+  line-height: 1.42857143;
+  box-sizing: border-box; }
+  .RadToolTip .rtTitleWrapper * {
+    box-sizing: content-box; }
+  .RadToolTip.rtLoading {
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .RadToolTip.rtRoundedCorner {
+    border-radius: 0.35714286em; }
+  .RadToolTip.rtShadow {
+    box-shadow: 2px 3px 4px #828282; }
+  .RadToolTip .rtRelativeWrapper {
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    padding: 0.35714286em 0.71428571em; }
+  .RadToolTip .rtTitleBar {
+    position: relative; }
+  .RadToolTip.rtRoundedCorner .rtTitleBar {
+    border-radius: 0.35714286em 0.35714286em 0em 0em; }
+  .RadToolTip .rtTitleBar .rtTitleWrapper {
+    padding: 0.28571429em 0em; }
+  .RadToolTip .rtTitleWrapper .rtTitle {
+    margin: 0;
+    padding: 0;
+    font-size: 1.14285714em;
+    font-weight: normal;
+    display: inline-block;
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    border: 0; }
+  .RadToolTip .rtClose {
+    width: 1.28571429em;
+    height: 1.28571429em;
+    padding: 0;
+    position: absolute;
+    top: -0.64285714em;
+    right: -0.64285714em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 45px;
+    display: block;
+    text-indent: -9999px;
+    background-color: transparent;
+    font-size: inherit; }
+  .RadToolTip .rtClose:hover {
+    cursor: pointer; }
+  .RadToolTip .rtCloseIcon:before {
+    display: block;
+    text-indent: 0;
+    vertical-align: middle;
+    line-height: 1;
+    text-align: center;
+    content: "\e11b";
+    font-family: "WebComponentsIcons";
+    font-size: 16px;
+    margin: -0.03571429em 0em 0em -0.03571429em;
+    margin: 0em 0em 0em -0.03571429em \9; }
+  .RadToolTip _:-ms-fullscreen, :root .RadToolTip .rtCloseIcon:before {
+    margin: 0em 0em 0em -0.03571429em; }
+  .RadToolTip.rtRoundedCorner .rtContent {
+    border-radius: 0.35714286em; }
+  .RadToolTip.rtRoundedCorner .rtTitleBar + .rtContent {
+    border-radius: 0em 0em 0.35714286em 0.35714286em; }
+  .RadToolTip .rtCallout {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    position: absolute;
+    display: none; }
+  .RadToolTip .rtCallout:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    display: block;
+    position: absolute; }
+  .RadToolTip.rtVisibleCallout .rtCallout {
+    display: block; }
+  .RadToolTip .rtCalloutTopRight,
+  .RadToolTip .rtCalloutTopCenter,
+  .RadToolTip .rtCalloutTopLeft {
+    margin: -10px 0 0 -10px;
+    border-width: 0 10px 10px 10px;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    top: 0; }
+  .RadToolTip .rtCalloutTopRight {
+    right: 30px; }
+  .RadToolTip .rtCalloutTopCenter {
+    left: 50%; }
+  .RadToolTip .rtCalloutTopLeft {
+    left: 30px; }
+  .RadToolTip .rtCalloutTopRight:before,
+  .RadToolTip .rtCalloutTopCenter:before,
+  .RadToolTip .rtCalloutTopLeft:before {
+    border-width: 0 8px 8px 8px;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    top: 2px;
+    left: -8px; }
+  .RadToolTip .rtCalloutMiddleRight {
+    margin: -10px 0 0;
+    border-width: 10px 0 10px 10px;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important;
+    top: 50%;
+    left: 100%; }
+  .RadToolTip .rtCalloutMiddleRight:before {
+    border-width: 8px 0 8px 8px;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important;
+    top: -8px;
+    left: -10px; }
+  .RadToolTip .rtCalloutMiddleLeft {
+    margin: -10px 0 0;
+    border-width: 10px 10px 10px 0;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    top: 50%;
+    right: 100%; }
+  .RadToolTip .rtCalloutMiddleLeft:before {
+    border-width: 8px 8px 8px 0;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    top: -8px;
+    right: -10px; }
+  .RadToolTip .rtCalloutBottomRight,
+  .RadToolTip .rtCalloutBottomCenter,
+  .RadToolTip .rtCalloutBottomLeft {
+    margin: 0 0 -10px -10px;
+    border-width: 10px 10px 0 10px;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    bottom: 0; }
+  .RadToolTip .rtCalloutBottomRight {
+    right: 30px; }
+  .RadToolTip .rtCalloutBottomCenter {
+    left: 50%; }
+  .RadToolTip .rtCalloutBottomLeft {
+    left: 30px; }
+  .RadToolTip .rtCalloutBottomRight:before,
+  .RadToolTip .rtCalloutBottomCenter:before,
+  .RadToolTip .rtCalloutBottomLeft:before {
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-width: 8px 8px 0 8px;
+    bottom: 2px;
+    left: -8px; }
+  .RadToolTip.rtRtl .rtClose {
+    left: -0.64285714em;
+    right: auto; }
+

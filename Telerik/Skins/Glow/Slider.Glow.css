@@ -1,0 +1,167 @@
+.RadSlider_Glow {
+  color: #e2e8eb;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Glow div.rslHorizontal .rslTrack {
+    background: url('Slider/TrackBgr.png') repeat-x; }
+  .RadSlider_Glow div.rslHorizontal .rslSelectedregion {
+    background: url('Slider/SelectedRegionHorizontalBgr.png') right top; }
+  .RadSlider_Glow div.rslHorizontal a.rslHandle {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSlider_Glow div.rslHorizontal a.rslDecrease {
+    margin: -1px 0 0 -4px;
+    background-position: -12px -112px; }
+  .RadSlider_Glow div.rslHorizontal a.rslDecrease:hover {
+    background-position: -62px -112px; }
+  .RadSlider_Glow div.rslHorizontal a.rslIncrease {
+    margin: -1px -2px 0 0;
+    background-position: -12px -162px; }
+  .RadSlider_Glow div.rslHorizontal a.rslIncrease:hover {
+    background-position: -62px -162px; }
+  .RadSlider_Glow div.rslHorizontal a.rslDraghandle {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    box-shadow: 0 2px 2px #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 45px;
+    top: 5px; }
+  .RadSlider_Glow div.rslHorizontal a.rslDraghandle:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100);
+    filter: none; }
+  .RadSlider_Glow div.rslHorizontal a.rslDraghandle:active,
+  .RadSlider_Glow div.rslHorizontal a.rslDraghandle:focus {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none;
+    filter: none; }
+  .RadSlider_Glow div.rslHorizontal div.rslTrack {
+    height: 8px;
+    line-height: 8px;
+    background-color: #1c2327; }
+  .RadSlider_Glow div.rslHorizontal div.rslSelectedregion {
+    height: 8px;
+    line-height: 8px;
+    background-color: #35434b; }
+  .RadSlider_Glow div.rslHorizontal .rslItem {
+    background-image: url('Slider/ItemHorizontalBgr.png'); }
+  .RadSlider_Glow div.rslHorizontal.rslMiddle .rslHandle {
+    margin-top: -15px; }
+  .RadSlider_Glow div.rslHorizontal li.rslItem span {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    font-size: 13px; }
+  .RadSlider_Glow div.rslHorizontal.rslMiddle div.rslTrack {
+    margin-top: -5px; }
+  .RadSlider_Glow div.rslVertical a.rslHandle {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 45px;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSlider_Glow div.rslVertical a.rslDecrease {
+    margin: -4px -3px 0 2px;
+    background-position: -12px -12px; }
+  .RadSlider_Glow div.rslVertical a.rslDecrease:hover {
+    background-position: -62px -12px; }
+  .RadSlider_Glow div.rslVertical a.rslIncrease {
+    margin: 0 -3px -2px 2px;
+    background-position: -12px -62px; }
+  .RadSlider_Glow div.rslVertical a.rslIncrease:hover {
+    background-position: -62px -62px; }
+  .RadSlider_Glow div.rslVertical div.rslTrack {
+    width: 8px;
+    border: 1px solid;
+    left: 11px;
+    background: url('Slider/TrackVerticalBgr.png') repeat-y; }
+  .RadSlider_Glow div.rslVertical.rslRight div.rslTrack {
+    left: auto; }
+  .RadSlider_Glow div.rslVertical.rslCenter div.rslTrack {
+    left: 50%;
+    margin-left: 11px; }
+  .RadSlider_Glow div.rslVertical.rslCenter .rslItemsWrapper .rslLargeTick,
+  .RadSlider_Glow div.rslVertical.rslCenter .rslItemsWrapper .rslSmallTick {
+    margin: 0 0 0 15px; }
+  .RadSlider_Glow div.rslVertical .rslSelectedregion {
+    width: 8px;
+    background: url('Slider/SelectedRegionVerticalBgr.png') left bottom; }
+  .RadSlider_Glow div.rslVertical a.rslDraghandle {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    box-shadow: 0 2px 2px #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 45px;
+    left: 4px !important;
+    *left: -4px !important; }
+  .RadSlider_Glow div.rslVertical a.rslDraghandle:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    filter: none; }
+  .RadSlider_Glow div.rslVertical a.rslDraghandle:active,
+  .RadSlider_Glow div.rslVertical a.rslDraghandle:focus {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: none; }
+  .RadSlider_Glow div.rslVertical .rslItem {
+    background-image: url('Slider/ItemVerticalBgr.png'); }
+  .RadSlider_Glow div.rslVertical li.rslItem span {
+    font-size: 13px;
+    padding: 1px 3px; }
+  .RadSlider_Glow .rslItemsWrapper .rslItem,
+  .RadSlider_Glow .rslItemsWrapper .rslLargeTick span,
+  .RadSlider_Glow .rslItemsWrapper .rslItemSelected {
+    font: 10px Arial,Helvetica,sans-serif; }
+  .RadSlider_Glow .rslTop .rslSmallTick,
+  .RadSlider_Glow .rslBottom .rslSmallTick {
+    background-image: url('Slider/SmallChangeHorizontal.png'); }
+  .RadSlider_Glow .rslTop .rslLargeTick,
+  .RadSlider_Glow .rslBottom .rslLargeTick {
+    background-image: url('Slider/LargeChangeHorizontal.png'); }
+  .RadSlider_Glow .rslLeft .rslSmallTick,
+  .RadSlider_Glow .rslRight .rslSmallTick {
+    background-image: url('Slider/SmallChangeVertical.png'); }
+  .RadSlider_Glow .rslLeft .rslLargeTick,
+  .RadSlider_Glow .rslRight .rslLargeTick {
+    background-image: url('Slider/LargelChangeVertical.png'); }
+  .RadSlider_Glow .rslMiddle .rslSmallTick {
+    background-image: url('Slider/SmallChangeMiddleHorizontal.png'); }
+  .RadSlider_Glow .rslLargeTick {
+    background-image: url('Slider/LargeChangeMiddleHorizontal.png'); }
+  .RadSlider_Glow .rslCenter .rslSmallTick {
+    background-image: url('Slider/SmallChangeCenterVertical.png'); }
+  .RadSlider_Glow .rslCenter .rslLargeTick {
+    background-image: url('Slider/LargelChangeCenterVertical.png'); }
+

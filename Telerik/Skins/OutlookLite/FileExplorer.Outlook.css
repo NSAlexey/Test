@@ -1,0 +1,35 @@
+.RadFileExplorer_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadFileExplorer_Outlook .rfeFilterTxt,
+  .RadFileExplorer_Outlook .rfeAddressBox {
+    border-color: #003c74;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Outlook .rfeLink:hover {
+    border-color: #ffd294;
+    color: #000000;
+    background-color: #ffd294;
+    background-image: linear-gradient(#fff3ca, #ffd294); }
+  .RadFileExplorer_Outlook .rfeSelectedLink,
+  .RadFileExplorer_Outlook .rfeSelectedLink:hover {
+    border-color: #97b8e8;
+    color: #000000;
+    background-color: #97b8e8;
+    background-image: linear-gradient(#dceafc, #97b8e8); }
+  .RadFileExplorer_Outlook .rfeDropZone,
+  .RadFileExplorer_Outlook .rfeFilterContainer,
+  .RadFileExplorer_Outlook .rfePageControlContainer {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #d6e6f4; }
+  .RadFileExplorer_Outlook .rfeDropUploadInfoPanel {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #ffffff; }
+
+.RadWindow_Outlook .rfeUploadInfoPanel {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #d6e6f4; }

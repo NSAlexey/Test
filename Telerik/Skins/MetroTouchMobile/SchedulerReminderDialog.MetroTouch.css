@@ -1,0 +1,20 @@
+.ReminderDialog_MetroTouch .rsRemList .rsLi:hover {
+  color: #000000;
+  background-color: #e7e7e7; }
+
+.ReminderDialog_MetroTouch .rsRemList .rsLiSelected,
+.ReminderDialog_MetroTouch .rsRemList .rsLiSelected:hover {
+  color: #ffffff;
+  background-color: #25a0da; }
+
+.ReminderDialog_MetroTouch .rsRemSnoozePanel .rsLi:before {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px #e0e0e0; }
+
+.ReminderDialog_MetroTouch .rsRemSnoozePanel .rsLi:hover:before {
+  background-color: #e0e0e0; }
+
+.ReminderDialog_MetroTouch .rsRemSnoozePanel .rsLi:active:before {
+  background-color: #25a0da; }
+

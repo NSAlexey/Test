@@ -1,0 +1,105 @@
+.RadSplitter_Telerik {
+  border-color: #cccccc;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSplitter_Telerik .rspPane,
+  .RadSplitter_Telerik .rspPaneHorizontal {
+    border-color: #cccccc; }
+  .RadSplitter_Telerik .rspSlidePane {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Telerik .rspSlideHeader,
+  .RadSplitter_Telerik .rspSlideTitleContainer {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: url('Splitter/slideTitleContainerBgr.gif');
+    background-repeat: repeat-x; }
+  .RadSplitter_Telerik .rspSlideTitleContainer,
+  .RadSplitter_Telerik .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #d1d1d1; }
+  .RadSplitter_Telerik .rspSlideHeaderDockIcon,
+  .RadSplitter_Telerik .rspSlideHeaderUndockIcon,
+  .RadSplitter_Telerik .rspSlideHeaderCollapseIcon,
+  .RadSplitter_Telerik .rspCollapseBarExpand,
+  .RadSplitter_Telerik .rspCollapseBarCollapse,
+  .RadSplitter_Telerik .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Telerik .rspCollapseBarHorizontalCollapse {
+    background-image: url('Splitter/ExpandCollapseBarsCommands.gif'); }
+  .RadSplitter_Telerik .rspSlideContent {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Telerik .rspResizeBar,
+  .RadSplitter_Telerik .rspSlideContainerResize {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(to left, #fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee); }
+  .RadSplitter_Telerik .rspResizeBarOver,
+  .RadSplitter_Telerik .rspSlideContainerResizeOver {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(to left, #d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b); }
+  .RadSplitter_Telerik .rspResizeBarHorizontal,
+  .RadSplitter_Telerik .rspSlideContainerResizeHorizontal {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .RadSplitter_Telerik .rspResizeBarOverHorizontal,
+  .RadSplitter_Telerik .rspSlideContainerResizeOverHorizontal {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadSplitter_Telerik .rspCollapseBarExpand,
+  .RadSplitter_Telerik .rspCollapseBarCollapse {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee; }
+  .RadSplitter_Telerik .rspCollapseBarExpandOver,
+  .RadSplitter_Telerik .rspCollapseBarCollapseOver {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b; }
+  .RadSplitter_Telerik .rspTabsContainer {
+    background-color: #ededed; }
+  .RadSplitter_Telerik .rspPaneTabContainer {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: url('Splitter/ExpandCollapseBarsCommands.gif'); }
+  .RadSplitter_Telerik .rspTop .rspPaneTabContainer,
+  .RadSplitter_Telerik .rspBottom .rspPaneTabContainer {
+    background-image: url('Splitter/slideTitleContainerBgr.gif');
+    background-repeat: repeat-x; }
+  .RadSplitter_Telerik .rspPaneTabContainer:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(to left, #d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b); }
+  .RadSplitter_Telerik .rspTop .rspPaneTabContainer:hover,
+  .RadSplitter_Telerik .rspBottom .rspPaneTabContainer:hover {
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b); }
+  .RadSplitter_Telerik .rspPaneTabContainerExpanded {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(to left, #a8d687, #8cc569 50%, #65b33f 50%, #63ac39); }
+  .RadSplitter_Telerik .rspTop .rspPaneTabContainerExpanded,
+  .RadSplitter_Telerik .rspBottom .rspPaneTabContainerExpanded {
+    background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39); }
+  .RadSplitter_Telerik .rspTabsContainer .rspPaneTabContainerDocked {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadSplitter_Telerik .rspLoading {
+    background-image: url('Common/loading.gif'); }
+

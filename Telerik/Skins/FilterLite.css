@@ -1,0 +1,175 @@
+.RadFilter {
+  line-height: 1.42857143; }
+  .RadFilter .RadInput,
+  .RadFilter .RadPicker {
+    font-size: 1em; }
+  .RadFilter,
+  .RadFilter li {
+    min-width: 33.33333em; }
+  .RadFilter ul,
+  .RadFilter li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative; }
+  .RadFilter ul ul ul {
+    margin-left: 1.2em; }
+  .RadFilter li {
+    padding: 0 0 1px; }
+    .RadFilter li li {
+      background-repeat: repeat-y; }
+  .RadFilter li li .rfDiv {
+    padding: 0.2em 0 0 1.2em;
+    position: relative; }
+  .RadFilter .rfMid,
+  .RadFilter .rfTools {
+    white-space: nowrap;
+    box-sizing: content-box;
+    border-style: solid;
+    display: inline-block;
+    vertical-align: top; }
+  .RadFilter .rfMid {
+    padding: 4px 0 4px 4px;
+    border-width: 1px 0 1px 1px;
+    border-radius: 3px 0 0 3px; }
+  .RadFilter .rfTools {
+    padding: 4px 4px 4px 0;
+    border-width: 1px 1px 1px 0;
+    border-radius: 0 3px 3px 0; }
+  .RadFilter .rfControl {
+    margin-left: 4px; }
+  .RadFilter .rfOper,
+  .RadFilter .rfField,
+  .RadFilter .rfExp {
+    padding: 4px 1.5em 4px 10px;
+    border: 1px solid transparent;
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative; }
+    .RadFilter .rfOper:before,
+    .RadFilter .rfField:before,
+    .RadFilter .rfExp:before {
+      content: "\e006";
+      margin: -.5em 0 0 0;
+      font: 16px/1 "WebComponentsIcons";
+      opacity: 0;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 2px; }
+    .RadFilter .rfOper:hover:before, .RadFilter .rfOper:focus:before, .RadFilter .rfOper:active:before,
+    .RadFilter .rfField:hover:before,
+    .RadFilter .rfField:focus:before,
+    .RadFilter .rfField:active:before,
+    .RadFilter .rfExp:hover:before,
+    .RadFilter .rfExp:focus:before,
+    .RadFilter .rfExp:active:before {
+      opacity: 1; }
+  .RadFilter .rfOper {
+    text-transform: uppercase; }
+  .RadFilter .rfExp {
+    margin-left: 4px; }
+  .RadFilter .rfText {
+    padding: 4px 10px;
+    height: 1.42857143em;
+    border-width: 1px;
+    border-style: solid;
+    font: inherit; }
+  .RadFilter .rfCheckBox {
+    padding: 4px;
+    display: inline-block; }
+    .RadFilter .rfCheckBox > input {
+      vertical-align: middle; }
+  .RadFilter .rfAddGr,
+  .RadFilter .rfAddExp,
+  .RadFilter .rfDel {
+    margin-left: 4px;
+    padding: 4px;
+    width: 1.42857143em;
+    height: 1.42857143em;
+    overflow: hidden;
+    border: 1px solid transparent;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: content-box;
+    display: inline-block;
+    vertical-align: top; }
+  .RadFilter .rfPreview {
+    padding: 1.6em 0 0; }
+    .RadFilter .rfPreview strong {
+      font-weight: normal; }
+    .RadFilter .rfPreview em {
+      font-style: normal;
+      text-transform: uppercase; }
+  .RadFilter .rfPreviewTop {
+    padding: 0 0 1.6em; }
+  .RadFilter .rfBr {
+    font-weight: bold; }
+  .RadFilter .rfApply {
+    padding: 1.6em 0 0; }
+    .RadFilter .rfApply a,
+    .RadFilter .rfApply > span {
+      padding: 0;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 3px;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer; }
+    .RadFilter .rfApply input {
+      margin: 0;
+      padding: 4px 10px;
+      border: 0;
+      color: inherit;
+      background: none;
+      font: inherit;
+      vertical-align: top;
+      cursor: inherit; }
+  .RadFilter .rfLines li li:before {
+    content: "";
+    position: absolute;
+    left: 0.6em;
+    top: 0;
+    height: 100%;
+    border-left: 1px solid #999; }
+  .RadFilter li li.rfLast:before {
+    display: none; }
+  .RadFilter .rfLines li li .rfDiv:before {
+    content: "";
+    position: absolute;
+    left: 0.6em;
+    top: 50%;
+    width: 0.6em;
+    border-top: 1px solid #999; }
+  .RadFilter .rfLast .rfDiv:after {
+    content: "";
+    position: absolute;
+    left: 0.6em;
+    top: 0;
+    height: 50%;
+    border-left: 1px solid #999; }
+
+.RadFilterRTL ul ul ul {
+  margin-right: 1.66666667em; }
+
+.RadFilterRTL li li .rfDiv {
+  padding: 0 1.66666667em 0 0; }
+
+.RadFilterRTL .rfOper,
+.RadFilterRTL .rfField,
+.RadFilterRTL .rfExp {
+  padding: 0 0 0 1em; }
+
+.RadFilterRTL .rfAddGr,
+.RadFilterRTL .rfAddExp {
+  margin-left: 0;
+  margin-right: 0.25em; }
+
+.RadFilterRTL .rfDel {
+  margin-left: 0.08333333em;
+  margin-right: 0.33333333em; }
+

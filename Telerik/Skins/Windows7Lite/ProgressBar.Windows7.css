@@ -1,0 +1,36 @@
+.RadProgressBar_Windows7 {
+  color: #4c607a;
+  background-color: #f1f5fb;
+  background-image: none, linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadProgressBar_Windows7.rpbClassic {
+    font-size: 12px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadProgressBar_Windows7 > .rpbLabelWrapper {
+    border-color: #c1cdde; }
+  .RadProgressBar_Windows7 .rpbStateSelected,
+  .RadProgressBar_Windows7 .rpbStateSelected:hover,
+  .RadProgressBar_Windows7 .rpbStateSelected:link,
+  .RadProgressBar_Windows7 .rpbStateSelected:visited {
+    background-color: #c3dcfc;
+    color: #000000;
+    background-image: none, linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadProgressBar_Windows7 .rpbChunk {
+    border-color: #c1cdde; }
+  .RadProgressBar_Windows7 .rpbChunk.rpbStateDefault {
+    background-color: #f1f5fb; }
+  .RadProgressBar_Windows7 .rpbStateSelected,
+  .RadProgressBar_Windows7 .rpbStateSelected:hover,
+  .RadProgressBar_Windows7 .rpbStateSelected:link,
+  .RadProgressBar_Windows7 .rpbStateSelected:visited,
+  .RadProgressBar_Windows7 .rpbChunk.rpbStateSelected {
+    border-color: #c1dbfc; }
+  .RadProgressBar_Windows7.rpbVertical {
+    background-image: none, linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadProgressBar_Windows7.rpbVertical .rpbStateSelected,
+  .RadProgressBar_Windows7.rpbVertical .rpbStateSelected:hover,
+  .RadProgressBar_Windows7.rpbVertical .rpbStateSelected:link,
+  .RadProgressBar_Windows7.rpbVertical .rpbStateSelected:visited {
+    background-image: none, linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadProgressBar_Windows7.rpbIndeterminate {
+    background-image: url('../Windows7/Common/radIndeterminate.gif'); }
+

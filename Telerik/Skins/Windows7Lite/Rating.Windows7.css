@@ -1,0 +1,23 @@
+.RadRating_Windows7 a:before {
+  color: #9f9f9f; }
+
+.RadRating_Windows7 .rrtOver span,
+.RadRating_Windows7 a:hover .rrtPartComplement,
+.RadRating_Windows7 .rrtVertical .rrtSelected.rrtOver a,
+.RadRating_Windows7 .rrtSelected .rrtPartSelected,
+.RadRating_Windows7 .rrtSelected.rrtOver a {
+  color: #9f9f9f; }
+
+.RadRating_Windows7 .rrtSelected span {
+  color: #4c93cc; }
+
+.RadRating_Windows7 .rrtSelected .rrtPart,
+.RadRating_Windows7 .rrtSelected.rrtOver span {
+  color: #275e8b; }
+
+.RadRating_Windows7 .rrtReversed .rrtPart:before {
+  color: #9f9f9f; }
+
+.RadRating_Windows7 .rrtReversed .rrtSelected .rrtPartComplement:before {
+  color: #275e8b; }
+

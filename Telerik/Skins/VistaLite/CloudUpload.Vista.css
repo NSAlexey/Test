@@ -1,0 +1,60 @@
+.RadCloudUpload_Vista {
+  color: #333333; }
+  .RadCloudUpload_Vista .rcuButton {
+    border-radius: 3px;
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3; }
+  .RadCloudUpload_Vista .rcuInfoPanel {
+    border-color: #aec5d1;
+    color: #333333;
+    background-color: #eff7fc; }
+  .RadCloudUpload_Vista .rcuHeader {
+    border-color: #74b6da;
+    color: #000000;
+    background-color: #a6d9f4;
+    background-image: linear-gradient(#e5f4fd, #d8effc 50%, #bbe5fd 50%, #a6d9f4); }
+  .RadCloudUpload_Vista .rcuFileList {
+    border-color: #aec5d1;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Vista .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #e2e3ea;
+    background-color: #f6f6f6;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Vista .rcuProgress {
+    border-color: #000;
+    background-color: #7fc6f0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Vista .p-i-loading {
+    background-image: url('../Vista/Common/loading_small.gif'); }
+  .RadCloudUpload_Vista .rcuDropZone {
+    border-color: #2f648b;
+    color: #ffffff;
+    background-color: #3c7fb1; }
+  .RadCloudUpload_Vista .rcuButton.rcuHovered {
+    border-color: #5094b9;
+    color: #000000;
+    background-color: #abdcf7;
+    background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78); }
+  .RadCloudUpload_Vista .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #3c7fb1;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Vista .rcuButton.rcuPressed {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+    box-shadow: inset 0 0 3px 1px #41d7fc; }
+
+.rcuToolTip_Vista {
+  border-color: #aec5d1;
+  color: #333333;
+  background-color: #ffffff; }
+

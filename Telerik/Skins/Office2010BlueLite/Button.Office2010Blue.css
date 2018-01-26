@@ -1,0 +1,79 @@
+.RadButton_Office2010Blue.rbButton, .RadButton_Office2010Blue.rbButton.rbDisabled,
+.RadButton_Office2010Blue .rbSplitPart {
+  border-color: #9db2ce;
+  color: #384e73;
+  background-color: #bfcddf;
+  background-image: linear-gradient(#fafbfd, #bfcddf); }
+
+.RadButton_Office2010Blue.rbButton.rbHovered, .RadButton_Office2010Blue.rbButton.rbToggled.rbHovered,
+.RadButton_Office2010Blue.rbButton .rbHovered {
+  border-color: #f2d359;
+  color: #1e395b;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+
+.RadButton_Office2010Blue.rbButton:focus {
+  box-shadow: inset 0 0 5px rgba(195, 142, 0, 0.5); }
+
+.RadButton_Office2010Blue.rbButton.rbSelected, .RadButton_Office2010Blue.rbButton.rbToggled,
+.RadButton_Office2010Blue.rbSelected .rbHovered {
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.RadButton_Office2010Blue.rbButton:hover,
+.RadButton_Office2010Blue.rbButton.rbHovered .rbSplitPart {
+  border-color: #f2d359; }
+
+.RadButton_Office2010Blue.rbButton.rbSelected,
+.RadButton_Office2010Blue.rbButton.rbSelected:active .rbSplitPart {
+  border-color: #c38e00; }
+
+.RadButton_Office2010Blue.rbCheckBox .rbText,
+.RadButton_Office2010Blue.rbRadioButton .rbText,
+.RadButton_Office2010Blue.rbToggleButton .rbText {
+  color: #384e73; }
+
+.RadButton_Office2010Blue .rbToggleCheckboxChecked,
+.RadButton_Office2010Blue .rbToggleCheckboxFilled,
+.RadButton_Office2010Blue .rbToggleRadioChecked {
+  color: #3a71b7; }
+
+.RadButton_Office2010Blue.rbHovered .rbToggleCheckboxChecked,
+.RadButton_Office2010Blue.rbHovered .rbToggleCheckboxFilled,
+.RadButton_Office2010Blue.rbHovered .rbToggleRadioChecked {
+  color: #284d7d; }
+
+.RadButton_Office2010Blue:focus .rbToggleCheckbox:before,
+.RadButton_Office2010Blue:focus .rbToggleRadio:before {
+  box-shadow: 0 0 1px 1px rgba(56, 78, 115, 0.5); }
+
+.RadButton_Office2010Blue:focus .rbToggleCheckboxChecked:before,
+.RadButton_Office2010Blue:focus .rbToggleCheckboxFilled:before,
+.RadButton_Office2010Blue:focus .rbToggleRadioChecked:before {
+  box-shadow: 0 0 1px 1px rgba(58, 113, 183, 0.5); }
+
+.RadButton_Office2010Blue.rbPrimaryButton {
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffef7c, #ffd86b, #ffe272); }
+  .RadButton_Office2010Blue.rbPrimaryButton.rbHovered, .RadButton_Office2010Blue.rbPrimaryButton.rbToggled.rbHovered, .RadButton_Office2010Blue.rbPrimaryButton.rbFocused {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9);
+    box-shadow: none; }
+  .RadButton_Office2010Blue.rbPrimaryButton.rbSelected, .RadButton_Office2010Blue.rbPrimaryButton.rbToggled {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.RadButton_Office2010Blue.rbPrimaryButton.rbDisabled {
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffef7c, #ffd86b, #ffe272); }
+

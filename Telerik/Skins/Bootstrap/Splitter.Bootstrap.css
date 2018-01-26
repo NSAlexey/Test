@@ -1,0 +1,121 @@
+.RadSplitter_Bootstrap {
+  border-color: #dedede;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadSplitter_Bootstrap .rspSlideTitle,
+  .RadSplitter_Bootstrap .rspPaneTabText {
+    font-size: 14px; }
+  .RadSplitter_Bootstrap .rspPane,
+  .RadSplitter_Bootstrap .rspPaneHorizontal {
+    border-color: #dedede; }
+  .RadSplitter_Bootstrap .rspSlidePane {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Bootstrap .rspSlideHeader,
+  .RadSplitter_Bootstrap .rspSlideTitleContainer {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .RadSplitter_Bootstrap .rspSlideTitleContainer,
+  .RadSplitter_Bootstrap .rspSlideHeaderIconWrapper {
+    padding: 2px;
+    border-bottom: 1px solid #dedede; }
+  .RadSplitter_Bootstrap .rspSlideHeaderDockIcon,
+  .RadSplitter_Bootstrap .rspSlideHeaderUndockIcon,
+  .RadSplitter_Bootstrap .rspSlideHeaderCollapseIcon,
+  .RadSplitter_Bootstrap .rspCollapseBarExpand,
+  .RadSplitter_Bootstrap .rspCollapseBarCollapse,
+  .RadSplitter_Bootstrap .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Bootstrap .rspCollapseBarHorizontalCollapse {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSplitter_Bootstrap div.rspSlideHeaderDockIcon,
+  .RadSplitter_Bootstrap div.rspSlideHeaderUndockIcon,
+  .RadSplitter_Bootstrap div.rspSlideHeaderCollapseIcon {
+    height: 32px;
+    width: 32px;
+    border-radius: 3px;
+    border: 1px solid transparent; }
+  .RadSplitter_Bootstrap div.rspSlideHeaderDockIcon {
+    background-position: -9px -1259px; }
+  .RadSplitter_Bootstrap div.rspSlideHeaderUndockIcon {
+    background-position: -9px -1209px; }
+  .RadSplitter_Bootstrap div.rspSlideHeaderCollapseIcon {
+    background-position: -9px -1909px; }
+  .RadSplitter_Bootstrap div.rspSlideHeaderDockIcon:hover,
+  .RadSplitter_Bootstrap div.rspSlideHeaderUndockIcon:hover,
+  .RadSplitter_Bootstrap div.rspSlideHeaderCollapseIcon:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSplitter_Bootstrap .rspSlideContent {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Bootstrap .rspResizeBar,
+  .RadSplitter_Bootstrap .rspSlideContainerResize,
+  .RadSplitter_Bootstrap .rspCollapseBarExpand,
+  .RadSplitter_Bootstrap .rspCollapseBarCollapse {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Bootstrap .rspResizeBarOver,
+  .RadSplitter_Bootstrap .rspSlideContainerResizeOver,
+  .RadSplitter_Bootstrap .rspCollapseBarExpandOver,
+  .RadSplitter_Bootstrap .rspCollapseBarCollapseOver {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSplitter_Bootstrap .rspResizeBarHorizontal,
+  .RadSplitter_Bootstrap .rspSlideContainerResizeHorizontal,
+  .RadSplitter_Bootstrap .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Bootstrap .rspCollapseBarHorizontalCollapse {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Bootstrap .rspResizeBarOverHorizontal,
+  .RadSplitter_Bootstrap .rspSlideContainerResizeOverHorizontal,
+  .RadSplitter_Bootstrap .rspCollapseBarHorizontalExpandOver,
+  .RadSplitter_Bootstrap .rspCollapseBarHorizontalCollapseOver {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSplitter_Bootstrap input.rspCollapseBarExpand,
+  .RadSplitter_Bootstrap input.rspCollapseBarCollapse {
+    width: 14px;
+    height: 28px;
+    line-height: 27px; }
+  .RadSplitter_Bootstrap input.rspCollapseBarHorizontalExpand,
+  .RadSplitter_Bootstrap input.rspCollapseBarHorizontalCollapse {
+    width: 28px;
+    height: 14px;
+    line-height: 14px; }
+  .RadSplitter_Bootstrap input.rspCollapseBarExpand {
+    background-position: -18px -161px; }
+  .RadSplitter_Bootstrap input.rspCollapseBarCollapse {
+    background-position: -18px -111px; }
+  .RadSplitter_Bootstrap input.rspCollapseBarHorizontalExpand {
+    background-position: -11px -68px; }
+  .RadSplitter_Bootstrap input.rspCollapseBarHorizontalCollapse {
+    background-position: -11px -18px; }
+  .RadSplitter_Bootstrap .rspTabsContainer {
+    background-color: #fcfcfc; }
+  .RadSplitter_Bootstrap .rspPaneTabContainer {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Bootstrap .rspPaneTabContainer:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSplitter_Bootstrap .rspPaneTabContainerExpanded {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSplitter_Bootstrap .rspTabsContainer .rspPaneTabContainerDocked {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSplitter_Bootstrap .rspLoading {
+    background-image: url('Common/loading.gif'); }
+

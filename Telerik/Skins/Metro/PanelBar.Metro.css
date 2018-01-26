@@ -1,0 +1,83 @@
+.RadPanelBar_Metro {
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 24px; }
+  .RadPanelBar_Metro .rpRootGroup {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadPanelBar_Metro .rpHeaderTemplate {
+    padding: 0 10px;
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadPanelBar_Metro .rpTemplate {
+    padding: 0 10px; }
+  .RadPanelBar_Metro .rpRootLink {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadPanelBar_Metro .rpLink .rpOut {
+    border-color: transparent; }
+  .RadPanelBar_Metro .rpLast > .rpLink {
+    border-bottom-color: transparent; }
+  .RadPanelBar_Metro .rpRootLink.rpHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadPanelBar_Metro .rpRootLink.rpFocused {
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadPanelBar_Metro .rpRootLink.rpSelected {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadPanelBar_Metro .rpGroup .rpLink {
+    border-color: transparent;
+    color: #333333;
+    background-color: transparent; }
+    .RadPanelBar_Metro .rpGroup .rpLink.rpHovered {
+      border-color: #e7e7e7;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadPanelBar_Metro .rpGroup .rpLink.rpFocused {
+      box-shadow: inset 0 0 5px #25a0da; }
+    .RadPanelBar_Metro .rpGroup .rpLink.rpSelected {
+      border-color: #25a0da;
+      color: #ffffff;
+      background-color: #25a0da; }
+  .RadPanelBar_Metro .rpGroup .rpHeaderTemplate {
+    background-image: none; }
+
+.RadPanelBar_Metro_rtl .rpGroup .rpText {
+  padding: 0 10px; }
+
+/* <expand arrows> */
+.RadPanelBar_Metro .rpExpandHandle {
+  background: url('PanelBar/Expandable.png') 0 -5px; }
+
+.RadPanelBar_Metro .rpExpandHandle {
+  background-position: 0 -5px; }
+
+.RadPanelBar_Metro .rpExpanded .rpExpandHandle {
+  background-position: 0 -181px; }
+
+.RadPanelBar_Metro .rpSelected .rpExpandHandle {
+  background-position: 100% -5px; }
+
+.RadPanelBar_Metro .rpExpanded.rpSelected .rpExpandHandle {
+  background-position: 100% -181px; }
+
+.RadPanelBar_Metro .rpGroup .rpExpandHandle {
+  background-position: 0 -343px; }
+
+.RadPanelBar_Metro .rpGroup .rpExpanded .rpExpandHandle {
+  background-position: 0 -482px; }
+
+.RadPanelBar_Metro .rpGroup .rpSelected .rpExpandHandle {
+  background-position: 100% -343px; }
+
+.RadPanelBar_Metro .rpGroup .rpExpanded.rpSelected .rpExpandHandle {
+  background-position: 100% -482px; }
+
+/*      </expand arrows> */
+

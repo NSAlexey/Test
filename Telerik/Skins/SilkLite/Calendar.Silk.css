@@ -1,0 +1,133 @@
+.RadCalendar_Silk {
+  border-color: #d9d9d9;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadCalendar_Silk .rcTitlebar {
+    border-color: #e3e3e3;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+  .RadCalendar_Silk .t-button:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadCalendar_Silk .t-button:focus,
+  .RadCalendar_Silk .t-button:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+  .RadCalendar_Silk td {
+    border-color: transparent; }
+  .RadCalendar_Silk th {
+    color: #929292;
+    background-color: #e3e3e3; }
+  .RadCalendar_Silk .rcHeader,
+  .RadCalendar_Silk .rcFooter {
+    border-color: #e3e3e3; }
+  .RadCalendar_Silk .rcWeek th {
+    border-color: #e3e3e3;
+    color: #5f5f5f; }
+  .RadCalendar_Silk .rcWeek .rcViewSel {
+    background-color: #e3e3e3; }
+  .RadCalendar_Silk .rcToday a,
+  .RadCalendar_Silk .rcToday span {
+    border-color: #14afca;
+    color: #14afca; }
+  .RadCalendar_Silk .rcHover a,
+  .RadCalendar_Silk .rcHover span {
+    border-color: #bceff8;
+    color: #333333;
+    background-color: #bceff8; }
+  .RadCalendar_Silk .rcSelected a,
+  .RadCalendar_Silk .rcSelected span {
+    border-color: #81cfdc;
+    color: #ffffff;
+    background-color: #81cfdc; }
+  .RadCalendar_Silk .rcFocus {
+    border-color: #81cfdc;
+    box-shadow: inset 0 0 5px #81cfdc; }
+
+.RadCalendarMultiView_Silk .rcTitlebar {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+
+.RadCalendarMultiView_Silk .rcCalendar {
+  border-color: #d9d9d9; }
+
+.RadCalendarMultiView_Silk td.rcTitle {
+  border-color: #e3e3e3;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+
+.RadCalendarMonthView_Silk {
+  border-color: #d9d9d9;
+  color: #292929;
+  background-color: #ffffff; }
+  .RadCalendarMonthView_Silk a:hover {
+    border-color: #bceff8;
+    color: #333333;
+    background-color: #bceff8; }
+  .RadCalendarMonthView_Silk .rcSelected a {
+    border-color: #81cfdc;
+    color: #ffffff;
+    background-color: #81cfdc; }
+  .RadCalendarMonthView_Silk .rcButtons a {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+  .RadCalendarMonthView_Silk .rcButtons a:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadCalendarMonthView_Silk .rcButtons a:focus,
+  .RadCalendarMonthView_Silk .rcButtons a:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+
+.RadCalendarTimeView_Silk {
+  border-color: #d9d9d9;
+  color: #292929;
+  background-color: #ffffff; }
+  .RadCalendarTimeView_Silk th {
+    border-color: #e3e3e3;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+  .RadCalendarTimeView_Silk td {
+    border-color: #d9d9d9; }
+  .RadCalendarTimeView_Silk .rcSelected a {
+    border-color: #81cfdc;
+    color: #ffffff;
+    background-color: #81cfdc; }
+  .RadCalendarTimeView_Silk .rcHover a {
+    border-color: #bceff8;
+    color: #333333;
+    background-color: #bceff8; }
+  .RadCalendarTimeView_Silk .rcFooter {
+    border-color: #d9d9d9; }
+
+.RadPicker_Silk .riLabel {
+  color: #333333; }
+
+.RadPicker_Silk.rcCalPopupOpen .RadInput, .RadPicker_Silk.rcMYPopupOpen .RadInput, .RadPicker_Silk.rcTimePopupOpen .RadInput {
+  border-color: #1193aa;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadPicker_Silk.rcCalPopupOpen .rcCalPopup,
+.RadPicker_Silk.rcMYPopupOpen .rcCalPopup,
+.RadPicker_Silk.rcTimePopupOpen .rcTimePopup {
+  border-color: #1193aa;
+  color: #ffffff;
+  background-color: #14afca;
+  background-image: none; }
+

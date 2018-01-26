@@ -1,0 +1,63 @@
+.RadImageGallery_Glow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #e2e8eb; }
+  .RadImageGallery_Glow .rigDotList > a {
+    background: #35434b;
+    border-color: #1c2327; }
+  .RadImageGallery_Glow .rigDotList .rigCurrentItem {
+    color: #ffa915; }
+  .RadImageGallery_Glow .rigToolbar {
+    color: #e2e8eb;
+    background-color: #2e3b43; }
+  .RadImageGallery_Glow .rigCloseButton,
+  .RadImageGallery_Glow .rigDrawerButton {
+    color: #e2e8eb;
+    background-color: #2e3b43; }
+  .RadImageGallery_Glow .rigProgressBar div {
+    background-color: #ffa915; }
+  .RadImageGallery_Glow .rigPager {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+    .RadImageGallery_Glow .rigPager a.rigCurrentPage {
+      border-color: #ffa915;
+      color: #ffa915; }
+  .RadImageGallery_Glow .rigTooltip {
+    background-color: #35434b;
+    border-color: #1c2327; }
+    .RadImageGallery_Glow .rigTooltip:after {
+      border-top-color: #35434b; }
+  .RadImageGallery_Glow .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_Glow .rigPlayIcon {
+    background-position: -14px -5014px; }
+  .RadImageGallery_Glow .rigActionButton:hover .rigPlayIcon {
+    background-position: -64px -5014px; }
+  .RadImageGallery_Glow .rigPauseIcon {
+    background-position: -14px -5064px; }
+  .RadImageGallery_Glow .rigActionButton:hover .rigPauseIcon {
+    background-position: -64px -5064px; }
+  .RadImageGallery_Glow .rigFullScrIcon {
+    background-position: -14px -5264px; }
+  .RadImageGallery_Glow .rigActionButton:hover .rigFullScrIcon {
+    background-position: -64px -5264px; }
+  .RadImageGallery_Glow .rigExtFullScrIcon {
+    background-position: -14px -5314px; }
+  .RadImageGallery_Glow .rigActionButton:hover .rigExtFullScrIcon {
+    background-position: -64px -5314px; }
+  .RadImageGallery_Glow .rigShowThumbnIcon {
+    background-position: -15px -5414px; }
+  .RadImageGallery_Glow .rigActionButton:hover .rigShowThumbnIcon {
+    background-position: -65px -5414px; }
+  .RadImageGallery_Glow .rigHideThumbnIcon {
+    background-position: -15px -5464px; }
+  .RadImageGallery_Glow .rigActionButton:hover .rigHideThumbnIcon {
+    background-position: -65px -5464px; }
+  .RadImageGallery_Glow .rigPrevButton,
+  .RadImageGallery_Glow .rigNextButton,
+  .RadImageGallery_Glow .rigScrollPrevIcon,
+  .RadImageGallery_Glow .rigScrollNextIcon,
+  .RadImageGallery_Glow .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+

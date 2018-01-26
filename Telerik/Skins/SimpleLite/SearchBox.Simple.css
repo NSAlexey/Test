@@ -1,0 +1,60 @@
+.RadSearchBox_Simple {
+  color: #333333; }
+  .RadSearchBox_Simple .rsbInner {
+    border-color: #7c7c7c;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSearchBox_Simple .rsbInner.rsbHovered {
+      border-color: #ca8500;
+      color: #333333;
+      background-color: #ffffff; }
+    .RadSearchBox_Simple .rsbInner.rsbFocused {
+      border-color: #ca4900;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadSearchBox_Simple .rsbSCInner {
+    border-color: #7c7c7c;
+    color: #000000;
+    background-color: #e2e2e2; }
+  .RadSearchBox_Simple .rsbLoadingIcon {
+    background-image: url('../Simple/Common/loading_small.gif'); }
+  .RadSearchBox_Simple .rsbHovered.rsbInner {
+    border-color: #ca8500;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Simple .rsbHovered .rsbSCInner {
+    border-color: #ca8500; }
+  .RadSearchBox_Simple .rsbHovered.rsbSCInner, .RadSearchBox_Simple .rsbHovered.rsbButton {
+    border-color: #ca8500;
+    color: #882501;
+    background-color: #ffe79c; }
+  .RadSearchBox_Simple .rsbFocused.rsbInner {
+    border-color: #ca4900;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Simple .rsbFocused .rsbSCInner,
+  .RadSearchBox_Simple .rsbFocused .rsbHovered.rsbButton {
+    border-color: #ca4900; }
+  .RadSearchBox_Simple .rsbFocused.rsbSCInner, .RadSearchBox_Simple .rsbFocused.rsbButton {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+  .RadSearchBox_Simple .rsbSelected.rsbButton {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+
+.rsbPopup_Simple {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .rsbPopup_Simple .rsbListItemHovered {
+    color: #000000;
+    background-color: #fff7ac; }
+  .rsbPopup_Simple .rsbListItemSelected {
+    color: #000000;
+    background-color: #ffe79c; }
+  .rsbPopup_Simple .rsbListItemLoading {
+    color: #000000;
+    background-color: #fff7ac; }
+

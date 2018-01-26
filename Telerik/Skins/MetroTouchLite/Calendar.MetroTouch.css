@@ -1,0 +1,135 @@
+.RadCalendar_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCalendar_MetroTouch .rcTitlebar {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCalendar_MetroTouch .t-button {
+    border-radius: 50%; }
+  .RadCalendar_MetroTouch .t-button:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendar_MetroTouch .t-button:focus,
+  .RadCalendar_MetroTouch .t-button:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendar_MetroTouch td {
+    border-color: transparent; }
+  .RadCalendar_MetroTouch th {
+    color: #333333;
+    background-color: #f9f9f9; }
+  .RadCalendar_MetroTouch .rcHeader,
+  .RadCalendar_MetroTouch .rcFooter {
+    border-color: #e0e0e0; }
+  .RadCalendar_MetroTouch .rcWeek th {
+    border-color: #e0e0e0;
+    color: #000000;
+    text-align: center; }
+  .RadCalendar_MetroTouch .rcWeek .rcViewSel {
+    background-color: #f9f9f9; }
+  .RadCalendar_MetroTouch .rcMain .rcRow a,
+  .RadCalendar_MetroTouch .rcMain .rcRow span {
+    border-radius: 50%;
+    text-align: center; }
+  .RadCalendar_MetroTouch .rcToday a,
+  .RadCalendar_MetroTouch .rcToday span {
+    border-color: #25a0da;
+    color: #25a0da; }
+  .RadCalendar_MetroTouch .rcHover a,
+  .RadCalendar_MetroTouch .rcHover span {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendar_MetroTouch .rcSelected a,
+  .RadCalendar_MetroTouch .rcSelected span {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendar_MetroTouch .rcFocus {
+    border-color: #25a0da;
+    box-shadow: inset 0 0 5px #25a0da; }
+
+.RadCalendarMultiView_MetroTouch .rcTitlebar {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadCalendarMultiView_MetroTouch .rcCalendar {
+  border-color: #e6e6e6; }
+
+.RadCalendarMultiView_MetroTouch td.rcTitle {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadCalendarMonthView_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCalendarMonthView_MetroTouch a {
+    border-radius: 0; }
+  .RadCalendarMonthView_MetroTouch a:hover {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendarMonthView_MetroTouch .rcSelected a {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendarMonthView_MetroTouch .rcButtons a {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCalendarMonthView_MetroTouch .rcButtons a:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendarMonthView_MetroTouch .rcButtons a:focus,
+  .RadCalendarMonthView_MetroTouch .rcButtons a:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+
+.RadCalendarTimeView_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCalendarTimeView_MetroTouch th {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCalendarTimeView_MetroTouch td {
+    border-color: #e6e6e6; }
+  .RadCalendarTimeView_MetroTouch .rcSelected a {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendarTimeView_MetroTouch .rcHover a {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendarTimeView_MetroTouch .rcFooter {
+    border-color: #e6e6e6; }
+
+.RadPicker_MetroTouch {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadPicker_MetroTouch .riLabel {
+    color: #333333; }
+  .RadPicker_MetroTouch.rcCalPopupOpen .RadInput, .RadPicker_MetroTouch.rcMYPopupOpen .RadInput, .RadPicker_MetroTouch.rcTimePopupOpen .RadInput {
+    border-color: #25a0da;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadPicker_MetroTouch.rcCalPopupOpen .rcCalPopup,
+  .RadPicker_MetroTouch.rcMYPopupOpen .rcCalPopup,
+  .RadPicker_MetroTouch.rcTimePopupOpen .rcTimePopup {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+

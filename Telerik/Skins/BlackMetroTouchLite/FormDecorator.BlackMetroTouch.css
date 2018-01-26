@@ -1,0 +1,182 @@
+.RadForm_BlackMetroTouch {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadForm_BlackMetroTouch .rfdHeading {
+    color: #ffffff;
+    border-bottom-color: #333333; }
+  .RadForm_BlackMetroTouch.rfdFieldset fieldset {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch .rfdAspLabel,
+  .RadForm_BlackMetroTouch.rfdLabel label {
+    color: #ffffff; }
+  .RadForm_BlackMetroTouch .rfdSkinnedButton {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch .rfdSkinnedButton:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadForm_BlackMetroTouch .rfdSkinnedButton:active,
+  .RadForm_BlackMetroTouch .rfdClickedButton,
+  .RadForm_BlackMetroTouch .rfdFocusedButton {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadForm_BlackMetroTouch .rfdSkinnedButton.rfdInputDisabled {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch .rfdPrimaryButton {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadForm_BlackMetroTouch .rfdPrimaryButton:hover {
+    border-color: #006299;
+    color: #ffffff;
+    background-color: #006299; }
+  .RadForm_BlackMetroTouch .rfdPrimaryButton:active,
+  .RadForm_BlackMetroTouch .rfdPrimaryButton.rfdClickedButton,
+  .RadForm_BlackMetroTouch .rfdPrimaryButton.rfdFocusedButton {
+    border-color: #004166;
+    color: #ffffff;
+    background-color: #004166; }
+  .RadForm_BlackMetroTouch .rfdPrimaryButton.rfdInputDisabled {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadForm_BlackMetroTouch .rfdTextInput,
+  .RadForm_BlackMetroTouch.rfdTextarea textarea {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadForm_BlackMetroTouch .rfdTextInput:hover,
+  .RadForm_BlackMetroTouch.rfdTextarea textarea:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadForm_BlackMetroTouch .rfdTextInput:active,
+  .RadForm_BlackMetroTouch.rfdTextarea textarea:active,
+  .RadForm_BlackMetroTouch .rfdTextInput:focus,
+  .RadForm_BlackMetroTouch.rfdTextarea textarea:focus {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadForm_BlackMetroTouch .rfdTextInput:disabled,
+  .RadForm_BlackMetroTouch.rfdTextarea textarea:disabled {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadForm_BlackMetroTouch .rfdRadioChecked:before,
+  .RadForm_BlackMetroTouch .rfdCheckboxChecked:before {
+    color: #0082cc; }
+  .RadForm_BlackMetroTouch .rfdRadioUnchecked:hover:before,
+  .RadForm_BlackMetroTouch .rfdCheckboxUnchecked:hover:before,
+  .RadForm_BlackMetroTouch .rfdRadioChecked:hover:before,
+  .RadForm_BlackMetroTouch .rfdCheckboxChecked:hover:before {
+    color: #005180; }
+  .RadForm_BlackMetroTouch .rfdRealInput:focus + .rfdRadioUnchecked:before,
+  .RadForm_BlackMetroTouch .rfdRealInput:focus + .rfdCheckboxUnchecked:before {
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.5); }
+  .RadForm_BlackMetroTouch .rfdRealInput:focus + .rfdRadioChecked:before,
+  .RadForm_BlackMetroTouch .rfdRealInput:focus + .rfdCheckboxChecked:before {
+    box-shadow: 0 0 1px 1px rgba(0, 130, 204, 0.5); }
+  .RadForm_BlackMetroTouch .rfdSelect_BlackMetroTouch {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch .rfdSelect_BlackMetroTouch:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadForm_BlackMetroTouch .rfdSelect_BlackMetroTouch:active,
+  .RadForm_BlackMetroTouch .rfdSelect_BlackMetroTouch:focus {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadForm_BlackMetroTouch .rfdSelect_BlackMetroTouch.rfdSelectDisabled {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch.rfdScrollBars .rfdSelectBox::-webkit-scrollbar,
+  .RadForm_BlackMetroTouch.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:vertical,
+  .RadForm_BlackMetroTouch.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:horizontal,
+  .RadForm_BlackMetroTouch.rfdScrollBars form::-webkit-scrollbar,
+  .RadForm_BlackMetroTouch.rfdScrollBars form::-webkit-scrollbar-thumb:vertical,
+  .RadForm_BlackMetroTouch.rfdScrollBars form::-webkit-scrollbar-thumb:horizontal {
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch.rfdScrollBars textarea::-webkit-scrollbar-corner {
+    background-color: black; }
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-thumb:vertical,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal {
+    border-color: #555555;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+    background-image: url('../BlackMetroTouch/Common/radActionsSprite.png');
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement {
+    background-position: -17.5px -1118px; }
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+    background-position: -17.5px -1168px; }
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement {
+    background-position: -17.5px -1018px; }
+  .RadForm_BlackMetroTouch.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment {
+    background-position: -17.5px -1068px; }
+  .RadForm_BlackMetroTouch.rfdScrollBars {
+    scrollbar-3dlight-color: #1a1a1a;
+    scrollbar-arrow-color: #111111;
+    scrollbar-base-color: #f5f5f5;
+    scrollbar-darkshadow-color: #474747;
+    scrollbar-face-color: #393939;
+    scrollbar-highlight-color: #474747;
+    scrollbar-shadow-color: #1a1a1a;
+    scrollbar-track-color: #272727; }
+  .RadForm_BlackMetroTouch .rfdTable {
+    border-color: #333333;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadForm_BlackMetroTouch .rfdTable th {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch .rfdTable a {
+    color: #0082cc; }
+  .RadForm_BlackMetroTouch .rfdTable a:hover {
+    color: #005180; }
+  .RadForm_BlackMetroTouch .rfdLoginControl,
+  .RadForm_BlackMetroTouch .rfdValidationSummaryControl {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadForm_BlackMetroTouch a.rfdLoginControl,
+  .RadForm_BlackMetroTouch a.rfdLoginControl:active,
+  .RadForm_BlackMetroTouch a.rfdLoginControl:visited {
+    color: #ffffff; }
+  .RadForm_BlackMetroTouch a.rfdLoginControl:hover {
+    color: #ffffff; }
+
+.rfdSelectBox_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000; }
+
+.rfdSelectBox_BlackMetroTouch li:hover,
+.rfdSelectBox_BlackMetroTouch .rfdSelect_hovered {
+  color: #ffffff;
+  background-color: #555555; }
+
+.rfdSelectBox_BlackMetroTouch .rfdSelect_selected,
+.rfdSelectBox_BlackMetroTouch .rfdSelect_selected:hover {
+  color: #ffffff;
+  background-color: #0082cc; }
+

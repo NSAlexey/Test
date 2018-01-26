@@ -1,0 +1,150 @@
+.RadEditor_Simple {
+  background-color: #ededed;
+  border-color: #cccccc;
+  color: #333333; }
+  .RadEditor_Simple .reToolBar,
+  .RadEditor_Simple .reTool,
+  .RadEditor_Simple .reModes a,
+  .RadEditor_Simple .reDOMElement, .RadEditor_Simple.reDropDownBody,
+  .RadEditor_Simple.reDropDownBody .reTlbVertical ul.reToolBar .reTool.reToolIcon:before,
+  .RadEditor_Simple.reAlignmentSelector td div:before, .RadEditor_Simple.rePopupContainer,
+  .RadEditor_Simple .rePopupButton,
+  .RadEditor_Simple .reCommentEdit,
+  .RadEditor_Simple .reCommentView,
+  .RadEditor_Simple .reCommentButton,
+  .RadEditor_Simple .reCommentInfoPanel,
+  .RadEditor_Simple .reAjaxSpellButton {
+    border-radius: 0; }
+  .RadEditor_Simple .reToolBar, .RadEditor_Simple.rePopupContainer,
+  .RadEditor_Simple .rePopupTitle,
+  .RadEditor_Simple .reCommentInfoPanel,
+  .RadEditor_Simple .reCommentView,
+  .RadEditor_Simple .reCommentViewText,
+  .RadEditor_Simple .reCommentEdit {
+    background-color: #ededed;
+    border-color: #cccccc; }
+  .RadEditor_Simple .rePopupButton,
+  .RadEditor_Simple .reCommentButton,
+  .RadEditor_Simple .reAjaxSpellButton {
+    background-color: #e2e2e2;
+    border-color: #7c7c7c;
+    color: #000000; }
+  .RadEditor_Simple .reTool:hover,
+  .RadEditor_Simple .reToolText:hover,
+  .RadEditor_Simple .reModes a:hover,
+  .RadEditor_Simple .reDropdown:hover,
+  .RadEditor_Simple .reSpinBoxButtons span:hover,
+  .RadEditor_Simple.reInsertTable .reTool:hover:before,
+  .RadEditor_Simple.reAlignmentSelector td div:hover:before,
+  .RadEditor_Simple .rePopupButton:hover,
+  .RadEditor_Simple .reCommentButton:hover,
+  .RadEditor_Simple .reAjaxSpellButton:hover {
+    background-color: #ffe79c;
+    border-color: #ca8500; }
+  .RadEditor_Simple .reTool:active,
+  .RadEditor_Simple .reTool:focus,
+  .RadEditor_Simple .reToolText:active,
+  .RadEditor_Simple .reToolText:focus,
+  .RadEditor_Simple .reToolSelected,
+  .RadEditor_Simple .reToolSelected:hover,
+  .RadEditor_Simple .reModes a:active,
+  .RadEditor_Simple .reModes a:focus,
+  .RadEditor_Simple .reModes .reSelectedMode,
+  .RadEditor_Simple .reModes .reSelectedMode:hover,
+  .RadEditor_Simple .reDropdown:active,
+  .RadEditor_Simple .reDropdown:focus,
+  .RadEditor_Simple .reSpinBoxButtons span:active,
+  .RadEditor_Simple .reSpinBoxButtons span:focus,
+  .RadEditor_Simple .rePopupButton:active,
+  .RadEditor_Simple .rePopupButton:focus,
+  .RadEditor_Simple .reCommentButton:active,
+  .RadEditor_Simple .reCommentButton:focus,
+  .RadEditor_Simple .reAjaxSpellButton:focus,
+  .RadEditor_Simple .reAjaxSpellButton:active {
+    background-color: #ffa517;
+    border-color: #ca4900; }
+  .RadEditor_Simple .reDropdown,
+  .RadEditor_Simple .reTool,
+  .RadEditor_Simple .reTool.reTool:before,
+  .RadEditor_Simple .reToolText,
+  .RadEditor_Simple .reDOMElement,
+  .RadEditor_Simple .reCustomColor,
+  .RadEditor_Simple .reCustomLinks a,
+  .RadEditor_Simple .reModes a {
+    color: #333333; }
+  .RadEditor_Simple .reTool:hover .reSplitArrow {
+    border-left-color: #ca8500; }
+  .RadEditor_Simple .reTool:active .reSplitArrow,
+  .RadEditor_Simple .reTool:focus .reSplitArrow {
+    border-left-color: #ca4900; }
+  .RadEditor_Simple .reSeparator {
+    border-right-color: #f5f5f5;
+    border-left-color: #c9c9c9; }
+  .RadEditor_Simple .reToolBarWrapperLeft .reSeparator,
+  .RadEditor_Simple .reToolBarWrapperRight .reSeparator {
+    border-top-color: #c9c9c9;
+    border-bottom-color: #f5f5f5; }
+  .RadEditor_Simple .reContent {
+    background-color: #ffffff;
+    border-color: #cccccc; }
+  .RadEditor_Simple .reTableDiv .reModule,
+  .RadEditor_Simple .reTableDiv .reRow {
+    border-top-color: #cccccc; }
+  .RadEditor_Simple .reModes a:hover,
+  .RadEditor_Simple .reModes a:hover .reIcon:before,
+  .RadEditor_Simple .reModes a:focus,
+  .RadEditor_Simple .reModes a:active,
+  .RadEditor_Simple .reModes .reSelectedMode,
+  .RadEditor_Simple .reModes .reSelectedMode:hover,
+  .RadEditor_Simple .reModes a:active .reIcon:before,
+  .RadEditor_Simple .reModes .reSelectedMode .reIcon:before,
+  .RadEditor_Simple .rePopupButton:hover,
+  .RadEditor_Simple .reCommentButton:hover,
+  .RadEditor_Simple .rePopupButton:active,
+  .RadEditor_Simple .rePopupButton:focus,
+  .RadEditor_Simple .reCommentButton:active,
+  .RadEditor_Simple .reCommentButton:focus {
+    color: #882501; }
+  .RadEditor_Simple .reDropdown,
+  .RadEditor_Simple .reDropdown.reToolDisabled,
+  .RadEditor_Simple .reDropdown.reToolDisabled:hover,
+  .RadEditor_Simple .reDropdown.reToolDisabled:active,
+  .RadEditor_Simple .reDropdown.reToolDisabled:focus {
+    background-color: #ffffff;
+    border-color: #cccccc; }
+  .RadEditor_Simple .reDropdown:hover {
+    background-color: #ffffff; }
+  .RadEditor_Simple .reRemoveDOMElement,
+  .RadEditor_Simple .reRemoveDOMElement:before {
+    color: #ff0000; }
+  .RadEditor_Simple.reDropDownBody.reAjaxSpellCheck input[type="text"],
+  .RadEditor_Simple .reTableDiv input[type="text"] {
+    border-color: #cccccc; }
+  .RadEditor_Simple.reDropDownBody.reAjaxSpellCheck input[type="text"]:hover,
+  .RadEditor_Simple .reTableDiv input[type="text"]:hover {
+    border-color: #c98400; }
+  .RadEditor_Simple .reResize:before {
+    color: #333333; }
+  .RadEditor_Simple.reInlineEditor:hover {
+    border-color: #cccccc; }
+  .RadEditor_Simple.RadWindow, .RadEditor_Simple.RadWindow.reInlineEditor:hover {
+    border-color: #828282; }
+  .RadEditor_Simple.reInlineEditorSelected, .RadEditor_Simple.reInlineEditorSelected:hover {
+    border-color: #ca250c; }
+  .RadEditor_Simple.RadWindow,
+  .RadEditor_Simple.RadWindow .rwContent {
+    background-color: #ededed; }
+  .RadEditor_Simple.reDropDownBody {
+    background-color: #ffffff; }
+  .RadEditor_Simple.reDropDownBody li:hover {
+    background-color: #fff7ac; }
+  .RadEditor_Simple.reInsertTable td {
+    border-color: #cccccc; }
+  .RadEditor_Simple .reFormatSetsHeader,
+  .RadEditor_Simple.reInsertTable .reItemOver {
+    background-color: #fff7ac;
+    color: #000000; }
+
+.reTool .reNoAlignment {
+  color: #333333; }
+

@@ -1,0 +1,48 @@
+.RadButton_Office2010Silver {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+  .RadButton_Office2010Silver.rbSkinnedButton, .RadButton_Office2010Silver.rbVerticalButton,
+  .RadButton_Office2010Silver .rbDecorated,
+  .RadButton_Office2010Silver .rbSplitRight,
+  .RadButton_Office2010Silver .rbSplitLeft {
+    background-image: url('Common/radFormSprite.png');
+    color: #333333; }
+  .RadButton_Office2010Silver .rbToggleCheckbox,
+  .RadButton_Office2010Silver .rbToggleCheckboxChecked,
+  .RadButton_Office2010Silver .rbToggleCheckboxFilled,
+  .RadButton_Office2010Silver .rbToggleRadio,
+  .RadButton_Office2010Silver .rbToggleRadioChecked {
+    background-image: url('Common/radFormToggleSprite.png'); }
+  .RadButton_Office2010Silver.rbToggleButton, .RadButton_Office2010Silver.rbToggleButton.rbDisabled:hover {
+    color: #333333; }
+  .RadButton_Office2010Silver.rbToggleButton:hover {
+    color: #000000; }
+  .RadButton_Office2010Silver.rbLinkButton, .RadButton_Office2010Silver.rbLinkButton.rbDisabled, .RadButton_Office2010Silver.rbLinkButton.rbDisabled:hover, .RadButton_Office2010Silver.rbLinkButton.rbDisabled:active, .RadButton_Office2010Silver.rbLinkButton.rbDisabled:focus {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1);
+    background-position: 0 0; }
+  .RadButton_Office2010Silver.rbLinkButton:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadButton_Office2010Silver.rbLinkButton:active, .RadButton_Office2010Silver.rbLinkButton:focus, .RadButton_Office2010Silver.rbLinkButtonChecked, .RadButton_Office2010Silver.rbLinkButtonChecked:hover {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadButton_Office2010Silver.rbLinkButton:hover .rbSplitLeft,
+  .RadButton_Office2010Silver.rbLinkButton:hover .rbSplitRight {
+    background-color: #dbdde1; }
+  .RadButton_Office2010Silver.rbLinkButton .rbSplitLeft:hover,
+  .RadButton_Office2010Silver.rbLinkButton .rbSplitRight:hover {
+    background-color: #fcf5d9; }
+  .RadButton_Office2010Silver.rbLinkButton .rbSplitLeft:active,
+  .RadButton_Office2010Silver.rbLinkButton .rbSplitLeft:focus,
+  .RadButton_Office2010Silver.rbLinkButton .rbSplitRight:active,
+  .RadButton_Office2010Silver.rbLinkButton .rbSplitRight:focus {
+    background-color: #ffef7c;
+    border-color: #c38e00; }
+

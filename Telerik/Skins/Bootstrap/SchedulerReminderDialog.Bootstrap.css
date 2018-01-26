@@ -1,0 +1,125 @@
+.ReminderDialog_Bootstrap {
+  border: 1px solid;
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143; }
+  .ReminderDialog_Bootstrap .rsModalBgTopLeft,
+  .ReminderDialog_Bootstrap .rsModalBgTopRight,
+  .ReminderDialog_Bootstrap .rsModalBgBottomLeft,
+  .ReminderDialog_Bootstrap .rsModalBgBottomRight {
+    background: none;
+    display: none; }
+  .ReminderDialog_Bootstrap .rsRemTitleBar {
+    margin: 0;
+    padding: 8px;
+    height: auto;
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+    .ReminderDialog_Bootstrap .rsRemTitleBar .rsRemTitleBarCloseBtn {
+      margin: 0;
+      padding: 6px 12px;
+      width: 8px;
+      height: 20px;
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -9px -1909px;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      left: auto; }
+  .ReminderDialog_Bootstrap .rsRemTitleBarIcon {
+    margin: 0 6px 0 0;
+    position: static;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -17px -4417px; }
+  .ReminderDialog_Bootstrap .rsRemTitleBarText {
+    padding: 8px 0;
+    margin: 0;
+    height: auto;
+    font-size: 1em;
+    text-indent: 0;
+    line-height: 1.42857143;
+    display: inline-block; }
+  * + html .ReminderDialog_Bootstrap .rsRemTitleBarText {
+    display: inline;
+    zoom: 1; }
+  .ReminderDialog_Bootstrap .rsRemContentPanel {
+    padding: 8px;
+    background: #ffffff; }
+  .ReminderDialog_Bootstrap .rsRemTitle {
+    margin: 0;
+    padding: 0; }
+  .ReminderDialog_Bootstrap .rsRemList {
+    margin: 20px 0 0 0;
+    padding: 0; }
+    .ReminderDialog_Bootstrap .rsRemList .RadListBox .rlbGroup {
+      height: 138px;
+      overflow-y: scroll; }
+  .ReminderDialog_Bootstrap .rsRemActions {
+    margin: 20px 0 0 0;
+    padding: 0; }
+    .ReminderDialog_Bootstrap .rsRemActions a.rsRemDismissAllBtn,
+    .ReminderDialog_Bootstrap .rsRemActions a.rsRemOpenItemBtn,
+    .ReminderDialog_Bootstrap .rsRemActions a.rsRemDismissBtn {
+      padding: 6px 12px;
+      height: auto;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      color: #333333;
+      background-color: #ffffff;
+      font-size: 1em;
+      line-height: 1.42857143; }
+      .ReminderDialog_Bootstrap .rsRemActions a.rsRemDismissAllBtn:hover,
+      .ReminderDialog_Bootstrap .rsRemActions a.rsRemOpenItemBtn:hover,
+      .ReminderDialog_Bootstrap .rsRemActions a.rsRemDismissBtn:hover {
+        border-color: #adadad;
+        color: #333333;
+        background-color: #e6e6e6; }
+      .ReminderDialog_Bootstrap .rsRemActions a.rsRemDismissAllBtn:active,
+      .ReminderDialog_Bootstrap .rsRemActions a.rsRemOpenItemBtn:active,
+      .ReminderDialog_Bootstrap .rsRemActions a.rsRemDismissBtn:active {
+        border-color: #adadad;
+        color: #333333;
+        background-color: #e6e6e6; }
+  .ReminderDialog_Bootstrap .rsRemSnoozePanel {
+    margin: 20px 0 0 0;
+    padding: 0;
+    position: static; }
+    .ReminderDialog_Bootstrap .rsRemSnoozePanel .rsRemSnoozeLabel {
+      margin: 0;
+      padding: 0; }
+    .ReminderDialog_Bootstrap .rsRemSnoozePanel a.rsRemSnoozeBtn {
+      padding: 6px 12px;
+      height: auto;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      color: #333333;
+      background-color: #ffffff;
+      font-size: 1em;
+      line-height: 1.42857143;
+      margin: 0; }
+      .ReminderDialog_Bootstrap .rsRemSnoozePanel a.rsRemSnoozeBtn:hover {
+        border-color: #adadad;
+        color: #333333;
+        background-color: #e6e6e6; }
+      .ReminderDialog_Bootstrap .rsRemSnoozePanel a.rsRemSnoozeBtn:active {
+        border-color: #adadad;
+        color: #333333;
+        background-color: #e6e6e6; }
+    .ReminderDialog_Bootstrap .rsRemSnoozePanel .RadComboBox {
+      margin: 0; }
+
+.RadScheduler .ReminderDialog {
+  padding: 0; }
+
+/* <advanced edit title> */
+.ReminderDialog_MetroTouch .rsRemTitleIcon,
+.ReminderDialog_MetroTouch .rsRemTitleBarIcon {
+  color: #767676;
+  background-image: url('Scheduler/rsSprites.png'); }
+
+/* </advanced edit title> */
+

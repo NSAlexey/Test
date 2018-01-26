@@ -1,0 +1,168 @@
+.RadAutoCompleteBox {
+  width: 160px;
+  cursor: default;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+  .RadAutoCompleteBox input,
+  .RadAutoCompleteBox input:focus {
+    box-shadow: none;
+    outline: none; }
+  .RadAutoCompleteBox input::-ms-clear {
+    display: none; }
+  .RadAutoCompleteBox .racTokenList {
+    padding: 1px 20px 1px 1px;
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden;
+    position: relative; }
+  .RadAutoCompleteBox .racToken {
+    padding: 0 5px;
+    border-width: 1px;
+    border-style: solid;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle; }
+  .RadAutoCompleteBox .racToken + .racToken {
+    margin-left: 1px; }
+  .RadAutoCompleteBox .racRemoveTokenLink {
+    margin: -4px -4px 0 2px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer; }
+  .RadAutoCompleteBox .racRemoveTokenLink .p-icon {
+    display: none; }
+  .RadAutoCompleteBox .racDisabled .racRemoveTokenLink {
+    display: none; }
+  .RadAutoCompleteBox .racTextToken {
+    padding: 0 0 0 4px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle; }
+  .RadAutoCompleteBox .racTextToken + .racTextToken {
+    margin-left: 1px; }
+  .RadAutoCompleteBox .racTextToken.racFocused {
+    outline: 1px dotted; }
+  .RadAutoCompleteBox .racInput {
+    margin: 0;
+    padding: 0 0 0 4px;
+    max-width: 100%;
+    height: 18px;
+    border: 0;
+    color: inherit;
+    background: none;
+    font: inherit;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: content-box; }
+  * + html .RadAutoCompleteBox .racInput {
+    color: expression(this.parentNode.currentStyle['color']);
+    font-size: 1em;
+    font-family: expression(this.parentNode.currentStyle['fontFamily']);
+    line-height: expression(this.parentNode.currentStyle['lineHeight']); }
+  .RadAutoCompleteBox .racEmptyMessage {
+    font-style: italic;
+    filter: alpha(opacity=80);
+    opacity: .8; }
+  .RadAutoCompleteBox .racEditTokenInput {
+    margin: 0;
+    padding: 0;
+    height: 16px;
+    border: 0;
+    color: inherit;
+    background: none;
+    font: inherit; }
+  * + html .RadAutoCompleteBox .racEditTokenInput {
+    color: expression(this.parentNode.currentStyle['color']);
+    font-size: 1em;
+    font-family: expression(this.parentNode.currentStyle['fontFamily']);
+    line-height: expression(this.parentNode.currentStyle['lineHeight']); }
+  .RadAutoCompleteBox .racLoadingIcon {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 16px;
+    height: 16px; }
+  .RadAutoCompleteBox .racTokenHovered {
+    background-position: 0 -1000px\9; }
+  .RadAutoCompleteBox .racTokenSelected {
+    background-position: 0 -2000px\9; }
+  .RadAutoCompleteBox .racTokenDisabled {
+    background-position: 0 -3000px\9; }
+  .RadAutoCompleteBox .racDisabled {
+    filter: alpha(opacity=70);
+    opacity: 0.7; }
+
+.racSlide {
+  position: absolute;
+  z-index: 9999; }
+
+.RadAutoCompleteBoxPopup {
+  width: 160px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  cursor: default;
+  position: relative; }
+  .RadAutoCompleteBoxPopup .racList {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    overflow: auto; }
+  .RadAutoCompleteBoxPopup .racHeader,
+  .RadAutoCompleteBoxPopup .racFooter {
+    *zoom: 1;
+    padding: 2px 5px;
+    border: 0 solid transparent;
+    border-color: inherit; }
+    .RadAutoCompleteBoxPopup .racHeader:after,
+    .RadAutoCompleteBoxPopup .racFooter:after {
+      content: "";
+      height: 0;
+      clear: both;
+      display: block; }
+  .RadAutoCompleteBoxPopup .racHeader {
+    margin-bottom: 1px;
+    border-bottom-width: 1px; }
+  .RadAutoCompleteBoxPopup .racFooter {
+    margin-top: 1px;
+    border-top-width: 1px; }
+  * + html .RadAutoCompleteBoxPopup .racHeader,
+  * + html .RadAutoCompleteBoxPopup .racFooter {
+    border-color: expression(this.parentNode.currentStyle['borderColor']); }
+  .RadAutoCompleteBoxPopup .racShowAll {
+    margin: 1px 0 0 0;
+    padding: 2px 5px;
+    border: 0 solid transparent;
+    border-color: inherit;
+    border-top-width: 1px;
+    text-align: center;
+    cursor: pointer; }
+  * + html .RadAutoCompleteBoxPopup .racShowAll {
+    border-color: expression(this.parentNode.currentStyle['borderColor']); }
+  .RadAutoCompleteBoxPopup .racItem {
+    *zoom: 1;
+    padding: 2px 5px; }
+    .RadAutoCompleteBoxPopup .racItem:after {
+      content: "";
+      height: 0;
+      clear: both;
+      display: block; }
+
+.RadAutoCompleteBox.RadAutoCompleteBoxWithLabel .racLabel {
+  display: inline-block;
+  padding-right: 7px;
+  vertical-align: middle; }
+
+.RadAutoCompleteBox.RadAutoCompleteBoxWithLabel .racTokenList {
+  display: inline-block;
+  vertical-align: middle;
+  *display: inline;
+  *zoom: 1; }
+

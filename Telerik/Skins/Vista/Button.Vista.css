@@ -1,0 +1,51 @@
+.RadButton_Vista {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+  .RadButton_Vista.rbSkinnedButton, .RadButton_Vista.rbVerticalButton,
+  .RadButton_Vista .rbDecorated,
+  .RadButton_Vista .rbSplitRight,
+  .RadButton_Vista .rbSplitLeft {
+    background-image: url('Common/radFormSprite.png');
+    color: #000000; }
+  .RadButton_Vista .rbToggleCheckbox,
+  .RadButton_Vista .rbToggleCheckboxChecked,
+  .RadButton_Vista .rbToggleCheckboxFilled,
+  .RadButton_Vista .rbToggleRadio,
+  .RadButton_Vista .rbToggleRadioChecked {
+    background-image: url('Common/radFormToggleSprite.png'); }
+  .RadButton_Vista.rbToggleButton, .RadButton_Vista.rbToggleButton.rbDisabled:hover {
+    color: #333333; }
+  .RadButton_Vista.rbToggleButton:hover {
+    color: #000000; }
+  .RadButton_Vista.rbLinkButton, .RadButton_Vista.rbLinkButton.rbDisabled, .RadButton_Vista.rbLinkButton.rbDisabled:hover, .RadButton_Vista.rbLinkButton.rbDisabled:active, .RadButton_Vista.rbLinkButton.rbDisabled:focus {
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3;
+    background-position: 0 0; }
+  .RadButton_Vista.rbLinkButton:hover {
+    border-color: #5094b9;
+    color: #000000;
+    background-color: #abdcf7;
+    background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78); }
+  .RadButton_Vista.rbLinkButton:active, .RadButton_Vista.rbLinkButton:focus, .RadButton_Vista.rbLinkButtonChecked, .RadButton_Vista.rbLinkButtonChecked:hover {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+    box-shadow: inset 0 0 3px 1px #41d7fc; }
+  .RadButton_Vista.rbLinkButton:hover .rbSplitLeft,
+  .RadButton_Vista.rbLinkButton:hover .rbSplitRight {
+    background-color: #d2d2d2; }
+  .RadButton_Vista.rbLinkButton .rbSplitLeft:hover,
+  .RadButton_Vista.rbLinkButton .rbSplitRight:hover {
+    background-color: #abdcf7; }
+  .RadButton_Vista.rbLinkButton .rbSplitLeft:active,
+  .RadButton_Vista.rbLinkButton .rbSplitLeft:focus,
+  .RadButton_Vista.rbLinkButton .rbSplitRight:active,
+  .RadButton_Vista.rbLinkButton .rbSplitRight:focus {
+    background-color: #ced7dd;
+    border-color: #3d7899; }
+

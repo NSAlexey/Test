@@ -1,0 +1,11 @@
+.RadTagCloud_Material {
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #f4f7f8; }
+  .RadTagCloud_Material .rtcTagItem a {
+    color: #455A64; }
+  .RadTagCloud_Material .rtcTagItem a:hover {
+    color: #03A9F4; }
+  .RadTagCloud_Material.rtcLoading {
+    background-image: url('../Material/Common/loading_small.gif'); }
+

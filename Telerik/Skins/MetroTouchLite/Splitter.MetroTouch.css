@@ -1,0 +1,78 @@
+.RadSplitter_MetroTouch {
+  border-color: #e6e6e6; }
+  .RadSplitter_MetroTouch .rspPane,
+  .RadSplitter_MetroTouch .rspPaneHorizontal {
+    border-color: #e6e6e6; }
+  .RadSplitter_MetroTouch .rspSlidePane {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_MetroTouch .rspSlideHeader,
+  .RadSplitter_MetroTouch .rspSlideTitleContainer {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSplitter_MetroTouch .rspSlideTitleContainer,
+  .RadSplitter_MetroTouch .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #e0e0e0; }
+  .RadSplitter_MetroTouch .rspSlideHeaderDockIcon:hover,
+  .RadSplitter_MetroTouch .rspSlideHeaderUndockIcon:hover,
+  .RadSplitter_MetroTouch .rspSlideHeaderCollapseIcon:hover {
+    color: #25a0da; }
+  .RadSplitter_MetroTouch .rspResizeBar,
+  .RadSplitter_MetroTouch .rspSlideContainerResize {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSplitter_MetroTouch .rspResizeBarOver,
+  .RadSplitter_MetroTouch .rspSlideContainerResizeOver {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSplitter_MetroTouch .rspResizeBarHorizontal,
+  .RadSplitter_MetroTouch .rspSlideContainerResizeHorizontal {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSplitter_MetroTouch .rspResizeBarOverHorizontal,
+  .RadSplitter_MetroTouch .rspSlideContainerResizeOverHorizontal {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSplitter_MetroTouch .rspCollapseBarExpand,
+  .RadSplitter_MetroTouch .rspCollapseBarCollapse {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSplitter_MetroTouch .rspCollapseBarHorizontalExpand,
+  .RadSplitter_MetroTouch .rspCollapseBarHorizontalCollapse {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSplitter_MetroTouch .rspCollapseBarExpandOver,
+  .RadSplitter_MetroTouch .rspCollapseBarCollapseOver {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSplitter_MetroTouch .rspCollapseBarHorizontalExpandOver,
+  .RadSplitter_MetroTouch .rspCollapseBarHorizontalCollapseOver {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSplitter_MetroTouch .rspTabsContainer {
+    background-color: #ffffff; }
+  .RadSplitter_MetroTouch .rspPaneTabContainer {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSplitter_MetroTouch .rspPaneTabContainer:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSplitter_MetroTouch .rspPaneTabContainerExpanded {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadSplitter_MetroTouch .rspLoading {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+

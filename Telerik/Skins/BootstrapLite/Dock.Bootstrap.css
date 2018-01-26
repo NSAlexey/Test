@@ -1,0 +1,14 @@
+.RadDock_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadDock_Bootstrap .rdTitleWrapper {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke;
+    border-color: inherit; }
+  .RadDock_Bootstrap .rdCommandButton:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+

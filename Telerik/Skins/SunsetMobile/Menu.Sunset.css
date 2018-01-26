@@ -1,0 +1,33 @@
+.RadMenu_Sunset .rmRootToggle {
+  border-color: #938973;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: linear-gradient(#f1eadf, #ded7c6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadMenu_Sunset .rmRootToggle:active,
+.RadMenu_Sunset .rmRootToggle.rmExpanded {
+  border-color: #e2711c;
+  color: #5d1f00;
+  background-color: #e88d49;
+  background-image: linear-gradient(#f3bc8b, #e88d49);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+
+.RadMenuPopup_Sunset {
+  border-color: #938879;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadMenuPopup_Sunset:before {
+    border-bottom-color: #938879; }
+  .RadMenuPopup_Sunset:after {
+    border-bottom-color: #ffffff; }
+  .RadMenuPopup_Sunset .rmItem {
+    border-color: #938879; }
+  .RadMenuPopup_Sunset .rmItem.rmSelected {
+    color: #5d1f00;
+    background-color: #f2d52d; }
+  .RadMenuPopup_Sunset .rmLoading:after {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadMenuPopup_Sunset .rmLoadingIcon:after {
+    background-image: url('../Sunset/Common/loading_small.gif'); }
+

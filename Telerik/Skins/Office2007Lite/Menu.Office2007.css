@@ -1,0 +1,78 @@
+.RadMenu_Office2007 .rmRootGroup {
+  border-color: #85b0e3;
+  color: #333333;
+  background-color: #c3d8f1;
+  background-image: linear-gradient(#dee8f5, #c3d8f1); }
+  .RadMenu_Office2007 .rmRootGroup.rmVertical {
+    background-image: none; }
+  .RadMenu_Office2007 .rmRootGroup .rmItem {
+    border-color: #aecbec; }
+  .RadMenu_Office2007 .rmRootGroup .rmRootLink:hover {
+    border-color: #ffb113;
+    color: #000000;
+    background-color: #ffca5f;
+    background-image: linear-gradient(#ffdc9c, #ffca5f); }
+  .RadMenu_Office2007 .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Office2007 .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #ffb92c;
+    color: #000000;
+    background-color: #ffb92c;
+    background-image: linear-gradient(#ffca69, #ffb92c); }
+  .RadMenu_Office2007 .rmRootGroup .rmFocused > .rmLink {
+    border-color: #ffb92c;
+    box-shadow: inset 0 0 5px #ffb92c; }
+
+.RadMenu_Office2007 .rmGroup,
+.RadMenu_Office2007 .rmMultiColumn,
+.RadMenu_Office2007 .rmPopup {
+  border-color: #9eb6ce;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadMenu_Office2007 .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_Office2007 .rmGroup .rmLink:hover,
+.RadMenu_Office2007 .rmGroup .rmToggle:hover {
+  border-color: #ffd563;
+  color: #00156e;
+  background-color: #ffd563;
+  background-image: linear-gradient(#ffe391, #ffd563); }
+
+.RadMenu_Office2007 .rmGroup .rmSelected > .rmLink,
+.RadMenu_Office2007 .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Office2007 .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Office2007 .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #f99631;
+  color: #000000;
+  background-color: #f99631;
+  background-image: linear-gradient(#faad60, #f99631); }
+
+.RadMenu_Office2007 .rmGroup .rmFocused > .rmLink,
+.RadMenu_Office2007 .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #f99631;
+  box-shadow: inset 0 0 5px #f99631; }
+
+.RadMenu_Office2007 .rmSeparator {
+  border-color: #85b0e3; }
+
+.RadMenu_Office2007 .rmGroup .rmSeparator {
+  border-color: #9eb6ce; }
+
+.RadMenu_Office2007 .rmArrow {
+  border-color: #d9d9d9;
+  background-color: #f2f2f2; }
+
+.RadMenu_Office2007 .rmArrow:hover {
+  background-color: #e6e6e6; }
+
+.RadMenu_Office2007 .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #9eb6ce; }
+
+.RadMenu_Office2007 .rmGroup:before,
+.RadMenu_Office2007 .rmMultiColumn:before,
+.RadMenu_Office2007 .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Office2007 .rmScrollWrap > .rmVertical:before {
+  border-color: transparent;
+  background-color: #e9eeee; }
+

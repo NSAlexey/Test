@@ -1,0 +1,298 @@
+.RadGrid_Material {
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadGrid_Material .rgGroupPanel,
+  .RadGrid_Material .rgHeader,
+  .RadGrid_Material .rgCommandRow {
+    background: #8BC34A; }
+  .RadGrid_Material .rgActionButton,
+  .RadGrid_Material .rgDrag,
+  .RadGrid_Material .rgDragClue,
+  .RadGrid_Material .rgExpandIcon,
+  .RadGrid_Material .rgCollapseIcon,
+  .RadGrid_Material .rgGroupPanelExpand,
+  .RadGrid_Material .rgGroupPanelCollapse,
+  .RadGrid_Material .rgButtonSortDesc,
+  .RadGrid_Material .rgButtonSortDesc,
+  .RadGrid_Material .rgButtonSortAsc,
+  .RadGrid_Material .rgButtonSortClear,
+  .RadGrid_Material .rgMobileExportForm .rgColumnItem,
+  .RadGrid_Material a.rgFilter,
+  .RadGrid_Material a.rgColumns {
+    color: #455A64; }
+  .RadGrid_Material td a {
+    color: #8BC34A; }
+  .RadGrid_Material .rgInput {
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: transparent; }
+  .RadGrid_Material .rgHeader:first-child,
+  .RadGrid_Material th.rgResizeCol:first-child,
+  .RadGrid_Material .rgFilterRow > td:first-child,
+  .RadGrid_Material .rgRow > td:first-child,
+  .RadGrid_Material .rgAltRow > td:first-child {
+    border-left-width: 0; }
+  .RadGrid_Material.rgMultiHeader .rgDataDiv > table,
+  .RadGrid_Material.rgMultiHeader .rgFooterDiv > table {
+    margin-left: -1px; }
+  .RadGrid_Material .rgMobileMenu {
+    background: #f4f7f8; }
+  .RadGrid_Material .rgMobileForm,
+  .RadGrid_Material .rgMobileColumnForm {
+    background: #ffffff; }
+  .RadGrid_Material .rgValue {
+    height: 2.42em;
+    border: 1px solid #CFD8DC; }
+  .RadGrid_Material .rgLabel {
+    font-size: .857em;
+    color: #607D8B;
+    font-weight: 500;
+    line-height: 1.66667;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+  .RadGrid_Material .rgColumnItem .rgDrag:before {
+    border-right: 1px solid #CFD8DC; }
+  .RadGrid_Material .rgClear,
+  .RadGrid_Material .rgColumnItem {
+    color: #455A64;
+    border-color: #CFD8DC;
+    background-color: #ffffff; }
+  .RadGrid_Material .rgMobileGroupForm .rgMobileForm {
+    border-color: #CFD8DC;
+    background: #f4f7f8; }
+  .RadGrid_Material .rgHeader,
+  .RadGrid_Material th.rgResizeCol,
+  .RadGrid_Material .rgHeaderWrapper,
+  .RadGrid_Material .rgMultiHeaderRow th.rgHeader,
+  .RadGrid_Material .rgMultiHeaderRow th.rgResizeCol {
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #CFD8DC #ffffff; }
+  .RadGrid_Material .rgHeader,
+  .RadGrid_Material th.rgResizeCol,
+  .RadGrid_Material .rgHeaderWrapper {
+    background-color: #ffffff; }
+  .RadGrid_Material .rgHeaderDiv {
+    border-right: 1px solid #ffffff; }
+  .RadGrid_Material .rgHeaderWrapper {
+    border-bottom: 1px solid #CFD8DC; }
+  .RadGrid_Material .rgHeader,
+  .RadGrid_Material .rgHeader a {
+    color: #455A64; }
+  .RadGrid_Material .rgFilter:hover {
+    background-color: #ECEFF1; }
+  .RadGrid_Material .rgRow > td,
+  .RadGrid_Material .rgAltRow > td,
+  .RadGrid_Material .rgFooter > td {
+    border-color: #CFD8DC #ffffff; }
+  .RadGrid_Material .rgRow > td {
+    border-style: solid;
+    border-width: 0 0 1px 1px; }
+  .RadGrid_Material .rgAltRow > td {
+    border-width: 0 0 1px 1px;
+    background-color: #ffffff; }
+  .RadGrid_Material .rgAltRow.rgHoveredRow .rgSorted {
+    background-color: #e3e3e3; }
+  .RadGrid_Material .rgHoveredRow > td {
+    border-color: #ECEFF1;
+    background: #ECEFF1; }
+  .RadGrid_Material .rgEditRow {
+    background: rgba(207, 216, 220, 0.75);
+    color: #455A64; }
+    .RadGrid_Material .rgEditRow > td {
+      border-style: solid;
+      border-width: 0 0 1px 0;
+      border-color: #CFD8DC #ffffff; }
+  .RadGrid_Material .rgDeletedRow > td {
+    border-color: #a3b4bc;
+    color: #455A64; }
+    .RadGrid_Material .rgDeletedRow > td a {
+      color: #455A64; }
+  .RadGrid_Material .rgBatchOverlay {
+    background: rgba(207, 216, 220, 0.75); }
+  .RadGrid_Material .rgBatchUndoDeleteButton {
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    border: 1px solid;
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: #f4f7f8;
+    border-radius: 4px; }
+    .RadGrid_Material .rgBatchUndoDeleteButton:hover {
+      border-color: #ECEFF1;
+      color: #455A64;
+      background-color: #ECEFF1; }
+  .RadGrid_Material .rgSorted {
+    background-color: #689F38; }
+  .RadGrid_Material .rgMasterTable .rgSelectedCell,
+  .RadGrid_Material .rgSelectedRow td,
+  .RadGrid_Material td.rgEditRow .rgSelectedRow,
+  .RadGrid_Material .rgSelectedRow td.rgSorted {
+    color: #455A64;
+    background: #E1F5FE;
+    border-color: #455A64; }
+  .RadGrid_Material .rgSelectedRow.rgHoveredRow {
+    background: #E1F5FE; }
+  .RadGrid_Material .rgSelectedCell a,
+  .RadGrid_Material .rgSelectedRow a {
+    color: #455A64; }
+  .RadGrid_Material .rgFooterWrapper,
+  .RadGrid_Material .rgFooter {
+    background: #8BC34A; }
+  .RadGrid_Material .rgFooterWrapper {
+    border-top: 1px solid #CFD8DC; }
+  .RadGrid_Material .rgFooter > td {
+    border-left: 1px solid #ffffff; }
+    .RadGrid_Material .rgFooter > td:first-child {
+      border-left-width: 0; }
+  .RadGrid_Material .rgPager .rgStatus {
+    width: 3.36em;
+    background-color: #ffffff;
+    border-right: 1px solid #CFD8DC; }
+  .RadGrid_Material .rgStatus div {
+    background-image: url('../Material/Common/loading_small.gif'); }
+  .RadGrid_Material .rgPagerCell > div {
+    color: #455A64;
+    padding: 5px 15px 0;
+    border-top: 1px solid #CFD8DC; }
+    .RadGrid_Material .rgPagerCell > div .rgIcon:before {
+      font-family: "WebComponentsIcons"; }
+    .RadGrid_Material .rgPagerCell > div .rtlIcon:before {
+      font-size: 18px; }
+    .RadGrid_Material .rgPagerCell > div .rgWrap {
+      padding: 0; }
+    .RadGrid_Material .rgPagerCell > div .rgNumPart a {
+      color: #ffffff; }
+    .RadGrid_Material .rgPagerCell > div .rgPagerButton {
+      border: 0 none;
+      background-color: #f4f7f8;
+      color: #455A64;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+    .RadGrid_Material .rgPagerCell > div .rgActionButton {
+      border-radius: 90px; }
+      .RadGrid_Material .rgPagerCell > div .rgActionButton:hover {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1; }
+    .RadGrid_Material .rgPagerCell > div .rgNumPart a,
+    .RadGrid_Material .rgPagerCell > div .rgNumPart a:before,
+    .RadGrid_Material .rgPagerCell > div .rgActionButton {
+      margin: 0;
+      width: 1.42857em;
+      height: 1.42857em;
+      content: "";
+      position: relative;
+      z-index: 1; }
+    .RadGrid_Material .rgPagerCell > div .rgNumPart a {
+      height: calc(1.42857em + 5px); }
+    .RadGrid_Material .rgPagerCell > div .rgNumPart a {
+      color: #455A64;
+      text-align: center;
+      border-width: 0 0 2px;
+      border-bottom: 2px solid transparent; }
+      .RadGrid_Material .rgPagerCell > div .rgNumPart a:not(.rgCurrentPage):hover:before {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1;
+        border-radius: 90px;
+        padding: 6px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; }
+      .RadGrid_Material .rgPagerCell > div .rgNumPart a.rgCurrentPage {
+        border-color: #8BC34A;
+        color: #8BC34A;
+        border-radius: 0; }
+    .RadGrid_Material .rgPagerCell > div .rgInfoPart,
+    .RadGrid_Material .rgPagerCell > div .rgPagerLabel {
+      font-size: .857em;
+      color: #607D8B;
+      font-weight: 500;
+      line-height: 1.66667;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+      .RadGrid_Material .rgPagerCell > div .rgInfoPart strong,
+      .RadGrid_Material .rgPagerCell > div .rgPagerLabel strong {
+        font-weight: 500;
+        font-size: 1.167em;
+        line-height: 1.42857;
+        color: #455A64; }
+    .RadGrid_Material .rgPagerCell > div .RadInput,
+    .RadGrid_Material .rgPagerCell > div .RadComboBox {
+      min-width: 90px; }
+    .RadGrid_Material .rgPagerCell > div .rgActionButton {
+      box-sizing: content-box; }
+    .RadGrid_Material .rgPagerCell > div .rgPagerButton {
+      border-color: #CFD8DC;
+      color: #455A64;
+      background-color: #f4f7f8; }
+  .RadGrid_Material .rgHeader.rgGroupCol,
+  .RadGrid_Material .rgFooter .rgGroupCol {
+    border-right: 1px solid #ffffff; }
+  .RadGrid_Material .rgGroupPanelCell {
+    border-color: #CFD8DC #ffffff;
+    background: #8BC34A;
+    color: #ffffff; }
+  .RadGrid_Material .rgGroupItem {
+    padding: 0 .5em;
+    border: 1px solid #CFD8DC;
+    color: #455A64; }
+  .RadGrid_Material .rgGroupHeader td {
+    padding: .5em 0;
+    height: 2.3em;
+    border-bottom: 1px solid #CFD8DC #ffffff;
+    background: #91c654; }
+  .RadGrid_Material .rgGroupHeader td div div {
+    top: 0.4em; }
+  .RadGrid_Material .rgGroupHeader .rgGroupCol {
+    border-bottom-width: 0;
+    border-top: 1px solid #CFD8DC; }
+  .RadGrid_Material .rgRow .rgGroupCol,
+  .RadGrid_Material .rgAltRow .rgGroupCol {
+    border-bottom-width: 0;
+    background: #91c654; }
+  .RadGrid_Material .rgMasterTable > tbody tr:first-child .rgGroupCol {
+    border-top-width: 0; }
+  .RadGrid_Material .rgRow [type="text"],
+  .RadGrid_Material .rgAltRow [type="text"],
+  .RadGrid_Material .rgEditForm [type="text"] {
+    padding: 0 .5em;
+    height: 36px;
+    border: 1px solid #CFD8DC; }
+  .RadGrid_Material .rgDetailTable {
+    border-color: #CFD8DC #ffffff; }
+  .RadGrid_Material .rgFooter .rgExpandCol {
+    border-left-width: 0; }
+  .RadGrid_Material .rgCommandRow {
+    background-color: #8BC34A;
+    border-bottom: 1px solid #CFD8DC;
+    color: #ffffff; }
+    .RadGrid_Material .rgCommandRow .rgActionButton {
+      color: inherit; }
+  .RadGrid_Material .rgCommandCell {
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    padding: 0; }
+  .RadGrid_Material tfoot .rgCommandCell,
+  .RadGrid_Material .rgMasterTable > tbody > tr.rgCommandRow .rgCommandCell {
+    border-top: 1px solid #CFD8DC #ffffff;
+    border-bottom: 0; }
+  .RadGrid_Material .rgCommandTable td {
+    border: 0;
+    padding: .14em .5em; }
+
+.GridItemDropIndicator_Material {
+  border-top: 1px dashed #666; }
+
+.GridToolTip_Material {
+  background-color: #455A64;
+  color: #ffffff;
+  border-color: #455A64;
+  padding: 4px; }
+

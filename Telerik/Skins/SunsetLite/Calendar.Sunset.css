@@ -1,0 +1,139 @@
+.RadCalendar_Sunset {
+  border-color: #938879;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadCalendar_Sunset .rcTitlebar {
+    border-color: #972f01;
+    color: #ffffff;
+    background-color: #bb3a01;
+    background-image: linear-gradient(#c85323, #bb3a01); }
+  .RadCalendar_Sunset .t-button:hover {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121;
+    background-image: linear-gradient(#faef93, #f1d121);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .RadCalendar_Sunset .t-button:focus,
+  .RadCalendar_Sunset .t-button:active {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+  .RadCalendar_Sunset td {
+    border-color: transparent; }
+  .RadCalendar_Sunset th {
+    color: #5d5952;
+    background-color: #f4eee6; }
+  .RadCalendar_Sunset .rcHeader,
+  .RadCalendar_Sunset .rcFooter {
+    border-color: #972f01; }
+  .RadCalendar_Sunset .rcWeek th {
+    border-color: #d2c7b4;
+    color: #272522; }
+  .RadCalendar_Sunset .rcWeek .rcViewSel {
+    background-color: #f4eee6; }
+  .RadCalendar_Sunset .rcToday a,
+  .RadCalendar_Sunset .rcToday span {
+    border-color: #982e00;
+    color: #982e00; }
+  .RadCalendar_Sunset .rcHover a,
+  .RadCalendar_Sunset .rcHover span {
+    border-color: #ac7d21;
+    color: #863d02;
+    background-color: #f9ed8a; }
+  .RadCalendar_Sunset .rcSelected a,
+  .RadCalendar_Sunset .rcSelected span {
+    border-color: #904c23;
+    color: #5d1f00;
+    background-color: #f2d52d; }
+  .RadCalendar_Sunset .rcFocus {
+    border-color: #904c23;
+    box-shadow: inset 0 0 5px #904c23; }
+
+.RadCalendarMultiView_Sunset .rcTitlebar {
+  border-color: #35322b;
+  color: #ffffff;
+  background-color: #554e41;
+  background-image: linear-gradient(#8d836b, #7b7462 30%, #554e41); }
+
+.RadCalendarMultiView_Sunset .rcCalendar {
+  border-color: #938879; }
+
+.RadCalendarMultiView_Sunset td.rcTitle {
+  border-color: #972f01;
+  color: #ffffff;
+  background-color: #bb3a01;
+  background-image: linear-gradient(#c85323, #bb3a01); }
+
+.RadCalendarMonthView_Sunset {
+  border-color: #938879;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadCalendarMonthView_Sunset a:hover {
+    border-color: #ac7d21;
+    color: #863d02;
+    background-color: #f9ed8a; }
+  .RadCalendarMonthView_Sunset .rcSelected a {
+    border-color: #904c23;
+    color: #5d1f00;
+    background-color: #f2d52d; }
+  .RadCalendarMonthView_Sunset .rcButtons a {
+    border-color: #938973;
+    color: #3d1400;
+    background-color: #ded7c6;
+    background-image: linear-gradient(#f1eadf, #ded7c6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .RadCalendarMonthView_Sunset .rcButtons a:hover {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121;
+    background-image: linear-gradient(#faef93, #f1d121);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .RadCalendarMonthView_Sunset .rcButtons a:focus,
+  .RadCalendarMonthView_Sunset .rcButtons a:active {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+
+.RadCalendarTimeView_Sunset {
+  border-color: #938879;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadCalendarTimeView_Sunset th {
+    border-color: #972f01;
+    color: #ffffff;
+    background-color: #bb3a01;
+    background-image: linear-gradient(#c85323, #bb3a01); }
+  .RadCalendarTimeView_Sunset td {
+    border-color: #938879; }
+  .RadCalendarTimeView_Sunset .rcSelected a {
+    border-color: #904c23;
+    color: #5d1f00;
+    background-color: #f2d52d; }
+  .RadCalendarTimeView_Sunset .rcHover a {
+    border-color: #ac7d21;
+    color: #863d02;
+    background-color: #f9ed8a; }
+  .RadCalendarTimeView_Sunset .rcFooter {
+    border-color: #938879; }
+
+.RadPicker_Sunset .riLabel {
+  color: #333333; }
+
+.RadPicker_Sunset.rcCalPopupOpen .RadInput, .RadPicker_Sunset.rcMYPopupOpen .RadInput, .RadPicker_Sunset.rcTimePopupOpen .RadInput {
+  border-color: #e2711c;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadPicker_Sunset.rcCalPopupOpen .rcCalPopup,
+.RadPicker_Sunset.rcMYPopupOpen .rcCalPopup,
+.RadPicker_Sunset.rcTimePopupOpen .rcTimePopup {
+  border-color: #e2711c;
+  color: #5d1f00;
+  background-color: #e88d49;
+  background-image: linear-gradient(#f3bc8b, #e88d49);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+

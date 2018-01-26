@@ -1,0 +1,74 @@
+.RadWizard_Office2010Silver {
+  color: #333333;
+  background: #ffffff; }
+  .RadWizard_Office2010Silver .rwzHeader {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); }
+  .RadWizard_Office2010Silver .rwzBreadCrumb {
+    border-color: #bfc3ca;
+    border-radius: 4px; }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzLink {
+      border-color: #bfc3ca;
+      color: #333333;
+      background-color: #dbdde1;
+      background-image: linear-gradient(#f1f2f3, #dbdde1); }
+      .RadWizard_Office2010Silver .rwzBreadCrumb .rwzLink:before {
+        border-color: #bfc3ca;
+        background: linear-gradient(135deg, #f1f2f3, #dbdde1);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1); }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzHovered .rwzLink {
+      border-color: #f2d359;
+      color: #000000;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9);
+      box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset; }
+      .RadWizard_Office2010Silver .rwzBreadCrumb .rwzHovered .rwzLink:before {
+        border-color: #f2d359;
+        background: linear-gradient(135deg, #fceaab, #fae185, #fcf5d9);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1), -1px 1px 0 0 rgba(255, 255, 255, 0.6) inset; }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzSelected .rwzLink {
+      border-color: #c38e00;
+      color: #000000;
+      background-color: #ffef7c;
+      background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+      .RadWizard_Office2010Silver .rwzBreadCrumb .rwzSelected .rwzLink:before {
+        border-color: #c38e00;
+        background: linear-gradient(135deg, #ffe272, #ffd86b, #ffef7c); }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzDisabled .rwzLink {
+      border-color: #bfc3ca;
+      color: #333333;
+      background-color: #dbdde1;
+      background-image: linear-gradient(#f1f2f3, #dbdde1); }
+      .RadWizard_Office2010Silver .rwzBreadCrumb .rwzDisabled .rwzLink:before {
+        border-color: #bfc3ca;
+        background: linear-gradient(135deg, #f1f2f3, #dbdde1); }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzPager {
+      background: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+      .RadWizard_Office2010Silver .rwzBreadCrumb .rwzPager .rwzCallout:before, .RadWizard_Office2010Silver .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        border-color: #bfc3ca; }
+      .RadWizard_Office2010Silver .rwzBreadCrumb .rwzPager .rwzCallout:before {
+        background: linear-gradient(-45deg, #fae185, #fceaab 50%); }
+      .RadWizard_Office2010Silver .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        background: linear-gradient(135deg, #fae185, #fcf5d9 48%); }
+  .RadWizard_Office2010Silver .rwzProgressBar {
+    background: #fff; }
+  .RadWizard_Office2010Silver .rwzProgress {
+    background: #ffd96e; }
+  .RadWizard_Office2010Silver .rwzButton {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1);
+    border-radius: 3px; }
+    .RadWizard_Office2010Silver .rwzButton.rwzHovered {
+      border-color: #f2d359;
+      color: #000000;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+    .RadWizard_Office2010Silver .rwzButton.rwzActive {
+      border-color: #c38e00;
+      color: #000000;
+      background-color: #ffef7c;
+      background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadWizard_Office2010Silver .rwzCancelWrapper {
+    border-color: #a4abb2; }
+

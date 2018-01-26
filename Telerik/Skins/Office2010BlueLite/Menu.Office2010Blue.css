@@ -1,0 +1,75 @@
+.RadMenu_Office2010Blue .rmRootGroup {
+  border-color: #87a0c3;
+  color: #384e73;
+  background-color: #bdcbde;
+  background-color: #f2f8fe; }
+  .RadMenu_Office2010Blue .rmRootGroup .rmItem {
+    border-color: #a9bbd4; }
+  .RadMenu_Office2010Blue .rmRootGroup .rmRootLink:hover {
+    border-color: #ffcb11;
+    color: #384e73;
+    background-color: #ffe790;
+    background-image: linear-gradient(#ffe28e, #ffe175, #ffe790); }
+  .RadMenu_Office2010Blue .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Office2010Blue .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #c58a00;
+    color: #384e73;
+    background-color: #ffe373;
+    background-image: linear-gradient(#ffe373, #ffd86b, #ffe373); }
+  .RadMenu_Office2010Blue .rmRootGroup .rmFocused > .rmLink {
+    border-color: #c58a00;
+    box-shadow: inset 0 0 5px #c58a00; }
+
+.RadMenu_Office2010Blue .rmGroup,
+.RadMenu_Office2010Blue .rmMultiColumn,
+.RadMenu_Office2010Blue .rmPopup {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+
+.RadMenu_Office2010Blue .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_Office2010Blue .rmGroup .rmLink:hover,
+.RadMenu_Office2010Blue .rmGroup .rmToggle:hover {
+  border-color: #ffcb12;
+  color: #1e395b;
+  background-color: #ffe791;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+
+.RadMenu_Office2010Blue .rmGroup .rmSelected > .rmLink,
+.RadMenu_Office2010Blue .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Office2010Blue .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Office2010Blue .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #fff17c;
+  background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+
+.RadMenu_Office2010Blue .rmGroup .rmFocused > .rmLink,
+.RadMenu_Office2010Blue .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #c38e00;
+  box-shadow: inset 0 0 5px #c38e00; }
+
+.RadMenu_Office2010Blue .rmSeparator {
+  border-color: #87a0c3; }
+
+.RadMenu_Office2010Blue .rmGroup .rmSeparator {
+  border-color: #9babc2; }
+
+.RadMenu_Office2010Blue .rmArrow {
+  border-color: #d9d9d9;
+  background-color: #f2f2f2; }
+
+.RadMenu_Office2010Blue .rmArrow:hover {
+  background-color: #e6e6e6; }
+
+.RadMenu_Office2010Blue .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #9babc2; }
+
+.RadMenu_Office2010Blue .rmGroup:before,
+.RadMenu_Office2010Blue .rmMultiColumn:before,
+.RadMenu_Office2010Blue .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Office2010Blue .rmScrollWrap > .rmVertical:before {
+  border-color: #e2e4e7; }
+

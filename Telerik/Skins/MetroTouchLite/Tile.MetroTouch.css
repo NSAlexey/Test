@@ -1,0 +1,19 @@
+.RadTile_MetroTouch {
+  color: #000000;
+  background-color: #f9f9f9;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTile_MetroTouch .rtilePeekContent {
+    background-color: #f9f9f9; }
+  .RadTile_MetroTouch.rtileSelected .rtileSelectedIcon {
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadTile_MetroTouch.rtileHovered {
+    border-color: #cecece; }
+  .RadTile_MetroTouch.rtileSelected {
+    border-color: #25a0da; }
+  .RadTile_MetroTouch.rtileSelected.rtileHovered {
+    border-color: #1e80ae; }
+  .RadTile_MetroTouch.rtileLoading,
+  .RadTile_MetroTouch .rtileLoading {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+

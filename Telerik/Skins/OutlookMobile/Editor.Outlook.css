@@ -1,0 +1,80 @@
+.RadEditor_Outlook {
+  background-color: #ffffff;
+  color: #333333;
+  border-color: #89aee5; }
+  .RadEditor_Outlook .reToolBar,
+  .RadEditor_Outlook .reHeader,
+  .RadEditor_Outlook .reModule {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .RadEditor_Outlook .reToolBar .reButtonSelected .reIcon {
+    color: #306ac5; }
+  .RadEditor_Outlook .reToolBar .reToggleScreenMode {
+    border-color: #5d8fd8; }
+  .RadEditor_Outlook .reToggleScreenMode.reButtonSelected .reIcon {
+    color: #000000; }
+  .RadEditor_Outlook .reToolHeader {
+    background-color: #7ea6e0; }
+  .RadEditor_Outlook .reModule {
+    background-color: #a7c2ea;
+    border-color: #7ea6e0; }
+  .RadEditor_Outlook .reToolHeader .reTabChooser .reButton {
+    background-color: #bcd1ef; }
+  .RadEditor_Outlook .reToolHeader .reTabChooser .reMore {
+    border-color: #7ea6e0; }
+  .RadEditor_Outlook .reDom span {
+    color: #b3b3b3; }
+  .RadEditor_Outlook .reToolContent {
+    background-color: #d0dff4; }
+  .RadEditor_Outlook .reToolList {
+    background-color: #ffffff; }
+  .RadEditor_Outlook .reToolList > li {
+    background-color: #ffffff;
+    border-color: #c5cad7; }
+  .RadEditor_Outlook .reToolDropDown > li.reRowSelected,
+  .RadEditor_Outlook .reButtonGroup .reButtonSelected,
+  .RadEditor_Outlook .reToolList .reButtonGroupSelected,
+  .RadEditor_Outlook .reToolList .reDropDownSelected {
+    color: #000000;
+    background-color: #ebe8e3; }
+  .RadEditor_Outlook .reDomWrapper:before {
+    left: 0;
+    background: linear-gradient(to right, #a7c2ea, rgba(255, 0, 0, 0)); }
+  .RadEditor_Outlook .reDomWrapper:after {
+    right: 0;
+    background: linear-gradient(to left, #a7c2ea, rgba(255, 0, 0, 0)); }
+  .RadEditor_Outlook .reDom .reDomElement,
+  .RadEditor_Outlook .reIconSelected {
+    color: #333333; }
+  .RadEditor_Outlook .reDialog input[type="text"],
+  .RadEditor_Outlook .reDialog input[type="search"],
+  .RadEditor_Outlook .reFindOverlay input[type="text"],
+  .RadEditor_Outlook .reFindOverlay input[type="search"],
+  .RadEditor_Outlook .reSpinBox input {
+    background-color: #ffffff;
+    color: #333333;
+    border-color: #003c74; }
+  .RadEditor_Outlook .reColorPicker {
+    background-color: #d6e6f4; }
+  .RadEditor_Outlook .reCurrentColor {
+    border-color: #003c74; }
+  .RadEditor_Outlook .reDialog .reButton,
+  .RadEditor_Outlook .reColorPicker .reButton {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+  .RadEditor_Outlook .reDialog,
+  .RadEditor_Outlook .reFindOverlay {
+    background-color: #7ea6e0; }
+  .RadEditor_Outlook .reDialog a,
+  .RadEditor_Outlook .reFindOverlay a {
+    color: #306ac5; }
+
+.RadWindow_Outlook.reMobileDialog {
+  background-color: #93b4e5; }
+  .RadWindow_Outlook.reMobileDialog .rwContent {
+    border-color: #86ace2; }
+

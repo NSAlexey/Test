@@ -1,0 +1,20 @@
+.RadTreeMap_Material {
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #ffffff;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadTreeMap_Material .k-treemap-title,
+  .RadTreeMap_Material .k-treemap-title-vertical {
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: #f4f7f8; }
+  .RadTreeMap_Material .k-leaf {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: #455A64; }
+  .RadTreeMap_Material .k-leaf.k-inverse {
+    color: #455A64;
+    background-color: #ffffff; }
+  .RadTreeMap_Material .k-leaf.k-state-hover {
+    box-shadow: inset 0 0 0 5px #ffffff; }
+

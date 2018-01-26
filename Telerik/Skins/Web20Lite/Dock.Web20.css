@@ -1,0 +1,25 @@
+.RadDock_Web20 {
+  background-color: #ffffff;
+  color: #333333;
+  border-color: #6788be; }
+  .RadDock_Web20 .rdTitleWrapper {
+    background-image: linear-gradient(#9db7db, #7b95c6 50%, #698ac0 50%, #92b3de);
+    color: #ffffff;
+    border-bottom-color: #6788be; }
+  .RadDock_Web20 .rdTitleWrapper .rdTitle {
+    color: #ffffff; }
+  .RadDock_Web20 .rdCommandButton:before {
+    color: #ffffff; }
+  .RadDock_Web20 .rdCommandButton:hover {
+    border-color: #2a5795;
+    color: #0f3789;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RadDock_Web20 .rdCommandButton:hover:before {
+    color: #0f3789; }
+  .RadDock_Web20 .rdContentWrapper {
+    color: #333333; }
+  .RadDock_Web20.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #6788be; }
+

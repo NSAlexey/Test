@@ -1,0 +1,66 @@
+.RadSlider_Windows7 {
+  color: #1e395b; }
+  .RadSlider_Windows7 .rslTrack {
+    border-color: #c1cdde;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadSlider_Windows7 .rslItem {
+    background-image: url('../Windows7/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Windows7 .rslSelectedregion {
+    background-color: #c3dcfc;
+    background-image: linear-gradient(); }
+  .RadSlider_Windows7 .rslHandle,
+  .RadSlider_Windows7 .rslDraghandle {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+    .RadSlider_Windows7 .rslHandle:hover,
+    .RadSlider_Windows7 .rslDraghandle:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+    .RadSlider_Windows7 .rslHandle:active, .RadSlider_Windows7 .rslHandle:focus,
+    .RadSlider_Windows7 .rslDraghandle:active,
+    .RadSlider_Windows7 .rslDraghandle:focus {
+      border-color: #9cc8ff;
+      color: #1e395b;
+      background-color: #dde8f6;
+      background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+      box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadSlider_Windows7 .rslVertical .rslTrack {
+    background-image: linear-gradient(to left, #f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+  .RadSlider_Windows7 .rslVertical .rslItem {
+    background-image: url('../Windows7/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Windows7 .rslVertical .rslSelectedregion {
+    background-image: linear-gradient(to left, ); }
+  .RadSlider_Windows7 .rslVertical .rslDraghandle {
+    background-image: linear-gradient(to left, #f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6); }
+    .RadSlider_Windows7 .rslVertical .rslDraghandle:hover {
+      background-image: linear-gradient(to left, #fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5); }
+    .RadSlider_Windows7 .rslVertical .rslDraghandle:focus, .RadSlider_Windows7 .rslVertical .rslDraghandle:active {
+      background-image: linear-gradient(to left, #f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6); }
+  .RadSlider_Windows7 .rslTop .rslSmallTick,
+  .RadSlider_Windows7 .rslBottom .rslSmallTick {
+    background-image: url('../Windows7/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Windows7 .rslTop .rslLargeTick,
+  .RadSlider_Windows7 .rslBottom .rslLargeTick {
+    background-image: url('../Windows7/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Windows7 .rslLeft .rslSmallTick,
+  .RadSlider_Windows7 .rslRight .rslSmallTick {
+    background-image: url('../Windows7/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Windows7 .rslLeft .rslLargeTick,
+  .RadSlider_Windows7 .rslRight .rslLargeTick {
+    background-image: url('../Windows7/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Windows7 .rslMiddle .rslSmallTick {
+    background-image: url('../Windows7/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Windows7 .rslMiddle .rslLargeTick {
+    background-image: url('../Windows7/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Windows7 .rslCenter .rslSmallTick {
+    background-image: url('../Windows7/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Windows7 .rslCenter .rslLargeTick {
+    background-image: url('../Windows7/Slider/LargelChangeCenterVertical.gif'); }
+

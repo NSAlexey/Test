@@ -1,0 +1,19 @@
+.RadTreeMap_Vista {
+  border-color: #aec5d1;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTreeMap_Vista .k-treemap-title,
+  .RadTreeMap_Vista .k-treemap-title-vertical {
+    border-color: #74b6da;
+    color: #000000;
+    background-color: #a6d9f4; }
+  .RadTreeMap_Vista .k-leaf {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: #333333; }
+  .RadTreeMap_Vista .k-leaf.k-inverse {
+    color: #333333;
+    background-color: #ffffff; }
+  .RadTreeMap_Vista .k-leaf.k-state-hover {
+    box-shadow: inset 0 0 0 5px #ffffff; }
+

@@ -1,0 +1,77 @@
+.RadEditor_Bootstrap {
+  background-color: #ffffff;
+  color: #333333;
+  border-color: #dedede; }
+  .RadEditor_Bootstrap .reToolBar,
+  .RadEditor_Bootstrap .reHeader,
+  .RadEditor_Bootstrap .reModule {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke;
+    background-image: linear-gradient(); }
+  .RadEditor_Bootstrap .reToolBar .reButtonSelected .reIcon {
+    color: #337ab7; }
+  .RadEditor_Bootstrap .reToolBar .reToggleScreenMode {
+    border-color: #dedede; }
+  .RadEditor_Bootstrap .reToggleScreenMode.reButtonSelected .reIcon {
+    color: #333333; }
+  .RadEditor_Bootstrap .reToolHeader {
+    background-color: whitesmoke; }
+  .RadEditor_Bootstrap div.reModule {
+    background-color: #f2f2f2;
+    border-top-color: #d4d4d4; }
+  .RadEditor_Bootstrap .reToolHeader .reTabChooser .reButton {
+    background-color: #e6e6e6; }
+  .RadEditor_Bootstrap .reToolHeader .reTabChooser .reMore {
+    border-color: whitesmoke; }
+  .RadEditor_Bootstrap .reToolContent {
+    background-color: white; }
+  .RadEditor_Bootstrap .reToolList {
+    background-color: #ffffff; }
+  .RadEditor_Bootstrap .reToolList > li {
+    background-color: #ffffff;
+    border-color: #dedede; }
+  .RadEditor_Bootstrap .reToolList .reDropDownSelected,
+  .RadEditor_Bootstrap .reToolDropDown > li.reRowSelected,
+  .RadEditor_Bootstrap .reToolList .reButtonGroupSelected,
+  .RadEditor_Bootstrap .reButtonGroup .reButtonSelected {
+    color: #ffffff;
+    background-color: #337ab7; }
+  .RadEditor_Bootstrap .reDomWrapper:before {
+    left: 0;
+    background: linear-gradient(to right, #f2f2f2, rgba(255, 0, 0, 0)); }
+  .RadEditor_Bootstrap .reDomWrapper:after {
+    right: 0;
+    background: linear-gradient(to left, #f2f2f2, rgba(255, 0, 0, 0)); }
+  .RadEditor_Bootstrap .reDom .reDomElement,
+  .RadEditor_Bootstrap .reIconSelected {
+    color: #337ab7; }
+  .RadEditor_Bootstrap .reDialog input[type="text"],
+  .RadEditor_Bootstrap .reDialog input[type="search"],
+  .RadEditor_Bootstrap .reFindOverlay input[type="text"],
+  .RadEditor_Bootstrap .reFindOverlay input[type="search"],
+  .RadEditor_Bootstrap .reSpinBox input {
+    background-color: #ffffff;
+    color: #333333;
+    border-color: #cccccc; }
+  .RadEditor_Bootstrap .reColorPicker {
+    background-color: #fcfcfc; }
+  .RadEditor_Bootstrap .reCurrentColor {
+    border-color: #cccccc; }
+  .RadEditor_Bootstrap .reDialog .reButton,
+  .RadEditor_Bootstrap .reColorPicker .reButton {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadEditor_Bootstrap .reDialog,
+  .RadEditor_Bootstrap .reFindOverlay {
+    background-color: whitesmoke; }
+  .RadEditor_Bootstrap .reDialog a,
+  .RadEditor_Bootstrap .reFindOverlay a {
+    color: #337ab7; }
+
+.RadWindow_Bootstrap.reMobileDialog {
+  background-color: white; }
+  .RadWindow_Bootstrap.reMobileDialog .rwContent {
+    border-color: #dedede; }
+

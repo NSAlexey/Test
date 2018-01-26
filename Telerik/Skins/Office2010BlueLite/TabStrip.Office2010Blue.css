@@ -1,0 +1,67 @@
+.RadTabStrip_Office2010Blue {
+  color: #384e73; }
+  .RadTabStrip_Office2010Blue .rtsLevel1 {
+    border-color: #9babc2; }
+    .RadTabStrip_Office2010Blue .rtsLevel1 .rtsLink {
+      border-color: #87a0c3;
+      color: #384e73;
+      background-color: #bdcbde;
+      background-image: linear-gradient(#fcfcfd, #bdcbde); }
+    .RadTabStrip_Office2010Blue .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: #ffcb11;
+      color: #384e73;
+      background-color: #ffe790;
+      background-image: linear-gradient(#ffe28e, #ffe175, #ffe790); }
+    .RadTabStrip_Office2010Blue .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #9babc2;
+      color: #1e395b;
+      background-color: #ffffff;
+      background-image: none; }
+    .RadTabStrip_Office2010Blue .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #87a0c3;
+      box-shadow: inset 0 0 5px #87a0c3; }
+  .RadTabStrip_Office2010Blue .rtsLevel1 ~ .rtsLevel {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #ffffff; }
+    .RadTabStrip_Office2010Blue .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #3a71b7; }
+    .RadTabStrip_Office2010Blue .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #284d7d; }
+    .RadTabStrip_Office2010Blue .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit;
+      text-decoration: underline; }
+    .RadTabStrip_Office2010Blue .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #c58a00;
+      box-shadow: inset 0 0 5px #c58a00; }
+  .RadTabStrip_Office2010Blue .rtsGhostTab {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde);
+    border-radius: 4px; }
+
+.RadTabStrip_Office2010Blue.rtsTop .rtsLevel1 .rtsLink {
+  border-radius: 4px 4px 0 0; }
+
+.RadTabStrip_Office2010Blue.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+  border-bottom-color: transparent; }
+
+.RadTabStrip_Office2010Blue.rtsBottom .rtsLevel1 .rtsLink {
+  border-radius: 0 0 4px 4px; }
+
+.RadTabStrip_Office2010Blue.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+  border-top-color: transparent; }
+
+.RadTabStrip_Office2010Blue.rtsLeft .rtsLevel1 .rtsLink {
+  border-radius: 4px 0 0 4px; }
+
+.RadTabStrip_Office2010Blue.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+  border-right-color: transparent; }
+
+.RadTabStrip_Office2010Blue.rtsRight .rtsLevel1 .rtsLink {
+  border-radius: 0 4px 4px 0; }
+
+.RadTabStrip_Office2010Blue.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+  border-left-color: transparent; }
+

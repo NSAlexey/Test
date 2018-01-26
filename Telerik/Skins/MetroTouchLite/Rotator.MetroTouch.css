@@ -1,0 +1,31 @@
+.RadRotator_MetroTouch {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadRotator_MetroTouch .rrClipRegion {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadRotator_MetroTouch .rrButton {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadRotator_MetroTouch .rrButton:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadRotator_MetroTouch .rrButton:focus {
+    box-shadow: inset 0 0 5px rgba(37, 160, 218, 0.5); }
+  .RadRotator_MetroTouch .rrButton:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadRotator_MetroTouch .rrButtonDisabled,
+  .RadRotator_MetroTouch .rrButtonDisabled:hover,
+  .RadRotator_MetroTouch .rrButtonDisabled:focus,
+  .RadRotator_MetroTouch .rrButtonDisabled:active {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    box-shadow: none; }
+  .RadRotator_MetroTouch .rrLoadingSign {
+    background: url('../MetroTouch/Common/loading_small.gif') no-repeat center; }
+

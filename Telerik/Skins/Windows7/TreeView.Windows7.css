@@ -1,0 +1,27 @@
+.RadTreeView_Windows7 {
+  color: #1e395b;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Windows7 .rtIn {
+    background-image: url('Common/radGradientListSprite.png');
+    background-image: linear-gradient(transparent, transparent); }
+  .RadTreeView_Windows7 .rtHover .rtIn {
+    border-color: #bfd8f8;
+    color: #1e395b;
+    background-color: #edf4fd;
+    background-image: linear-gradient(#f9fbfd, #edf4fd); }
+  .RadTreeView_Windows7 .rtSelected .rtIn {
+    border-color: #8eb0da;
+    color: #1e395b;
+    background-color: #c2dcfc;
+    background-image: linear-gradient(#daeafc, #c2dcfc); }
+  .RadTreeView_Windows7 .rtChecked,
+  .RadTreeView_Windows7 .rtUnchecked,
+  .RadTreeView_Windows7 .rtIndeterminate {
+    background-image: url('Common/radFormToggleSprite.png'); }
+  .RadTreeView_Windows7 .rtLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+  .RadTreeView_Windows7 .rtPlus,
+  .RadTreeView_Windows7 .rtMinus {
+    background-image: url('TreeView/PlusMinus.png'); }
+

@@ -1,0 +1,33 @@
+.RadMenu_WebBlue .rmRootToggle {
+  border-color: #6e8aa8;
+  color: #0d202b;
+  background-color: #d7e2e7;
+  background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+
+.RadMenu_WebBlue .rmRootToggle:active,
+.RadMenu_WebBlue .rmRootToggle.rmExpanded {
+  border-color: #3a869e;
+  color: #ffffff;
+  background-color: #7abace;
+  background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+
+.RadMenuPopup_WebBlue {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadMenuPopup_WebBlue:before {
+    border-bottom-color: #768ca5; }
+  .RadMenuPopup_WebBlue:after {
+    border-bottom-color: #ffffff; }
+  .RadMenuPopup_WebBlue .rmItem {
+    border-color: #768ca5; }
+  .RadMenuPopup_WebBlue .rmItem.rmSelected {
+    color: #0d202b;
+    background-color: #9edaf2; }
+  .RadMenuPopup_WebBlue .rmLoading:after {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadMenuPopup_WebBlue .rmLoadingIcon:after {
+    background-image: url('../WebBlue/Common/loading_small.gif'); }
+

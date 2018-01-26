@@ -1,0 +1,65 @@
+.RadDataPager_Silk {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif; }
+  .RadDataPager_Silk .rdpPageFirst,
+  .RadDataPager_Silk .rdpPagePrev,
+  .RadDataPager_Silk .rdpPageNext,
+  .RadDataPager_Silk .rdpPageLast {
+    background-image: url('Grid/sprite.png');
+    width: 30px;
+    height: 30px; }
+  .RadDataPager_Silk .rdpPageFirst {
+    background-position: 0 -150px; }
+    .RadDataPager_Silk .rdpPageFirst:hover {
+      background-position: 0 -350px; }
+    .RadDataPager_Silk .rdpPageFirst:active {
+      background-position: 0 -550px; }
+  .RadDataPager_Silk .rdpPagePrev {
+    background-position: 0 -200px; }
+    .RadDataPager_Silk .rdpPagePrev:hover {
+      background-position: 0 -400px; }
+    .RadDataPager_Silk .rdpPagePrev:active {
+      background-position: 0 -600px; }
+  .RadDataPager_Silk .rdpPageNext {
+    background-position: 0 -250px; }
+    .RadDataPager_Silk .rdpPageNext:hover {
+      background-position: 0 -450px; }
+    .RadDataPager_Silk .rdpPageNext:active {
+      background-position: 0 -650px; }
+  .RadDataPager_Silk .rdpPageLast {
+    background-position: 0 -300px; }
+    .RadDataPager_Silk .rdpPageLast:hover {
+      background-position: 0 -500px; }
+    .RadDataPager_Silk .rdpPageLast:active {
+      background-position: 0 -700px; }
+  .RadDataPager_Silk .rdpPagerButton {
+    height: 28px;
+    background-image: url('../Common/Gradients/radGradientDarkV20.png');
+    background-repeat: repeat-x;
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; }
+  .RadDataPager_Silk .rdpNumPart a {
+    margin-right: 1px;
+    margin-top: 0;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    line-height: 28px; }
+    .RadDataPager_Silk .rdpNumPart a:hover {
+      border-color: #0092ab;
+      color: #ffffff;
+      background-color: #0092ab;
+      background-image: linear-gradient(#00acca, #0092ab); }
+    .RadDataPager_Silk .rdpNumPart a.rdpCurrentPage {
+      border-color: #14afca;
+      color: #14afca;
+      background: none; }
+  .RadDataPager_Silk .rdpPagerLabel {
+    line-height: 28px; }
+

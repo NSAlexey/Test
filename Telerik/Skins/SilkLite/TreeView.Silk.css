@@ -1,0 +1,20 @@
+.RadTreeView_Silk {
+  color: #333333; }
+  .RadTreeView_Silk .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Silk .rtChkTristate:hover {
+    color: #14afca; }
+  .RadTreeView_Silk .rtLoadingIcon {
+    background-image: url('../Silk/Common/loading_small.gif'); }
+  .RadTreeView_Silk .rtPlusHover,
+  .RadTreeView_Silk .rtMinusHover {
+    color: #14afca; }
+  .RadTreeView_Silk .rtHover .rtIn {
+    border-color: #bceff8;
+    color: #333333;
+    background-color: #bceff8; }
+  .RadTreeView_Silk .rtSelected .rtIn {
+    border-color: #81cfdc;
+    color: #ffffff;
+    background-color: #81cfdc; }
+

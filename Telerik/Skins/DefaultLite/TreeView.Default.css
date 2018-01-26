@@ -1,0 +1,27 @@
+.RadTreeView_Default {
+  color: #333333; }
+  .RadTreeView_Default .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Default .rtChkTristate:hover {
+    color: #1976d2; }
+  .RadTreeView_Default .rtLoadingIcon {
+    background-image: url('../Default/Common/loading_small.gif'); }
+  .RadTreeView_Default .rtPlusHover,
+  .RadTreeView_Default .rtMinusHover {
+    color: #1976d2; }
+  .RadTreeView_Default .rtLines .rtTop:before,
+  .RadTreeView_Default .rtLines .rtMid:before,
+  .RadTreeView_Default .rtLines .rtBot:before,
+  .RadTreeView_Default .rtLines .rtLI:before {
+    border-color: #cccccc; }
+  .RadTreeView_Default .rtHover .rtIn {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .RadTreeView_Default .rtSelected .rtIn {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(#9a9a9a, #808080); }
+

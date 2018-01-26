@@ -1,0 +1,29 @@
+.RadToolTip_Windows7 {
+  border-color: #aabfd6;
+  color: #4c607a;
+  background-color: #f1f5fb; }
+  .RadToolTip_Windows7 .rtClose {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadToolTip_Windows7 .rtClose:hover {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadToolTip_Windows7 .rtClose:active {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadToolTip_Windows7 .rtCallout {
+    border-color: #aabfd6; }
+  .RadToolTip_Windows7 .rtCallout:before {
+    border-color: #f1f5fb; }
+  .RadToolTip_Windows7.rtLoading {
+    background-image: url('../Windows7/Common/loading.gif'); }
+

@@ -1,0 +1,77 @@
+.RadMediaPlayer_Windows7 {
+  color: #1e395b; }
+  .RadMediaPlayer_Windows7 .rmpToolbar {
+    color: #1e395b;
+    background-image: linear-gradient(rgba(244, 248, 250, 0.9), rgba(221, 232, 246, 0.9));
+    border-color: #c3cedd; }
+  .RadMediaPlayer_Windows7 div.rmpVolContrBar {
+    background-image: linear-gradient(rgba(221, 232, 246, 0.9), rgba(244, 248, 250, 0.9));
+    border-color: #c3cedd; }
+  .RadMediaPlayer_Windows7.rmpSolidBgr .rmpToolbar {
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6); }
+  .RadMediaPlayer_Windows7.rmpSolidBgr div.rmpVolContrBar {
+    background-image: linear-gradient(#dde8f6, #f4f8fa); }
+  .RadMediaPlayer_Windows7 .rmpPlaylist {
+    background-color: #ffffff; }
+    .RadMediaPlayer_Windows7 .rmpPlaylist li a {
+      background-color: #ffffff;
+      color: #000000; }
+      .RadMediaPlayer_Windows7 .rmpPlaylist li a:hover {
+        background-color: #edf4fd;
+        color: #1e395b; }
+    .RadMediaPlayer_Windows7 .rmpPlaylist li.rmpActive a {
+      background-color: #c2dcfc;
+      color: #1e395b; }
+    .RadMediaPlayer_Windows7 .rmpPlaylist .rmpPlaylistPrevButton,
+    .RadMediaPlayer_Windows7 .rmpPlaylist .rmpPlaylistNextButton {
+      background-color: #dde8f6; }
+      .RadMediaPlayer_Windows7 .rmpPlaylist .rmpPlaylistPrevButton:hover,
+      .RadMediaPlayer_Windows7 .rmpPlaylist .rmpPlaylistNextButton:hover {
+        background-color: #e7ecf5; }
+  .RadMediaPlayer_Windows7 .rmpPlaylistVertical li,
+  .RadMediaPlayer_Windows7 .rmpPlaylistVerticalInside li {
+    border-top: 1px solid rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid #b8cbde; }
+  .RadMediaPlayer_Windows7 .rmpPlaylistVertical .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Windows7 .rmpPlaylistVerticalInside .rmpPlaylistPrevButtonWrap {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.85); }
+  .RadMediaPlayer_Windows7 .rmpPlaylistVertical .rmpPlaylistNextButtonWrap,
+  .RadMediaPlayer_Windows7 .rmpPlaylistVerticalInside .rmpPlaylistNextButtonWrap {
+    border-top: 1px solid rgba(255, 255, 255, 0.85); }
+  .RadMediaPlayer_Windows7 .rmpPlaylistHorizontal.rmpPlaylistNavButtons {
+    border-bottom: 1px solid #b8cbde;
+    border-bottom: 1px solid #c3cedd; }
+  .RadMediaPlayer_Windows7 .rmpPlaylistHorizontal li {
+    border-left: 1px solid rgba(255, 255, 255, 0.85);
+    border-right: 1px solid #b8cbde; }
+  .RadMediaPlayer_Windows7 .rmpPlaylistHorizontal .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Windows7 .rmpPlaylistHorizontal .rmpPlaylistNextButtonWrap {
+    border-left: 1px solid #c3cedd;
+    border-right: 1px solid #c3cedd; }
+  .RadMediaPlayer_Windows7 .rmpBanner {
+    border: 1px solid #aabfd6; }
+    .RadMediaPlayer_Windows7 .rmpBanner .rmpActionButton {
+      background-color: #dde8f6;
+      color: #1e395b; }
+  .RadMediaPlayer_Windows7 .rmpBigPlayButton,
+  .RadMediaPlayer_Windows7 .rmpBigPauseButton {
+    background: rgba(241, 245, 251, 0.4); }
+  .RadMediaPlayer_Windows7 .rmpToolbar .rmpActionButton:hover,
+  .RadMediaPlayer_Windows7 .rmpToolbar .rmpActionButton .rmpSubtitlesActiveIcon,
+  .RadMediaPlayer_Windows7 .rmpToolbar .rmpActionButton .rmpHDActiveIcon {
+    color: #4c93cc; }
+  .RadMediaPlayer_Windows7 .rmpSocialShareBox {
+    background-color: #c3dcfc; }
+  .RadMediaPlayer_Windows7 .RadSocialShare .sshLinkItem {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+    .RadMediaPlayer_Windows7 .RadSocialShare .sshLinkItem:active, .RadMediaPlayer_Windows7 .RadSocialShare .sshLinkItem:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+

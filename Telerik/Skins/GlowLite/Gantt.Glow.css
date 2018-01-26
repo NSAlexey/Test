@@ -1,0 +1,280 @@
+.RadGantt_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadGantt_Glow .k-loading-color {
+    background-color: #35434b; }
+  .RadGantt_Glow .k-loading-image {
+    background-image: url('../Glow/Common/loading.gif'); }
+  .RadGantt_Glow .rgtHeader {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #2e3b43;
+    background-image: linear-gradient(#44525b, #2e3b43); }
+  .RadGantt_Glow .rgtViews > li:first-child + li .radButton {
+    border-radius: 3px 0 0 3px; }
+  .RadGantt_Glow .rgtFooter {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+  .RadGantt_Glow .rgtTreelist {
+    background-color: rgba(28, 35, 39, 0.2); }
+  .RadGantt_Glow .rgtTreelist .radAlt {
+    background-color: rgba(53, 67, 75, 0.3); }
+  .RadGantt_Glow .rgtTreelist .radStateFocused {
+    box-shadow: inset 0 0 5px #ffa915; }
+  .RadGantt_Glow .rgtTreelist .radStateSelected {
+    border-color: #ffa915;
+    color: #000000;
+    background-color: #ffa915; }
+  .RadGantt_Glow .rgtSplitbar {
+    border-color: #35434b;
+    background-color: #1c262c; }
+  .RadGantt_Glow .rgtSplitbar .radResizeHandle {
+    border-radius: 2px;
+    background-color: #35434b; }
+  .RadGantt_Glow .rgtSplitbarHover {
+    border-color: #20282d;
+    background-color: #080b0d; }
+  .RadGantt_Glow .radLine {
+    background-color: #7992a0; }
+  .RadGantt_Glow .radArrowE,
+  .RadGantt_Glow .radArrowW {
+    color: #7992a0; }
+  .RadGantt_Glow .radLine.radStateSelected {
+    background-color: #ffa915; }
+  .RadGantt_Glow .radLine.radStateSelected .radArrowE,
+  .RadGantt_Glow .radLine.radStateSelected .radArrowW {
+    color: #ffa915; }
+  .RadGantt_Glow .radMarqueeColor {
+    background-color: rgba(255, 169, 21, 0.3); }
+  .RadGantt_Glow .rgtTaskDot:after {
+    border-color: #35434b;
+    background-color: #35434b; }
+  .RadGantt_Glow .rgtTaskDot:hover:after {
+    border-color: #35434b;
+    background-color: #35434b; }
+  .RadGantt_Glow .rgtDragHanle {
+    color: #1c2327; }
+  .RadGantt_Glow .radButton.rgtTaskDelete {
+    color: #733700; }
+  .RadGantt_Glow .rgtResource {
+    background-color: #35434b; }
+  .RadGantt_Glow .rgtResource.radAlt {
+    background-color: rgba(53, 67, 75, 0.2); }
+  .RadGantt_Glow .rgtTaskMilestone {
+    border-color: #7992a0;
+    background-color: #7992a0;
+    background-image: linear-gradient(135deg, #8c969b, #7992a0); }
+  .RadGantt_Glow .rgtTaskMilestone.radStateSelected {
+    border-color: #dc9314;
+    background-color: #dc9314;
+    background-image: linear-gradient(135deg, #ecaa37, #dc9314); }
+  .RadGantt_Glow .rgtTaskSummary {
+    border-color: #5f7887;
+    background-color: #5f7887; }
+  .RadGantt_Glow .rgtComplete {
+    border-color: #7992a0;
+    background-color: #7992a0; }
+  .RadGantt_Glow .rgtTaskSummary.radStateSelected {
+    border-color: #f1be66;
+    background-color: #f1be66; }
+  .RadGantt_Glow .radStateSelected .rgtComplete {
+    border-color: #dc9314;
+    background-color: #dc9314; }
+  .RadGantt_Glow .rgtTaskSingle {
+    border-color: #67450a;
+    border-radius: 3px;
+    color: #733700;
+    background-color: #f1be66;
+    background-image: linear-gradient(#f5d194, #f1be66); }
+  .RadGantt_Glow .rgtTaskComplete {
+    color: #e2e8eb;
+    background-color: #dc9314;
+    background-image: linear-gradient(#ecaa37, #dc9314); }
+  .RadGantt_Glow .rgtTaskSingle .radResizeHandle:after {
+    background-color: #dc9314; }
+  .RadGantt_Glow .rgtTaskSingle.radStateSelected,
+  .RadGantt_Glow .rgtTaskSingle.radStateSelected .rgtTaskComplete {
+    border-color: #cd8100; }
+
+.radSkin_Glow {
+  color: #e2e8eb; }
+  .radSkin_Glow .k-grid, .radSkin_Glow .radCalendar {
+    border-color: #1c2327;
+    color: #e2e8eb;
+    background-color: #35434b; }
+  .radSkin_Glow .k-popup, .radSkin_Glow.k-popup,
+  .radSkin_Glow .radPopup, .radSkin_Glow.radPopup, .radSkin_Glow .radDragClue, .radSkin_Glow.radDragClue, .radSkin_Glow.k-window {
+    border-color: #20282d;
+    color: #e2e8eb;
+    background-color: #242e33; }
+  .radSkin_Glow .k-button,
+  .radSkin_Glow .radButton, .radSkin_Glow .k-numeric-wrap .k-link,
+  .radSkin_Glow .k-numeric-wrap .k-select, .radSkin_Glow .k-dropdown-wrap, .radSkin_Glow .k-picker-wrap .k-select {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .radSkin_Glow .radButton:focus {
+    border-color: rgba(205, 129, 0, 0.5);
+    box-shadow: 0 0 5px rgba(205, 129, 0, 0.5) inset; }
+  .radSkin_Glow .k-button:hover,
+  .radSkin_Glow .radButton:hover,
+  .radSkin_Glow .radButton.radStateHovered,
+  .radSkin_Glow .radStateHovered > .radButton, .radSkin_Glow .k-numeric-wrap .k-link:hover, .radSkin_Glow .k-dropdown-wrap.k-state-hover, .radSkin_Glow .k-picker-wrap .k-select:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .radSkin_Glow .radButton:active,
+  .radSkin_Glow .radButton.radStateSelected,
+  .radSkin_Glow .radStateSelected > .radButton, .radSkin_Glow .k-numeric-wrap .k-link.k-state-selected, .radSkin_Glow .k-dropdown-wrap.k-state-active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .radSkin_Glow .radPrimary {
+    border-color: #dc9314;
+    color: #733700;
+    background-color: #dc9314;
+    background-image: linear-gradient(#ecaa37, #dc9314); }
+  .radSkin_Glow .radPrimary:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .radSkin_Glow .radPrimary:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .radSkin_Glow .k-textbox,
+  .radSkin_Glow .radTextbox, .radSkin_Glow .k-numeric-wrap, .radSkin_Glow .k-picker-wrap {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c; }
+  .radSkin_Glow .radDragClue, .radSkin_Glow.radDragClue {
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(254, 235, 188, 0.6); }
+  .radSkin_Glow .radList > .radStateHovered,
+  .radSkin_Glow .k-list > .k-state-hover {
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .radSkin_Glow .radList > .radStateFocused,
+  .radSkin_Glow .k-list > .k-state-focused {
+    box-shadow: inset 0 0 5px #ffa915; }
+  .radSkin_Glow .radList > .radStateSelected,
+  .radSkin_Glow .k-list > .k-state-selected {
+    color: #000000;
+    background-color: #ffa915; }
+  .radSkin_Glow .radGrid td {
+    border-color: #1c2327; }
+  .radSkin_Glow .radGridHeader,
+  .radSkin_Glow .radGridHeaderWrap {
+    border-color: #35434b;
+    background-color: #1c262c; }
+  .radSkin_Glow .radGridHeader th {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    font-size: .85em;
+    text-transform: uppercase; }
+  .radSkin_Glow .radFauxRows .radAlt {
+    background-color: #2f3b42; }
+  .radSkin_Glow .radFauxColumns .radNonwork {
+    background-color: rgba(77, 92, 101, 0.3); }
+  .radSkin_Glow .k-grid-header,
+  .radSkin_Glow .k-grid-header-wrap {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+  .radSkin_Glow .k-grid-header .k-header {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .radSkin_Glow .k-grid-content .k-alt {
+    background-color: #2f3b42; }
+  .radSkin_Glow .k-grid-content td {
+    border-color: #1c2327; }
+  .radSkin_Glow .k-tooltip,
+  .radSkin_Glow .radTooltip {
+    border-color: #1c262c;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#0c1013, #1c262c);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
+  .radSkin_Glow .k-tooltip-validation {
+    border-color: #35434b;
+    color: #d51923;
+    background-color: #35434b;
+    background-image: none; }
+  .radSkin_Glow .k-button,
+  .radSkin_Glow .radButton {
+    border-radius: 3px; }
+    .radSkin_Glow .k-button .rgtTaskDelete,
+    .radSkin_Glow .radButton .rgtTaskDelete {
+      color: #733700; }
+  .radSkin_Glow .radToolbar .radButton {
+    border-radius: 0; }
+  .radSkin_Glow .radToolbar > li:first-child .radButton {
+    border-radius: 3px 0 0 3px; }
+  .radSkin_Glow .radToolbar > li:last-child .radButton {
+    border-radius: 0 3px 3px 0; }
+  .radSkin_Glow .radToolbar > li:only-child .radButton {
+    border-radius: 3px; }
+  .radSkin_Glow .k-numeric-wrap {
+    border-color: #35434b;
+    line-height: 1.5; }
+  .radSkin_Glow .k-picker-wrap {
+    border-color: #35434b;
+    line-height: 1.5; }
+  .radSkin_Glow .radCalendar .k-header {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .radSkin_Glow .radCalendar th {
+    border-color: #182126; }
+  .radSkin_Glow .radCalendar td.k-weekend {
+    color: #b7bfc3; }
+  .radSkin_Glow .radCalendar td.k-other-month {
+    color: #8c969b; }
+  .radSkin_Glow .radCalendar td.k-state-hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .radSkin_Glow .radCalendar td.k-state-focused {
+    box-shadow: inset 0 0 5px #ffa915; }
+  .radSkin_Glow .radCalendar td.k-state-selected {
+    border-color: #ffa915;
+    color: #000000;
+    background-color: #ffa915; }
+  .radSkin_Glow .k-window-titlebar {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .radSkin_Glow .radPopupEditForm .rgtButtonsContainer {
+    border-color: #182126; }
+
+.radSkin_Glow.k-rtl .rgtViews > li:first-child + li .radButton {
+  border-radius: 0 3px 3px 0; }
+
+.radSkin_Glow.k-rtl .rgtViews > li:last-child .radButton {
+  border-radius: 3px 0 0 3px; }
+
+.radSkin_Glow.k-rtl .rgtTaskActions {
+  right: auto;
+  left: 5px; }
+
+@media only screen and (max-width: 1024px) {
+  .RadGantt_Glow .rgtToolbar > .rgtViews.rgtExpanded {
+    color: #e2e8eb;
+    background: #242e33;
+    border-color: #20282d; }
+  .RadGantt_Glow .rgtToolbar > .rgtViews.radToolbar .radButton {
+    border-radius: 3px; } }
+

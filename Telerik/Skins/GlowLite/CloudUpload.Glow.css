@@ -1,0 +1,57 @@
+.RadCloudUpload_Glow {
+  color: #e2e8eb; }
+  .RadCloudUpload_Glow .rcuButton {
+    border-radius: 3px;
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .RadCloudUpload_Glow .rcuInfoPanel {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+  .RadCloudUpload_Glow .rcuHeader {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .RadCloudUpload_Glow .rcuFileList {
+    border-color: #1c2327;
+    color: #e2e8eb;
+    background-color: #35434b; }
+  .RadCloudUpload_Glow .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #687379;
+    background-color: #35434b;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.03)); }
+  .RadCloudUpload_Glow .rcuProgress {
+    border-color: #2e2e2e;
+    background-color: #ffa915;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Glow .p-i-loading {
+    background-image: url('../Glow/Common/loading_small.gif'); }
+  .RadCloudUpload_Glow .rcuDropZone {
+    border-color: #e18e00;
+    color: #733700;
+    background-color: #ffa915; }
+  .RadCloudUpload_Glow .rcuButton.rcuHovered {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadCloudUpload_Glow .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #ffa915;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Glow .rcuButton.rcuPressed {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+
+.rcuToolTip_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+

@@ -1,0 +1,82 @@
+.RadInput_Metro,
+.RadInputMgr_Metro {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+
+.RadInput_Metro .riTextBox,
+.RadInput_Metro .riSelect,
+.RadInput_Metro .rcSelect,
+.RadInputMgr_Metro {
+  border-color: #e0e0e0;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Metro .riEmpty,
+.RadInput_Empty_Metro {
+  color: rgba(51, 51, 51, 0.8); }
+
+.RadInput_Metro.RadInputHovered .riTextBox,
+.RadInput_Metro.RadInputHovered .riSelect,
+.RadInput_Metro.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #cecece;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Metro.RadInputFocused .riTextBox,
+.RadInput_Metro.RadInputFocused .riSelect,
+.RadInput_Metro.RadInputFocused .rcSelect,
+.RadInput_Focused_Metro {
+  border-color: #25a0da;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Metro.RadInputError .riTextBox,
+.RadInput_Metro.RadInputError .riSelect,
+.RadInput_Metro.RadInputError .rcSelect,
+.RadInput_Error_Metro,
+.RadForm.rfdTextbox .RadInput_Metro .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #de3914;
+  color: #de3914; }
+
+.RadInput_Metro.RadInputError {
+  color: #de3914; }
+
+.RadInput_Metro .riNegative,
+.RadInput_Negative_Metro {
+  color: #565656; }
+
+.RadInput_Metro a,
+.RadInput_Metro.RadInputDisabled a:hover,
+.RadInput_Metro.RadInputDisabled a:active {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadInput_Metro a:hover {
+  border-color: #cecece;
+  color: #000000;
+  background-color: #e7e7e7; }
+
+.RadInput_Metro a:focus, .RadInput_Metro a:active {
+  border-color: #25a0da;
+  color: #ffffff;
+  background-color: #25a0da; }
+
+.RadInput_Metro .riLabel {
+  color: #666; }
+
+.RadInput_Metro .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../Metro/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_Metro .riError,
+.RadInputRTL_Error_Metro {
+  background-position: 3px -298px; }
+
+.RadInputRTL_Metro .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_Metro .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Metro[type="text"] {
+  background-position: 3px -298px; }
+

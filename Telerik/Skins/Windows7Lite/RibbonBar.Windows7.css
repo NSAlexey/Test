@@ -1,0 +1,253 @@
+.RadRibbonBar_Windows7 .rrbWrap {
+  border-color: #c1cdde;
+  color: #4c607a;
+  background-color: #f1f5fb;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+
+.RadRibbonBar_Windows7 .rrbTabs {
+  border-bottom-color: #c1cdde; }
+  .RadRibbonBar_Windows7 .rrbTabs .rrbItem .rrbLink {
+    border-color: transparent;
+    border-radius: 5px 5px 0 0;
+    color: #4c607a; }
+  .RadRibbonBar_Windows7 .rrbTabs .rrbItem.rrbSelected .rrbLink {
+    border-color: #aac1df;
+    color: #4c607a;
+    background-color: #cfdced; }
+
+.RadRibbonBar_Windows7 .rrbApplicationItem .rrbLink {
+  color: #1e395b;
+  border-color: #c3cedd;
+  background-color: #dde8f6; }
+
+.RadRibbonBar_Windows7 .rrbApplicationItem.rrbSelected .rrbHeaderBar {
+  border-color: #aabfd6;
+  background: #f1f5fb;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+
+.RadRibbonBar_Windows7 .rrbApplicationItem.rrbSelected .rrbLink {
+  color: #4c607a;
+  border-color: #aac1df;
+  background-color: #cfdced;
+  background-image: linear-gradient(#c9d4e4, #d8e4f1 50%, #cfdbec 50%, #cfdced); }
+
+.RadRibbonBar_Windows7 .rrbContextualItem .rrbLabel {
+  color: #ffffff; }
+
+.RadRibbonBar_Windows7 .rrbMenu .rrbHeader {
+  color: #4c607a;
+  background-color: #f1f5fb; }
+
+.RadRibbonBar_Windows7 .rrbToolTip {
+  color: #4c607a;
+  border-color: #aabfd6;
+  border-radius: 3px;
+  background-color: #f1f5fb; }
+
+.RadRibbonBar_Windows7 .rrbCommandGroup {
+  padding-right: 0.41666667em;
+  border: 0;
+  border-right: 1px solid #c3cedd;
+  box-shadow: 1px 0 #fff;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6); }
+
+.RadRibbonBar_Windows7 .rrbCommandArea {
+  background-color: #f1f5fb;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8); }
+
+.RadRibbonBar_Windows7 .rrbResizeHandle {
+  background-position: -5px -885px; }
+
+.RadRibbonBar_Windows7 .rrbTitle {
+  border-color: #c1cdde; }
+
+.RadRibbonBar_Windows7 .rrbCollapsedGroup {
+  border-color: #aabfd6; }
+  .RadRibbonBar_Windows7 .rrbCollapsedGroup .rrbIcon {
+    border-color: #c3cedd; }
+
+.RadRibbonBar_Windows7 .rrbButton, .RadRibbonBar_Windows7 .rrbButtonGroup .rrbButton, .RadRibbonBar_Windows7 .rrbComboBox .rrbButton,
+.RadRibbonBar_Windows7 .rrbDropDown .rrbButton,
+.RadRibbonBar_Windows7 .rrbNumericTextBox .rrbButton,
+.RadRibbonBar_Windows7 .rrbColorPicker .rrbButton, .RadRibbonBar_Windows7 .rrbDropDown .rrbDDInner, .RadRibbonBar_Windows7 .rrbColorPicker .rrbCPInner, .RadRibbonBar_Windows7 .rrbGalleryActions .rrbButton {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa; }
+
+.RadRibbonBar_Windows7 .rrbQat .rrbButton, .RadRibbonBar_Windows7 .rrbButton {
+  border-color: transparent;
+  background: transparent; }
+
+.RadRibbonBar_Windows7 .rrbQat .rrbButton:hover, .RadRibbonBar_Windows7 .rrbButton:hover, .RadRibbonBar_Windows7 .rrbButton.rrbHovered, .RadRibbonBar_Windows7 .rrbButtonGroup .rrbButton:hover, .RadRibbonBar_Windows7 .rrbComboBox .rrbButton.rrbHovered,
+.RadRibbonBar_Windows7 .rrbDropDown .rrbButton.rrbHovered,
+.RadRibbonBar_Windows7 .rrbNumericTextBox .rrbButton.rrbHovered,
+.RadRibbonBar_Windows7 .rrbColorPicker .rrbButton.rrbHovered, .RadRibbonBar_Windows7 .rrbDropDown .rrbDDInner:hover, .RadRibbonBar_Windows7 .rrbColorPicker .rrbCPInner:hover, .RadRibbonBar_Windows7 .rrbGallery .rrbItem.rrbHovered, .RadRibbonBar_Windows7 .rrbGalleryActions .rrbButton.rrbHovered, .rrbSlide_Windows7 .rrbItem.rrbHovered {
+  border-color: #b5cdeb;
+  color: #1e395b;
+  background-color: #e7ecf5;
+  background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+  box-shadow: inset 0 0 0 1px #f9f9fc; }
+
+.RadRibbonBar_Windows7 .rrbQat .rrbButton:active, .RadRibbonBar_Windows7 .rrbButton.rrbClicked, .RadRibbonBar_Windows7 .rrbButton.rrbPressed, .RadRibbonBar_Windows7 .rrbButton.rrbExpanded, .RadRibbonBar_Windows7 .rrbButton.rrbToggled, .RadRibbonBar_Windows7 .rrbButtonGroup .rrbButton:active, .RadRibbonBar_Windows7 .rrbButtonGroup .rrbButton.rrbClicked, .RadRibbonBar_Windows7 .rrbButtonGroup .rrbButton.rrbPressed, .RadRibbonBar_Windows7 .rrbComboBox .rrbButton.rrbClicked,
+.RadRibbonBar_Windows7 .rrbDropDown .rrbButton.rrbClicked,
+.RadRibbonBar_Windows7 .rrbNumericTextBox .rrbButton.rrbClicked,
+.RadRibbonBar_Windows7 .rrbColorPicker .rrbButton.rrbClicked, .RadRibbonBar_Windows7 .rrbDropDown .rrbDDInner:active, .RadRibbonBar_Windows7 .rrbColorPicker .rrbCPInner:active, .RadRibbonBar_Windows7 .rrbGallery .rrbItem.rrbSelected, .RadRibbonBar_Windows7 .rrbGalleryActions .rrbButton.rrbClicked, .rrbSlide_Windows7 .rrbItem.rrbSelected {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #9cc8ff; }
+
+.RadRibbonBar_Windows7 .rrbMenu, .rrbDropDownSlide_Windows7 .rrbPopup, .rrbSlide_Windows7 .rrbPopup, .rrbPopup_Windows7, .rrbPopup_Windows7 .rrbPopup {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+/*%menu-item {
+	color: $list-item-text;
+	background-color: $list-item-bg;
+}*/
+.RadRibbonBar_Windows7 .rrbMenu .rrbItem.rrbHovered, .rrbPopup_Windows7 .rrbItem.rrbHovered > .rrbInner, .rrbPopup_Windows7 .rrbItem.rrbHovered > .rrbInner .rrbToggle, .rrbPopup_Windows7 .rrbItem.rrbExpanded > .rrbInner {
+  border-color: #bfd8f8;
+  color: #1e395b;
+  background-color: #edf4fd;
+  background-image: linear-gradient(#f9fbfd, #edf4fd); }
+
+.rrbPopup_Windows7 .rrbItem.rrbExpanded > .rrbInner .rrbToggle {
+  border-color: #8eb0da;
+  color: #1e395b;
+  background-color: #c2dcfc;
+  background-image: linear-gradient(#daeafc, #c2dcfc); }
+
+.RadRibbonBar_Windows7 .rrbToggleHandle,
+.RadRibbonBar_Windows7 .rrbResizeHandle,
+.RadRibbonBar_Windows7 .rrbGroupLauncher,
+.RadRibbonBar_Windows7 .rrbGroupToggleIcon {
+  /*background-image: url($actions-sprite);*/ }
+
+.RadRibbonBar_Windows7 .rrbButton {
+  border-radius: 3px; }
+
+.RadRibbonBar_Windows7 .rrbLargeButton .rrbArrow {
+  border-radius: 0 0 3px 3px; }
+
+.RadRibbonBar_Windows7 .rrbSmallButton.rrbSplitButton .rrbArrow,
+.RadRibbonBar_Windows7 .rrbMediumButton.rrbSplitButton .rrbArrow {
+  border-radius: 0 3px 3px 0; }
+
+.RadRibbonBar_Windows7 .rrbSplitButton:hover .rrbArrow {
+  border-color: #b5cdeb; }
+
+.RadRibbonBar_Windows7 .rrbSplitButton.rrbArrowHovered {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa;
+  border-color: #b5cdeb; }
+  .RadRibbonBar_Windows7 .rrbSplitButton.rrbArrowHovered .rrbArrow {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+
+.RadRibbonBar_Windows7 .rrbSplitButton.rrbClicked .rrbArrow {
+  border-color: #9cc8ff; }
+
+.RadRibbonBar_Windows7 .rrbSplitButton.rrbArrowHovered.rrbClicked {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa;
+  border-color: #9cc8ff;
+  box-shadow: none; }
+  .RadRibbonBar_Windows7 .rrbSplitButton.rrbArrowHovered.rrbClicked .rrbArrow {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+
+.RadRibbonBar_Windows7 .rrbSplitButton.rrbExpanded, .RadRibbonBar_Windows7 .rrbSplitButton.rrbExpanded.rrbClicked {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadRibbonBar_Windows7 .rrbSplitButton.rrbExpanded .rrbArrow, .RadRibbonBar_Windows7 .rrbSplitButton.rrbExpanded.rrbClicked .rrbArrow {
+    border-color: #9cc8ff; }
+
+.RadRibbonBar_Windows7 .rrbComboBox .rrbCBInner {
+  border-color: #c3cedd;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Windows7 .rrbComboBox .rrbCBInput {
+  color: #1e395b; }
+
+.RadRibbonBar_Windows7 .rrbDropDown .rrbButton,
+.RadRibbonBar_Windows7 .rrbDropDown .rrbButton.rrbHovered {
+  background: none; }
+
+.RadRibbonBar_Windows7 .rrbNumericTextBox .rrbNTBInner {
+  border-color: #c3cedd;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Windows7 .rrbNumericTextBox .rrbNTBInput {
+  color: #1e395b; }
+
+.RadRibbonBar_Windows7 .rrbColorPicker .rrbButton,
+.RadRibbonBar_Windows7 .rrbColorPicker .rrbButton.rrbHovered {
+  background: none; }
+
+.RadRibbonBar_Windows7 .rrbGallery {
+  border-color: #aabfd6;
+  background-color: #ffffff; }
+  .RadRibbonBar_Windows7 .rrbGallery .rrbItem .rrbLink {
+    color: #1e395b;
+    background-color: #ffffff; }
+
+.RadRibbonBar_Windows7 .rrbGalleryActions .rrbButton {
+  border-radius: 0; }
+
+.RadRibbonBar_Windows7 .rrbCategoryTitle {
+  color: #4c607a;
+  background-color: #f1f5fb; }
+
+.rrbDropDownSlide_Windows7 .rrbListItem:hover {
+  color: #1e395b;
+  background-color: #edf4fd; }
+
+.rrbSlide_Windows7 .rrbCategoryTitle {
+  color: #4c607a;
+  background-color: #f1f5fb; }
+
+.rrbSlide_Windows7 .rrbGallery {
+  background: #f1f5fb; }
+
+.rrbSlide_Windows7 .rrbLink {
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.rrbPopup_Windows7 .rrbHeaderBar {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa; }
+
+.rrbPopup_Windows7 .rrbAuxiliaryPane {
+  color: #4c607a;
+  border-color: #aabfd6;
+  background: #f1f5fb; }
+
+.rrbPopup_Windows7 .rrbHeader,
+.rrbPopup_Windows7 .rrbFooter {
+  color: #4c607a;
+  border-color: #c1cdde;
+  background: #f1f5fb; }
+

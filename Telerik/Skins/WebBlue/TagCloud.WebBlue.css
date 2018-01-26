@@ -1,0 +1,14 @@
+.RadTagCloud_WebBlue {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTagCloud_WebBlue.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadTagCloud_WebBlue .rtcTagItem a {
+    color: #7abace; }
+  .RadTagCloud_WebBlue .rtcTagItem a:hover {
+    color: #449cb8; }
+  .RadTagCloud_WebBlue.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

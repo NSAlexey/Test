@@ -1,0 +1,68 @@
+.RadWindow_Glow {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  border-radius: 4px; }
+  .RadWindow_Glow .rwTitleBar {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c);
+    border-radius: 3px 3px 0 0; }
+  .RadWindow_Glow .rwCommandButton:hover {
+    color: #ffa915; }
+  .RadWindow_Glow .rwContent {
+    border-color: #1c2327;
+    color: #e2e8eb;
+    background-color: #35434b; }
+  .RadWindow_Glow .rwDialogButtons button {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .RadWindow_Glow .rwDialogButtons button:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadWindow_Glow .rwDialogButtons button:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .RadWindow_Glow .rwPromptDialog .rwOkBtn,
+  .RadWindow_Glow .rwConfirmDialog .rwOkBtn {
+    border-color: #dc9314;
+    color: #733700;
+    background-color: #dc9314;
+    background-image: linear-gradient(#ecaa37, #dc9314); }
+  .RadWindow_Glow .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Glow .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadWindow_Glow .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Glow .rwConfirmDialog .rwOkBtn:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .RadWindow_Glow .rwPromptInput {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadWindow_Glow .rwPromptInput:hover {
+    border-color: #cd8100;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadWindow_Glow .rwPromptInput:active,
+  .RadWindow_Glow .rwPromptInput:focus {
+    border-color: #cd8100;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadWindow_Glow .rwLoading.rwStatusBar {
+    background-image: url('../Glow/Common/loading_small.gif'); }
+  .RadWindow_Glow.rwLoading .rwExternalContent {
+    background-image: url('../Glow/Common/loading.gif'); }
+

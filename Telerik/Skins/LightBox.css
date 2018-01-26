@@ -1,0 +1,166 @@
+.RadLightBox {
+  padding: 10px;
+  *background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mPY7QMAAcUBCAwWfXgAAAAASUVORK5CYII=);
+  outline: 0;
+  box-sizing: content-box; }
+  .RadLightBox .rltbGlowEffect {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #bbbbbb;
+    filter: alpha(opacity=30);
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    * + html .RadLightBox .rltbGlowEffect {
+      display: none; }
+  .RadLightBox .rltbWrapper {
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden; }
+  .RadLightBox .rltbItemBox {
+    padding: 10px;
+    position: relative; }
+    * + html .RadLightBox .rltbItemBox {
+      overflow: hidden; }
+  .RadLightBox .rltbDescriptionBox {
+    *zoom: 1;
+    padding: 10px;
+    z-index: 10;
+    left: 0;
+    right: 0; }
+    .RadLightBox .rltbDescriptionBox:after {
+      content: "";
+      height: 0;
+      clear: both;
+      display: block; }
+  .RadLightBox .rltbDescBottom {
+    position: absolute;
+    bottom: 0; }
+  .RadLightBox .rltbDescOverlayTop {
+    position: absolute;
+    top: 0; }
+  .RadLightBox .rltbDescOverlayBottom {
+    position: absolute;
+    bottom: 0; }
+  .RadLightBox h4.rltbTitle {
+    margin: 0 0 .25em;
+    font-size: 1.25em;
+    color: inherit;
+    text-transform: none; }
+  .RadLightBox .rltbDescription {
+    margin: 0 0 .5em; }
+  .RadLightBox .rltbPager {
+    filter: alpha(opacity=75);
+    opacity: .75;
+    font-size: 0.929em; }
+  .RadLightBox .rltbToolbar {
+    float: right;
+    padding-left: 1em; }
+  .RadLightBox .rltbToolbar .rltbActionButton {
+    margin-left: .5em;
+    border-radius: 100%; }
+  .RadLightBox .rltbToolbar .rltbIcon {
+    width: 20px;
+    height: 20px; }
+  .RadLightBox .rltbActionButton {
+    padding: 6px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    vertical-align: middle; }
+  .RadLightBox .rltbActionButton::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .RadLightBox .rltbButtonText {
+    display: none; }
+  .RadLightBox .rltbIcon {
+    width: 1em;
+    height: 1em;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top; }
+  .RadLightBox .rltbClose {
+    padding: 6px;
+    width: 36px;
+    height: 36px;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -16px;
+    right: -17px;
+    z-index: 20; }
+  .RadLightBox .rltbCloseButton,
+  .RadLightBox .rltbCloseIcon {
+    padding: 0;
+    height: 36px;
+    width: 36px;
+    background-repeat: no-repeat; }
+  .RadLightBox .rltbClose {
+    background-position: 0 -89px; }
+  .RadLightBox .rltbCloseButton:hover .rltbCloseIcon {
+    background-position: -40px 0; }
+  .RadLightBox .rltbPrevButton,
+  .RadLightBox .rltbNextButton {
+    margin-top: -22px;
+    padding: 0;
+    width: 27px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    font-size: 1px;
+    color: transparent;
+    overflow: hidden;
+    z-index: 11; }
+  .RadLightBox .rltbPrevButton {
+    background-position: -40px -40px;
+    left: 10px; }
+  .RadLightBox .rltbNextButton {
+    background-position: 0 -40px;
+    right: 10px; }
+
+.RadLightBox.rltbMaximized {
+  padding: 0;
+  border-radius: 0;
+  background: none; }
+  .RadLightBox.rltbMaximized .rltbGlowEffect {
+    display: none; }
+  .RadLightBox.rltbMaximized .rltbWrapper {
+    border-radius: 0;
+    color: #ffffff;
+    background: black; }
+  .RadLightBox.rltbMaximized .rltbItemBox {
+    padding: 0; }
+  .RadLightBox.rltbMaximized .rltbDescriptionBox {
+    color: inherit;
+    background-color: inherit;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .RadLightBox.rltbMaximized .rltbToolbar {
+    padding-right: 50px; }
+  .RadLightBox.rltbMaximized .rltbClose {
+    padding: 0;
+    width: auto;
+    height: auto;
+    background: none;
+    right: 10px;
+    top: 10px; }
+  .RadLightBox.rltbMaximized .rltbClose:after {
+    display: none; }
+
+.rltbOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+.t-ie7 .rltbOverlay,
+.t-ie8 .rltbOverlay {
+  filter: alpha(opacity=60); }
+

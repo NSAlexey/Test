@@ -1,0 +1,66 @@
+.RadAutoCompleteBox_MetroTouch {
+  color: #333333;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 26px; }
+  .RadAutoCompleteBox_MetroTouch .racTokenList {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff;
+    padding-right: 36px; }
+  .RadAutoCompleteBox_MetroTouch .racToken {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    line-height: 28px;
+    padding: 0 10px;
+    vertical-align: top; }
+  .RadAutoCompleteBox_MetroTouch .racRemoveTokenLink {
+    margin: -3px -8px 0 2px;
+    width: 24px;
+    height: 24px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -13px -3363px; }
+  .RadAutoCompleteBox_MetroTouch .racTextToken {
+    padding-top: 1px;
+    padding-bottom: 1px; }
+  .RadAutoCompleteBox_MetroTouch .racInput {
+    height: 30px;
+    line-height: 30px;
+    *line-height: 28px;
+    vertical-align: top; }
+  .RadAutoCompleteBox_MetroTouch .racEditTokenInput {
+    height: 32px; }
+  .RadAutoCompleteBox_MetroTouch .racToken.racHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadAutoCompleteBox_MetroTouch .racToken.racFocused {
+    border-color: #25a0da;
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadAutoCompleteBox_MetroTouch .racToken.racSelected {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadAutoCompleteBox_MetroTouch .racLoadingIcon {
+    right: 11px;
+    bottom: 11px;
+    background-image: url('Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.5; }
+  .RadAutoCompleteBoxPopup_MetroTouch .racItemHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadAutoCompleteBoxPopup_MetroTouch .racFocused {
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadAutoCompleteBoxPopup_MetroTouch .racItemSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+

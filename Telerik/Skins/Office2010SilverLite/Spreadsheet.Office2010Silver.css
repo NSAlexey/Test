@@ -1,0 +1,250 @@
+.RadSpreadsheet_Office2010Silver {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Silver .rssToolbarWrapper {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #e2e5e9; }
+  .RadSpreadsheet_Office2010Silver .rssTabstrip .rtsLevel1 {
+    border-color: #bfc3ca; }
+  .RadSpreadsheet_Office2010Silver .rssTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #f1f2f3; }
+  .RadSpreadsheet_Office2010Silver .rssFormulaBar {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-startexp {
+    font-weight: bold; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-func {
+    font-weight: bold; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-paren-match {
+    background-color: #caf200; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-bool {
+    color: #a9169c; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-num {
+    color: #0099ff; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-str {
+    color: #38b714; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-ref {
+    color: #ff8822; }
+  .RadSpreadsheet_Office2010Silver .k-syntax-error {
+    color: red; }
+  .RadSpreadsheet_Office2010Silver .rssSheetsbar {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #e2e5e9; }
+    .RadSpreadsheet_Office2010Silver .rssSheetsbar .t-spreadsheet-sheets-bar-add:hover {
+      border-color: #f2d359;
+      color: #000000;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSpreadsheet_Office2010Silver .rssPane {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Silver .rssTopCorner {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #edeff2; }
+  .RadSpreadsheet_Office2010Silver .rssRowHeader,
+  .RadSpreadsheet_Office2010Silver .rssColumnHeader {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #edeff2; }
+  .RadSpreadsheet_Office2010Silver .rssRowHeader > div:hover,
+  .RadSpreadsheet_Office2010Silver .rssColumnHeader > div:hover {
+    border-color: #ffcb11;
+    color: #3b3b3b;
+    background-color: #ffe790; }
+  .RadSpreadsheet_Office2010Silver .rssRowHeader .k-selection-partial,
+  .RadSpreadsheet_Office2010Silver .rssColumnHeader .k-selection-partial {
+    border-color: #c58a00;
+    color: #3b3b3b;
+    background-color: #ffe373; }
+    .RadSpreadsheet_Office2010Silver .rssRowHeader .k-selection-partial:before,
+    .RadSpreadsheet_Office2010Silver .rssColumnHeader .k-selection-partial:before {
+      border-color: #e29f00; }
+  .RadSpreadsheet_Office2010Silver .rssSelection {
+    border-color: #e29f00;
+    background-color: rgba(226, 159, 0, 0.2);
+    box-shadow: 0 0 0 1px #e29f00; }
+    .RadSpreadsheet_Office2010Silver .rssSelection:after {
+      border-color: #ffffff;
+      background-color: #e29f00; }
+  .RadSpreadsheet_Office2010Silver .rssActiveCell {
+    border-color: #e29f00;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Silver .k-auto-fill {
+    border-color: #e29f00;
+    box-shadow: inset 0 0 0 1px #e29f00; }
+  .RadSpreadsheet_Office2010Silver .rssCellEditor {
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Silver .k-spreadsheet-editor-button {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+    .RadSpreadsheet_Office2010Silver .k-spreadsheet-editor-button:hover {
+      border-color: #f2d359;
+      color: #000000;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSpreadsheet_Office2010Silver .k-spreadsheet-merged-cell {
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Silver .k-resize-handle,
+  .RadSpreadsheet_Office2010Silver .k-resize-hint-handle,
+  .RadSpreadsheet_Office2010Silver .k-resize-hint-marker {
+    background-color: #c28b31; }
+  .RadSpreadsheet_Office2010Silver .k-filter-range {
+    border-color: #c28b31; }
+  .RadSpreadsheet_Office2010Silver .k-spreadsheet-filter {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1);
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #bfc3ca; }
+  .RadSpreadsheet_Office2010Silver .k-spreadsheet-filter:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9);
+    box-shadow: inset 0 0 0 1px #f2d359; }
+
+.rssSkin .t-button,
+.rssSkin .rssButton {
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3, #dbdde1);
+  border-radius: 3px; }
+
+.rssSkin .t-button:hover,
+.rssSkin .t-button.t-state-hover,
+.rssSkin .rssButton.rssHovered {
+  border-color: #f2d359;
+  color: #000000;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+
+.rssSkin .rssButton.rssPrimary {
+  border-color: #c38e00;
+  color: #000000;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffef7c, #ffd86b, #ffe272); }
+
+.rssSkin .rssButton.rssPrimary.rssHovered {
+  border-color: #f2d359;
+  color: #000000;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+
+.rssSkin .t-tabstrip .t-state-hover {
+  border-color: #ffcb11;
+  color: #3b3b3b;
+  background-color: #ffe790;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe790);
+  border-top-color: #a4abb2; }
+
+.rssSkin .t-tabstrip .t-state-active {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: none; }
+
+.rssSkin .t-spreadsheet-sheets-remove.t-state-hover {
+  color: #e50000; }
+
+.rssSkin .rssInput {
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #ffffff; }
+
+.rssSkin .rssMenu .rssLink {
+  border-radius: 3px; }
+
+.rssSkin .rssMenu .rssHovered > .rssLink {
+  border-color: #ffcb12;
+  color: #3b3b3b;
+  background-color: #ffe791;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+
+.rssSkin .rssMenu .rssSelected > .rssLink {
+  border-color: #c38e00;
+  color: #3b3b3b;
+  background-color: #fff17c;
+  background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+
+.rssSkin .rssCollapsibleList .rssLink {
+  border-radius: 3px; }
+
+.rssSkin .rssCollapsibleList .rssHovered > .rssLink {
+  border-color: #ffcb12;
+  color: #3b3b3b;
+  background-color: #ffe791;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+
+.rssSkin .rssCollapsibleList .rssExpanded > .rssLink {
+  border-color: transparent;
+  color: inherit;
+  background: none; }
+
+.rssPopup {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #a4abb2; }
+  .rssPopup .rssFilterMenu:before {
+    border-color: #c0c5c9;
+    background: #dbdee1; }
+  .rssPopup .rssSeparator {
+    border-color: #e6e6e6 white white #e6e6e6; }
+
+.rssWindow {
+  border-color: #a4abb2;
+  color: #3b3b3b;
+  background-color: #edeff2;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #a4abb2; }
+  .rssWindow .rssWindowTitlebar {
+    border-color: #a4abb2;
+    color: #3b3b3b;
+    background-color: #edeff2;
+    background-image: linear-gradient(#ffffff, #edeff2);
+    border-radius: 5px 5px 0 0; }
+  .rssWindow .rssWindowAction {
+    border-color: transparent; }
+  .rssWindow .rssWindowAction:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9);
+    border-radius: 3px; }
+  .rssWindow .rssWindowContent {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #ffffff; }
+  .rssWindow .rssWindowTabstrip {
+    background-color: #e2e5e9; }
+    .rssWindow .rssWindowTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+      color: #333333;
+      background: #ffffff; }
+  .rssWindow hr {
+    border-color: #a4abb2; }
+
+.rssFormulaList {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff; }
+  .rssFormulaList .k-item.k-state-hover {
+    color: #3b3b3b;
+    background-color: #ffe791; }
+  .rssFormulaList .k-item.k-state-focused {
+    color: #3b3b3b;
+    background-color: #fff17c; }
+

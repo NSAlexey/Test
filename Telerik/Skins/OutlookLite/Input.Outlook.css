@@ -1,0 +1,82 @@
+.RadInput_Outlook .riTextBox,
+.RadInput_Outlook .riSelect,
+.RadInput_Outlook .rcSelect,
+.RadInputMgr_Outlook {
+  border-color: #003c74;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Outlook .riEmpty,
+.RadInput_Empty_Outlook {
+  color: rgba(51, 51, 51, 0.8); }
+
+.RadInput_Outlook.RadInputHovered .riTextBox,
+.RadInput_Outlook.RadInputHovered .riSelect,
+.RadInput_Outlook.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #003c74;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Outlook.RadInputFocused .riTextBox,
+.RadInput_Outlook.RadInputFocused .riSelect,
+.RadInput_Outlook.RadInputFocused .rcSelect,
+.RadInput_Focused_Outlook {
+  border-color: #003c74;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Outlook.RadInputError .riTextBox,
+.RadInput_Outlook.RadInputError .riSelect,
+.RadInput_Outlook.RadInputError .rcSelect,
+.RadInput_Error_Outlook,
+.RadForm.rfdTextbox .RadInput_Outlook .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #b32d34;
+  color: #b32d34; }
+
+.RadInput_Outlook.RadInputError {
+  color: #b32d34; }
+
+.RadInput_Outlook .riNegative,
+.RadInput_Negative_Outlook {
+  color: #565656; }
+
+.RadInput_Outlook a,
+.RadInput_Outlook.RadInputDisabled a:hover,
+.RadInput_Outlook.RadInputDisabled a:active {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: none; }
+
+.RadInput_Outlook a:hover {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #fbc860; }
+
+.RadInput_Outlook a:focus, .RadInput_Outlook a:active {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadInput_Outlook .riLabel {
+  color: #333333; }
+
+.RadInput_Outlook .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../Outlook/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_Outlook .riError, .RadInputRTL_Error_Outlook {
+  background-position: 3px -298px; }
+
+.RadInputRTL_Outlook .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_Outlook .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_Outlook[type="text"] {
+  background-position: 3px -298px; }
+

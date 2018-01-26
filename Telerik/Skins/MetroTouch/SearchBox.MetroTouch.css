@@ -1,0 +1,84 @@
+.RadSearchBox_MetroTouch {
+  width: 210px;
+  color: #333333;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 32px; }
+  .RadSearchBox_MetroTouch .rsbInner {
+    height: 32px;
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSearchBox_MetroTouch .rsbInner.rsbHovered {
+      border-color: #cecece;
+      color: #333333;
+      background-color: #ffffff; }
+    .RadSearchBox_MetroTouch .rsbInner.rsbFocused {
+      border-color: #25a0da;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadSearchBox_MetroTouch .rsbInput {
+    height: 32px;
+    *line-height: 32px; }
+  .RadSearchBox_MetroTouch .rsbButton {
+    width: 32px;
+    height: 32px; }
+    .RadSearchBox_MetroTouch .rsbButton:hover {
+      border-color: #cecece;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadSearchBox_MetroTouch .rsbButton:active {
+      border-color: #25a0da;
+      color: #ffffff;
+      background-color: #25a0da; }
+  .RadSearchBox_MetroTouch .rsbButtonSearch {
+    width: 36px;
+    height: 36px; }
+    .RadSearchBox_MetroTouch .rsbButtonSearch .rsbIcon {
+      width: 18px;
+      height: 18px;
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -16px -4716px; }
+    .RadSearchBox_MetroTouch .rsbButtonSearch:active .rsbIcon {
+      background-position: -116px -4716px; }
+  .RadSearchBox_MetroTouch .rsbSCInner {
+    padding-left: 5px;
+    padding-right: 32px;
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadSearchBox_MetroTouch .rsbSCIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -17px -1067px;
+    right: 5px; }
+  .RadSearchBox_MetroTouch .rsbSCHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadSearchBox_MetroTouch .rsbSCFocused {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+    .RadSearchBox_MetroTouch .rsbSCFocused .rsbSCIcon {
+      background-position: -117px -1067px; }
+  .RadSearchBox_MetroTouch .rsbLoadingIcon {
+    background-image: url('Common/loading_small.gif');
+    margin: 8px; }
+
+.rsbPopup_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 1.5; }
+  .rsbPopup_MetroTouch .rsbListItemHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .rsbPopup_MetroTouch .rsbListItemSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+  .rsbPopup_MetroTouch .rsbListItemLoading {
+    color: #000000;
+    background-color: #e7e7e7; }
+

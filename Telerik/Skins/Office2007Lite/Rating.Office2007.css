@@ -1,0 +1,23 @@
+.RadRating_Office2007 a:before {
+  color: #9f9f9f; }
+
+.RadRating_Office2007 .rrtOver span,
+.RadRating_Office2007 a:hover .rrtPartComplement,
+.RadRating_Office2007 .rrtVertical .rrtSelected.rrtOver a,
+.RadRating_Office2007 .rrtSelected .rrtPartSelected,
+.RadRating_Office2007 .rrtSelected.rrtOver a {
+  color: #9f9f9f; }
+
+.RadRating_Office2007 .rrtSelected span {
+  color: #41559c; }
+
+.RadRating_Office2007 .rrtSelected .rrtPart,
+.RadRating_Office2007 .rrtSelected.rrtOver span {
+  color: #232e54; }
+
+.RadRating_Office2007 .rrtReversed .rrtPart:before {
+  color: #9f9f9f; }
+
+.RadRating_Office2007 .rrtReversed .rrtSelected .rrtPartComplement:before {
+  color: #232e54; }
+

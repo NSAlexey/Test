@@ -1,0 +1,9 @@
+.RadSocialShare_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSocialShare_Telerik .sshLinkItem:hover {
+    color: #66b340; }
+

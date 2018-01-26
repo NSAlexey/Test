@@ -1,0 +1,19 @@
+.RadTile_Bootstrap {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #337ab7; }
+  .RadTile_Bootstrap .rtilePeekContent {
+    background-color: #337ab7; }
+  .RadTile_Bootstrap.rtileSelected .rtileSelectedIcon {
+    background-image: url('Tile/rtileSprite.png'); }
+  .RadTile_Bootstrap.rtileHovered {
+    border-color: #2e6da4; }
+  .RadTile_Bootstrap.rtileSelected {
+    border-color: #286090; }
+  .RadTile_Bootstrap.rtileSelected.rtileHovered {
+    border-color: #1d4568; }
+  .RadTile_Bootstrap.rtileLoading,
+  .RadTile_Bootstrap .rtileLoading {
+    background-image: url('Common/loading_small.gif'); }
+

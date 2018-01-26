@@ -1,0 +1,39 @@
+.RadRotator_Office2010Silver .rrClipRegion {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Office2010Silver .rrButton {
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3, #dbdde1); }
+
+.RadRotator_Office2010Silver .rrButton:hover {
+  border-color: #f2d359;
+  color: #000000;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+
+.RadRotator_Office2010Silver .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(195, 142, 0, 0.5); }
+
+.RadRotator_Office2010Silver .rrButton:active {
+  border-color: #c38e00;
+  color: #000000;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.RadRotator_Office2010Silver .rrButtonDisabled,
+.RadRotator_Office2010Silver .rrButtonDisabled:hover,
+.RadRotator_Office2010Silver .rrButtonDisabled:focus,
+.RadRotator_Office2010Silver .rrButtonDisabled:active {
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3, #dbdde1);
+  box-shadow: none; }
+
+.RadRotator_Office2010Silver .rrLoadingSign {
+  background: url('../Office2010Silver/Common/loading_small.gif') no-repeat center; }
+

@@ -1,0 +1,11 @@
+.RadRotator_Windows7 .rrClipRegion {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadRotator_Windows7 .rrButton {
+  background-image: url('Rotator/RotatorButtons.gif'); }
+
+.RadRotator_Windows7 .rrLoadingSign {
+  background: url('Common/loading_small.gif') no-repeat center; }
+

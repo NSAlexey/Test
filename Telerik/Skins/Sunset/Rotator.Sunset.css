@@ -1,0 +1,11 @@
+.RadRotator_Sunset .rrClipRegion {
+  border-color: #938879;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Sunset .rrButton {
+  background-image: url('Rotator/RotatorButtons.gif'); }
+
+.RadRotator_Sunset .rrLoadingSign {
+  background: url('Common/loading_small.gif') no-repeat center; }
+

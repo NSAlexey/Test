@@ -1,0 +1,168 @@
+.RadWindow_Glow {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  box-shadow: 0 1px 3px #35434b;
+  /* override base shadow dimensions  */
+  /* Loading Indicators */
+  /* When ShowContentDuringLoad="true" */
+  /* When ShowContentDuringLoad="false" */
+  /* Alert buttons */ }
+  .RadWindow_Glow .rwTable .rwTitleRow .rwTopLeft,
+  .RadWindow_Glow .rwTable .rwTitleRow .rwTitlebar,
+  .RadWindow_Glow .rwTable .rwTitleRow .rwTopRight {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-image: linear-gradient(#303e46, #1c262c);
+    background-position: 0 0 !important;
+    background-repeat: repeat-x; }
+  .RadWindow_Glow .rwTitleRow .rwTopLeft {
+    border-radius: 6px 0 0; }
+  .RadWindow_Glow .rwTitleRow .rwTopRight {
+    border-radius: 0 6px 0 0; }
+  .RadWindow_Glow table.rwShadow .rwTopLeft,
+  .RadWindow_Glow table.rwShadow .rwTopRight,
+  .RadWindow_Glow.rwMinimizedWindow table.rwShadow .rwCorner.rwTopLeft,
+  .RadWindow_Glow.rwMinimizedWindow table.rwShadow .rwCorner.rwTopRight,
+  .RadWindow_Glow table.rwShadow .rwBodyLeft,
+  .RadWindow_Glow table.rwShadow .rwBodyRight,
+  .RadWindow_Glow table.rwShadow .rwFooterLeft,
+  .RadWindow_Glow table.rwShadow .rwFooterRight {
+    width: 8px !important; }
+  .RadWindow_Glow table.rwShadow .rwTopLeft,
+  .RadWindow_Glow table.rwShadow .rwTopRight {
+    height: 8px !important; }
+  .RadWindow_Glow table.rwShadow .rwFooterLeft,
+  .RadWindow_Glow table.rwShadow .rwFooterRight,
+  .RadWindow_Glow table.rwShadow .rwFooterCenter {
+    height: 8px; }
+  .RadWindow_Glow.rwNoTitleBar table.rwShadow .rwTitlebar,
+  .RadWindow_Glow.rwNoTitleBar table.rwShadow .rwTopLeft,
+  .RadWindow_Glow.rwNoTitleBar table.rwShadow .rwTopRight {
+    height: 8px !important; }
+  .RadWindow_Glow table.rwShadow em {
+    padding: 0 0 0 1px; }
+  .RadWindow_Glow .rwStatusbar input {
+    background-color: #1c262c;
+    color: #fff; }
+  .RadWindow_Glow .rwStatusbar div {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -12px -2212px;
+    padding: 4px 3px 0 0; }
+  .RadWindow_Glow .rwTable .rwTitlebarControls .rwIcon {
+    background-image: url('Window/rwIcon.png');
+    background-position: 0 0;
+    margin: 5px 5px 0 0; }
+  .RadWindow_Glow .rwTable.rwShadow .rwTitlebarControls .rwIcon {
+    margin: 2px 5px 0 0; }
+  .RadWindow_Glow .rwTable .rwTitlebarControls em {
+    color: #e2e8eb;
+    font-size: 16px;
+    font-family: "Segoue UI Light", "Segoue UI", Helvetica, sans-serif;
+    font-weight: normal; }
+  .RadWindow_Glow .rwTable .rwDialogInput {
+    border: 1px solid;
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c;
+    border-radius: 4px;
+    height: 26px; }
+  .RadWindow_Glow .rwTable .rwDialogInput:hover {
+    border: 1px solid;
+    border-color: #cd8100;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadWindow_Glow .rwTable .rwDialogInput:focus {
+    border: 1px solid;
+    border-color: #cd8100;
+    color: #fff;
+    background-color: #1c262c; }
+  .RadWindow_Glow td.rwWindowContent {
+    border-color: #1c2327;
+    color: #e2e8eb;
+    background-color: #35434b; }
+  .RadWindow_Glow .rwTable tr td.rwLoading {
+    background-color: #35434b; }
+  .RadWindow_Glow td.rwWindowContent.rwLoading,
+  .RadWindow_Glow .rwIframeWrapperIOS.rwLoading {
+    background-image: url('Common/loading.gif'); }
+  .RadWindow_Glow input.rwLoading {
+    background-image: url('Common/loading_small.gif'); }
+  .RadWindow_Glow .rwTable a.rwCancel,
+  .RadWindow_Glow .rwTable a.rwCancel span {
+    background: none;
+    cursor: pointer; }
+  .RadWindow_Glow .rwTable a.rwCancel span span {
+    text-decoration: underline; }
+  .RadWindow_Glow ul.rwControlButtons {
+    margin: -4px 0 0; }
+  .RadWindow_Glow .rwTable .rwControlButtons li a {
+    background-image: url('Common/radActionsSprite.png');
+    width: 28px;
+    height: 28px;
+    margin: 0 2px; }
+  .RadWindow_Glow a.rwCloseButton {
+    background-position: -11px -1911px; }
+  .RadWindow_Glow a.rwCloseButton:hover {
+    background-position: -61px -1911px; }
+  .RadWindow_Glow a.rwPinButton {
+    background-position: -11px -1261px; }
+  .RadWindow_Glow a.rwPinButton:hover {
+    background-position: -61px -1261px; }
+  .RadWindow_Glow a.rwPinButton.on {
+    background-position: -11px -1211px; }
+  .RadWindow_Glow a.rwPinButton.on:hover {
+    background-position: -61px -1211px; }
+  .RadWindow_Glow a.rwMinimizeButton {
+    background-position: -11px -1511px; }
+  .RadWindow_Glow a.rwMinimizeButton:hover {
+    background-position: -61px -1511px; }
+  .RadWindow_Glow a.rwMaximizeButton {
+    background-position: -11px -1611px; }
+  .RadWindow_Glow a.rwMaximizeButton:hover {
+    background-position: -61px -1611px; }
+  .RadWindow_Glow.rwMaximizedWindow a.rwMaximizeButton,
+  .RadWindow_Glow.rwMinimizedWindow a.rwMinimizeButton {
+    background-position: -11px -1811px; }
+  .RadWindow_Glow.rwMaximizedWindow a.rwMaximizeButton:hover,
+  .RadWindow_Glow.rwMinimizedWindow a.rwMinimizeButton:hover {
+    background-position: -61px -1811px; }
+  .RadWindow_Glow a.rwReloadButton {
+    background-position: -11px -1311px; }
+  .RadWindow_Glow a.rwReloadButton:hover {
+    background-position: -61px -1311px; }
+  .RadWindow_Glow div.rwDialogPopup,
+  .RadWindow_Glow input.rwDialogInput {
+    font: 13px Arial, Helvetica, sans-serif; }
+  .RadWindow_Glow a.rwPopupButton span {
+    height: 28px;
+    line-height: 28px; }
+  .RadWindow_Glow a.rwPopupButton {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    height: 28px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-radius: 4px; }
+  .RadWindow_Glow .rwWindowContent a.rwPopupButton:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    background-position: 0 0; }
+  .RadWindow_Glow a.rwPopupButton:focus,
+  .RadWindow_Glow a.rwPopupButton:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none;
+    box-shadow: inset 0 0 4px #1c262c;
+    background-position: 0 0; }
+

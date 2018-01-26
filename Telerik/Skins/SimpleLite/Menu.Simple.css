@@ -1,0 +1,68 @@
+.RadMenu_Simple .rmRootGroup {
+  border-color: #c4c4c4;
+  color: #000000;
+  background-color: #eaeaea; }
+  .RadMenu_Simple .rmRootGroup .rmItem {
+    border-color: #dddddd; }
+  .RadMenu_Simple .rmRootGroup .rmRootLink:hover {
+    border-color: #ca8500;
+    color: #882501;
+    background-color: #ffe79c; }
+  .RadMenu_Simple .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Simple .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+  .RadMenu_Simple .rmRootGroup .rmFocused > .rmLink {
+    border-color: #ca4900;
+    box-shadow: inset 0 0 5px #ca4900; }
+
+.RadMenu_Simple .rmGroup,
+.RadMenu_Simple .rmMultiColumn,
+.RadMenu_Simple .rmPopup {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadMenu_Simple .rmGroup .rmLink:hover,
+.RadMenu_Simple .rmGroup .rmToggle:hover {
+  border-color: #ca8500;
+  color: #882501;
+  background-color: #ffe79c; }
+
+.RadMenu_Simple .rmGroup .rmSelected > .rmLink,
+.RadMenu_Simple .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Simple .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Simple .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #ca4900;
+  color: #882501;
+  background-color: #ffa517; }
+
+.RadMenu_Simple .rmGroup .rmFocused > .rmLink,
+.RadMenu_Simple .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #ca4900;
+  box-shadow: inset 0 0 5px #ca4900; }
+
+.RadMenu_Simple .rmSeparator {
+  border-color: #c4c4c4; }
+
+.RadMenu_Simple .rmGroup .rmSeparator {
+  border-color: #cccccc; }
+
+.RadMenu_Simple .rmArrow {
+  border-color: #d9d9d9;
+  background-color: #f2f2f2; }
+
+.RadMenu_Simple .rmArrow:hover {
+  background-color: #e6e6e6; }
+
+.RadMenu_Simple .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #cccccc; }
+
+.RadMenu_Simple .rmGroup:before,
+.RadMenu_Simple .rmMultiColumn:before,
+.RadMenu_Simple .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Simple .rmScrollWrap > .rmVertical:before {
+  border-color: transparent;
+  background-color: #ededed; }
+

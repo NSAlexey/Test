@@ -1,0 +1,165 @@
+.RadAutoCompleteBox {
+  width: 12em;
+  line-height: 1.42857143;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: text; }
+  .RadAutoCompleteBox input,
+  .RadAutoCompleteBox input:focus {
+    box-shadow: none;
+    outline: none; }
+  .RadAutoCompleteBox input::-ms-clear {
+    display: none; }
+  .RadAutoCompleteBox .racTokenList {
+    padding: 2px 22px 2px 2px;
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden;
+    position: relative; }
+  .RadAutoCompleteBox .racToken {
+    margin: 1px 0;
+    padding: 0 1.42857143em 0 6px;
+    border-width: 1px;
+    border-style: solid;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+    position: relative; }
+  .RadAutoCompleteBox .racToken + .racToken {
+    margin-left: 1px; }
+  .RadAutoCompleteBox .racRemoveTokenLink {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: -0.71428571em 0 0 0;
+    color: inherit;
+    cursor: pointer; }
+    .RadAutoCompleteBox .racRemoveTokenLink:hover {
+      text-decoration: none; }
+  .RadAutoCompleteBox .racDisabled .racToken {
+    padding-right: 6px; }
+  .RadAutoCompleteBox .racDisabled .racRemoveTokenLink {
+    display: none; }
+  .RadAutoCompleteBox .p-i-close:before {
+    font-size: 14px; }
+  .RadAutoCompleteBox .racTextToken {
+    margin: 2px 0;
+    padding: 0 0 0 4px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer; }
+  .RadAutoCompleteBox .racTextToken.racFocused {
+    outline: 1px dotted; }
+  .RadAutoCompleteBox .racInput {
+    margin: 2px 0;
+    padding: 0 0 0 4px;
+    height: 1.42857143em;
+    line-height: 1.42857143;
+    border: 0;
+    color: inherit;
+    background: none;
+    font: inherit;
+    text-indent: 4px;
+    display: inline-block;
+    vertical-align: top; }
+  .RadAutoCompleteBox .racEmptyMessage {
+    font-style: italic;
+    filter: alpha(opacity=80);
+    opacity: .8; }
+  .RadAutoCompleteBox .racEditTokenInput {
+    margin: 0;
+    padding: 0;
+    height: 1.42857143em;
+    border: 0;
+    color: inherit;
+    background: none;
+    font: inherit; }
+  .RadAutoCompleteBox .p-i-loading {
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .RadAutoCompleteBox .racDisabled {
+    filter: alpha(opacity=50);
+    opacity: .5;
+    cursor: default; }
+  .RadAutoCompleteBox .racToken.racDisabled,
+  .RadAutoCompleteBox .racTextToken.racDisabled {
+    filter: alpha(opacity=50);
+    opacity: .5;
+    cursor: default; }
+  .RadAutoCompleteBox .racDisabled .racTextToken {
+    cursor: default; }
+
+.racSlide {
+  min-width: 12em;
+  position: absolute;
+  z-index: 9999; }
+
+.RadAutoCompleteBoxPopup {
+  width: 12em;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  line-height: 1.42857143;
+  text-align: left;
+  cursor: default;
+  position: relative;
+  overflow: hidden; }
+  .RadAutoCompleteBoxPopup .racList {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+    overflow: auto;
+    box-sizing: border-box; }
+  .RadAutoCompleteBoxPopup .racHeader,
+  .RadAutoCompleteBoxPopup .racFooter {
+    *zoom: 1;
+    padding: 2px 5px;
+    border: 0 solid transparent;
+    border-color: inherit; }
+    .RadAutoCompleteBoxPopup .racHeader:after,
+    .RadAutoCompleteBoxPopup .racFooter:after {
+      content: "";
+      height: 0;
+      clear: both;
+      display: block; }
+  .RadAutoCompleteBoxPopup .racHeader {
+    margin-bottom: 1px;
+    border-bottom-width: 1px; }
+  .RadAutoCompleteBoxPopup .racFooter {
+    margin-top: 1px;
+    border-top-width: 1px; }
+  .RadAutoCompleteBoxPopup .racShowAll {
+    margin: 1px 0 0 0;
+    padding: 2px 5px;
+    border: 0 solid transparent;
+    border-color: inherit;
+    border-top-width: 1px;
+    text-align: center;
+    cursor: pointer; }
+  .RadAutoCompleteBoxPopup .racItem {
+    *zoom: 1;
+    padding: 4px 10px; }
+    .RadAutoCompleteBoxPopup .racItem:after {
+      content: "";
+      height: 0;
+      clear: both;
+      display: block; }
+
+.RadAutoCompleteBox.RadAutoCompleteBoxWithLabel .racLabel {
+  padding-right: 7px;
+  vertical-align: middle; }
+
+.RadAutoCompleteBox.RadAutoCompleteBoxWithLabel .racTokenList {
+  display: inline-block;
+  vertical-align: middle; }
+

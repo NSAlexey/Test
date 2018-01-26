@@ -1,0 +1,36 @@
+.RadImageEditor_MetroTouch,
+.RadImageEditor_MetroTouch.rieDialogs .riePrintContent,
+.RadImageEditor_MetroTouch .rieHighlightVertical,
+.RadImageEditor_MetroTouch .rieHighlightHorizontal,
+.RadDock_MetroTouch.rieDialogs .rieActiveThumbsLink,
+.RadDock_MetroTouch.rieDialogs .rieThumbsLink:hover,
+.RadDock_MetroTouch.rieDialogs .riePrintContent,
+.RadDock_MetroTouch.rieDialogs .riePrintContent img {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadImageEditor_MetroTouch .rieContentArea,
+.RadDock_MetroTouch.rieDialogs .rieThumbsBottomRow td,
+.RadDock_MetroTouch.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_MetroTouch.rieDialogs .rieThumbsLink {
+  border-color: white; }
+
+.rieRotateTable .rbHovered .rbIcon:before,
+.rieResizeButtons .rbHovered .rbIcon:before {
+  color: #25a0da; }
+
+.rieBottomCell {
+  border-color: #e6e6e6; }
+
+.rieZoomTable .RadButton_MetroTouch.rbButton.rbPrimary {
+  height: 2.4em;
+  padding-left: 1.55em; }
+
+div.rdContent.RadImageEditor {
+  border-radius: 0; }
+
+div.rieZoneLeft,
+div.rieZoneRight {
+  width: 5.625em; }
+

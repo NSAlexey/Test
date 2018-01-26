@@ -1,0 +1,124 @@
+.RadEditor_Office2010Silver {
+  background-color: #e2e5e9;
+  border-color: #a4abb2;
+  color: #333333; }
+  .RadEditor_Office2010Silver .reToolBar, .RadEditor_Office2010Silver.rePopupContainer,
+  .RadEditor_Office2010Silver .rePopupTitle,
+  .RadEditor_Office2010Silver .reCommentInfoPanel,
+  .RadEditor_Office2010Silver .reCommentView,
+  .RadEditor_Office2010Silver .reCommentViewText,
+  .RadEditor_Office2010Silver .reCommentEdit {
+    background-color: #e2e5e9;
+    border-color: #a4abb2;
+    background-image: linear-gradient(to bottom, #f1f2f3 0, #dbdde0 100%); }
+  .RadEditor_Office2010Silver .rePopupButton,
+  .RadEditor_Office2010Silver .reCommentButton,
+  .RadEditor_Office2010Silver .reAjaxSpellButton {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadEditor_Office2010Silver .reTool:hover,
+  .RadEditor_Office2010Silver .reToolText:hover,
+  .RadEditor_Office2010Silver .reModes a:hover,
+  .RadEditor_Office2010Silver .reDropdown:hover,
+  .RadEditor_Office2010Silver .reSpinBoxButtons span:hover,
+  .RadEditor_Office2010Silver.reInsertTable .reTool:hover:before,
+  .RadEditor_Office2010Silver.reAlignmentSelector td div:hover:before,
+  .RadEditor_Office2010Silver .rePopupButton:hover,
+  .RadEditor_Office2010Silver .reCommentButton:hover,
+  .RadEditor_Office2010Silver .reAjaxSpellButton:hover {
+    background-color: #fcf5d9;
+    border-color: #f2d359;
+    background-image: linear-gradient(to bottom, #ffe68c 0, #fff4cc 100%); }
+  .RadEditor_Office2010Silver .reTool:active,
+  .RadEditor_Office2010Silver .reTool:focus,
+  .RadEditor_Office2010Silver .reToolText:active,
+  .RadEditor_Office2010Silver .reToolText:focus,
+  .RadEditor_Office2010Silver .reToolSelected,
+  .RadEditor_Office2010Silver .reToolSelected:hover,
+  .RadEditor_Office2010Silver .reModes a:active,
+  .RadEditor_Office2010Silver .reModes a:focus,
+  .RadEditor_Office2010Silver .reModes .reSelectedMode,
+  .RadEditor_Office2010Silver .reModes .reSelectedMode:hover,
+  .RadEditor_Office2010Silver .reDropdown:active,
+  .RadEditor_Office2010Silver .reDropdown:focus,
+  .RadEditor_Office2010Silver .reSpinBoxButtons span:active,
+  .RadEditor_Office2010Silver .reSpinBoxButtons span:focus,
+  .RadEditor_Office2010Silver .rePopupButton:active,
+  .RadEditor_Office2010Silver .rePopupButton:focus,
+  .RadEditor_Office2010Silver .reCommentButton:active,
+  .RadEditor_Office2010Silver .reCommentButton:focus,
+  .RadEditor_Office2010Silver .reAjaxSpellButton:focus,
+  .RadEditor_Office2010Silver .reAjaxSpellButton:active {
+    background-color: #ffef7c;
+    border-color: #c38e00;
+    background-image: linear-gradient(to bottom, #f9d04c 0, #feee77 100%); }
+  .RadEditor_Office2010Silver .reDropdown,
+  .RadEditor_Office2010Silver .reTool:before,
+  .RadEditor_Office2010Silver .reToolText,
+  .RadEditor_Office2010Silver .reSplitArrow:before,
+  .RadEditor_Office2010Silver .reDOMElement,
+  .RadEditor_Office2010Silver .reCustomColor,
+  .RadEditor_Office2010Silver .reCustomLinks a,
+  .RadEditor_Office2010Silver .reModes a {
+    color: #333333; }
+  .RadEditor_Office2010Silver .reTool:hover .reSplitArrow {
+    border-left-color: #f2d359; }
+  .RadEditor_Office2010Silver .reTool:active .reSplitArrow,
+  .RadEditor_Office2010Silver .reTool:focus .reSplitArrow {
+    border-left-color: #c38e00; }
+  .RadEditor_Office2010Silver .reSeparator {
+    border-right-color: #a4abb2;
+    border-left-color: #ffffff; }
+  .RadEditor_Office2010Silver .reToolBarWrapperLeft .reSeparator,
+  .RadEditor_Office2010Silver .reToolBarWrapperRight .reSeparator {
+    border-top-color: #ffffff;
+    border-bottom-color: #a4abb2; }
+  .RadEditor_Office2010Silver .reContent {
+    background-color: #ffffff;
+    border-color: #a4abb2; }
+  .RadEditor_Office2010Silver .reTableDiv .reModule,
+  .RadEditor_Office2010Silver .reTableDiv .reRow {
+    border-top-color: #a4abb2; }
+  .RadEditor_Office2010Silver .reDropdown,
+  .RadEditor_Office2010Silver .reDropdown.reToolDisabled,
+  .RadEditor_Office2010Silver .reDropdown.reToolDisabled:hover,
+  .RadEditor_Office2010Silver .reDropdown.reToolDisabled:active,
+  .RadEditor_Office2010Silver .reDropdown.reToolDisabled:focus {
+    background-color: #ffffff;
+    border-color: #a4abb2; }
+  .RadEditor_Office2010Silver .reRemoveDOMElement,
+  .RadEditor_Office2010Silver .reRemoveDOMElement:before {
+    color: #e50000; }
+  .RadEditor_Office2010Silver.reDropDownBody.reAjaxSpellCheck input[type="text"],
+  .RadEditor_Office2010Silver .reTableDiv input[type="text"] {
+    border-color: #a4abb2; }
+  .RadEditor_Office2010Silver.reDropDownBody.reAjaxSpellCheck input[type="text"]:hover,
+  .RadEditor_Office2010Silver .reTableDiv input[type="text"]:hover {
+    border-color: #f3d64a; }
+  .RadEditor_Office2010Silver .reResize:before {
+    color: #333333; }
+  .RadEditor_Office2010Silver.reInlineEditor:hover {
+    border-color: #a4abb2; }
+  .RadEditor_Office2010Silver.RadWindow, .RadEditor_Office2010Silver.RadWindow.reInlineEditor:hover {
+    border-color: #a4abb2; }
+  .RadEditor_Office2010Silver.reInlineEditorSelected, .RadEditor_Office2010Silver.reInlineEditorSelected:hover {
+    border-color: #c28b31; }
+  .RadEditor_Office2010Silver.RadWindow,
+  .RadEditor_Office2010Silver.RadWindow .rwContent {
+    background-color: #e2e5e9; }
+  .RadEditor_Office2010Silver.reDropDownBody {
+    background-color: #ffffff; }
+  .RadEditor_Office2010Silver.reDropDownBody li:hover {
+    background-color: #fae185; }
+  .RadEditor_Office2010Silver.reInsertTable td {
+    border-color: #a4abb2; }
+  .RadEditor_Office2010Silver .reFormatSetsHeader,
+  .RadEditor_Office2010Silver.reInsertTable .reItemOver {
+    background-color: #fae185;
+    color: #000000; }
+
+.reTool .reNoAlignment {
+  color: #333333; }
+

@@ -1,0 +1,67 @@
+.RadTabStrip_Windows7 {
+  color: #1e395b; }
+  .RadTabStrip_Windows7 .rtsLevel1 {
+    border-color: #aabfd6;
+    background-color: #dfe9f5; }
+    .RadTabStrip_Windows7 .rtsLevel1 .rtsLink {
+      border-color: transparent;
+      color: #4c607a; }
+    .RadTabStrip_Windows7 .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: #c1cdde;
+      color: #4c607a; }
+    .RadTabStrip_Windows7 .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #aabfd6;
+      color: #1e395b;
+      background-color: #ffffff; }
+    .RadTabStrip_Windows7 .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #c1cdde;
+      box-shadow: inset 0 0 5px #c1cdde; }
+  .RadTabStrip_Windows7 .rtsLevel1 ~ .rtsLevel {
+    border-color: #aabfd6;
+    color: #1e395b;
+    background-color: #ffffff; }
+    .RadTabStrip_Windows7 .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #4c93cc; }
+    .RadTabStrip_Windows7 .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #2d6c9e; }
+    .RadTabStrip_Windows7 .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit;
+      text-decoration: underline; }
+    .RadTabStrip_Windows7 .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #aac1df;
+      box-shadow: inset 0 0 5px #aac1df; }
+  .RadTabStrip_Windows7 .rtsGhostTab {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8);
+    border-radius: 4px; }
+
+.RadTabStrip_Windows7.rtsTop .rtsLevel1 {
+  padding-top: 4px; }
+  .RadTabStrip_Windows7.rtsTop .rtsLevel1 .rtsLink {
+    border-radius: 4px 4px 0 0; }
+  .RadTabStrip_Windows7.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+    border-bottom-color: transparent; }
+
+.RadTabStrip_Windows7.rtsBottom .rtsLevel1 {
+  padding-bottom: 4px; }
+  .RadTabStrip_Windows7.rtsBottom .rtsLevel1 .rtsLink {
+    border-radius: 0 0 4px 4px; }
+  .RadTabStrip_Windows7.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+    border-top-color: transparent; }
+
+.RadTabStrip_Windows7.rtsLeft .rtsLevel1 {
+  padding-left: 4px; }
+  .RadTabStrip_Windows7.rtsLeft .rtsLevel1 .rtsLink {
+    border-radius: 4px 0 0 4px; }
+  .RadTabStrip_Windows7.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+    border-right-color: transparent; }
+
+.RadTabStrip_Windows7.rtsRight .rtsLevel1 {
+  padding-right: 4px; }
+  .RadTabStrip_Windows7.rtsRight .rtsLevel1 .rtsLink {
+    border-radius: 0 4px 4px 0; }
+  .RadTabStrip_Windows7.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+    border-left-color: transparent; }
+

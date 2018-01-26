@@ -1,0 +1,72 @@
+.RadMediaPlayer_Bootstrap {
+  color: #333333; }
+  .RadMediaPlayer_Bootstrap .rmpToolbar {
+    color: #333333;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-color: #dedede; }
+  .RadMediaPlayer_Bootstrap div.rmpVolContrBar {
+    background-color: rgba(245, 245, 245, 0.9);
+    border-color: #dedede; }
+  .RadMediaPlayer_Bootstrap.rmpSolidBgr .rmpToolbar,
+  .RadMediaPlayer_Bootstrap.rmpSolidBgr div.rmpVolContrBar {
+    background-color: whitesmoke; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylist {
+    background-color: #ffffff; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist li a {
+      background-color: #ffffff;
+      color: #333333; }
+      .RadMediaPlayer_Bootstrap .rmpPlaylist li a:hover {
+        background-color: #eeeeee;
+        color: #000000; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist li.rmpActive a {
+      background-color: #337ab7;
+      color: #ffffff; }
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistPrevButton,
+    .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistNextButton {
+      background-color: #ffffff; }
+      .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistPrevButton:hover,
+      .RadMediaPlayer_Bootstrap .rmpPlaylist .rmpPlaylistNextButton:hover {
+        background-color: #e6e6e6; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVertical li,
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside li {
+    border-top: 1px solid rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid #f2f2f2; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVertical .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside .rmpPlaylistPrevButtonWrap {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.85); }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVertical .rmpPlaylistNextButtonWrap,
+  .RadMediaPlayer_Bootstrap .rmpPlaylistVerticalInside .rmpPlaylistNextButtonWrap {
+    border-top: 1px solid rgba(255, 255, 255, 0.85); }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal.rmpPlaylistNavButtons {
+    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #cccccc; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal li {
+    border-left: 1px solid rgba(255, 255, 255, 0.85);
+    border-right: 1px solid #f2f2f2; }
+  .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal .rmpPlaylistPrevButtonWrap,
+  .RadMediaPlayer_Bootstrap .rmpPlaylistHorizontal .rmpPlaylistNextButtonWrap {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc; }
+  .RadMediaPlayer_Bootstrap .rmpBanner {
+    border: 1px solid #dedede; }
+    .RadMediaPlayer_Bootstrap .rmpBanner .rmpActionButton {
+      background-color: #ffffff;
+      color: #333333; }
+  .RadMediaPlayer_Bootstrap .rmpBigPlayButton,
+  .RadMediaPlayer_Bootstrap .rmpBigPauseButton {
+    background: rgba(252, 252, 252, 0.4); }
+  .RadMediaPlayer_Bootstrap .rmpToolbar .rmpActionButton:hover,
+  .RadMediaPlayer_Bootstrap .rmpToolbar .rmpActionButton .rmpSubtitlesActiveIcon,
+  .RadMediaPlayer_Bootstrap .rmpToolbar .rmpActionButton .rmpHDActiveIcon {
+    color: #337ab7; }
+  .RadMediaPlayer_Bootstrap .rmpSocialShareBox {
+    background-color: #337ab7; }
+  .RadMediaPlayer_Bootstrap .RadSocialShare .sshLinkItem {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadMediaPlayer_Bootstrap .RadSocialShare .sshLinkItem:active, .RadMediaPlayer_Bootstrap .RadSocialShare .sshLinkItem:hover {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+

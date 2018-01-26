@@ -1,0 +1,80 @@
+.RadWizard_Vista {
+  color: #333333;
+  background: #ffffff; }
+  .RadWizard_Vista .rwzHeader {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); }
+  .RadWizard_Vista .rwzBreadCrumb {
+    border-color: #acacac;
+    border-radius: 4px; }
+    .RadWizard_Vista .rwzBreadCrumb .rwzLink {
+      border-color: #acacac;
+      color: #000000;
+      background-color: #d2d2d2;
+      background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+      box-shadow: inset 0 0 0 1px #f3f3f3; }
+      .RadWizard_Vista .rwzBreadCrumb .rwzLink:before {
+        border-color: #acacac;
+        background: #d2d2d2 linear-gradient(135deg, #f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1); }
+    .RadWizard_Vista .rwzBreadCrumb .rwzHovered .rwzLink {
+      border-color: #5094b9;
+      color: #000000;
+      background-color: #abdcf7;
+      background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78); }
+      .RadWizard_Vista .rwzBreadCrumb .rwzHovered .rwzLink:before {
+        border-color: #5094b9;
+        background: #abdcf7 linear-gradient(135deg, #e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7); }
+    .RadWizard_Vista .rwzBreadCrumb .rwzSelected .rwzLink {
+      border-color: #3d7899;
+      color: #000000;
+      background-color: #ced7dd;
+      background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+      box-shadow: inset 0 0 3px 1px #41d7fc; }
+      .RadWizard_Vista .rwzBreadCrumb .rwzSelected .rwzLink:before {
+        border-color: #3d7899;
+        background: #ced7dd linear-gradient(135deg, #eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1), -1px 1px 1px 0 #6ddefa inset; }
+    .RadWizard_Vista .rwzBreadCrumb .rwzDisabled .rwzLink {
+      border-color: #acacac;
+      color: #000000;
+      background-color: #d2d2d2;
+      background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+      box-shadow: inset 0 0 0 1px #f3f3f3; }
+      .RadWizard_Vista .rwzBreadCrumb .rwzDisabled .rwzLink:before {
+        border-color: #acacac;
+        background: #d2d2d2 linear-gradient(135deg, #f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2); }
+    .RadWizard_Vista .rwzBreadCrumb .rwzPager {
+      background: #abdcf7 linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7); }
+      .RadWizard_Vista .rwzBreadCrumb .rwzPager .rwzCallout:before, .RadWizard_Vista .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        border-color: #acacac; }
+      .RadWizard_Vista .rwzBreadCrumb .rwzPager .rwzCallout:before {
+        background: #abdcf7 linear-gradient(135deg, #e8f5fd 50%, #dbf1fc); }
+      .RadWizard_Vista .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        background: #abdcf7 linear-gradient(135deg, #bee6fd, #abdcf7 48%); }
+  .RadWizard_Vista .rwzProgressBar {
+    background: #f6f6f6; }
+  .RadWizard_Vista .rwzProgress {
+    background: #7dc5f0; }
+  .RadWizard_Vista .rwzButton {
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3;
+    border-radius: 3px; }
+    .RadWizard_Vista .rwzButton.rwzHovered {
+      border-color: #5094b9;
+      color: #000000;
+      background-color: #abdcf7;
+      background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78); }
+    .RadWizard_Vista .rwzButton.rwzActive {
+      border-color: #3d7899;
+      color: #000000;
+      background-color: #ced7dd;
+      background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+      box-shadow: inset 0 0 3px 1px #41d7fc; }
+  .RadWizard_Vista .rwzCancelWrapper {
+    border-color: #aec5d1; }
+

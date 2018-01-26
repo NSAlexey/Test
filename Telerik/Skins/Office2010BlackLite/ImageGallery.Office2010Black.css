@@ -1,0 +1,31 @@
+.RadImageGallery_Office2010Black {
+  color: #333333; }
+  .RadImageGallery_Office2010Black .rigDotList > a {
+    background: #ffffff;
+    border-color: #5e5e5e; }
+  .RadImageGallery_Office2010Black .rigDotList .rigCurrentItem {
+    color: #f7c840; }
+  .RadImageGallery_Office2010Black .rigToolbar {
+    color: #000000;
+    background-color: rgba(111, 111, 111, 0.8); }
+  .RadImageGallery_Office2010Black .rigCloseButton,
+  .RadImageGallery_Office2010Black .rigDrawerButton {
+    color: #000000;
+    background-color: rgba(111, 111, 111, 0.8); }
+  .RadImageGallery_Office2010Black .rigProgressBar div {
+    background-color: #f7c840; }
+  .RadImageGallery_Office2010Black .rigPager {
+    border-color: #2c2c2c;
+    color: #efefef;
+    background-color: #4b4b4b; }
+    .RadImageGallery_Office2010Black .rigPager a.rigCurrentPage {
+      border-color: #f7c840;
+      color: #f7c840; }
+  .RadImageGallery_Office2010Black .rigTooltip {
+    background-color: #ffffff;
+    border-color: #5e5e5e; }
+    .RadImageGallery_Office2010Black .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Office2010Black .rigToolbar .rigActionButton:hover {
+    color: #f7c840; }
+

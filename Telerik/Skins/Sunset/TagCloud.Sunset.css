@@ -1,0 +1,14 @@
+.RadTagCloud_Sunset {
+  border-color: #938879;
+  color: #272722;
+  background-color: #ffffff; }
+  .RadTagCloud_Sunset.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadTagCloud_Sunset .rtcTagItem a {
+    color: #982e00; }
+  .RadTagCloud_Sunset .rtcTagItem a:hover {
+    color: #4c1700; }
+  .RadTagCloud_Sunset.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

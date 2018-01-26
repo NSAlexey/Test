@@ -1,0 +1,64 @@
+.RadWizard_Black {
+  color: #ffffff;
+  background: #464646; }
+  .RadWizard_Black .rwzHeader {
+    box-shadow: 0 1px 10px #000; }
+  .RadWizard_Black .rwzBreadCrumb {
+    border-color: #080808;
+    border-radius: 4px; }
+    .RadWizard_Black .rwzBreadCrumb .rwzLink {
+      border-color: #080808;
+      color: #ffffff;
+      background-color: #1b1b1b;
+      background-image: linear-gradient(#7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b); }
+      .RadWizard_Black .rwzBreadCrumb .rwzLink:before {
+        border-color: #080808;
+        background: linear-gradient(135deg, #7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b);
+        box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.2); }
+    .RadWizard_Black .rwzBreadCrumb .rwzHovered .rwzLink {
+      border-color: black;
+      color: #ffffff;
+      background-color: #020202;
+      background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+      .RadWizard_Black .rwzBreadCrumb .rwzHovered .rwzLink:before {
+        border-color: black;
+        background: linear-gradient(135deg, #5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+    .RadWizard_Black .rwzBreadCrumb .rwzSelected .rwzLink {
+      border-color: #070707;
+      color: #9eda29;
+      background-color: #202020;
+      background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+      .RadWizard_Black .rwzBreadCrumb .rwzSelected .rwzLink:before {
+        border-color: #070707;
+        background: linear-gradient(135deg, #6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+    .RadWizard_Black .rwzBreadCrumb .rwzPager {
+      background: #020202 linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+      .RadWizard_Black .rwzBreadCrumb .rwzPager .rwzCallout:before, .RadWizard_Black .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        border-color: #080808; }
+      .RadWizard_Black .rwzBreadCrumb .rwzPager .rwzCallout:before {
+        background: #020202 linear-gradient(135deg, #5c5c5c 50%, #2a2a2c 102%); }
+      .RadWizard_Black .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        background: #020202 linear-gradient(135deg, #060606, #020202 50%); }
+  .RadWizard_Black .rwzProgressBar {
+    background: #1f1f1f; }
+  .RadWizard_Black .rwzProgress {
+    background: #a0db2d; }
+  .RadWizard_Black .rwzButton {
+    border-color: #080808;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    background-image: linear-gradient(#7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b);
+    border-radius: 3px; }
+    .RadWizard_Black .rwzButton.rwzHovered {
+      border-color: black;
+      color: #ffffff;
+      background-color: #020202;
+      background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+    .RadWizard_Black .rwzButton.rwzActive {
+      border-color: #070707;
+      color: #9eda29;
+      background-color: #202020;
+      background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+  .RadWizard_Black .rwzCancelWrapper {
+    border-color: #080808; }
+

@@ -1,0 +1,79 @@
+.RadSlider_MetroTouch {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSlider_MetroTouch .rslTrack {
+    border-color: #e0e0e0;
+    background-color: #f9f9f9; }
+  .RadSlider_MetroTouch .rslItem {
+    background-image: url('../MetroTouch/Slider/ItemHorizontalBgr.png'); }
+  .RadSlider_MetroTouch .rslSelectedregion {
+    background-color: #25a0da; }
+  .RadSlider_MetroTouch .rslHorizontal.rslTop a.rslHandle {
+    top: .65em; }
+  .RadSlider_MetroTouch .rslHandle,
+  .RadSlider_MetroTouch .rslDraghandle {
+    border-radius: 45px;
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+    .RadSlider_MetroTouch .rslHandle:hover,
+    .RadSlider_MetroTouch .rslDraghandle:hover {
+      border-color: #cecece;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadSlider_MetroTouch .rslHandle:active,
+    .RadSlider_MetroTouch .rslHandle:focus,
+    .RadSlider_MetroTouch .rslDraghandle:active,
+    .RadSlider_MetroTouch .rslDraghandle:focus {
+      border-color: #25a0da;
+      color: #ffffff;
+      background-color: #25a0da; }
+  .RadSlider_MetroTouch .rslTrack a.rslDraghandle {
+    width: 1.25em;
+    height: 1.25em;
+    margin-top: -0.4em;
+    border: 2px solid #ffffff;
+    background-color: #e7e7e7;
+    top: 0.0625em; }
+    .RadSlider_MetroTouch .rslTrack a.rslDraghandle:hover {
+      width: 1.125em;
+      height: 1.125em;
+      background-color: #e7e7e7;
+      border: 3px solid #ffffff; }
+    .RadSlider_MetroTouch .rslTrack a.rslDraghandle:active,
+    .RadSlider_MetroTouch .rslTrack a.rslDraghandle:focus {
+      width: 1.125em;
+      height: 1.125em;
+      border: 3px solid #cecece;
+      background-color: #ffffff; }
+    .RadSlider_MetroTouch .rslTrack a.rslDraghandle .rslTrack a.rslDraghandle span {
+      width: 1.375em;
+      height: 1.375em;
+      border-radius: 45px;
+      overflow: hidden; }
+  .RadSlider_MetroTouch .rslVertical .rslItem {
+    background-image: url('../MetroTouch/Slider/ItemVerticalBgr.png'); }
+  .RadSlider_MetroTouch .rslVertical a.rslDraghandle {
+    margin-left: -0.4375em; }
+  .RadSlider_MetroTouch .rslVertical.rslLeft a.rslHandle {
+    left: 1.5em; }
+  .RadSlider_MetroTouch .rslTop .rslSmallTick,
+  .RadSlider_MetroTouch .rslBottom .rslSmallTick {
+    background-image: url('../MetroTouch/Slider/SmallChangeHorizontal.png'); }
+  .RadSlider_MetroTouch .rslTop .rslLargeTick,
+  .RadSlider_MetroTouch .rslBottom .rslLargeTick {
+    background-image: url('../MetroTouch/Slider/LargeChangeHorizontal.png'); }
+  .RadSlider_MetroTouch .rslLeft .rslSmallTick,
+  .RadSlider_MetroTouch .rslRight .rslSmallTick {
+    background-image: url('../MetroTouch/Slider/SmallChangeVertical.png'); }
+  .RadSlider_MetroTouch .rslLeft .rslLargeTick,
+  .RadSlider_MetroTouch .rslRight .rslLargeTick {
+    background-image: url('../MetroTouch/Slider/LargelChangeVertical.png'); }
+  .RadSlider_MetroTouch .rslMiddle .rslSmallTick {
+    background-image: url('../MetroTouch/Slider/SmallChangeMiddleHorizontal.png'); }
+  .RadSlider_MetroTouch .rslMiddle .rslLargeTick {
+    background-image: url('../MetroTouch/Slider/LargeChangeMiddleHorizontal.png'); }
+  .RadSlider_MetroTouch .rslCenter .rslSmallTick {
+    background-image: url('../MetroTouch/Slider/SmallChangeCenterVertical.png'); }
+  .RadSlider_MetroTouch .rslCenter .rslLargeTick {
+    background-image: url('../MetroTouch/Slider/LargelChangeCenterVertical.png'); }

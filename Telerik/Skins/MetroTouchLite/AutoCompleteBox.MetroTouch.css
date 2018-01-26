@@ -1,0 +1,47 @@
+.RadAutoCompleteBox_MetroTouch {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBox_MetroTouch .racTokenList {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_MetroTouch .racToken {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadAutoCompleteBox_MetroTouch .racTokenList.racHovered {
+    border-color: #cecece;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_MetroTouch .racToken.racHovered {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadAutoCompleteBox_MetroTouch .racTokenList.racFocused {
+    border-color: #25a0da;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_MetroTouch .racToken.racFocused {
+    border-color: #25a0da;
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadAutoCompleteBox_MetroTouch .racToken.racSelected {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadAutoCompleteBox_MetroTouch .p-i-loading {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBoxPopup_MetroTouch .racItemHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadAutoCompleteBoxPopup_MetroTouch .racFocused {
+    box-shadow: inset 0 0 5px #25a0da; }
+  .RadAutoCompleteBoxPopup_MetroTouch .racItemSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+

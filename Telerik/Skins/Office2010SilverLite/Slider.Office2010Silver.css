@@ -1,0 +1,63 @@
+.RadSlider_Office2010Silver {
+  color: #333333; }
+  .RadSlider_Office2010Silver .rslTrack {
+    border-color: #a4abb2;
+    background-color: #edeff2;
+    background-image: linear-gradient(#ffffff, #edeff2); }
+  .RadSlider_Office2010Silver .rslItem {
+    background-image: url('../Office2010Silver/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Office2010Silver .rslSelectedregion {
+    background-color: #ffd86b;
+    background-image: linear-gradient(); }
+  .RadSlider_Office2010Silver .rslHandle,
+  .RadSlider_Office2010Silver .rslDraghandle {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+    .RadSlider_Office2010Silver .rslHandle:hover,
+    .RadSlider_Office2010Silver .rslDraghandle:hover {
+      border-color: #f2d359;
+      color: #000000;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+    .RadSlider_Office2010Silver .rslHandle:active, .RadSlider_Office2010Silver .rslHandle:focus,
+    .RadSlider_Office2010Silver .rslDraghandle:active,
+    .RadSlider_Office2010Silver .rslDraghandle:focus {
+      border-color: #c38e00;
+      color: #000000;
+      background-color: #ffef7c;
+      background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadSlider_Office2010Silver .rslVertical .rslTrack {
+    background-image: linear-gradient(to left, #ffffff, #edeff2); }
+  .RadSlider_Office2010Silver .rslVertical .rslItem {
+    background-image: url('../Office2010Silver/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Office2010Silver .rslVertical .rslSelectedregion {
+    background-image: linear-gradient(to left, ); }
+  .RadSlider_Office2010Silver .rslVertical .rslDraghandle {
+    background-image: linear-gradient(to left, #f1f2f3, #dbdde1); }
+    .RadSlider_Office2010Silver .rslVertical .rslDraghandle:hover {
+      background-image: linear-gradient(to left, #fceaab, #fae185, #fcf5d9); }
+    .RadSlider_Office2010Silver .rslVertical .rslDraghandle:focus, .RadSlider_Office2010Silver .rslVertical .rslDraghandle:active {
+      background-image: linear-gradient(to left, #ffe272, #ffd86b, #ffef7c); }
+  .RadSlider_Office2010Silver .rslTop .rslSmallTick,
+  .RadSlider_Office2010Silver .rslBottom .rslSmallTick {
+    background-image: url('../Office2010Silver/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Office2010Silver .rslTop .rslLargeTick,
+  .RadSlider_Office2010Silver .rslBottom .rslLargeTick {
+    background-image: url('../Office2010Silver/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Office2010Silver .rslLeft .rslSmallTick,
+  .RadSlider_Office2010Silver .rslRight .rslSmallTick {
+    background-image: url('../Office2010Silver/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Office2010Silver .rslLeft .rslLargeTick,
+  .RadSlider_Office2010Silver .rslRight .rslLargeTick {
+    background-image: url('../Office2010Silver/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Office2010Silver .rslMiddle .rslSmallTick {
+    background-image: url('../Office2010Silver/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Office2010Silver .rslMiddle .rslLargeTick {
+    background-image: url('../Office2010Silver/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Office2010Silver .rslCenter .rslSmallTick {
+    background-image: url('../Office2010Silver/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Office2010Silver .rslCenter .rslLargeTick {
+    background-image: url('../Office2010Silver/Slider/LargelChangeCenterVertical.gif'); }
+

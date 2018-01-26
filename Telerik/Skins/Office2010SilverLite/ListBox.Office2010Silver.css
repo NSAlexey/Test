@@ -1,0 +1,42 @@
+.RadListBox_Office2010Silver {
+  color: #333333; }
+  .RadListBox_Office2010Silver .rlbButton {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1);
+    border-radius: 3px; }
+  .RadListBox_Office2010Silver .rlbGroup,
+  .RadListBox_Office2010Silver .rlbTemplateContent {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadListBox_Office2010Silver .rlbGroup .rlbDropClueAbove {
+    border-top-color: #bfc3ca; }
+  .RadListBox_Office2010Silver .rlbGroup .rlbDropClueBelow {
+    border-bottom-color: #bfc3ca; }
+  .RadListBox_Office2010Silver .rlbGroup .rlbSelected.rlbDropClueAbove,
+  .RadListBox_Office2010Silver .rlbGroup .rlbHovered.rlbDropClueAbove,
+  .RadListBox_Office2010Silver .rlbGroup .rlbSelected.rlbDropClueBelow,
+  .RadListBox_Office2010Silver .rlbGroup .rlbHovered.rlbDropClueBelow {
+    border-color: #FFF; }
+  .RadListBox_Office2010Silver .rlbButton:focus {
+    border-color: rgba(195, 142, 0, 0.5);
+    box-shadow: inset 0 0 5px rgba(195, 142, 0, 0.5); }
+  .RadListBox_Office2010Silver .rlbHovered.rlbItem, .RadListBox_Office2010Silver .rlbHighlight {
+    color: #3b3b3b;
+    background-color: #ffe791; }
+  .RadListBox_Office2010Silver .rlbHovered.rlbButton {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadListBox_Office2010Silver .rlbActive.rlbButton {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadListBox_Office2010Silver .rlbItem.rlbSelected {
+    color: #3b3b3b;
+    background-color: #fff17c; }
+

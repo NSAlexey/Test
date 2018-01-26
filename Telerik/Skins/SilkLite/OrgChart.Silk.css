@@ -1,0 +1,69 @@
+.RadOrgChart_Silk {
+  color: #333333; }
+  .RadOrgChart_Silk .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(227, 227, 227, 0.5); }
+  .RadOrgChart_Silk .rocItem,
+  .RadOrgChart_Silk .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3; }
+  .RadOrgChart_Silk .rocExpandArrow,
+  .RadOrgChart_Silk .rocCollapseArrow,
+  .RadOrgChart_Silk .rocExpandGroupArrow,
+  .RadOrgChart_Silk .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3; }
+  .RadOrgChart_Silk .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Silk .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Silk .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Silk .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Silk/Common/loading_small.gif'); }
+  .RadOrgChart_Silk .rocExpandArrow:hover,
+  .RadOrgChart_Silk .rocCollapseArrow:hover,
+  .RadOrgChart_Silk .rocExpandGroupArrow:hover,
+  .RadOrgChart_Silk .rocCollapseGroupArrow:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab; }
+  .RadOrgChart_Silk .rocExpandArrow:active,
+  .RadOrgChart_Silk .rocCollapseArrow:active,
+  .RadOrgChart_Silk .rocExpandGroupArrow:active,
+  .RadOrgChart_Silk .rocCollapseGroupArrow:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca; }
+
+.RadOrgChart_Silk.rocDetachedItem,
+.RadOrgChart_Silk.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3; }
+
+.rocToolbar_Silk {
+  border-radius: 5px;
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+  .rocToolbar_Silk .rocToolbarButton {
+    border-radius: 3px;
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+  .rocToolbar_Silk .rocToolbarButton:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .rocToolbar_Silk .rocToolbarButton:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+

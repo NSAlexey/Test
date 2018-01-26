@@ -1,0 +1,17 @@
+.RadNotification_Office2010Black {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadNotification_Office2010Black .rnTitleBar {
+    border-color: #4c4c4c;
+    color: #ffffff;
+    background-color: #606060;
+    background-image: linear-gradient(#606060, #505050, #606060); }
+  .RadNotification_Office2010Black .rnCommands a:hover {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadNotification_Office2010Black.rnShadows {
+    box-shadow: 2px 2px 3px rgba(94, 94, 94, 0.5); }
+

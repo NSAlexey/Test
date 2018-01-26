@@ -1,0 +1,18 @@
+.RadNotification_Office2007 {
+  border-color: #9eb6ce;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadNotification_Office2007 .rnTitleBar {
+    border-color: #85b0e3;
+    color: #333333;
+    background-color: #c3d8f1;
+    background-image: linear-gradient(#dee8f5, #c3d8f1);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d8f1', endColorstr='#c3d8f1',GradientType=0 );
+    border-bottom-color: inherit; }
+  .RadNotification_Office2007 .rnCommands a {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadNotification_Office2007.rnShadows {
+    box-shadow: 2px 2px 3px #9eb6ce; }
+

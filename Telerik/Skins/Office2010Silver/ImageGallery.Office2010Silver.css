@@ -1,0 +1,39 @@
+.RadImageGallery_Office2010Silver {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333; }
+  .RadImageGallery_Office2010Silver .rigDotList > a {
+    background: #ffffff;
+    border-color: #a4abb2; }
+  .RadImageGallery_Office2010Silver .rigDotList .rigCurrentItem {
+    color: #e29f00; }
+  .RadImageGallery_Office2010Silver .rigToolbar {
+    color: #333333;
+    background-color: #dbdde1; }
+  .RadImageGallery_Office2010Silver .rigCloseButton,
+  .RadImageGallery_Office2010Silver .rigDrawerButton {
+    color: #333333;
+    background-color: #dbdde1; }
+  .RadImageGallery_Office2010Silver .rigProgressBar div {
+    background-color: #e29f00; }
+  .RadImageGallery_Office2010Silver .rigPager {
+    border-color: #a4abb2;
+    color: #333333;
+    background-color: #e2e5e9; }
+    .RadImageGallery_Office2010Silver .rigPager a.rigCurrentPage {
+      border-color: #e29f00;
+      color: #e29f00; }
+  .RadImageGallery_Office2010Silver .rigTooltip {
+    background-color: #ffffff;
+    border-color: #a4abb2; }
+    .RadImageGallery_Office2010Silver .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Office2010Silver .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_Office2010Silver .rigPrevButton,
+  .RadImageGallery_Office2010Silver .rigNextButton,
+  .RadImageGallery_Office2010Silver .rigScrollPrevIcon,
+  .RadImageGallery_Office2010Silver .rigScrollNextIcon,
+  .RadImageGallery_Office2010Silver .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+

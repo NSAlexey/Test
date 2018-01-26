@@ -1,0 +1,350 @@
+/*Telerik RadPivotGrid Office2010Blue Skin*/
+/*global*/
+.RadPivotGrid_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* Pager */
+  /* filter */
+  /* Expand and Collaps Buttons */ }
+  .RadPivotGrid_Office2010Blue th,
+  .RadPivotGrid_Office2010Blue td,
+  .RadPivotGrid_Office2010Blue .rpgOuterTableWrapper {
+    border-color: #8ba0bc; }
+  .RadPivotGrid_Office2010Blue td:first-child[collspan] {
+    border-left: 0 none; }
+  .RadPivotGrid_Office2010Blue input {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #ffffff; }
+  .RadPivotGrid_Office2010Blue .rpgPager,
+  .RadPivotGrid_Office2010Blue .rpgPagePrev,
+  .RadPivotGrid_Office2010Blue .rpgPageNext,
+  .RadPivotGrid_Office2010Blue .rpgPageFirst,
+  .RadPivotGrid_Office2010Blue .rpgPageLast,
+  .RadPivotGrid_Office2010Blue .rpgFilterZone,
+  .RadPivotGrid_Office2010Blue .rpgRowsZone,
+  .RadPivotGrid_Office2010Blue .rpgColumnsZone,
+  .RadPivotGrid_Office2010Blue .rpgDataZone,
+  .RadPivotGrid_Office2010Blue .rpgColumnHeader,
+  .RadPivotGrid_Office2010Blue .rpgColumnHeaderTotal,
+  .RadPivotGrid_Office2010Blue .rpgColumnHeaderGrandTotal,
+  .RadPivotGrid_Office2010Blue .rpgContentZoneDiv th,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a:hover,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a:hover span,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage span,
+  .RadPivotGrid_Office2010Blue .rpgFilter,
+  .RadPivotGrid_Office2010Blue .rpgSortAsc,
+  .RadPivotGrid_Office2010Blue .rpgSortDesc,
+  .RadPivotGrid_Office2010Blue .rpgExpand,
+  .RadPivotGrid_Office2010Blue .rpgCollapse,
+  .RadPivotGrid_Office2010Blue .rpgFieldItem,
+  .RadPivotGrid_Office2010Blue .rpgGroupedFieldsTitle,
+  .RadPivotGrid_Office2010Blue .rpgPagerButton,
+  .RadPivotGrid_Office2010Blue .rpgKpi .rtSp,
+  .RadPivotGrid_Office2010Blue .rpgMeasure .rtSp,
+  .RadPivotGrid_Office2010Blue .rpgFolder .rtSp,
+  .RadPivotGrid_Office2010Blue .rpgOpenFolder .rtSp,
+  .RadPivotGrid_Office2010Blue .rpgOther .rtSp,
+  .RadPivotGrid_Office2010Blue .rpgDimension .rtSp {
+    background-image: url('PivotGrid/sprite.png'); }
+  .RadPivotGrid_Office2010Blue .rpgContentZoneDiv td {
+    border-color: #c0cfe1; }
+  .RadPivotGrid_Office2010Blue .rpgRowHeader,
+  .RadPivotGrid_Office2010Blue .rpgRowHeaderZoneDiv,
+  .RadPivotGrid_Office2010Blue .rpgRowHeaderGrandTotal {
+    background-color: #c0cfe1; }
+  .RadPivotGrid_Office2010Blue .rpgRowTotalDataCell,
+  .RadPivotGrid_Office2010Blue .rpgColumnTotalDataCell,
+  .RadPivotGrid_Office2010Blue .rpgRowGrandTotalDataCell,
+  .RadPivotGrid_Office2010Blue .rpgColumnGrandTotalDataCell {
+    background-color: #dae7f5; }
+  .RadPivotGrid_Office2010Blue .rpgRowTotalDataCell {
+    border-bottom-color: #c1c6cb; }
+  .RadPivotGrid_Office2010Blue .rpgRowHeaderTotal,
+  .RadPivotGrid_Office2010Blue .rpgRowTotalDataCell.rpgColumnTotalDataCell {
+    background-color: #a9bad4; }
+  .RadPivotGrid_Office2010Blue .rpgFilterZone,
+  .RadPivotGrid_Office2010Blue .rpgRowsZone,
+  .RadPivotGrid_Office2010Blue .rpgColumnsZone,
+  .RadPivotGrid_Office2010Blue .rpgDataZone,
+  .RadPivotGrid_Office2010Blue .rpgColumnHeader,
+  .RadPivotGrid_Office2010Blue .rpgColumnHeaderTotal,
+  .RadPivotGrid_Office2010Blue .rpgColumnHeaderGrandTotal,
+  .RadPivotGrid_Office2010Blue .rpgContentZoneDiv th {
+    background-color: #c0cfe1;
+    background-position: 0 -2000px;
+    background-repeat: repeat-x; }
+  .RadPivotGrid_Office2010Blue .rpgPager {
+    background-color: #b4c5d9;
+    background-position: 0 -1700px;
+    background-repeat: repeat-x;
+    color: #3b3b3b; }
+  .RadPivotGrid_Office2010Blue .rpgInfoPart {
+    color: #3b3b3b; }
+  .RadPivotGrid_Office2010Blue .rpgPageFirst {
+    margin: 0 3px 0 0;
+    background-position: 0 -240px; }
+  .RadPivotGrid_Office2010Blue .rpgPageFirst:hover {
+    background-position: 0 -290px; }
+  .RadPivotGrid_Office2010Blue .rpgPagePrev {
+    margin: 0 3px 0 0;
+    background-position: 0 -340px; }
+  .RadPivotGrid_Office2010Blue .rpgPagePrev:hover {
+    background-position: 0 -390px; }
+  .RadPivotGrid_Office2010Blue .rpgPageNext {
+    margin: 0 0 0 3px;
+    background-position: 0 -440px; }
+  .RadPivotGrid_Office2010Blue .rpgPageNext:hover {
+    background-position: 0 -490px; }
+  .RadPivotGrid_Office2010Blue .rpgPageLast {
+    margin: 0 0 0 3px;
+    background-position: 0 -540px; }
+  .RadPivotGrid_Office2010Blue .rpgPageLast:hover {
+    background-position: 0 -590px; }
+  .RadPivotGrid_Office2010Blue .rpgPager .rpgPagerButton {
+    background-color: #bfcddf;
+    background-position: 0 -1400px;
+    background-repeat: repeat-x;
+    border-color: #9babc2;
+    color: #384e73;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadPivotGrid_Office2010Blue .rpgNumPart a:hover,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a:hover span,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage span {
+    background-repeat: no-repeat; }
+  .RadPivotGrid_Office2010Blue .rpgNumPart a {
+    color: #3b3b3b; }
+  .RadPivotGrid_Office2010Blue .rpgNumPart a:hover {
+    background-position: 100% -690px;
+    color: #000; }
+  .RadPivotGrid_Office2010Blue .rpgNumPart a:hover span {
+    background-position: 0 -640px; }
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage:hover {
+    background-position: 100% -790px; }
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage span,
+  .RadPivotGrid_Office2010Blue .rpgNumPart a.rpgCurrentPage:hover span {
+    background-position: 0 -740px; }
+  .RadPivotGrid_Office2010Blue .rpgFieldItem,
+  .RadPivotGrid_Office2010Blue .rpgUpdateButton {
+    background-color: #bfcddf;
+    background-position: 0 -1400px;
+    background-repeat: repeat-x;
+    border-color: #8ba0bc;
+    color: #384e73; }
+  .RadPivotGrid_Office2010Blue .rpgFieldItem a {
+    color: #384e73; }
+  .RadPivotGrid_Office2010Blue .rpgSortAsc,
+  .RadPivotGrid_Office2010Blue .rpgSortDesc {
+    vertical-align: middle;
+    margin-left: 2px; }
+  .RadPivotGrid_Office2010Blue .rpgSortDesc {
+    background-position: 4px -47px; }
+  .RadPivotGrid_Office2010Blue .rpgSortAsc {
+    background-position: 4px -91px; }
+  .RadPivotGrid_Office2010Blue .rpgFilter {
+    background-position: 4px 3px; }
+  .RadPivotGrid_Office2010Blue .rpgFieldsPopupWrapper {
+    background: #ffffff; }
+  .RadPivotGrid_Office2010Blue .rpgExpand,
+  .RadPivotGrid_Office2010Blue .rpgCollapse {
+    background-position: 6px -135px;
+    background-repeat: no-repeat; }
+  .RadPivotGrid_Office2010Blue .rpgExpand {
+    background-position: 6px -182px; }
+
+.rpgCompact td.rpgEC {
+  background-color: #c0cfe1; }
+
+.rpgCompact .rpgRowHeaderField {
+  background-color: #d9e2ed; }
+
+.PivotGridReorderLeft_Office2010Blue,
+.PivotGridReorderRight_Office2010Blue,
+.PivotGridReorderTop_Office2010Blue,
+.PivotGridReorderBottom_Office2010Blue {
+  background: url('PivotGrid/sprite.png') no-repeat 3px -207px; }
+
+.PivotGridReorderLeft_Office2010Blue {
+  background-position: -20px -72px; }
+
+.PivotGridReorderRight_Office2010Blue {
+  background-position: 0 -66px; }
+
+.PivotGridReorderBottom_Office2010Blue {
+  background-position: -20px -208px; }
+
+.PivotGridWindow_Office2010Blue .rpgFilterButtonOk,
+.PivotGridWindow_Office2010Blue .rpgFilterButtonCancel {
+  background: #bfcddf url('PivotGrid/sprite.png') repeat-x 0 -1400px;
+  border-color: #9babc2;
+  color: #384e73; }
+
+.RadPivotGrid_Office2010Blue .rpgConfigurationPanel,
+.RadPivotGrid_Office2010Blue table.rpgTableWrapper {
+  color: #384e73;
+  background: #d8e4f2; }
+
+.RadPivotGrid_Office2010Blue .rpgUpdateButton,
+.RadPivotGrid_Office2010Blue .rpgChangeLayoutButton,
+.RadPivotGrid_Office2010Blue .rpgAllFieldsIcon,
+.RadPivotGrid_Office2010Blue .rpgFilterFieldsIcon,
+.RadPivotGrid_Office2010Blue .rpgRowFieldsIcon,
+.RadPivotGrid_Office2010Blue .rpgColumnFieldsIcon,
+.RadPivotGrid_Office2010Blue .rpgAggregateFieldsIcon,
+.RadPivotGrid_Office2010Blue .rpgItemContextMenu,
+.PivotGridContextMenu_Office2010Blue span.rmLeftImage {
+  background-image: url('PivotGrid/sprite.png');
+  background-repeat: no-repeat; }
+
+.RadPivotGrid_Office2010Blue .rpgKpi .rtSp {
+  background-position: -20px -1049px; }
+
+.RadPivotGrid_Office2010Blue .rpgDimension .rtSp {
+  background-position: -19px -1025px; }
+
+.RadPivotGrid_Office2010Blue .rpgMeasure .rtSp {
+  background-position: 0 -1185px; }
+
+.RadPivotGrid_Office2010Blue .rpgFolder .rtSp {
+  background-position: -18px -1071px; }
+
+.RadPivotGrid_Office2010Blue .rpgOpenFolder .rtSp {
+  background-position: 0 -1123px; }
+
+.RadPivotGrid_Office2010Blue .rpgOther .rtSp {
+  background-position: 0 -1204px; }
+
+.RadPivotGrid_Office2010Blue .rpgFieldItem:hover,
+.PivotGridWindow_Office2010Blue .rpgFilterButtonOk:hover,
+.PivotGridWindow_Office2010Blue .rpgFilterButtonCancel:hover {
+  background-position: 0 -1500px;
+  background-color: #fcf5d9;
+  border-color: #f3d64a;
+  color: #384e73; }
+
+.RadPivotGrid_Office2010Blue .rpgFieldItem:hover a {
+  color: #384e73; }
+
+.RadPivotGrid_Office2010Blue .rpgChangeLayoutButton {
+  background-position: 9px -837px;
+  background-color: #dae7f5;
+  border: 1px solid #9babc2; }
+
+.RadPivotGrid_Office2010Blue .rpgConfigurationPanel .rpgFieldsContainer {
+  border: 1px solid #9babc2; }
+
+/* Context Menu */
+.RadPivotGrid_Office2010Blue .rpgItemContextMenu {
+  background-position: 0 -1325px; }
+
+.RadPivotGrid_Office2010Blue .rpgConfigurationPanel .rpgFieldItem:hover .rpgItemContextMenu {
+  background-position: 0 -1354px; }
+
+.RadPivotGrid_Office2010Blue .rpgConfigurationPanel .rpgFieldItem:hover .rpgSortAsc {
+  background-position: -20px -91px; }
+
+.RadPivotGrid_Office2010Blue .rpgConfigurationPanel .rpgFieldItem:hover .rpgSortDesc {
+  background-position: -20px -47px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgStacked .rmLeftImage {
+  background-position: 0 -890px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgStacked:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue .rpgStacked.rmFocused .rmLeftImage {
+  background-position: -17px -890px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgSideBySide .rmLeftImage {
+  background-position: 0 -914px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgSideBySide:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue .rpgSideBySide.rmFocused .rmLeftImage {
+  background-position: -17px -914px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgTwoByTwo .rmLeftImage {
+  background-position: 0 -938px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgTwoByTwo:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue .rpgTwoByTwo.rmFocused .rmLeftImage {
+  background-position: -17px -938px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgOneByFour .rmLeftImage {
+  background-position: 0 -965px; }
+
+.PivotGridContextMenu_Office2010Blue .rpgOneByFour:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue .rpgOneByFour.rmFocused .rmLeftImage {
+  background-position: -17px -965px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgStacked .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgStacked .rmLeftImage {
+  background-position: 0 -988px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgStacked:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgStacked.rmFocused .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgStacked:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgStacked.rmFocused .rmLeftImage {
+  background-position: 0 -1223px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgSideBySide .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgSideBySide .rmLeftImage {
+  background-position: 0 -1010px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgSideBySide:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgSideBySide.rmFocused .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgSideBySide:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgSideBySide.rmFocused .rmLeftImage {
+  background-position: 0 -1245px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgTwoByTwo .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgTwoByTwo .rmLeftImage {
+  background-position: 0 -1037px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgTwoByTwo:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgTwoByTwo.rmFocused .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgTwoByTwo:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgTwoByTwo.rmFocused .rmLeftImage {
+  background-position: 0 -1272px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgOneByFour .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgOneByFour .rmLeftImage {
+  background-position: 0 -1059px; }
+
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgOneByFour:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuTop .rpgOneByFour.rmFocused .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgOneByFour:hover .rmLeftImage,
+.PivotGridContextMenu_Office2010Blue.rpgContextMenuBottom .rpgOneByFour.rmFocused .rmLeftImage {
+  background-position: 0 -1294px; }
+
+/* Container's icons*/
+.RadPivotGrid_Office2010Blue .rpgAllFieldsIcon {
+  background-position: -14px -1089px; }
+
+.RadPivotGrid_Office2010Blue .rpgFilterFieldsIcon {
+  background-position: -17px -1114px; }
+
+.RadPivotGrid_Office2010Blue .rpgRowFieldsIcon {
+  background-position: -14px -1139px; }
+
+.RadPivotGrid_Office2010Blue .rpgColumnFieldsIcon {
+  background-position: -14px -1164px; }
+
+.RadPivotGrid_Office2010Blue .rpgAggregateFieldsIcon {
+  background-position: -15px -1189px; }
+
+.PivotGridLeftResizer_Office2010Blue,
+.PivotGridRightResizer_Office2010Blue {
+  background-color: #3a71b7; }
+
+.PivotGridToolTip_Office2010Blue {
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  border-color: #9babc2;
+  color: #384e73; }
+

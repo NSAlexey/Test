@@ -1,0 +1,14 @@
+.RadTagCloud_Vista {
+  border-color: #aec5d1;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTagCloud_Vista.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadTagCloud_Vista .rtcTagItem a {
+    color: #3c7fb1; }
+  .RadTagCloud_Vista .rtcTagItem a:hover {
+    color: #295678; }
+  .RadTagCloud_Vista.rtcLoading {
+    background-image: url('../Vista/Common/loading_small.gif'); }
+

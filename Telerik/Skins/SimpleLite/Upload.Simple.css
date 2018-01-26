@@ -1,0 +1,35 @@
+.RadUpload_Simple {
+  color: #333333; }
+  .RadUpload_Simple .ruFileLI .ruButton:hover {
+    color: #882501; }
+  .RadUpload_Simple .ruFileLI .ruFileProgressWrap {
+    background-color: #eaeaea; }
+  .RadUpload_Simple .ruFileLI .ruFileProgress {
+    border-color: #ffa517;
+    background-color: #ffa517; }
+  .RadUpload_Simple .ruUploadSuccess .radIcon:before {
+    background-color: #5ec232; }
+  .RadUpload_Simple .ruUploading .radIcon:before {
+    background-color: #fdce3e; }
+  .RadUpload_Simple .ruUploadCancelled .radIcon:before,
+  .RadUpload_Simple .ruUploadFailure .radIcon:before {
+    background-color: #d51923; }
+  .RadUpload_Simple .ruSelectWrap .ruFakeInput {
+    border-color: #7c7c7c;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadUpload_Simple .ruSelectWrap .ruButton {
+    border-color: #7c7c7c;
+    color: #000000;
+    background-color: #e2e2e2; }
+  .RadUpload_Simple .ruSelectWrap .ruButton.ruButtonHover {
+    border-color: #ca8500;
+    color: #882501;
+    background-color: #ffe79c; }
+  .RadUpload_Simple .ruSelectWrap .ruButton.ruFocused {
+    box-shadow: inset 0 0 5px rgba(202, 73, 0, 0.5); }
+  .RadUpload_Simple .ruDropZone {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+

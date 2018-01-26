@@ -1,0 +1,57 @@
+.RadCloudUpload_Office2010Black {
+  color: #333333; }
+  .RadCloudUpload_Office2010Black .rcuButton {
+    border-radius: 3px;
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .RadCloudUpload_Office2010Black .rcuInfoPanel {
+    border-color: #2c2c2c;
+    color: #efefef;
+    background-color: #4b4b4b; }
+  .RadCloudUpload_Office2010Black .rcuHeader {
+    border-color: #4c4c4c;
+    color: #ffffff;
+    background-color: #606060;
+    background-image: linear-gradient(#606060, #505050, #606060); }
+  .RadCloudUpload_Office2010Black .rcuFileList {
+    border-color: #5e5e5e;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadCloudUpload_Office2010Black .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #4c4c4c;
+    background-color: #606060;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Office2010Black .rcuProgress {
+    border-color: #000000;
+    background-color: #f7c840;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Office2010Black .p-i-loading {
+    background-image: url('../Office2010Black/Common/loading_small.gif'); }
+  .RadCloudUpload_Office2010Black .rcuDropZone {
+    border-color: #f5ba0f;
+    color: #333333;
+    background-color: #f7c840; }
+  .RadCloudUpload_Office2010Black .rcuButton.rcuHovered {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadCloudUpload_Office2010Black .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #f7c840;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Office2010Black .rcuButton.rcuPressed {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+
+.rcuToolTip_Office2010Black {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #ffffff; }
+

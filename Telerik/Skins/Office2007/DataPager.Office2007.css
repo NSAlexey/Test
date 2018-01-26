@@ -1,0 +1,19 @@
+.RadDataPager_Office2007 {
+  border-color: #688caf;
+  color: #00156e;
+  background-color: #d6e6f4;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataPager_Office2007 .rdpPageFirst,
+  .RadDataPager_Office2007 .rdpPagePrev,
+  .RadDataPager_Office2007 .rdpPageNext,
+  .RadDataPager_Office2007 .rdpPageLast {
+    background-image: url('Grid/sprite.gif'); }
+  .RadDataPager_Office2007 .rdpPagerButton {
+    border-color: #7793b9;
+    background: #e8f1fc repeat-x 0 -1550px url('Grid/sprite.gif');
+    color: #00156e; }
+  .RadDataPager_Office2007 .rdpNumPart a,
+  .RadDataPager_Office2007 .rdpNumPart a span {
+    background-image: url('Grid/sprite.gif'); }
+

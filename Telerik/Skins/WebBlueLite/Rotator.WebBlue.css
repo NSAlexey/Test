@@ -1,0 +1,43 @@
+.RadRotator_WebBlue .rrClipRegion {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_WebBlue .rrButton {
+  border-color: #6e8aa8;
+  color: #0d202b;
+  background-color: #d7e2e7;
+  background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+
+.RadRotator_WebBlue .rrButton:hover {
+  border-color: #1c9fcc;
+  color: #0e3d4f;
+  background-color: #bee3f6;
+  background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+
+.RadRotator_WebBlue .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(58, 134, 158, 0.5); }
+
+.RadRotator_WebBlue .rrButton:active {
+  border-color: #3a869e;
+  color: #ffffff;
+  background-color: #7abace;
+  background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+
+.RadRotator_WebBlue .rrButtonDisabled,
+.RadRotator_WebBlue .rrButtonDisabled:hover,
+.RadRotator_WebBlue .rrButtonDisabled:focus,
+.RadRotator_WebBlue .rrButtonDisabled:active {
+  border-color: #6e8aa8;
+  color: #0d202b;
+  background-color: #d7e2e7;
+  background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+  box-shadow: none; }
+
+.RadRotator_WebBlue .rrLoadingSign {
+  background: url('../WebBlue/Common/loading_small.gif') no-repeat center; }
+

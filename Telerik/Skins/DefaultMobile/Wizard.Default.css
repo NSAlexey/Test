@@ -1,0 +1,67 @@
+.RadWizard_Default .rwzHeader {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); }
+
+.RadWizard_Default .rwzBreadCrumb {
+  border-color: #b3b3b3;
+  border-radius: 4px; }
+  .RadWizard_Default .rwzBreadCrumb .rwzLink {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6);
+    box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset; }
+    .RadWizard_Default .rwzBreadCrumb .rwzLink:before {
+      border-color: #b3b3b3;
+      background: linear-gradient(135deg, white, #e6e6e6);
+      box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1), -1px 1px 0 0 rgba(255, 255, 255, 0.6) inset; }
+  .RadWizard_Default .rwzBreadCrumb .rwzHovered .rwzLink {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+    .RadWizard_Default .rwzBreadCrumb .rwzHovered .rwzLink:before {
+      border-color: darkgray;
+      background: linear-gradient(135deg, gainsboro, #c2c2c2); }
+  .RadWizard_Default .rwzBreadCrumb .rwzSelected .rwzLink {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(#9a9a9a, #808080); }
+    .RadWizard_Default .rwzBreadCrumb .rwzSelected .rwzLink:before {
+      border-color: #676767;
+      background: linear-gradient(135deg, #9a9a9a, #808080); }
+  .RadWizard_Default .rwzBreadCrumb .rwzPager {
+    background: #c2c2c2 linear-gradient(gainsboro, #c2c2c2); }
+    .RadWizard_Default .rwzBreadCrumb .rwzPager .rwzCallout:before, .RadWizard_Default .rwzBreadCrumb .rwzPager .rwzCallout:after {
+      border-color: #b3b3b3; }
+    .RadWizard_Default .rwzBreadCrumb .rwzPager .rwzCallout:before {
+      background: #c2c2c2 linear-gradient(135deg, #e2e2e2 50%, #c3c3c3 140%); }
+    .RadWizard_Default .rwzBreadCrumb .rwzPager .rwzCallout:after {
+      background: #c2c2c2 linear-gradient(135deg, #e2e2e2 -50%, #c3c3c3 48%); }
+
+.RadWizard_Default .rwzProgressBar {
+  background: #e3e3e3; }
+
+.RadWizard_Default .rwzProgress {
+  background: #828282; }
+
+.RadWizard_Default .rwzButton {
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(white, #e6e6e6);
+  border-radius: 3px; }
+  .RadWizard_Default .rwzButton.rwzHovered {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .RadWizard_Default .rwzButton.rwzActive {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(#9a9a9a, #808080); }
+
+.RadWizard_Default .rwzCancelWrapper {
+  border-color: #b3b3b3; }
+

@@ -1,0 +1,57 @@
+.RadCloudUpload_Office2010Blue {
+  color: #384e73; }
+  .RadCloudUpload_Office2010Blue .rcuButton {
+    border-radius: 3px;
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadCloudUpload_Office2010Blue .rcuInfoPanel {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #dbe3ee; }
+  .RadCloudUpload_Office2010Blue .rcuHeader {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .RadCloudUpload_Office2010Blue .rcuFileList {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #ffffff; }
+  .RadCloudUpload_Office2010Blue .rcuProgressBar {
+    border-radius: 6px;
+    border-color: #dae7f5;
+    background-color: #f3f9fe;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadCloudUpload_Office2010Blue .rcuProgress {
+    border-color: #333333;
+    background-color: #ffd86d;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadCloudUpload_Office2010Blue .p-i-loading {
+    background-image: url('../Office2010Blue/Common/loading_small.gif'); }
+  .RadCloudUpload_Office2010Blue .rcuDropZone {
+    border-color: #2e5990;
+    color: #333333;
+    background-color: #3a71b7; }
+  .RadCloudUpload_Office2010Blue .rcuButton.rcuHovered {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadCloudUpload_Office2010Blue .rcuButtons .rcuHovered {
+    border-color: transparent;
+    color: #3a71b7;
+    background: none;
+    box-shadow: none; }
+  .RadCloudUpload_Office2010Blue .rcuButton.rcuPressed {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.rcuToolTip_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+

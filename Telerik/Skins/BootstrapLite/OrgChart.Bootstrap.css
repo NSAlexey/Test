@@ -1,0 +1,68 @@
+.RadOrgChart_Bootstrap {
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadOrgChart_Bootstrap .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.5); }
+  .RadOrgChart_Bootstrap .rocItem,
+  .RadOrgChart_Bootstrap .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #f2f2f2;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadOrgChart_Bootstrap .rocExpandArrow,
+  .RadOrgChart_Bootstrap .rocCollapseArrow,
+  .RadOrgChart_Bootstrap .rocExpandGroupArrow,
+  .RadOrgChart_Bootstrap .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadOrgChart_Bootstrap .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Bootstrap .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Bootstrap .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Bootstrap .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Bootstrap/Common/loading_small.gif'); }
+  .RadOrgChart_Bootstrap .rocExpandArrow:hover,
+  .RadOrgChart_Bootstrap .rocCollapseArrow:hover,
+  .RadOrgChart_Bootstrap .rocExpandGroupArrow:hover,
+  .RadOrgChart_Bootstrap .rocCollapseGroupArrow:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadOrgChart_Bootstrap .rocExpandArrow:active,
+  .RadOrgChart_Bootstrap .rocCollapseArrow:active,
+  .RadOrgChart_Bootstrap .rocExpandGroupArrow:active,
+  .RadOrgChart_Bootstrap .rocCollapseGroupArrow:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+
+.RadOrgChart_Bootstrap.rocDetachedItem,
+.RadOrgChart_Bootstrap.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #f2f2f2;
+  color: #333333;
+  background-color: #ffffff; }
+
+.rocToolbar_Bootstrap {
+  border-radius: 4px;
+  border-color: #dedede;
+  color: #333333;
+  background-color: whitesmoke; }
+  .rocToolbar_Bootstrap .rocToolbarButton {
+    border-radius: 2px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .rocToolbar_Bootstrap .rocToolbarButton:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .rocToolbar_Bootstrap .rocToolbarButton:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+

@@ -1,0 +1,26 @@
+.RadToolTip_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadToolTip_Glow .rtClose {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .RadToolTip_Glow .rtClose:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadToolTip_Glow .rtClose:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .RadToolTip_Glow .rtCallout {
+    border-color: #1c2327; }
+  .RadToolTip_Glow .rtCallout:before {
+    border-color: #35434b; }
+  .RadToolTip_Glow.rtLoading {
+    background-image: url('../Glow/Common/loading.gif'); }
+

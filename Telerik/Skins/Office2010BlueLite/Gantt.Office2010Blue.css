@@ -1,0 +1,272 @@
+.RadGantt_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+  .RadGantt_Office2010Blue .k-loading-color {
+    background-color: #ffffff; }
+  .RadGantt_Office2010Blue .k-loading-image {
+    background-image: url('../Office2010Blue/Common/loading.gif'); }
+  .RadGantt_Office2010Blue .rgtHeader {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadGantt_Office2010Blue .rgtViews > li:first-child + li .radButton {
+    border-radius: 3px 0 0 3px; }
+  .RadGantt_Office2010Blue .rgtFooter {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #dbe3ee; }
+  .RadGantt_Office2010Blue .rgtTreelist {
+    background-color: #f5fcff; }
+  .RadGantt_Office2010Blue .rgtTreelist .radAlt {
+    background-color: #e7f1fa; }
+  .RadGantt_Office2010Blue .rgtTreelist .radStateFocused {
+    box-shadow: inset 0 0 5px #c38e00; }
+  .RadGantt_Office2010Blue .rgtTreelist .radStateSelected {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #fff17c;
+    background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+  .RadGantt_Office2010Blue .rgtSplitbar {
+    border-color: #9babc2;
+    background-color: #dbe3ee; }
+  .RadGantt_Office2010Blue .rgtSplitbar .radResizeHandle {
+    border-radius: 2px;
+    background-color: #9babc2; }
+  .RadGantt_Office2010Blue .rgtSplitbarHover {
+    border-color: #bbc6d5;
+    background-color: #fefefe; }
+  .RadGantt_Office2010Blue .radLine {
+    background-color: #8ba0bc; }
+  .RadGantt_Office2010Blue .radArrowE,
+  .RadGantt_Office2010Blue .radArrowW {
+    color: #8ba0bc; }
+  .RadGantt_Office2010Blue .radLine.radStateSelected {
+    background-color: #1e395b;
+    box-shadow: 0 1px 3px #dbdbde; }
+  .RadGantt_Office2010Blue .radLine.radStateSelected .radArrowE,
+  .RadGantt_Office2010Blue .radLine.radStateSelected .radArrowW {
+    color: #1e395b; }
+  .RadGantt_Office2010Blue .radMarqueeColor {
+    background-color: rgba(41, 76, 122, 0.4); }
+  .RadGantt_Office2010Blue .rgtTaskDot:after {
+    border-color: #ffffff;
+    background-color: #1e395b; }
+  .RadGantt_Office2010Blue .rgtTaskDot:hover:after {
+    border-color: #1e395b;
+    background-color: #ffffff; }
+  .RadGantt_Office2010Blue .rgtResource {
+    background-color: #ffffff; }
+  .RadGantt_Office2010Blue .rgtResource.radAlt {
+    background-color: #f4f7fb; }
+  .RadGantt_Office2010Blue .rgtTaskMilestone {
+    border-color: #294c7a;
+    background-color: #294c7a;
+    background-image: linear-gradient(135deg, #5380bc, #294c7a); }
+  .RadGantt_Office2010Blue .rgtTaskMilestone.radStateSelected {
+    border-color: #ffd359;
+    background-color: #ffd359;
+    background-image: linear-gradient(135deg, #ffef71, #ffd359); }
+  .RadGantt_Office2010Blue .rgtTaskSummary {
+    border-color: #a5bfe1;
+    background-color: #a5bfe1; }
+  .RadGantt_Office2010Blue .rgtComplete {
+    border-color: #294c7a;
+    background-color: #294c7a; }
+  .RadGantt_Office2010Blue .rgtTaskSummary.radStateSelected {
+    border-color: #ffd359;
+    background-color: #ffd359; }
+  .RadGantt_Office2010Blue .radStateSelected .rgtComplete {
+    border-color: #c28a30;
+    background-color: #c28a30; }
+  .RadGantt_Office2010Blue .rgtTaskSingle {
+    border-color: #2b66b3;
+    border-radius: 3px;
+    color: #000000;
+    background-color: #d9e5f2;
+    background-image: linear-gradient(#ebf1f8, #d9e5f2);
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3); }
+  .RadGantt_Office2010Blue .rgtTaskComplete {
+    color: #ffffff;
+    background-color: #6187b8;
+    background-image: linear-gradient(#86addf, #6187b8); }
+  .RadGantt_Office2010Blue .rgtTaskSingle .radResizeHandle:after {
+    background-color: #1e395b; }
+  .RadGantt_Office2010Blue .rgtTaskSingle.radStateSelected,
+  .RadGantt_Office2010Blue .rgtTaskSingle.radStateSelected .rgtTaskComplete {
+    border-color: #1f3459; }
+
+.radSkin_Office2010Blue {
+  color: #384e73; }
+  .radSkin_Office2010Blue .k-grid, .radSkin_Office2010Blue .radCalendar {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #ffffff; }
+  .radSkin_Office2010Blue .k-popup, .radSkin_Office2010Blue.k-popup,
+  .radSkin_Office2010Blue .radPopup, .radSkin_Office2010Blue.radPopup, .radSkin_Office2010Blue .radDragClue, .radSkin_Office2010Blue.radDragClue, .radSkin_Office2010Blue.k-window {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #ffffff; }
+  .radSkin_Office2010Blue .k-button,
+  .radSkin_Office2010Blue .radButton, .radSkin_Office2010Blue .k-numeric-wrap .k-link,
+  .radSkin_Office2010Blue .k-numeric-wrap .k-select, .radSkin_Office2010Blue .k-dropdown-wrap, .radSkin_Office2010Blue .k-picker-wrap .k-select {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .radSkin_Office2010Blue .radButton:focus {
+    border-color: rgba(195, 142, 0, 0.5);
+    box-shadow: 0 0 5px rgba(195, 142, 0, 0.5) inset; }
+  .radSkin_Office2010Blue .k-button:hover,
+  .radSkin_Office2010Blue .radButton:hover,
+  .radSkin_Office2010Blue .radButton.radStateHovered,
+  .radSkin_Office2010Blue .radStateHovered > .radButton, .radSkin_Office2010Blue .k-numeric-wrap .k-link:hover, .radSkin_Office2010Blue .k-dropdown-wrap.k-state-hover, .radSkin_Office2010Blue .k-picker-wrap .k-select:hover {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .radSkin_Office2010Blue .radButton:active,
+  .radSkin_Office2010Blue .radButton.radStateSelected,
+  .radSkin_Office2010Blue .radStateSelected > .radButton, .radSkin_Office2010Blue .k-numeric-wrap .k-link.k-state-selected, .radSkin_Office2010Blue .k-dropdown-wrap.k-state-active {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .radSkin_Office2010Blue .radPrimary {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffef7c, #ffd86b, #ffe272); }
+  .radSkin_Office2010Blue .radPrimary:hover {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .radSkin_Office2010Blue .radPrimary:active {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .radSkin_Office2010Blue .k-textbox,
+  .radSkin_Office2010Blue .radTextbox, .radSkin_Office2010Blue .k-numeric-wrap, .radSkin_Office2010Blue .k-picker-wrap {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #ffffff; }
+  .radSkin_Office2010Blue .radDragClue, .radSkin_Office2010Blue.radDragClue {
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(130, 130, 130, 0.5); }
+  .radSkin_Office2010Blue .radList > .radStateHovered,
+  .radSkin_Office2010Blue .k-list > .k-state-hover {
+    color: #1e395b;
+    background-color: #ffe791; }
+  .radSkin_Office2010Blue .radList > .radStateFocused,
+  .radSkin_Office2010Blue .k-list > .k-state-focused {
+    box-shadow: inset 0 0 5px #c38e00; }
+  .radSkin_Office2010Blue .radList > .radStateSelected,
+  .radSkin_Office2010Blue .k-list > .k-state-selected {
+    color: #1e395b;
+    background-color: #fff17c; }
+  .radSkin_Office2010Blue .radGrid td {
+    border-color: #e6edf7; }
+  .radSkin_Office2010Blue .radGridHeader,
+  .radSkin_Office2010Blue .radGridHeaderWrap {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde; }
+  .radSkin_Office2010Blue .radGridHeader th {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .radSkin_Office2010Blue .radFauxRows .radAlt {
+    background-color: #f4f7fb; }
+  .radSkin_Office2010Blue .radFauxColumns .radNonwork {
+    background-color: rgba(188, 220, 255, 0.1); }
+  .radSkin_Office2010Blue .k-grid-header,
+  .radSkin_Office2010Blue .k-grid-header-wrap {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde; }
+  .radSkin_Office2010Blue .k-grid-header .k-header {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .radSkin_Office2010Blue .k-grid-content .k-alt {
+    background-color: #f4f7fb; }
+  .radSkin_Office2010Blue .k-grid-content td {
+    border-color: #9babc2; }
+  .radSkin_Office2010Blue .k-tooltip,
+  .radSkin_Office2010Blue .radTooltip {
+    border-color: #ffd969;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffd969;
+    background-image: linear-gradient(#ffe977, #ffd969);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
+  .radSkin_Office2010Blue .k-tooltip-validation {
+    border-color: #ffffff;
+    color: #d51923;
+    background-color: #ffffff;
+    background-image: none; }
+  .radSkin_Office2010Blue .k-button,
+  .radSkin_Office2010Blue .radButton {
+    border-radius: 3px; }
+  .radSkin_Office2010Blue .radToolbar .radButton {
+    border-radius: 0; }
+  .radSkin_Office2010Blue .radToolbar > li:first-child .radButton {
+    border-radius: 3px 0 0 3px; }
+  .radSkin_Office2010Blue .radToolbar > li:last-child .radButton {
+    border-radius: 0 3px 3px 0; }
+  .radSkin_Office2010Blue .radToolbar > li:only-child .radButton {
+    border-radius: 3px; }
+  .radSkin_Office2010Blue .k-numeric-wrap {
+    border-color: #9db2ce; }
+  .radSkin_Office2010Blue .k-picker-wrap {
+    border-color: #9db2ce; }
+  .radSkin_Office2010Blue .radCalendar .k-header {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .radSkin_Office2010Blue .radCalendar th {
+    border-color: #87a0c3; }
+  .radSkin_Office2010Blue .radCalendar td.k-weekend {
+    color: #6a7a96; }
+  .radSkin_Office2010Blue .radCalendar td.k-other-month {
+    color: #9ca7b9; }
+  .radSkin_Office2010Blue .radCalendar td.k-state-hover {
+    border-color: #ffcb12;
+    color: #1e395b;
+    background-color: #ffe791;
+    background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+  .radSkin_Office2010Blue .radCalendar td.k-state-focused {
+    box-shadow: inset 0 0 5px #c38e00; }
+  .radSkin_Office2010Blue .radCalendar td.k-state-selected {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #fff17c;
+    background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+  .radSkin_Office2010Blue .k-window-titlebar {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .radSkin_Office2010Blue .radPopupEditForm .rgtButtonsContainer {
+    border-color: #87a0c3; }
+
+.radSkin_Office2010Blue.k-rtl .rgtViews > li:first-child + li .radButton {
+  border-radius: 0 3px 3px 0; }
+
+.radSkin_Office2010Blue.k-rtl .rgtViews > li:last-child .radButton {
+  border-radius: 3px 0 0 3px; }
+
+@media only screen and (max-width: 1024px) {
+  .RadGantt_Office2010Blue .rgtToolbar > .rgtViews.rgtExpanded {
+    color: #384e73;
+    background: #ffffff;
+    border-color: #9babc2; }
+  .RadGantt_Office2010Blue .rgtToolbar > .rgtViews.radToolbar .radButton {
+    border-radius: 3px; } }
+

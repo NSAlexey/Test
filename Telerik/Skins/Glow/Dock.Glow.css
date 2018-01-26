@@ -1,0 +1,104 @@
+.RadDock_Glow {
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* Right to left support */ }
+  .RadDock_Glow.rdRounded {
+    border-radius: 6px; }
+  .RadDock_Glow .rdMiddle .rdLeft,
+  .RadDock_Glow .rdMiddle .rdRight,
+  .RadDock_Glow .rdTop .rdLeft,
+  .RadDock_Glow .rdTop .rdRight,
+  .RadDock_Glow .rdTop .rdCenter,
+  .RadDock_Glow .rdBottom .rdLeft,
+  .RadDock_Glow .rdBottom .rdRight,
+  .RadDock_Glow .rdBottom .rdCenter {
+    background-image: none; }
+  .RadDock_Glow .rdTable tr.rdTop td.rdLeft,
+  .RadDock_Glow .rdTable tr.rdTop td.rdCenter,
+  .RadDock_Glow .rdTable tr.rdTop td.rdRight {
+    background-image: url('../Common/Gradients/radGradientLightV50.png');
+    background-image: linear-gradient(#303e46, #1c262c);
+    height: 36px;
+    border-bottom: 1px solid #35434b;
+    background-color: #1c262c;
+    background-position: 0 0; }
+  .RadDock_Glow .rdTable,
+  .RadDock_Glow .rdTable .rdLeft,
+  .RadDock_Glow .rdTable .rdCenter,
+  .RadDock_Glow .rdTable .rdRight {
+    border-collapse: separate;
+    *border-collapse: collapse;
+    border-spacing: 0; }
+  .RadDock_Glow .rdTable .rdMiddle .rdLeft,
+  .RadDock_Glow .rdTable .rdMiddle .rdRight {
+    background-color: #1c262c; }
+  .RadDock_Glow .rdTop .rdRoundedCorner.rdLeft {
+    border-radius: 6px 0 0; }
+  .RadDock_Glow .rdTop .rdRoundedCorner.rdRight {
+    border-radius: 0 6px 0 0; }
+  .RadDock_Glow.rdCollapsed .rdTop .rdRoundedCorner.rdLeft {
+    border-radius: 6px 0 0 6px; }
+  .RadDock_Glow.rdCollapsed .rdTop .rdRoundedCorner.rdRight {
+    border-radius: 0 6px 6px 0; }
+  .RadDock_Glow .rdBottom .rdRoundedCorner.rdLeft {
+    border-radius: 0 0 0 6px; }
+  .RadDock_Glow .rdBottom .rdRoundedCorner.rdRight {
+    border-radius: 0 0 6px 0; }
+  .RadDock_Glow div.rdTitleBar em {
+    font: 17px/36px "Segoue UI", Arial, Helvetica, sans-serif;
+    color: #e2e8eb; }
+  .RadDock_Glow .rdMiddle .rdCenter,
+  .RadDock_Glow .rdBottom .rdCenter,
+  .RadDock_Glow .rdBottom .rdLeft,
+  .RadDock_Glow .rdBottom .rdRight {
+    background-color: #1c262c; }
+  .RadDock_Glow div.rdContent {
+    font: 13px/18px Arial, Helvetica, sans-serif;
+    background-color: #1c262c; }
+  .RadDock_Glow td.rdCenter .rdCommands a span {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadDock_Glow td.rdCenter .rdCommands a,
+  .RadDock_Glow td.rdCenter .rdCommands a span {
+    width: 28px;
+    height: 28px; }
+  .RadDock_Glow .rdCommands span,
+  .RadDock_Glow span.rdExpand {
+    background-position: -11px -61px; }
+  .RadDock_Glow span.rdExpand:hover {
+    background-position: -61px -61px; }
+  .RadDock_Glow span.rdCollapse {
+    background-position: -11px -11px; }
+  .RadDock_Glow span.rdCollapse:hover {
+    background-position: -61px -11px; }
+  .RadDock_Glow span.rdCustom {
+    background-position: -11px -2511px; }
+  .RadDock_Glow span.rdCustom:hover {
+    background-position: -61px -2511px; }
+  .RadDock_Glow span.rdClose {
+    background-position: -11px -1911px; }
+  .RadDock_Glow span.rdClose:hover {
+    background-position: -61px -1911px; }
+  .RadDock_Glow span.rdPin {
+    background-position: -11px -1211px; }
+  .RadDock_Glow span.rdPin:hover {
+    background-position: -61px -1211px; }
+  .RadDock_Glow span.rdUnpin {
+    background-position: -11px -1261px; }
+  .RadDock_Glow span.rdUnpin:hover {
+    background-position: -61px -1261px; }
+  .RadDock_Glow.RadDock.rdCollapsed {
+    height: 37px !important; }
+  .RadDock_Glow.rdRtl .rdTop .rdRoundedCorner.rdLeft {
+    border-radius: 0 6px 0 0; }
+  .RadDock_Glow.rdRtl .rdTop .rdRoundedCorner.rdRight {
+    border-radius: 6px 0 0 0; }
+  .RadDock_Glow.rdRtl.rdCollapsed .rdTop .rdRoundedCorner.rdLeft {
+    border-radius: 0 6px 6px 0; }
+  .RadDock_Glow.rdRtl.rdCollapsed .rdTop .rdRoundedCorner.rdRight {
+    border-radius: 6px 0 0 6px; }
+  .RadDock_Glow.rdRtl .rdBottom .rdRoundedCorner.rdLeft {
+    border-radius: 0 0 6px 0; }
+  .RadDock_Glow.rdRtl .rdBottom .rdRoundedCorner.rdRight {
+    border-radius: 0 0 0 6px; }
+

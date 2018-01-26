@@ -1,0 +1,13 @@
+.RadSiteMap_Web20 {
+  color: #333333; }
+  .RadSiteMap_Web20 .rsmManyLevels > .rsmItem > .rsmLink {
+    border-color: #5f90cf; }
+  .RadSiteMap_Web20 .rsmTwoLevels > .rsmItem > .rsmLink, .RadSiteMap_Web20 .rsmThreeLevels > .rsmItem > .rsmLink, .RadSiteMap_Web20 .rsmManyLevels .rsmLevel1 > .rsmItem > .rsmLink {
+    border-color: #5f90cf; }
+  .RadSiteMap_Web20 .rsmOneLevel .rsmLink, .RadSiteMap_Web20 .rsmTwoLevels .rsmLevel1 .rsmLink, .RadSiteMap_Web20 .rsmThreeLevels .rsmLevel1 .rsmLink, .RadSiteMap_Web20 .rsmManyLevels .rsmLevel2 .rsmLink {
+    border-radius: 4px; }
+    .RadSiteMap_Web20 .rsmOneLevel .rsmLink:hover, .RadSiteMap_Web20 .rsmTwoLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Web20 .rsmThreeLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Web20 .rsmManyLevels .rsmLevel2 .rsmLink:hover {
+      border-color: #b4d3ff;
+      color: #0f3789;
+      background-color: #e7f1ff; }
+

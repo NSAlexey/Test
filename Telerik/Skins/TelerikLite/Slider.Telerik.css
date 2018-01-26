@@ -1,0 +1,66 @@
+.RadSlider_Telerik {
+  color: #333333; }
+  .RadSlider_Telerik .rslTrack {
+    border-color: #d1d1d1;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea); }
+  .RadSlider_Telerik .rslItem {
+    background-image: url('../Telerik/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Telerik .rslSelectedregion {
+    background-color: #239500;
+    background-image: linear-gradient(); }
+  .RadSlider_Telerik .rslHandle,
+  .RadSlider_Telerik .rslDraghandle {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+    .RadSlider_Telerik .rslHandle:hover,
+    .RadSlider_Telerik .rslDraghandle:hover {
+      border-color: #47ba22;
+      color: #000000;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+      box-shadow: none; }
+    .RadSlider_Telerik .rslHandle:active, .RadSlider_Telerik .rslHandle:focus,
+    .RadSlider_Telerik .rslDraghandle:active,
+    .RadSlider_Telerik .rslDraghandle:focus {
+      border-color: #4d862c;
+      color: #000000;
+      background-color: #63ac39;
+      background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+      box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+  .RadSlider_Telerik .rslVertical .rslTrack {
+    background-image: linear-gradient(to left, #fdfdfd, #eaeaea); }
+  .RadSlider_Telerik .rslVertical .rslItem {
+    background-image: url('../Telerik/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Telerik .rslVertical .rslSelectedregion {
+    background-image: linear-gradient(to left, ); }
+  .RadSlider_Telerik .rslVertical .rslDraghandle {
+    background-image: linear-gradient(to left, #fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee); }
+    .RadSlider_Telerik .rslVertical .rslDraghandle:hover {
+      background-image: linear-gradient(to left, #d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b); }
+    .RadSlider_Telerik .rslVertical .rslDraghandle:focus, .RadSlider_Telerik .rslVertical .rslDraghandle:active {
+      background-image: linear-gradient(to left, #a8d687, #8cc569 50%, #65b33f 50%, #63ac39); }
+  .RadSlider_Telerik .rslTop .rslSmallTick,
+  .RadSlider_Telerik .rslBottom .rslSmallTick {
+    background-image: url('../Telerik/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Telerik .rslTop .rslLargeTick,
+  .RadSlider_Telerik .rslBottom .rslLargeTick {
+    background-image: url('../Telerik/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Telerik .rslLeft .rslSmallTick,
+  .RadSlider_Telerik .rslRight .rslSmallTick {
+    background-image: url('../Telerik/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Telerik .rslLeft .rslLargeTick,
+  .RadSlider_Telerik .rslRight .rslLargeTick {
+    background-image: url('../Telerik/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Telerik .rslMiddle .rslSmallTick {
+    background-image: url('../Telerik/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Telerik .rslMiddle .rslLargeTick {
+    background-image: url('../Telerik/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Telerik .rslCenter .rslSmallTick {
+    background-image: url('../Telerik/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Telerik .rslCenter .rslLargeTick {
+    background-image: url('../Telerik/Slider/LargelChangeCenterVertical.gif'); }
+

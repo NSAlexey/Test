@@ -1,0 +1,34 @@
+.RadDataPager_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #d6e6f4; }
+  .RadDataPager_Outlook .rdpNumPart a {
+    border-radius: 2px;
+    color: inherit; }
+    .RadDataPager_Outlook .rdpNumPart a:hover {
+      border-color: #003c74;
+      color: #000000;
+      background-color: #ebe8e3;
+      background-image: linear-gradient(#fdfdfd, #ebe8e3);
+      box-shadow: inset 0 0 1px 2px #fbc860; }
+    .RadDataPager_Outlook .rdpNumPart a.rdpCurrentPage {
+      border-color: #306ac5;
+      color: #306ac5;
+      background: none; }
+  .RadDataPager_Outlook .rdpPagerButton,
+  .RadDataPager_Outlook .rdpActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+    .RadDataPager_Outlook .rdpPagerButton:hover,
+    .RadDataPager_Outlook .rdpActionButton:hover {
+      border-color: #003c74;
+      color: #000000;
+      background-color: #ebe8e3;
+      background-image: linear-gradient(#fdfdfd, #ebe8e3);
+      box-shadow: inset 0 0 1px 2px #fbc860; }
+

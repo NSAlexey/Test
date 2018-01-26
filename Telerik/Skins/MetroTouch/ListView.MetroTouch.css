@@ -1,0 +1,92 @@
+.RadListView_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 34px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /*buttons*/
+  /*flow*/
+  /*grid*/
+  /*single row*/
+  /*floated*/
+  /*edit*/ }
+  .RadListView_MetroTouch .rlvA {
+    background: #f2f2f2; }
+  .RadListView_MetroTouch .rlvISel {
+    background: #25a0da;
+    color: #ffffff; }
+  .RadListView_MetroTouch .rlvBAdd,
+  .RadListView_MetroTouch .rlvBUpdate,
+  .RadListView_MetroTouch .rlvBCancel,
+  .RadListView_MetroTouch .rlvBDel,
+  .RadListView_MetroTouch .rlvBEdit {
+    width: 28px;
+    height: 28px;
+    background-image: url('../Common/MetroTouch/metrotouch-sprite.png'); }
+  .RadListView_MetroTouch .rlvBAdd {
+    background-position: -111px -3011px; }
+  .RadListView_MetroTouch .rlvBUpdate {
+    background-position: -11px -2611px; }
+  .RadListView_MetroTouch .rlvBCancel {
+    background-position: -11px -2811px; }
+  .RadListView_MetroTouch .rlvBSel {
+    background-image: url('FormDecorator/CheckBoxSprites.gif');
+    background-position: -2px -2px; }
+  .RadListView_MetroTouch .rlvISel .rlvBSel {
+    background-position: -2px -422px; }
+  .RadListView_MetroTouch .rlvBDel {
+    background-position: -11px -3211px; }
+  .RadListView_MetroTouch .rlvBEdit {
+    background-position: -11px -3111px; }
+  .RadListView_MetroTouch .rlvDrag {
+    background-image: url('ListView/drag.gif');
+    background-position: center center; }
+  .RadListView_MetroTouch div.rlvI,
+  .RadListView_MetroTouch div.rlvA,
+  .RadListView_MetroTouch div.rlvIEmpty,
+  .RadListView_MetroTouch div.rlvIEdit {
+    border-color: #c3c3c3; }
+  .RadListView_MetroTouch div.rlvISel {
+    border-color: #ca4b0c; }
+  .RadListView_MetroTouch tr.rlvHeader th {
+    border: 0;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    background: #f9f9f9; }
+  .RadListView_MetroTouch tr.rlvI td,
+  .RadListView_MetroTouch tr.rlvA td,
+  .RadListView_MetroTouch tr.rlvISel td,
+  .RadListView_MetroTouch tr.rlvIEmpty td {
+    border: 1px solid;
+    border-top: 0;
+    border-right: 0; }
+  .RadListView_MetroTouch tr.rlvI td,
+  .RadListView_MetroTouch tr.rlvIEmpty td {
+    border-color: #e6e6e6; }
+  .RadListView_MetroTouch tr.rlvA td {
+    border-color: #e6e6e6; }
+  .RadListView_MetroTouch tr.rlvISel td {
+    border-color: #ca4b0c #ffa517; }
+  .RadListView_MetroTouch tr.rlvIEdit td {
+    border-color: #616161 #c3c3c3; }
+  .RadListView_MetroTouch td.rlvI,
+  .RadListView_MetroTouch td.rlvA,
+  .RadListView_MetroTouch td.rlvISel,
+  .RadListView_MetroTouch td.rlvIEmpty,
+  .RadListView_MetroTouch td.rlvIEdit {
+    border: 0;
+    border-right: 1px solid #c3c3c3; }
+  .RadListView_MetroTouch td.rlvISel {
+    border-color: #ca4b0c; }
+  .RadListView_MetroTouch .rlvFloated .rlvI,
+  .RadListView_MetroTouch .rlvFloated .rlvA,
+  .RadListView_MetroTouch .rlvFloated .rlvISel,
+  .RadListView_MetroTouch .rlvFloated .rlvIEdit {
+    border-color: #999; }
+  .RadListView_MetroTouch .rlvInput {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+

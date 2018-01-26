@@ -1,0 +1,35 @@
+.RadDataPager_Windows7 {
+  border-color: #aabfd6;
+  color: #4c607a;
+  background-color: #f1f5fb; }
+  .RadDataPager_Windows7 .rdpNumPart a {
+    border-radius: 2px;
+    color: inherit; }
+    .RadDataPager_Windows7 .rdpNumPart a:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+    .RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage {
+      border-color: #4c93cc;
+      color: #4c93cc;
+      background: none; }
+  .RadDataPager_Windows7 .rdpPagerButton,
+  .RadDataPager_Windows7 .rdpActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+    .RadDataPager_Windows7 .rdpPagerButton:hover,
+    .RadDataPager_Windows7 .rdpActionButton:hover {
+      border-color: #b5cdeb;
+      color: #1e395b;
+      background-color: #e7ecf5;
+      background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+      box-shadow: inset 0 0 0 1px #f9f9fc; }
+

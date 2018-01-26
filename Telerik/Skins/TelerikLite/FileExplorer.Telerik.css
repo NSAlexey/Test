@@ -1,0 +1,35 @@
+.RadFileExplorer_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadFileExplorer_Telerik .rfeFilterTxt,
+  .RadFileExplorer_Telerik .rfeAddressBox {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Telerik .rfeLink:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+  .RadFileExplorer_Telerik .rfeSelectedLink,
+  .RadFileExplorer_Telerik .rfeSelectedLink:hover {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(#95cf65, #63ac39); }
+  .RadFileExplorer_Telerik .rfeDropZone,
+  .RadFileExplorer_Telerik .rfeFilterContainer,
+  .RadFileExplorer_Telerik .rfePageControlContainer {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+  .RadFileExplorer_Telerik .rfeDropUploadInfoPanel {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+
+.RadWindow_Telerik .rfeUploadInfoPanel {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed; }

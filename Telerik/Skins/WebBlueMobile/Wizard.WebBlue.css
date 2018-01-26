@@ -1,0 +1,83 @@
+.RadWizard_WebBlue {
+  color: #333333;
+  background: #ffffff; }
+  .RadWizard_WebBlue .rwzHeader {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); }
+  .RadWizard_WebBlue .rwzBreadCrumb {
+    border-color: #6e8aa8;
+    border-radius: 4px; }
+    .RadWizard_WebBlue .rwzBreadCrumb .rwzLink {
+      border-color: #6e8aa8;
+      color: #0d202b;
+      background-color: #d7e2e7;
+      background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+      .RadWizard_WebBlue .rwzBreadCrumb .rwzLink:before {
+        border-color: #6e8aa8;
+        background: #d7e2e7 linear-gradient(135deg, #e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+        box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.1); }
+    .RadWizard_WebBlue .rwzBreadCrumb .rwzHovered .rwzLink {
+      border-color: #1c9fcc;
+      color: #0e3d4f;
+      background-color: #bee3f6;
+      background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+      .RadWizard_WebBlue .rwzBreadCrumb .rwzHovered .rwzLink:before {
+        border-color: #1c9fcc;
+        background: #bee3f6 linear-gradient(135deg, #d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6); }
+    .RadWizard_WebBlue .rwzBreadCrumb .rwzSelected .rwzLink {
+      border-color: #3a869e;
+      color: #ffffff;
+      background-color: #7abace;
+      background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+      .RadWizard_WebBlue .rwzBreadCrumb .rwzSelected .rwzLink:before {
+        border-color: #3a869e;
+        background: #7abace linear-gradient(135deg, #8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace); }
+    .RadWizard_WebBlue .rwzBreadCrumb .rwzDisabled .rwzLink {
+      border-color: #6e8aa8;
+      color: #0d202b;
+      background-color: #d7e2e7;
+      background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+      .RadWizard_WebBlue .rwzBreadCrumb .rwzDisabled .rwzLink:before {
+        border-color: #6e8aa8;
+        background: #d7e2e7 linear-gradient(135deg, #e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7); }
+    .RadWizard_WebBlue .rwzBreadCrumb .rwzPager {
+      border-color: #1c9fcc;
+      color: #0e3d4f;
+      background-color: #bee3f6;
+      background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+      .RadWizard_WebBlue .rwzBreadCrumb .rwzPager .rwzCallout:before, .RadWizard_WebBlue .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        border-color: #6e8aa8; }
+      .RadWizard_WebBlue .rwzBreadCrumb .rwzPager .rwzCallout:before {
+        background: #bee3f6 linear-gradient(135deg, #d4eaf8 50%, #baddf4); }
+      .RadWizard_WebBlue .rwzBreadCrumb .rwzPager .rwzCallout:after {
+        background: #bee3f6 linear-gradient(135deg, #9edaf2, #bee3f6 48%); }
+  .RadWizard_WebBlue .rwzProgressBar {
+    background: #e0e7ed; }
+  .RadWizard_WebBlue .rwzProgress {
+    background: #358eb0; }
+  .RadWizard_WebBlue .rwzButton {
+    border-color: #6e8aa8;
+    color: #0d202b;
+    background-color: #d7e2e7;
+    background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+    border-radius: 3px; }
+    .RadWizard_WebBlue .rwzButton.rwzHovered {
+      border-color: #1c9fcc;
+      color: #0e3d4f;
+      background-color: #bee3f6;
+      background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+    .RadWizard_WebBlue .rwzButton.rwzActive {
+      border-color: #3a869e;
+      color: #ffffff;
+      background-color: #7abace;
+      background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .RadWizard_WebBlue .rwzCancelWrapper {
+    border-color: #768ca5; }
+

@@ -1,0 +1,15 @@
+.RadTagCloud_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTagCloud_BlackMetroTouch.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 16px; }
+  .RadTagCloud_BlackMetroTouch .rtcTagItem a {
+    color: #0082cc; }
+  .RadTagCloud_BlackMetroTouch .rtcTagItem a:hover {
+    color: #005180; }
+  .RadTagCloud_BlackMetroTouch.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

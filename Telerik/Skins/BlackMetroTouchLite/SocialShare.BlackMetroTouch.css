@@ -1,0 +1,9 @@
+.RadSocialShare_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSocialShare_BlackMetroTouch .sshLinkItem:hover {
+    color: #0082cc; }
+

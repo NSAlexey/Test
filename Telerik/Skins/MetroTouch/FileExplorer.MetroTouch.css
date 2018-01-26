@@ -1,0 +1,112 @@
+.RadFileExplorer_MetroTouch {
+  background-color: #ffffff;
+  /* Thumbnail view */
+  /* Thumbnail filter */ }
+  .RadFileExplorer_MetroTouch .RadToolBar .rtbText {
+    background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+    background-repeat: no-repeat; }
+  .RadFileExplorer_MetroTouch span.rfeFileExtension,
+  .RadFileExplorer_MetroTouch div.rfeFileExtension {
+    background: transparent url('../Common/FileExplorer/FileExtensionMonoLightSprites.png') no-repeat -7px -681px; }
+  .RadFileExplorer_MetroTouch,
+  .RadFileExplorer_MetroTouch .rfeAddressBox,
+  .RadFileExplorer_MetroTouch .rfeFilterTxt {
+    border-color: #e6e6e6; }
+  .RadFileExplorer_MetroTouch .rfeAddressBox {
+    font-size: 16px; }
+  .RadFileExplorer_MetroTouch div.selectedFileName {
+    border-top: 1px solid #e6e6e6; }
+  .RadFileExplorer_MetroTouch .RadToolBar_MetroTouch .rtbUL li.rtbItemHovered {
+    border: 0 !important;
+    width: auto !important;
+    background-color: transparent; }
+  .RadFileExplorer_MetroTouch .RadToolBar_MetroTouch .rtbUL li.rtbItemHovered a.rtbWrap {
+    background-color: #25a0da; }
+  .RadFileExplorer_MetroTouch .RadToolBar_MetroTouch .rtbUL .rtbItem {
+    height: 34px !important;
+    margin-top: 0;
+    min-width: 30px;
+    width: auto; }
+  .RadFileExplorer_MetroTouch .RadToolBar_MetroTouch .rtbUL .rtbMid,
+  .RadFileExplorer_MetroTouch .RadToolBar_MetroTouch .rtbUL .rtbIn {
+    margin: 0 !important; }
+  .RadFileExplorer_MetroTouch .RadToolBar_MetroTouch .rtbUL .rtbIn {
+    vertical-align: top; }
+  .RadFileExplorer_MetroTouch div.RadToolBar .rtbItem {
+    width: auto;
+    min-width: 30px;
+    height: 30px;
+    margin-top: 6px; }
+  .RadFileExplorer_MetroTouch .RadToolBar_MetroTouch .rtbIconOnly .rtbText {
+    margin: -2px 0 0; }
+  .RadFileExplorer_MetroTouch div.RadToolBar .rtbItemHovered {
+    background-color: #25a0da;
+    border: 1px solid #25a0da; }
+  .RadFileExplorer_MetroTouch div.RadToolBar .rtbWrap,
+  .RadFileExplorer_MetroTouch div.RadToolBar .rtbText {
+    line-height: normal; }
+  .RadFileExplorer_MetroTouch div.RadToolBar .rtbMid,
+  .RadFileExplorer_MetroTouch div.RadToolBar .rtbIn {
+    height: 19px;
+    margin: 3px 0 0 2px;
+    *overflow: hidden; }
+  .RadFileExplorer_MetroTouch div.RadToolBar .icnUpload {
+    margin-top: -1px; }
+  .RadFileExplorer_MetroTouch div.RadToolBar .icnUpload .rtbIn .rtbText {
+    padding-left: 20px !important;
+    font: 100 15px/normal "Segoe UI",Arial,Helvetica,sans-serif;
+    *margin-top: -12px;
+    *color: #ffffff !important;
+    *zoom: 1;
+    *display: inline; }
+  .RadFileExplorer_MetroTouch .RadTreeView_MetroTouch span.rtPlus,
+  .RadFileExplorer_MetroTouch .RadTreeView_MetroTouch span.rtMinus {
+    margin: 0 0 0 -26px; }
+  .RadFileExplorer_MetroTouch .RadTreeView div.rtIn {
+    padding: 0 4px 0 2px !important; }
+  .RadFileExplorer_MetroTouch .RadGrid .Slider {
+    background-color: #f9f9f9; }
+  .RadFileExplorer_MetroTouch .RadGrid .rgInfoPart {
+    margin-top: 15px; }
+  .RadFileExplorer_MetroTouch .rfeAddressBox {
+    font-size: 16px;
+    *width: 100%; }
+  .RadFileExplorer_MetroTouch .rfeThumbList a {
+    border-radius: 0; }
+  .RadFileExplorer_MetroTouch .rfeThumbList a:hover,
+  .RadFileExplorer_MetroTouch .rfeThumbList .rfeHoveredLink,
+  .RadFileExplorer_MetroTouch .rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_MetroTouch .rfeThumbList .rfeSelectedLink:hover {
+    background-color: #e7e7e7;
+    border-color: #cecece;
+    color: #000000; }
+  .RadFileExplorer_MetroTouch .rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_MetroTouch .rfeThumbList .rfeSelectedLink:hover {
+    background-color: #25a0da;
+    color: #ffffff; }
+  .RadFileExplorer_MetroTouch .rfeThumbnailView .rfeFile .rfeFileIcon {
+    background-image: url('../Common/FileExplorer/rfeThumbnailViewMonoLiteSprites.png'); }
+  .RadFileExplorer_MetroTouch .rfeFilterContainer {
+    background-color: #ffffff; }
+  .RadFileExplorer_MetroTouch .rfeDropZone {
+    background-color: rgba(249, 249, 249, 0.8); }
+  .RadFileExplorer_MetroTouch .rfeDropUploadInfoPanel {
+    background-color: #25a0da;
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 16px; }
+    .RadFileExplorer_MetroTouch .rfeDropUploadInfoPanel span.RadButton_MetroTouch.RadButton:active, .RadFileExplorer_MetroTouch .rfeDropUploadInfoPanel span.RadButton_MetroTouch.rbPressedButton, .RadFileExplorer_MetroTouch .rfeDropUploadInfoPanel span.RadButton_MetroTouch.RadButton.rbPressedButton {
+      border: 1px solid #fff; }
+  .RadFileExplorer_MetroTouch .rfeDropUploadProgress {
+    margin-top: 5px; }
+
+.RadWindow_MetroTouch .rfeUploadContainer .RadUpload,
+.RadWindow_MetroTouch .rfeUploadContainer .RadUploadProgressArea {
+  width: 520px; }
+
+.RadForm_MetroTouch .imagePreviewer #propertiesPage {
+  height: 455px !important; }
+
+.RadForm_MetroTouch .reBottomcell {
+  padding-top: 10px; }
+

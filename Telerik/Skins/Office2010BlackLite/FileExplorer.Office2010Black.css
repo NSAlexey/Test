@@ -1,0 +1,35 @@
+.RadFileExplorer_Office2010Black {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadFileExplorer_Office2010Black .rfeFilterTxt,
+  .RadFileExplorer_Office2010Black .rfeAddressBox {
+    border-color: #565656;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Office2010Black .rfeLink:hover {
+    border-color: #ffcb12;
+    color: #000000;
+    background-color: #ffe791;
+    background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+  .RadFileExplorer_Office2010Black .rfeSelectedLink,
+  .RadFileExplorer_Office2010Black .rfeSelectedLink:hover {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #fff17c;
+    background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+  .RadFileExplorer_Office2010Black .rfeDropZone,
+  .RadFileExplorer_Office2010Black .rfeFilterContainer,
+  .RadFileExplorer_Office2010Black .rfePageControlContainer {
+    border-color: #2c2c2c;
+    color: #efefef;
+    background-color: #4b4b4b; }
+  .RadFileExplorer_Office2010Black .rfeDropUploadInfoPanel {
+    border-color: #5e5e5e;
+    color: #333333;
+    background-color: #ffffff; }
+
+.RadWindow_Office2010Black .rfeUploadInfoPanel {
+  border-color: #2c2c2c;
+  color: #efefef;
+  background-color: #4b4b4b; }

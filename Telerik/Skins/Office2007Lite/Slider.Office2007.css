@@ -1,0 +1,63 @@
+.RadSlider_Office2007 {
+  color: #333333; }
+  .RadSlider_Office2007 .rslTrack {
+    border-color: #85b0e3;
+    background-color: #c3d8f1;
+    background-image: linear-gradient(#dee8f5, #c3d8f1); }
+  .RadSlider_Office2007 .rslItem {
+    background-image: url('../Office2007/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Office2007 .rslSelectedregion {
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadSlider_Office2007 .rslHandle,
+  .RadSlider_Office2007 .rslDraghandle {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+    .RadSlider_Office2007 .rslHandle:hover,
+    .RadSlider_Office2007 .rslDraghandle:hover {
+      border-color: #c4ba9c;
+      color: #000000;
+      background-color: #ffe18a;
+      background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+    .RadSlider_Office2007 .rslHandle:active, .RadSlider_Office2007 .rslHandle:focus,
+    .RadSlider_Office2007 .rslDraghandle:active,
+    .RadSlider_Office2007 .rslDraghandle:focus {
+      border-color: #c3bba3;
+      color: #000000;
+      background-color: #fde292;
+      background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadSlider_Office2007 .rslVertical .rslTrack {
+    background-image: linear-gradient(to left, #dee8f5, #c3d8f1); }
+  .RadSlider_Office2007 .rslVertical .rslItem {
+    background-image: url('../Office2007/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Office2007 .rslVertical .rslSelectedregion {
+    background-image: linear-gradient(to left, #ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadSlider_Office2007 .rslVertical .rslDraghandle {
+    background-image: linear-gradient(to left, #e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+    .RadSlider_Office2007 .rslVertical .rslDraghandle:hover {
+      background-image: linear-gradient(to left, #fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+    .RadSlider_Office2007 .rslVertical .rslDraghandle:focus, .RadSlider_Office2007 .rslVertical .rslDraghandle:active {
+      background-image: linear-gradient(to left, #ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadSlider_Office2007 .rslTop .rslSmallTick,
+  .RadSlider_Office2007 .rslBottom .rslSmallTick {
+    background-image: url('../Office2007/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Office2007 .rslTop .rslLargeTick,
+  .RadSlider_Office2007 .rslBottom .rslLargeTick {
+    background-image: url('../Office2007/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Office2007 .rslLeft .rslSmallTick,
+  .RadSlider_Office2007 .rslRight .rslSmallTick {
+    background-image: url('../Office2007/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Office2007 .rslLeft .rslLargeTick,
+  .RadSlider_Office2007 .rslRight .rslLargeTick {
+    background-image: url('../Office2007/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Office2007 .rslMiddle .rslSmallTick {
+    background-image: url('../Office2007/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Office2007 .rslMiddle .rslLargeTick {
+    background-image: url('../Office2007/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Office2007 .rslCenter .rslSmallTick {
+    background-image: url('../Office2007/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Office2007 .rslCenter .rslLargeTick {
+    background-image: url('../Office2007/Slider/LargelChangeCenterVertical.gif'); }
+

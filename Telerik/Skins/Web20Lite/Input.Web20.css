@@ -1,0 +1,89 @@
+.RadInput_Web20 .riTextBox,
+.RadInput_Web20 .riSelect,
+.RadInput_Web20 .rcSelect,
+.RadInputMgr_Web20 {
+  border-color: #687dc1;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Web20 .riEmpty,
+.RadInput_Empty_Web20 {
+  color: rgba(51, 51, 51, 0.8); }
+
+.RadInput_Web20.RadInputHovered .riTextBox,
+.RadInput_Web20.RadInputHovered .riSelect,
+.RadInput_Web20.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #2a5795;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Web20.RadInputFocused .riTextBox,
+.RadInput_Web20.RadInputFocused .riSelect,
+.RadInput_Web20.RadInputFocused .rcSelect,
+.RadInput_Focused_Web20 {
+  border-color: #2a3866;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Web20.RadInputError .riTextBox,
+.RadInput_Web20.RadInputError .riSelect,
+.RadInput_Web20.RadInputError .rcSelect,
+.RadInput_Error_Web20,
+.RadForm.rfdTextbox .RadInput_Web20 .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #d24000;
+  color: #b32d34;
+  background-color: #ffffff; }
+
+.RadInput_Web20.RadInputError {
+  color: #b32d34; }
+
+.RadForm.rfdTextbox .RadInput_Web20 .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Web20[type="text"] {
+  border-color: #d24000;
+  background: white 100% -298px no-repeat url('../Web20/Input/sprite.gif');
+  color: #b32d34; }
+
+.RadInput_Web20 .riNegative,
+.RadInput_Negative_Web20 {
+  color: #444; }
+
+.RadInput_Web20 a,
+.RadInput_Web20.RadInputDisabled a:hover,
+.RadInput_Web20.RadInputDisabled a:active {
+  border-color: #687dc1;
+  color: #ffffff;
+  background-color: #687dc1;
+  background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+  box-shadow: none; }
+
+.RadInput_Web20 a:hover {
+  border-color: #2a5795;
+  color: #0f3789;
+  background-color: #cddcf1;
+  background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+
+.RadInput_Web20 a:focus, .RadInput_Web20 a:active {
+  border-color: #2a3866;
+  color: #ffffff;
+  background-color: #687dc1;
+  background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+
+.RadInput_Web20 .riLabel {
+  color: #333333; }
+
+.RadInput_Web20 .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../Web20/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_Web20 .riError, .RadInputRTL_Error_Web20 {
+  background-position: 3px -298px; }
+
+.RadInputRTL_Web20 .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_Web20 .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_Web20[type="text"] {
+  background-position: 3px -298px; }
+

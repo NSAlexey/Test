@@ -1,0 +1,282 @@
+.RadGrid_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadGrid_Bootstrap .rgGroupPanel,
+  .RadGrid_Bootstrap .rgHeader,
+  .RadGrid_Bootstrap .rgCommandRow {
+    height: 2.3em;
+    background: whitesmoke; }
+  .RadGrid_Bootstrap .rgActionButton,
+  .RadGrid_Bootstrap .rgDrag,
+  .RadGrid_Bootstrap .rgDragClue,
+  .RadGrid_Bootstrap .rgExpandIcon,
+  .RadGrid_Bootstrap .rgCollapseIcon,
+  .RadGrid_Bootstrap .rgGroupPanelExpand,
+  .RadGrid_Bootstrap .rgGroupPanelCollapse,
+  .RadGrid_Bootstrap .rgButtonSortDesc,
+  .RadGrid_Bootstrap .rgButtonSortDesc,
+  .RadGrid_Bootstrap .rgButtonSortAsc,
+  .RadGrid_Bootstrap .rgButtonSortClear,
+  .RadGrid_Bootstrap .rgMobileExportForm .rgColumnItem,
+  .RadGrid_Bootstrap a.rgFilter,
+  .RadGrid_Bootstrap a.rgColumns {
+    color: #333333; }
+  .RadGrid_Bootstrap td a {
+    color: #337ab7; }
+  .RadGrid_Bootstrap .rgInput {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadGrid_Bootstrap .rgHeader:first-child,
+  .RadGrid_Bootstrap th.rgResizeCol:first-child,
+  .RadGrid_Bootstrap .rgFilterRow > td:first-child,
+  .RadGrid_Bootstrap .rgRow > td:first-child,
+  .RadGrid_Bootstrap .rgAltRow > td:first-child {
+    border-left-width: 0;
+    padding-left: .57em; }
+  .RadGrid_Bootstrap.rgMultiHeader .rgDataDiv > table,
+  .RadGrid_Bootstrap.rgMultiHeader .rgFooterDiv > table {
+    margin-left: -1px; }
+  .RadGrid_Bootstrap .rgMobileMenu {
+    background: #fcfcfc; }
+  .RadGrid_Bootstrap .rgMobileForm,
+  .RadGrid_Bootstrap .rgMobileColumnForm {
+    background: #ffffff; }
+  .RadGrid_Bootstrap .rgValue {
+    height: 2.42em;
+    border: 1px solid #cccccc;
+    font-size: 1em; }
+  .RadGrid_Bootstrap .rgColumnItem .rgDrag:before {
+    border-right: 1px solid #dedede; }
+  .RadGrid_Bootstrap .rgClear,
+  .RadGrid_Bootstrap .rgColumnItem {
+    color: #333333;
+    border-color: #dedede;
+    background-color: #ffffff; }
+  .RadGrid_Bootstrap .rgMobileGroupForm .rgMobileForm {
+    border-color: #dedede;
+    background: #fcfcfc; }
+  .RadGrid_Bootstrap .rgHeader,
+  .RadGrid_Bootstrap th.rgResizeCol,
+  .RadGrid_Bootstrap .rgHeaderWrapper,
+  .RadGrid_Bootstrap .rgMultiHeaderRow th.rgHeader,
+  .RadGrid_Bootstrap .rgMultiHeaderRow th.rgResizeCol {
+    border: 0;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede; }
+  .RadGrid_Bootstrap .rgHeader,
+  .RadGrid_Bootstrap th.rgResizeCol,
+  .RadGrid_Bootstrap .rgHeaderWrapper {
+    background-color: whitesmoke; }
+  .RadGrid_Bootstrap .rgHeaderDiv {
+    border-right: 1px solid #dedede; }
+  .RadGrid_Bootstrap .rgHeaderWrapper {
+    border-bottom: 1px solid #dedede; }
+  .RadGrid_Bootstrap .rgHeader,
+  .RadGrid_Bootstrap .rgHeader a {
+    color: #333333; }
+  .RadGrid_Bootstrap .rgFilter:hover {
+    background-color: #e6e6e6; }
+  .RadGrid_Bootstrap .rgRow > td,
+  .RadGrid_Bootstrap .rgAltRow > td,
+  .RadGrid_Bootstrap .rgFooter > td {
+    border-color: #dedede; }
+  .RadGrid_Bootstrap .rgRow > td {
+    border-style: solid;
+    border-width: 0 0 1px 1px; }
+  .RadGrid_Bootstrap .rgAltRow > td {
+    border-width: 0 0 1px 1px;
+    background-color: #f9f9f9; }
+  .RadGrid_Bootstrap .rgAltRow .rgSorted {
+    background-color: #ececec; }
+  .RadGrid_Bootstrap .rgAltRow.rgHoveredRow .rgSorted {
+    background-color: #dddddd; }
+  .RadGrid_Bootstrap .rgHoveredRow > td {
+    border-color: #e1e1e1;
+    background: #eeeeee; }
+  .RadGrid_Bootstrap .rgEditRow {
+    background: rgba(222, 222, 222, 0.75);
+    color: #333333; }
+    .RadGrid_Bootstrap .rgEditRow > td {
+      border-style: solid;
+      border-width: 0 0 1px 0;
+      border-color: #dedede; }
+  .RadGrid_Bootstrap .rgDeletedRow > td {
+    border-color: #b8b8b8;
+    color: #333333; }
+    .RadGrid_Bootstrap .rgDeletedRow > td a {
+      color: #333333; }
+  .RadGrid_Bootstrap .rgBatchOverlay {
+    background: rgba(222, 222, 222, 0.75); }
+  .RadGrid_Bootstrap .rgBatchUndoDeleteButton {
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    border: 1px solid;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 4px; }
+    .RadGrid_Bootstrap .rgBatchUndoDeleteButton:hover {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+  .RadGrid_Bootstrap .rgSorted {
+    background-color: #e4e4e4; }
+  .RadGrid_Bootstrap .rgMasterTable .rgSelectedCell,
+  .RadGrid_Bootstrap .rgSelectedRow td,
+  .RadGrid_Bootstrap td.rgEditRow .rgSelectedRow,
+  .RadGrid_Bootstrap .rgSelectedRow td.rgSorted {
+    color: #ffffff;
+    background: #337ab7;
+    border-color: #ffffff; }
+  .RadGrid_Bootstrap .rgSelectedRow.rgHoveredRow {
+    background: #337ab7; }
+  .RadGrid_Bootstrap .rgSelectedCell a,
+  .RadGrid_Bootstrap .rgSelectedRow a {
+    color: #ffffff; }
+  .RadGrid_Bootstrap .rgFooterWrapper,
+  .RadGrid_Bootstrap .rgFooter {
+    background: whitesmoke; }
+  .RadGrid_Bootstrap .rgFooterWrapper {
+    border-top: 1px solid #dedede; }
+  .RadGrid_Bootstrap .rgFooter > td {
+    border-left: 1px solid #dedede; }
+    .RadGrid_Bootstrap .rgFooter > td:first-child {
+      border-left-width: 0; }
+  .RadGrid_Bootstrap .rgPager .rgStatus {
+    width: 3.36em;
+    background-color: whitesmoke;
+    border-right: 1px solid #dedede;
+    margin-right: 7px; }
+  .RadGrid_Bootstrap .rgStatus div {
+    background-image: url('../Bootstrap/Common/loading.gif'); }
+  .RadGrid_Bootstrap .rgPagerCell > div {
+    color: #333333;
+    background: whitesmoke;
+    border-top: 1px solid #dedede; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgWrap {
+      padding: 0; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgNumPart a,
+    .RadGrid_Bootstrap .rgPagerCell > div .rgPagerButton,
+    .RadGrid_Bootstrap .rgPagerCell > div .rgActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 0;
+      box-sizing: content-box;
+      border-color: #cccccc;
+      color: #333333;
+      background-color: #ffffff;
+      font-size: 1em; }
+      .RadGrid_Bootstrap .rgPagerCell > div .rgNumPart a:hover,
+      .RadGrid_Bootstrap .rgPagerCell > div .rgPagerButton:hover,
+      .RadGrid_Bootstrap .rgPagerCell > div .rgActionButton:hover {
+        border-color: #adadad;
+        color: #333333;
+        background-color: #e6e6e6; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgNumPart a,
+    .RadGrid_Bootstrap .rgPagerCell > div .rgActionButton {
+      margin: 0;
+      width: 1.42857em;
+      border-left-width: 0;
+      border-radius: 0;
+      text-align: center; }
+      .RadGrid_Bootstrap .rgPagerCell > div .rgNumPart a.rgCurrentPage,
+      .RadGrid_Bootstrap .rgPagerCell > div .rgActionButton.rgCurrentPage {
+        border-color: #2e6da4;
+        color: #ffffff;
+        background-color: #337ab7; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgNumPart a + a,
+    .RadGrid_Bootstrap .rgPagerCell > div .rgActionButton + .rgActionButton {
+      margin-left: 0; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgNumPart {
+      margin: 0 !important; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgPageFirst {
+      border-left-width: 1px;
+      border-radius: 0.28571429em 0 0 0.28571429em; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgPageLast {
+      border-radius: 0 0.28571429em 0.28571429em 0; }
+    .RadGrid_Bootstrap .rgPagerCell > div .NumericPages .rgNumPart a:first-child {
+      border-left-width: 1px;
+      border-radius: 0.28571429em 0 0 0.28571429em; }
+    .RadGrid_Bootstrap .rgPagerCell > div .NumericPages .rgNumPart a:last-child {
+      border-radius: 0 0.28571429em 0.28571429em 0; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgActionButton {
+      box-sizing: content-box; }
+    .RadGrid_Bootstrap .rgPagerCell > div .rgPagerButton {
+      border-radius: 0.28571429em; }
+  .RadGrid_Bootstrap .rgHeader.rgGroupCol,
+  .RadGrid_Bootstrap .rgFooter .rgGroupCol {
+    border-right: 1px solid #dedede; }
+  .RadGrid_Bootstrap .rgGroupPanelCell {
+    border-bottom-color: #dedede;
+    background: whitesmoke; }
+  .RadGrid_Bootstrap .rgGroupItem {
+    padding: 0 .5em;
+    border: 1px solid #dedede;
+    color: #333333; }
+  .RadGrid_Bootstrap .rgGroupHeader td {
+    padding: .5em 0;
+    height: 2.3em;
+    border-bottom: 1px solid #dedede;
+    background: #fbfbfb; }
+  .RadGrid_Bootstrap .rgGroupHeader td div div {
+    top: 0.4em; }
+  .RadGrid_Bootstrap .rgGroupHeader .rgGroupCol {
+    border-bottom-width: 0;
+    border-top: 1px solid #dedede; }
+  .RadGrid_Bootstrap .rgRow .rgGroupCol,
+  .RadGrid_Bootstrap .rgAltRow .rgGroupCol {
+    border-bottom-width: 0;
+    background: #fbfbfb; }
+  .RadGrid_Bootstrap .rgMasterTable > tbody tr:first-child .rgGroupCol {
+    border-top-width: 0; }
+  .RadGrid_Bootstrap .rgRow [type="text"],
+  .RadGrid_Bootstrap .rgAltRow [type="text"],
+  .RadGrid_Bootstrap .rgEditForm [type="text"] {
+    padding: 0 .5em;
+    height: 32px;
+    border: 1px solid #cccccc;
+    border-radius: .3em; }
+  .RadGrid_Bootstrap .rgDetailTable {
+    border-color: #dedede; }
+  .RadGrid_Bootstrap .rgFooter .rgExpandCol {
+    border-left-width: 0; }
+  .RadGrid_Bootstrap .rgCommandRow {
+    background-color: whitesmoke;
+    border-bottom: 1px solid #dedede; }
+    .RadGrid_Bootstrap .rgCommandRow .rgActionButton {
+      color: #333333; }
+  .RadGrid_Bootstrap .rgCommandCell {
+    border: 0;
+    border-bottom: 1px solid #dedede;
+    padding: 0; }
+  .RadGrid_Bootstrap tfoot .rgCommandCell,
+  .RadGrid_Bootstrap .rgMasterTable > tbody > tr.rgCommandRow .rgCommandCell {
+    border-top: 1px solid #dedede;
+    border-bottom: 0; }
+  .RadGrid_Bootstrap .rgCommandTable td {
+    border: 0;
+    padding: .14em .5em; }
+
+.GridItemDropIndicator_Bootstrap {
+  border-top: 1px dashed #666; }
+
+.GridToolTip_Bootstrap {
+  border: 1px solid #c98400;
+  padding: 3px;
+  background: #ffefbd;
+  color: #333; }
+
+.RadGridRTL_Bootstrap .rgHeader:first-child,
+.RadGridRTL_Bootstrap th.rgResizeCol:first-child,
+.RadGridRTL_Bootstrap .rgFilterRow > td:first-child,
+.RadGridRTL_Bootstrap .rgRow > td:first-child,
+.RadGridRTL_Bootstrap .rgAltRow > td:first-child {
+  border-left-width: 1px;
+  padding-left: 7px; }
+

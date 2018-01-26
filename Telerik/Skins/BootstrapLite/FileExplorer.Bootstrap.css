@@ -1,0 +1,38 @@
+.RadFileExplorer_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadFileExplorer_Bootstrap .rfeFilterTxt,
+  .RadFileExplorer_Bootstrap .rfeAddressBox {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Bootstrap .rfeLink {
+    border-radius: 4px; }
+  .RadFileExplorer_Bootstrap .rfeLink:hover {
+    border-color: #e1e1e1;
+    color: #000000;
+    background-color: #eeeeee; }
+  .RadFileExplorer_Bootstrap .rfeSelectedLink,
+  .RadFileExplorer_Bootstrap .rfeSelectedLink:hover {
+    border-color: #286090;
+    color: #ffffff;
+    background-color: #337ab7; }
+  .RadFileExplorer_Bootstrap .rfeDropZone,
+  .RadFileExplorer_Bootstrap .rfeFilterContainer,
+  .RadFileExplorer_Bootstrap .rfePageControlContainer {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #fcfcfc; }
+  .RadFileExplorer_Bootstrap .rfeDropUploadInfoPanel {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Bootstrap .RadSlider .rslHorizontal a.rslHandle {
+    margin-top: -1.2em; }
+
+.RadWindow_Bootstrap .rfeUploadInfoPanel {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #fcfcfc; }

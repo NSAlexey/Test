@@ -1,0 +1,41 @@
+.RadRotator_Outlook .rrClipRegion {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Outlook .rrButton {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+
+.RadRotator_Outlook .rrButton:hover {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #fbc860; }
+
+.RadRotator_Outlook .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(0, 60, 116, 0.5); }
+
+.RadRotator_Outlook .rrButton:active {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadRotator_Outlook .rrButtonDisabled,
+.RadRotator_Outlook .rrButtonDisabled:hover,
+.RadRotator_Outlook .rrButtonDisabled:focus,
+.RadRotator_Outlook .rrButtonDisabled:active {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: none; }
+
+.RadRotator_Outlook .rrLoadingSign {
+  background: url('../Outlook/Common/loading_small.gif') no-repeat center; }
+

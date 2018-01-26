@@ -1,0 +1,43 @@
+.RadRotator_Windows7 .rrClipRegion {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+
+.RadRotator_Windows7 .rrButton {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa; }
+
+.RadRotator_Windows7 .rrButton:hover {
+  border-color: #b5cdeb;
+  color: #1e395b;
+  background-color: #e7ecf5;
+  background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+  box-shadow: inset 0 0 0 1px #f9f9fc; }
+
+.RadRotator_Windows7 .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(156, 200, 255, 0.5); }
+
+.RadRotator_Windows7 .rrButton:active {
+  border-color: #9cc8ff;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #9cc8ff; }
+
+.RadRotator_Windows7 .rrButtonDisabled,
+.RadRotator_Windows7 .rrButtonDisabled:hover,
+.RadRotator_Windows7 .rrButtonDisabled:focus,
+.RadRotator_Windows7 .rrButtonDisabled:active {
+  border-color: #c3cedd;
+  color: #1e395b;
+  background-color: #dde8f6;
+  background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+  box-shadow: inset 0 0 0 1px #f5f8fa;
+  box-shadow: none; }
+
+.RadRotator_Windows7 .rrLoadingSign {
+  background: url('../Windows7/Common/loading_small.gif') no-repeat center; }
+

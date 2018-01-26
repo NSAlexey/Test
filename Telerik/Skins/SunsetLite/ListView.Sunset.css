@@ -1,0 +1,25 @@
+.RadListView_Sunset {
+  border-color: #938879;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadListView_Sunset .rlvHeader th {
+    border-color: #972f01;
+    color: #ffffff;
+    background-color: #bb3a01;
+    background-image: linear-gradient(#c85323, #bb3a01); }
+  .RadListView_Sunset .rlvI {
+    border-color: #938879; }
+  .RadListView_Sunset .rlvA {
+    background: #f2f2f2;
+    border-color: #938879; }
+  .RadListView_Sunset .rlvISel {
+    background: #f2d52d;
+    color: #5d1f00;
+    border-color: #904c23; }
+  .RadListView_Sunset .rlvDrag {
+    background-image: url('../Sunset/ListView/drag.gif'); }
+  .RadListView_Sunset .rlvInput {
+    border-color: #938973;
+    color: #333333;
+    background-color: #ffffff; }
+

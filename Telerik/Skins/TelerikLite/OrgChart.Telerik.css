@@ -1,0 +1,72 @@
+.RadOrgChart_Telerik {
+  color: #333333; }
+  .RadOrgChart_Telerik .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(234, 234, 234, 0.5); }
+  .RadOrgChart_Telerik .rocItem,
+  .RadOrgChart_Telerik .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #8e8e8e;
+    color: #000000;
+    background-color: #ffffff; }
+  .RadOrgChart_Telerik .rocExpandArrow,
+  .RadOrgChart_Telerik .rocCollapseArrow,
+  .RadOrgChart_Telerik .rocExpandGroupArrow,
+  .RadOrgChart_Telerik .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee; }
+  .RadOrgChart_Telerik .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Telerik .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Telerik .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Telerik .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Telerik/Common/loading_small.gif'); }
+  .RadOrgChart_Telerik .rocExpandArrow:hover,
+  .RadOrgChart_Telerik .rocCollapseArrow:hover,
+  .RadOrgChart_Telerik .rocExpandGroupArrow:hover,
+  .RadOrgChart_Telerik .rocCollapseGroupArrow:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b; }
+  .RadOrgChart_Telerik .rocExpandArrow:active,
+  .RadOrgChart_Telerik .rocCollapseArrow:active,
+  .RadOrgChart_Telerik .rocExpandGroupArrow:active,
+  .RadOrgChart_Telerik .rocCollapseGroupArrow:active {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39; }
+
+.RadOrgChart_Telerik.rocDetachedItem,
+.RadOrgChart_Telerik.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #8e8e8e;
+  color: #000000;
+  background-color: #ffffff; }
+
+.rocToolbar_Telerik {
+  border-radius: 5px;
+  border-color: #989898;
+  color: #000000;
+  background-color: #b1b1b1;
+  background-image: linear-gradient(#eeeeee, #dbdbdb 50%, #cdcdcd 50%, #b1b1b1); }
+  .rocToolbar_Telerik .rocToolbarButton {
+    border-radius: 3px;
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .rocToolbar_Telerik .rocToolbarButton:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .rocToolbar_Telerik .rocToolbarButton:active {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+    box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+

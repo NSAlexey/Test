@@ -1,0 +1,122 @@
+.RadPivotGrid_Simple {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadPivotGrid_Simple th,
+  .RadPivotGrid_Simple td,
+  .RadPivotGrid_Simple .rpgOuterTableWrapper,
+  .RadPivotGrid_Simple .rpgContentZoneDiv td {
+    border-color: #cccccc; }
+  .RadPivotGrid_Simple .rpgIcon {
+    color: #000000; }
+  .RadPivotGrid_Simple .rpgPagerCell .rpgIcon:before {
+    display: block; }
+  .RadPivotGrid_Simple input {
+    border-color: #c7c7c7;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadPivotGrid_Simple .rpgFilterZone,
+  .RadPivotGrid_Simple .rpgRowsZone,
+  .RadPivotGrid_Simple .rpgColumnsZone,
+  .RadPivotGrid_Simple .rpgDataZone,
+  .RadPivotGrid_Simple .rpgColumnHeader,
+  .RadPivotGrid_Simple .rpgColumnHeaderTotal,
+  .RadPivotGrid_Simple .rpgColumnHeaderGrandTotal,
+  .RadPivotGrid_Simple .rpgContentZoneDiv th,
+  .RadPivotGrid_Simple .rpgRowHeader,
+  .RadPivotGrid_Simple .rpgRowHeaderGrandTotal {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RadPivotGrid_Simple .rpgColumnTotalDataCell,
+  .RadPivotGrid_Simple .rpgRowGrandTotalDataCell,
+  .RadPivotGrid_Simple .rpgColumnGrandTotalDataCell,
+  .RadPivotGrid_Simple .rpgRowTotalDataCell {
+    background-color: #f2f2f2; }
+  .RadPivotGrid_Simple .rpgRowHeaderTotal,
+  .RadPivotGrid_Simple .rpgRowTotalDataCell.rpgColumnTotalDataCell {
+    background-color: #e6e6e6; }
+  .RadPivotGrid_Simple .rpgColumnHeader {
+    vertical-align: middle; }
+  .RadPivotGrid_Simple .rpgFieldsPopupWrapper {
+    background: #ffffff; }
+  .RadPivotGrid_Simple .rpgFieldItem > a:first-of-type {
+    color: #000000; }
+  .RadPivotGrid_Simple .rpgFieldItem:hover > a:first-of-type {
+    color: #882501; }
+  .RadPivotGrid_Simple .rpgFieldItem,
+  .RadPivotGrid_Simple .rpgUpdateButton {
+    border: 1px solid #c7c7c7;
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+    .RadPivotGrid_Simple .rpgFieldItem:hover,
+    .RadPivotGrid_Simple .rpgUpdateButton:hover {
+      border-color: #ffc350;
+      color: #882501;
+      background-color: #ffe79c; }
+    .RadPivotGrid_Simple .rpgFieldItem:disabled:hover,
+    .RadPivotGrid_Simple .rpgUpdateButton:disabled:hover {
+      border-color: #c7c7c7;
+      color: #000000;
+      background-color: #ededed; }
+  .RadPivotGrid_Simple .rpgConfigurationPanel {
+    background: #ffffff; }
+  .RadPivotGrid_Simple .rpgFieldsContainer {
+    border: 1px solid #cccccc; }
+  .RadPivotGrid_Simple .rpgPagerCell {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+    .RadPivotGrid_Simple .rpgPagerCell .rpgNumPart a {
+      color: inherit; }
+      .RadPivotGrid_Simple .rpgPagerCell .rpgNumPart a:hover {
+        border-color: #ffc350;
+        color: #882501;
+        background-color: #ffe79c; }
+      .RadPivotGrid_Simple .rpgPagerCell .rpgNumPart a.rpgCurrentPage {
+        border-color: #882501;
+        color: #882501;
+        background: none; }
+    .RadPivotGrid_Simple .rpgPagerCell .rpgPagerButton,
+    .RadPivotGrid_Simple .rpgPagerCell .rpgActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-color: #c7c7c7;
+      color: #000000;
+      background-color: #ededed; }
+      .RadPivotGrid_Simple .rpgPagerCell .rpgPagerButton:hover,
+      .RadPivotGrid_Simple .rpgPagerCell .rpgActionButton:hover {
+        border-color: #ffc350;
+        color: #882501;
+        background-color: #ffe79c; }
+
+.PivotGridWindow_Simple .rpgFilterButtonOk,
+.PivotGridWindow_Simple .rpgFilterButtonCancel {
+  border: 1px solid;
+  border-color: #c7c7c7;
+  color: #000000;
+  background-color: #ededed; }
+  .PivotGridWindow_Simple .rpgFilterButtonOk:hover,
+  .PivotGridWindow_Simple .rpgFilterButtonCancel:hover {
+    border-color: #ffc350;
+    color: #882501;
+    background-color: #ffe79c; }
+
+.PivotGridWindow_Simple .rpgFilterWindowContainer .RadMenu .rmRootGroup.rmVertical {
+  float: left; }
+
+.PivotGridWindow_Simple .RadMenu_Simple {
+  background: none; }
+
+.PivotGridToolTip_Simple {
+  background: #ffffff;
+  border-color: #cccccc;
+  color: #333333; }
+
+.PivotGridReorderLeft_Simple:before,
+.PivotGridReorderRight_Simple:before,
+.PivotGridReorderTop_Simple:before,
+.PivotGridReorderBottom_Simple:before {
+  color: #882501; }
+

@@ -1,0 +1,158 @@
+.RadWizard_Windows7 {
+  color: #1e395b;
+  background: #ffffff; }
+  .RadWizard_Windows7 .rwzButton {
+    border-radius: 3px;
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+  .RadWizard_Windows7 .rwzNext,
+  .RadWizard_Windows7 .rwzFinish {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #9cc8ff;
+    background-image: linear-gradient(#e3effb, #d9e9fc 50%, #d0e1f7 50%, #d0e3f9);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadWizard_Windows7 .rwzLink {
+    border-color: #c3cedd;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #f5f8fa; }
+    .RadWizard_Windows7 .rwzLink:before {
+      border-color: #c3cedd;
+      background-image: linear-gradient(135deg, #f4f8fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+      box-shadow: inset -1px 1px 0 1px #f5f8fa, 2px -2px 2px rgba(0, 0, 0, 0.1); }
+      @media screen\0 {
+        .RadWizard_Windows7 .rwzLink:before {
+          background-color: #dde8f6; } }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .RadWizard_Windows7 .rwzLink:before {
+          background-color: transparent; } }
+  .RadWizard_Windows7 .rwzProgressBar {
+    border-radius: 3px;
+    border-color: #c1cdde;
+    background-color: #f1f5fb; }
+  .RadWizard_Windows7 .rwzProgress {
+    border-color: #c1dbfc;
+    background-color: #c3dcfc; }
+  .RadWizard_Windows7 .rwzFocused.rwzButton {
+    border-color: #9cc8ff;
+    box-shadow: 0 0 5px #9cc8ff inset; }
+  .RadWizard_Windows7 .rwzFocused.rwzNext {
+    border-color: #9cc8ff;
+    box-shadow: 0 0 5px #9cc8ff inset; }
+  .RadWizard_Windows7 .rwzHovered.rwzButton,
+  .RadWizard_Windows7 .rwzHovered .rwzLink {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadWizard_Windows7 .rwzHovered.rwzNext,
+  .RadWizard_Windows7 .rwzHovered.rwzFinish {
+    border-color: #b5cdeb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: linear-gradient(#fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset 0 0 0 1px #f9f9fc; }
+  .RadWizard_Windows7 .rwzHovered .rwzLink:before {
+    border-color: #b5cdeb;
+    background-image: linear-gradient(135deg, #fcfdfe, #f7f8fb 50%, #edf2f9 50%, #e7ecf5);
+    box-shadow: inset -1px 1px 0 1px #f9f9fc, 2px -2px 2px rgba(0, 0, 0, 0.1); }
+    @media screen\0 {
+      .RadWizard_Windows7 .rwzHovered .rwzLink:before {
+        background-color: #e7ecf5; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Windows7 .rwzHovered .rwzLink:before {
+        background-color: transparent; } }
+  .RadWizard_Windows7 .rwzButton:active {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadWizard_Windows7 .rwzNext:active,
+  .RadWizard_Windows7 .rwzFinish:active {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadWizard_Windows7 .rwzSelected .rwzLink {
+    border-color: #9cc8ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: linear-gradient(#f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: inset 0 0 0 1px #9cc8ff; }
+  .RadWizard_Windows7 .rwzSelected .rwzLink:before {
+    border-color: #9cc8ff;
+    background-image: linear-gradient(135deg, #f3f7fa, #e9f2fb 50%, #dde7f5 50%, #dde8f6);
+    box-shadow: -1px 1px 0 1px #9cc8ff inset, 2px -2px 2px rgba(0, 0, 0, 0.1); }
+    @media screen\0 {
+      .RadWizard_Windows7 .rwzSelected .rwzLink:before {
+        background-color: #dde8f6; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Windows7 .rwzSelected .rwzLink:before {
+        background-color: transparent; } }
+
+.RadWizard_Windows7.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadWizard_Windows7.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Windows7.rwzHorizontal .rwzFirst.rwzLast .rwzLink {
+  border-radius: 3px; }
+
+.RadWizard_Windows7.rwzHorizontal .rwzProgressBar {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Windows7.rwzHorizontal .rwzProgress {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Windows7.rwzVertical .rwzFirst .rwzLink {
+  border-radius: 0.25em 0.25em 0em 0em; }
+
+.RadWizard_Windows7.rwzVertical .rwzLast .rwzLink {
+  border-radius: 0em 0em 0.25em 0.25em; }
+
+.RadWizard_Windows7.rwzVertical .rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Windows7.rwzVertical .rwzProgressBar {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Windows7.rwzVertical .rwzProgress {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Windows7.rwzRightBreadCrumb .rwzHovered .rwzLink:before,
+.RadWizard_Windows7.RadWizard_rtl .rwzHovered .rwzLink:before {
+  box-shadow: inset 1px -1px 0 1px #f9f9fc, -2px 2px 2px rgba(0, 0, 0, 0.1); }
+
+.RadWizard_Windows7.rwzRightBreadCrumb .rwzSelected .rwzLink:before,
+.RadWizard_Windows7.RadWizard_rtl .rwzSelected .rwzLink:before {
+  box-shadow: 1px -1px 0 1px #9cc8ff inset, -2px 2px 2px rgba(0, 0, 0, 0.1); }
+
+.RadWizard_Windows7.rwzRightBreadCrumb .rwzFirst .rwzLink,
+.RadWizard_Windows7.RadWizard_rtl.rwzVertical .rwzFirst .rwzLink {
+  border-top-right-radius: 3px; }
+
+.RadWizard_Windows7.rwzRightBreadCrumb .rwzLast .rwzLink,
+.RadWizard_Windows7.RadWizard_rtl.rwzVertical .rwzLast .rwzLink {
+  border-bottom-right-radius: 3px; }
+
+.RadWizard_Windows7.rwzRightBreadCrumb .rwzSelected .rwzLink,
+.RadWizard_Windows7.RadWizard_rtl.rwzVertical .rwzSelected .rwzLink {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.RadWizard_Windows7.RadWizard_rtl.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Windows7.RadWizard_rtl.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+

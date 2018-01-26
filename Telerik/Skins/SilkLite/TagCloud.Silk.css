@@ -1,0 +1,14 @@
+.RadTagCloud_Silk {
+  border-color: #d9d9d9;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTagCloud_Silk.rtcClassic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; }
+  .RadTagCloud_Silk .rtcTagItem a {
+    color: #14afca; }
+  .RadTagCloud_Silk .rtcTagItem a:hover {
+    color: #0d7384; }
+  .RadTagCloud_Silk.rtcLoading {
+    background-image: url('../Silk/Common/loading_small.gif'); }
+

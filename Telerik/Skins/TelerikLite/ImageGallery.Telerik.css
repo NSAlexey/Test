@@ -1,0 +1,31 @@
+.RadImageGallery_Telerik {
+  color: #333333; }
+  .RadImageGallery_Telerik .rigDotList > a {
+    background: #ffffff;
+    border-color: #cccccc; }
+  .RadImageGallery_Telerik .rigDotList .rigCurrentItem {
+    color: #66b340; }
+  .RadImageGallery_Telerik .rigToolbar {
+    color: #000000;
+    background-color: rgba(177, 177, 177, 0.8); }
+  .RadImageGallery_Telerik .rigCloseButton,
+  .RadImageGallery_Telerik .rigDrawerButton {
+    color: #000000;
+    background-color: rgba(177, 177, 177, 0.8); }
+  .RadImageGallery_Telerik .rigProgressBar div {
+    background-color: #66b340; }
+  .RadImageGallery_Telerik .rigPager {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+    .RadImageGallery_Telerik .rigPager a.rigCurrentPage {
+      border-color: #66b340;
+      color: #66b340; }
+  .RadImageGallery_Telerik .rigTooltip {
+    background-color: #ffffff;
+    border-color: #cccccc; }
+    .RadImageGallery_Telerik .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Telerik .rigToolbar .rigActionButton:hover {
+    color: #66b340; }
+

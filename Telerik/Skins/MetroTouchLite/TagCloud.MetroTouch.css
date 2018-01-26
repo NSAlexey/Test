@@ -1,0 +1,15 @@
+.RadTagCloud_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTagCloud_MetroTouch.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 16px; }
+  .RadTagCloud_MetroTouch .rtcTagItem a {
+    color: #25a0da; }
+  .RadTagCloud_MetroTouch .rtcTagItem a:hover {
+    color: #1a7099; }
+  .RadTagCloud_MetroTouch.rtcLoading {
+    background-image: url('../MetroTouch/Common/loading_small.gif'); }
+

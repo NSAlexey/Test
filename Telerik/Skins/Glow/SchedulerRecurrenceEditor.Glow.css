@@ -1,0 +1,41 @@
+.RecurrenceEditor_Glow {
+  color: #e2e8eb;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e2e8eb;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RecurrenceEditor_Glow .rsAdvOptionsPanel {
+    *zoom: 1; }
+    .RecurrenceEditor_Glow .rsAdvOptionsPanel:after {
+      content: "";
+      height: 0;
+      clear: both;
+      display: block; }
+  .RecurrenceEditor_Glow .rsAdvRecurrencePatterns {
+    border-color: #515a61; }
+    .RecurrenceEditor_Glow .rsAdvRecurrencePatterns .rsAdvDaily li,
+    .RecurrenceEditor_Glow .rsAdvRecurrencePatterns .rsAdvMonthly li,
+    .RecurrenceEditor_Glow .rsAdvRecurrencePatterns .rsAdvYearly li {
+      height: auto; }
+  .RecurrenceEditor_Glow .rsAdvRecurrenceFreq {
+    height: auto; }
+  .RecurrenceEditor_Glow .rsAdvPatternPanel {
+    border-color: #515a61;
+    height: auto; }
+    .RecurrenceEditor_Glow .rsAdvPatternPanel ul {
+      *zoom: 1; }
+      .RecurrenceEditor_Glow .rsAdvPatternPanel ul:after {
+        content: "";
+        height: 0;
+        clear: both;
+        display: block; }
+  .RecurrenceEditor_Glow .rsAdvRecurrenceRangePanel {
+    border-color: #515a61; }
+    .RecurrenceEditor_Glow .rsAdvRecurrenceRangePanel li {
+      height: auto; }
+  .RecurrenceEditor_Glow .rsAdvRecurrenceRangePanel .RadInput,
+  .RecurrenceEditor_Glow .rsAdvRecurrenceRangePanel .RadComboBox,
+  .RecurrenceEditor_Glow .rsAdvRecurrencePatterns .RadInput,
+  .RecurrenceEditor_Glow .rsAdvRecurrencePatterns .RadComboBox {
+    vertical-align: middle; }
+

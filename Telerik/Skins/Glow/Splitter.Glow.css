@@ -1,0 +1,143 @@
+.RadSplitter_Glow {
+  border-color: #1c2327;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif; }
+  .RadSplitter_Glow .rspSlideTitle,
+  .RadSplitter_Glow .rspPaneTabText {
+    font-size: 14px; }
+  .RadSplitter_Glow .rspPane,
+  .RadSplitter_Glow .rspPaneHorizontal {
+    border-color: #1c2327; }
+  .RadSplitter_Glow .rspSlidePane {
+    border-color: #1c2327;
+    color: #e2e8eb;
+    background-color: #35434b; }
+  .RadSplitter_Glow .rspSlideHeader,
+  .RadSplitter_Glow .rspSlideTitleContainer {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .RadSplitter_Glow .rspSlideTitleContainer,
+  .RadSplitter_Glow .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #182126; }
+  .RadSplitter_Glow .rspSlideHeaderDockIcon,
+  .RadSplitter_Glow .rspSlideHeaderUndockIcon,
+  .RadSplitter_Glow .rspSlideHeaderCollapseIcon,
+  .RadSplitter_Glow .rspCollapseBarExpand,
+  .RadSplitter_Glow .rspCollapseBarCollapse,
+  .RadSplitter_Glow .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Glow .rspCollapseBarHorizontalCollapse {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSplitter_Glow div.rspSlideHeaderDockIcon,
+  .RadSplitter_Glow div.rspSlideHeaderUndockIcon,
+  .RadSplitter_Glow div.rspSlideHeaderCollapseIcon {
+    height: 26px;
+    width: 26px;
+    border: 1px solid transparent; }
+  .RadSplitter_Glow div.rspSlideHeaderDockIcon {
+    background-position: -12px -1262px; }
+  .RadSplitter_Glow div.rspSlideHeaderDockIcon:hover {
+    background-position: -62px -1262px; }
+  .RadSplitter_Glow div.rspSlideHeaderUndockIcon {
+    background-position: -12px -1212px; }
+  .RadSplitter_Glow div.rspSlideHeaderUndockIcon:hover {
+    background-position: -62px -1212px; }
+  .RadSplitter_Glow div.rspSlideHeaderCollapseIcon {
+    background-position: -12px -1912px; }
+  .RadSplitter_Glow div.rspSlideHeaderCollapseIcon:hover {
+    background-position: -62px -1912px; }
+  .RadSplitter_Glow .rspSlideContent {
+    border-color: #1c2327;
+    color: #e2e8eb;
+    background-color: #35434b; }
+  .RadSplitter_Glow .rspResizeBar,
+  .RadSplitter_Glow .rspSlideContainerResize {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(to left, #30414b, #1c262c); }
+  .RadSplitter_Glow .rspResizeBarOver,
+  .RadSplitter_Glow .rspSlideContainerResizeOver {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(to left, #ffa201, #cd8100); }
+  .RadSplitter_Glow .rspResizeBarHorizontal,
+  .RadSplitter_Glow .rspSlideContainerResizeHorizontal {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .RadSplitter_Glow .rspResizeBarOverHorizontal,
+  .RadSplitter_Glow .rspSlideContainerResizeOverHorizontal {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadSplitter_Glow .rspCollapseBarExpand,
+  .RadSplitter_Glow .rspCollapseBarCollapse {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+  .RadSplitter_Glow .rspCollapseBarExpandOver,
+  .RadSplitter_Glow .rspCollapseBarCollapseOver {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100; }
+  .RadSplitter_Glow input.rspCollapseBarExpand,
+  .RadSplitter_Glow input.rspCollapseBarCollapse {
+    width: 6px;
+    height: 26px;
+    line-height: 26px; }
+  .RadSplitter_Glow input.rspCollapseBarHorizontalExpand,
+  .RadSplitter_Glow input.rspCollapseBarHorizontalCollapse {
+    width: 26px;
+    height: 6px;
+    line-height: 6px; }
+  .RadSplitter_Glow input.rspCollapseBarExpand {
+    background-position: -22px -162px; }
+  .RadSplitter_Glow input.rspCollapseBarExpand:hover {
+    background-position: -122px -162px; }
+  .RadSplitter_Glow input.rspCollapseBarCollapse {
+    background-position: -22px -112px; }
+  .RadSplitter_Glow input.rspCollapseBarCollapse:hover {
+    background-position: -122px -112px; }
+  .RadSplitter_Glow input.rspCollapseBarHorizontalExpand {
+    background-position: -12px -72px; }
+  .RadSplitter_Glow input.rspCollapseBarHorizontalExpand:hover {
+    background-position: -112px -72px; }
+  .RadSplitter_Glow input.rspCollapseBarHorizontalCollapse {
+    background-position: -12px -22px; }
+  .RadSplitter_Glow input.rspCollapseBarHorizontalCollapse:hover {
+    background-position: -112px -22px; }
+  .RadSplitter_Glow .rspTabsContainer {
+    background-color: #1c262c; }
+  .RadSplitter_Glow .rspPaneTabContainer {
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c; }
+  .RadSplitter_Glow .rspPaneTabContainer:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(to left, #ffa201, #cd8100); }
+  .RadSplitter_Glow .rspTop .rspPaneTabContainer:hover,
+  .RadSplitter_Glow .rspBottom .rspPaneTabContainer:hover {
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadSplitter_Glow .rspPaneTabContainerExpanded {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: linear-gradient(to left, none); }
+  .RadSplitter_Glow .rspTop .rspPaneTabContainerExpanded,
+  .RadSplitter_Glow .rspBottom .rspPaneTabContainerExpanded {
+    background-image: linear-gradient(none); }
+  .RadSplitter_Glow .rspTabsContainer .rspPaneTabContainerDocked {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadSplitter_Glow .rspLoading {
+    background-image: url('Common/loading.gif'); }
+

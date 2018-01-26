@@ -1,0 +1,16 @@
+.RadNotification_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadNotification_Bootstrap .rnTitleBar {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .RadNotification_Bootstrap .rnCommands a:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadNotification_Bootstrap.rnShadows {
+    box-shadow: 2px 2px 3px rgba(222, 222, 222, 0.5); }
+

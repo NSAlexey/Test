@@ -1,0 +1,78 @@
+.RadSplitter_BlackMetroTouch {
+  border-color: #333333; }
+  .RadSplitter_BlackMetroTouch .rspPane,
+  .RadSplitter_BlackMetroTouch .rspPaneHorizontal {
+    border-color: #333333; }
+  .RadSplitter_BlackMetroTouch .rspSlidePane {
+    border-color: #333333;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadSplitter_BlackMetroTouch .rspSlideHeader,
+  .RadSplitter_BlackMetroTouch .rspSlideTitleContainer {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadSplitter_BlackMetroTouch .rspSlideTitleContainer,
+  .RadSplitter_BlackMetroTouch .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #555555; }
+  .RadSplitter_BlackMetroTouch .rspSlideHeaderDockIcon:hover,
+  .RadSplitter_BlackMetroTouch .rspSlideHeaderUndockIcon:hover,
+  .RadSplitter_BlackMetroTouch .rspSlideHeaderCollapseIcon:hover {
+    color: #0082cc; }
+  .RadSplitter_BlackMetroTouch .rspResizeBar,
+  .RadSplitter_BlackMetroTouch .rspSlideContainerResize {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadSplitter_BlackMetroTouch .rspResizeBarOver,
+  .RadSplitter_BlackMetroTouch .rspSlideContainerResizeOver {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadSplitter_BlackMetroTouch .rspResizeBarHorizontal,
+  .RadSplitter_BlackMetroTouch .rspSlideContainerResizeHorizontal {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadSplitter_BlackMetroTouch .rspResizeBarOverHorizontal,
+  .RadSplitter_BlackMetroTouch .rspSlideContainerResizeOverHorizontal {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadSplitter_BlackMetroTouch .rspCollapseBarExpand,
+  .RadSplitter_BlackMetroTouch .rspCollapseBarCollapse {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadSplitter_BlackMetroTouch .rspCollapseBarHorizontalExpand,
+  .RadSplitter_BlackMetroTouch .rspCollapseBarHorizontalCollapse {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadSplitter_BlackMetroTouch .rspCollapseBarExpandOver,
+  .RadSplitter_BlackMetroTouch .rspCollapseBarCollapseOver {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadSplitter_BlackMetroTouch .rspCollapseBarHorizontalExpandOver,
+  .RadSplitter_BlackMetroTouch .rspCollapseBarHorizontalCollapseOver {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadSplitter_BlackMetroTouch .rspTabsContainer {
+    background-color: #222222; }
+  .RadSplitter_BlackMetroTouch .rspPaneTabContainer {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadSplitter_BlackMetroTouch .rspPaneTabContainer:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadSplitter_BlackMetroTouch .rspPaneTabContainerExpanded {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadSplitter_BlackMetroTouch .rspLoading {
+    background-image: url('../BlackMetroTouch/Common/loading_small.gif'); }
+

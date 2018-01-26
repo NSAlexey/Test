@@ -1,0 +1,31 @@
+.RadImageGallery_Outlook {
+  color: #333333; }
+  .RadImageGallery_Outlook .rigDotList > a {
+    background: #ffffff;
+    border-color: #89aee5; }
+  .RadImageGallery_Outlook .rigDotList .rigCurrentItem {
+    color: #306ac5; }
+  .RadImageGallery_Outlook .rigToolbar {
+    color: #ffffff;
+    background-color: rgba(0, 45, 150, 0.8); }
+  .RadImageGallery_Outlook .rigCloseButton,
+  .RadImageGallery_Outlook .rigDrawerButton {
+    color: #ffffff;
+    background-color: rgba(0, 45, 150, 0.8); }
+  .RadImageGallery_Outlook .rigProgressBar div {
+    background-color: #306ac5; }
+  .RadImageGallery_Outlook .rigPager {
+    border-color: #89aee5;
+    color: #333333;
+    background-color: #d6e6f4; }
+    .RadImageGallery_Outlook .rigPager a.rigCurrentPage {
+      border-color: #306ac5;
+      color: #306ac5; }
+  .RadImageGallery_Outlook .rigTooltip {
+    background-color: #ffffff;
+    border-color: #89aee5; }
+    .RadImageGallery_Outlook .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Outlook .rigToolbar .rigActionButton:hover {
+    color: #306ac5; }
+

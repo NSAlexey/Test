@@ -1,0 +1,83 @@
+.RadInput_Vista .riTextBox,
+.RadInput_Vista .riSelect,
+.RadInput_Vista .rcSelect,
+.RadInputMgr_Vista {
+  border-color: #acacac;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Vista .riEmpty,
+.RadInput_Empty_Vista {
+  color: rgba(51, 51, 51, 0.8); }
+
+.RadInput_Vista.RadInputHovered .riTextBox,
+.RadInput_Vista.RadInputHovered .riSelect,
+.RadInput_Vista.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #5094b9;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Vista.RadInputFocused .riTextBox,
+.RadInput_Vista.RadInputFocused .riSelect,
+.RadInput_Vista.RadInputFocused .rcSelect,
+.RadInput_Focused_Vista {
+  border-color: #3d7899;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_Vista.RadInputError .riTextBox,
+.RadInput_Vista.RadInputError .riSelect,
+.RadInput_Vista.RadInputError .rcSelect,
+.RadInput_Error_Vista,
+.RadForm.rfdTextbox .RadInput_Vista .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #b32d34;
+  color: #b32d34;
+  background-color: #ffffff; }
+
+.RadInput_Vista.RadInputError {
+  color: #b32d34; }
+
+.RadInput_Vista .riNegative, .RadInput_Negative_Vista {
+  color: #565656; }
+
+.RadInput_Vista a,
+.RadInput_Vista.RadInputDisabled a:hover,
+.RadInput_Vista.RadInputDisabled a:active {
+  border-color: #acacac;
+  color: #000000;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+  box-shadow: inset 0 0 0 1px #f3f3f3;
+  box-shadow: none; }
+
+.RadInput_Vista a:hover {
+  border-color: #5094b9;
+  color: #000000;
+  background-color: #abdcf7;
+  background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78); }
+
+.RadInput_Vista a:focus, .RadInput_Vista a:active {
+  border-color: #3d7899;
+  color: #000000;
+  background-color: #ced7dd;
+  background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+  box-shadow: inset 0 0 3px 1px #41d7fc; }
+
+.RadInput_Vista .riLabel {
+  color: #333333; }
+
+.RadInput_Vista .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../Vista/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_Vista .riError, .RadInputRTL_Error_Vista {
+  background-position: 3px -298px; }
+
+.RadInputRTL_Vista .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_Vista .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_Vista[type="text"] {
+  background-position: 3px -298px; }
+

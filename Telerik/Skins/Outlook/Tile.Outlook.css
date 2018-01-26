@@ -1,0 +1,19 @@
+.RadTile_Outlook {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background-color: #ebe8e3; }
+  .RadTile_Outlook .rtilePeekContent {
+    background-color: #ebe8e3; }
+  .RadTile_Outlook.rtileSelected .rtileSelectedIcon {
+    background-image: url('Tile/rtileSprite.png'); }
+  .RadTile_Outlook.rtileHovered {
+    border-color: #305090; }
+  .RadTile_Outlook.rtileSelected {
+    border-color: #306ac5; }
+  .RadTile_Outlook.rtileSelected.rtileHovered {
+    border-color: #26549c; }
+  .RadTile_Outlook.rtileLoading,
+  .RadTile_Outlook .rtileLoading {
+    background-image: url('Common/loading_small.gif'); }
+

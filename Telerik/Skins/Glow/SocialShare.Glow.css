@@ -1,0 +1,41 @@
+div.RadSocialShare_Glow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border: 1px solid #35434b;
+  background-image: url('../Common/Gradients/radGradientLightV50.png');
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  box-shadow: 0 1px 3px #000;
+  background-color: #1c262c; }
+  div.RadSocialShare_Glow .sshLinkItem:hover {
+    color: #ffa915; }
+
+.RadWindow_Glow .sshFormSendBtn {
+  background-image: url('../Common/Gradients/radGradientLightV20.png');
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#30414b, #1c262c);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  height: 28px;
+  padding: 0 10px;
+  *padding: 0;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  border-radius: 4px; }
+
+.RadWindow_Glow .sshFormSendBtn:hover {
+  border-color: #cd8100;
+  color: #733700;
+  background-color: #cd8100;
+  background-image: linear-gradient(#ffa201, #cd8100);
+  background-position: 0 0; }
+
+.RadWindow_Glow .sshFormSendBtn:active {
+  border-color: #cd8100;
+  color: #733700;
+  background-color: #ffa915;
+  background-image: none;
+  box-shadow: inset 0 0 4px #888;
+  background-position: 0 0; }
+

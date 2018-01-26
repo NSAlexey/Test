@@ -1,0 +1,8 @@
+.RadSocialShare_Glow {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  box-shadow: 0 1px 3px #35434b; }
+  .RadSocialShare_Glow .sshLinkItem:hover {
+    color: #ffa915; }
+

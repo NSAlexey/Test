@@ -1,0 +1,27 @@
+.RadTreeView_Telerik {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Telerik .rtIn {
+    background-image: url('Common/radGradientListSprite.png');
+    background-image: linear-gradient(transparent, transparent); }
+  .RadTreeView_Telerik .rtHover .rtIn {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+  .RadTreeView_Telerik .rtSelected .rtIn {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(#95cf65, #63ac39); }
+  .RadTreeView_Telerik .rtChecked,
+  .RadTreeView_Telerik .rtUnchecked,
+  .RadTreeView_Telerik .rtIndeterminate {
+    background-image: url('Common/radFormToggleSprite.png'); }
+  .RadTreeView_Telerik .rtLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+  .RadTreeView_Telerik .rtPlus,
+  .RadTreeView_Telerik .rtMinus {
+    background-image: url('TreeView/PlusMinus.png'); }
+

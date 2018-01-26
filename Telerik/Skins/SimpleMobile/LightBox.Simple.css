@@ -1,0 +1,16 @@
+.RadLightBox_Simple .rltbWrapper {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadLightBox_Simple .rltbDescOverlayTop,
+.RadLightBox_Simple .rltbDescOverlayBottom {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.RadLightBox_Simple .rltbToolbar .rltbActionButton {
+  color: #000000;
+  background: #e2e2e2; }
+
+.RadLightBox_Simple .rltbToolbar .rltbActionButton:active {
+  color: #882501; }
+

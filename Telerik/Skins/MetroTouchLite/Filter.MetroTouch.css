@@ -1,0 +1,54 @@
+.RadFilter_MetroTouch {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadFilter_MetroTouch .rfMid,
+  .RadFilter_MetroTouch .rfTools {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    border-radius: 0; }
+  .RadFilter_MetroTouch .rfOper:hover,
+  .RadFilter_MetroTouch .rfField:hover,
+  .RadFilter_MetroTouch .rfExp:hover,
+  .RadFilter_MetroTouch .rfAddExp:hover,
+  .RadFilter_MetroTouch .rfAddGr:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadFilter_MetroTouch .rfOper:focus,
+  .RadFilter_MetroTouch .rfField:focus,
+  .RadFilter_MetroTouch .rfExp:focus,
+  .RadFilter_MetroTouch .rfAddExp:focus,
+  .RadFilter_MetroTouch .rfAddGr:focus,
+  .RadFilter_MetroTouch .rfOper:active,
+  .RadFilter_MetroTouch .rfField:active,
+  .RadFilter_MetroTouch .rfExp:active,
+  .RadFilter_MetroTouch .rfAddExp:active,
+  .RadFilter_MetroTouch .rfAddGr:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadFilter_MetroTouch .rfDel:hover,
+  .RadFilter_MetroTouch .rfDel:focus,
+  .RadFilter_MetroTouch .rfDel:active {
+    color: #de3914; }
+  .RadFilter_MetroTouch .rfText {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFilter_MetroTouch .rfPreview strong {
+    color: #5ec232; }
+  .RadFilter_MetroTouch .rfPreview em,
+  .RadFilter_MetroTouch .rfPreview .rfBr {
+    color: #3e80ed; }
+  .RadFilter_MetroTouch .rfApply a,
+  .RadFilter_MetroTouch .rfApply span {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    border-radius: 0; }
+  .RadFilter_MetroTouch .rfLast .rfDiv:after,
+  .RadFilter_MetroTouch .rfLines li li:before,
+  .RadFilter_MetroTouch .rfLines li li .rfDiv:before {
+    border-color: #e0e0e0; }
+

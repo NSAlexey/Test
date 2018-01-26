@@ -1,0 +1,39 @@
+.RadImageGallery_Web20 {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333; }
+  .RadImageGallery_Web20 .rigDotList > a {
+    background: #ffffff;
+    border-color: #6788be; }
+  .RadImageGallery_Web20 .rigDotList .rigCurrentItem {
+    color: #12398a; }
+  .RadImageGallery_Web20 .rigToolbar {
+    color: #ffffff;
+    background-color: #3d568e; }
+  .RadImageGallery_Web20 .rigCloseButton,
+  .RadImageGallery_Web20 .rigDrawerButton {
+    color: #ffffff;
+    background-color: #3d568e; }
+  .RadImageGallery_Web20 .rigProgressBar div {
+    background-color: #12398a; }
+  .RadImageGallery_Web20 .rigPager {
+    border-color: #6788be;
+    color: #333333;
+    background-color: #e7f1ff; }
+    .RadImageGallery_Web20 .rigPager a.rigCurrentPage {
+      border-color: #12398a;
+      color: #12398a; }
+  .RadImageGallery_Web20 .rigTooltip {
+    background-color: #ffffff;
+    border-color: #6788be; }
+    .RadImageGallery_Web20 .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Web20 .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_Web20 .rigPrevButton,
+  .RadImageGallery_Web20 .rigNextButton,
+  .RadImageGallery_Web20 .rigScrollPrevIcon,
+  .RadImageGallery_Web20 .rigScrollNextIcon,
+  .RadImageGallery_Web20 .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+

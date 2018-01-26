@@ -1,0 +1,120 @@
+.RadSearchBox_Bootstrap {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143; }
+  .RadSearchBox_Bootstrap .rsbInner {
+    padding: 0;
+    border-radius: 4px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+    .RadSearchBox_Bootstrap .rsbInner.rsbHovered {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #ffffff; }
+    .RadSearchBox_Bootstrap .rsbInner.rsbFocused {
+      border-color: #3c87c8;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadSearchBox_Bootstrap .rsbInput {
+    margin: 0;
+    padding: 6px 12px;
+    height: 20px;
+    line-height: 20px; }
+  .RadSearchBox_Bootstrap .rsbButton {
+    width: 32px;
+    height: 32px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSearchBox_Bootstrap .rsbButton:hover {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+    .RadSearchBox_Bootstrap .rsbButton:active {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+  .RadSearchBox_Bootstrap .rsbButtonSearch {
+    margin: 0;
+    border-width: 0 0 0 1px;
+    border-radius: 0 4px 4px 0; }
+    .RadSearchBox_Bootstrap .rsbButtonSearch .rsbIcon {
+      width: 20px;
+      height: 20px;
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -15px -4715px; }
+  .RadSearchBox_Bootstrap .rsbButtonsLeft .rsbButton {
+    border-width: 0 1px 0 0; }
+  .RadSearchBox_Bootstrap .rsbButtonsLeft .rsbButton:first-child {
+    border-radius: 4px 0 0 4px; }
+  .RadSearchBox_Bootstrap .rsbButtonsRight .rsbButton {
+    border-width: 0 0 0 1px; }
+  .RadSearchBox_Bootstrap .rsbSearchContext {
+    margin: -1px 0 -1px -1px; }
+  .RadSearchBox_Bootstrap .rsbSCInner {
+    padding: 6px 40px 6px 12px;
+    height: auto;
+    border-radius: 4px 0 0 4px;
+    line-height: 20px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Bootstrap .rsbSCIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -17px -67px;
+    right: 5px; }
+  .RadSearchBox_Bootstrap .rsbSCHovered {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSearchBox_Bootstrap .rsbSCFocused {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSearchBox_Bootstrap .rsbSCDisabled {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Bootstrap .rsbLoadingIcon {
+    background-image: url('Common/loading_small.gif');
+    margin: 8px; }
+
+.rsbPopup_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  margin: 2px 0 0 0;
+  padding: 5px 0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143; }
+  .rsbPopup_Bootstrap .rsbShowAll {
+    margin-bottom: -5px; }
+  .rsbPopup_Bootstrap .rsbListItem {
+    padding: 3px 20px; }
+  .rsbPopup_Bootstrap .rsbListItemHovered {
+    color: #000000;
+    background-color: #eeeeee; }
+  .rsbPopup_Bootstrap .rsbListItemSelected {
+    color: #ffffff;
+    background-color: #337ab7; }
+  .rsbPopup_Bootstrap .rsbListItemLoading {
+    color: #000000;
+    background-color: #eeeeee; }
+
+.RadSearchBox_Bootstrap[dir="rtl"] .rsbButtonSearch {
+  border-width: 0 1px 0 0;
+  border-radius: 4px 0 0 4px; }
+
+.RadSearchBox_Bootstrap[dir="rtl"] .rsbButtonsLeft .rsbButton {
+  border-width: 0 1px 0 0; }
+
+.RadSearchBox_Bootstrap[dir="rtl"] .rsbButtonsLeft .rsbButton:first-child {
+  border-radius: 4px 0 0 4px; }
+
+.RadSearchBox_Bootstrap[dir="rtl"] .rsbButtonsRight .rsbButton {
+  border-width: 0 0 0 1px; }
+

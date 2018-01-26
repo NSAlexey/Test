@@ -1,0 +1,43 @@
+.RadRotator_Telerik .rrClipRegion {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Telerik .rrButton {
+  border-color: #cccccc;
+  color: #000000;
+  background-color: #eeeeee;
+  background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadRotator_Telerik .rrButton:hover {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+  box-shadow: none; }
+
+.RadRotator_Telerik .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(77, 134, 44, 0.5); }
+
+.RadRotator_Telerik .rrButton:active {
+  border-color: #4d862c;
+  color: #000000;
+  background-color: #63ac39;
+  background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+  box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+
+.RadRotator_Telerik .rrButtonDisabled,
+.RadRotator_Telerik .rrButtonDisabled:hover,
+.RadRotator_Telerik .rrButtonDisabled:focus,
+.RadRotator_Telerik .rrButtonDisabled:active {
+  border-color: #cccccc;
+  color: #000000;
+  background-color: #eeeeee;
+  background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  box-shadow: none; }
+
+.RadRotator_Telerik .rrLoadingSign {
+  background: url('../Telerik/Common/loading_small.gif') no-repeat center; }
+
