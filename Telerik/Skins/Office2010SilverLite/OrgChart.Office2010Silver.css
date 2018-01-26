@@ -1,0 +1,69 @@
+.RadOrgChart_Office2010Silver {
+  color: #333333; }
+  .RadOrgChart_Office2010Silver .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(237, 239, 242, 0.5); }
+  .RadOrgChart_Office2010Silver .rocItem,
+  .RadOrgChart_Office2010Silver .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #9aa0a6;
+    color: #3b3b3b;
+    background-color: #ffffff; }
+  .RadOrgChart_Office2010Silver .rocExpandArrow,
+  .RadOrgChart_Office2010Silver .rocCollapseArrow,
+  .RadOrgChart_Office2010Silver .rocExpandGroupArrow,
+  .RadOrgChart_Office2010Silver .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1; }
+  .RadOrgChart_Office2010Silver .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Office2010Silver .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Office2010Silver .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Office2010Silver .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Office2010Silver/Common/loading_small.gif'); }
+  .RadOrgChart_Office2010Silver .rocExpandArrow:hover,
+  .RadOrgChart_Office2010Silver .rocCollapseArrow:hover,
+  .RadOrgChart_Office2010Silver .rocExpandGroupArrow:hover,
+  .RadOrgChart_Office2010Silver .rocCollapseGroupArrow:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9; }
+  .RadOrgChart_Office2010Silver .rocExpandArrow:active,
+  .RadOrgChart_Office2010Silver .rocCollapseArrow:active,
+  .RadOrgChart_Office2010Silver .rocExpandGroupArrow:active,
+  .RadOrgChart_Office2010Silver .rocCollapseGroupArrow:active {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c; }
+
+.RadOrgChart_Office2010Silver.rocDetachedItem,
+.RadOrgChart_Office2010Silver.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #9aa0a6;
+  color: #3b3b3b;
+  background-color: #ffffff; }
+
+.rocToolbar_Office2010Silver {
+  border-radius: 5px;
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .rocToolbar_Office2010Silver .rocToolbarButton {
+    border-radius: 3px;
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .rocToolbar_Office2010Silver .rocToolbarButton:hover {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .rocToolbar_Office2010Silver .rocToolbarButton:active {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+

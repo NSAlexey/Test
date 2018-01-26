@@ -1,0 +1,93 @@
+.RadEditor_BlackMetroTouch {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #333333; }
+  .RadEditor_BlackMetroTouch .reDialog .rbRounded.rbHeadWest,
+  .RadEditor_BlackMetroTouch .reFindOverlay .rbRounded.rbHeadWest,
+  .RadEditor_BlackMetroTouch .reDialog .rbRounded.rbHeadEast,
+  .RadEditor_BlackMetroTouch .reFindOverlay .rbRounded.rbHeadEast,
+  .RadEditor_BlackMetroTouch .reToolList > li.reButtonGroup > .reButton,
+  .RadEditor_BlackMetroTouch .reDialog input[type="text"],
+  .RadEditor_BlackMetroTouch .reDialog input[type="search"],
+  .RadEditor_BlackMetroTouch .reFindOverlay input[type="text"],
+  .RadEditor_BlackMetroTouch .reFindOverlay input[type="search"],
+  .RadEditor_BlackMetroTouch .reCurrentColor,
+  .RadEditor_BlackMetroTouch .reColorPicker .reButton,
+  .RadEditor_BlackMetroTouch .reDialog .reButton,
+  .RadEditor_BlackMetroTouch .reFindOverlay .reButton,
+  .RadEditor_BlackMetroTouch .reSpinBox .reSpinBoxButtons span {
+    border-radius: 0; }
+  .RadEditor_BlackMetroTouch .reToolBar,
+  .RadEditor_BlackMetroTouch .reHeader,
+  .RadEditor_BlackMetroTouch .reModule {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    background-image: linear-gradient(); }
+  .RadEditor_BlackMetroTouch .reToolBar .reButtonSelected .reIcon {
+    color: #0082cc; }
+  .RadEditor_BlackMetroTouch .reToolBar .reToggleScreenMode {
+    border-color: #555555; }
+  .RadEditor_BlackMetroTouch .reToggleScreenMode.reButtonSelected .reIcon {
+    color: #ffffff; }
+  .RadEditor_BlackMetroTouch .reToolHeader {
+    background-color: #222222; }
+  .RadEditor_BlackMetroTouch .reModule {
+    background-color: black; }
+  .RadEditor_BlackMetroTouch .reToolHeader .reTabChooser .reButton {
+    background-color: #3c3c3c; }
+  .RadEditor_BlackMetroTouch .reToolHeader .reTabChooser .reMore {
+    border-color: #222222; }
+  .RadEditor_BlackMetroTouch .reToolContent {
+    background-color: #2f2f2f; }
+  .RadEditor_BlackMetroTouch .reToolList {
+    background-color: #000000; }
+  .RadEditor_BlackMetroTouch .reToolList > li {
+    background-color: #000000;
+    border-color: #2f2f2f; }
+  .RadEditor_BlackMetroTouch .reToolDropDown > li.reRowSelected,
+  .RadEditor_BlackMetroTouch .reButtonGroup .reButtonSelected,
+  .RadEditor_BlackMetroTouch .reToolList .reButtonGroupSelected,
+  .RadEditor_BlackMetroTouch .reToolList .reDropDownSelected {
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadEditor_BlackMetroTouch .reDomWrapper:before {
+    left: 0;
+    background: linear-gradient(to right, black, rgba(255, 0, 0, 0)); }
+  .RadEditor_BlackMetroTouch .reDomWrapper:after {
+    right: 0;
+    background: linear-gradient(to left, black, rgba(255, 0, 0, 0)); }
+  .RadEditor_BlackMetroTouch .reDom .reDomElement,
+  .RadEditor_BlackMetroTouch .reIconSelected {
+    color: #0082cc; }
+  .RadEditor_BlackMetroTouch textarea.reTextArea {
+    color: black; }
+  .RadEditor_BlackMetroTouch .reDialog input[type="text"],
+  .RadEditor_BlackMetroTouch .reDialog input[type="search"],
+  .RadEditor_BlackMetroTouch .reFindOverlay input[type="text"],
+  .RadEditor_BlackMetroTouch .reFindOverlay input[type="search"],
+  .RadEditor_BlackMetroTouch .reSpinBox input {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadEditor_BlackMetroTouch .reColorPicker {
+    background-color: #222222; }
+  .RadEditor_BlackMetroTouch .reCurrentColor {
+    border-color: #555555; }
+  .RadEditor_BlackMetroTouch .reDialog .reButton,
+  .RadEditor_BlackMetroTouch .reColorPicker .reButton {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadEditor_BlackMetroTouch .reDialog,
+  .RadEditor_BlackMetroTouch .reFindOverlay {
+    background-color: #222222; }
+  .RadEditor_BlackMetroTouch .reDialog a,
+  .RadEditor_BlackMetroTouch .reFindOverlay a {
+    color: #0082cc; }
+
+.RadWindow_BlackMetroTouch.reMobileDialog {
+  background-color: #2f2f2f; }
+  .RadWindow_BlackMetroTouch.reMobileDialog .rwContent {
+    border-color: #2f2f2f; }
+

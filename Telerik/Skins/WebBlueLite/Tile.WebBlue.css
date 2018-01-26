@@ -1,0 +1,18 @@
+.RadTile_WebBlue {
+  color: #0d202b;
+  background-color: #d7e2e7; }
+  .RadTile_WebBlue .rtilePeekContent {
+    background-color: #d7e2e7; }
+  .RadTile_WebBlue.rtileSelected .rtileSelectedIcon {
+    color: #333333;
+    background-color: #7abace; }
+  .RadTile_WebBlue.rtileHovered {
+    border-color: #5d9fb7; }
+  .RadTile_WebBlue.rtileSelected {
+    border-color: #7abace; }
+  .RadTile_WebBlue.rtileSelected.rtileHovered {
+    border-color: #55a7c0; }
+  .RadTile_WebBlue.rtileLoading,
+  .RadTile_WebBlue .rtileLoading {
+    background-image: url('../WebBlue/Common/loading_small.gif'); }
+

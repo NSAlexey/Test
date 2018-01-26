@@ -1,0 +1,14 @@
+.RadTagCloud_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff; }
+  .RadTagCloud_Windows7.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadTagCloud_Windows7 .rtcTagItem a {
+    color: #4c93cc; }
+  .RadTagCloud_Windows7 .rtcTagItem a:hover {
+    color: #2d6c9e; }
+  .RadTagCloud_Windows7.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

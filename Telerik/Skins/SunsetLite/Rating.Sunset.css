@@ -1,0 +1,23 @@
+.RadRating_Sunset a:before {
+  color: #9f9f9f; }
+
+.RadRating_Sunset .rrtOver span,
+.RadRating_Sunset a:hover .rrtPartComplement,
+.RadRating_Sunset .rrtVertical .rrtSelected.rrtOver a,
+.RadRating_Sunset .rrtSelected .rrtPartSelected,
+.RadRating_Sunset .rrtSelected.rrtOver a {
+  color: #9f9f9f; }
+
+.RadRating_Sunset .rrtSelected span {
+  color: #982e00; }
+
+.RadRating_Sunset .rrtSelected .rrtPart,
+.RadRating_Sunset .rrtSelected.rrtOver span {
+  color: #320f00; }
+
+.RadRating_Sunset .rrtReversed .rrtPart:before {
+  color: #9f9f9f; }
+
+.RadRating_Sunset .rrtReversed .rrtSelected .rrtPartComplement:before {
+  color: #320f00; }
+

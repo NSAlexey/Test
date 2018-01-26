@@ -1,0 +1,78 @@
+.RadMenu_Telerik .rmRootGroup {
+  border-color: #d1d1d1;
+  color: #000000;
+  background-color: #eaeaea;
+  background-image: linear-gradient(#fdfdfd, #eaeaea); }
+  .RadMenu_Telerik .rmRootGroup.rmVertical {
+    background-image: none; }
+  .RadMenu_Telerik .rmRootGroup .rmItem {
+    border-color: #eaeaea; }
+  .RadMenu_Telerik .rmRootGroup .rmRootLink:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+  .RadMenu_Telerik .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Telerik .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(#a0cf7a, #63ac39); }
+  .RadMenu_Telerik .rmRootGroup .rmFocused > .rmLink {
+    border-color: #4d862c;
+    box-shadow: inset 0 0 5px #4d862c; }
+
+.RadMenu_Telerik .rmGroup,
+.RadMenu_Telerik .rmMultiColumn,
+.RadMenu_Telerik .rmPopup {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadMenu_Telerik .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_Telerik .rmGroup .rmLink:hover,
+.RadMenu_Telerik .rmGroup .rmToggle:hover {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+
+.RadMenu_Telerik .rmGroup .rmSelected > .rmLink,
+.RadMenu_Telerik .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Telerik .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Telerik .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #4d862c;
+  color: #000000;
+  background-color: #63ac39;
+  background-image: linear-gradient(#95cf65, #63ac39); }
+
+.RadMenu_Telerik .rmGroup .rmFocused > .rmLink,
+.RadMenu_Telerik .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #4d862c;
+  box-shadow: inset 0 0 5px #4d862c; }
+
+.RadMenu_Telerik .rmSeparator {
+  border-color: #d1d1d1; }
+
+.RadMenu_Telerik .rmGroup .rmSeparator {
+  border-color: #cccccc; }
+
+.RadMenu_Telerik .rmArrow {
+  border-color: #d9d9d9;
+  background-color: #f2f2f2; }
+
+.RadMenu_Telerik .rmArrow:hover {
+  background-color: #e6e6e6; }
+
+.RadMenu_Telerik .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #cccccc; }
+
+.RadMenu_Telerik .rmGroup:before,
+.RadMenu_Telerik .rmMultiColumn:before,
+.RadMenu_Telerik .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Telerik .rmScrollWrap > .rmVertical:before {
+  border-color: transparent;
+  background-color: #eeeeee; }
+

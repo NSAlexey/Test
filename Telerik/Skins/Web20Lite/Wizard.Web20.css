@@ -1,0 +1,153 @@
+.RadWizard_Web20 {
+  color: #333333;
+  background: #ffffff; }
+  .RadWizard_Web20 .rwzButton {
+    border-radius: 3px;
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+  .RadWizard_Web20 .rwzNext,
+  .RadWizard_Web20 .rwzFinish {
+    border-color: #73b334;
+    color: #333333;
+    background-color: #85c843;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.2)); }
+  .RadWizard_Web20 .rwzLink {
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+    .RadWizard_Web20 .rwzLink:before {
+      border-color: #687dc1;
+      background-image: linear-gradient(135deg, #8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+      @media screen\0 {
+        .RadWizard_Web20 .rwzLink:before {
+          background-color: #687dc1; } }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .RadWizard_Web20 .rwzLink:before {
+          background-color: transparent; } }
+  .RadWizard_Web20 .rwzProgressBar {
+    border-radius: 3px;
+    border-color: #a8c0e7;
+    background-color: #d6dfeb; }
+  .RadWizard_Web20 .rwzProgress {
+    border-color: #80c05d;
+    background-color: #81c15f; }
+  .RadWizard_Web20 .rwzFocused.rwzButton {
+    border-color: rgba(42, 56, 102, 0.5);
+    box-shadow: 0 0 5px rgba(42, 56, 102, 0.5) inset; }
+  .RadWizard_Web20 .rwzFocused.rwzNext {
+    border-color: rgba(42, 56, 102, 0.5);
+    box-shadow: 0 0 5px rgba(42, 56, 102, 0.5) inset; }
+  .RadWizard_Web20 .rwzHovered.rwzButton,
+  .RadWizard_Web20 .rwzHovered .rwzLink {
+    border-color: #2a5795;
+    color: #0f3789;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RadWizard_Web20 .rwzHovered.rwzNext,
+  .RadWizard_Web20 .rwzHovered.rwzFinish {
+    border-color: #85c843;
+    color: #333333;
+    background-color: #d4ffbc;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+  .RadWizard_Web20 .rwzHovered .rwzLink:before {
+    border-color: #2a5795;
+    background-image: linear-gradient(135deg, #dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset -1px 1px 0 1px rgba(255, 255, 255, 0.12), 2px -2px 2px rgba(0, 0, 0, 0.1); }
+    @media screen\0 {
+      .RadWizard_Web20 .rwzHovered .rwzLink:before {
+        background-color: #cddcf1; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Web20 .rwzHovered .rwzLink:before {
+        background-color: transparent; } }
+  .RadWizard_Web20 .rwzButton:active {
+    border-color: #2a3866;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+  .RadWizard_Web20 .rwzNext:active,
+  .RadWizard_Web20 .rwzFinish:active {
+    border-color: #73b334;
+    color: #333333;
+    background-color: #85c843;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.2));
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+  .RadWizard_Web20 .rwzSelected .rwzLink {
+    border-color: #2a3866;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+  .RadWizard_Web20 .rwzSelected .rwzLink:before {
+    border-color: #2a3866;
+    background-image: linear-gradient(135deg, #8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset -1px 1px 0 1px rgba(255, 255, 255, 0.8), 2px -2px 2px rgba(0, 0, 0, 0.1); }
+    @media screen\0 {
+      .RadWizard_Web20 .rwzSelected .rwzLink:before {
+        background-color: #687dc1; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Web20 .rwzSelected .rwzLink:before {
+        background-color: transparent; } }
+
+.RadWizard_Web20.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadWizard_Web20.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Web20.rwzHorizontal .rwzFirst.rwzLast .rwzLink {
+  border-radius: 3px; }
+
+.RadWizard_Web20.rwzHorizontal .rwzProgressBar {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Web20.rwzHorizontal .rwzProgress {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Web20.rwzVertical .rwzFirst .rwzLink {
+  border-radius: 0.25em 0.25em 0em 0em; }
+
+.RadWizard_Web20.rwzVertical .rwzLast .rwzLink {
+  border-radius: 0em 0em 0.25em 0.25em; }
+
+.RadWizard_Web20.rwzVertical .rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Web20.rwzVertical .rwzProgressBar {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Web20.rwzVertical .rwzProgress {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Web20.rwzRightBreadCrumb .rwzHovered .rwzLink:before,
+.RadWizard_Web20.RadWizard_rtl .rwzHovered .rwzLink:before {
+  box-shadow: inset 1px -1px 0 1px rgba(255, 255, 255, 0.12), -2px 2px 2px rgba(0, 0, 0, 0.1); }
+
+.RadWizard_Web20.rwzRightBreadCrumb .rwzSelected .rwzLink:before,
+.RadWizard_Web20.RadWizard_rtl .rwzSelected .rwzLink:before {
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.1), inset 1px -1px 0 0.5px rgba(255, 255, 255, 0.8); }
+
+.RadWizard_Web20.rwzRightBreadCrumb .rwzFirst .rwzLink,
+.RadWizard_Web20.RadWizard_rtl.rwzVertical .rwzFirst .rwzLink {
+  border-top-right-radius: 3px; }
+
+.RadWizard_Web20.rwzRightBreadCrumb .rwzLast .rwzLink,
+.RadWizard_Web20.RadWizard_rtl.rwzVertical .rwzLast .rwzLink {
+  border-bottom-right-radius: 3px; }
+
+.RadWizard_Web20.rwzRightBreadCrumb .rwzSelected .rwzLink,
+.RadWizard_Web20.RadWizard_rtl.rwzVertical .rwzSelected .rwzLink {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.RadWizard_Web20.RadWizard_rtl.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Web20.RadWizard_rtl.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+

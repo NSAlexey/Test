@@ -1,0 +1,78 @@
+.RadDataPager_Material {
+  color: #455A64;
+  padding: 5px 15px 0;
+  border: 1px solid #CFD8DC;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadDataPager_Material .rgIcon:before {
+    font-family: "WebComponentsIcons"; }
+  .RadDataPager_Material .rtlIcon:before {
+    font-size: 18px; }
+  .RadDataPager_Material .rdpWrap {
+    padding: 0; }
+  .RadDataPager_Material .rdpNumPart a {
+    color: #ffffff; }
+  .RadDataPager_Material .rdpPagerButton {
+    border: 0 none;
+    background-color: #f4f7f8;
+    color: #455A64;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+  .RadDataPager_Material .rdpActionButton {
+    border-radius: 90px; }
+    .RadDataPager_Material .rdpActionButton:hover {
+      border-color: #ECEFF1;
+      color: #455A64;
+      background-color: #ECEFF1; }
+  .RadDataPager_Material .rdpNumPart a,
+  .RadDataPager_Material .rdpNumPart a:before,
+  .RadDataPager_Material .rdpActionButton {
+    margin: 0;
+    width: 1.42857em;
+    height: 1.42857em;
+    content: "";
+    position: relative;
+    z-index: 1; }
+  .RadDataPager_Material .rdpNumPart a {
+    height: calc(1.42857em + 5px); }
+  .RadDataPager_Material .rdpNumPart a {
+    color: #455A64;
+    text-align: center;
+    border-width: 0 0 2px;
+    border-bottom: 2px solid transparent; }
+    .RadDataPager_Material .rdpNumPart a:not(.rdpCurrentPage):hover:before {
+      border-color: #ECEFF1;
+      color: #455A64;
+      background-color: #ECEFF1;
+      border-radius: 90px;
+      padding: 6px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1; }
+    .RadDataPager_Material .rdpNumPart a.rdpCurrentPage {
+      border-color: #8BC34A;
+      color: #8BC34A;
+      border-radius: 0; }
+  .RadDataPager_Material .rdpInfoPart,
+  .RadDataPager_Material .rdpPagerLabel {
+    font-size: .857em;
+    color: #607D8B;
+    font-weight: 500;
+    line-height: 1.66666667;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+    .RadDataPager_Material .rdpInfoPart strong,
+    .RadDataPager_Material .rdpPagerLabel strong {
+      font-weight: 500;
+      font-size: 1.167em;
+      line-height: 1.42857143;
+      color: #455A64; }
+  .RadDataPager_Material .RadInput,
+  .RadDataPager_Material .RadComboBox {
+    min-width: 90px; }
+  .RadDataPager_Material .rdpActionButton {
+    box-sizing: content-box; }
+  .RadDataPager_Material .rdpPagerButton {
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: #f4f7f8; }
+

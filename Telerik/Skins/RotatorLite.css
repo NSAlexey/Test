@@ -1,0 +1,101 @@
+.RadRotator {
+  visibility: hidden;
+  line-height: 1.42857143; }
+  .RadRotator,
+  .RadRotator * {
+    box-sizing: content-box; }
+  .RadRotator .rrLoadingSign {
+    background-repeat: no-repeat;
+    background-position: center; }
+  .RadRotator .rrRelativeWrapper {
+    overflow: hidden;
+    position: relative;
+    margin: 0 !important; }
+  .RadRotator .rrClipRegion {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    border-width: 1px;
+    border-style: solid; }
+    .RadRotator .rrClipRegion .rrItemsList {
+      float: left;
+      padding: 0;
+      margin: 0;
+      list-style: none !important; }
+    .RadRotator .rrClipRegion .rrItemsList .rrItem {
+      float: left; }
+  .RadRotator.rrTouchEnabled .rrClipRegion {
+    overflow: scroll !important;
+    -webkit-overflow-scrolling: touch; }
+  .RadRotator.rrTouchEnabled .rrClipRegion .rrItem {
+    overflow: hidden; }
+  .RadRotator ul.rrVerticalList {
+    padding: 0;
+    margin: 0;
+    list-style: none !important; }
+  .RadRotator .rrVerticalList.rrItemsList li.rrItem {
+    float: none;
+    margin-bottom: 0;
+    overflow: hidden;
+    display: block; }
+  .RadRotator .rrButton {
+    text-indent: -9999px;
+    color: transparent;
+    position: absolute;
+    padding: 4px;
+    width: 1.42857143em;
+    height: 1.42857143em;
+    line-height: 1.42857143em;
+    display: none;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    overflow: hidden; }
+  .RadRotator .rrButton:hover {
+    opacity: 1; }
+  .RadRotator .rrButton:hover,
+  .RadRotator .rrButton:focus,
+  .RadRotator .rrButton:active {
+    text-decoration: none; }
+  .RadRotator .rrButtonUp {
+    top: 0;
+    left: 50%;
+    margin-left: -0.71428571em;
+    border-radius: 0.14285714em 0.14285714em 0em 0em; }
+  .RadRotator .rrButtonRight {
+    margin-top: -0.71428571em;
+    right: 0.07142857em;
+    top: 50%;
+    border-radius: 0em 0.14285714em 0.14285714em 0em; }
+  .RadRotator .rrButtonDown {
+    bottom: 0.07142857em;
+    left: 50%;
+    margin-left: -0.71428571em;
+    margin-top: 0.07142857em;
+    border-radius: 0em 0em 0.14285714em 0.14285714em; }
+  .RadRotator .rrButtonLeft {
+    margin-top: -0.71428571em;
+    left: 0;
+    top: 50%;
+    border-radius: 0.14285714em 0em 0em 0.14285714em; }
+  .RadRotator a.rrButton.rrButtonDisabled {
+    opacity: .5;
+    box-shadow: none; }
+  .RadRotator .rrButton:before {
+    display: block;
+    margin: -.5em 0 0 -.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 1;
+    text-indent: 0;
+    overflow: hidden;
+    text-align: center; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .RadRotator .rrRelativeWrapper::-webkit-scrollbar {
+      width: 1.14285714em;
+      height: 1.14285714em; } }
+  .RadRotator.rrNoBorder .rrClipRegion {
+    border-width: 0 !important; }
+

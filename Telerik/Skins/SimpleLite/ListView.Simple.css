@@ -1,0 +1,24 @@
+.RadListView_Simple {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadListView_Simple .rlvHeader th {
+    border-color: #c4c4c4;
+    color: #000000;
+    background-color: #eaeaea; }
+  .RadListView_Simple .rlvI {
+    border-color: #cccccc; }
+  .RadListView_Simple .rlvA {
+    background: #f2f2f2;
+    border-color: #cccccc; }
+  .RadListView_Simple .rlvISel {
+    background: #ffe79c;
+    color: #000000;
+    border-color: #ffe79c; }
+  .RadListView_Simple .rlvDrag {
+    background-image: url('../Simple/ListView/drag.gif'); }
+  .RadListView_Simple .rlvInput {
+    border-color: #7c7c7c;
+    color: #333333;
+    background-color: #ffffff; }
+

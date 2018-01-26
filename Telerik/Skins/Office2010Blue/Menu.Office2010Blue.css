@@ -1,0 +1,434 @@
+/* <RadMenu / Office2010Blue> */
+.RadMenu_Office2010Blue a.rmLink,
+.RadMenu_Office2010Blue .rmText,
+.RadMenu_Office2010Blue .rmLeftArrow,
+.RadMenu_Office2010Blue .rmRightArrow,
+.RadMenu_Office2010Blue .rmTopArrow,
+.RadMenu_Office2010Blue .rmBottomArrow {
+  background-image: url('Menu/rmSprite.png');
+  background-color: transparent; }
+
+.RadMenu_Office2010Blue .rmRootGroup {
+  border: 1px solid #b8c9db;
+  background-repeat: repeat-x;
+  background-position: 0 -408px;
+  background-color: #eff6fd; }
+
+/* <Root items> */
+.RadMenu_Office2010Blue,
+.RadMenu_Office2010Blue a.rmLink {
+  font: normal 12px/23px "Segoe UI", Arial, sans-serif;
+  color: #384e73;
+  text-decoration: none; }
+
+.RadMenu_Office2010Blue a.rmLink,
+.RadMenu_Office2010Blue .rmText {
+  background-position: 0 1050px;
+  background-repeat: no-repeat; }
+
+.RadMenu_Office2010Blue a.rmLink:hover,
+.RadMenu_Office2010Blue a.rmFocused,
+.RadMenu_Office2010Blue a.rmSelected {
+  color: #1e395b;
+  background-position: 0 -72px; }
+
+.RadMenu_Office2010Blue a.rmLink:hover .rmText,
+.RadMenu_Office2010Blue a.rmFocused .rmText,
+.RadMenu_Office2010Blue a.rmSelected .rmText {
+  background-position: 100% -96px; }
+
+.RadMenu_Office2010Blue a.rmExpanded,
+.RadMenu_Office2010Blue a.rmExpanded:hover {
+  color: #1e395b;
+  background-position: 0 -120px; }
+
+.RadMenu_Office2010Blue a.rmExpanded .rmText,
+.RadMenu_Office2010Blue a.rmExpanded:hover .rmText {
+  background-position: 100% -144px; }
+
+.RadMenu_Office2010Blue a.rmDisabled,
+.RadMenu_Office2010Blue a.rmDisabled:hover {
+  color: #8ba0bc;
+  background: none; }
+
+.RadMenu_Office2010Blue a.rmDisabled .rmText,
+.RadMenu_Office2010Blue a.rmDisabled:hover .rmText {
+  background: none; }
+
+/* </Root items> */
+/* <Submenu items> */
+.RadMenu_Office2010Blue .rmGroup,
+.RadMenu_Office2010Blue .rmMultiColumn,
+.RadMenu_Office2010Blue .rmGroup .rmVertical {
+  border: 1px solid #a7abb0;
+  background: #fff url('Menu/rmVSprite.png') repeat-y -1px 0; }
+
+.RadMenu_Office2010Blue .rmPopup {
+  background: url('Menu/rmVSprite.png') repeat-y -1px 0; }
+
+.RadMenu_Office2010Blue .rmContentTemplate {
+  background: #fff; }
+
+.RadMenu_Office2010Blue .rmTopFix,
+.RadMenu_Office2010Blue .rmBottomFix,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmGroup .rmItem,
+.RadMenu_Office2010Blue .rmRoundedCorners li.rmFirstGroupColumn .rmItem,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmFirstGroupColumn li.rmFirstGroupColumn .rmItem,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmGroup .rmItem {
+  background-image: url('Menu/rmVSprite.png');
+  background-color: #fff;
+  background-repeat: repeat-y;
+  background-position: -2px 0; }
+
+.RadMenu_Office2010Blue li.rmTopFix,
+.RadMenu_Office2010Blue li.rmBottomFix {
+  background-position: -5px 0; }
+
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmGroupColumn .rmItem,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmGroupColumn .rmGroupColumn .rmItem,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrap .rmVertical,
+.RadMenu_Office2010Blue_Context .rmHorizontal.rmGroup,
+.RadMenu_Office2010Blue_Context .rmHorizontal .rmGroup,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer .rmGroup,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmHorizontal .rmItem,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrap .rmVertical {
+  background-image: none; }
+
+.RadMenu_Office2010Blue .rmScrollWrap {
+  margin-bottom: -1px; }
+
+.RadMenu_Office2010Blue .rmRoundedCorners .rmGroupColumn {
+  background-color: #fff; }
+
+.RadMenu_Office2010Blue .rmBottomLeft,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners ul.rmGroup,
+.RadMenu_Office2010Blue .rmRoundedCorners ul.rmGroup,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmMultiColumn,
+.RadMenu_Office2010Blue .rmPopup .rmBottomLeft {
+  background-image: url('Menu/rmRoundedLeft.png');
+  background-color: transparent;
+  background-repeat: no-repeat; }
+
+.RadMenu_Office2010Blue .rmTopRight,
+.RadMenu_Office2010Blue .rmBottomRight {
+  background-image: url('Menu/rmRoundedRight.png');
+  background-color: transparent;
+  background-repeat: no-repeat; }
+
+.RadMenu_Office2010Blue .rmTopFix,
+.RadMenu_Office2010Blue .rmBottomFix,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmGroup .rmFirst,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmGroup .rmFirst,
+.rmRoundedCorners_Office2007 .rmGroup .rmFirst {
+  border-color: #a7abb0; }
+
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer .rmBottomFix,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopFix,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomFix {
+  background: #FFF; }
+
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer .rmRightArrow,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer .rmLeftArrow,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer .rmRightArrow {
+  background-color: #FFF;
+  border: 0; }
+
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer .rmTopArrow,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer .rmBottomArrow {
+  background-color: #FFF; }
+
+.RadMenu_Office2010Blue .rmSlide .rmScrollWrap {
+  background-image: none; }
+
+.RadMenu_Office2010Blue_rtl .rmGroup,
+.RadMenu_Office2010Blue_rtl .rmMultiColumn,
+.RadMenu_Office2010Blue_rtl .rmGroup .rmVertical {
+  background-position: 101% 0; }
+
+.RadMenu_Office2010Blue .rmRootGroup .rmHorizontal {
+  background-image: none; }
+
+.RadMenu_Office2010Blue .rmScrollWrap .rmVertical {
+  border: 0; }
+
+.RadMenu_Office2010Blue .rmGroup .rmFirst,
+.RadMenu_Office2010Blue .rmGroup .rmLast {
+  background: none; }
+
+.RadMenu_Office2010Blue .rmGroup .rmLast {
+  padding-bottom: 1px; }
+
+.RadMenu_Office2010Blue .rmGroup a.rmLink:hover,
+.RadMenu_Office2010Blue .rmGroup a.rmFocused,
+.RadMenu_Office2010Blue .rmGroup a.rmSelected,
+.RadMenu_Office2010Blue .rmGroup a.rmExpanded {
+  background-position: 0 -168px; }
+
+.RadMenu_Office2010Blue .rmGroup a.rmLink:hover .rmText,
+.RadMenu_Office2010Blue .rmGroup a.rmFocused .rmText,
+.RadMenu_Office2010Blue .rmGroup a.rmSelected .rmText,
+.RadMenu_Office2010Blue .rmGroup a.rmExpanded .rmText {
+  background-position: 100% -192px; }
+
+/* <expand arrows> */
+.RadMenu_Office2010Blue .rmVertical .rmExpandRight,
+.RadMenu_Office2010Blue_Context .rmGroup .rmExpandRight,
+.RadMenu_Office2010Blue .rmGroup .rmExpandDown {
+  background-position: 100% -216px; }
+
+.RadMenu_Office2010Blue .rmVertical a.rmLink.rmRootLink:hover .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmRootLink.rmSelected .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmRootLink.rmExpanded .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmLink.rmRootLink:hover .rmExpandLeft,
+.RadMenu_Office2010Blue .rmVertical a.rmRootLink.rmSelected .rmExpandLeft,
+.RadMenu_Office2010Blue .rmVertical a.rmRootLink.rmExpanded .rmExpandLeft {
+  background-image: url('Menu/rmRootExpand.png');
+  background-position: 100% -2px; }
+
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmLink.rmRootLink:hover .rmExpandLeft {
+  background-position: 0 -2px; }
+
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmLink.rmRootLink.rmSelected .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmLink.rmRootLink.rmExpanded .rmExpandLeft {
+  background-position: 0 -29px; }
+
+.RadMenu_Office2010Blue .rmVertical a.rmLink.rmExpanded.rmRootLink .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmLink.rmExpanded.rmRootLink:hover .rmExpandRight {
+  background-position: 100% -29px; }
+
+.RadMenu_Office2010Blue .rmVertical a.rmLink:hover .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmFocused .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmExpanded .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmSelected .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmLink:hover .rmExpandLeft,
+.RadMenu_Office2010Blue .rmVertical a.rmFocused .rmExpandLeft,
+.RadMenu_Office2010Blue .rmVertical a.rmExpanded .rmExpandLeft,
+.RadMenu_Office2010Blue .rmVertical a.rmSelected .rmExpandLeft {
+  background-image: url('Menu/rmSprite.png'); }
+
+.RadMenu_Office2010Blue .rmVertical a.rmLink:hover .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmSelected .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmFocused .rmExpandRight {
+  background-position: 100% -240px; }
+
+.RadMenu_Office2010Blue .rmVertical a.rmExpanded .rmExpandRight,
+.RadMenu_Office2010Blue .rmVertical a.rmExpanded:hover .rmExpandRight {
+  background-position: 100% -144px; }
+
+.RadMenu_Office2010Blue .rmGroup a.rmLink:hover .rmExpandRight,
+.RadMenu_Office2010Blue .rmGroup a.rmFocused .rmExpandRight,
+.RadMenu_Office2010Blue .rmGroup a.rmSelected .rmExpandRight,
+.RadMenu_Office2010Blue .rmGroup a.rmExpanded .rmExpandRight,
+.RadMenu_Office2010Blue .rmGroup a.rmLink:hover .rmExpandDown,
+.RadMenu_Office2010Blue .rmGroup a.rmFocused .rmExpandDown,
+.RadMenu_Office2010Blue .rmGroup a.rmSelected .rmExpandDown,
+.RadMenu_Office2010Blue .rmGroup a.rmExpanded .rmExpandDown {
+  background-image: url('Menu/rmSprite.png');
+  background-position: 100% -240px; }
+
+.RadMenu_Office2010Blue .rmRootGroup a.rmDisabled:hover .rmExpandRight,
+.RadMenu_Office2010Blue_Context .rmGroup a.rmDisabled:hover .rmExpandRight,
+.RadMenu_Office2010Blue_Context .rmGroup a.rmDisabled:hover .rmExpandLeft,
+.RadMenu_Office2010Blue .rmVertical .rmDisabled.rmLink.rmRootLink:hover .rmExpandRight {
+  background-image: url('Menu/rmSprite.png');
+  background-position: 100% -216px; }
+
+.RadMenu_Office2010Blue .rmVertical .rmDisabled.rmLink.rmRootLink:hover .rmExpandLeft {
+  background-image: url('Menu/rmSprite.png');
+  background-position: 0 -312px; }
+
+/* </expand arrows> */
+/* </Submenu items> */
+/* <Submenu offsets (Office2007 - specific, overlapping submenus)> */
+.RadMenu_Office2010Blue .rmSlide {
+  margin-top: -1px; }
+
+/* </Submenu offsets> */
+/* <Scrolling arrows> */
+.RadMenu_Office2010Blue .rmLeftArrow,
+.RadMenu_Office2010Blue .rmRightArrow {
+  background-color: #ffffff; }
+
+/* </Submenu offsets> */
+/* <Scrolling arrows> */
+.RadMenu_Office2010Blue .rmLeftArrow,
+.RadMenu_Office2010Blue .rmRightArrow {
+  background-color: #f3f5f6; }
+
+.RadMenu_Office2010Blue .rmLeftArrow {
+  background-position: -8px -312px;
+  border-right: 1px solid #a7abb0; }
+
+.RadMenu_Office2010Blue .rmRightArrow {
+  background-position: -482px -216px;
+  border-left: 1px solid #a7abb0; }
+
+.RadMenu_Office2010Blue .rmTopArrow,
+.RadMenu_Office2010Blue .rmBottomArrow,
+.RadMenu_Office2010Blue .rmGroup .rmLeftArrow,
+.RadMenu_Office2010Blue .rmGroup .rmRightArrow {
+  background-color: #ffffff; }
+
+.RadMenu_Office2010Blue .rmTopArrow {
+  background-position: 50% -367px;
+  border-bottom: 1px solid #dcdcdc; }
+
+.RadMenu_Office2010Blue .rmBottomArrow {
+  background-position: 50% -391px;
+  border-top: 1px solid #dcdcdc; }
+
+/* </Scrolling arrows> */
+/* <Separators> */
+.RadMenu_Office2010Blue .rmSeparator .rmText {
+  border-color: #b8c9db #fff #fff #b8c9db; }
+
+.RadMenu_Office2010Blue .rmGroup .rmSeparator .rmText {
+  border-style: dashed;
+  border-color: #c7c8c9 #fff #fff #c7c8c9; }
+
+/* </Separators> */
+/* </RadMenu / Office2007> */
+.RadMenu_Office2010Blue .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandTop,
+.RadMenu_Office2010Blue .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandDown,
+.RadMenu_Office2010Blue .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandLeft,
+.RadMenu_Office2010Blue .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandRight {
+  padding-right: 24px; }
+
+.RadMenu_Office2010Blue .rmHorizontal .rmRootLink .rmToggle {
+  margin-left: -24px; }
+
+.RadMenu_Office2010Blue .rmHorizontal .rmRootLink .rmIcon {
+  background-image: url('Menu/rmSprite.png');
+  background-position: 50% -388px; }
+  @media screen\9 {
+    .RadMenu_Office2010Blue .rmHorizontal .rmRootLink .rmIcon {
+      background-position: -243px -388px; } }
+
+/* <rtl> */
+.RadMenu_Office2010Blue_rtl .rmBottomLeft,
+.RadMenu_Office2010Blue_rtl .rmRoundedCorners ul.rmGroup,
+.RadMenu_Office2010Blue_rtl .rmRoundedCorners .rmMultiColumn,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Office2010Blue .rmScrollWrapContainer .rmBottomLeft,
+.rmRoundedCorners.RadMenu_Office2010Blue_Context_rtl ul.rmGroup,
+.RadMenu_Office2010Blue_Context.rmRoundedCorners .rmScrollWrapContainer,
+.RadMenu_Office2010Blue .rmRoundedCorners .rmPopup {
+  background-image: url('Menu/rmRoundedLeft_rtl.png');
+  background-repeat: no-repeat; }
+
+.RadMenu_Office2010Blue_rtl .rmTopRight,
+.RadMenu_Office2010Blue_rtl .rmBottomRight {
+  background-image: url('Menu/rmRoundedRight_rtl.png'); }
+
+.RadMenu_Office2010Blue_rtl .rmContentTemplate .rmTopRight,
+.RadMenu_Office2010Blue_rtl .rmContentTemplate .rmBottomRight {
+  background-image: url('Menu/rmRoundedRight.png'); }
+
+.RadMenu_Office2010Blue_rtl li.rmTopFix,
+.RadMenu_Office2010Blue_rtl li.rmBottomFix,
+.RadMenu_Office2010Blue_rtl .rmRoundedCorners .rmGroup .rmItem,
+.rmRoundedCorners.RadMenu_Office2010Blue_Context_rtl .rmGroup .rmItem {
+  background-position: 101% 0; }
+
+.RadMenu_Office2010Blue_rtl a.rmLink:hover,
+.RadMenu_Office2010Blue_rtl a.rmFocused,
+.RadMenu_Office2010Blue_rtl a.rmSelected {
+  background-position: 100% -96px; }
+
+.RadMenu_Office2010Blue_rtl .rmHorizontal .rmLink.rmRootLink.rmSelected,
+.RadMenu_Office2010Blue_rtl .rmHorizontal .rmLink.rmRootLink.rmExpanded {
+  background-position: 100% -144px; }
+
+.RadMenu_Office2010Blue_rtl a.rmLink:hover .rmText,
+.RadMenu_Office2010Blue_rtl a.rmFocused .rmText,
+.RadMenu_Office2010Blue_rtl a.rmSelected .rmText {
+  background-position: 0 -72px; }
+
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmLink:hover,
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmFocused,
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmSelected,
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmExpanded {
+  background-position: 100% -96px; }
+
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmLink.rmRootLink.rmSelected,
+.RadMenu_Office2010Blue_rtl .rmVertical a.rmLink.rmRootLink.rmExpanded {
+  background-position: 100% -144px; }
+
+.RadMenu_Office2010Blue_rtl .rmRootLink.rmSelected .rmText,
+.RadMenu_Office2010Blue_rtl .rmRootLink.rmSelected:hover .rmText,
+.RadMenu_Office2010Blue_rtl .rmRootLink.rmExpanded .rmText,
+.RadMenu_Office2010Blue_rtl .rmRootLink.rmExpanded:hover .rmText {
+  background-position: 0 -120px; }
+
+.RadMenu_Office2010Blue_rtl a.rmLink:hover .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl a.rmSelected .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl a.rmFocused .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl a.rmExpanded .rmExpandLeft {
+  background-position: 0 -336px; }
+
+.RadMenu_Office2010Blue_rtl .rmRootGroup .rmGroup a.rmLink:hover,
+.RadMenu_Office2010Blue_rtl .rmRootGroup .rmGroup a.rmFocused,
+.RadMenu_Office2010Blue_rtl .rmRootGroup .rmGroup a.rmSelected,
+.RadMenu_Office2010Blue_rtl .rmRootGroup .rmGroup a.rmExpanded {
+  background-position: 100% -264px; }
+
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmLink:hover .rmText,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmFocused .rmText,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmSelected .rmText,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmExpanded .rmText {
+  background-position: 0 -288px; }
+
+.RadMenu_Office2010Blue_Context_rtl .rmVertical .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmRootGroup .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmGroup .rmExpandDown {
+  background-position: 0 -312px; }
+
+.RadMenu_Office2010Blue_rtl .rmItem .rmLink.rmRootLink,
+.RadMenu_Office2010Blue_rtl .rmGroup.rmVertical .rmLink,
+.RadMenu_Office2010Blue_rtl .rmGroup .rmVertical .rmLink {
+  margin-left: 3px; }
+
+.RadMenu_Office2010Blue_rtl .rmItem .rmText {
+  margin-left: -3px; }
+
+.RadMenu_Office2010Blue_rtl .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandTop,
+.RadMenu_Office2010Blue_rtl .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandDown,
+.RadMenu_Office2010Blue_rtl .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmToggleHandles.rmHorizontal .rmRootLink .rmExpandRight {
+  padding-right: 0px;
+  padding-left: 24px; }
+
+.RadMenu_Office2007_rtl .rmHorizontal .rmRootLink .rmToggle {
+  margin-right: -24px;
+  margin-left: -1px; }
+
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmLink:hover .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmFocused .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmSelected .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmExpanded .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmLink:hover .rmExpandDown,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmFocused .rmExpandDown,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmSelected .rmExpandDown,
+.RadMenu_Office2010Blue_rtl .rmGroup a.rmExpanded .rmExpandDown {
+  background-image: url('Menu/rmSprite.png');
+  background-position: 0 -336px; }
+
+.RadMenu_Office2010Blue_Context_rtl .rmGroup a.rmDisabled:hover .rmExpandLeft,
+.RadMenu_Office2010Blue_rtl .rmRootGroup a.rmDisabled:hover .rmExpandLeft {
+  background-image: url('Menu/rmSprite.png');
+  background-position: 0 -312px; }
+
+.RadMenu_Office2010Blue_rtl .rmHorizontal .rmRootLink .rmToggle {
+  margin-right: -24px;
+  margin-left: -1px; }
+
+/* </rtl> */
+

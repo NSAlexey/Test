@@ -1,0 +1,23 @@
+.RadToolTip_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadToolTip_MetroTouch .rtClose {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadToolTip_MetroTouch .rtClose:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadToolTip_MetroTouch .rtClose:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadToolTip_MetroTouch .rtCallout {
+    border-color: #e6e6e6; }
+  .RadToolTip_MetroTouch .rtCallout:before {
+    border-color: #ffffff; }
+  .RadToolTip_MetroTouch.rtLoading {
+    background-image: url('../MetroTouch/Common/loading.gif'); }
+

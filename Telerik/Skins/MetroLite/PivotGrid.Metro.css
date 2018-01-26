@@ -1,0 +1,123 @@
+.RadPivotGrid_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadPivotGrid_Metro th,
+  .RadPivotGrid_Metro td,
+  .RadPivotGrid_Metro .rpgOuterTableWrapper,
+  .RadPivotGrid_Metro .rpgContentZoneDiv td {
+    border-color: #e6e6e6; }
+  .RadPivotGrid_Metro .rpgIcon {
+    color: #000000; }
+  .RadPivotGrid_Metro .rpgPagerCell .rpgIcon:before {
+    display: block; }
+  .RadPivotGrid_Metro input {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadPivotGrid_Metro .rpgFilterZone,
+  .RadPivotGrid_Metro .rpgRowsZone,
+  .RadPivotGrid_Metro .rpgColumnsZone,
+  .RadPivotGrid_Metro .rpgDataZone,
+  .RadPivotGrid_Metro .rpgColumnHeader,
+  .RadPivotGrid_Metro .rpgColumnHeaderTotal,
+  .RadPivotGrid_Metro .rpgColumnHeaderGrandTotal,
+  .RadPivotGrid_Metro .rpgContentZoneDiv th,
+  .RadPivotGrid_Metro .rpgRowHeader,
+  .RadPivotGrid_Metro .rpgRowHeaderGrandTotal {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadPivotGrid_Metro .rpgColumnTotalDataCell,
+  .RadPivotGrid_Metro .rpgRowGrandTotalDataCell,
+  .RadPivotGrid_Metro .rpgColumnGrandTotalDataCell,
+  .RadPivotGrid_Metro .rpgRowTotalDataCell {
+    background-color: #f2f2f2; }
+  .RadPivotGrid_Metro .rpgRowHeaderTotal,
+  .RadPivotGrid_Metro .rpgRowTotalDataCell.rpgColumnTotalDataCell {
+    background-color: #e6e6e6; }
+  .RadPivotGrid_Metro .rpgColumnHeader {
+    vertical-align: middle; }
+  .RadPivotGrid_Metro .rpgFieldsPopupWrapper {
+    background: #ffffff; }
+  .RadPivotGrid_Metro .rpgFieldItem > a:first-of-type {
+    color: #000000; }
+  .RadPivotGrid_Metro .rpgFieldItem,
+  .RadPivotGrid_Metro .rpgUpdateButton {
+    border: 1px solid #e0e0e0;
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+    .RadPivotGrid_Metro .rpgFieldItem:hover,
+    .RadPivotGrid_Metro .rpgUpdateButton:hover {
+      border-color: #cecece;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadPivotGrid_Metro .rpgFieldItem:disabled:hover,
+    .RadPivotGrid_Metro .rpgUpdateButton:disabled:hover {
+      border-color: #e0e0e0;
+      color: #000000;
+      background-color: #f9f9f9; }
+  .RadPivotGrid_Metro .rpgConfigurationPanel {
+    background: #ffffff; }
+  .RadPivotGrid_Metro .rpgFieldsContainer {
+    border: 1px solid #e6e6e6; }
+  .RadPivotGrid_Metro .rpgPagerCell {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+    .RadPivotGrid_Metro .rpgPagerCell .rpgNumPart a {
+      color: inherit; }
+      .RadPivotGrid_Metro .rpgPagerCell .rpgNumPart a:hover {
+        border-color: #cecece;
+        color: #000000;
+        background-color: #e7e7e7; }
+      .RadPivotGrid_Metro .rpgPagerCell .rpgNumPart a.rpgCurrentPage {
+        border-color: #25a0da;
+        color: #25a0da;
+        background: none; }
+    .RadPivotGrid_Metro .rpgPagerCell .rpgPagerButton,
+    .RadPivotGrid_Metro .rpgPagerCell .rpgActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-color: #e0e0e0;
+      color: #000000;
+      background-color: #f9f9f9; }
+      .RadPivotGrid_Metro .rpgPagerCell .rpgPagerButton:hover,
+      .RadPivotGrid_Metro .rpgPagerCell .rpgActionButton:hover {
+        border-color: #cecece;
+        color: #000000;
+        background-color: #e7e7e7; }
+
+.PivotGridWindow_Metro .rpgFilterButtonOk,
+.PivotGridWindow_Metro .rpgFilterButtonCancel {
+  border: 1px solid;
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+  .PivotGridWindow_Metro .rpgFilterButtonOk:hover,
+  .PivotGridWindow_Metro .rpgFilterButtonCancel:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+
+.PivotGridWindow_Metro .rpgFilterWindowContainer .RadMenu .rmRootGroup.rmVertical {
+  float: left; }
+
+.PivotGridWindow_Metro .RadMenu_Metro {
+  background: none; }
+
+html .PivotGridContextMenu_Metro .rmVertical > .rmSeparator {
+  margin-left: 0; }
+
+.PivotGridContextMenu_Metro .rmLink:before {
+  min-width: 0; }
+
+.PivotGridToolTip_Metro {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  border-color: #e6e6e6;
+  color: #333333; }
+

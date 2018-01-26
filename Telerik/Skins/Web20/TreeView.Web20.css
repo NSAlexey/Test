@@ -1,0 +1,22 @@
+.RadTreeView_Web20 {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Web20 .rtHover .rtIn {
+    border-color: #b4d3ff;
+    color: #0f3789;
+    background-color: #e7f1ff; }
+  .RadTreeView_Web20 .rtSelected .rtIn {
+    border-color: #81c85a;
+    color: #0e4302;
+    background-color: #d4ffbc; }
+  .RadTreeView_Web20 .rtChecked,
+  .RadTreeView_Web20 .rtUnchecked,
+  .RadTreeView_Web20 .rtIndeterminate {
+    background-image: url('Common/radFormToggleSprite.png'); }
+  .RadTreeView_Web20 .rtLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+  .RadTreeView_Web20 .rtPlus,
+  .RadTreeView_Web20 .rtMinus {
+    background-image: url('TreeView/PlusMinus.png'); }
+

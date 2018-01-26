@@ -1,0 +1,26 @@
+.RadDataPager_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataPager_Metro .rdpPageFirst,
+  .RadDataPager_Metro .rdpPagePrev,
+  .RadDataPager_Metro .rdpPageNext,
+  .RadDataPager_Metro .rdpPageLast {
+    background-image: url('Grid/sprite.gif'); }
+  .RadDataPager_Metro .rdpPagerButton {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadDataPager_Metro .rdpNumPart a {
+    border: 1px solid transparent; }
+    .RadDataPager_Metro .rdpNumPart a:hover {
+      border-color: #cecece;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadDataPager_Metro .rdpNumPart a.rdpCurrentPage {
+      border-color: #25a0da;
+      color: #25a0da;
+      background: none; }
+

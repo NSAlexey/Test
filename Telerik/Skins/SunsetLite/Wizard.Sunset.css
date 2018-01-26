@@ -1,0 +1,156 @@
+.RadWizard_Sunset {
+  color: #272722;
+  background: #ffffff; }
+  .RadWizard_Sunset .rwzButton {
+    border-radius: 3px;
+    border-color: #938973;
+    color: #3d1400;
+    background-color: #ded7c6;
+    background-image: linear-gradient(#f1eadf, #ded7c6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .RadWizard_Sunset .rwzNext,
+  .RadWizard_Sunset .rwzFinish {
+    border-color: #a95518;
+    color: #ffffff;
+    background-color: #d66b1e;
+    background-image: linear-gradient(#e88d49, #d66b1e);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+  .RadWizard_Sunset .rwzLink {
+    border-color: #938973;
+    color: #3d1400;
+    background-color: #ded7c6;
+    background-image: linear-gradient(#f1eadf, #ded7c6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+    .RadWizard_Sunset .rwzLink:before {
+      border-color: #938973;
+      background-image: linear-gradient(135deg, #f1eadf, #ded7c6);
+      box-shadow: inset -1px 1px 0 rgba(255, 255, 255, 0.4), 2px -2px 2px rgba(0, 0, 0, 0.1); }
+      @media screen\0 {
+        .RadWizard_Sunset .rwzLink:before {
+          background-color: #ded7c6; } }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .RadWizard_Sunset .rwzLink:before {
+          background-color: transparent; } }
+  .RadWizard_Sunset .rwzProgressBar {
+    border-radius: 3px;
+    border-color: #cabaab;
+    background-color: #e1dac7; }
+  .RadWizard_Sunset .rwzProgress {
+    border-color: #e2803e;
+    background-color: #e28140; }
+  .RadWizard_Sunset .rwzFocused.rwzButton {
+    border-color: rgba(226, 113, 28, 0.5);
+    box-shadow: 0 0 5px rgba(226, 113, 28, 0.5) inset; }
+  .RadWizard_Sunset .rwzFocused.rwzNext {
+    border-color: #9e4f14;
+    box-shadow: 0 0 5px #9e4f14 inset; }
+  .RadWizard_Sunset .rwzHovered.rwzButton,
+  .RadWizard_Sunset .rwzHovered .rwzLink {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121;
+    background-image: linear-gradient(#faef93, #f1d121);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .RadWizard_Sunset .rwzHovered.rwzNext,
+  .RadWizard_Sunset .rwzHovered.rwzFinish {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121;
+    background-image: linear-gradient(#faef93, #f1d121);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .RadWizard_Sunset .rwzHovered .rwzLink:before {
+    border-color: #d2b40d;
+    background-image: linear-gradient(135deg, #faef93, #f1d121);
+    box-shadow: inset -1px 1px 0 rgba(255, 255, 255, 0.5), 2px -2px 2px rgba(0, 0, 0, 0.1); }
+    @media screen\0 {
+      .RadWizard_Sunset .rwzHovered .rwzLink:before {
+        background-color: #f1d121; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Sunset .rwzHovered .rwzLink:before {
+        background-color: transparent; } }
+  .RadWizard_Sunset .rwzButton:active {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+  .RadWizard_Sunset .rwzNext:active,
+  .RadWizard_Sunset .rwzFinish:active {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+  .RadWizard_Sunset .rwzSelected .rwzLink {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+  .RadWizard_Sunset .rwzSelected .rwzLink:before {
+    border-color: #e2711c;
+    background-image: linear-gradient(135deg, #f3bc8b, #e88d49);
+    box-shadow: inset -1px 1px 0 rgba(255, 255, 255, 0.2), 2px -2px 2px rgba(0, 0, 0, 0.1); }
+    @media screen\0 {
+      .RadWizard_Sunset .rwzSelected .rwzLink:before {
+        background-color: #e88d49; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Sunset .rwzSelected .rwzLink:before {
+        background-color: transparent; } }
+
+.RadWizard_Sunset.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadWizard_Sunset.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Sunset.rwzHorizontal .rwzFirst.rwzLast .rwzLink {
+  border-radius: 3px; }
+
+.RadWizard_Sunset.rwzHorizontal .rwzProgressBar {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Sunset.rwzHorizontal .rwzProgress {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Sunset.rwzVertical .rwzFirst .rwzLink {
+  border-radius: 0.25em 0.25em 0em 0em; }
+
+.RadWizard_Sunset.rwzVertical .rwzLast .rwzLink {
+  border-radius: 0em 0em 0.25em 0.25em; }
+
+.RadWizard_Sunset.rwzVertical .rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Sunset.rwzVertical .rwzProgressBar {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Sunset.rwzVertical .rwzProgress {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Sunset.rwzRightBreadCrumb .rwzHovered .rwzLink:before,
+.RadWizard_Sunset.rwzRightBreadCrumb .rwzSelected .rwzLink:before,
+.RadWizard_Sunset.RadWizard_rtl .rwzHovered .rwzLink:before,
+.RadWizard_Sunset.RadWizard_rtl .rwzSelected .rwzLink:before {
+  box-shadow: -1px 1px 0 rgba(255, 255, 255, 0.2), -2px 2px 2px rgba(0, 0, 0, 0.1); }
+
+.RadWizard_Sunset.rwzRightBreadCrumb .rwzFirst .rwzLink,
+.RadWizard_Sunset.RadWizard_rtl.rwzVertical .rwzFirst .rwzLink {
+  border-top-right-radius: 3px; }
+
+.RadWizard_Sunset.rwzRightBreadCrumb .rwzLast .rwzLink,
+.RadWizard_Sunset.RadWizard_rtl.rwzVertical .rwzLast .rwzLink {
+  border-bottom-right-radius: 3px; }
+
+.RadWizard_Sunset.rwzRightBreadCrumb .rwzSelected .rwzLink,
+.RadWizard_Sunset.RadWizard_rtl.rwzVertical .rwzSelected .rwzLink {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.RadWizard_Sunset.RadWizard_rtl.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Sunset.RadWizard_rtl.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+

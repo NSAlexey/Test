@@ -1,0 +1,212 @@
+.RadRibbonBar_Metro {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadRibbonBar_Metro .rrbWrap {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadRibbonBar_Metro .rrbTabs {
+    border-bottom: 3px solid #25a0da; }
+    .RadRibbonBar_Metro .rrbTabs .rrbItem {
+      bottom: 0; }
+      .RadRibbonBar_Metro .rrbTabs .rrbItem .rrbLink {
+        border-color: transparent;
+        color: #000000; }
+      .RadRibbonBar_Metro .rrbTabs .rrbItem.rrbSelected .rrbLink {
+        border-color: #25a0da;
+        color: #ffffff;
+        background-color: #25a0da; }
+  .RadRibbonBar_Metro .rrbApplicationItem {
+    bottom: 0; }
+    .RadRibbonBar_Metro .rrbApplicationItem .rrbLink {
+      color: #000000;
+      border-color: #e0e0e0;
+      background-color: #f9f9f9; }
+    .RadRibbonBar_Metro .rrbApplicationItem.rrbSelected .rrbHeaderBar {
+      border-color: #e6e6e6;
+      background: #f9f9f9; }
+    .RadRibbonBar_Metro .rrbApplicationItem.rrbSelected .rrbLink {
+      color: #ffffff;
+      border-color: #25a0da;
+      background-color: #25a0da; }
+  .RadRibbonBar_Metro .rrbContextualItem .rrbLabel {
+    color: #ffffff; }
+  .RadRibbonBar_Metro .rrbMenu .rrbHeader {
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadRibbonBar_Metro .rrbToolTip {
+    color: #000000;
+    border-color: #e0e0e0;
+    background-color: #f9f9f9; }
+  .RadRibbonBar_Metro .rrbCommandGroup {
+    border-color: #e0e0e0;
+    background-color: #f9f9f9; }
+  .RadRibbonBar_Metro .rrbCommandArea {
+    background-color: #f9f9f9; }
+  .RadRibbonBar_Metro .rrbResizeHandle {
+    background-position: -5px -885px; }
+  .RadRibbonBar_Metro .rrbTitle {
+    color: #000000;
+    background-color: #f9f9f9;
+    border-color: #e0e0e0; }
+  .RadRibbonBar_Metro .rrbCollapsedGroup {
+    border-color: #e6e6e6; }
+    .RadRibbonBar_Metro .rrbCollapsedGroup .rrbIcon {
+      border-color: #e0e0e0; }
+
+.RadRibbonBar_Metro .rrbButton, .RadRibbonBar_Metro .rrbButtonGroup .rrbButton, .RadRibbonBar_Metro .rrbComboBox .rrbButton,
+.RadRibbonBar_Metro .rrbDropDown .rrbButton,
+.RadRibbonBar_Metro .rrbNumericTextBox .rrbButton,
+.RadRibbonBar_Metro .rrbColorPicker .rrbButton, .RadRibbonBar_Metro .rrbDropDown .rrbDDInner, .RadRibbonBar_Metro .rrbColorPicker .rrbCPInner, .RadRibbonBar_Metro .rrbGalleryActions .rrbButton {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadRibbonBar_Metro .rrbQat .rrbButton, .RadRibbonBar_Metro .rrbButton {
+  border-color: transparent;
+  background: transparent; }
+
+.RadRibbonBar_Metro .rrbQat .rrbButton:hover, .RadRibbonBar_Metro .rrbButton:hover, .RadRibbonBar_Metro .rrbButton.rrbHovered, .RadRibbonBar_Metro .rrbButtonGroup .rrbButton:hover, .RadRibbonBar_Metro .rrbComboBox .rrbButton.rrbHovered,
+.RadRibbonBar_Metro .rrbDropDown .rrbButton.rrbHovered,
+.RadRibbonBar_Metro .rrbNumericTextBox .rrbButton.rrbHovered,
+.RadRibbonBar_Metro .rrbColorPicker .rrbButton.rrbHovered, .RadRibbonBar_Metro .rrbDropDown .rrbDDInner:hover, .RadRibbonBar_Metro .rrbColorPicker .rrbCPInner:hover, .RadRibbonBar_Metro .rrbGallery .rrbItem.rrbHovered, .RadRibbonBar_Metro .rrbGalleryActions .rrbButton.rrbHovered, .rrbSlide_Metro .rrbItem.rrbHovered {
+  border-color: #cecece;
+  color: #000000;
+  background-color: #e7e7e7; }
+
+.RadRibbonBar_Metro .rrbQat .rrbButton:active, .RadRibbonBar_Metro .rrbButton.rrbClicked, .RadRibbonBar_Metro .rrbButton.rrbPressed, .RadRibbonBar_Metro .rrbButton.rrbExpanded, .RadRibbonBar_Metro .rrbButton.rrbToggled, .RadRibbonBar_Metro .rrbButtonGroup .rrbButton:active, .RadRibbonBar_Metro .rrbButtonGroup .rrbButton.rrbClicked, .RadRibbonBar_Metro .rrbButtonGroup .rrbButton.rrbPressed, .RadRibbonBar_Metro .rrbComboBox .rrbButton.rrbClicked,
+.RadRibbonBar_Metro .rrbDropDown .rrbButton.rrbClicked,
+.RadRibbonBar_Metro .rrbNumericTextBox .rrbButton.rrbClicked,
+.RadRibbonBar_Metro .rrbColorPicker .rrbButton.rrbClicked, .RadRibbonBar_Metro .rrbDropDown .rrbDDInner:active, .RadRibbonBar_Metro .rrbColorPicker .rrbCPInner:active, .RadRibbonBar_Metro .rrbGallery .rrbItem.rrbSelected, .RadRibbonBar_Metro .rrbGalleryActions .rrbButton.rrbClicked, .rrbSlide_Metro .rrbItem.rrbSelected {
+  border-color: #25a0da;
+  color: #ffffff;
+  background-color: #25a0da; }
+
+.RadRibbonBar_Metro .rrbMenu, .rrbDropDownSlide_Metro .rrbPopup, .rrbSlide_Metro .rrbPopup, .rrbPopup_Metro, .rrbPopup_Metro .rrbPopup {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff; }
+
+/*%menu-item {
+	color: $list-item-text;
+	background-color: $list-item-bg;
+}*/
+.RadRibbonBar_Metro .rrbMenu .rrbItem.rrbHovered, .rrbPopup_Metro .rrbItem.rrbHovered > .rrbInner, .rrbPopup_Metro .rrbItem.rrbHovered > .rrbInner .rrbToggle, .rrbPopup_Metro .rrbItem.rrbExpanded > .rrbInner {
+  border-color: #e7e7e7;
+  color: #000000;
+  background-color: #e7e7e7; }
+
+.rrbPopup_Metro .rrbItem.rrbExpanded > .rrbInner .rrbToggle {
+  border-color: #25a0da;
+  color: #ffffff;
+  background-color: #25a0da; }
+
+.RadRibbonBar_Metro .rrbToggleHandle,
+.RadRibbonBar_Metro .rrbResizeHandle,
+.RadRibbonBar_Metro .rrbGroupLauncher,
+.RadRibbonBar_Metro .rrbGroupToggleIcon {
+  /*background-image: url($actions-sprite);*/ }
+
+.RadRibbonBar_Metro .rrbSplitButton:hover .rrbArrow {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9;
+  border-color: #cecece; }
+
+.RadRibbonBar_Metro .rrbSplitButton.rrbArrowHovered {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9;
+  border-color: #cecece; }
+  .RadRibbonBar_Metro .rrbSplitButton.rrbArrowHovered .rrbArrow {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+
+.RadRibbonBar_Metro .rrbSplitButton.rrbClicked .rrbArrow {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9;
+  border-color: #25a0da; }
+
+.RadRibbonBar_Metro .rrbSplitButton.rrbArrowHovered.rrbClicked {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9;
+  border-color: #25a0da; }
+  .RadRibbonBar_Metro .rrbSplitButton.rrbArrowHovered.rrbClicked .rrbArrow {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+
+.RadRibbonBar_Metro .rrbSplitButton.rrbExpanded, .RadRibbonBar_Metro .rrbSplitButton.rrbExpanded.rrbClicked {
+  border-color: #25a0da;
+  color: #ffffff;
+  background-color: #25a0da; }
+  .RadRibbonBar_Metro .rrbSplitButton.rrbExpanded .rrbArrow, .RadRibbonBar_Metro .rrbSplitButton.rrbExpanded.rrbClicked .rrbArrow {
+    border-color: #25a0da; }
+
+.RadRibbonBar_Metro .rrbComboBox .rrbCBInner {
+  border-color: #e0e0e0;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Metro .rrbComboBox .rrbCBInput {
+  color: #333333; }
+
+.RadRibbonBar_Metro .rrbDropDown .rrbButton,
+.RadRibbonBar_Metro .rrbDropDown .rrbButton.rrbHovered {
+  background: none; }
+
+.RadRibbonBar_Metro .rrbNumericTextBox .rrbNTBInner {
+  border-color: #e0e0e0;
+  background-color: #ffffff; }
+
+.RadRibbonBar_Metro .rrbNumericTextBox .rrbNTBInput {
+  color: #333333; }
+
+.RadRibbonBar_Metro .rrbColorPicker .rrbButton,
+.RadRibbonBar_Metro .rrbColorPicker .rrbButton.rrbHovered {
+  background: none; }
+
+.RadRibbonBar_Metro .rrbGallery {
+  border-color: #e6e6e6;
+  background-color: #ffffff; }
+  .RadRibbonBar_Metro .rrbGallery .rrbItem .rrbLink {
+    color: #333333;
+    background-color: #ffffff; }
+
+.RadRibbonBar_Metro .rrbCategoryTitle {
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.rrbDropDownSlide_Metro .rrbListItem:hover {
+  color: #000000;
+  background-color: #e7e7e7; }
+
+.rrbSlide_Metro .rrbCategoryTitle {
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.rrbSlide_Metro .rrbGallery {
+  background: #ffffff; }
+
+.rrbSlide_Metro .rrbLink {
+  color: #333333;
+  background-color: #ffffff; }
+
+.rrbPopup_Metro .rrbHeaderBar {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.rrbPopup_Metro .rrbAuxiliaryPane {
+  color: #000000;
+  border-color: #e6e6e6;
+  background: #f9f9f9; }
+
+.rrbPopup_Metro .rrbHeader,
+.rrbPopup_Metro .rrbFooter {
+  color: #000000;
+  border-color: #e0e0e0;
+  background: #f9f9f9; }
+

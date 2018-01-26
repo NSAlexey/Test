@@ -1,0 +1,73 @@
+.RadColorPicker_Outlook .rcpPalette {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #d6e6f4; }
+
+.RadColorPicker_Outlook .rcpHeader {
+  border-color: #5d8fd8;
+  color: #000000;
+  background-color: #7ea6e0;
+  background-image: linear-gradient(#e3eeff, #7ea6e0); }
+
+.RadColorPicker_Outlook .rcpImageButton,
+.RadColorPicker_Outlook a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Outlook .rcpImageButton:hover {
+  color: #306ac5; }
+
+.RadColorPicker_Outlook .rcpIcon em,
+.RadColorPicker_Outlook .rcpColorPreview,
+.RadColorPicker_Outlook .rcpInput,
+.RadColorPicker_Outlook .rcpHexInput,
+.RadColorPicker_Outlook .rcpMillionColorsPalette,
+.RadColorPicker_Outlook .rcpMillionColorsSlider div.rslTrack {
+  border-color: #003c74;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadColorPicker_Outlook .rcpIcon a,
+.RadColorPicker_Outlook .rcpTabs li,
+.RadColorPicker_Outlook .rcpButton {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+
+.RadColorPicker_Outlook .rcpIcon a:hover,
+.RadColorPicker_Outlook .rcpTabs li:hover,
+.RadColorPicker_Outlook .rcpButton:hover {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #fbc860; }
+
+.RadColorPicker_Outlook .rcpIcon a:active,
+.RadColorPicker_Outlook .rcpTabs .rcpSelectedTab,
+.RadColorPicker_Outlook .rcpTabs .rcpSelectedTab:hover,
+.RadColorPicker_Outlook .rcpButton:active {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadColorPicker_Outlook .rcpIcon a:focus {
+  box-shadow: inset 0 0 5px rgba(0, 60, 116, 0.5); }
+
+.RadColorPicker_Outlook.rcpCustomColorWrapper .rcpPalette {
+  box-shadow: 2px 2px 3px rgba(137, 174, 229, 0.5); }
+
+.RadColorPicker_Outlook .rcpSlider.RadSlider_Outlook a.rslDraghandle,
+.RadColorPicker_Outlook .rcpMillionColorsSlider.RadSlider_Outlook a.rslDraghandle {
+  color: #333333; }
+
+.RadColorPicker_Outlook .rcpSlider.RadSlider_Outlook a.rslDraghandle:hover,
+.RadColorPicker_Outlook .rcpSlider.RadSlider_Outlook a.rslDraghandle:active,
+.RadColorPicker_Outlook .rcpSlider.RadSlider_Outlook a.rslDraghandle:focus,
+.RadColorPicker_Outlook .rcpMillionColorsSlider.RadSlider_Outlook a.rslDraghandle:hover,
+.RadColorPicker_Outlook .rcpMillionColorsSlider.RadSlider_Outlook a.rslDraghandle:active,
+.RadColorPicker_Outlook .rcpMillionColorsSlider.RadSlider_Outlook a.rslDraghandle:focus {
+  color: #306ac5; }
+

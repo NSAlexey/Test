@@ -1,0 +1,77 @@
+.RadMap_Silk .k-navigator {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+
+.RadMap_Silk .k-button {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+
+.RadMap_Silk .k-button:hover,
+.RadMap_Silk .k-navigator > .k-button:hover {
+  border-color: #0092ab;
+  color: #ffffff;
+  background-color: #0092ab;
+  background-image: linear-gradient(#00acca, #0092ab); }
+
+.RadMap_Silk .k-button:active,
+.RadMap_Silk .k-button:focus,
+.RadMap_Silk .k-navigator > .k-button:active,
+.RadMap_Silk .k-navigator > .k-button:focus {
+  border-color: #1193aa;
+  color: #ffffff;
+  background-color: #14afca;
+  background-image: none; }
+
+.RadMap_Silk .k-marker {
+  color: #14afca; }
+
+.RadMap_Silk.k-tooltip {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3; }
+  .RadMap_Silk.k-tooltip .k-tooltip-button {
+    color: #5f5f5f;
+    background-color: #e3e3e3; }
+  .RadMap_Silk.k-tooltip .k-tooltip-button:hover {
+    color: #14afca; }
+
+@media \0screen\,screen\9 {
+  .RadMap_Silk .k-icon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadMap_Silk .k-i-arrow-n {
+    background-position: -17px -17px; }
+  .RadMap_Silk .k-button:hover .k-i-arrow-n {
+    background-position: -67px -17px; }
+  .RadMap_Silk .k-button:active .k-i-arrow-n,
+  .RadMap_Silk .k-button:focus .k-i-arrow-n {
+    background-position: -117px -17px; }
+  .RadMap_Silk .k-i-arrow-e {
+    background-position: -17px -167px; }
+  .RadMap_Silk .k-button:hover .k-i-arrow-e {
+    background-position: -67px -167px; }
+  .RadMap_Silk .k-button:active .k-i-arrow-e,
+  .RadMap_Silk .k-button:focus .k-i-arrow-e {
+    background-position: -117px -167px; }
+  .RadMap_Silk .k-i-arrow-s {
+    background-position: -17px -67px; }
+  .RadMap_Silk .k-button:hover .k-i-arrow-s {
+    background-position: -67px -67px; }
+  .RadMap_Silk .k-button:active .k-i-arrow-s,
+  .RadMap_Silk .k-button:focus .k-i-arrow-s {
+    background-position: -117px -67px; }
+  .RadMap_Silk .k-i-arrow-w {
+    background-position: -17px -117px; }
+  .RadMap_Silk .k-button:hover .k-i-arrow-w {
+    background-position: -67px -117px; }
+  .RadMap_Silk .k-button:active .k-i-arrow-w,
+  .RadMap_Silk .k-button:focus .k-i-arrow-w {
+    background-position: -117px -117px; }
+  .RadMap_Silk .k-i-close,
+  .RadMap_Silk .k-i-close:hover {
+    background-color: transparent;
+    background-position: -67px -1917px; } }
+

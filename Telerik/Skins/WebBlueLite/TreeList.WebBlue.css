@@ -1,0 +1,169 @@
+.RadTreeList_WebBlue,
+.rtlCEdit div.RadTreeList_WebBlue {
+  border-color: #768ca5;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadTreeList_WebBlue .rtlHeader {
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#839bb1', endColorstr='#597791',GradientType=0 );
+  background-image: linear-gradient(to bottom, #839bb1 0%, #7a92aa 10%, #6b849d 43%, #597791 48%, #718ca1 100%);
+  color: #fff;
+  border-color: #3d556c #455f77; }
+  .RadTreeList_WebBlue .rtlHeader a {
+    color: #fff; }
+  .RadTreeList_WebBlue .rtlHeader th {
+    border-color: #3d556c #455f77; }
+
+.RadTreeList_WebBlue .rtlScroller {
+  border-color: #4a637a; }
+
+.RadTreeList_WebBlue .rtlA, .RadTreeList_WebBlue .rtlRFooter, .RadTreeList_WebBlue .rtlREdit {
+  background-color: #dae2e8; }
+
+.rtlCEdit .RadTreeList_WebBlue {
+  border: 1px solid; }
+
+.RadTreeList_WebBlue {
+  /*>>Expand/Collapse*/
+  /*<<Expand/Collapse*/
+  /*>>Tree Lines*/ }
+  .RadTreeList_WebBlue .rtlR td, .RadTreeList_WebBlue .rtlA td, .RadTreeList_WebBlue .rtlREdit td, .RadTreeList_WebBlue .rtlRFooter td, .RadTreeList_WebBlue .rtlEditForm {
+    border-color: #9cb6c5; }
+  .RadTreeList_WebBlue .rtlR a, .RadTreeList_WebBlue .rtlA a, .RadTreeList_WebBlue .rtlREdit a, .RadTreeList_WebBlue .rtlEditForm a {
+    color: #0e3d4f; }
+  .RadTreeList_WebBlue .rtlRSel {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97c2d7', endColorstr='#7bbbcf',GradientType=0 );
+    background-image: linear-gradient(to bottom, #97c2d7 0%, #65a4c1 43%, #358db0 48%, #3e94b4 57%, #57a4bf 71%, #7bbbcf 100%); }
+  .RadTreeList_WebBlue .rtlRActive .rtlCF {
+    box-shadow: inset 0px 5px 5px -5px #133c44, inset 0px -5px 5px -5px #133c44, inset 5px 0px 5px -5px #133c44; }
+  .RadTreeList_WebBlue .rtlRActive .rtlCF ~ td {
+    box-shadow: inset 0px 5px 5px -5px #133c44, inset 0px -5px 5px -5px #133c44; }
+  .RadTreeList_WebBlue .rtlRActive .rtlCF ~ td:last-child {
+    box-shadow: inset 0px 5px 5px -5px #133c44, inset 0px -5px 5px -5px #133c44, inset -5px 0px 5px -5px #133c44; }
+  .RadTreeList_WebBlue .rtlVBorders td.rtlL, .RadTreeList_WebBlue .rtlLines td.rtlL {
+    background-color: #fff; }
+  .RadTreeList_WebBlue .rtlDel,
+  .RadTreeList_WebBlue .rtlAdd,
+  .RadTreeList_WebBlue .rtlEdit,
+  .RadTreeList_WebBlue .rtlUpdate,
+  .RadTreeList_WebBlue .rtlCancel,
+  .RadTreeList_WebBlue .rtlClosePopUp {
+    border: 0 none;
+    background: none; }
+  .RadTreeList_WebBlue .rtlHeader .rtlAdd {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe6ec', endColorstr='#a0b8c8',GradientType=0 );
+    background-image: linear-gradient(to bottom, #dfe6ec 0%, #bdcfdc 41%, #a0b8c8 47%, #acc0cf 65%, #d0dce4 100%);
+    border: 1px solid #4d657d;
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px #eff2f4 inset; }
+  .RadTreeList_WebBlue .rtlUpdate,
+  .RadTreeList_WebBlue .rtlCancel {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe6ec', endColorstr='#a0b8c8',GradientType=0 );
+    background-image: linear-gradient(to bottom, #dfe6ec 0%, #bdcfdc 41%, #a0b8c8 47%, #acc0cf 65%, #d0dce4 100%);
+    border: 1px solid #4d657d;
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px #eff2f4 inset; }
+  .RadTreeList_WebBlue .rtlClosePopUp {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#839bb1', endColorstr='#597791',GradientType=0 );
+    background-image: linear-gradient(to bottom, #839bb1 0%, #7a92aa 10%, #6b849d 43%, #597791 48%, #718ca1 100%);
+    border: 1px solid #485e72;
+    border-radius: .13em;
+    box-shadow: 0 0 1px 1px #8098ab inset; }
+    .RadTreeList_WebBlue .rtlClosePopUp .rtlClosePopUpIcon {
+      color: #e9e9e9;
+      text-shadow: 0 0 1px #515b68; }
+    .RadTreeList_WebBlue .rtlClosePopUp:hover {
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3b0a4', endColorstr='#d5553e',GradientType=0 );
+      background-image: linear-gradient(to bottom, #f3b0a4 0%, #f0a598 15%, #e68778 46%, #d5553e 54%, #d95c44 69%, #de6a4f 85%, #df7a60 100%);
+      box-shadow: 0 0 1px #f3d0ca inset;
+      border-radius: .2em;
+      border-color: #7f4e3b; }
+  .RadTreeList_WebBlue .rtlExpand,
+  .RadTreeList_WebBlue .rtlCollapse {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe4ea', endColorstr='#bbc7d2',GradientType=0 );
+    background: linear-gradient(to bottom, #dfe4ea 0%, #cfd7df 50%, #bbc7d2 100%);
+    border: 1px solid #768189;
+    box-shadow: 0 0 1px 1px #dbe2eb inset; }
+  .RadTreeList_WebBlue .rtlPagerCell {
+    border-color: #768ca5;
+    color: #333333;
+    background-color: #dae2e8; }
+    .RadTreeList_WebBlue .rtlPagerCell .rtlNumPart a {
+      border-radius: 2px;
+      color: inherit; }
+      .RadTreeList_WebBlue .rtlPagerCell .rtlNumPart a:hover {
+        border-color: #1c9fcc;
+        color: #0e3d4f;
+        background-color: #bee3f6;
+        background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+      .RadTreeList_WebBlue .rtlPagerCell .rtlNumPart a.rtlCurrentPage {
+        border-color: #7abace;
+        color: #7abace;
+        background: none; }
+    .RadTreeList_WebBlue .rtlPagerCell .rtlPagerButton,
+    .RadTreeList_WebBlue .rtlPagerCell .rtlActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 2px;
+      border-color: #6e8aa8;
+      color: #0d202b;
+      background-color: #d7e2e7;
+      background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+      .RadTreeList_WebBlue .rtlPagerCell .rtlPagerButton:hover,
+      .RadTreeList_WebBlue .rtlPagerCell .rtlActionButton:hover {
+        border-color: #1c9fcc;
+        color: #0e3d4f;
+        background-color: #bee3f6;
+        background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+  .RadTreeList_WebBlue .rtlCommandCell {
+    border-color: #3d556c;
+    color: #ffffff;
+    background-color: #4d5f75;
+    background-image: linear-gradient(#576b82, #36485b 50%, #2c3c4d 50%, #4d5f75); }
+    .RadTreeList_WebBlue .rtlCommandCell .rtlActionButton:hover {
+      border-color: #1c9fcc;
+      color: #0e3d4f;
+      background-color: #bee3f6;
+      background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+    .RadTreeList_WebBlue .rtlCommandCell .rtlActionButton:active {
+      border-color: #3a869e;
+      color: #ffffff;
+      background-color: #7abace;
+      background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+  .RadTreeList_WebBlue .rtlLines td.rtlL0 {
+    background-image: url('../WebBlue/TreeList/rtlSingleLite.gif'); }
+  .RadTreeList_WebBlue .rtlLines td.rtlL1 {
+    background-image: url('../WebBlue/TreeList/rtlTopLite.gif'); }
+  .RadTreeList_WebBlue .rtlLines td.rtlL2 {
+    background-image: url('../WebBlue/TreeList/rtlMiddleLite.gif'); }
+  .RadTreeList_WebBlue .rtlLines td.rtlL3 {
+    background-image: url('../WebBlue/TreeList/rtlBottomLite.gif'); }
+
+.RadTreeListRTL_WebBlue .rtlLines td.rtlL1 {
+  background-image: url('../WebBlue/TreeList/rtlTopRTLLite.gif'); }
+
+.RadTreeListRTL_WebBlue .rtlLines td.rtlL2 {
+  background-image: url('../WebBlue/TreeList/rtlMiddleRTLLite.gif'); }
+
+.RadTreeListRTL_WebBlue .rtlLines td.rtlL3 {
+  background-image: url('../WebBlue/TreeList/rtlBottomRTLLite.gif'); }
+
+/*<<Tree Lines*/
+.TreeListReorderTop_WebBlue,
+.TreeListReorderBottom_WebBlue {
+  color: #838383; }
+
+.RadTreeList_WebBlue .rtlDragHandle {
+  background-image: url('../WebBlue/Grid/rgDrag.gif'); }
+
+/*tooltip*/
+.TreeListToolTip_WebBlue {
+  border-color: #768ca5;
+  background: #dae2e8;
+  color: #000; }
+

@@ -1,0 +1,18 @@
+.RadTile_Silk {
+  color: #5f5f5f;
+  background-color: #e3e3e3; }
+  .RadTile_Silk .rtilePeekContent {
+    background-color: #e3e3e3; }
+  .RadTile_Silk.rtileSelected .rtileSelectedIcon {
+    color: #ffffff;
+    background-color: #14afca; }
+  .RadTile_Silk.rtileHovered {
+    border-color: #0092ab; }
+  .RadTile_Silk.rtileSelected {
+    border-color: #14afca; }
+  .RadTile_Silk.rtileSelected.rtileHovered {
+    border-color: #0f879c; }
+  .RadTile_Silk.rtileLoading,
+  .RadTile_Silk .rtileLoading {
+    background-image: url('../Silk/Common/loading_small.gif'); }
+

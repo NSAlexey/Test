@@ -1,0 +1,42 @@
+.RadTagCloud {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: dotted;
+  line-height: 0.83333333;
+  overflow: hidden; }
+  .RadTagCloud .rtcTagList {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .RadTagCloud .rtcTagItem {
+    padding: 3px;
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    zoom: 1; }
+  .RadTagCloud .rtcTagItem a {
+    padding: 2px 4px;
+    text-decoration: none; }
+  .RadTagCloud .rtcTagItem a:hover {
+    text-decoration: underline; }
+  .RadTagCloud .rtcLoading {
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .RadTagCloud.rtcDisabled {
+    filter: alpha(opacity=50);
+    opacity: .5;
+    pointer-events: none; }
+    .RadTagCloud.rtcDisabled .rtcTagItem a,
+    .RadTagCloud.rtcDisabled .rtcTagItem a:hover,
+    .RadTagCloud.rtcDisabled .rtcTagItem a:focus,
+    .RadTagCloud.rtcDisabled .rtcTagItem a:active {
+      color: inherit;
+      text-decoration: none;
+      outline: 0; }
+
+.rtcRtl {
+  text-align: right;
+  direction: ltr; }
+

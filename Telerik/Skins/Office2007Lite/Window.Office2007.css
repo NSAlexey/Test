@@ -1,0 +1,71 @@
+.RadWindow_Office2007 {
+  border-color: #688caf;
+  color: #00156e;
+  background-color: #d6e6f4;
+  border-radius: 4px; }
+  .RadWindow_Office2007 .rwTitleBar {
+    border-color: #85b0e3;
+    color: #333333;
+    background-color: #c3d8f1;
+    background-image: linear-gradient(#dee8f5, #c3d8f1);
+    border-radius: 3px 3px 0 0; }
+  .RadWindow_Office2007 .rwCommandButton:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+  .RadWindow_Office2007 .rwContent {
+    border-color: #9eb6ce;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2007 .rwDialogButtons button {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+  .RadWindow_Office2007 .rwDialogButtons button:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+  .RadWindow_Office2007 .rwDialogButtons button:active {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadWindow_Office2007 .rwPromptDialog .rwOkBtn,
+  .RadWindow_Office2007 .rwConfirmDialog .rwOkBtn {
+    border-color: #384986;
+    color: #ffffff;
+    background-color: #41559c;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+  .RadWindow_Office2007 .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Office2007 .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+  .RadWindow_Office2007 .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Office2007 .rwConfirmDialog .rwOkBtn:active {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+  .RadWindow_Office2007 .rwPromptInput {
+    border-color: #a1bcdd;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2007 .rwPromptInput:hover {
+    border-color: #c4ba9c;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2007 .rwPromptInput:active,
+  .RadWindow_Office2007 .rwPromptInput:focus {
+    border-color: #c3bba3;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Office2007 .rwLoading.rwStatusBar {
+    background-image: url('../Office2007/Common/loading_small.gif'); }
+  .RadWindow_Office2007.rwLoading .rwExternalContent {
+    background-image: url('../Office2007/Common/loading.gif'); }
+

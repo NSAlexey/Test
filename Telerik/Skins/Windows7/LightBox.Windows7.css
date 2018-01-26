@@ -1,0 +1,30 @@
+.RadLightBox_Windows7 {
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadLightBox_Windows7 .rltbWrapper {
+    border-color: #aabfd6;
+    color: #1e395b;
+    background-color: #ffffff; }
+  .RadLightBox_Windows7 .rltbDescOverlayTop,
+  .RadLightBox_Windows7 .rltbDescOverlayBottom {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadLightBox_Windows7 .rltbClose,
+  .RadLightBox_Windows7 .rltbCloseIcon,
+  .RadLightBox_Windows7 .rltbPrevButton,
+  .RadLightBox_Windows7 .rltbNextButton {
+    background-image: url('LightBox/sprite.png'); }
+  .RadLightBox_Windows7 .rltbToolbar .rltbActionButton {
+    background-color: #dde8f6; }
+  .RadLightBox_Windows7 .rltbToolbar .rltbActionButton:hover {
+    background-color: #e7ecf5; }
+  .RadLightBox_Windows7 .rltbToolbar .rltbIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadLightBox_Windows7 .rltbMaximizeIcon {
+    background-position: 0px -2100px; }
+  .RadLightBox_Windows7 .rltbActionButton:hover .rltbMaximizeIcon {
+    background-position: -20px -2100px; }
+  .RadLightBox_Windows7 .rltbRestoreIcon {
+    background-position: 0px -2120px; }
+  .RadLightBox_Windows7 .rltbActionButton:hover .rltbRestoreIcon {
+    background-position: -20px -2120px; }
+

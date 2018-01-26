@@ -1,0 +1,150 @@
+.RadTreeList_Silk,
+.rtlCEdit div.RadTreeList_Silk {
+  border-color: #d9d9d9;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadTreeList_Silk table.rtlHBorders .rtlR > td,
+.RadTreeList_Silk table.rtlHBorders .rtlA > td,
+.RadTreeList_Silk table.rtlHBorders .rtlREdit > td,
+.RadTreeList_Silk table.rtlHBorders .rtlRFooter > td,
+.RadTreeList_Silk table .rtlHeader th {
+  padding: .4375em .625em; }
+
+.RadTreeList_Silk .rtlHeader {
+  background: #e8e8e8;
+  color: #888888;
+  border-color: #e8e8e8;
+  text-transform: uppercase; }
+  .RadTreeList_Silk .rtlHeader a {
+    color: #888888; }
+
+.RadTreeList_Silk .rtlVBorders .rtlHeader th {
+  border-width: 0; }
+
+.RadTreeList_Silk .rtlScroller {
+  border-color: #d9d9d9; }
+
+.RadTreeList_Silk .rtlRFooter {
+  background-color: #e3e3e3; }
+
+.rtlCEdit .RadTreeList_Silk {
+  border: 1px solid; }
+
+.RadTreeList_Silk {
+  /*>>Expand/Collapse*/
+  /*<<Expand/Collapse*/
+  /*>>Tree Lines*/ }
+  .RadTreeList_Silk .rtlR td,
+  .RadTreeList_Silk .rtlA td,
+  .RadTreeList_Silk .rtlREdit td,
+  .RadTreeList_Silk .rtlRFooter td,
+  .RadTreeList_Silk .rtlEditForm {
+    border-color: #e3e3e3; }
+  .RadTreeList_Silk .rtlVBorders .rtlR td,
+  .RadTreeList_Silk .rtlVBorders .rtlA td,
+  .RadTreeList_Silk .rtlVBorders .rtlREdit td,
+  .RadTreeList_Silk .rtlVBorders .rtlRFooter td {
+    border-left-width: 0; }
+  .RadTreeList_Silk .rtlR a,
+  .RadTreeList_Silk .rtlA a,
+  .RadTreeList_Silk .rtlREdit a,
+  .RadTreeList_Silk .rtlEditForm a {
+    color: #14afca; }
+  .RadTreeList_Silk .rtlRSel {
+    color: #ffffff;
+    background: #81cfdc; }
+  .RadTreeList_Silk .rtlRActive {
+    color: #333333; }
+    .RadTreeList_Silk .rtlRActive .rtlCF {
+      box-shadow: inset 0px 5px 5px -5px #81cfdc, inset 0px -5px 5px -5px #81cfdc, inset 5px 0px 5px -5px #81cfdc; }
+    .RadTreeList_Silk .rtlRActive .rtlCF ~ td {
+      box-shadow: inset 0px 5px 5px -5px #81cfdc, inset 0px -5px 5px -5px #81cfdc; }
+    .RadTreeList_Silk .rtlRActive .rtlCF ~ td:last-child {
+      box-shadow: inset 0px 5px 5px -5px #81cfdc, inset 0px -5px 5px -5px #81cfdc, inset -5px 0px 5px -5px #81cfdc; }
+  .RadTreeList_Silk .rtlVBorders td.rtlL,
+  .RadTreeList_Silk .rtlLines td.rtlL {
+    background-color: #ffffff; }
+  .RadTreeList_Silk .rtlExpand,
+  .RadTreeList_Silk .rtlCollapse {
+    border: 0 none;
+    color: #333333; }
+  .RadTreeList_Silk .rtlPagerCell {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3; }
+    .RadTreeList_Silk .rtlPagerCell .rtlNumPart a {
+      border-radius: 2px;
+      color: inherit; }
+      .RadTreeList_Silk .rtlPagerCell .rtlNumPart a:hover {
+        border-color: #0092ab;
+        color: #ffffff;
+        background-color: #0092ab;
+        background-image: linear-gradient(#00acca, #0092ab); }
+      .RadTreeList_Silk .rtlPagerCell .rtlNumPart a.rtlCurrentPage {
+        border-color: #14afca;
+        color: #14afca;
+        background: none; }
+    .RadTreeList_Silk .rtlPagerCell .rtlPagerButton,
+    .RadTreeList_Silk .rtlPagerCell .rtlActionButton {
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 2px;
+      border-color: #c4c4c4;
+      color: #5f5f5f;
+      background-color: #e3e3e3;
+      background-image: linear-gradient(white, #e3e3e3); }
+      .RadTreeList_Silk .rtlPagerCell .rtlPagerButton:hover,
+      .RadTreeList_Silk .rtlPagerCell .rtlActionButton:hover {
+        border-color: #0092ab;
+        color: #ffffff;
+        background-color: #0092ab;
+        background-image: linear-gradient(#00acca, #0092ab); }
+  .RadTreeList_Silk .rtlCommandCell {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+    .RadTreeList_Silk .rtlCommandCell .rtlActionButton:hover {
+      border-color: #0092ab;
+      color: #ffffff;
+      background-color: #0092ab;
+      background-image: linear-gradient(#00acca, #0092ab); }
+    .RadTreeList_Silk .rtlCommandCell .rtlActionButton:active {
+      border-color: #1193aa;
+      color: #ffffff;
+      background-color: #14afca;
+      background-image: none; }
+  .RadTreeList_Silk .rtlLines td.rtlL0 {
+    background-image: url('../Silk/TreeList/rtlSingleLite.gif'); }
+  .RadTreeList_Silk .rtlLines td.rtlL1 {
+    background-image: url('../Silk/TreeList/rtlTopLite.gif'); }
+  .RadTreeList_Silk .rtlLines td.rtlL2 {
+    background-image: url('../Silk/TreeList/rtlMiddleLite.gif'); }
+  .RadTreeList_Silk .rtlLines td.rtlL3 {
+    background-image: url('../Silk/TreeList/rtlBottomLite.gif'); }
+
+.RadTreeListRTL_Silk .rtlLines td.rtlL1 {
+  background-image: url('../Silk/TreeList/rtlTopRTLLite.gif'); }
+
+.RadTreeListRTL_Silk .rtlLines td.rtlL2 {
+  background-image: url('../Silk/TreeList/rtlMiddleRTLLite.gif'); }
+
+.RadTreeListRTL_Silk .rtlLines td.rtlL3 {
+  background-image: url('../Silk/TreeList/rtlBottomRTLLite.gif'); }
+
+/*<<Tree Lines*/
+.TreeListReorderTop_Silk,
+.TreeListReorderBottom_Silk {
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  text-indent: 2px; }
+
+.RadTreeList_Silk .rtlDragHandle {
+  background-image: url('../Silk/Grid/rgDrag.gif'); }
+
+.TreeListToolTip_Silk {
+  border-color: #828282;
+  background: #ffffff;
+  color: #333333; }
+

@@ -1,0 +1,32 @@
+.RadDropDownList_Web20 {
+  color: #333333; }
+  .RadDropDownList_Web20 .rddlInner {
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    border-radius: 3px; }
+  .RadDropDownList_Web20 .rddlHovered {
+    border-color: #2a5795;
+    color: #0f3789;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RadDropDownList_Web20 .rddlFocused {
+    border-color: #2a3866;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+
+.rddlPopup_Web20 {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #ffffff; }
+  .rddlPopup_Web20 .rddlItemHovered, .rddlPopup_Web20 .rddlItemLoading {
+    color: #0f3789;
+    background-color: #e7f1ff; }
+  .rddlPopup_Web20 .rddlItemSelected {
+    color: #0e4302;
+    background-color: #d4ffbc; }
+

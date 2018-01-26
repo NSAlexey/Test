@@ -1,0 +1,42 @@
+.RadEditor .RadRibbonBar .reRibbonTool .rrbImagePlaceholder img {
+  display: none; }
+.RadEditor .RadRibbonBar .reDropdown {
+  line-height: 1.42857em;
+  padding: 4px 10px; }
+  .RadEditor .RadRibbonBar .reDropdown:before {
+    margin-top: -0.71429em;
+    right: 0;
+    width: 26px;
+    height: 28px; }
+.RadEditor .RadRibbonBar .reTool.reSplitButton {
+  padding: 3px; }
+.RadEditor .RadRibbonBar .reSplitArrow {
+  margin: -0.21429em 0em 0em;
+  height: 2em; }
+  .RadEditor .RadRibbonBar .reSplitArrow:before {
+    line-height: normal;
+    margin: 5px auto auto; }
+.RadEditor .RadRibbonBar .rrbButton:before {
+  content: "";
+  margin-left: 0; }
+.RadEditor .RadRibbonBar .rrbSmallButton.reRibbonTool .rrbImagePlaceholder.reRibbonToolIcon {
+  height: 1.41667em; }
+.RadEditor .RadRibbonBar .rrbLargeButton {
+  width: inherit; }
+  .RadEditor .RadRibbonBar .rrbLargeButton .rrbImagePlaceholder.reRibbonToolIcon {
+    height: 2.75em; }
+    .RadEditor .RadRibbonBar .rrbLargeButton .rrbImagePlaceholder.reRibbonToolIcon:before {
+      font-size: 32px; }
+.RadEditor .RadRibbonBar .rrbMediumButton.reRibbonTool {
+  height: 1.33333em;
+  width: inherit; }
+  .RadEditor .RadRibbonBar .rrbMediumButton.reRibbonTool .rrbImagePlaceholder.reRibbonToolIcon {
+    height: 1.41667em; }
+.RadEditor .RadRibbonBar .rrbImagePlaceholder.reRibbonToolIcon:before {
+  margin-left: 0;
+  font-family: WebComponentsIcons, monospace;
+  font-size: 16px;
+  line-height: 1;
+  vertical-align: text-top;
+  width: 1.5em;
+  height: 1.33333em; }

@@ -1,0 +1,68 @@
+.RadWindow_Silk {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  border-radius: 4px; }
+  .RadWindow_Silk .rwTitleBar {
+    border-color: #e3e3e3;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3);
+    border-radius: 3px 3px 0 0; }
+  .RadWindow_Silk .rwCommandButton:hover {
+    color: #14afca; }
+  .RadWindow_Silk .rwContent {
+    border-color: #d9d9d9;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Silk .rwDialogButtons button {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+  .RadWindow_Silk .rwDialogButtons button:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadWindow_Silk .rwDialogButtons button:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+  .RadWindow_Silk .rwPromptDialog .rwOkBtn,
+  .RadWindow_Silk .rwConfirmDialog .rwOkBtn {
+    border-color: #14afca;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: linear-gradient(#27cdea, #14afca); }
+  .RadWindow_Silk .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Silk .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadWindow_Silk .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Silk .rwConfirmDialog .rwOkBtn:active {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+  .RadWindow_Silk .rwPromptInput {
+    border-color: #c4c4c4;
+    color: #3b3b3b;
+    background-color: #ffffff; }
+  .RadWindow_Silk .rwPromptInput:hover {
+    border-color: #0092ab;
+    color: black;
+    background-color: #ffffff; }
+  .RadWindow_Silk .rwPromptInput:active,
+  .RadWindow_Silk .rwPromptInput:focus {
+    border-color: #1193aa;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Silk .rwLoading.rwStatusBar {
+    background-image: url('../Silk/Common/loading_small.gif'); }
+  .RadWindow_Silk.rwLoading .rwExternalContent {
+    background-image: url('../Silk/Common/loading.gif'); }
+

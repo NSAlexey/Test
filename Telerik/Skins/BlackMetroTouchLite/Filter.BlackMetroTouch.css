@@ -1,0 +1,54 @@
+.RadFilter_BlackMetroTouch {
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadFilter_BlackMetroTouch .rfMid,
+  .RadFilter_BlackMetroTouch .rfTools {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    border-radius: 0; }
+  .RadFilter_BlackMetroTouch .rfOper:hover,
+  .RadFilter_BlackMetroTouch .rfField:hover,
+  .RadFilter_BlackMetroTouch .rfExp:hover,
+  .RadFilter_BlackMetroTouch .rfAddExp:hover,
+  .RadFilter_BlackMetroTouch .rfAddGr:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadFilter_BlackMetroTouch .rfOper:focus,
+  .RadFilter_BlackMetroTouch .rfField:focus,
+  .RadFilter_BlackMetroTouch .rfExp:focus,
+  .RadFilter_BlackMetroTouch .rfAddExp:focus,
+  .RadFilter_BlackMetroTouch .rfAddGr:focus,
+  .RadFilter_BlackMetroTouch .rfOper:active,
+  .RadFilter_BlackMetroTouch .rfField:active,
+  .RadFilter_BlackMetroTouch .rfExp:active,
+  .RadFilter_BlackMetroTouch .rfAddExp:active,
+  .RadFilter_BlackMetroTouch .rfAddGr:active {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadFilter_BlackMetroTouch .rfDel:hover,
+  .RadFilter_BlackMetroTouch .rfDel:focus,
+  .RadFilter_BlackMetroTouch .rfDel:active {
+    color: #de3914; }
+  .RadFilter_BlackMetroTouch .rfText {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadFilter_BlackMetroTouch .rfPreview strong {
+    color: #5ec232; }
+  .RadFilter_BlackMetroTouch .rfPreview em,
+  .RadFilter_BlackMetroTouch .rfPreview .rfBr {
+    color: #3e80ed; }
+  .RadFilter_BlackMetroTouch .rfApply a,
+  .RadFilter_BlackMetroTouch .rfApply span {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    border-radius: 0; }
+  .RadFilter_BlackMetroTouch .rfLast .rfDiv:after,
+  .RadFilter_BlackMetroTouch .rfLines li li:before,
+  .RadFilter_BlackMetroTouch .rfLines li li .rfDiv:before {
+    border-color: #555555; }
+

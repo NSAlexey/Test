@@ -1,0 +1,335 @@
+.RadGrid_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadGrid_Glow .rgInput,
+  .RadGrid_Glow .rgEditRow > td > [type="text"],
+  .RadGrid_Glow .rgEditForm td > [type="text"],
+  .RadGrid_Glow .rgBatchContainer > [type="text"],
+  .RadGrid_Glow .rgFilterBox {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c; }
+    .RadGrid_Glow .rgInput:hover,
+    .RadGrid_Glow .rgEditRow > td > [type="text"]:hover,
+    .RadGrid_Glow .rgEditForm td > [type="text"]:hover,
+    .RadGrid_Glow .rgBatchContainer > [type="text"]:hover,
+    .RadGrid_Glow .rgFilterBox:hover {
+      border-color: #cd8100;
+      color: #fff;
+      background-color: #1c262c; }
+    .RadGrid_Glow .rgInput:focus,
+    .RadGrid_Glow .rgEditRow > td > [type="text"]:focus,
+    .RadGrid_Glow .rgEditForm td > [type="text"]:focus,
+    .RadGrid_Glow .rgBatchContainer > [type="text"]:focus,
+    .RadGrid_Glow .rgFilterBox:focus {
+      border-color: #cd8100;
+      color: #fff;
+      background-color: #1c262c; }
+  .RadGrid_Glow .rgActionButton {
+    color: inherit; }
+
+.RadGrid_Glow .rgHeader,
+.RadGrid_Glow th.rgResizeCol,
+.RadGrid_Glow .rgHeaderWrapper,
+.RadGrid_Glow .rgFilterRow {
+  border-bottom-color: #384c58;
+  background: #2a3942;
+  color: #e2e8eb;
+  text-transform: uppercase; }
+
+.RadGrid_Glow .rgHeaderWrapper {
+  border-bottom: 1px solid #384c58; }
+
+.RadGrid_Glow .rgHeaderDiv {
+  border-right-color: #384c58; }
+
+.RadGrid_Glow .rgMultiHeaderRow th.rgHeader, .RadGrid_Glow .rgMultiHeaderRow th.rgResizeCol {
+  border: 0;
+  border-bottom: 1px solid #384c58;
+  border-left: 1px solid #384c58; }
+
+.RadGrid_Glow th.rgSorted {
+  background-color: #364955; }
+  .RadGrid_Glow th.rgSorted, .RadGrid_Glow th.rgSorted a {
+    color: #e2e8eb; }
+
+.RadGrid_Glow .rgHeader {
+  color: #e2e8eb;
+  text-transform: uppercase;
+  font-size: 0.714em;
+  line-height: 2; }
+  .RadGrid_Glow .rgHeader a {
+    color: #e2e8eb; }
+  .RadGrid_Glow .rgHeader .t-button {
+    font-size: 1.4em;
+    line-height: 1.42857143; }
+
+.RadGrid_Glow .rgRow > td,
+.RadGrid_Glow .rgAltRow > td,
+.RadGrid_Glow .rgEditRow > td {
+  border-style: solid;
+  border-bottom: 1px solid #1c2327;
+  border-width: 0 0 1px; }
+
+.RadGrid_Glow .rgActiveRow td:not(.rgExpandCol) {
+  box-shadow: inset 0px 5px 5px -5px #ffa915, inset 0px -5px 5px -5px #ffa915; }
+
+.RadGrid_Glow .rgActiveRow td:first-child:not(.rgExpandCol),
+.RadGrid_Glow .rgActiveRow .rgExpandCol + td {
+  box-shadow: inset 0px 5px 5px -5px #ffa915, inset 0px -5px 5px -5px #ffa915, inset 5px 0px 5px -5px #ffa915; }
+
+.RadGrid_Glow .rgActiveRow td:not(.rgExpandCol):last-child {
+  box-shadow: inset 0px 5px 5px -5px #ffa915, inset 0px -5px 5px -5px #ffa915, inset -5px 0px 5px -5px #ffa915; }
+
+.RadGrid_Glow .rgActiveCell {
+  box-shadow: inset 0 0 5px #ffa915; }
+
+.RadGrid_Glow .rgMasterTable .rgSelectedCell,
+.RadGrid_Glow .rgSelectedRow {
+  background: #ffa915; }
+  .RadGrid_Glow .rgMasterTable .rgSelectedCell, .RadGrid_Glow .rgMasterTable .rgSelectedCell input,
+  .RadGrid_Glow .rgSelectedRow,
+  .RadGrid_Glow .rgSelectedRow input {
+    color: #000000; }
+  .RadGrid_Glow .rgMasterTable .rgSelectedCell a,
+  .RadGrid_Glow .rgSelectedRow a {
+    color: #b35000;
+    text-decoration: none; }
+    .RadGrid_Glow .rgMasterTable .rgSelectedCell a:hover,
+    .RadGrid_Glow .rgSelectedRow a:hover {
+      text-decoration: underline; }
+
+.RadGrid_Glow .rgHoveredRow {
+  background: #4d5c65;
+  color: #ffffff; }
+  .RadGrid_Glow .rgHoveredRow a {
+    color: #ffffff; }
+
+.RadGrid_Glow .rgSorted {
+  background-color: rgba(52, 70, 81, 0.6);
+  color: #c4d0d6; }
+
+.RadGrid_Glow .rgEditRow {
+  background: rgba(28, 35, 39, 0.75); }
+
+.RadGrid_Glow .rgDeletedRow > td {
+  border-color: black;
+  color: #e2e8eb; }
+  .RadGrid_Glow .rgDeletedRow > td a {
+    color: #e2e8eb; }
+
+.RadGrid_Glow .rgBatchOverlay {
+  background: rgba(28, 35, 39, 0.75); }
+
+.RadGrid_Glow .rgBatchUndoDeleteButton {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#30414b, #1c262c); }
+  .RadGrid_Glow .rgBatchUndoDeleteButton:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+
+.RadGrid_Glow .rgDrag {
+  background-image: url('../Glow/Grid/rgDrag.gif'); }
+
+.RadGrid_Glow .rgFooterDiv,
+.RadGrid_Glow .rgFooter,
+.RadGrid_Glow .rgFooterWrapper {
+  background: #1c262c; }
+
+.RadGrid_Glow .rgFooterWrapper {
+  border-top: 0 none; }
+
+.RadGrid_Glow .rgPagerCell {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c; }
+  .RadGrid_Glow .rgPagerCell .rgNumPart a {
+    border-radius: 2px;
+    color: inherit; }
+    .RadGrid_Glow .rgPagerCell .rgNumPart a:hover {
+      border-color: #cd8100;
+      color: #733700;
+      background-color: #cd8100;
+      background-image: linear-gradient(#ffa201, #cd8100); }
+    .RadGrid_Glow .rgPagerCell .rgNumPart a.rgCurrentPage {
+      border-color: #ffa915;
+      color: #ffa915;
+      background: none; }
+  .RadGrid_Glow .rgPagerCell .rgPagerButton,
+  .RadGrid_Glow .rgPagerCell .rgActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+    .RadGrid_Glow .rgPagerCell .rgPagerButton:hover,
+    .RadGrid_Glow .rgPagerCell .rgActionButton:hover {
+      border-color: #cd8100;
+      color: #733700;
+      background-color: #cd8100;
+      background-image: linear-gradient(#ffa201, #cd8100); }
+
+.RadGrid_Glow .rgFilterRow > td {
+  border-bottom: 1px solid #384c58; }
+
+.RadGrid_Glow .rgFilter {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#30414b, #1c262c); }
+  .RadGrid_Glow .rgFilter:hover, .RadGrid_Glow .rgFilter:focus {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+
+.RadGrid_Glow .rgFilterActive, .RadGrid_Glow .rgFilterActive:hover, .RadGrid_Glow .rgFilterActive:focus {
+  border-color: #cd8100;
+  color: #733700;
+  background-color: #ffa915;
+  background-image: none;
+  box-shadow: inset 0 0 6px rgba(165, 165, 165, 0.5); }
+
+.RadGrid_Glow .rgFiltered {
+  border-color: #dc9314;
+  color: #733700;
+  background-color: #dc9314;
+  background-image: linear-gradient(#ecaa37, #dc9314); }
+  .RadGrid_Glow .rgFiltered:hover, .RadGrid_Glow .rgFiltered:focus {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadGrid_Glow .rgFiltered.rgFilterActive {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+
+.RadGrid_Glow .rgFilterBox {
+  border-color: #182126; }
+
+.RadGrid_Glow .rgOptions {
+  color: #e2e8eb; }
+
+.RadGrid_Glow .rgOptSelected {
+  color: #ffa915; }
+
+.GridContextMenu_Glow .rgHCMClear,
+.GridContextMenu_Glow .rgHCMFilter {
+  height: 2.15384615em;
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#30414b, #1c262c);
+  border-radius: 0; }
+  .GridContextMenu_Glow .rgHCMClear:hover,
+  .GridContextMenu_Glow .rgHCMFilter:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+
+.GridContextMenu_Glow .rmGroup .rgHCMItem div.rmContent {
+  padding: 15px;
+  margin: 0 auto; }
+
+.RadMenu_Glow_Context .rgFilterApply,
+.RadMenu_Glow_Context .rgFilterCancel {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#30414b, #1c262c);
+  color: #e2e8eb;
+  border-color: #35434b;
+  height: 28px; }
+
+.RadGrid_Glow .rgGroupPanel {
+  border: 0;
+  border-bottom: 1px solid #1c2327;
+  color: #e2e8eb;
+  padding: 5px; }
+  .RadGrid_Glow .rgGroupPanel td {
+    border: 0;
+    padding: 3px 4px; }
+    .RadGrid_Glow .rgGroupPanel td td {
+      padding: 0; }
+
+.RadGrid_Glow .rgGroupItem {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#30414b, #1c262c);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  color: #e2e8eb; }
+
+.RadGrid_Glow .rgGroupHeader {
+  box-shadow: 0px 1px 3px 0px #333333;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #e2e8eb; }
+  .RadGrid_Glow .rgGroupHeader > td {
+    background-image: linear-gradient(#303e46, #1c262c);
+    border-bottom: 1px solid #182126; }
+
+.RadGrid_Glow .rgEditForm {
+  border-bottom: 1px solid #999; }
+
+.RadGrid_Glow .rgDetailTable {
+  border-color: #1c2327;
+  margin-top: -2px; }
+
+.RadGrid_Glow td.rgExpandCol {
+  border-bottom-color: #242e35;
+  background-color: #242e35; }
+
+.RadGrid_Glow .rgCommandCell {
+  border-color: #35434b;
+  color: #e2e8eb;
+  background-color: #2e3b43;
+  background-image: linear-gradient(#44525b, #2e3b43); }
+  .RadGrid_Glow .rgCommandCell .t-button:hover {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadGrid_Glow .rgCommandCell .t-button:focus, .RadGrid_Glow .rgCommandCell .t-button:active {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+
+.rgCellSelectorArea_Glow,
+.GridRowSelector_Glow {
+  background: #fff; }
+
+.GridItemDropIndicator_Glow {
+  border-top: 1px dashed #666; }
+
+.GridReorderTop_Glow,
+.GridReorderBottom_Glow {
+  color: #fff; }
+
+.GridToolTip_Glow {
+  border: 1px solid #c98400;
+  padding: 3px;
+  background: #ffefbd;
+  color: #333; }
+
+.RadGridRTL_Glow .rgHeader:first-child, .RadGridRTL_Glow th.rgResizeCol:first-child,
+.RadGridRTL_Glow .rgFilterRow > td:first-child,
+.RadGridRTL_Glow .rgRow > td:first-child,
+.RadGridRTL_Glow .rgAltRow > td:first-child {
+  padding-left: 7px; }
+
+.RadGridRTL_Glow .rgExpandIcon:before {
+  content: "\e007"; }
+

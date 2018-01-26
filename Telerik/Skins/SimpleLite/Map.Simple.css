@@ -1,0 +1,42 @@
+.RadMap_Simple .k-navigator {
+  border-color: #7c7c7c;
+  color: #000000;
+  background-color: #e2e2e2; }
+
+.RadMap_Simple .k-button {
+  border-color: #7c7c7c;
+  color: #000000;
+  background-color: #e2e2e2; }
+
+.RadMap_Simple .k-button:hover,
+.RadMap_Simple .k-navigator > .k-button:hover {
+  border-color: #ca8500;
+  color: #882501;
+  background-color: #ffe79c; }
+
+.RadMap_Simple .k-button:active,
+.RadMap_Simple .k-button:focus,
+.RadMap_Simple .k-navigator > .k-button:active,
+.RadMap_Simple .k-navigator > .k-button:focus {
+  border-color: #ca4900;
+  color: #882501;
+  background-color: #ffa517; }
+
+.RadMap_Simple .k-marker {
+  color: #882501; }
+
+.RadMap_Simple.k-tooltip {
+  border-color: #616161;
+  color: #000000;
+  background-color: #ffffff;
+  background-image: linear-gradient(); }
+  .RadMap_Simple.k-tooltip .k-tooltip-button {
+    color: #000000;
+    background-color: #e2e2e2; }
+  .RadMap_Simple.k-tooltip .k-tooltip-button:hover {
+    color: #882501; }
+
+@media \0screen\,screen\9 {
+  .RadMap_Simple .k-icon {
+    background-image: url('../Simple/Common/radActionsSprite.png'); } }
+

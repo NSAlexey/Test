@@ -1,0 +1,51 @@
+.RadAutoCompleteBox_Web20 {
+  color: #333333; }
+  .RadAutoCompleteBox_Web20 .racTokenList {
+    border-color: #687dc1;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_Web20 .racToken {
+    border-radius: 3px;
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+  .RadAutoCompleteBox_Web20 .racTokenList.racHovered {
+    border-color: #2a5795;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_Web20 .racToken.racHovered {
+    border-color: #2a5795;
+    color: #0f3789;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RadAutoCompleteBox_Web20 .racTokenList.racFocused {
+    border-color: #2a3866;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_Web20 .racToken.racFocused {
+    border-color: #2a3866;
+    box-shadow: inset 0 0 5px #2a3866; }
+  .RadAutoCompleteBox_Web20 .racToken.racSelected {
+    border-color: #2a3866;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+  .RadAutoCompleteBox_Web20 .p-i-loading {
+    background-image: url('../Web20/Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Web20 {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadAutoCompleteBoxPopup_Web20 .racItemHovered {
+    color: #0f3789;
+    background-color: #e7f1ff; }
+  .RadAutoCompleteBoxPopup_Web20 .racFocused {
+    box-shadow: inset 0 0 5px #81c85a; }
+  .RadAutoCompleteBoxPopup_Web20 .racItemSelected {
+    color: #0e4302;
+    background-color: #d4ffbc; }
+

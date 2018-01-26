@@ -1,0 +1,50 @@
+.RadAutoCompleteBox_Office2010Black {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 16px; }
+  .RadAutoCompleteBox_Office2010Black .racTokenList {
+    border-color: #565656;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadAutoCompleteBox_Office2010Black .racToken {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .RadAutoCompleteBox_Office2010Black .racRemoveTokenLink {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -2px -1342px; }
+  .RadAutoCompleteBox_Office2010Black .racToken.racHovered {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadAutoCompleteBox_Office2010Black .racToken.racFocused {
+    border-color: #c59901;
+    box-shadow: inset 0 0 5px #c59901; }
+  .RadAutoCompleteBox_Office2010Black .racToken.racSelected {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .RadAutoCompleteBox_Office2010Black .racLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Office2010Black {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #a6a6a6;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racItemHovered {
+    color: #000000;
+    background-color: #ffe791; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racFocused {
+    box-shadow: inset 0 0 5px #c38e00; }
+  .RadAutoCompleteBoxPopup_Office2010Black .racItemSelected {
+    color: #000000;
+    background-color: #fff17c; }
+

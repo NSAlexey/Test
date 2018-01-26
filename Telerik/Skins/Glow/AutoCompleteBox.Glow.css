@@ -1,0 +1,64 @@
+.RadAutoCompleteBox_Glow {
+  color: #e2e8eb;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 22px; }
+  .RadAutoCompleteBox_Glow .racTokenList {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c;
+    padding-right: 27px; }
+  .RadAutoCompleteBox_Glow .racToken {
+    padding: 0 8px;
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c); }
+  .RadAutoCompleteBox_Glow .racRemoveTokenLink {
+    margin-top: -2px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -17px -3367px; }
+  .RadAutoCompleteBox_Glow .racTextToken {
+    padding-top: 1px;
+    padding-bottom: 1px; }
+  .RadAutoCompleteBox_Glow .racInput {
+    height: 24px;
+    *line-height: 24px; }
+  .RadAutoCompleteBox_Glow .racEditTokenInput {
+    height: 22px; }
+  .RadAutoCompleteBox_Glow .racToken.racHovered {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #cd8100;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadAutoCompleteBox_Glow .racToken.racFocused {
+    border-color: #cd8100;
+    box-shadow: inset 0 0 5px #cd8100; }
+  .RadAutoCompleteBox_Glow .racToken.racSelected {
+    border-color: #cd8100;
+    color: #733700;
+    background-color: #ffa915;
+    background-image: none; }
+  .RadAutoCompleteBox_Glow .racLoadingIcon {
+    right: 5px;
+    bottom: 5px;
+    background-image: url('Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Glow {
+  border-color: #20282d;
+  color: #e2e8eb;
+  background-color: #242e33;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5; }
+  .RadAutoCompleteBoxPopup_Glow .racItemHovered {
+    color: #ffffff;
+    background-color: #4d5c65; }
+  .RadAutoCompleteBoxPopup_Glow .racFocused {
+    box-shadow: inset 0 0 5px #ffa915; }
+  .RadAutoCompleteBoxPopup_Glow .racItemSelected {
+    color: #000000;
+    background-color: #ffa915; }
+

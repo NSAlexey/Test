@@ -1,0 +1,16 @@
+.RadDock_Office2007 {
+  border-color: #9eb6ce;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadDock_Office2007 .rdTitleWrapper {
+    border-color: #85b0e3;
+    color: #333333;
+    background-color: #c3d8f1;
+    background-image: linear-gradient(#dee8f5, #c3d8f1);
+    border-color: inherit; }
+  .RadDock_Office2007 .rdCommandButton:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+

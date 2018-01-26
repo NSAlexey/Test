@@ -1,0 +1,129 @@
+.RadCalendar_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCalendar_Metro .rcTitlebar {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCalendar_Metro .t-button {
+    border-radius: 0; }
+  .RadCalendar_Metro .t-button:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendar_Metro .t-button:focus,
+  .RadCalendar_Metro .t-button:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendar_Metro td {
+    border-color: transparent; }
+  .RadCalendar_Metro th {
+    color: #333333;
+    background-color: #f9f9f9; }
+  .RadCalendar_Metro .rcHeader,
+  .RadCalendar_Metro .rcFooter {
+    border-color: #e0e0e0; }
+  .RadCalendar_Metro .rcWeek th {
+    border-color: #e0e0e0;
+    color: #000000; }
+  .RadCalendar_Metro .rcWeek .rcViewSel {
+    background-color: #f9f9f9; }
+  .RadCalendar_Metro .rcToday a,
+  .RadCalendar_Metro .rcToday span {
+    border-color: #25a0da;
+    color: #25a0da;
+    border-radius: 0; }
+  .RadCalendar_Metro .rcHover a,
+  .RadCalendar_Metro .rcHover span {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendar_Metro .rcSelected a,
+  .RadCalendar_Metro .rcSelected span {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendar_Metro .rcFocus {
+    border-color: #25a0da;
+    box-shadow: inset 0 0 5px #25a0da; }
+
+.RadCalendarMultiView_Metro .rcTitlebar {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadCalendarMultiView_Metro .rcCalendar {
+  border-color: #e6e6e6; }
+
+.RadCalendarMultiView_Metro td.rcTitle {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadCalendarMonthView_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCalendarMonthView_Metro a:hover {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendarMonthView_Metro .rcSelected a {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendarMonthView_Metro .rcButtons a {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCalendarMonthView_Metro .rcButtons a:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendarMonthView_Metro .rcButtons a:focus,
+  .RadCalendarMonthView_Metro .rcButtons a:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+
+.RadCalendarTimeView_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadCalendarTimeView_Metro th {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadCalendarTimeView_Metro td {
+    border-color: #e6e6e6; }
+  .RadCalendarTimeView_Metro .rcSelected a {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadCalendarTimeView_Metro .rcHover a {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadCalendarTimeView_Metro .rcFooter {
+    border-color: #e6e6e6; }
+
+.RadPicker_Metro {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadPicker_Metro .riLabel {
+    color: #333333; }
+  .RadPicker_Metro.rcCalPopupOpen .RadInput, .RadPicker_Metro.rcMYPopupOpen .RadInput, .RadPicker_Metro.rcTimePopupOpen .RadInput {
+    border-color: #25a0da;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadPicker_Metro.rcCalPopupOpen .rcCalPopup,
+  .RadPicker_Metro.rcMYPopupOpen .rcCalPopup,
+  .RadPicker_Metro.rcTimePopupOpen .rcTimePopup {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+

@@ -1,0 +1,8 @@
+.ReminderDialog_Sunset {
+  border-color: #938879;
+  color: #272722;
+  background-color: #ffffff;
+  border-radius: 4px; }
+  .ReminderDialog_Sunset .rsTitle {
+    border-radius: 4px 4px 0 0; }
+

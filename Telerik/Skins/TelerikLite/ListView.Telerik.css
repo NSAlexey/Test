@@ -1,0 +1,25 @@
+.RadListView_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadListView_Telerik .rlvHeader th {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea); }
+  .RadListView_Telerik .rlvI {
+    border-color: #cccccc; }
+  .RadListView_Telerik .rlvA {
+    background: #f2f2f2;
+    border-color: #cccccc; }
+  .RadListView_Telerik .rlvISel {
+    background: #63ac39;
+    color: #000000;
+    border-color: #4d862c; }
+  .RadListView_Telerik .rlvDrag {
+    background-image: url('../Telerik/ListView/drag.gif'); }
+  .RadListView_Telerik .rlvInput {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+

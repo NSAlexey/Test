@@ -1,0 +1,43 @@
+.RadRotator_Vista .rrClipRegion {
+  border-color: #aec5d1;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Vista .rrButton {
+  border-color: #acacac;
+  color: #000000;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+  box-shadow: inset 0 0 0 1px #f3f3f3; }
+
+.RadRotator_Vista .rrButton:hover {
+  border-color: #5094b9;
+  color: #000000;
+  background-color: #abdcf7;
+  background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78); }
+
+.RadRotator_Vista .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(61, 120, 153, 0.5); }
+
+.RadRotator_Vista .rrButton:active {
+  border-color: #3d7899;
+  color: #000000;
+  background-color: #ced7dd;
+  background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+  box-shadow: inset 0 0 3px 1px #41d7fc; }
+
+.RadRotator_Vista .rrButtonDisabled,
+.RadRotator_Vista .rrButtonDisabled:hover,
+.RadRotator_Vista .rrButtonDisabled:focus,
+.RadRotator_Vista .rrButtonDisabled:active {
+  border-color: #acacac;
+  color: #000000;
+  background-color: #d2d2d2;
+  background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+  box-shadow: inset 0 0 0 1px #f3f3f3;
+  box-shadow: none; }
+
+.RadRotator_Vista .rrLoadingSign {
+  background: url('../Vista/Common/loading_small.gif') no-repeat center; }
+

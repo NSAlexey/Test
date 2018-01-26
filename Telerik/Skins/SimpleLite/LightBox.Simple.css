@@ -1,0 +1,27 @@
+.RadLightBox_Simple .rltbWrapper {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadLightBox_Simple .rltbDescOverlayTop,
+.RadLightBox_Simple .rltbDescOverlayBottom {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.RadLightBox_Simple .rltbActionButton:hover {
+  color: #882501; }
+
+.RadLightBox_Simple .rltbCloseButton {
+  border-color: #ad7200;
+  color: #000000;
+  background-color: #ffcd33; }
+
+.RadLightBox_Simple .rltbCloseButton:hover {
+  border-color: #ca8500;
+  color: #882501;
+  background-color: #ffe79c; }
+
+.RadLightBox_Simple .rltbCloseButton:active {
+  border-color: #ca4900;
+  color: #882501;
+  background-color: #ffa517; }
+

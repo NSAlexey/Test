@@ -1,0 +1,351 @@
+.RadColorPicker_Bootstrap {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  /* recent colors */
+  /* drop down icon */
+  /* paletes */
+  /* sliders */ }
+  .RadColorPicker_Bootstrap .rcpTabs,
+  .RadColorPicker_Bootstrap .rcpHexInput,
+  .RadColorPicker_Bootstrap .rcpInput,
+  .RadColorPicker_Bootstrap label,
+  .RadColorPicker_Bootstrap .rcpButton,
+  .RadColorPicker_Bootstrap .rcpRecentColorsLabel {
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadColorPicker_Bootstrap.RadColorPicker {
+    width: 51px; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpImageButton,
+  .RadColorPicker_Bootstrap .rcpSlider div.rslTrack,
+  .RadColorPicker_Bootstrap .rcpSlider .rslTrack a.rslDraghandle,
+  .RadColorPicker_Bootstrap div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle {
+    background-image: url('ColorPicker/rcpSprite.png'); }
+  .RadColorPicker_Bootstrap div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle {
+    margin-left: 4px; }
+  .RadColorPicker_Bootstrap .rcpViews,
+  .RadColorPicker_Bootstrap .rcpHeader,
+  .RadColorPicker_Bootstrap .rcpPageView {
+    background-color: #fcfcfc; }
+  .RadColorPicker_Bootstrap div.rcpHeader {
+    background-color: whitesmoke;
+    border-bottom: 1px solid #dedede;
+    margin: 0 -7px 10px -7px;
+    padding: 7px 8px 7px 10px;
+    border-radius: 4px 4px 0 0; }
+  .RadColorPicker_Bootstrap div.rcpPalette {
+    border: 1px solid #dedede;
+    background-color: #ffffff;
+    padding: 0 7px 10px;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+  .RadColorPicker_Bootstrap div.rcpPalette label,
+  .RadColorPicker_Bootstrap div.rcpRecentColorsLabel {
+    line-height: 20px; }
+  .RadColorPicker_Bootstrap .rcpInputsWrapper li label {
+    line-height: 37px; }
+  .RadColorPicker_Bootstrap div.rcpColorPreview {
+    height: 32px;
+    width: 65px;
+    border: 1px solid #cccccc;
+    margin: 0;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+  .RadColorPicker_Bootstrap.RadColorPicker .rcpPalette input.rcpHexInput {
+    width: 167px;
+    height: 20px;
+    line-height: 20px;
+    padding: 6px 12px;
+    margin: 0 0 0 -1px;
+    border: 1px solid;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    font-size: 14px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpImageButton {
+    width: 32px;
+    height: 32px;
+    margin-left: -1px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpImageButton:last-child {
+    border-radius: 0 4px 4px 0; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpEmptyColor {
+    background-position: -50px -88px; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpCustomColorButton {
+    background-position: 0 -88px; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpButton {
+    width: 42px;
+    height: 20px;
+    padding: 6px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 4px; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpButton:hover,
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpButton:focus {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpButton:focus {
+    outline-width: thin;
+    outline-offset: -2px;
+    outline-color: #adadad; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpButton:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    color: #333333; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpButton span {
+    padding-left: 0; }
+  .RadColorPicker_Bootstrap .rcpColorPreview,
+  .RadColorPicker_Bootstrap .rcpInput,
+  .RadColorPicker_Bootstrap .rcpHexInput,
+  .RadColorPicker_Bootstrap .rcpMillionColorsPalette {
+    border-color: #cccccc; }
+  .RadColorPicker_Bootstrap .rcpMillionColorsSlider div.rslTrack {
+    border: 1px solid #dedede; }
+  html.RadForm.rfdTextbox .RadColorPicker_Bootstrap input.rcpInput,
+  div.RadForm.rfdTextbox .RadColorPicker_Bootstrap input.rcpInput {
+    width: 26px; }
+  .RadColorPicker_Bootstrap .rcpPalette,
+  .RadColorPicker_Bootstrap input,
+  .RadColorPicker_Bootstrap a {
+    color: #333333; }
+  @media all and (-webkit-min-device-pixel-ratio: 10000), not all and (-webkit-min-device-pixel-ratio: 0) {
+    .RadColorPicker_Bootstrap ul.rcpWebPalette li {
+      margin: 0; } }
+  .RadColorPicker_Bootstrap ul.rcpWebPalette li,
+  .RadColorPicker_Bootstrap .rcpColorBox,
+  .RadColorPicker_Bootstrap .rcpColorBox span,
+  .RadColorPicker_Bootstrap .rcpSelectedColor,
+  .RadColorPicker_Bootstrap .rcpSelectedColor span {
+    *font-size: 1px; }
+  .RadColorPicker_Bootstrap .rcpColorBox span {
+    width: 18px;
+    height: 18px; }
+  .RadColorPicker_Bootstrap .rcpSelectedColor span {
+    width: 18px;
+    height: 18px; }
+  .RadColorPicker_Bootstrap div.rcpTabs {
+    bottom: -43px;
+    left: -1px; }
+  .RadColorPicker_Bootstrap div.rcpTabs ul li,
+  .RadColorPicker_Bootstrap div.rcpTabs ul li.rcpSelectedTab {
+    margin: -4px 2px 0 0; }
+  .RadColorPicker_Bootstrap .rcpTabs a {
+    height: 41px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 0 0 4px 4px; }
+  .RadColorPicker_Bootstrap div.rcpTabs ul li a {
+    padding: 0 8px 0 1px; }
+  .RadColorPicker_Bootstrap div.rcpTabs ul li a span {
+    line-height: 41px;
+    color: #428bca; }
+  .RadColorPicker_Bootstrap .rcpTabs a:hover {
+    height: 40px;
+    background-color: #e6e6e6;
+    border-color: transparent; }
+  .RadColorPicker_Bootstrap .rcpTabs a:hover span {
+    color: #2a6496; }
+  .RadColorPicker_Bootstrap .rcpTabs a:active {
+    background-color: #e6e6e6; }
+  .RadColorPicker_Bootstrap .rcpTabs li.rcpSelectedTab a,
+  .RadColorPicker_Bootstrap .rcpTabs li.rcpSelectedTab a:hover {
+    height: 41px;
+    background-color: #ffffff;
+    border-color: #fff #cccccc #cccccc; }
+  .RadColorPicker_Bootstrap .rcpTabs .rcpSelectedTab a span,
+  .RadColorPicker_Bootstrap .rcpTabs .rcpSelectedTab:hover a span {
+    color: #333333; }
+  .RadColorPicker_Bootstrap div.rcpRGBPageView ul li {
+    width: 385px;
+    height: 40px; }
+  .RadColorPicker_Bootstrap div.rcpRGBPageView .rcpInput {
+    margin-top: -7px;
+    margin-left: 19px; }
+  .RadColorPicker_Bootstrap .rcpPalette .rcpMillionColorsPalette {
+    height: 230px;
+    background-size: 100% 100%; }
+  .RadColorPicker_Bootstrap div.rcpHsvPageView .rcpMillionColorsPalette {
+    width: 256px;
+    background-size: 100%; }
+  .RadColorPicker_Bootstrap input.rcpInput {
+    width: 42px;
+    height: 20px;
+    line-height: 20px;
+    padding: 6px 12px;
+    margin-top: 2px;
+    border-radius: 4px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+  .RadColorPicker_Bootstrap input.rcpInput:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadColorPicker_Bootstrap input.rcpInput:focus {
+    border-color: #3c87c8;
+    color: #333333;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none; }
+  .RadColorPicker_Bootstrap input.rcpInput:active {
+    border-color: #3c87c8;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadColorPicker_Bootstrap ul.rcpRecentColors {
+    padding: 35px 1px 0; }
+  .RadColorPicker_Bootstrap ul.rcpRecentColors li {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px 0 0; }
+  .RadColorPicker_Bootstrap .rcpRecentColors .rcpColorBox {
+    margin: -20px 0 0 0;
+    width: 21px; }
+  .RadColorPicker_Bootstrap .rcpRecentColors span {
+    height: 16px;
+    width: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc; }
+  .RadColorPicker_Bootstrap div.rcpIcon {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    width: 64px;
+    height: 32px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px; }
+  .RadColorPicker_Bootstrap div.rcpIcon:hover,
+  .RadColorPicker_Bootstrap div.rcpIcon:focus {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadColorPicker_Bootstrap div.rcpIcon:focus {
+    outline-width: thin;
+    outline-offset: -2px;
+    outline-color: #adadad; }
+  .RadColorPicker_Bootstrap div.rcpIcon:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    color: #333333; }
+  .RadColorPicker_Bootstrap div.rcpIcon a {
+    width: 31px;
+    height: 32px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #cccccc;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -9.5px -59px;
+    border-radius: 0 4px 4px 0;
+    right: 0; }
+  .RadColorPicker_Bootstrap div.rcpIcon a:hover,
+  .RadColorPicker_Bootstrap div.rcpIcon a:focus {
+    background-position: -9.5px -59px;
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadColorPicker_Bootstrap div.rcpIcon a:active {
+    background-position: -9.5px -59px;
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+    color: #333333; }
+  .RadColorPicker_Bootstrap div.rcpIcon em {
+    width: 32px;
+    height: 32px;
+    margin: 0; }
+  .RadColorPicker_Bootstrap div.rcpMillionColorsPageView div.rcpInputsWrapper {
+    width: 88px;
+    margin: -2px 0 0 8px; }
+  .RadColorPicker_Bootstrap div.rcpHeader .rcpButton {
+    margin-right: -1px; }
+  .RadColorPicker_Bootstrap .RadSlider_Bootstrap.rcpSlider {
+    width: 275px !important;
+    padding: 0; }
+  .RadColorPicker_Bootstrap .RadSlider_Bootstrap div.rslHorizontal div.rslTrack {
+    width: 275px !important;
+    background-image: url('ColorPicker/rcpSprite.png');
+    background-color: transparent;
+    box-shadow: none; }
+  .RadColorPicker_Bootstrap .RadSlider_Bootstrap div.rslVertical .rslSelectedregion,
+  .RadColorPicker_Bootstrap .RadSlider_Bootstrap div.rslHorizontal div.rslSelectedregion {
+    background-image: none;
+    background-color: transparent;
+    border: 0 none; }
+  .RadColorPicker_Bootstrap .rcpSlider .rslHorizontal {
+    width: 214px !important;
+    margin: 0; }
+  .RadColorPicker_Bootstrap .rcpSlider .rslHorizontal div.rslTrack {
+    height: 12px;
+    top: 4px;
+    border: 0 none;
+    border-radius: 4px; }
+  .RadColorPicker_Bootstrap div.rcpRedSlider .rslHorizontal .rslTrack,
+  .RadColorPicker_Bootstrap div.rcpRedSlider .rslHorizontal .rslSelectedregion {
+    background-position: center 0; }
+  .RadColorPicker_Bootstrap div.rcpGreenSlider .rslHorizontal .rslTrack,
+  .RadColorPicker_Bootstrap div.rcpGreenSlider .rslHorizontal .rslSelectedregion {
+    background-position: center -27px !important; }
+  .RadColorPicker_Bootstrap div.rcpBlueSlider .rslHorizontal .rslTrack,
+  .RadColorPicker_Bootstrap div.rcpBlueSlider .rslHorizontal .rslSelectedregion {
+    background-position: center -54px !important; }
+  .RadColorPicker_Bootstrap .rcpMillionColorsSlider .rslVertical {
+    margin: 0; }
+  .RadColorPicker_Bootstrap div.rcpSlider div.rslHorizontal .rslTrack a.rslDraghandle,
+  .RadColorPicker_Bootstrap div.rcpMillionColorsSlider div.rslVertical div.rslTrack a.rslDraghandle {
+    width: 14px;
+    height: 14px;
+    margin-top: 6px;
+    background-image: url('ColorPicker/rcpSprite.png');
+    background-position: -980px -106px;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    filter: none;
+    border-radius: 0; }
+  .RadColorPicker_Bootstrap div.rcpMillionColorsSlider {
+    margin: 0 0 0 -5px; }
+  .RadColorPicker_Bootstrap div.rcpMillionColorsSlider div.rslVertical div.rslTrack {
+    width: 15px;
+    height: 232px !important;
+    background-size: 100% 100%;
+    border: 0 none; }
+  .RadColorPicker_Bootstrap div.rcpMillionColorsSlider div.rslVertical div.rslTrack a.rslDraghandle {
+    width: 14px;
+    height: 14px;
+    margin-top: 0;
+    background-position: -950px -106px; }
+  .RadColorPicker_Bootstrap li.rslItem span,
+  .RadColorPicker_Bootstrap li.rslLargeTick span {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin-top: 9px; }
+
+div.RadColorPickerRTL_Bootstrap div.rcpMillionColorsPageView div.rcpInputsWrapper {
+  margin: 0; }
+
+div.RadColorPickerRTL_Bootstrap .rslVertical {
+  margin-right: 15px; }
+
+/* Custom color */
+.RadColorPicker.RadColorPicker_Bootstrap.rcpCustomColorWrapper {
+  width: 377px; }
+

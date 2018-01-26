@@ -1,0 +1,22 @@
+.RadTreeView_Office2007 {
+  color: #333333; }
+  .RadTreeView_Office2007 .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Office2007 .rtChkTristate:hover {
+    color: #41559c; }
+  .RadTreeView_Office2007 .rtLoadingIcon {
+    background-image: url('../Office2007/Common/loading_small.gif'); }
+  .RadTreeView_Office2007 .rtPlusHover,
+  .RadTreeView_Office2007 .rtMinusHover {
+    color: #41559c; }
+  .RadTreeView_Office2007 .rtHover .rtIn {
+    border-color: #ffd563;
+    color: #00156e;
+    background-color: #ffd563;
+    background-image: linear-gradient(#ffe391, #ffd563); }
+  .RadTreeView_Office2007 .rtSelected .rtIn {
+    border-color: #f99631;
+    color: #000000;
+    background-color: #f99631;
+    background-image: linear-gradient(#faad60, #f99631); }
+

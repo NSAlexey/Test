@@ -1,0 +1,62 @@
+.RadRotator_Bootstrap .rrClipRegion {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Bootstrap a.rrButton {
+  box-sizing: border-box;
+  width: 34px;
+  height: 34px;
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  background-image: url('Common/radActionsSprite.png'); }
+
+.RadRotator_Bootstrap a.rrButton:hover,
+.RadRotator_Bootstrap a.rrButton:focus {
+  border-color: #adadad;
+  color: #333333;
+  background-color: #e6e6e6;
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.RadRotator_Bootstrap a.rrButton:focus {
+  outline-width: thin;
+  outline-offset: -2px;
+  outline-color: #adadad; }
+
+.RadRotator_Bootstrap a.rrButton:active {
+  border-color: #adadad;
+  color: #333333;
+  background-color: #e6e6e6;
+  color: #333333;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset; }
+
+.RadRotator_Bootstrap .rrButton.rrButtonUp,
+.RadRotator_Bootstrap .rrButton.rrButtonUp:hover {
+  top: 1px;
+  border-radius: 4px 4px 0 0;
+  background-position: -9px -9px; }
+
+.RadRotator_Bootstrap .rrButton.rrButtonRight,
+.RadRotator_Bootstrap .rrButton.rrButtonRight:hover {
+  right: 1px;
+  border-radius: 0 4px 4px 0;
+  background-position: -9px -159px; }
+
+.RadRotator_Bootstrap .rrButton.rrButtonDown,
+.RadRotator_Bootstrap .rrButton.rrButtonDown:hover {
+  bottom: 1px;
+  border-radius: 0 0 4px 4px;
+  background-position: -9px -59px; }
+
+.RadRotator_Bootstrap .rrButton.rrButtonLeft,
+.RadRotator_Bootstrap .rrButton.rrButtonLeft:hover {
+  left: 1px;
+  border-radius: 4px 0 0 4px;
+  background-position: -9px -109px; }
+
+.RadRotator_Bootstrap .rrLoadingSign {
+  background: url('Common/loading_small.gif') no-repeat center; }
+

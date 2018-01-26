@@ -1,0 +1,73 @@
+.RadAutoCompleteBox_Bootstrap {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143; }
+  .RadAutoCompleteBox_Bootstrap .racTokenList {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    padding-right: 27px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+    .RadAutoCompleteBox_Bootstrap .racTokenList:hover {
+      border-color: #adadad; }
+    .RadAutoCompleteBox_Bootstrap .racTokenList.racFocused {
+      border-color: #3c87c8;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  .RadAutoCompleteBox_Bootstrap .racToken {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border-color: #2e6da4;
+    color: #ffffff;
+    background-color: #337ab7; }
+  .RadAutoCompleteBox_Bootstrap .racRemoveTokenLink {
+    margin-top: -2px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -117px -3367px; }
+  .RadAutoCompleteBox_Bootstrap .racTextToken {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    line-height: 28px; }
+  .RadAutoCompleteBox_Bootstrap .racInput {
+    height: 30px;
+    line-height: 30px; }
+  .RadAutoCompleteBox_Bootstrap .racEditTokenInput {
+    color: #ffffff; }
+  .RadAutoCompleteBox_Bootstrap .racToken.racHovered {
+    border-color: #204d74;
+    color: #ffffff;
+    background-color: #286090; }
+  .RadAutoCompleteBox_Bootstrap .racToken.racFocused {
+    outline: 1px dotted #ffffff;
+    outline-offset: -2px; }
+  .RadAutoCompleteBox_Bootstrap .racToken.racSelected {
+    border-color: #122b40;
+    color: #ffffff;
+    background-color: #286090; }
+  .RadAutoCompleteBox_Bootstrap .racLoadingIcon {
+    right: 5px;
+    bottom: 9px;
+    background-image: url('Common/loading_small.gif'); }
+
+.RadAutoCompleteBoxPopup_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  margin-top: 3px;
+  padding: 5px 0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+  .RadAutoCompleteBoxPopup_Bootstrap .racItem {
+    padding: 3px 12px; }
+  .RadAutoCompleteBoxPopup_Bootstrap .racItemHovered {
+    color: #000000;
+    background-color: #eeeeee; }
+  .RadAutoCompleteBoxPopup_Bootstrap .racFocused {
+    box-shadow: inset 0 0 5px #286090; }
+  .RadAutoCompleteBoxPopup_Bootstrap .racItemSelected {
+    color: #ffffff;
+    background-color: #337ab7; }
+

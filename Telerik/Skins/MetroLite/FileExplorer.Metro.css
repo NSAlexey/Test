@@ -1,0 +1,36 @@
+.RadFileExplorer_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadFileExplorer_Metro .rfeFilterTxt,
+  .RadFileExplorer_Metro .rfeAddressBox {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Metro .rfeLink {
+    border-radius: 0; }
+  .RadFileExplorer_Metro .rfeLink:hover {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadFileExplorer_Metro .rfeSelectedLink,
+  .RadFileExplorer_Metro .rfeSelectedLink:hover {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadFileExplorer_Metro .rfeDropZone,
+  .RadFileExplorer_Metro .rfeFilterContainer,
+  .RadFileExplorer_Metro .rfePageControlContainer {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Metro .rfeDropUploadInfoPanel {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+
+.RadWindow_Metro .rfeUploadInfoPanel {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff; }

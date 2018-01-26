@@ -1,0 +1,14 @@
+.RadTagCloud_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTagCloud_Telerik.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadTagCloud_Telerik .rtcTagItem a {
+    color: #66b340; }
+  .RadTagCloud_Telerik .rtcTagItem a:hover {
+    color: #467b2c; }
+  .RadTagCloud_Telerik.rtcLoading {
+    background-image: url('../Telerik/Common/loading_small.gif'); }
+

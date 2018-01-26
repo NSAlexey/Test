@@ -1,0 +1,30 @@
+.RecurrenceEditor_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RecurrenceEditor_BlackMetroTouch .rsAdvRecurrenceTitle {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RecurrenceEditor_BlackMetroTouch .rsTabbedOptionList {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+    .RecurrenceEditor_BlackMetroTouch .rsTabbedOptionList label:hover {
+      border-color: #555555;
+      color: #ffffff;
+      background-color: #3c3c3c; }
+  .RecurrenceEditor_BlackMetroTouch .rsAdvRecurrenceSave {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+    .RecurrenceEditor_BlackMetroTouch .rsAdvRecurrenceSave:hover {
+      border-color: #006299;
+      color: #ffffff;
+      background-color: #006299; }
+    .RecurrenceEditor_BlackMetroTouch .rsAdvRecurrenceSave:active {
+      border-color: #004166;
+      color: #ffffff;
+      background-color: #004166; }
+

@@ -1,0 +1,83 @@
+.RadUpload_Glow {
+  color: #e2e8eb;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c1c7ca; }
+  .RadUpload_Glow .ruFileWrap {
+    height: 30px; }
+  .RadUpload_Glow .ruUploadProgress {
+    padding-right: 1px;
+    font-size: 12px; }
+  .RadUpload_Glow .ruFileProgressWrap {
+    margin: 2px 0 0 -1px;
+    border: 1px solid #5e6b73;
+    background: #4a565d; }
+  .RadUpload_Glow .ruFileProgress {
+    margin: 0;
+    background-color: #ffc863; }
+  .RadUpload_Glow .ruFakeInput {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c;
+    font: normal 13px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUpload_Glow .ruStyled .ruFakeInput {
+    padding: 3px 4px;
+    height: 20px; }
+  .RadUpload_Glow .ruButton {
+    padding: 1px 4px 4px;
+    height: 28px;
+    border-width: 1px solid;
+    border-radius: 3px;
+    background: #1c262c url('../Common/Gradients/radGradientLightV50.png') 0 0 repeat-x;
+    border-color: #35434b;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#30414b, #1c262c);
+    font: normal 13px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUpload_Glow .ruButtonHover {
+    border-color: #cd8100;
+    color: #733700;
+    background: #ffa201, #cd8100 url('../Common/Gradients/radGradientLightV50.png') 0 0 repeat-x;
+    background-image: linear-gradient(#ffa201, #cd8100); }
+  .RadUpload_Glow .ruButton.ruButtonFocus {
+    border: 1px dotted #ddd; }
+  .RadUpload_Glow .ruRemove {
+    height: 21px;
+    padding: 0 0 0 20px;
+    border: 0;
+    color: #ffa915;
+    background: none;
+    filter: none;
+    font-size: 12px; }
+    .RadUpload_Glow .ruRemove:hover {
+      text-decoration: underline; }
+  .RadUpload_Glow .ruCancel {
+    padding: 0 0 0 20px;
+    border: 0;
+    color: #ffa915;
+    background: none;
+    filter: none;
+    font-size: 12px; }
+    .RadUpload_Glow .ruCancel:hover {
+      text-decoration: underline; }
+  .RadUpload_Glow .ruActions .ruButton {
+    background-position: 0 0; }
+  .RadUpload_Glow .ruDropZone {
+    background: #1c262c;
+    border-color: #515a61;
+    color: #c1c7ca;
+    font: 10px "Arial", sans-serif;
+    text-transform: uppercase; }
+    .RadUpload_Glow .ruDropZone span {
+      margin-top: -4px; }
+
+.RadUpload_rtl.RadUpload_Glow .ruUploadProgress {
+  padding-right: 18px; }
+
+.RadUpload_rtl.RadUpload_Glow .ruRemove {
+  padding-right: 20px; }
+
+.RadUpload_rtl.RadUpload_Glow .ruButton {
+  margin-right: 10px; }
+

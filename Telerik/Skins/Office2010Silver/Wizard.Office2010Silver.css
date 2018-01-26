@@ -1,0 +1,155 @@
+.RadWizard_Office2010Silver {
+  color: #333333;
+  background-color: #e2e5e9;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+
+.RadWizard_Office2010Silver .rwzButton {
+  border-radius: 0.25em;
+  background-color: #c5c5c5;
+  background-image: url('Common/radGradientButtonSprite.png');
+  border-color: #bfc3ca;
+  color: #333333;
+  background-color: #dbdde1;
+  background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadWizard_Office2010Silver .rwzButton.rwzHovered {
+    background-color: #c6c6c6;
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadWizard_Office2010Silver .rwzButton.rwzClicked {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.RadWizard_Office2010Silver .rwzBreadCrumb {
+  color: #333333; }
+  .RadWizard_Office2010Silver .rwzBreadCrumb .rwzLI {
+    border-color: #bfc3ca; }
+  .RadWizard_Office2010Silver .rwzBreadCrumb .rwzLink {
+    background: url('Wizard/rwzTab.png') repeat-x 0 50%; }
+  .RadWizard_Office2010Silver .rwzBreadCrumb .rwzCallout {
+    background: url('Wizard/rwzCallout.png') no-repeat 100% 50%; }
+  .RadWizard_Office2010Silver .rwzBreadCrumb .rwzHovered {
+    color: #000000;
+    border-color: #f2d359; }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzHovered .rwzLink {
+      border-color: #fcf5d9;
+      background-image: url('Wizard/rwzTabHover.png'); }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzHovered .rwzCallout {
+      background-image: url('Wizard/rwzCalloutHover.png'); }
+  .RadWizard_Office2010Silver .rwzBreadCrumb .rwzSelected {
+    color: #000000;
+    border-color: #c38e00; }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzSelected .rwzLink {
+      background-image: url('Wizard/rwzTabSelect.png'); }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzSelected .rwzCallout {
+      background-image: url('Wizard/rwzCalloutSelect.png'); }
+  .RadWizard_Office2010Silver .rwzBreadCrumb .rwzDisabled {
+    border-color: #bfc3ca; }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzDisabled .rwzLink {
+      background: url('Wizard/rwzTab.png') repeat-x 0 50%; }
+    .RadWizard_Office2010Silver .rwzBreadCrumb .rwzDisabled .rwzCallout {
+      background-image: url('Wizard/rwzCallout.png'); }
+
+.RadWizard_Office2010Silver .rwzProgressBar {
+  border-radius: 0.25em;
+  border-color: #a6b1bb;
+  background-color: #ffffff; }
+
+.RadWizard_Office2010Silver .rwzProgress {
+  border-radius: 0.16666667em 0em 0em 0.16666667em;
+  background-color: #ffd96e; }
+
+.RadWizard_Office2010Silver.rwzHorizontal .rwzFirst {
+  border-radius: 0.33333333em 0em 0em 0.33333333em; }
+  .RadWizard_Office2010Silver.rwzHorizontal .rwzFirst .rwzLink {
+    border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadWizard_Office2010Silver.rwzHorizontal .rwzLast {
+  border-radius: 0em 0.33333333em 0.33333333em 0em; }
+  .RadWizard_Office2010Silver.rwzHorizontal .rwzLast .rwzLink {
+    border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Office2010Silver.rwzHorizontal .rwzFirst.rwzLast {
+  border-radius: 0.33333333em; }
+  .RadWizard_Office2010Silver.rwzHorizontal .rwzFirst.rwzLast .rwzLink {
+    border-radius: 0.25em; }
+
+.RadWizard_Office2010Silver.rwzHorizontal .rwzProgressBar {
+  background-image: linear-gradient(#f7f8f9, #ffffff); }
+
+.RadWizard_Office2010Silver.rwzHorizontal .rwzProgress {
+  background-image: linear-gradient(#ffecb5, #ffd96e); }
+
+.RadWizard_Office2010Silver.rwzVertical .rwzFirst {
+  border-radius: 0.33333333em 0.33333333em 0em 0em; }
+  .RadWizard_Office2010Silver.rwzVertical .rwzFirst .rwzLink {
+    border-radius: 0.25em 0.25em 0em 0em; }
+
+.RadWizard_Office2010Silver.rwzVertical .rwzLast {
+  border-radius: 0em 0em 0.33333333em 0.33333333em; }
+  .RadWizard_Office2010Silver.rwzVertical .rwzLast .rwzLink {
+    border-radius: 0em 0em 0.25em 0.25em; }
+
+.RadWizard_Office2010Silver.rwzVertical .rwzSelected,
+.RadWizard_Office2010Silver.rwzVertical .rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Office2010Silver.rwzVertical .rwzFirst.rwzLast.rwzSelected,
+.RadWizard_Office2010Silver.rwzVertical .rwzFirst.rwzLast.rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Office2010Silver.rwzVertical .rwzProgressBar {
+  background-image: linear-gradient(90deg, #f7f8f9, #ffffff); }
+
+.RadWizard_Office2010Silver.rwzVertical .rwzProgress {
+  background-image: linear-gradient(90deg, #ffecb5, #ffd96e); }
+
+.RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzCallout,
+.RadWizard_Office2010Silver.RadWizard_rtl .rwzBreadCrumb .rwzCallout {
+  background: url('Wizard/rwzCalloutRtl.png') no-repeat 0 50%; }
+
+.RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzHovered .rwzCallout,
+.RadWizard_Office2010Silver.RadWizard_rtl .rwzBreadCrumb .rwzHovered .rwzCallout {
+  background-image: url('Wizard/rwzCalloutHoverRtl.png'); }
+
+.RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzSelected .rwzCallout,
+.RadWizard_Office2010Silver.RadWizard_rtl .rwzBreadCrumb .rwzSelected .rwzCallout {
+  background-image: url('Wizard/rwzCalloutSelectRtl.png'); }
+
+.RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzSelected.rwzFirst,
+.RadWizard_Office2010Silver.RadWizard_rtl.rwzVertical .rwzBreadCrumb .rwzSelected.rwzFirst {
+  border-radius: 0em 0.33333333em 0em 0em; }
+  .RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzSelected.rwzFirst .rwzLink,
+  .RadWizard_Office2010Silver.RadWizard_rtl.rwzVertical .rwzBreadCrumb .rwzSelected.rwzFirst .rwzLink {
+    border-radius: 0em 0.25em 0em 0em; }
+
+.RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzSelected.rwzLast,
+.RadWizard_Office2010Silver.RadWizard_rtl.rwzVertical .rwzBreadCrumb .rwzSelected.rwzLast {
+  border-radius: 0em 0em 0.33333333em 0em; }
+  .RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzSelected.rwzLast .rwzLink,
+  .RadWizard_Office2010Silver.RadWizard_rtl.rwzVertical .rwzBreadCrumb .rwzSelected.rwzLast .rwzLink {
+    border-radius: 0em 0em 0.25em 0em; }
+
+.RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzSelected .rwzFirst.rwzLast,
+.RadWizard_Office2010Silver.RadWizard_rtl.rwzVertical .rwzBreadCrumb .rwzSelected .rwzFirst.rwzLast {
+  border-radius: 0em 0.33333333em 0.33333333em 0em; }
+  .RadWizard_Office2010Silver.rwzRightBreadCrumb .rwzBreadCrumb .rwzSelected .rwzFirst.rwzLast .rwzLink,
+  .RadWizard_Office2010Silver.RadWizard_rtl.rwzVertical .rwzBreadCrumb .rwzSelected .rwzFirst.rwzLast .rwzLink {
+    border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Office2010Silver.RadWizard_rtl.rwzHorizontal .rwzFirst {
+  border-radius: 0em 0.33333333em 0.33333333em 0em; }
+  .RadWizard_Office2010Silver.RadWizard_rtl.rwzHorizontal .rwzFirst .rwzLink {
+    border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Office2010Silver.RadWizard_rtl.rwzHorizontal .rwzLast {
+  border-radius: 0.33333333em 0em 0em 0.33333333em; }
+  .RadWizard_Office2010Silver.RadWizard_rtl.rwzHorizontal .rwzLast .rwzLink {
+    border-radius: 0.25em 0em 0em 0.25em; }
+

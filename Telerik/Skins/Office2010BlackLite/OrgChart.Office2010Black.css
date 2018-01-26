@@ -1,0 +1,69 @@
+.RadOrgChart_Office2010Black {
+  color: #333333; }
+  .RadOrgChart_Office2010Black .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(96, 96, 96, 0.5); }
+  .RadOrgChart_Office2010Black .rocItem,
+  .RadOrgChart_Office2010Black .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #919191;
+    color: #000000;
+    background-color: #f6f6f6; }
+  .RadOrgChart_Office2010Black .rocExpandArrow,
+  .RadOrgChart_Office2010Black .rocCollapseArrow,
+  .RadOrgChart_Office2010Black .rocExpandGroupArrow,
+  .RadOrgChart_Office2010Black .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f; }
+  .RadOrgChart_Office2010Black .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Office2010Black .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Office2010Black .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Office2010Black .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Office2010Black/Common/loading_small.gif'); }
+  .RadOrgChart_Office2010Black .rocExpandArrow:hover,
+  .RadOrgChart_Office2010Black .rocCollapseArrow:hover,
+  .RadOrgChart_Office2010Black .rocExpandGroupArrow:hover,
+  .RadOrgChart_Office2010Black .rocCollapseGroupArrow:hover {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9; }
+  .RadOrgChart_Office2010Black .rocExpandArrow:active,
+  .RadOrgChart_Office2010Black .rocCollapseArrow:active,
+  .RadOrgChart_Office2010Black .rocExpandGroupArrow:active,
+  .RadOrgChart_Office2010Black .rocCollapseGroupArrow:active {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76; }
+
+.RadOrgChart_Office2010Black.rocDetachedItem,
+.RadOrgChart_Office2010Black.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #919191;
+  color: #000000;
+  background-color: #f6f6f6; }
+
+.rocToolbar_Office2010Black {
+  border-radius: 5px;
+  border-color: #565656;
+  color: #000000;
+  background-color: #6f6f6f;
+  background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .rocToolbar_Office2010Black .rocToolbarButton {
+    border-radius: 3px;
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .rocToolbar_Office2010Black .rocToolbarButton:hover {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .rocToolbar_Office2010Black .rocToolbarButton:active {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+

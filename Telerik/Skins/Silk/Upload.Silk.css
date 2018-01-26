@@ -1,0 +1,79 @@
+.RadUpload_Silk {
+  color: #333333;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif; }
+  .RadUpload_Silk .ruFileWrap {
+    height: 30px; }
+  .RadUpload_Silk .ruUploadProgress {
+    padding-right: 1px;
+    font-size: 12px; }
+  .RadUpload_Silk .ruFileProgressWrap {
+    margin: 2px 0 0 -1px;
+    border: 1px solid #d7d7d7;
+    background: #f3f3f3; }
+  .RadUpload_Silk .ruFileProgress {
+    margin: 0;
+    background-color: #54cbe0; }
+  .RadUpload_Silk .ruFakeInput {
+    border-color: #c4c4c4;
+    color: #3b3b3b;
+    background-color: #ffffff;
+    font: normal 13px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUpload_Silk .ruStyled .ruFakeInput {
+    padding: 3px 4px;
+    height: 20px; }
+  .RadUpload_Silk .ruButton {
+    padding: 1px 4px 4px;
+    height: 28px;
+    border: 1px solid;
+    border-radius: 3px;
+    background: #e3e3e3 url('../Common/Gradients/radGradientDarkV50.png') 0 0 repeat-x;
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3);
+    font: normal 13px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUpload_Silk .ruButtonHover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background: #00acca, #0092ab url('../Common/Gradients/radGradientDarkV50.png') 0 0 repeat-x;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadUpload_Silk .ruRemove {
+    height: 21px;
+    padding: 0 0 0 20px;
+    border: 0;
+    color: #0394ae;
+    background: none;
+    filter: none;
+    font-size: 12px; }
+    .RadUpload_Silk .ruRemove:hover {
+      text-decoration: underline; }
+  .RadUpload_Silk .ruCancel {
+    padding: 0 0 0 20px;
+    border: 0;
+    color: #0394ae;
+    background: none;
+    filter: none;
+    font-size: 12px; }
+    .RadUpload_Silk .ruCancel:hover {
+      text-decoration: underline; }
+  .RadUpload_Silk .ruActions .ruButton {
+    background-position: 0 0; }
+  .RadUpload_Silk .ruDropZone {
+    background: #e6e6e6;
+    border-color: #cccccc;
+    color: #878787;
+    font: 10px "Arial", sans-serif;
+    text-transform: uppercase; }
+    .RadUpload_Silk .ruDropZone span {
+      margin-top: -4px; }
+
+.RadUpload_rtl.RadUpload_Silk .ruUploadProgress {
+  padding-right: 18px; }
+
+.RadUpload_rtl.RadUpload_Silk .ruRemove {
+  padding-right: 20px; }
+
+.RadUpload_rtl.RadUpload_Silk .ruButton {
+  margin-right: 10px; }
+

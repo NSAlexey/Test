@@ -1,0 +1,15 @@
+.RadTagCloud_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadTagCloud_Bootstrap.rtcClassic {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+  .RadTagCloud_Bootstrap .rtcTagItem a {
+    color: #337ab7; }
+  .RadTagCloud_Bootstrap .rtcTagItem a:hover {
+    color: #23527c; }
+  .RadTagCloud_Bootstrap.rtcLoading {
+    background-image: url('Common/loading_small.gif'); }
+

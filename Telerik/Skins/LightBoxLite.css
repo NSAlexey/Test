@@ -1,0 +1,164 @@
+.RadLightBox {
+  padding: 10px;
+  box-sizing: content-box;
+  outline: 0;
+  border-radius: 15px;
+  background-color: rgba(187, 187, 187, 0.3);
+  line-height: 1.42857143; }
+  .RadLightBox .rltbWrapper {
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden; }
+  .RadLightBox .rltbItemBox {
+    padding: 10px;
+    position: relative; }
+  .RadLightBox .rltbDescriptionBox {
+    *zoom: 1;
+    padding: 10px;
+    z-index: 10;
+    left: 0;
+    right: 0; }
+    .RadLightBox .rltbDescriptionBox:after {
+      content: "";
+      height: 0;
+      clear: both;
+      display: block; }
+  .RadLightBox .rltbDescBottom {
+    position: absolute;
+    bottom: 0; }
+  .RadLightBox .rltbDescOverlayTop {
+    position: absolute;
+    top: 0; }
+  .RadLightBox .rltbDescOverlayBottom {
+    position: absolute;
+    bottom: 0; }
+  .RadLightBox h4.rltbTitle {
+    margin: 0 0 .25em;
+    font-size: 1.25em;
+    color: inherit;
+    text-transform: none; }
+  .RadLightBox .rltbDescription {
+    margin: 0 0 .5em; }
+  .RadLightBox .rltbPager {
+    filter: alpha(opacity=75);
+    opacity: .75;
+    font-size: 0.929em; }
+  .RadLightBox .rltbActionButton {
+    padding: 6px;
+    border-width: 0;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer; }
+  .RadLightBox .rltbActionButton::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .RadLightBox .rltbButtonText {
+    display: none; }
+  .RadLightBox .rltbIcon {
+    width: 1em;
+    height: 1em;
+    font: 16px/1 "WebComponentsIcons";
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top; }
+  .RadLightBox .rltbCloseIcon:before {
+    content: "\e11b"; }
+  .RadLightBox .rltbMaximizeIcon:before {
+    content: "\e528"; }
+  .RadLightBox .rltbRestoreIcon:before {
+    content: "\e529"; }
+  .RadLightBox .rltbClose {
+    padding: 10px 10px 0 10px;
+    width: 28px;
+    height: 14px;
+    box-sizing: content-box;
+    background: inherit;
+    border-radius: 90px 90px 0 0;
+    position: absolute;
+    top: -24px;
+    right: -24px;
+    z-index: 20; }
+    .RadLightBox .rltbClose:after {
+      content: "";
+      height: 24px;
+      width: 24px;
+      background: inherit;
+      border-radius: 0 0 45px;
+      display: block;
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      top: 24px; }
+  .RadLightBox .rltbCloseButton {
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+  .RadLightBox .rltbToolbar {
+    float: right;
+    padding-left: 1em; }
+  .RadLightBox .rltbToolbar .rltbActionButton {
+    background: none;
+    margin-left: .5em; }
+  .RadLightBox .rltbButtonWrapper {
+    width: 1em;
+    height: 1em;
+    color: #ffffff;
+    font-size: 6em;
+    line-height: 1;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    margin-top: -.5em;
+    cursor: pointer; }
+    .RadLightBox .rltbButtonWrapper:before {
+      font-family: "WebComponentsIcons"; }
+    .RadLightBox .rltbButtonWrapper .rltbActionButton {
+      display: none; }
+  .RadLightBox .rltbPrevButtonWrapper {
+    left: 0; }
+  .RadLightBox .rltbPrevButtonWrapper:before {
+    content: "\e016"; }
+  .RadLightBox .rltbNextButtonWrapper {
+    right: 0; }
+  .RadLightBox .rltbNextButtonWrapper:before {
+    content: "\e014"; }
+
+.RadLightBox.rltbMaximized {
+  padding: 0;
+  border-radius: 0;
+  background: none; }
+  .RadLightBox.rltbMaximized .rltbWrapper {
+    border-radius: 0;
+    color: #ffffff;
+    background: black; }
+  .RadLightBox.rltbMaximized .rltbItemBox {
+    padding: 0; }
+  .RadLightBox.rltbMaximized .rltbDescriptionBox {
+    color: inherit;
+    background-color: inherit;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .RadLightBox.rltbMaximized .rltbToolbar {
+    padding-right: 50px; }
+  .RadLightBox.rltbMaximized .rltbClose {
+    padding: 0;
+    width: auto;
+    height: auto;
+    background: none;
+    right: 10px;
+    top: 10px; }
+  .RadLightBox.rltbMaximized .rltbClose:after {
+    display: none; }
+
+.rltbOverlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+

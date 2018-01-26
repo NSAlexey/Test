@@ -1,0 +1,116 @@
+.RadFileExplorer_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  padding-bottom: 34px;
+  border-radius: 4px;
+  border-radius: 4px;
+  /* Thumbnail view */
+  /* Thumbnail filter */ }
+  .RadFileExplorer_Bootstrap .RadToolBar_Bootstrap,
+  .RadFileExplorer_Bootstrap .RadToolBar_Bootstrap .rtbOuter {
+    border-radius: 4px 4px 0 0; }
+  .RadFileExplorer_Bootstrap .rgMasterTable {
+    border-radius: 0 0 4px 0; }
+  .RadFileExplorer_Bootstrap .RadToolBar_Bootstrap .rtbOuter {
+    border-color: transparent;
+    padding: 7px 10px 15px; }
+  .RadFileExplorer_Bootstrap .RadToolBar .rtbText {
+    background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+    background-repeat: no-repeat; }
+  .RadFileExplorer_Bootstrap span.rfeFileExtension,
+  .RadFileExplorer_Bootstrap div.rfeFileExtension {
+    background: url('../Common/FileExplorer/FileExtensionMonoLightSprites.png') no-repeat -7px -681px; }
+  .RadFileExplorer_Bootstrap .rfeAddressBox,
+  .RadFileExplorer_Bootstrap .rfeFilterTxt {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Bootstrap .rfeAddressBox {
+    font-size: 14px; }
+  .RadFileExplorer_Bootstrap .rfeAddressBox,
+  .RadFileExplorer_Bootstrap .rfeFilterTxt {
+    height: 32px !important; }
+  .RadFileExplorer_Bootstrap div.selectedFileName {
+    border-top: 1px solid #cccccc; }
+  .RadFileExplorer_Bootstrap .RadToolBar_Horizontal .rtbItem {
+    margin: 0 0 0 -1px !important; }
+  .RadFileExplorer_Bootstrap .RadToolBar_Bootstrap .rtbWrap {
+    width: 32px;
+    height: 32px;
+    padding: 0; }
+  .RadFileExplorer_Bootstrap .RadToolBar_Bootstrap .rtbIconOnly .rtbText {
+    margin: 7px 0 0 6px; }
+  .RadFileExplorer_Bootstrap .RadToolBar_Bootstrap .icnUpload {
+    width: auto;
+    padding: 0 2px; }
+  .RadFileExplorer_Bootstrap .RadToolBar_Bootstrap .icnUpload .rtbOut {
+    margin-top: 5px; }
+  .RadFileExplorer_Bootstrap .rfeThumbnailView .rfeThumbList a {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFileExplorer_Bootstrap .rfeThumbnailView li.rfeThumbList a:hover,
+  .RadFileExplorer_Bootstrap .rfeThumbnailView li.rfeThumbList .rfeHoveredLink,
+  .RadFileExplorer_Bootstrap .rfeThumbnailView .rfeThumbList .rfeSelectedLink:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadFileExplorer_Bootstrap .rfeThumbnailView li.rfeThumbList .rfeSelectedLink,
+  .RadFileExplorer_Bootstrap .rfeThumbnailView li.rfeThumbList .rfeSelectedLink:hover,
+  .RadFileExplorer_Bootstrap .rfeThumbnailView .rfeThumbList .rfeSelectedLink {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    color: #333333;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset; }
+  .RadFileExplorer_Bootstrap .rfeThumbnailView .rfeFile .rfeFileIcon {
+    background-image: url('../Common/FileExplorer/rfeThumbnailViewMonoLiteSprites.png'); }
+  .RadFileExplorer_Bootstrap .rfeFilterContainer {
+    background-color: #ffffff; }
+  .RadFileExplorer_Bootstrap .rfeThumbnailView span.rfeThumbTitle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 15px; }
+  .RadFileExplorer_Bootstrap .RadSlider_Bootstrap div.rslHorizontal a.rslDecrease {
+    margin: -4px 0 0; }
+  .RadFileExplorer_Bootstrap .RadSlider_Bootstrap div.rslHorizontal a.rslIncrease {
+    margin: -4px -2px 0 0; }
+  .RadFileExplorer_Bootstrap .RadTreeView .rtIn,
+  .RadFileExplorer_Bootstrap .RadTreeView .rtHover .rtIn,
+  .RadFileExplorer_Bootstrap .RadTreeView .rtSelected .rtIn {
+    padding: 0 4px 0 2px !important; }
+  .RadFileExplorer_Bootstrap .rfeDropZone {
+    background-color: rgba(249, 249, 249, 0.8); }
+  .RadFileExplorer_Bootstrap .rfeDropUploadInfoPanel {
+    background-color: #fcfcfc;
+    color: #333333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+  .RadFileExplorer_Bootstrap .rfeDropUploadProgress {
+    margin-top: 5px; }
+
+.RadWindow_Bootstrap .RadUpload_rtl.RadUpload_Bootstrap .ruRemove {
+  padding-right: 0; }
+
+.RadWindow_Bootstrap .RadUpload_rtl.RadUpload_Bootstrap .ruButton {
+  margin-right: 3px; }
+
+.RadWindow_Bootstrap .rfeUploadContainer .RadUpload,
+.RadWindow_Bootstrap .rfeUploadContainer .RadUploadProgressArea {
+  width: 430px; }
+
+.RadWindow_Bootstrap .ruFakeInput {
+  width: 270px; }
+
+div.rfeUploadInfoPanel {
+  background-color: #ffffff;
+  border: 1px solid #dedede; }
+
+.RadForm_Bootstrap .imagePreview {
+  height: 300px; }
+
+.RadForm_Bootstrap .imagePreviewer div#propertiesPage {
+  height: 358px !important; }
+

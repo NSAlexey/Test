@@ -1,0 +1,16 @@
+.RadLightBox_Office2010Blue .rltbWrapper {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+
+.RadLightBox_Office2010Blue .rltbDescOverlayTop,
+.RadLightBox_Office2010Blue .rltbDescOverlayBottom {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.RadLightBox_Office2010Blue .rltbToolbar .rltbActionButton {
+  color: #384e73;
+  background: #bfcddf; }
+
+.RadLightBox_Office2010Blue .rltbToolbar .rltbActionButton:active {
+  color: #3a71b7; }
+

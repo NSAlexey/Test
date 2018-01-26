@@ -1,0 +1,22 @@
+.RadTreeView_Windows7 {
+  color: #1e395b; }
+  .RadTreeView_Windows7 .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Windows7 .rtChkTristate:hover {
+    color: #4c93cc; }
+  .RadTreeView_Windows7 .rtLoadingIcon {
+    background-image: url('../Windows7/Common/loading_small.gif'); }
+  .RadTreeView_Windows7 .rtPlusHover,
+  .RadTreeView_Windows7 .rtMinusHover {
+    color: #4c93cc; }
+  .RadTreeView_Windows7 .rtHover .rtIn {
+    border-color: #bfd8f8;
+    color: #1e395b;
+    background-color: #edf4fd;
+    background-image: linear-gradient(#f9fbfd, #edf4fd); }
+  .RadTreeView_Windows7 .rtSelected .rtIn {
+    border-color: #8eb0da;
+    color: #1e395b;
+    background-color: #c2dcfc;
+    background-image: linear-gradient(#daeafc, #c2dcfc); }
+

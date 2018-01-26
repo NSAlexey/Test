@@ -1,0 +1,179 @@
+.RadSlider_Bootstrap {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* horizontal slider */
+  /* end horizontal slider */
+  /* vertical slider */
+  /* end vertical slider */
+  /* horizontal slider - TrackPosition=Top/Bottom */
+  /* horizontal slider - TrackPosition=Center */
+  /* vertical slider - TrackPosition=Center */ }
+  .RadSlider_Bootstrap .rslSelectedregion,
+  .RadSlider_Bootstrap a.rslHandle,
+  .RadSlider_Bootstrap a.rslDraghandle {
+    border-width: 1px;
+    border-style: solid; }
+  .RadSlider_Bootstrap .rslTrack {
+    border-color: #cccccc;
+    background-color: whitesmoke; }
+  .RadSlider_Bootstrap .rslSelectedregion {
+    border-color: #2e6da4;
+    background-color: #337ab7;
+    top: -1px; }
+  .RadSlider_Bootstrap a.rslHandle {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 90px; }
+  .RadSlider_Bootstrap a.rslDraghandle {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 90px; }
+  .RadSlider_Bootstrap a.rslDraghandle span {
+    width: 24px;
+    height: 24px; }
+  .RadSlider_Bootstrap a.rslDraghandle:hover,
+  .RadSlider_Bootstrap a.rslHandle:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSlider_Bootstrap a.rslDraghandle:focus,
+  .RadSlider_Bootstrap a.rslHandle:focus {
+    border-color: #3c87c8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none; }
+  .RadSlider_Bootstrap a.rslDraghandle:active,
+  .RadSlider_Bootstrap a.rslHandle:active {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: none; }
+  .RadSlider_Bootstrap div.rslHorizontal {
+    /*margin: 0 0 0 15px;*/ }
+    .RadSlider_Bootstrap div.rslHorizontal .rslTrack {
+      height: 8px;
+      line-height: 8px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+      border-width: 1px;
+      border-style: solid;
+      margin: 0 12px;
+      left: 34px; }
+    .RadSlider_Bootstrap div.rslHorizontal .rslItemsWrapper {
+      left: 34px;
+      margin: 0 12px; }
+    .RadSlider_Bootstrap div.rslHorizontal .rslSelectedregion {
+      height: 8px;
+      line-height: 8px; }
+    .RadSlider_Bootstrap div.rslHorizontal a.rslHandle {
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+      background-image: url('Common/radActionsSprite.png'); }
+    .RadSlider_Bootstrap div.rslHorizontal a.rslDecrease {
+      margin: -1px 0 0 0;
+      background-position: -9px -109px; }
+    .RadSlider_Bootstrap div.rslHorizontal a.rslDecrease:hover {
+      background-position: -59px -109px; }
+    .RadSlider_Bootstrap div.rslHorizontal a.rslIncrease {
+      margin: -1px 0 0 0;
+      right: 0;
+      background-position: -9px -159px; }
+    .RadSlider_Bootstrap div.rslHorizontal a.rslIncrease:hover {
+      background-position: -59px -159px; }
+    .RadSlider_Bootstrap div.rslHorizontal a.rslDraghandle {
+      width: 22px;
+      height: 22px; }
+    .RadSlider_Bootstrap div.rslHorizontal.rslTop .rslHandle {
+      top: -3px; }
+    .RadSlider_Bootstrap div.rslHorizontal.rslMiddle a.rslIncrease {
+      margin: -17px 0 0; }
+    .RadSlider_Bootstrap div.rslHorizontal.rslMiddle a.rslDecrease {
+      margin: -17px 0 0; }
+    .RadSlider_Bootstrap div.rslHorizontal.rslMiddle .rslHandle {
+      top: 50%; }
+    .RadSlider_Bootstrap div.rslHorizontal .rslItem {
+      background-image: url('Slider/ItemHorizontalBgr.png'); }
+    .RadSlider_Bootstrap div.rslHorizontal li.rslItem span {
+      display: inline-block;
+      *zoom: 1;
+      *display: inline;
+      font-size: 13px; }
+    .RadSlider_Bootstrap div.rslHorizontal.rslMiddle div.rslTrack {
+      margin-top: -5px; }
+  .RadSlider_Bootstrap div.rslVertical .rslTrack {
+    width: 8px;
+    left: 11px;
+    top: 34px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1) inset;
+    margin: 12px 0; }
+  .RadSlider_Bootstrap div.rslVertical .rslItemsWrapper {
+    top: 34px;
+    margin: 12px 0; }
+  .RadSlider_Bootstrap div.rslVertical .rslSelectedregion {
+    width: 8px;
+    left: -1px; }
+  .RadSlider_Bootstrap div.rslVertical.rslRight .rslTrack {
+    left: auto;
+    right: 11px; }
+  .RadSlider_Bootstrap div.rslVertical.rslCenter .rslTrack {
+    left: 50%;
+    margin-left: -5px; }
+  .RadSlider_Bootstrap div.rslVertical.rslCenter .rslHandle {
+    left: 50%;
+    margin-left: -17px; }
+  .RadSlider_Bootstrap div.rslVertical.rslLeft .rslHandle {
+    left: -3px; }
+  .RadSlider_Bootstrap div.rslVertical a.rslHandle {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 45px;
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadSlider_Bootstrap div.rslVertical a.rslDecrease {
+    margin: 0 0 0 -1px;
+    background-position: -9px -9px; }
+  .RadSlider_Bootstrap div.rslVertical a.rslDecrease:hover {
+    background-position: -59px -9px; }
+  .RadSlider_Bootstrap div.rslVertical a.rslIncrease {
+    margin: 0 0 0 -1px;
+    background-position: -9px -59px; }
+  .RadSlider_Bootstrap div.rslVertical a.rslIncrease:hover {
+    background-position: -59px -59px; }
+  .RadSlider_Bootstrap div.rslVertical a.rslDraghandle {
+    width: 22px;
+    height: 22px; }
+  .RadSlider_Bootstrap div.rslVertical .rslItem {
+    background-image: url('Slider/ItemVerticalBgr.png'); }
+  .RadSlider_Bootstrap div.rslVertical li.rslItem span {
+    font-size: 13px;
+    padding: 1px 3px; }
+  .RadSlider_Bootstrap .rslItemsWrapper .rslItem,
+  .RadSlider_Bootstrap .rslItemsWrapper .rslLargeTick span,
+  .RadSlider_Bootstrap .rslItemsWrapper .rslItemSelected {
+    color: #333333;
+    font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif; }
+  .RadSlider_Bootstrap .rslTop .rslSmallTick,
+  .RadSlider_Bootstrap .rslBottom .rslSmallTick {
+    background-image: url('Slider/SmallChangeHorizontal.png'); }
+  .RadSlider_Bootstrap .rslTop .rslLargeTick,
+  .RadSlider_Bootstrap .rslBottom .rslLargeTick {
+    background-image: url('Slider/LargeChangeHorizontal.png'); }
+  .RadSlider_Bootstrap .rslLeft .rslSmallTick,
+  .RadSlider_Bootstrap .rslRight .rslSmallTick {
+    background-image: url('Slider/SmallChangeVertical.png'); }
+  .RadSlider_Bootstrap .rslLeft .rslLargeTick,
+  .RadSlider_Bootstrap .rslRight .rslLargeTick {
+    background-image: url('Slider/LargelChangeVertical.png'); }
+  .RadSlider_Bootstrap .rslMiddle .rslSmallTick {
+    background-image: url('Slider/SmallChangeMiddleHorizontal.png'); }
+  .RadSlider_Bootstrap .rslLargeTick {
+    background-image: url('Slider/LargeChangeMiddleHorizontal.png'); }
+  .RadSlider_Bootstrap .rslCenter .rslSmallTick {
+    background-image: url('Slider/SmallChangeCenterVertical.png'); }
+  .RadSlider_Bootstrap .rslCenter .rslLargeTick {
+    background-image: url('Slider/LargelChangeCenterVertical.png'); }
+

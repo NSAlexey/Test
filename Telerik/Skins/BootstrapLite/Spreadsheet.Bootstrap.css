@@ -1,0 +1,247 @@
+.RadSpreadsheet_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadSpreadsheet_Bootstrap .rssToolbarWrapper {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #fcfcfc; }
+  .RadSpreadsheet_Bootstrap .rssTabstrip .rtsLevel1 {
+    border-color: #dedede; }
+  .RadSpreadsheet_Bootstrap .rssTabstrip .rtsLevel1 .rtsHovered .rtsLink {
+    border-bottom-color: #dedede; }
+  .RadSpreadsheet_Bootstrap .rssTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .RadSpreadsheet_Bootstrap .rssToolbar .rtbButton,
+  .RadSpreadsheet_Bootstrap .rssToolbar .rtbMore {
+    background: transparent;
+    border-color: transparent; }
+  .RadSpreadsheet_Bootstrap .rssFormulaBar {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Bootstrap .k-syntax-startexp {
+    font-weight: bold; }
+  .RadSpreadsheet_Bootstrap .k-syntax-func {
+    font-weight: bold; }
+  .RadSpreadsheet_Bootstrap .k-syntax-paren-match {
+    background-color: #caf200; }
+  .RadSpreadsheet_Bootstrap .k-syntax-bool {
+    color: #a9169c; }
+  .RadSpreadsheet_Bootstrap .k-syntax-num {
+    color: #0099ff; }
+  .RadSpreadsheet_Bootstrap .k-syntax-str {
+    color: #38b714; }
+  .RadSpreadsheet_Bootstrap .k-syntax-ref {
+    color: #ff8822; }
+  .RadSpreadsheet_Bootstrap .k-syntax-error {
+    color: red; }
+  .RadSpreadsheet_Bootstrap .rssSheetsbar {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #fcfcfc; }
+    .RadSpreadsheet_Bootstrap .rssSheetsbar .t-spreadsheet-sheets-bar-add {
+      width: 1.42857143em;
+      padding: 4px; }
+    .RadSpreadsheet_Bootstrap .rssSheetsbar .t-spreadsheet-sheets-bar-add:hover {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+  .RadSpreadsheet_Bootstrap .rssPane {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Bootstrap .k-spreadsheet-vaxis,
+  .RadSpreadsheet_Bootstrap .k-spreadsheet-haxis {
+    border-color: #dedede; }
+  .RadSpreadsheet_Bootstrap .rssTopCorner {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .RadSpreadsheet_Bootstrap .rssRowHeader,
+  .RadSpreadsheet_Bootstrap .rssColumnHeader {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke; }
+  .RadSpreadsheet_Bootstrap .rssRowHeader > div:hover,
+  .RadSpreadsheet_Bootstrap .rssColumnHeader > div:hover {
+    border-color: #c4c4c4;
+    color: #333333;
+    background-color: #e4e4e4; }
+  .RadSpreadsheet_Bootstrap .rssRowHeader .k-selection-partial,
+  .RadSpreadsheet_Bootstrap .rssColumnHeader .k-selection-partial {
+    border-color: #c4c4c4;
+    color: #333333;
+    background-color: #e4e4e4; }
+    .RadSpreadsheet_Bootstrap .rssRowHeader .k-selection-partial:before,
+    .RadSpreadsheet_Bootstrap .rssColumnHeader .k-selection-partial:before {
+      border-color: #337ab7; }
+  .RadSpreadsheet_Bootstrap .rssSelection {
+    border-color: #337ab7;
+    background-color: rgba(51, 122, 183, 0.2);
+    box-shadow: 0 0 0 1px #337ab7; }
+    .RadSpreadsheet_Bootstrap .rssSelection:after {
+      border-color: #ffffff;
+      background-color: #337ab7; }
+  .RadSpreadsheet_Bootstrap .rssActiveCell {
+    border-color: #337ab7;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Bootstrap .k-auto-fill {
+    border-color: #337ab7;
+    box-shadow: inset 0 0 0 1px #337ab7; }
+  .RadSpreadsheet_Bootstrap .rssCellEditor {
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Bootstrap .k-spreadsheet-editor-button {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSpreadsheet_Bootstrap .k-spreadsheet-editor-button:hover {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+  .RadSpreadsheet_Bootstrap .k-spreadsheet-merged-cell {
+    background-color: #ffffff; }
+  .RadSpreadsheet_Bootstrap .k-resize-handle,
+  .RadSpreadsheet_Bootstrap .k-resize-hint-handle,
+  .RadSpreadsheet_Bootstrap .k-resize-hint-marker {
+    background-color: #286090; }
+  .RadSpreadsheet_Bootstrap .k-filter-range {
+    border-color: #286090; }
+  .RadSpreadsheet_Bootstrap .k-spreadsheet-filter {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #cccccc; }
+  .RadSpreadsheet_Bootstrap .k-spreadsheet-filter:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 0 0 1px #adadad; }
+
+.rssSkin {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .rssSkin .t-button,
+  .rssSkin .rssButton {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 6px 12px; }
+  .rssSkin .t-button:hover,
+  .rssSkin .t-button.t-state-hover,
+  .rssSkin .rssButton.rssHovered {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .rssSkin .rssButton.rssPrimary {
+    border-color: #2e6da4;
+    color: #ffffff;
+    background-color: #337ab7; }
+  .rssSkin .rssButton.rssPrimary.rssHovered {
+    border-color: #204d74;
+    color: #ffffff;
+    background-color: #286090; }
+  .rssSkin .t-tabstrip .t-state-hover {
+    color: #23527c;
+    background: #e4e4e4;
+    border-color: #dedede #e4e4e4 #e4e4e4; }
+  .rssSkin .t-tabstrip .t-state-active {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff; }
+  .rssSkin .t-spreadsheet-sheets-remove.t-state-hover {
+    color: #d9534f; }
+  .rssSkin .rssInput {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .rssSkin .rssLink {
+    border: 0; }
+  .rssSkin .rssMenu .rssHovered > .rssLink {
+    border-color: #e1e1e1;
+    color: #000000;
+    background-color: #eeeeee; }
+  .rssSkin .rssMenu .rssSelected > .rssLink {
+    border-color: #286090;
+    color: #ffffff;
+    background-color: #337ab7; }
+
+.rssPopup {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 3px 3px 3px #dedede; }
+  .rssPopup .rssFilterMenu {
+    padding: 0; }
+  .rssPopup .rssFilterMenu:before {
+    display: none; }
+  .rssPopup .rssSeparator {
+    margin: 2px 0;
+    border-color: #e6e6e6 white white #e6e6e6; }
+  .rssPopup .rssCollapsibleList .rssDetails {
+    margin-left: 24px; }
+  .rssPopup .rssCollapsibleList .rssHovered > .rssLink {
+    border-color: #e1e1e1;
+    color: #000000;
+    background-color: #eeeeee; }
+  .rssPopup .rssCollapsibleList .rssExpanded > .rssLink {
+    border-color: transparent;
+    color: inherit;
+    background: none; }
+
+.rssWindow {
+  border-color: #dedede;
+  color: #333333;
+  background-color: whitesmoke;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #dedede;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .rssWindow .rssWindowTitlebar {
+    border-color: #dedede;
+    color: #333333;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px 5px 0 0; }
+  .rssWindow .rssWindowAction {
+    width: 1.42857143em;
+    margin: -8px -6px;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: transparent; }
+  .rssWindow .rssWindowAction:hover {
+    border-color: #adadad;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .rssWindow .rssWindowContent {
+    border-color: #dedede;
+    color: #333333;
+    background-color: #ffffff;
+    border-width: 1px 0 0; }
+  .rssWindow .rssWindowTabstrip {
+    background-color: #fcfcfc; }
+    .rssWindow .rssWindowTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+      color: #333333;
+      background: #ffffff; }
+  .rssWindow hr {
+    border-color: #dedede; }
+
+.rssFormulaList {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .rssFormulaList .k-item.k-state-hover {
+    color: #000000;
+    background-color: #eeeeee; }
+  .rssFormulaList .k-item.k-state-focused {
+    color: #ffffff;
+    background-color: #337ab7; }
+

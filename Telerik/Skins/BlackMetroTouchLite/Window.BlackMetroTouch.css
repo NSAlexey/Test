@@ -1,0 +1,66 @@
+.RadWindow_BlackMetroTouch {
+  border-color: #555555;
+  color: #ffffff;
+  background-color: #222222;
+  padding: 0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_BlackMetroTouch .rwTitleBar {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222;
+    margin: 0; }
+  .RadWindow_BlackMetroTouch .rwCommandButton:hover {
+    color: #0082cc; }
+  .RadWindow_BlackMetroTouch .rwContent {
+    border-color: #333333;
+    color: #ffffff;
+    background-color: #000000;
+    border-width: 0; }
+  .RadWindow_BlackMetroTouch .rwStatusBar {
+    border-width: 0;
+    border-top-width: 1px; }
+  .RadWindow_BlackMetroTouch .rwDialogButtons button {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadWindow_BlackMetroTouch .rwDialogButtons button:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #3c3c3c; }
+  .RadWindow_BlackMetroTouch .rwDialogButtons button:active {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadWindow_BlackMetroTouch .rwPromptDialog .rwOkBtn,
+  .RadWindow_BlackMetroTouch .rwConfirmDialog .rwOkBtn {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #0082cc; }
+  .RadWindow_BlackMetroTouch .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_BlackMetroTouch .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #006299;
+    color: #ffffff;
+    background-color: #006299; }
+  .RadWindow_BlackMetroTouch .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_BlackMetroTouch .rwConfirmDialog .rwOkBtn:active {
+    border-color: #004166;
+    color: #ffffff;
+    background-color: #004166; }
+  .RadWindow_BlackMetroTouch .rwPromptInput {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadWindow_BlackMetroTouch .rwPromptInput:hover {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadWindow_BlackMetroTouch .rwPromptInput:active,
+  .RadWindow_BlackMetroTouch .rwPromptInput:focus {
+    border-color: #0082cc;
+    color: #ffffff;
+    background-color: #000000; }
+  .RadWindow_BlackMetroTouch .rwLoading.rwStatusBar {
+    background-image: url('../BlackMetroTouch/Common/loading_small.gif'); }
+  .RadWindow_BlackMetroTouch.rwLoading .rwExternalContent {
+    background-image: url('../BlackMetroTouch/Common/loading.gif'); }
+

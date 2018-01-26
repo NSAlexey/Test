@@ -1,0 +1,19 @@
+.RadDataPager_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #d6e6f4;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataPager_Outlook .rdpPageFirst,
+  .RadDataPager_Outlook .rdpPagePrev,
+  .RadDataPager_Outlook .rdpPageNext,
+  .RadDataPager_Outlook .rdpPageLast {
+    background-image: url('Grid/sprite.gif'); }
+  .RadDataPager_Outlook .rdpPagerButton {
+    border-color: #003c74;
+    background: #ebe8e3 repeat-x 0 -1550px url('Grid/sprite.gif');
+    color: #000; }
+  .RadDataPager_Outlook .rdpNumPart a,
+  .RadDataPager_Outlook .rdpNumPart a span {
+    background-image: url('Grid/sprite.gif'); }
+

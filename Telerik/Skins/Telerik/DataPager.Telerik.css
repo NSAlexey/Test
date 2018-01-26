@@ -1,0 +1,16 @@
+.RadDataPager_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataPager_Telerik .rdpPageFirst,
+  .RadDataPager_Telerik .rdpPagePrev,
+  .RadDataPager_Telerik .rdpPageNext,
+  .RadDataPager_Telerik .rdpPageLast {
+    background-image: url('Grid/sprite.gif'); }
+  .RadDataPager_Telerik .rdpPagerButton {
+    border-color: #d0d0d0 #aeaeae #8b8b8b;
+    background: #eeeeee repeat-x 0 -1550px url('Grid/sprite.gif');
+    color: #333333; }
+

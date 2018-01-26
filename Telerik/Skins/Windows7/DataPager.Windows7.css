@@ -1,0 +1,23 @@
+.RadDataPager_Windows7 {
+  border-color: #aabfd6;
+  color: #4c607a;
+  background-color: #f1f5fb;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataPager_Windows7 .rdpPageFirst,
+  .RadDataPager_Windows7 .rdpPagePrev,
+  .RadDataPager_Windows7 .rdpPageNext,
+  .RadDataPager_Windows7 .rdpPageLast {
+    background-image: url('Grid/sprite.gif'); }
+  .RadDataPager_Windows7 .rdpPagerButton {
+    border-color: #c2cedb;
+    background: #dde8f6 repeat-x 0 -1550px url('Grid/sprite.gif');
+    color: #000; }
+  .RadDataPager_Windows7 .rdpNumPart a,
+  .RadDataPager_Windows7 .rdpNumPart a span {
+    background-image: url('Grid/sprite.gif'); }
+  .RadDataPager_Windows7 .rdpNumPart a:hover {
+    color: #4c607a; }
+  .RadDataPager_Windows7 .rdpNumPart a.rdpCurrentPage {
+    color: #4c607a; }
+

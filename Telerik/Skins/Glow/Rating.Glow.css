@@ -1,0 +1,9 @@
+.RadRating_Glow a,
+.RadRating_Glow a span {
+  background-image: url('Rating/Sprite.png'); }
+
+@media print {
+  .RadRating_Glow a:before,
+  .RadRating_Glow a span:before {
+    content: url('Rating/Sprite.png'); } }
+

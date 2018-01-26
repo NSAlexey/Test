@@ -1,0 +1,9 @@
+.RadSocialShare_Default {
+  border-color: #b3b3b3;
+  color: #333333;
+  background-color: #e6e6e6;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSocialShare_Default .sshLinkItem:hover {
+    color: #1976d2; }
+

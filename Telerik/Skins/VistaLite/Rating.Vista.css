@@ -1,0 +1,23 @@
+.RadRating_Vista a:before {
+  color: #9f9f9f; }
+
+.RadRating_Vista .rrtOver span,
+.RadRating_Vista a:hover .rrtPartComplement,
+.RadRating_Vista .rrtVertical .rrtSelected.rrtOver a,
+.RadRating_Vista .rrtSelected .rrtPartSelected,
+.RadRating_Vista .rrtSelected.rrtOver a {
+  color: #9f9f9f; }
+
+.RadRating_Vista .rrtSelected span {
+  color: #3c7fb1; }
+
+.RadRating_Vista .rrtSelected .rrtPart,
+.RadRating_Vista .rrtSelected.rrtOver span {
+  color: #224865; }
+
+.RadRating_Vista .rrtReversed .rrtPart:before {
+  color: #9f9f9f; }
+
+.RadRating_Vista .rrtReversed .rrtSelected .rrtPartComplement:before {
+  color: #224865; }
+

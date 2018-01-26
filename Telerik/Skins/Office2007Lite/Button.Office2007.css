@@ -1,0 +1,79 @@
+.RadButton_Office2007.rbButton, .RadButton_Office2007.rbButton.rbDisabled,
+.RadButton_Office2007 .rbSplitPart {
+  border-color: #a1bcdd;
+  color: #00156e;
+  background-color: #e8f1fc;
+  background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+
+.RadButton_Office2007.rbButton.rbHovered, .RadButton_Office2007.rbButton.rbToggled.rbHovered,
+.RadButton_Office2007.rbButton .rbHovered {
+  border-color: #c4ba9c;
+  color: #000000;
+  background-color: #ffe18a;
+  background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+
+.RadButton_Office2007.rbButton:focus {
+  box-shadow: inset 0 0 5px rgba(195, 187, 163, 0.5); }
+
+.RadButton_Office2007.rbButton.rbSelected, .RadButton_Office2007.rbButton.rbToggled,
+.RadButton_Office2007.rbSelected .rbHovered {
+  border-color: #c3bba3;
+  color: #000000;
+  background-color: #fde292;
+  background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+
+.RadButton_Office2007.rbButton:hover,
+.RadButton_Office2007.rbButton.rbHovered .rbSplitPart {
+  border-color: #c4ba9c; }
+
+.RadButton_Office2007.rbButton.rbSelected,
+.RadButton_Office2007.rbButton.rbSelected:active .rbSplitPart {
+  border-color: #c3bba3; }
+
+.RadButton_Office2007.rbCheckBox .rbText,
+.RadButton_Office2007.rbRadioButton .rbText,
+.RadButton_Office2007.rbToggleButton .rbText {
+  color: #333333; }
+
+.RadButton_Office2007 .rbToggleCheckboxChecked,
+.RadButton_Office2007 .rbToggleCheckboxFilled,
+.RadButton_Office2007 .rbToggleRadioChecked {
+  color: #41559c; }
+
+.RadButton_Office2007.rbHovered .rbToggleCheckboxChecked,
+.RadButton_Office2007.rbHovered .rbToggleCheckboxFilled,
+.RadButton_Office2007.rbHovered .rbToggleRadioChecked {
+  color: #2b3866; }
+
+.RadButton_Office2007:focus .rbToggleCheckbox:before,
+.RadButton_Office2007:focus .rbToggleRadio:before {
+  box-shadow: 0 0 1px 1px rgba(51, 51, 51, 0.5); }
+
+.RadButton_Office2007:focus .rbToggleCheckboxChecked:before,
+.RadButton_Office2007:focus .rbToggleCheckboxFilled:before,
+.RadButton_Office2007:focus .rbToggleRadioChecked:before {
+  box-shadow: 0 0 1px 1px rgba(65, 85, 156, 0.5); }
+
+.RadButton_Office2007.rbPrimaryButton {
+  border-color: #384986;
+  color: #ffffff;
+  background-color: #41559c;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+  .RadButton_Office2007.rbPrimaryButton.rbHovered, .RadButton_Office2007.rbPrimaryButton.rbToggled.rbHovered, .RadButton_Office2007.rbPrimaryButton.rbFocused {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a);
+    box-shadow: none; }
+  .RadButton_Office2007.rbPrimaryButton.rbSelected, .RadButton_Office2007.rbPrimaryButton.rbToggled {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+
+.RadButton_Office2007.rbPrimaryButton.rbDisabled {
+  border-color: #384986;
+  color: #ffffff;
+  background-color: #41559c;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1)); }
+

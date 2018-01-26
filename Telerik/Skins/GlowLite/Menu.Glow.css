@@ -1,0 +1,100 @@
+.RadMenu_Glow .rmRootGroup {
+  border-color: #182126;
+  color: #e2e8eb;
+  background-color: #1c262c;
+  background-image: linear-gradient(#303e46, #1c262c); }
+  .RadMenu_Glow .rmRootGroup.rmVertical {
+    background-color: #1c262c;
+    background-image: none; }
+  .RadMenu_Glow .rmRootGroup .rmItem {
+    border-color: #182126 #182126 #2c3c45 #2c3c45; }
+  .RadMenu_Glow .rmRootGroup .rmRootLink:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none; }
+  .RadMenu_Glow .rmRootGroup.rmHorizontal .rmRootLink:after {
+    width: 100%;
+    border-top: 4px solid #ffa915; }
+  .RadMenu_Glow .rmRootGroup.rmVertical .rmRootLink:after {
+    height: 100%;
+    border-left: 4px solid #ffa915; }
+  .RadMenu_Glow .rmRootGroup .rmRootLink:hover {
+    border-color: #182126;
+    color: white;
+    background-color: #12191c;
+    background-image: linear-gradient(#2a3237, #12191c);
+    color: #ffa915; }
+  .RadMenu_Glow .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Glow .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #0c1013;
+    color: #ffa915;
+    background-color: #161e23;
+    background-image: linear-gradient(#1c262c, #161e23); }
+  .RadMenu_Glow .rmRootGroup .rmFocused > .rmLink {
+    border-color: rgba(12, 16, 19, 0.5);
+    box-shadow: inset 0 0 5px #0c1013; }
+  .RadMenu_Glow .rmRootGroup .rmRootLink:hover:after,
+  .RadMenu_Glow .rmRootGroup .rmSelected > .rmRootLink:after,
+  .RadMenu_Glow .rmRootGroup .rmExpanded > .rmRootLink:after {
+    display: block; }
+  .RadMenu_Glow .rmRootGroup .rmDisabled > .rmRootLink:hover:after {
+    display: none; }
+
+.RadMenu_Glow .rmGroup,
+.RadMenu_Glow .rmMultiColumn,
+.RadMenu_Glow .rmPopup {
+  border-color: #20282d;
+  color: #e2e8eb;
+  background-color: #242e33;
+  padding: 0; }
+
+.RadMenu_Glow .rmGroup.rmScrollWrap .rmHorizontal,
+.RadMenu_Glow .rmGroup.rmScrollWrap .rmVertical {
+  padding: 0; }
+
+.RadMenu_Glow .rmGroup .rmLink:hover,
+.RadMenu_Glow .rmGroup .rmToggle:hover {
+  border-color: #4d5c65;
+  color: #ffffff;
+  background-color: #4d5c65; }
+
+.RadMenu_Glow .rmGroup .rmSelected > .rmLink,
+.RadMenu_Glow .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Glow .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Glow .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #ffa915;
+  color: #000000;
+  background-color: #ffa915; }
+
+.RadMenu_Glow .rmGroup .rmFocused > .rmLink,
+.RadMenu_Glow .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #ffa915;
+  box-shadow: inset 0 0 5px #ffa915; }
+
+.RadMenu_Glow .rmSeparator {
+  border-color: #182126; }
+
+.RadMenu_Glow .rmGroup .rmSeparator {
+  border-color: #4a5e69; }
+
+.RadMenu_Glow .rmVertical > .rmSeparator {
+  margin: 1px 7px; }
+
+.RadMenu_Glow .rmArrow {
+  border-color: #040606;
+  background-color: #1a2024; }
+
+.RadMenu_Glow .rmArrow:hover {
+  background-color: #0f1315; }
+
+.RadMenu_Glow .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #20282d; }
+
+.RadMenu_Glow .rmGroup:before,
+.RadMenu_Glow .rmMultiColumn:before,
+.RadMenu_Glow .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Glow .rmScrollWrap > .rmVertical:before {
+  display: none; }
+

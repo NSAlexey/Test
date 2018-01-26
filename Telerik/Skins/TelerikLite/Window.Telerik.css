@@ -1,0 +1,77 @@
+.RadWindow_Telerik {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ededed;
+  border-radius: 4px; }
+  .RadWindow_Telerik .rwTitleBar {
+    border-color: #d1d1d1;
+    color: #000000;
+    background-color: #eaeaea;
+    background-image: linear-gradient(#fdfdfd, #eaeaea);
+    border-radius: 3px 3px 0 0; }
+  .RadWindow_Telerik .rwCommandButton:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadWindow_Telerik .rwContent {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Telerik .rwDialogButtons button {
+    border-color: #cccccc;
+    color: #000000;
+    background-color: #eeeeee;
+    background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .RadWindow_Telerik .rwDialogButtons button:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadWindow_Telerik .rwDialogButtons button:active {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+    box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+  .RadWindow_Telerik .rwPromptDialog .rwOkBtn,
+  .RadWindow_Telerik .rwConfirmDialog .rwOkBtn {
+    border-color: #91e675;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.3)); }
+  .RadWindow_Telerik .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_Telerik .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #47ba22;
+    color: #000000;
+    background-color: #a2ea8b;
+    background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+    box-shadow: none; }
+  .RadWindow_Telerik .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_Telerik .rwConfirmDialog .rwOkBtn:active {
+    border-color: #4d862c;
+    color: #000000;
+    background-color: #63ac39;
+    background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+    box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+  .RadWindow_Telerik .rwPromptInput {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Telerik .rwPromptInput:hover {
+    border-color: #47ba22;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Telerik .rwPromptInput:active,
+  .RadWindow_Telerik .rwPromptInput:focus {
+    border-color: #4d862c;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_Telerik .rwLoading.rwStatusBar {
+    background-image: url('../Telerik/Common/loading_small.gif'); }
+  .RadWindow_Telerik.rwLoading .rwExternalContent {
+    background-image: url('../Telerik/Common/loading.gif'); }
+

@@ -1,0 +1,32 @@
+.RadDataPager_Office2007 {
+  border-color: #688caf;
+  color: #00156e;
+  background-color: #d6e6f4; }
+  .RadDataPager_Office2007 .rdpNumPart a {
+    border-radius: 2px;
+    color: inherit; }
+    .RadDataPager_Office2007 .rdpNumPart a:hover {
+      border-color: #c4ba9c;
+      color: #000000;
+      background-color: #ffe18a;
+      background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+    .RadDataPager_Office2007 .rdpNumPart a.rdpCurrentPage {
+      border-color: #41559c;
+      color: #41559c;
+      background: none; }
+  .RadDataPager_Office2007 .rdpPagerButton,
+  .RadDataPager_Office2007 .rdpActionButton {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+    .RadDataPager_Office2007 .rdpPagerButton:hover,
+    .RadDataPager_Office2007 .rdpActionButton:hover {
+      border-color: #c4ba9c;
+      color: #000000;
+      background-color: #ffe18a;
+      background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+

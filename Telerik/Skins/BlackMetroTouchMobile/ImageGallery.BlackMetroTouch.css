@@ -1,0 +1,32 @@
+.RadImageGallery_BlackMetroTouch {
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadImageGallery_BlackMetroTouch .rigDotList > a {
+    background: #000000;
+    border-color: #333333; }
+  .RadImageGallery_BlackMetroTouch .rigDotList .rigCurrentItem {
+    color: #0082cc; }
+  .RadImageGallery_BlackMetroTouch .rigToolbar {
+    color: #ffffff;
+    background-color: rgba(34, 34, 34, 0.8); }
+  .RadImageGallery_BlackMetroTouch .rigCloseButton,
+  .RadImageGallery_BlackMetroTouch .rigDrawerButton {
+    color: #ffffff;
+    background-color: rgba(34, 34, 34, 0.8); }
+  .RadImageGallery_BlackMetroTouch .rigProgressBar div {
+    background-color: #0082cc; }
+  .RadImageGallery_BlackMetroTouch .rigPager {
+    border-color: #333333;
+    color: #ffffff;
+    background-color: #000000; }
+    .RadImageGallery_BlackMetroTouch .rigPager a.rigCurrentPage {
+      border-color: #0082cc;
+      color: #0082cc; }
+  .RadImageGallery_BlackMetroTouch .rigTooltip {
+    background-color: #000000;
+    border-color: #333333; }
+    .RadImageGallery_BlackMetroTouch .rigTooltip:after {
+      border-top-color: #000000; }
+  .RadImageGallery_BlackMetroTouch .rigToolbar .rigActionButton:hover {
+    color: #0082cc; }
+

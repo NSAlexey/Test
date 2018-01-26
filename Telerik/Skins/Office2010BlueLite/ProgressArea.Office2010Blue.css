@@ -1,0 +1,35 @@
+.RadUploadProgressArea_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+  .RadUploadProgressArea_Office2010Blue .ruHeader {
+    border-color: #87a0c3;
+    color: #384e73;
+    background-color: #bdcbde;
+    background-image: linear-gradient(#fcfcfd, #bdcbde); }
+  .RadUploadProgressArea_Office2010Blue .ruFooter {
+    border-color: #9babc2;
+    color: #384e73;
+    background-color: #dbe3ee; }
+  .RadUploadProgressArea_Office2010Blue .ruProgressBar {
+    border-radius: 3px;
+    border-color: #dae7f5;
+    background-color: #f3f9fe;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadUploadProgressArea_Office2010Blue .ruProgress {
+    border-radius: 3px;
+    border-color: #dae7f5;
+    background-color: #ffd86d;
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadUploadProgressArea_Office2010Blue .radButton {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf);
+    border-radius: 3px; }
+    .RadUploadProgressArea_Office2010Blue .radButton.ruHovered {
+      border-color: #f2d359;
+      color: #1e395b;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+

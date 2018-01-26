@@ -1,0 +1,92 @@
+.RadInput_MetroTouch,
+.RadInputMgr_MetroTouch {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+
+.RadInput_MetroTouch .riTextBox,
+.RadInput_MetroTouch .riSelect,
+.RadInput_MetroTouch .rcSelect,
+.RadInputMgr_MetroTouch {
+  border-color: #e0e0e0;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_MetroTouch .riEmpty,
+.RadInput_Empty_MetroTouch {
+  color: rgba(51, 51, 51, 0.8); }
+
+.RadInput_MetroTouch.RadInputHovered .riTextBox,
+.RadInput_MetroTouch.RadInputHovered .riSelect,
+.RadInput_MetroTouch.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #cecece;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_MetroTouch.RadInputFocused .riTextBox,
+.RadInput_MetroTouch.RadInputFocused .riSelect,
+.RadInput_MetroTouch.RadInputFocused .rcSelect,
+.RadInput_Focused_MetroTouch {
+  border-color: #25a0da;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_MetroTouch.RadInputError .riTextBox,
+.RadInput_MetroTouch.RadInputError .riSelect,
+.RadInput_MetroTouch.RadInputError .rcSelect,
+.RadInput_Error_MetroTouch,
+.RadForm.rfdTextbox .RadInput_MetroTouch .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #de3914;
+  color: #de3914; }
+
+.RadInput_MetroTouch.RadInputError {
+  color: #de3914; }
+
+.RadInput_MetroTouch .riNegative,
+.RadInput_Negative_MetroTouch {
+  color: #565656; }
+
+.RadInput_MetroTouch a,
+.RadInput_MetroTouch.RadInputDisabled a:hover,
+.RadInput_MetroTouch.RadInputDisabled a:active {
+  border-color: #e0e0e0;
+  color: #000000;
+  background-color: #f9f9f9; }
+
+.RadInput_MetroTouch a:hover {
+  border-color: #cecece;
+  color: #000000;
+  background-color: #e7e7e7; }
+
+.RadInput_MetroTouch a:focus, .RadInput_MetroTouch a:active {
+  border-color: #25a0da;
+  color: #ffffff;
+  background-color: #25a0da; }
+
+.RadInput_MetroTouch .riLabel {
+  color: #666; }
+
+.RadInput_MetroTouch .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../MetroTouch/Input/ResizeEdge.gif');
+  width: 12px;
+  height: 12px;
+  margin-left: -12px; }
+
+.riContButton.RadInput_MetroTouch .riResizeIcon {
+  margin-left: -32px; }
+
+.RadInputRTL_MetroTouch .riError,
+.RadInputRTL_Error_MetroTouch {
+  background-position: 3px -298px; }
+
+.RadInputRTL_MetroTouch .riResizeIcon {
+  background-position: 0 -19px;
+  margin-right: -12px; }
+
+.RadInputRTL_MetroTouch.riContButton .riResizeIcon {
+  margin-right: -32px; }
+
+.RadForm.rfdTextbox .RadInputRTL_MetroTouch .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_MetroTouch[type="text"] {
+  background-position: 3px -298px; }
+

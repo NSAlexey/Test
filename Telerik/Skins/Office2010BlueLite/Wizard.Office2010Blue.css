@@ -1,0 +1,128 @@
+.RadWizard_Office2010Blue {
+  color: #384e73;
+  background: #ffffff; }
+  .RadWizard_Office2010Blue .rwzButton {
+    border-radius: 3px;
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadWizard_Office2010Blue .rwzNext,
+  .RadWizard_Office2010Blue .rwzFinish {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffef7c, #ffd86b, #ffe272); }
+  .RadWizard_Office2010Blue .rwzLink {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+    .RadWizard_Office2010Blue .rwzLink:before {
+      border-color: #9db2ce;
+      background-image: linear-gradient(135deg, #fafbfd, #bfcddf); }
+      @media screen\0 {
+        .RadWizard_Office2010Blue .rwzLink:before {
+          background-color: #bfcddf; } }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .RadWizard_Office2010Blue .rwzLink:before {
+          background-color: transparent; } }
+  .RadWizard_Office2010Blue .rwzProgressBar {
+    border-radius: 3px;
+    border-color: #dae7f5;
+    background-color: #f3f9fe; }
+  .RadWizard_Office2010Blue .rwzProgress {
+    border-color: #ffd45d;
+    background-color: #ffd86d; }
+  .RadWizard_Office2010Blue .rwzHovered.rwzButton,
+  .RadWizard_Office2010Blue .rwzHovered .rwzLink {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadWizard_Office2010Blue .rwzHovered.rwzNext,
+  .RadWizard_Office2010Blue .rwzHovered.rwzFinish {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadWizard_Office2010Blue .rwzHovered .rwzLink:before {
+    border-color: #f2d359;
+    background-image: linear-gradient(135deg, #fceaab, #fae185, #fcf5d9); }
+    @media screen\0 {
+      .RadWizard_Office2010Blue .rwzHovered .rwzLink:before {
+        background-color: #fcf5d9; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Office2010Blue .rwzHovered .rwzLink:before {
+        background-color: transparent; } }
+  .RadWizard_Office2010Blue .rwzFocused.rwzButton {
+    border-color: rgba(195, 142, 0, 0.5);
+    box-shadow: 0 0 5px rgba(195, 142, 0, 0.5) inset; }
+  .RadWizard_Office2010Blue .rwzFocused.rwzNext {
+    border-color: #c38e00;
+    box-shadow: 0 0 5px #c38e00 inset; }
+  .RadWizard_Office2010Blue .rwzSelected .rwzLink {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadWizard_Office2010Blue .rwzSelected .rwzLink:before {
+    border-color: #c38e00;
+    background-image: linear-gradient(135deg, #ffe272, #ffd86b, #ffef7c); }
+    @media screen\0 {
+      .RadWizard_Office2010Blue .rwzSelected .rwzLink:before {
+        background-color: #ffef7c; } }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .RadWizard_Office2010Blue .rwzSelected .rwzLink:before {
+        background-color: transparent; } }
+
+.RadWizard_Office2010Blue.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+
+.RadWizard_Office2010Blue.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Office2010Blue.rwzHorizontal .rwzFirst.rwzLast .rwzLink {
+  border-radius: 3px; }
+
+.RadWizard_Office2010Blue.rwzHorizontal .rwzProgressBar {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Office2010Blue.rwzHorizontal .rwzProgress {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Office2010Blue.rwzVertical .rwzFirst .rwzLink {
+  border-radius: 0.25em 0.25em 0em 0em; }
+
+.RadWizard_Office2010Blue.rwzVertical .rwzLast .rwzLink {
+  border-radius: 0em 0em 0.25em 0.25em; }
+
+.RadWizard_Office2010Blue.rwzVertical .rwzSelected .rwzLink {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.RadWizard_Office2010Blue.rwzVertical .rwzProgressBar {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+
+.RadWizard_Office2010Blue.rwzVertical .rwzProgress {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+.RadWizard_Office2010Blue.rwzRightBreadCrumb .rwzFirst .rwzLink,
+.RadWizard_Office2010Blue.RadWizard_rtl.rwzVertical .rwzFirst .rwzLink {
+  border-top-right-radius: 3px; }
+
+.RadWizard_Office2010Blue.rwzRightBreadCrumb .rwzLast .rwzLink,
+.RadWizard_Office2010Blue.RadWizard_rtl.rwzVertical .rwzLast .rwzLink {
+  border-bottom-right-radius: 3px; }
+
+.RadWizard_Office2010Blue.rwzRightBreadCrumb .rwzSelected .rwzLink,
+.RadWizard_Office2010Blue.RadWizard_rtl.rwzVertical .rwzSelected .rwzLink {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.RadWizard_Office2010Blue.RadWizard_rtl.rwzHorizontal .rwzFirst .rwzLink {
+  border-radius: 0em 0.25em 0.25em 0em; }
+
+.RadWizard_Office2010Blue.RadWizard_rtl.rwzHorizontal .rwzLast .rwzLink {
+  border-radius: 0.25em 0em 0em 0.25em; }
+

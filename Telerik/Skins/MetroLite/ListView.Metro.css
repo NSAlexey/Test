@@ -1,0 +1,25 @@
+.RadListView_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadListView_Metro .rlvHeader th {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadListView_Metro .rlvI {
+    border-color: #e6e6e6; }
+  .RadListView_Metro .rlvA {
+    background: #f2f2f2;
+    border-color: #e6e6e6; }
+  .RadListView_Metro .rlvISel {
+    background: #25a0da;
+    color: #ffffff;
+    border-color: #25a0da; }
+  .RadListView_Metro .rlvDrag {
+    background-image: url('../Metro/ListView/drag.gif'); }
+  .RadListView_Metro .rlvInput {
+    border-color: #e0e0e0;
+    color: #333333;
+    background-color: #ffffff; }
+

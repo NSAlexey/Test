@@ -1,0 +1,141 @@
+.RadComboBox_Silk {
+  color: #5f5f5f;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif; }
+  .RadComboBox_Silk .rcbInputCell,
+  .RadComboBox_Silk .rcbArrowCell {
+    height: 26px;
+    border-width: 1px;
+    border-style: solid;
+    background-position: 0 0;
+    background-repeat: repeat-x; }
+  .RadComboBox_Silk table td.rcbInputCell,
+  .RadComboBox_Silk table td.rcbArrowCell {
+    border-width: 1px; }
+  .RadComboBox_Silk .rcbInputCell {
+    border-color: #c4c4c4;
+    color: #3b3b3b;
+    background-color: #ffffff; }
+  .RadComboBox_Silk table td.rcbInputCellLeft {
+    border-right-width: 0; }
+  .RadComboBox_Silk table td.rcbInputCellRight {
+    border-left-width: 0; }
+  .RadComboBox_Silk .rcbArrowCell {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    width: 24px;
+    background-image: url('Common/radPrimaryGradientButtonSprite.png'); }
+  .RadComboBox_Silk .rcbArrowCell a {
+    width: 24px;
+    height: 26px;
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -13px -62px; }
+  .RadComboBox_Silk .rcbArrowCellHidden,
+  .RadComboBox_Silk .rcbArrowCellHidden a {
+    width: 0; }
+  .RadComboBox_Silk .rcbArrowCellHidden.rcbArrowCellLeft {
+    border-right-width: 0; }
+  .RadComboBox_Silk .rcbArrowCellHidden.rcbArrowCellRight {
+    border-left-width: 0; }
+  .RadComboBox_Silk .rcbReadOnly .rcbArrowCellLeft {
+    border-right-width: 0; }
+  .RadComboBox_Silk .rcbReadOnly .rcbArrowCellRight {
+    border-left-width: 0; }
+  .RadComboBox_Silk .rcbLabel {
+    line-height: 26px; }
+  .RadComboBox_Silk .rcbHovered .rcbInputCell {
+    border-color: #0092ab;
+    color: black;
+    background-color: #ffffff; }
+  .RadComboBox_Silk .rcbHovered .rcbInput {
+    color: black; }
+  .RadComboBox_Silk .rcbHovered .rcbArrowCell {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-position: 0 -1000px; }
+  .RadComboBox_Silk .rcbHovered .rcbArrowCell a {
+    background-position: -113px -62px; }
+  .RadComboBox_Silk .rcbFocused .rcbInputCell {
+    border-color: #1193aa;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadComboBox_Silk .rcbFocused .rcbInput {
+    color: #333333; }
+  .RadComboBox_Silk .rcbFocused .rcbArrowCell {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-position: 0 -2000px; }
+  .RadComboBox_Silk .rcbFocused .rcbArrowCell a {
+    background-position: -113px -62px; }
+  .RadComboBox_Silk .rcbDisabled .rcbInputCell {
+    background-position: 0 0; }
+  .RadComboBox_Silk .rcbDisabled .rcbArrowCell {
+    background-position: 0 0; }
+  .RadComboBox_Silk .rcbReadOnly .rcbInputCell {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: url('Common/radPrimaryGradientButtonSprite.png');
+    background-position: 0 0; }
+  .RadComboBox_Silk .rcbReadOnly .rcbInput {
+    color: #5f5f5f; }
+  .RadComboBox_Silk .rcbReadOnly .rcbArrowCell {
+    background-position: 0 0; }
+  .RadComboBox_Silk .rcbHovered .rcbReadOnly .rcbInputCell {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-position: 0 -1000px; }
+  .RadComboBox_Silk .rcbHovered .rcbReadOnly .rcbInput {
+    color: #ffffff; }
+  .RadComboBox_Silk .rcbHovered .rcbReadOnly .rcbArrowCell {
+    background-position: 0 -1000px; }
+  .RadComboBox_Silk .rcbFocused .rcbReadOnly .rcbInputCell {
+    border-color: #1193aa;
+    color: #ffffff;
+    background-color: #14afca;
+    background-position: 0 -2000px; }
+  .RadComboBox_Silk .rcbFocused .rcbReadOnly .rcbInput {
+    color: #ffffff; }
+  .RadComboBox_Silk .rcbFocused .rcbReadOnly .rcbArrowCell {
+    background-position: 0 -2000px; }
+  .RadComboBox_Silk .rcbDisabled .rcbReadOnly .rcbInputCell {
+    background-position: 0 0; }
+  .RadComboBox_Silk .rcbDisabled .rcbReadOnly .rcbArrowCell {
+    background-position: 0 0; }
+
+.RadComboBoxDropDown_Silk {
+  border-color: #d9d9d9;
+  color: #292929;
+  background-color: #ffffff;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5; }
+  .RadComboBoxDropDown_Silk .rcbSeparator {
+    color: #5f5f5f;
+    background-color: #e3e3e3; }
+  .RadComboBoxDropDown_Silk .rcbHovered {
+    color: #333333;
+    background-color: #bceff8; }
+  .RadComboBoxDropDown_Silk .rcbSelected {
+    color: #ffffff;
+    background-color: #81cfdc; }
+  .RadComboBoxDropDown_Silk .rcbLoading {
+    color: #333333;
+    background-color: #bceff8; }
+  .RadComboBoxDropDown_Silk .rcbItem em {
+    color: #333333;
+    background-color: #bceff8; }
+
+.RadComboBox_Silk_rtl .rcbArrowCell a {
+  *background-position: -83px -62px; }
+
+.RadComboBox_Silk_rtl .rcbHovered .rcbArrowCell a {
+  *background-position: -33px -62px; }
+
+.RadComboBox_Silk_rtl .rcbFocused .rcbArrowCell a {
+  *background-position: -33px -62px; }
+

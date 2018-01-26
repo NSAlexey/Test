@@ -1,0 +1,19 @@
+.RadTile_Simple {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background-color: #ededed; }
+  .RadTile_Simple .rtilePeekContent {
+    background-color: #ededed; }
+  .RadTile_Simple.rtileSelected .rtileSelectedIcon {
+    background-image: url('Tile/rtileSprite.png'); }
+  .RadTile_Simple.rtileHovered {
+    border-color: #ffc350; }
+  .RadTile_Simple.rtileSelected {
+    border-color: #882501; }
+  .RadTile_Simple.rtileSelected.rtileHovered {
+    border-color: #551701; }
+  .RadTile_Simple.rtileLoading,
+  .RadTile_Simple .rtileLoading {
+    background-image: url('Common/loading_small.gif'); }
+

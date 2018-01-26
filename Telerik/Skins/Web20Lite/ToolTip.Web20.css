@@ -1,0 +1,28 @@
+.RadToolTip_Web20 {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #e7f1ff; }
+  .RadToolTip_Web20 .rtClose {
+    border-color: #687dc1;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1); }
+  .RadToolTip_Web20 .rtClose:hover {
+    border-color: #2a5795;
+    color: #0f3789;
+    background-color: #cddcf1;
+    background-image: linear-gradient(#dee7f4, #afbede 50%, #98acd5 50%, #cddcf1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12); }
+  .RadToolTip_Web20 .rtClose:active {
+    border-color: #2a3866;
+    color: #ffffff;
+    background-color: #687dc1;
+    background-image: linear-gradient(#8d9dd2, #5762a3 50%, #3c4d8f 50%, #687dc1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8); }
+  .RadToolTip_Web20 .rtCallout {
+    border-color: #6788be; }
+  .RadToolTip_Web20 .rtCallout:before {
+    border-color: #e7f1ff; }
+  .RadToolTip_Web20.rtLoading {
+    background-image: url('../Web20/Common/loading.gif'); }
+

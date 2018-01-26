@@ -1,0 +1,72 @@
+.RadOrgChart_Sunset {
+  color: #333333; }
+  .RadOrgChart_Sunset .rocGroup {
+    border-radius: 10px;
+    background-color: rgba(187, 58, 1, 0.5); }
+  .RadOrgChart_Sunset .rocItem,
+  .RadOrgChart_Sunset .rocItemTemplate {
+    border-radius: 5px;
+    border-color: #938879;
+    color: #272722;
+    background-color: #ffffff; }
+  .RadOrgChart_Sunset .rocExpandArrow,
+  .RadOrgChart_Sunset .rocCollapseArrow,
+  .RadOrgChart_Sunset .rocExpandGroupArrow,
+  .RadOrgChart_Sunset .rocCollapseGroupArrow {
+    border-radius: 3px;
+    border-color: #938973;
+    color: #3d1400;
+    background-color: #ded7c6; }
+  .RadOrgChart_Sunset .rocLoadingNodes .rocExpandArrow,
+  .RadOrgChart_Sunset .rocLoadingNodes .rocCollapseArrow,
+  .RadOrgChart_Sunset .rocLoadingGroups .rocExpandGroupArrow,
+  .RadOrgChart_Sunset .rocLoadingGroups .rocCollapseGroupArrow {
+    background-image: url('../Sunset/Common/loading_small.gif'); }
+  .RadOrgChart_Sunset .rocExpandArrow:hover,
+  .RadOrgChart_Sunset .rocCollapseArrow:hover,
+  .RadOrgChart_Sunset .rocExpandGroupArrow:hover,
+  .RadOrgChart_Sunset .rocCollapseGroupArrow:hover {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121; }
+  .RadOrgChart_Sunset .rocExpandArrow:active,
+  .RadOrgChart_Sunset .rocCollapseArrow:active,
+  .RadOrgChart_Sunset .rocExpandGroupArrow:active,
+  .RadOrgChart_Sunset .rocCollapseGroupArrow:active {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49; }
+
+.RadOrgChart_Sunset.rocDetachedItem,
+.RadOrgChart_Sunset.rocDetachedNode {
+  border-radius: 5px;
+  border-color: #938879;
+  color: #272722;
+  background-color: #ffffff; }
+
+.rocToolbar_Sunset {
+  border-radius: 5px;
+  border-color: #35322b;
+  color: #ffffff;
+  background-color: #554e41;
+  background-image: linear-gradient(#8d836b, #7b7462 30%, #554e41); }
+  .rocToolbar_Sunset .rocToolbarButton {
+    border-radius: 3px;
+    border-color: #938973;
+    color: #3d1400;
+    background-color: #ded7c6;
+    background-image: linear-gradient(#f1eadf, #ded7c6);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+  .rocToolbar_Sunset .rocToolbarButton:hover {
+    border-color: #d2b40d;
+    color: #863d02;
+    background-color: #f1d121;
+    background-image: linear-gradient(#faef93, #f1d121);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+  .rocToolbar_Sunset .rocToolbarButton:active {
+    border-color: #e2711c;
+    color: #5d1f00;
+    background-color: #e88d49;
+    background-image: linear-gradient(#f3bc8b, #e88d49);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+

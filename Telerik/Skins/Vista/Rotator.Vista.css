@@ -1,0 +1,11 @@
+.RadRotator_Vista .rrClipRegion {
+  border-color: #aec5d1;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Vista .rrButton {
+  background-image: url('Rotator/RotatorButtons.gif'); }
+
+.RadRotator_Vista .rrLoadingSign {
+  background: url('Common/loading_small.gif') no-repeat center; }
+

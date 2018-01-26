@@ -1,0 +1,53 @@
+.RadTabStrip_WebBlue {
+  color: #333333; }
+  .RadTabStrip_WebBlue .rtsLevel1 {
+    border-color: #768ca5; }
+    .RadTabStrip_WebBlue .rtsLevel1 .rtsLink {
+      border-color: #465a6b;
+      color: #ffffff;
+      background-color: #748ea3;
+      background-image: linear-gradient(#748ea3, #6b849d 50%, #597791 50%, #748ea3); }
+    .RadTabStrip_WebBlue .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: #82bcd7;
+      color: #0e3d4f;
+      background-color: #9dd5ef;
+      background-image: linear-gradient(#c2e3f5, #91cce9 50%, #5fb2dc 50%, #9dd5ef); }
+    .RadTabStrip_WebBlue .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #768ca5;
+      color: #333333;
+      background-color: #ffffff;
+      background-image: none; }
+    .RadTabStrip_WebBlue .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #3a869e;
+      box-shadow: inset 0 0 5px #3a869e; }
+  .RadTabStrip_WebBlue .rtsLevel1 ~ .rtsLevel {
+    border-color: #768ca5;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadTabStrip_WebBlue .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #7abace; }
+    .RadTabStrip_WebBlue .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #449cb8; }
+    .RadTabStrip_WebBlue .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit; }
+    .RadTabStrip_WebBlue .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #3a869e;
+      box-shadow: inset 0 0 5px #3a869e; }
+  .RadTabStrip_WebBlue .rtsGhostTab {
+    border-color: #465a6b;
+    color: #ffffff;
+    background-color: #748ea3;
+    background-image: linear-gradient(#748ea3, #6b849d 50%, #597791 50%, #748ea3); }
+
+.RadTabStrip_WebBlue.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+  border-bottom-color: transparent; }
+
+.RadTabStrip_WebBlue.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+  border-top-color: transparent; }
+
+.RadTabStrip_WebBlue.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+  border-right-color: transparent; }
+
+.RadTabStrip_WebBlue.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+  border-left-color: transparent; }
+

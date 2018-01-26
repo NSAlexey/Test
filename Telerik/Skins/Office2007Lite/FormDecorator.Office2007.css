@@ -1,0 +1,196 @@
+.RadForm_Office2007 {
+  color: #333333;
+  background-color: #ffffff; }
+  .RadForm_Office2007 .rfdHeading {
+    color: #333333;
+    border-bottom-color: #9eb6ce; }
+  .RadForm_Office2007.rfdFieldset fieldset {
+    border-color: #688caf;
+    color: #00156e;
+    background-color: #d6e6f4; }
+  .RadForm_Office2007 .rfdAspLabel,
+  .RadForm_Office2007.rfdLabel label {
+    color: #333333; }
+  .RadForm_Office2007 .rfdSkinnedButton {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc);
+    box-shadow: none; }
+  .RadForm_Office2007 .rfdSkinnedButton:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a);
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Office2007 .rfdSkinnedButton:active,
+  .RadForm_Office2007 .rfdClickedButton,
+  .RadForm_Office2007 .rfdFocusedButton {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292);
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Office2007 .rfdSkinnedButton.rfdInputDisabled {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc);
+    box-shadow: none; }
+  .RadForm_Office2007 .rfdPrimaryButton {
+    border-color: #384986;
+    color: #ffffff;
+    background-color: #41559c;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1));
+    box-shadow: none; }
+  .RadForm_Office2007 .rfdPrimaryButton:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a);
+    box-shadow: none; }
+  .RadForm_Office2007 .rfdPrimaryButton:active,
+  .RadForm_Office2007 .rfdPrimaryButton.rfdClickedButton,
+  .RadForm_Office2007 .rfdPrimaryButton.rfdFocusedButton {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292);
+    box-shadow: none; }
+  .RadForm_Office2007 .rfdPrimaryButton.rfdInputDisabled {
+    border-color: #384986;
+    color: #ffffff;
+    background-color: #41559c;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1));
+    box-shadow: none; }
+  .RadForm_Office2007 .rfdTextInput,
+  .RadForm_Office2007.rfdTextarea textarea {
+    border-color: #a1bcdd;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Office2007 .rfdTextInput:hover,
+  .RadForm_Office2007.rfdTextarea textarea:hover {
+    border-color: #c4ba9c;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Office2007 .rfdTextInput:active,
+  .RadForm_Office2007.rfdTextarea textarea:active,
+  .RadForm_Office2007 .rfdTextInput:focus,
+  .RadForm_Office2007.rfdTextarea textarea:focus {
+    border-color: #c3bba3;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Office2007 .rfdTextInput:disabled,
+  .RadForm_Office2007.rfdTextarea textarea:disabled {
+    border-color: #a1bcdd;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Office2007 .rfdRadioChecked:before,
+  .RadForm_Office2007 .rfdCheckboxChecked:before {
+    color: #41559c; }
+  .RadForm_Office2007 .rfdRadioUnchecked:hover:before,
+  .RadForm_Office2007 .rfdCheckboxUnchecked:hover:before,
+  .RadForm_Office2007 .rfdRadioChecked:hover:before,
+  .RadForm_Office2007 .rfdCheckboxChecked:hover:before {
+    color: #2b3866; }
+  .RadForm_Office2007 .rfdRealInput:focus + .rfdRadioUnchecked:before,
+  .RadForm_Office2007 .rfdRealInput:focus + .rfdCheckboxUnchecked:before {
+    box-shadow: 0 0 1px 1px rgba(51, 51, 51, 0.5); }
+  .RadForm_Office2007 .rfdRealInput:focus + .rfdRadioChecked:before,
+  .RadForm_Office2007 .rfdRealInput:focus + .rfdCheckboxChecked:before {
+    box-shadow: 0 0 1px 1px rgba(65, 85, 156, 0.5); }
+  .RadForm_Office2007 .rfdSelect_Office2007 {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+  .RadForm_Office2007 .rfdSelect_Office2007:hover {
+    border-color: #c4ba9c;
+    color: #000000;
+    background-color: #ffe18a;
+    background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a);
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Office2007 .rfdSelect_Office2007:active,
+  .RadForm_Office2007 .rfdSelect_Office2007:focus {
+    border-color: #c3bba3;
+    color: #000000;
+    background-color: #fde292;
+    background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292);
+    box-shadow: inset 0 0 1px #ffffff; }
+  .RadForm_Office2007 .rfdSelect_Office2007.rfdSelectDisabled {
+    border-color: #a1bcdd;
+    color: #00156e;
+    background-color: #e8f1fc;
+    background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc);
+    box-shadow: none; }
+  .RadForm_Office2007.rfdScrollBars .rfdSelectBox::-webkit-scrollbar,
+  .RadForm_Office2007.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Office2007.rfdScrollBars .rfdSelectBox::-webkit-scrollbar-thumb:horizontal,
+  .RadForm_Office2007.rfdScrollBars form::-webkit-scrollbar,
+  .RadForm_Office2007.rfdScrollBars form::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Office2007.rfdScrollBars form::-webkit-scrollbar-thumb:horizontal {
+    background-color: #d6e6f4; }
+  .RadForm_Office2007.rfdScrollBars textarea::-webkit-scrollbar-corner {
+    background-color: #e6e6e6; }
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-thumb:vertical,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal {
+    border-color: #688caf;
+    background-color: #d6e6f4; }
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+  .RadForm_Office2007.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+    background-image: url('../Office2007/Common/radActionsSprite.png');
+    background-color: #d6e6f4; }
+  .RadForm_Office2007.rfdScrollBars {
+    scrollbar-3dlight-color: #606f94;
+    scrollbar-arrow-color: #4d5874;
+    scrollbar-base-color: #f5f5f5;
+    scrollbar-darkshadow-color: #5f6e93;
+    scrollbar-face-color: #d8dfe8;
+    scrollbar-highlight-color: #fff;
+    scrollbar-shadow-color: #a3a3a3;
+    scrollbar-track-color: #efefef; }
+  .RadForm_Office2007 .rfdTable {
+    border-color: #9eb6ce;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadForm_Office2007 .rfdTable th {
+    border-color: #85b0e3;
+    color: #333333;
+    background-color: #c3d8f1; }
+  .RadForm_Office2007 .rfdTable a {
+    color: #41559c; }
+  .RadForm_Office2007 .rfdTable a:hover {
+    color: #2b3866; }
+  .RadForm_Office2007 .rfdLoginControl,
+  .RadForm_Office2007 .rfdValidationSummaryControl {
+    border-color: #688caf;
+    color: #00156e;
+    background-color: #d6e6f4; }
+  .RadForm_Office2007 a.rfdLoginControl,
+  .RadForm_Office2007 a.rfdLoginControl:active,
+  .RadForm_Office2007 a.rfdLoginControl:visited {
+    color: #333333; }
+  .RadForm_Office2007 a.rfdLoginControl:hover {
+    color: #000000; }
+
+.rfdSelectBox_Office2007 {
+  border-color: #9eb6ce;
+  color: #333333;
+  background-color: #ffffff; }
+
+.rfdSelectBox_Office2007 li:hover,
+.rfdSelectBox_Office2007 .rfdSelect_hovered {
+  color: #00156e;
+  background-color: #ffd563; }
+
+.rfdSelectBox_Office2007 .rfdSelect_selected,
+.rfdSelectBox_Office2007 .rfdSelect_selected:hover {
+  color: #000000;
+  background-color: #f99631; }
+

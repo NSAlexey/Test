@@ -1,0 +1,39 @@
+.RadImageGallery_Windows7 {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #1e395b; }
+  .RadImageGallery_Windows7 .rigDotList > a {
+    background: #ffffff;
+    border-color: #aabfd6; }
+  .RadImageGallery_Windows7 .rigDotList .rigCurrentItem {
+    color: #4c93cc; }
+  .RadImageGallery_Windows7 .rigToolbar {
+    color: #1e395b;
+    background-color: #dde8f6; }
+  .RadImageGallery_Windows7 .rigCloseButton,
+  .RadImageGallery_Windows7 .rigDrawerButton {
+    color: #1e395b;
+    background-color: #dde8f6; }
+  .RadImageGallery_Windows7 .rigProgressBar div {
+    background-color: #4c93cc; }
+  .RadImageGallery_Windows7 .rigPager {
+    border-color: #aabfd6;
+    color: #4c607a;
+    background-color: #f1f5fb; }
+    .RadImageGallery_Windows7 .rigPager a.rigCurrentPage {
+      border-color: #4c93cc;
+      color: #4c93cc; }
+  .RadImageGallery_Windows7 .rigTooltip {
+    background-color: #ffffff;
+    border-color: #aabfd6; }
+    .RadImageGallery_Windows7 .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Windows7 .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_Windows7 .rigPrevButton,
+  .RadImageGallery_Windows7 .rigNextButton,
+  .RadImageGallery_Windows7 .rigScrollPrevIcon,
+  .RadImageGallery_Windows7 .rigScrollNextIcon,
+  .RadImageGallery_Windows7 .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+

@@ -1,0 +1,29 @@
+.RadImageEditor_Office2007 {
+  border-color: #688caf;
+  color: #00156e;
+  background-color: #d6e6f4; }
+
+.RadImageEditor_Office2007.rieDialogs .riePrintContent,
+.RadImageEditor_Office2007 .rieHighlightVertical,
+.RadImageEditor_Office2007 .rieHighlightHorizontal,
+.RadDock_Office2007.rieDialogs .rieActiveThumbsLink,
+.RadDock_Office2007.rieDialogs .rieThumbsLink:hover,
+.RadDock_Office2007.rieDialogs .riePrintContent,
+.RadDock_Office2007.rieDialogs .riePrintContent img {
+  border-color: #688caf;
+  color: #00156e;
+  background-color: #d6e6f4; }
+
+.RadImageEditor_Office2007 .rieContentArea,
+.RadDock_Office2007.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Office2007.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Office2007.rieDialogs .rieThumbsLink {
+  border-color: #9eb6ce; }
+
+.rieRotateTable .rbHovered .rbIcon:before,
+.rieResizeButtons .rbHovered .rbIcon:before {
+  color: #41559c; }
+
+.rieBottomCell {
+  border-color: #9eb6ce; }
+

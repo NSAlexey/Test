@@ -1,0 +1,140 @@
+.RadToolBar_Black {
+  border-color: #080808;
+  color: #f2f2f2;
+  background-color: #1b1b1b;
+  background-image: linear-gradient(#7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b); }
+  .RadToolBar_Black .rtbSeparator {
+    border-color: #080808 #464646 #464646 #080808; }
+  .RadToolBar_Black .rtbButton {
+    border-radius: 3px; }
+  .RadToolBar_Black .rtbMore {
+    border-color: #080808;
+    color: #f2f2f2;
+    background-color: #1b1b1b;
+    background-image: linear-gradient(#7b7b7b, #4a4a4a 50%, #313131 50%, #1b1b1b); }
+  .RadToolBar_Black .rtbFocused .rtbButton,
+  .RadToolBar_Black .rtbFocused.rtbMore {
+    box-shadow: inset 0 0 0.3em rgba(7, 7, 7, 0.5); }
+  .RadToolBar_Black .rtbHovered .rtbButton:not(.rtbSplitButton) {
+    border-color: black;
+    color: #ffffff;
+    background-color: #020202;
+    background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+  .RadToolBar_Black .rtbHovered .rtbSplitButton,
+  .RadToolBar_Black .rtbHovered .rtbArrow {
+    border-color: black; }
+  .RadToolBar_Black .rtbSplitButton .rtbHovered.rtbSplBtnActivator, .RadToolBar_Black .rtbSplitButton .rtbHovered.rtbArrow {
+    border-color: black;
+    color: #ffffff;
+    background-color: #020202;
+    background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+  .RadToolBar_Black .rtbChecked .rtbButton,
+  .RadToolBar_Black .rtbExpanded .rtbButton,
+  .RadToolBar_Black .rtbExpanded .rtbButton.rtbMenuButton,
+  .RadToolBar_Black .rtbExpanded.rtbMore {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+  .RadToolBar_Black .rtbExpanded .rtbButton.rtbSplitButton {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+    .RadToolBar_Black .rtbExpanded .rtbButton.rtbSplitButton .rtbArrow {
+      border-color: #070707; }
+  .RadToolBar_Black .rtbPressed .rtbButton:not(.rtbSplitButton) {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+  .RadToolBar_Black .rtbPressed .rtbSplitButton,
+  .RadToolBar_Black .rtbPressed .rtbArrow {
+    border-color: #070707; }
+  .RadToolBar_Black .rtbSplitButton .rtbPressed.rtbSplBtnActivator, .RadToolBar_Black .rtbSplitButton .rtbPressed.rtbArrow {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+
+.rtbPopup_Black {
+  border-color: #131313;
+  color: #ffffff;
+  background-color: #464646; }
+  .rtbPopup_Black .rtbLink,
+  .rtbPopup_Black .rtbInner {
+    border-radius: 3px; }
+  .rtbPopup_Black .rtbImage {
+    left: 5px; }
+  .rtbPopup_Black .rtbSeparator {
+    border-color: #2d2d2d #606060 #606060 #2d2d2d; }
+  .rtbPopup_Black .rtbFocused > .rtbLink {
+    border-color: rgba(19, 19, 19, 0.3);
+    box-shadow: inset 0 0 0.3em rgba(19, 19, 19, 0.3); }
+  .rtbPopup_Black .rtbFocused > .rtbInner {
+    border-color: rgba(7, 7, 7, 0.3);
+    box-shadow: inset 0 0 0.3em rgba(7, 7, 7, 0.3); }
+    .rtbPopup_Black .rtbFocused > .rtbInner .rtbArrow {
+      border-left-color: rgba(7, 7, 7, 0.3); }
+  .rtbPopup_Black .rtbHovered > .rtbLink {
+    border-color: black;
+    color: #ffffff;
+    background-color: black;
+    background-image: linear-gradient(#1a1a1a, black); }
+  .rtbPopup_Black .rtbHovered:not(.rtbSplitItem) > .rtbInner {
+    border-color: black;
+    color: #ffffff;
+    background-color: #020202;
+    background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+  .rtbPopup_Black .rtbHovered.rtbSplitItem > .rtbInner,
+  .rtbPopup_Black .rtbHovered > .rtbInner .rtbArrow {
+    border-color: black; }
+  .rtbPopup_Black .rtbSplitItem .rtbHovered.rtbSplBtnActivator, .rtbPopup_Black .rtbSplitItem .rtbHovered.rtbArrow {
+    border-color: black;
+    color: #ffffff;
+    background-color: #020202;
+    background-image: linear-gradient(#5c5c5c, #2a2a2c 50%, #060606 50%, #020202); }
+  .rtbPopup_Black .rtbSelected > .rtbLink {
+    border-color: #131313;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#3a3a3a, #202020); }
+  .rtbPopup_Black .rtbSelected > .rtbInner,
+  .rtbPopup_Black .rtbChecked > .rtbInner,
+  .rtbPopup_Black .rtbExpanded > .rtbInner,
+  .rtbPopup_Black .rtbExpanded > .rtbInner.rtbButton {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+    .rtbPopup_Black .rtbSelected > .rtbInner .rtbArrow,
+    .rtbPopup_Black .rtbChecked > .rtbInner .rtbArrow,
+    .rtbPopup_Black .rtbExpanded > .rtbInner .rtbArrow,
+    .rtbPopup_Black .rtbExpanded > .rtbInner.rtbButton .rtbArrow {
+      border-left-color: #070707; }
+  .rtbPopup_Black .rtbExpanded.rtbSplitItem .rtbInner .rtbSplBtnActivator,
+  .rtbPopup_Black .rtbExpanded.rtbSplitItem .rtbInner .rtbArrow {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+  .rtbPopup_Black .rtbPressed:not(.rtbSplitItem) > .rtbInner {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+  .rtbPopup_Black .rtbExpanded .rtbButton.rtbMenuButton,
+  .rtbPopup_Black .rtbPressed.rtbSplitItem > .rtbInner,
+  .rtbPopup_Black .rtbPressed > .rtbInner .rtbArrow {
+    border-color: #070707; }
+  .rtbPopup_Black .rtbSplitItem .rtbPressed.rtbSplBtnActivator, .rtbPopup_Black .rtbSplitItem .rtbPressed.rtbArrow {
+    border-color: #070707;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#6e6e6e, #2b2b2d 50%, #050505 50%, #202020); }
+  .rtbPopup_Black .rtbMenu:before {
+    border-color: transparent;
+    background: #393939; }
+  .rtbPopup_Black.rtbShadows {
+    box-shadow: 3px 3px 3px #131313; }
+

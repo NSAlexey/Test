@@ -1,0 +1,61 @@
+.RadToolTip_Material {
+  background-color: #576a73;
+  color: #ffffff;
+  border-color: #455A64;
+  font-family: "Roboto", "Noto", sans-serif;
+  font-size: 0.92857143em;
+  opacity: 0.9; }
+  .RadToolTip_Material .rtClose {
+    color: #ffffff; }
+  .RadToolTip_Material .rtCalloutTopRight,
+  .RadToolTip_Material .rtCalloutTopCenter,
+  .RadToolTip_Material .rtCalloutTopLeft {
+    border-bottom-color: #576a73; }
+  .RadToolTip_Material .rtCalloutTopRight:before,
+  .RadToolTip_Material .rtCalloutTopCenter:before,
+  .RadToolTip_Material .rtCalloutTopLeft:before {
+    border-bottom-color: #576a73; }
+  .RadToolTip_Material .rtCalloutMiddleRight {
+    border-left-color: #576a73; }
+  .RadToolTip_Material .rtCalloutMiddleRight:before {
+    border-left-color: #576a73; }
+  .RadToolTip_Material .rtCalloutMiddleLeft {
+    border-right-color: #576a73; }
+  .RadToolTip_Material .rtCalloutMiddleLeft:before {
+    border-right-color: #576a73; }
+  .RadToolTip_Material .rtCalloutBottomRight,
+  .RadToolTip_Material .rtCalloutBottomCenter,
+  .RadToolTip_Material .rtCalloutBottomLeft {
+    border-top-color: #576a73; }
+  .RadToolTip_Material .rtCalloutBottomRight:before,
+  .RadToolTip_Material .rtCalloutBottomCenter:before,
+  .RadToolTip_Material .rtCalloutBottomLeft:before {
+    border-top-color: #576a73; }
+  .RadToolTip_Material.rtLoading {
+    background-image: url('../Material/Common/loading.gif'); }
+  .RadToolTip_Material .rtTitleWrapper .rtTitle {
+    font-size: 1.23571429em; }
+  .RadToolTip_Material .rtClose {
+    z-index: 1;
+    width: auto;
+    height: auto;
+    top: 0.71428571em;
+    right: 0.71428571em; }
+  .RadToolTip_Material _:-ms-fullscreen, .RadToolTip_Material .rtClose {
+    right: 0.64285714em; }
+  .RadToolTip_Material .rtCloseIcon:before {
+    font-size: 24px; }
+  .RadToolTip_Material .rtRelativeWrapper {
+    padding: 0.57142857em 1.14285714em; }
+  .RadToolTip_Material.rtRtl .rtClose {
+    left: 0.57142857em;
+    left: 0.71428571em \9; }
+  .RadToolTip_Material _:-ms-fullscreen, .RadToolTip_Material.rtRtl .rtClose {
+    left: 0.71428571em; }
+  .RadToolTip_Material .t-ripple-container {
+    top: -1px;
+    left: -2px; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .RadToolTip_Material .t-ripple-container {
+      top: -2px; } }
+

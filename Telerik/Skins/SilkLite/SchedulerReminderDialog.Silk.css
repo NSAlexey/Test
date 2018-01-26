@@ -1,0 +1,8 @@
+.ReminderDialog_Silk {
+  border-color: #d9d9d9;
+  color: #292929;
+  background-color: #ffffff;
+  border-radius: 4px; }
+  .ReminderDialog_Silk .rsTitle {
+    border-radius: 4px 4px 0 0; }
+

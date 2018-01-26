@@ -1,0 +1,14 @@
+.RadSiteMap_Telerik {
+  color: #333333; }
+  .RadSiteMap_Telerik .rsmManyLevels > .rsmItem > .rsmLink {
+    border-color: #d1d1d1; }
+  .RadSiteMap_Telerik .rsmTwoLevels > .rsmItem > .rsmLink, .RadSiteMap_Telerik .rsmThreeLevels > .rsmItem > .rsmLink, .RadSiteMap_Telerik .rsmManyLevels .rsmLevel1 > .rsmItem > .rsmLink {
+    border-color: #d1d1d1; }
+  .RadSiteMap_Telerik .rsmOneLevel .rsmLink, .RadSiteMap_Telerik .rsmTwoLevels .rsmLevel1 .rsmLink, .RadSiteMap_Telerik .rsmThreeLevels .rsmLevel1 .rsmLink, .RadSiteMap_Telerik .rsmManyLevels .rsmLevel2 .rsmLink {
+    border-radius: 4px; }
+    .RadSiteMap_Telerik .rsmOneLevel .rsmLink:hover, .RadSiteMap_Telerik .rsmTwoLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Telerik .rsmThreeLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Telerik .rsmManyLevels .rsmLevel2 .rsmLink:hover {
+      border-color: #47ba22;
+      color: #000000;
+      background-color: #a2ea8b;
+      background-image: linear-gradient(#d2f8c5, #a2ea8b); }
+

@@ -1,0 +1,27 @@
+.RadUploadProgressArea_Simple {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadUploadProgressArea_Simple .ruHeader {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RadUploadProgressArea_Simple .ruFooter {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RadUploadProgressArea_Simple .ruProgressBar {
+    border-color: #c7c7c7;
+    background-color: #ededed; }
+  .RadUploadProgressArea_Simple .ruProgress {
+    border-color: #c7c7c7;
+    background-color: #ffa517; }
+  .RadUploadProgressArea_Simple .radButton {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+    .RadUploadProgressArea_Simple .radButton.ruHovered {
+      border-color: #ffc350;
+      color: #882501;
+      background-color: #ffe79c; }
+

@@ -1,0 +1,45 @@
+.RadMap_Office2007 .k-navigator {
+  border-color: #a1bcdd;
+  color: #00156e;
+  background-color: #e8f1fc;
+  background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+
+.RadMap_Office2007 .k-button {
+  border-color: #a1bcdd;
+  color: #00156e;
+  background-color: #e8f1fc;
+  background-image: linear-gradient(#e8f1fc, #e9f1fc 50%, #d2e1f4 50%, #e8f1fc); }
+
+.RadMap_Office2007 .k-button:hover,
+.RadMap_Office2007 .k-navigator > .k-button:hover {
+  border-color: #c4ba9c;
+  color: #000000;
+  background-color: #ffe18a;
+  background-image: linear-gradient(#fffce8, #ffedb3 50%, #ffd563 50%, #ffe18a); }
+
+.RadMap_Office2007 .k-button:active,
+.RadMap_Office2007 .k-button:focus,
+.RadMap_Office2007 .k-navigator > .k-button:active,
+.RadMap_Office2007 .k-navigator > .k-button:focus {
+  border-color: #c3bba3;
+  color: #000000;
+  background-color: #fde292;
+  background-image: linear-gradient(#ebc59b, #faad60 50%, #f99631 50%, #fde292); }
+
+.RadMap_Office2007 .k-marker {
+  color: #41559c; }
+
+.RadMap_Office2007.k-tooltip {
+  border-color: #a1bcdd;
+  color: #00156e;
+  background-color: #e8f1fc; }
+  .RadMap_Office2007.k-tooltip .k-tooltip-button {
+    color: #00156e;
+    background-color: #e8f1fc; }
+  .RadMap_Office2007.k-tooltip .k-tooltip-button:hover {
+    color: #41559c; }
+
+@media \0screen\,screen\9 {
+  .RadMap_Office2007 .k-icon {
+    background-image: url('../Office2007/Common/radActionsSprite.png'); } }
+

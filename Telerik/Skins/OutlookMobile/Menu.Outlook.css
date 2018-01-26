@@ -1,0 +1,32 @@
+.RadMenu_Outlook .rmRootToggle {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3); }
+
+.RadMenu_Outlook .rmRootToggle:active,
+.RadMenu_Outlook .rmRootToggle.rmExpanded {
+  border-color: #003c74;
+  color: #000000;
+  background-color: #ebe8e3;
+  background-image: linear-gradient(#fdfdfd, #ebe8e3);
+  box-shadow: inset 0 0 1px 2px #e59700; }
+
+.RadMenuPopup_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadMenuPopup_Outlook:before {
+    border-bottom-color: #89aee5; }
+  .RadMenuPopup_Outlook:after {
+    border-bottom-color: #ffffff; }
+  .RadMenuPopup_Outlook .rmItem {
+    border-color: #89aee5; }
+  .RadMenuPopup_Outlook .rmItem.rmSelected {
+    color: #000000;
+    background-color: #97b8e8; }
+  .RadMenuPopup_Outlook .rmLoading:after {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadMenuPopup_Outlook .rmLoadingIcon:after {
+    background-image: url('../Outlook/Common/loading_small.gif'); }
+

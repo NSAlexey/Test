@@ -1,0 +1,76 @@
+.RadMenu_Outlook .rmRootGroup {
+  border-color: #5d8fd8;
+  color: #000000;
+  background-color: #7ea6e0;
+  background-color: #adc9f7; }
+  .RadMenu_Outlook .rmRootGroup .rmItem {
+    border-color: #5d8fd8; }
+  .RadMenu_Outlook .rmRootGroup .rmRootLink:hover {
+    border-color: #ffd295;
+    color: #000000;
+    background-color: #ffd295;
+    background-image: linear-gradient(#fff3ca, #ffd295); }
+  .RadMenu_Outlook .rmRootGroup .rmSelected > .rmRootLink,
+  .RadMenu_Outlook .rmRootGroup .rmExpanded > .rmRootLink {
+    border-color: #5e88cd;
+    color: #000000;
+    background-color: #5e88cd;
+    background-image: linear-gradient(#aabee5, #5e88cd); }
+  .RadMenu_Outlook .rmRootGroup .rmFocused > .rmLink {
+    border-color: #5e88cd;
+    box-shadow: inset 0 0 5px #5e88cd; }
+
+.RadMenu_Outlook .rmGroup,
+.RadMenu_Outlook .rmMultiColumn,
+.RadMenu_Outlook .rmPopup {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadMenu_Outlook .rmGroup .rmLink {
+  border-radius: 3px; }
+
+.RadMenu_Outlook .rmGroup .rmLink:hover,
+.RadMenu_Outlook .rmGroup .rmToggle:hover {
+  border-color: #ffd294;
+  color: #000000;
+  background-color: #ffd294;
+  background-image: linear-gradient(#fff3ca, #ffd294); }
+
+.RadMenu_Outlook .rmGroup .rmSelected > .rmLink,
+.RadMenu_Outlook .rmGroup .rmExpanded > .rmLink,
+.RadMenu_Outlook .rmGroup .rmSelected > .rmLink .rmToggle,
+.RadMenu_Outlook .rmGroup .rmExpanded > .rmLink .rmToggle {
+  border-color: #97b8e8;
+  color: #000000;
+  background-color: #97b8e8;
+  background-image: linear-gradient(#dceafc, #97b8e8); }
+
+.RadMenu_Outlook .rmGroup .rmFocused > .rmLink,
+.RadMenu_Outlook .rmGroup .rmFocused > .rmLink .rmToggle {
+  border-color: #97b8e8;
+  box-shadow: inset 0 0 5px #97b8e8; }
+
+.RadMenu_Outlook .rmSeparator {
+  border-color: #5d8fd8; }
+
+.RadMenu_Outlook .rmGroup .rmSeparator {
+  border-color: #89aee5; }
+
+.RadMenu_Outlook .rmArrow {
+  border-color: #d9d9d9;
+  background-color: #f2f2f2; }
+
+.RadMenu_Outlook .rmArrow:hover {
+  background-color: #e6e6e6; }
+
+.RadMenu_Outlook .rmShadows .rmGroup {
+  box-shadow: 3px 3px 5px #89aee5; }
+
+.RadMenu_Outlook .rmGroup:before,
+.RadMenu_Outlook .rmMultiColumn:before,
+.RadMenu_Outlook .rmScrollWrap > .rmHorizontal:before,
+.RadMenu_Outlook .rmScrollWrap > .rmVertical:before {
+  border-color: transparent;
+  background-color: #7ea6e0; }
+

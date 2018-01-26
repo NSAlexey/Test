@@ -1,0 +1,9 @@
+.RecurrenceEditor_Default .rsPanel {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RecurrenceEditor_Default .rsAdvRecurrenceFreq,
+.RecurrenceEditor_Default .rsAdvPatternPanel {
+  border-color: #cccccc; }
+

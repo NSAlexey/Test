@@ -1,0 +1,23 @@
+.RadToolTip_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadToolTip_Metro .rtClose {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadToolTip_Metro .rtClose:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadToolTip_Metro .rtClose:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadToolTip_Metro .rtCallout {
+    border-color: #e6e6e6; }
+  .RadToolTip_Metro .rtCallout:before {
+    border-color: #ffffff; }
+  .RadToolTip_Metro.rtLoading {
+    background-image: url('../Metro/Common/loading.gif'); }
+

@@ -1,0 +1,588 @@
+.RadScheduler_MetroTouch {
+  color: #333333;
+  background-color: #ffffff;
+  font: 100 16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadScheduler_MetroTouch .rsSubHeader {
+    border-top: 1px solid #cbcbcb;
+    color: #555555;
+    background-color: #e8e8e8; }
+  .RadScheduler_MetroTouch .rsResourceMarker {
+    background-color: #f3f3f3; }
+  .RadScheduler_MetroTouch .rsYearView .rsMonthHeader {
+    border-color: #e5e5e5; }
+  .RadScheduler_MetroTouch .rsYearView thead tr:nth-child(2) {
+    color: #999999; }
+  .RadScheduler_MetroTouch .rsYearView .rsDateHeader {
+    border-color: transparent;
+    border-radius: 4px; }
+  .RadScheduler_MetroTouch .rsYearView .rsDateHeader:hover {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadScheduler_MetroTouch .rsYearView .rsOccupiedSlot {
+    background-color: #f3f3f3;
+    border-radius: 4px; }
+  .RadScheduler_MetroTouch .rsYearView .rsTodayCell .rsDateHeader {
+    border-color: #e7e7e7; }
+  .RadScheduler_MetroTouch .rsYearView .rsSatCol:not(.rsOccupiedSlot),
+  .RadScheduler_MetroTouch .rsYearView .rsSunCol:not(.rsOccupiedSlot) {
+    color: #999999; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltip .rsToolTipContent {
+    border-radius: 4px;
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltip .rsCategoryPattern .rsResourceMarker {
+    background-color: #f3f3f3; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltip .rsToolTipArrow {
+    color: #333333;
+    background-color: #ffffff; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltip .rsToolTipArrowUp {
+    border-radius: 4px 4px 0 0; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltip .rsToolTipArrowDown {
+    border-radius: 0 0 4px 4px; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltipRight .rsToolTipCallOut {
+    border-right-color: #e6e6e6; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltipRight .rsToolTipCallOut:before {
+    border-right-color: #ffffff; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltipLeft .rsToolTipCallOut {
+    border-left-color: #e6e6e6; }
+  .RadScheduler_MetroTouch .rsYearView .rsTooltipLeft .rsToolTipCallOut:before {
+    border-left-color: #ffffff; }
+  .RadScheduler_MetroTouch .rsHeader {
+    padding: 19px;
+    height: 30px;
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: #000000; }
+    .RadScheduler_MetroTouch .rsHeader a,
+    .RadScheduler_MetroTouch .rsHeader a:hover {
+      color: #ffffff; }
+    .RadScheduler_MetroTouch .rsHeader p {
+      padding: 0;
+      margin: 0; }
+    .RadScheduler_MetroTouch .rsHeader em {
+      font-style: normal; }
+    .RadScheduler_MetroTouch .rsHeader .rsDatePickerActivator,
+    .RadScheduler_MetroTouch .rsHeader .rsPrevDay,
+    .RadScheduler_MetroTouch .rsHeader .rsNextDay {
+      margin: 0 1px;
+      width: 28px;
+      height: 28px;
+      border: 1px solid #ffffff;
+      border-radius: 100%;
+      background-image: url('Common/radActionsSprite.png');
+      background-repeat: no-repeat; }
+    .RadScheduler_MetroTouch .rsHeader .rsPrevDay,
+    .RadScheduler_MetroTouch .rsHeader .rsPrevDay:hover {
+      background-position: -111px -111px; }
+    .RadScheduler_MetroTouch .rsHeader .rsNextDay,
+    .RadScheduler_MetroTouch .rsHeader .rsNextDay:hover {
+      background-position: -111px -161px; }
+    .RadScheduler_MetroTouch .rsHeader .rsDatePickerActivator,
+    .RadScheduler_MetroTouch .rsHeader .rsDatePickerActivator:hover {
+      margin: 10px 0 0 2px;
+      width: 14px;
+      height: 14px;
+      border: 0;
+      background-position: -118px -68px; }
+    .RadScheduler_MetroTouch .rsHeader .rsToday {
+      margin-left: 20px; }
+    .RadScheduler_MetroTouch .rsHeader h2 {
+      font-size: 18px; }
+    .RadScheduler_MetroTouch .rsHeader ul {
+      margin: -19px -19px 0 0;
+      padding: 0; }
+      .RadScheduler_MetroTouch .rsHeader ul li,
+      .RadScheduler_MetroTouch .rsHeader ul .rsSelected {
+        padding: 0;
+        margin: 0; }
+      .RadScheduler_MetroTouch .rsHeader ul a,
+      .RadScheduler_MetroTouch .rsHeader ul .rsSelected em {
+        margin: 0;
+        padding: 25px 10px 25px;
+        min-width: 50px;
+        background-repeat: no-repeat;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center; }
+      .RadScheduler_MetroTouch .rsHeader ul a:hover {
+        background-color: #676767; }
+      .RadScheduler_MetroTouch .rsHeader ul .rsSelected em {
+        background-color: #404040; }
+      .RadScheduler_MetroTouch .rsHeader ul a span {
+        padding: 0; }
+  .RadScheduler_MetroTouch .rsFooter {
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    background-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsFooter .rsFullTime {
+      padding: 0px 0 3px 17px;
+      color: #767676;
+      background-image: url('Scheduler/rsSprites.png');
+      background-position: 0 -248px;
+      background-repeat: no-repeat;
+      font-size: 14px; }
+    .RadScheduler_MetroTouch .rsFooter .rsFullTime:hover {
+      background-position: 0 -271px; }
+  .RadScheduler_MetroTouch .rsContent {
+    background: #ffffff; }
+  .RadScheduler_MetroTouch .rsSpacerCell {
+    border-color: #e5e5e5;
+    color: #767676; }
+  .RadScheduler_MetroTouch .rsHorizontalHeaderWrapper {
+    border-color: #e5e5e5;
+    background-color: #ffffff; }
+  .RadScheduler_MetroTouch .rsHorizontalHeaderTable {
+    color: #767676;
+    background-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsHorizontalHeaderTable th {
+      border-color: #e5e5e5;
+      background-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsHorizontalHeaderTable a {
+      color: #767676; }
+  .RadScheduler_MetroTouch .rsVerticalHeaderTable {
+    color: #767676;
+    background-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsVerticalHeaderTable tr {
+      font-size: 22px; }
+    .RadScheduler_MetroTouch .rsVerticalHeaderTable th {
+      border-color: transparent #e5e5e5;
+      border-top: 0;
+      color: #767676; }
+    .RadScheduler_MetroTouch .rsVerticalHeaderTable .rsAlt th {
+      border-color: #e5e5e5; }
+    .RadScheduler_MetroTouch .rsVerticalHeaderTable div {
+      line-height: 24px;
+      font-weight: 100; }
+  .RadScheduler_MetroTouch .rsAllDayHeader,
+  .RadScheduler_MetroTouch .rsVerticalHeaderTable .rsAllDayHeader {
+    border-color: #e5e5e5;
+    color: #767676; }
+  .RadScheduler_MetroTouch .rsAllDayRow td,
+  .RadScheduler_MetroTouch .rsContentTable .rsAllDayRow td {
+    border-color: #e5e5e5;
+    border-style: solid; }
+  .RadScheduler_MetroTouch .rsApt {
+    border: 0;
+    font-size: 14px;
+    line-height: 17px; }
+    .RadScheduler_MetroTouch .rsApt .rsAptResize:before {
+      content: "";
+      margin: -8px 0 0 -8px;
+      padding: 0;
+      width: 16px;
+      height: 16px;
+      background-image: url('Common/radActionsSprite.png');
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 50%;
+      left: 50%; }
+    .RadScheduler_MetroTouch .rsApt .rsAptResizeStart {
+      top: 5px;
+      bottom: auto; }
+      .RadScheduler_MetroTouch .rsApt .rsAptResizeStart:before {
+        background-position: -17px -2017px; }
+    .RadScheduler_MetroTouch .rsApt .rsAptResizeEnd {
+      top: auto;
+      bottom: 2px; }
+      .RadScheduler_MetroTouch .rsApt .rsAptResizeEnd:before {
+        background-position: -17px -2017px; }
+    .RadScheduler_MetroTouch .rsApt .rsAptRecurrence,
+    .RadScheduler_MetroTouch .rsApt .rsAptRecurrenceException,
+    .RadScheduler_MetroTouch .rsApt .rsAptReminder {
+      margin: 0 5px 0 0;
+      padding: 0;
+      width: 16px;
+      height: 16px;
+      float: none;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      vertical-align: bottom;
+      background-image: url('Common/radActionsSprite.png'); }
+    .RadScheduler_MetroTouch .rsApt .rsAptReminder {
+      background-position: -17px -4417px; }
+    .RadScheduler_MetroTouch .rsApt .rsAptRecurrence {
+      float: left;
+      background-position: -17px -4317px; }
+    .RadScheduler_MetroTouch .rsApt .rsAptRecurrenceException {
+      background-position: -17px -4367px; }
+    .RadScheduler_MetroTouch .rsApt .rsAptDelete {
+      width: 16px;
+      height: 16px;
+      background-color: transparent;
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -17px -3367px;
+      background-repeat: no-repeat;
+      top: 5px;
+      right: 5px;
+      left: auto; }
+  .RadScheduler_MetroTouch .rsAptOut,
+  .RadScheduler_MetroTouch .rsAptMid,
+  .RadScheduler_MetroTouch .rsAptIn {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    border: 0;
+    background: none;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  .RadScheduler_MetroTouch .rsAptMid {
+    margin-right: 1px;
+    margin-left: 1px; }
+  .RadScheduler_MetroTouch .rsAptContent {
+    margin: 0;
+    padding: 1px 25px 1px 10px;
+    width: auto;
+    border: 0;
+    border-top: 3px solid #25a0da;
+    color: #000000;
+    background: #d3ecf8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  .RadScheduler_MetroTouch .rsWArrowRight .rsAptContent {
+    padding-right: 25px; }
+  .RadScheduler_MetroTouch .rsWArrowLeft .rsAptContent {
+    padding-left: 10px; }
+  .RadScheduler_MetroTouch .rsAptColor .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryBlue .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryRed .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryGreen .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryOrange .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryPink .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryYellow .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryViolet .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryDarkRed .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryDarkBlue .rsAptContent,
+  .RadScheduler_MetroTouch .rsCategoryDarkGreen .rsAptContent {
+    background-image: none; }
+  .RadScheduler_MetroTouch .rsAptColor .rsAptContent {
+    border-color: #767676; }
+  .RadScheduler_MetroTouch .rsAptSelected .rsAptContent {
+    border-color: #000000; }
+  .RadScheduler_MetroTouch .rsMonthView .rsDateBox {
+    height: auto;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f5f5f5; }
+  .RadScheduler_MetroTouch .rsMonthView .rsDateHeader {
+    padding: 2px 6px;
+    color: #767676;
+    display: inline-block; }
+  .RadScheduler_MetroTouch .rsMonthView .rsAptCreate {
+    background-image: none; }
+  .RadScheduler_MetroTouch .rsMonthView .rsContentTable td {
+    border-color: #e5e5e5;
+    border-style: solid; }
+  .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeStart,
+  .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeEnd {
+    top: 0;
+    bottom: auto; }
+    .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeStart:before,
+    .RadScheduler_MetroTouch .rsMonthView .rsApt .rsAptResizeEnd:before {
+      background-position: -17px -2117px; }
+  .RadScheduler_MetroTouch .rsTimelineView .rsVerticalHeaderTable th {
+    border-color: #e5e5e5;
+    color: #000000;
+    font-size: 14px; }
+  .RadScheduler_MetroTouch .rsTimelineView .rsVerticalHeaderTable div {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: normal; }
+  .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeStart,
+  .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeEnd {
+    top: 0;
+    bottom: auto; }
+    .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeStart:before,
+    .RadScheduler_MetroTouch .rsTimelineView .rsApt .rsAptResizeEnd:before {
+      background-position: -17px -2117px; }
+  .RadScheduler_MetroTouch .rsAptEditFormWrapper {
+    margin: -1px 0 0 -1px;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsAptEditFormOuter,
+    .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsAptEditFormMiddle,
+    .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsAptEditFormMiddle2,
+    .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsAptEditFormInner {
+      margin: 0;
+      padding: 0;
+      background: none; }
+    .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsAptEditTextareaWrapper {
+      margin: 0;
+      padding: 3px;
+      border-color: #e5e5e5;
+      background-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsEditOptions {
+      margin: 10px 0 0 0;
+      padding: 0; }
+      .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsEditOptions a {
+        border: 1px solid #cccccc;
+        height: 34px;
+        color: #000000;
+        background-color: #f5f5f5;
+        font-size: 16px;
+        line-height: 34px; }
+        .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsEditOptions a:hover {
+          color: #000000;
+          background-color: #e5e5e5; }
+        .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsEditOptions a:active {
+          border-color: #25a0da;
+          color: #ffffff;
+          background-color: #25a0da; }
+    .RadScheduler_MetroTouch .rsAptEditFormWrapper .rsAptEditResizeHandle {
+      position: absolute;
+      top: auto;
+      right: -5px;
+      bottom: -5px;
+      left: auto; }
+  .RadScheduler_MetroTouch .rsAdvancedEdit {
+    padding: 0;
+    border: 1px solid #cccccc;
+    background: #ffffff; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit div.rsAdvTitle {
+      margin: 0;
+      padding: 6px 30px 6px 10px;
+      color: #ffffff;
+      background: #25a0da;
+      font-size: 22px;
+      font-weight: 100;
+      height: auto; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvInnerTitle {
+      margin: 0;
+      padding: 0;
+      height: auto;
+      font-size: 1em; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvEditClose {
+      margin: 0;
+      padding: 0;
+      width: 28px;
+      height: 28px;
+      border: 1px solid transparent;
+      border-radius: 100%;
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -111px -1911px;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      left: auto; }
+      .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvEditClose:hover {
+        border-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvContentWrapper {
+      margin: 0;
+      padding: 10px;
+      border: 0;
+      background: none; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvOptionsScroll {
+      padding: 0; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvOptionsPanel {
+      *zoom: 1; }
+      .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvOptionsPanel:after {
+        content: "";
+        height: 0;
+        clear: both;
+        display: block; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit label {
+      width: 120px;
+      box-sizing: border-box; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .riTextBox {
+      padding: 2px 20px 3px 5px;
+      box-sizing: border-box; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvInput,
+    .RadScheduler_MetroTouch .rsAdvancedEdit select,
+    .RadScheduler_MetroTouch .rsAdvancedEdit .textareaWrapper {
+      border-color: #767676; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsInvalid textarea,
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsInvalid input,
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvTimePicker .riEmpty {
+      background-image: url('Input/sprite.gif');
+      border-color: #de3914; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .textareaWrapper {
+      background: #ffffff; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsInvalid {
+      border-color: #de3914;
+      color: #5d1f00; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit h2,
+    .RadScheduler_MetroTouch .rsAdvancedEdit h3 {
+      color: #767676; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit h2 {
+      border-bottom: 1px solid #e5e5e5; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit h2 span {
+      background: #e5e5e5; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvancedSubmitArea {
+      margin: 20px 0 0 0;
+      padding: 20px 0 0;
+      border-top: 1px solid #e5e5e5; }
+      .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvancedSubmitArea a {
+        border: 1px solid #cccccc;
+        height: 34px;
+        color: #000000;
+        background-color: #f5f5f5;
+        font-size: 16px;
+        line-height: 34px;
+        margin: 0 0 0 20px; }
+        .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvancedSubmitArea a:hover {
+          color: #000000;
+          background-color: #e5e5e5; }
+        .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvancedSubmitArea a:active {
+          border-color: #25a0da;
+          color: #ffffff;
+          background-color: #25a0da; }
+    .RadScheduler_MetroTouch .rsAdvancedEdit .rsAdvButtonWrapper {
+      margin: 0;
+      padding: 0; }
+  .RadScheduler_MetroTouch .rsAdvancedModal {
+    padding-bottom: 8px; }
+  .RadScheduler_MetroTouch .rsModalBgTopLeft,
+  .RadScheduler_MetroTouch .rsModalBgTopRight,
+  .RadScheduler_MetroTouch .rsModalBgBottomLeft,
+  .RadScheduler_MetroTouch .rsModalBgBottomRight {
+    background: none;
+    display: none; }
+  .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog {
+    padding: 0;
+    border: 1px solid #cccccc;
+    background: #ffffff; }
+    .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalOuter,
+    .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalOuterTitle {
+      padding: 0;
+      margin: 0;
+      background: none; }
+    .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalInner {
+      padding: 60px 10px 10px;
+      border: 0; }
+      .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalInner .rsModalIcon {
+        background-image: url('Scheduler/rsSprites.png');
+        top: 70px; }
+    .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalTitle {
+      margin: 0;
+      padding: 6px 30px 6px 10px;
+      color: #ffffff;
+      background: #25a0da;
+      font-size: 22px;
+      font-weight: 100; }
+    .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalWindowClose {
+      margin: 0;
+      padding: 0;
+      width: 28px;
+      height: 28px;
+      border: 1px solid transparent;
+      border-radius: 100%;
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -111px -1911px;
+      top: 5px;
+      right: 5px; }
+      .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalWindowClose:hover {
+        border-color: #ffffff; }
+    .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalButtons {
+      margin: 0;
+      padding: 20px;
+      text-align: center; }
+      .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalButtons a {
+        border: 1px solid #cccccc;
+        height: 34px;
+        color: #000000;
+        background-color: #f5f5f5;
+        font-size: 16px;
+        line-height: 34px;
+        margin: 0 20px;
+        float: none;
+        display: inline-block; }
+        .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalButtons a:hover {
+          color: #000000;
+          background-color: #e5e5e5; }
+        .RadScheduler_MetroTouch .rsModalWrapper .rsModalDialog .rsModalButtons a:active {
+          border-color: #25a0da;
+          color: #ffffff;
+          background-color: #25a0da; }
+  .RadScheduler_MetroTouch .rsAdvOptionsPanel .rsAdvDatePicker .riSingle,
+  .RadScheduler_MetroTouch .rsAdvOptionsPanel .rsAdvTimePicker .riSingle {
+    width: 115px !important; }
+  .RadScheduler_MetroTouch .rsAdvOptionsPanel .rsAdvDatePicker .riTextBox,
+  .RadScheduler_MetroTouch .rsAdvOptionsPanel .rsAdvTimePicker .riTextBox {
+    width: 115px !important;
+    background-image: url('Common/rmArrows.png');
+    background-repeat: no-repeat;
+    background-position: right -58px; }
+    .RadScheduler_MetroTouch .rsAdvOptionsPanel .rsAdvDatePicker .riTextBox.riFocused,
+    .RadScheduler_MetroTouch .rsAdvOptionsPanel .rsAdvTimePicker .riTextBox.riFocused {
+      background-position: right -258px; }
+  .RadScheduler_MetroTouch textarea {
+    background: #ffffff; }
+  .RadScheduler_MetroTouch .rsContent {
+    border: 1px solid #e5e5e5;
+    border-top: 0; }
+  .RadScheduler_MetroTouch .rsContentTable td {
+    border-color: #e5e5e5;
+    border-bottom-style: dotted; }
+  .RadScheduler_MetroTouch .rsContentTable .rsAlt td {
+    border-color: #e5e5e5 #e5e5e5;
+    border-bottom-style: solid; }
+  .RadScheduler_MetroTouch .rsMonthView .rsOtherMonth {
+    background-color: #e5e5e5; }
+  .RadScheduler_MetroTouch .rsApt .rsArrowTop,
+  .RadScheduler_MetroTouch .rsApt .rsArrowBottom,
+  .RadScheduler_MetroTouch .rsApt .rsArrowLeft,
+  .RadScheduler_MetroTouch .rsApt .rsArrowRight {
+    background-color: transparent;
+    background-image: url('Scheduler/rsSprites.png');
+    background-repeat: no-repeat; }
+  .RadScheduler_MetroTouch .rsNonWorkHour,
+  .RadScheduler_MetroTouch .rsSunCol,
+  .RadScheduler_MetroTouch .rsSatCol {
+    background-color: #f5f5f5; }
+  .RadScheduler_MetroTouch .rsAptCreate,
+  .RadScheduler_MetroTouch .rsMonthView .rsAptCreate,
+  .RadScheduler_MetroTouch .rsAptCreateRow2,
+  .RadScheduler_MetroTouch .rsMonthView .rsAptCreateRow2,
+  .RadScheduler_MetroTouch .rsAptCreateRow3,
+  .RadScheduler_MetroTouch .rsMonthView .rsAptCreateRow3,
+  .RadScheduler_MetroTouch .rsAptCreateRow4,
+  .RadScheduler_MetroTouch .rsMonthView .rsAptCreateRow4,
+  .RadScheduler_MetroTouch .rsAptCreateRow5,
+  .RadScheduler_MetroTouch .rsMonthView .rsAptCreateRow5 {
+    background: #e5e5e5; }
+  .RadScheduler_MetroTouch .rsSelectedSlot,
+  .RadScheduler_MetroTouch .rsMonthView .rsSelectedSlot {
+    border-color: #25a0da;
+    background: #25a0da; }
+  .RadScheduler_MetroTouch .rsContentTable td.rsAptCreate.rsSelectedSlot {
+    border-color: #25a0da;
+    background-color: #25a0da; }
+  .RadScheduler_MetroTouch .rsContentTable td.rsSelectedSlot {
+    border-color: #25a0da;
+    background-color: #25a0da; }
+  .RadScheduler_MetroTouch .rsTimePick .RadInput_Metro input.riEnabled,
+  .RadScheduler_MetroTouch .rsTimePick .RadInput_Metro input.riHover,
+  .RadScheduler_MetroTouch .rsTimePick .RadInput_Metro input.riFocused {
+    background-image: url('Scheduler/rsSprites.png'); }
+  .RadScheduler_MetroTouch .rsAnimating {
+    background-image: none; }
+  .RadScheduler_MetroTouch .rsBottomIndicator .rsOvertimeArrow {
+    background: transparent url('Scheduler/rsSprites.png') no-repeat -180px -31px; }
+  .RadScheduler_MetroTouch .rsTopIndicator .rsOvertimeArrow {
+    background: transparent url('Scheduler/rsSprites.png') no-repeat -134px -31px; }
+  .RadScheduler_MetroTouch .rsAgendaView {
+    color: #000000;
+    background-color: #ffffff; }
+  .RadScheduler_MetroTouch .rsAgendaTable th, .RadScheduler_MetroTouch .rsAgendaTable td {
+    border-bottom-color: #cbcbcb;
+    border-right-color: #e2e2e2; }
+  .RadScheduler_MetroTouch .rsAgendaTable th {
+    color: #878787;
+    background-color: #ffffff; }
+  .RadScheduler_MetroTouch .rsAgendaTable .rsAgendaRowHovered {
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadScheduler_MetroTouch .rsAgendaTable .rsAgendaRowSelected {
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadScheduler_MetroTouch .RadCalendar {
+    width: 282px; }
+

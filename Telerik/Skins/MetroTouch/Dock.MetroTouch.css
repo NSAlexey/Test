@@ -1,0 +1,90 @@
+.RadDock_MetroTouch {
+  /* Right to left support */ }
+  .RadDock_MetroTouch div.rdContent {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 22px; }
+  .RadDock_MetroTouch tr.rdTop .rdLeft,
+  .RadDock_MetroTouch tr.rdTop .rdCenter,
+  .RadDock_MetroTouch tr.rdTop .rdRight {
+    height: 50px;
+    background-color: #25a0da;
+    border-top: 1px solid #e6e6e6; }
+  .RadDock_MetroTouch .rdTop .rdLeft,
+  .RadDock_MetroTouch .rdMiddle .rdLeft,
+  .RadDock_MetroTouch .rdBottom .rdLeft {
+    border-left: 1px solid #e6e6e6; }
+  .RadDock_MetroTouch .rdTop .rdRight,
+  .RadDock_MetroTouch .rdMiddle .rdRight,
+  .RadDock_MetroTouch .rdBottom .rdRight {
+    border-right: 1px solid #e6e6e6; }
+  .RadDock_MetroTouch .rdBottom .rdCenter,
+  .RadDock_MetroTouch .rdBottom .rdLeft,
+  .RadDock_MetroTouch .rdBottom .rdRight {
+    border-bottom: 1px solid #e6e6e6; }
+  .RadDock_MetroTouch div.rdTitleBar em {
+    font-size: 22px;
+    line-height: 46px;
+    color: #ffffff;
+    padding: 0 0 0 5px; }
+  .RadDock_MetroTouch .rdMiddle .rdCenter,
+  .RadDock_MetroTouch .rdMiddle .rdLeft,
+  .RadDock_MetroTouch .rdMiddle .rdRight,
+  .RadDock_MetroTouch .rdBottom .rdCenter,
+  .RadDock_MetroTouch .rdBottom .rdLeft,
+  .RadDock_MetroTouch .rdBottom .rdRight {
+    background-color: #ffffff; }
+  .RadDock_MetroTouch .rdContent,
+  .RadDock_MetroTouch .rdTitleBar em {
+    color: #333333; }
+  .RadDock_MetroTouch td.rdCenter .rdCommands li {
+    margin: 5px 6px 0 0; }
+  .RadDock_MetroTouch td.rdCenter .rdCommands a span {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadDock_MetroTouch td.rdCenter .rdCommands a,
+  .RadDock_MetroTouch td.rdCenter .rdCommands a span {
+    width: 28px;
+    height: 28px; }
+  .RadDock_MetroTouch td.rdCenter .rdCommands a {
+    border: 1px solid transparent; }
+  .RadDock_MetroTouch td.rdCenter .rdCommands a:hover {
+    border-radius: 45px;
+    border: 1px solid #ffffff; }
+  .RadDock_MetroTouch .rdCommands span,
+  .RadDock_MetroTouch span.rdExpand,
+  .RadDock_MetroTouch span.rdExpand:hover {
+    background-position: -111px -61px; }
+  .RadDock_MetroTouch span.rdCollapse,
+  .RadDock_MetroTouch span.rdCollapse:hover {
+    background-position: -111px -11px; }
+  .RadDock_MetroTouch span.rdCustom,
+  .RadDock_MetroTouch span.rdCustom:hover {
+    background-position: -111px -2511px; }
+  .RadDock_MetroTouch span.rdClose,
+  .RadDock_MetroTouch span.rdClose:hover {
+    background-position: -111px -1911px; }
+  .RadDock_MetroTouch span.rdPin,
+  .RadDock_MetroTouch span.rdPin:hover {
+    background-position: -111px -1211px; }
+  .RadDock_MetroTouch span.rdUnpin,
+  .RadDock_MetroTouch span.rdUnpin:hover {
+    background-position: -111px -1261px; }
+  .RadDock_MetroTouch.RadDock.rdCollapsed {
+    height: 50px !important; }
+  .RadDock_MetroTouch.rdRtl .rdTop .rdLeft,
+  .RadDock_MetroTouch.rdRtl .rdMiddle .rdLeft,
+  .RadDock_MetroTouch.rdRtl .rdBottom .rdLeft {
+    border-left: 0;
+    border-right: 1px solid #e6e6e6; }
+  .RadDock_MetroTouch.rdRtl .rdTop .rdRight,
+  .RadDock_MetroTouch.rdRtl .rdMiddle .rdRight,
+  .RadDock_MetroTouch.rdRtl .rdBottom .rdRight {
+    border-right: 0;
+    border-left: 1px solid #e6e6e6; }
+
+.RadDockZone_MetroTouch {
+  border: 1px solid #cdcdcd; }
+
+.MetroTouchRouneded,
+.MetroTouchRouneded .rdTable {
+  border-radius: 5px; }

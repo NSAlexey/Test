@@ -1,0 +1,37 @@
+.RadImageEditor_Default,
+.RadImageEditor_Default.rieDialogs .riePrintContent {
+  border-color: #b3b3b3;
+  background-color: #e6e6e6; }
+
+.RadImageEditor_Default .rieStatusBarInfo .rieLabel {
+  color: #333333; }
+
+.RadImageEditor_Default .rieStatusBarInfo span {
+  color: #4d4d4d; }
+
+.RadDock_Default.rieDialogs .rbPrimaryIcon,
+.RadImageEditor_Default .rieResizeHandle,
+.RadImageEditor_Default .rtbIcon,
+.RadToolBarDropDown_Default.RadImageEditor .rtbIcon {
+  background-image: url('../Common/ImageEditor/rieToolsLight.png'); }
+
+.RadDock_Default.rieDialogs .rieThumbsBottomRow td,
+.RadDock_Default.rieDialogs .rieDialogsThumbsLeft,
+.RadDock_Default.rieDialogs .rieThumbsLink,
+.RadImageEditor_Default .rieContentArea {
+  border-color: #b3b3b3; }
+
+.RadDock_Default.rieDialogs .rieActiveThumbsLink,
+.RadDock_Default.rieDialogs .rieThumbsLink:hover,
+.RadDock_Default.rieDialogs .riePrintContent img,
+.RadImageEditor_Default .rieHighlightVertical,
+.RadImageEditor_Default .rieHighlightHorizontal {
+  border-color: darkgray;
+  background-color: #e6e6e6; }
+
+.RadDock_Default.rieDialogs .rdContent {
+  color: #333333; }
+
+.rieBottomCell {
+  border-color: #cccccc; }
+

@@ -1,0 +1,9 @@
+.RecurrenceEditor_Material {
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RecurrenceEditor_Material .RadInput {
+    padding: 0; }
+    .RecurrenceEditor_Material .RadInput .riContentWrapper {
+      padding: 0 13px; }
+  .RecurrenceEditor_Material .RadPicker .RadInput {
+    padding: 0 13px; }
+

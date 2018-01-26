@@ -1,0 +1,10 @@
+.RadDataForm_Silk {
+  color: #333333; }
+  .RadDataForm_Silk .rdfLegend,
+  .RadDataForm_Silk .rdfBorders {
+    border-color: #c4c4c4; }
+  .RadDataForm_Silk .rdfHr {
+    color: #c4c4c4; }
+  .RadDataForm_Silk .rdfFieldHint {
+    color: #b3b3b3; }
+

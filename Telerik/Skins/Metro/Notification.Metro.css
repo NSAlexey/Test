@@ -1,0 +1,16 @@
+.RadNotification_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadNotification_Metro .rnTitleBar {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    border-bottom-color: inherit; }
+  .RadNotification_Metro .rnCommands a {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadNotification_Metro.rnShadows {
+    box-shadow: 2px 2px 3px #e6e6e6; }
+

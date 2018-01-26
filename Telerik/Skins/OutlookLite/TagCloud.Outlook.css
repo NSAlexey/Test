@@ -1,0 +1,14 @@
+.RadTagCloud_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadTagCloud_Outlook.rtcClassic {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadTagCloud_Outlook .rtcTagItem a {
+    color: #306ac5; }
+  .RadTagCloud_Outlook .rtcTagItem a:hover {
+    color: #214987; }
+  .RadTagCloud_Outlook.rtcLoading {
+    background-image: url('../Outlook/Common/loading_small.gif'); }
+

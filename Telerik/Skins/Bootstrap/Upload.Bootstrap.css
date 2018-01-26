@@ -1,0 +1,90 @@
+.RadUpload_Bootstrap {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143; }
+  .RadUpload_Bootstrap .ruFileWrap {
+    height: 34px; }
+  .RadUpload_Bootstrap .ruUploadProgress {
+    line-height: 34px;
+    padding-right: 1px;
+    font-size: 12px; }
+    .RadUpload_Bootstrap .ruUploadProgress.ruUploadSuccess {
+      background-position: 0 -9px; }
+    .RadUpload_Bootstrap .ruUploadProgress.ruUploadFailure {
+      background-position: 0 -58px; }
+  .RadUpload_Bootstrap .ruFileProgressWrap {
+    margin: -9px 0 0 -1px;
+    border: 1px solid;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadUpload_Bootstrap .ruFileProgress {
+    margin: 0;
+    background-color: #428bca; }
+  .RadUpload_Bootstrap .ruFakeInput {
+    color: #333333;
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-color: #cccccc;
+    background: #ffffff; }
+  .RadUpload_Bootstrap .ruStyled .ruFakeInput {
+    padding: 3px 4px;
+    height: 26px;
+    border-radius: 4px; }
+  .RadUpload_Bootstrap .ruButton {
+    height: 34px;
+    padding: 5px 10px;
+    color: #333333;
+    font: inherit;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background: #ffffff; }
+  .RadUpload_Bootstrap .ruButtonHover {
+    border-color: #adadad;
+    color: #333333;
+    background: #e6e6e6; }
+  .RadUpload_Bootstrap .ruBrowse.ruButtonFocus {
+    border: 1px solid #cccccc;
+    outline: 1px dotted #000;
+    outline-offset: -2px; }
+  .RadUpload_Bootstrap .ruRemove {
+    height: 34px;
+    padding: 0 0 0 20px;
+    border: 0;
+    color: #337ab7;
+    background: none;
+    filter: none;
+    font-size: 12px; }
+    .RadUpload_Bootstrap .ruRemove:hover {
+      text-decoration: underline; }
+  .RadUpload_Bootstrap .ruCancel {
+    padding: 0 0 0 20px;
+    border: 0;
+    color: #337ab7;
+    background: none;
+    filter: none;
+    font-size: 12px; }
+    .RadUpload_Bootstrap .ruCancel:hover {
+      text-decoration: underline; }
+  .RadUpload_Bootstrap .ruDropZone {
+    font-size: 10px;
+    background: #e6e6e6;
+    border-color: #cccccc;
+    color: #878787;
+    text-transform: uppercase; }
+    .RadUpload_Bootstrap .ruDropZone span {
+      margin-top: -4px; }
+
+.RadUpload_rtl.RadUpload_Bootstrap .ruUploadProgress {
+  padding-right: 18px; }
+  .RadUpload_rtl.RadUpload_Bootstrap .ruUploadProgress.ruUploadSuccess {
+    background-position: 100% -9px; }
+  .RadUpload_rtl.RadUpload_Bootstrap .ruUploadProgress.ruUploadFailure {
+    background-position: 100% -58px; }
+
+.RadUpload_rtl.RadUpload_Bootstrap .ruRemove {
+  padding-right: 20px; }
+
+.RadUpload_rtl.RadUpload_Bootstrap .ruFileProgressWrap {
+  margin-right: -2px; }
+

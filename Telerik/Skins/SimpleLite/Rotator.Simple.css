@@ -1,0 +1,35 @@
+.RadRotator_Simple .rrClipRegion {
+  border-color: #cccccc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Simple .rrButton {
+  border-color: #7c7c7c;
+  color: #000000;
+  background-color: #e2e2e2; }
+
+.RadRotator_Simple .rrButton:hover {
+  border-color: #ca8500;
+  color: #882501;
+  background-color: #ffe79c; }
+
+.RadRotator_Simple .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(202, 73, 0, 0.5); }
+
+.RadRotator_Simple .rrButton:active {
+  border-color: #ca4900;
+  color: #882501;
+  background-color: #ffa517; }
+
+.RadRotator_Simple .rrButtonDisabled,
+.RadRotator_Simple .rrButtonDisabled:hover,
+.RadRotator_Simple .rrButtonDisabled:focus,
+.RadRotator_Simple .rrButtonDisabled:active {
+  border-color: #7c7c7c;
+  color: #000000;
+  background-color: #e2e2e2;
+  box-shadow: none; }
+
+.RadRotator_Simple .rrLoadingSign {
+  background: url('../Simple/Common/loading_small.gif') no-repeat center; }
+

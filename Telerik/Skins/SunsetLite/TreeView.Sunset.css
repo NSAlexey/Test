@@ -1,0 +1,20 @@
+.RadTreeView_Sunset {
+  color: #333333; }
+  .RadTreeView_Sunset .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Sunset .rtChkTristate:hover {
+    color: #982e00; }
+  .RadTreeView_Sunset .rtLoadingIcon {
+    background-image: url('../Sunset/Common/loading_small.gif'); }
+  .RadTreeView_Sunset .rtPlusHover,
+  .RadTreeView_Sunset .rtMinusHover {
+    color: #982e00; }
+  .RadTreeView_Sunset .rtHover .rtIn {
+    border-color: #ac7d21;
+    color: #863d02;
+    background-color: #f9ed8a; }
+  .RadTreeView_Sunset .rtSelected .rtIn {
+    border-color: #904c23;
+    color: #5d1f00;
+    background-color: #f2d52d; }
+

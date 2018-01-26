@@ -1,0 +1,63 @@
+.RadDropDownTree_Office2010Silver {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownTree_Office2010Silver .rddtInner {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #dbdde1;
+    background-image: linear-gradient(#f1f2f3, #dbdde1); }
+  .RadDropDownTree_Office2010Silver .rddtClearButton {
+    background-position: -2px -224px; }
+  .RadDropDownTree_Office2010Silver .rddtIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -1px -20px; }
+  .RadDropDownTree_Office2010Silver .rddtHovered {
+    border-color: #f2d359;
+    color: #000000;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+    .RadDropDownTree_Office2010Silver .rddtHovered .rddtClearButton {
+      background-position: -22px -224px; }
+    .RadDropDownTree_Office2010Silver .rddtHovered .rddtClearButtonHovered {
+      background-position: -62px -224px; }
+    .RadDropDownTree_Office2010Silver .rddtHovered .rddtIcon {
+      background-position: -1px -20px; }
+  .RadDropDownTree_Office2010Silver .rddtFocused {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+    .RadDropDownTree_Office2010Silver .rddtFocused .rddtClearButton {
+      background-position: -42px -224px; }
+    .RadDropDownTree_Office2010Silver .rddtFocused .rddtClearButtonHovered {
+      background-position: -82px -224px; }
+    .RadDropDownTree_Office2010Silver .rddtFocused .rddtIcon {
+      background-position: -1px -20px; }
+
+.rddtPopup_Office2010Silver {
+  border-color: #a4abb2;
+  color: #333333;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rddtPopup_Office2010Silver .rddtFilter {
+    background-color: #edeff2; }
+  .rddtPopup_Office2010Silver .rddtFilterInput {
+    border-color: #bfc3ca;
+    color: #333333;
+    background-color: #ffffff; }
+  .rddtPopup_Office2010Silver .RadTreeView em {
+    color: #3b3b3b;
+    background-color: #ffe791; }
+  .rddtPopup_Office2010Silver .rddtFilterInput.rddtHovered {
+    border-color: #f2d359;
+    color: #333333;
+    background-color: #ffffff; }
+  .rddtPopup_Office2010Silver .rddtFilterInput.rddtFocused {
+    border-color: #c38e00;
+    color: #333333;
+    background-color: #ffffff; }
+

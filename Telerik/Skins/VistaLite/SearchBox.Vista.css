@@ -1,0 +1,75 @@
+.RadSearchBox_Vista {
+  color: #333333; }
+  .RadSearchBox_Vista .rsbInner {
+    border-radius: 3px;
+    border-color: #acacac;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadSearchBox_Vista .rsbInner.rsbHovered {
+      border-color: #5094b9;
+      color: #333333;
+      background-color: #ffffff; }
+    .RadSearchBox_Vista .rsbInner.rsbFocused {
+      border-color: #3d7899;
+      color: #333333;
+      background-color: #ffffff; }
+  .RadSearchBox_Vista .rsbButton {
+    border-radius: 2px; }
+  .RadSearchBox_Vista .rsbButtonSearch {
+    border-radius: 0 3px 3px 0;
+    color: #000000; }
+  .RadSearchBox_Vista .rsbSCInner {
+    border-radius: 3px 0 0 3px;
+    border-color: #acacac;
+    color: #000000;
+    background-color: #d2d2d2;
+    background-image: linear-gradient(#f3f3f3, #ececec 50%, #dddddd 50%, #d2d2d2);
+    box-shadow: inset 0 0 0 1px #f3f3f3; }
+  .RadSearchBox_Vista .rsbLoadingIcon {
+    background-image: url('../Vista/Common/loading_small.gif'); }
+  .RadSearchBox_Vista .rsbHovered.rsbInner {
+    border-color: #5094b9;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Vista .rsbHovered .rsbSCInner {
+    border-color: #5094b9; }
+  .RadSearchBox_Vista .rsbHovered.rsbSCInner, .RadSearchBox_Vista .rsbHovered.rsbButton {
+    border-color: #5094b9;
+    color: #000000;
+    background-color: #abdcf7;
+    background-image: linear-gradient(#e8f5fd, #dbf1fc 50%, #bee6fd 50%, #abdcf7);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.78); }
+  .RadSearchBox_Vista .rsbFocused.rsbInner {
+    border-color: #3d7899;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSearchBox_Vista .rsbFocused .rsbSCInner,
+  .RadSearchBox_Vista .rsbFocused .rsbHovered.rsbButton {
+    border-color: #3d7899; }
+  .RadSearchBox_Vista .rsbFocused.rsbSCInner, .RadSearchBox_Vista .rsbFocused.rsbButton {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+    box-shadow: inset 0 0 3px 1px #41d7fc; }
+  .RadSearchBox_Vista .rsbSelected.rsbButton {
+    border-color: #3d7899;
+    color: #000000;
+    background-color: #ced7dd;
+    background-image: linear-gradient(#eff2f4, #eaeef0 50%, #d8e0e5 50%, #ced7dd);
+    box-shadow: inset 0 0 3px 1px #41d7fc; }
+
+.rsbPopup_Vista {
+  border-color: #aec5d1;
+  color: #333333;
+  background-color: #ffffff; }
+  .rsbPopup_Vista .rsbListItemHovered {
+    color: #000000;
+    background-color: #d6effc; }
+  .rsbPopup_Vista .rsbListItemSelected {
+    color: #000000;
+    background-color: #a9daf4; }
+  .rsbPopup_Vista .rsbListItemLoading {
+    color: #000000;
+    background-color: #d6effc; }
+

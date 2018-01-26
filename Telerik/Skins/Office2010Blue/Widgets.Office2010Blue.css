@@ -1,0 +1,206 @@
+.reSpinBox .radfd_skipme,
+.selectedFileName,
+.reTableWizardSelectAllBtn {
+  color: #384e73; }
+
+.rfeUploadInfoPanel {
+  color: #384e73 !important;
+  background: #fff !important;
+  border: 1px solid #9babc2 !important; }
+
+/*Sprite from RFE*/
+.RadToolBar_Office2010Blue .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  background-repeat: no-repeat; }
+
+/* RAD EDITOR DIALOGS REDESIGN */
+.redMainContainer {
+  background-color: #bdcbde; }
+  .redMainContainer .redBlockRight {
+    border-color: #9babc2; }
+  .redMainContainer .redWrapper {
+    background-color: #ffffff; }
+  .redMainContainer .redActionButtonsWrapperExternal {
+    background-color: #ffffff;
+    border-color: #9babc2; }
+
+.redWrapper .redSection {
+  border-bottom-color: #9babc2; }
+
+.redWrapper .reTool {
+  border-color: #9db2ce;
+  color: #384e73;
+  background-color: #bfcddf;
+  background-image: linear-gradient(#fafbfd, #bfcddf);
+  border-color: #9db2ce; }
+
+.redWrapper .reTool:hover {
+  border-color: #f2d359;
+  color: #1e395b;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9);
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.redWrapper .reTool:active,
+.redWrapper .reTool:focus {
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c);
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.redWrapper a.reDropdown:hover {
+  background-image: url('Editor/ToolBarSprites.gif');
+  background-color: #ffe791; }
+
+.redWrapper .redDialogSeparator {
+  border-left: 1px solid #9babc2;
+  border-right: 1px solid #9babc2;
+  background-image: linear-gradient(top, #fcfcfd 0%, #bdcbde 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfd', endColorstr='#bdcbde',GradientType=0 );
+  filter: none;
+  background-color: #bdcbde;
+  background-position: 0 0; }
+
+.redWrapper .redMsgContainerFBDialogs #propertyValueDescription,
+.redWrapper .redMsgContainerFBDialogs #propertyValuePane {
+  background-color: #dbe3ee;
+  color: #384e73; }
+
+.redWrapper .redImageMapProperties {
+  border-left-color: #9babc2; }
+
+.reLightweightDialog .reTool {
+  border-color: #9db2ce;
+  color: #384e73;
+  background-color: #bfcddf;
+  background-image: linear-gradient(#fafbfd, #bfcddf);
+  border-color: #9db2ce; }
+
+.reLightweightDialog .reTool:hover {
+  border-color: #f2d359;
+  color: #1e395b;
+  background-color: #fcf5d9;
+  background-image: linear-gradient(#fceaab, #fae185, #fcf5d9);
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.reLightweightDialog .reTool:active,
+.reLightweightDialog .reTool:focus {
+  border-color: #c38e00;
+  color: #1e395b;
+  background-color: #ffef7c;
+  background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c);
+  box-shadow: inset 0 0 1px #ffffff; }
+
+.reLightweightDialog .reSplitButton,
+.reLightweightDialog a.reTool {
+  border-color: #9db2ce; }
+
+.reLightweightDialog .reSpinBox input[type="text"] {
+  width: 3.2em; }
+
+.reLightweightDialog .reSpinBoxButtons {
+  right: 0; }
+
+.reLightweightDialog .reSpinBoxButtons span:before {
+  width: 1em;
+  height: 1em; }
+
+/* Right to Left Support */
+.RadForm_Office2010Blue .redRtl .redWrapper .reTool .split_arrow:hover {
+  border-right-color: #f2d359; }
+
+.RadForm_Office2010Blue .redRtl .reDropdown:hover {
+  background-image: url('Editor/ToolbarSprites.gif');
+  background-color: #ffe791; }
+
+.RadForm_Office2010Blue .redRtl .redImageMapPreview {
+  border-left-color: #9babc2; }
+
+.reLightweightDialog.RadForm_Office2010Blue .selectedFileName {
+  border-color: #87a0c3; }
+
+.reLightweightDialog.RadForm_Office2010Blue .reSpinBox input[type="text"],
+.reLightweightDialog.RadForm_Office2010Blue .redWrapper a.reDropdown {
+  background-color: #ffffff;
+  color: #384e73;
+  border-color: #9db2ce; }
+
+.reLightweightDialog.RadForm_Office2010Blue a.reDropdown {
+  background-color: #ffffff;
+  color: #384e73;
+  border-color: #9db2ce; }
+
+.reLightweightDialog.RadForm_Office2010Blue .redWrapper .reTool.reSplitButton:hover .reSplitArrow {
+  border-color: #f2d359; }
+
+.reLightweightDialog.RadForm_Office2010Blue .reSpinBox input[type="text"]:hover,
+.reLightweightDialog.RadForm_Office2010Blue .redWrapper a.reDropdown:hover {
+  border-color: #f2d359;
+  color: #384e73;
+  background-color: #ffffff; }
+
+.reLightweightDialog.RadForm_Office2010Blue .reSpinBox input[type="text"]:focus,
+.reLightweightDialog.RadForm_Office2010Blue .reSpinBox input[type="text"]:active,
+.reLightweightDialog.RadForm_Office2010Blue .redWrapper a.reDropdown:active,
+.reLightweightDialog.RadForm_Office2010Blue .redWrapper a.reDropdown:focus {
+  border-color: #c38e00;
+  color: #384e73;
+  background-color: #ffffff; }
+
+.reLightweightDialog.RadForm_Office2010Blue .reDropDownBody {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+  .reLightweightDialog.RadForm_Office2010Blue .reDropDownBody li:hover,
+  .reLightweightDialog.RadForm_Office2010Blue .reDropDownBody .reItemOver {
+    color: #1e395b;
+    background-color: #ffe791; }
+
+/* Mobile Editor */
+.reMobileDialog.RadForm_Office2010Blue {
+  font-size: 14px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .reMobileDialog.RadForm_Office2010Blue.rfdZone {
+    background-color: #ced8e7; }
+  .reMobileDialog.RadForm_Office2010Blue .reMobileDialogTitleBar {
+    background-image: linear-gradient(#fcfcfd, #bdcbde);
+    border-color: #9babc2; }
+  .reMobileDialog.RadForm_Office2010Blue .reMobileDialogTitleBar .reIcon {
+    color: #1e395b; }
+  .reMobileDialog.RadForm_Office2010Blue .reToolList > li {
+    background-color: #ffffff;
+    color: #384e73;
+    border-color: #cbd6e5; }
+  .reMobileDialog.RadForm_Office2010Blue .reIcon {
+    color: #1e395b; }
+  .reMobileDialog.RadForm_Office2010Blue .reDialog {
+    background-color: #bdcbde;
+    color: #384e73; }
+  .reMobileDialog.RadForm_Office2010Blue .reToolList.reImageManagerHeader > li,
+  .reMobileDialog.RadForm_Office2010Blue .reToolList > .reColorBoxWrapper,
+  .reMobileDialog.RadForm_Office2010Blue .reColorPicker {
+    background-color: #dbe3ee; }
+  .reMobileDialog.RadForm_Office2010Blue .reCurrentColor {
+    border-color: #9db2ce; }
+  .reMobileDialog.RadForm_Office2010Blue .reSpinBoxButtons span,
+  .reMobileDialog.RadForm_Office2010Blue .reDialog .reButton,
+  .reMobileDialog.RadForm_Office2010Blue .reColorPicker .reButton {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .reMobileDialog.RadForm_Office2010Blue .reSpinBoxButtons span.reSpinBoxButtonHover,
+  .reMobileDialog.RadForm_Office2010Blue .reDialog .reButton:hover,
+  .reMobileDialog.RadForm_Office2010Blue .reColorPicker .reButton:hover {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .reMobileDialog.RadForm_Office2010Blue span.ruFakeInput,
+  .reMobileDialog.RadForm_Office2010Blue .reSpinBox input,
+  .reMobileDialog.RadForm_Office2010Blue .reSelect {
+    background-color: #ffffff;
+    border-color: #9db2ce;
+    color: #384e73; }
+

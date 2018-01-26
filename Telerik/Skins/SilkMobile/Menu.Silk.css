@@ -1,0 +1,31 @@
+.RadMenu_Silk .rmRootToggle {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: linear-gradient(white, #e3e3e3); }
+
+.RadMenu_Silk .rmRootToggle:active,
+.RadMenu_Silk .rmRootToggle.rmExpanded {
+  border-color: #1193aa;
+  color: #ffffff;
+  background-color: #14afca;
+  background-image: none; }
+
+.RadMenuPopup_Silk {
+  border-color: #d9d9d9;
+  color: #292929;
+  background-color: #ffffff; }
+  .RadMenuPopup_Silk:before {
+    border-bottom-color: #d9d9d9; }
+  .RadMenuPopup_Silk:after {
+    border-bottom-color: #ffffff; }
+  .RadMenuPopup_Silk .rmItem {
+    border-color: #d9d9d9; }
+  .RadMenuPopup_Silk .rmItem.rmSelected {
+    color: #ffffff;
+    background-color: #81cfdc; }
+  .RadMenuPopup_Silk .rmLoading:after {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadMenuPopup_Silk .rmLoadingIcon:after {
+    background-image: url('../Silk/Common/loading_small.gif'); }
+

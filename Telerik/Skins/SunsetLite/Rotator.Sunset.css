@@ -1,0 +1,43 @@
+.RadRotator_Sunset .rrClipRegion {
+  border-color: #938879;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadRotator_Sunset .rrButton {
+  border-color: #938973;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: linear-gradient(#f1eadf, #ded7c6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadRotator_Sunset .rrButton:hover {
+  border-color: #d2b40d;
+  color: #863d02;
+  background-color: #f1d121;
+  background-image: linear-gradient(#faef93, #f1d121);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5); }
+
+.RadRotator_Sunset .rrButton:focus {
+  box-shadow: inset 0 0 5px rgba(226, 113, 28, 0.5); }
+
+.RadRotator_Sunset .rrButton:active {
+  border-color: #e2711c;
+  color: #5d1f00;
+  background-color: #e88d49;
+  background-image: linear-gradient(#f3bc8b, #e88d49);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2); }
+
+.RadRotator_Sunset .rrButtonDisabled,
+.RadRotator_Sunset .rrButtonDisabled:hover,
+.RadRotator_Sunset .rrButtonDisabled:focus,
+.RadRotator_Sunset .rrButtonDisabled:active {
+  border-color: #938973;
+  color: #3d1400;
+  background-color: #ded7c6;
+  background-image: linear-gradient(#f1eadf, #ded7c6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  box-shadow: none; }
+
+.RadRotator_Sunset .rrLoadingSign {
+  background: url('../Sunset/Common/loading_small.gif') no-repeat center; }
+

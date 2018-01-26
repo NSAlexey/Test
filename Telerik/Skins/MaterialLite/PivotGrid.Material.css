@@ -1,0 +1,309 @@
+.RadPivotGrid_Material {
+  font-family: "Roboto", "Noto", sans-serif;
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #ffffff; }
+  .RadPivotGrid_Material th,
+  .RadPivotGrid_Material td {
+    border-color: #CFD8DC #ffffff; }
+  .RadPivotGrid_Material .rpgOuterTableWrapper {
+    border-color: #CFD8DC; }
+    .RadPivotGrid_Material .rpgOuterTableWrapper > .rpgTable {
+      margin-left: -1px; }
+  .RadPivotGrid_Material .rpgActionButton {
+    box-sizing: content-box;
+    border: 1px solid transparent;
+    background: none;
+    padding: 7px; }
+  .RadPivotGrid_Material .rpgIcon {
+    color: #455A64; }
+  .RadPivotGrid_Material .rpgFilterFieldsIcon,
+  .RadPivotGrid_Material .rpgRowFieldsIcon,
+  .RadPivotGrid_Material .rpgColumnFieldsIcon,
+  .RadPivotGrid_Material .rpgAggregateFieldsIcon {
+    font-size: .78571em; }
+    .RadPivotGrid_Material .rpgFilterFieldsIcon:before,
+    .RadPivotGrid_Material .rpgRowFieldsIcon:before,
+    .RadPivotGrid_Material .rpgColumnFieldsIcon:before,
+    .RadPivotGrid_Material .rpgAggregateFieldsIcon:before {
+      margin-right: 5px; }
+  .RadPivotGrid_Material .rpgFilterWindowContainer > *[type=text] {
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0 0 1px;
+    padding: 8px 0 7px;
+    outline: none;
+    font: inherit;
+    width: 12em;
+    width: calc(12em - 26px); }
+    .RadPivotGrid_Material .rpgFilterWindowContainer > *[type=text]:hover {
+      border-color: #90A4AE;
+      color: #455A64;
+      background-color: transparent; }
+    .RadPivotGrid_Material .rpgFilterWindowContainer > *[type=text]:active, .RadPivotGrid_Material .rpgFilterWindowContainer > *[type=text]:focus {
+      border-color: #8BC34A;
+      color: #455A64;
+      background-color: transparent;
+      box-shadow: 0 -1px 0 #8BC34A inset; }
+    .t-ie .RadPivotGrid_Material .rpgFilterWindowContainer > *[type=text] {
+      height: 36px;
+      height: calc(1.42857143em + 16px); }
+  .RadPivotGrid_Material .t-ripple-container {
+    overflow: visible !important; }
+  .RadPivotGrid_Material .rpgFilterZone {
+    border-color: #8BC34A;
+    color: #ffffff;
+    background-color: #8BC34A; }
+    .RadPivotGrid_Material .rpgFilterZone .rpgFieldItem {
+      border-color: #8BC34A;
+      color: #ffffff;
+      background-color: #8BC34A;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+      .RadPivotGrid_Material .rpgFilterZone .rpgFieldItem:hover {
+        border-color: #7CB342;
+        color: #ffffff;
+        background-color: #7CB342;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0, 0, 0, 0.2); }
+      .RadPivotGrid_Material .rpgFilterZone .rpgFieldItem .rpgIcon {
+        color: #ffffff; }
+  .RadPivotGrid_Material .rpgRowsZone,
+  .RadPivotGrid_Material .rpgColumnsZone,
+  .RadPivotGrid_Material .rpgDataZone,
+  .RadPivotGrid_Material .rpgColumnHeader,
+  .RadPivotGrid_Material .rpgColumnHeaderTotal,
+  .RadPivotGrid_Material .rpgColumnHeaderGrandTotal,
+  .RadPivotGrid_Material .rpgDataCell,
+  .RadPivotGrid_Material .rpgRowHeader,
+  .RadPivotGrid_Material .rpgRowHeaderGrandTotal {
+    background-color: #ffffff; }
+  .RadPivotGrid_Material .rpgContentZone,
+  .RadPivotGrid_Material .rpgColumnsZone,
+  .RadPivotGrid_Material .rpgColumnHeaderZone {
+    border-left-color: #CFD8DC; }
+  .RadPivotGrid_Material .rpgRowHeaderField,
+  .RadPivotGrid_Material .rpgColumnHeaderTotal,
+  .RadPivotGrid_Material .rpgColumnTotalDataCell {
+    background-color: #f4f7f8;
+    border-color: #CFD8DC; }
+  .RadPivotGrid_Material .rpgColumnHeaderTotal,
+  .RadPivotGrid_Material .rpgColumnTotalDataCell {
+    box-shadow: -1px 0 0 #CFD8DC inset; }
+  .RadPivotGrid_Material .rpgRowHeaderTotal,
+  .RadPivotGrid_Material .rpgRowTotalDataCell {
+    background-color: #ECEFF1;
+    border-left-color: #ECEFF1; }
+  .RadPivotGrid_Material .rpgRowHeaderGrandTotal,
+  .RadPivotGrid_Material .rpgRowGrandTotalDataCell,
+  .RadPivotGrid_Material .rpgColumnHeaderGrandTotal,
+  .RadPivotGrid_Material .rpgColumnGrandTotalDataCell {
+    background-color: #CFD8DC;
+    border-color: #CFD8DC; }
+  .RadPivotGrid_Material .rpgColumnHeader {
+    vertical-align: middle; }
+    .RadPivotGrid_Material .rpgColumnHeader[rowspan] {
+      box-shadow: -1px 0 0 #CFD8DC inset; }
+  .RadPivotGrid_Material .rpgFieldsPopupWrapper {
+    background-color: #ffffff;
+    border: 0 none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0, 0, 0, 0.2);
+    padding: 5px 0 5px 5px; }
+    .RadPivotGrid_Material .rpgFieldsPopupWrapper .rpgFieldItem {
+      background: none; }
+      .RadPivotGrid_Material .rpgFieldsPopupWrapper .rpgFieldItem, .RadPivotGrid_Material .rpgFieldsPopupWrapper .rpgFieldItem:hover {
+        box-shadow: none; }
+  .RadPivotGrid_Material .rpgExpandIcon,
+  .RadPivotGrid_Material .rpgCollapseIcon {
+    padding: 8px;
+    border-radius: 90px; }
+    .RadPivotGrid_Material .rpgExpandIcon:hover,
+    .RadPivotGrid_Material .rpgCollapseIcon:hover {
+      border-color: #ECEFF1;
+      color: #455A64;
+      background-color: #ECEFF1; }
+  .RadPivotGrid_Material .rpgFilterIcon:before,
+  .RadPivotGrid_Material .rpgExpandIcon:before,
+  .RadPivotGrid_Material .rpgCollapseIcon:before,
+  .RadPivotGrid_Material .rpgFilterFieldsIcon:before {
+    font-family: "Material Icons";
+    font-size: 18px; }
+  .RadPivotGrid_Material .rpgFilterIcon:before,
+  .RadPivotGrid_Material .rpgFilterFieldsIcon:before {
+    content: '\e152'; }
+  .RadPivotGrid_Material .rpgCollapseIcon:before {
+    content: '\e5cf'; }
+  .RadPivotGrid_Material .rpgExpandIcon:before {
+    content: '\e5cc';
+    color: #263238; }
+  .RadPivotGrid_Material .rpgFieldItem > a:first-of-type,
+  .RadPivotGrid_Material .rpgFieldItem > a:first-of-type:hover {
+    color: #455A64; }
+  .RadPivotGrid_Material .rpgFieldItem {
+    vertical-align: top; }
+    .RadPivotGrid_Material .rpgFieldItem .rpgIcon {
+      position: relative;
+      z-index: 10; }
+  .RadPivotGrid_Material .rpgFieldItem,
+  .RadPivotGrid_Material .rpgUpdateButton {
+    padding: 8px;
+    border: 0 none;
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: #f4f7f8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+    .RadPivotGrid_Material .rpgFieldItem:hover,
+    .RadPivotGrid_Material .rpgUpdateButton:hover {
+      border-color: #ECEFF1;
+      color: #455A64;
+      background-color: #ECEFF1;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0, 0, 0, 0.2);
+      z-index: 2; }
+    .RadPivotGrid_Material .rpgFieldItem:disabled:hover,
+    .RadPivotGrid_Material .rpgUpdateButton:disabled:hover {
+      border-color: #CFD8DC;
+      color: #455A64;
+      background-color: #f4f7f8; }
+  .RadPivotGrid_Material .rpgConfigurationPanel {
+    background: #ffffff; }
+    .RadPivotGrid_Material .rpgConfigurationPanel .rpgChangeLayoutIcon {
+      padding: 8px;
+      border-radius: 90px; }
+      .RadPivotGrid_Material .rpgConfigurationPanel .rpgChangeLayoutIcon:hover {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1; }
+  .RadPivotGrid_Material .rpgFieldsContainer {
+    border: 1px solid #CFD8DC;
+    border-radius: 2px; }
+  .RadPivotGrid_Material .rpgPagerCell {
+    color: #455A64;
+    padding: 5px;
+    border-color: #CFD8DC; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgIcon:before {
+      font-family: "WebComponentsIcons"; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgAdvPart {
+      line-height: inherit; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgNumPart a {
+      color: #ffffff; }
+      .RadPivotGrid_Material .rpgPagerCell .rpgNumPart a .t-ripple {
+        border-radius: 90px; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgPagerButton {
+      border: 0 none;
+      background-color: #f4f7f8;
+      color: #455A64;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2); }
+    .RadPivotGrid_Material .rpgPagerCell .rpgActionButton {
+      border-radius: 90px; }
+      .RadPivotGrid_Material .rpgPagerCell .rpgActionButton:hover {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgNumPart a {
+      color: #455A64;
+      text-align: center;
+      border-width: 0;
+      padding: 8px;
+      min-width: 1.42857143em; }
+      .RadPivotGrid_Material .rpgPagerCell .rpgNumPart a:hover {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1;
+        border-radius: 90px; }
+      .RadPivotGrid_Material .rpgPagerCell .rpgNumPart a.rpgCurrentPage {
+        border-bottom: 2px solid #8BC34A;
+        color: #8BC34A;
+        background: none;
+        border-radius: 0;
+        margin-bottom: -5px;
+        padding-bottom: 11px; }
+    .RadPivotGrid_Material .rpgPagerCell .RadInput,
+    .RadPivotGrid_Material .rpgPagerCell .RadComboBox,
+    .RadPivotGrid_Material .rpgPagerCell .RadDropDownList {
+      min-width: 90px; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgActionButton {
+      box-sizing: content-box; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgPagerButton {
+      border-color: #CFD8DC;
+      color: #455A64;
+      background-color: #f4f7f8;
+      padding: 8px 13px;
+      border-radius: 0; }
+      .RadPivotGrid_Material .rpgPagerCell .rpgPagerButton:hover {
+        border-color: #ECEFF1;
+        color: #455A64;
+        background-color: #ECEFF1; }
+    .RadPivotGrid_Material .rpgPagerCell .rpgInfoPart,
+    .RadPivotGrid_Material .rpgPagerCell .rpgSliderLabel,
+    .RadPivotGrid_Material .rpgPagerCell .rpgPagerLabel {
+      font-size: .857em;
+      color: #607D8B;
+      font-weight: 500;
+      line-height: 1.66666667;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+      .RadPivotGrid_Material .rpgPagerCell .rpgInfoPart strong,
+      .RadPivotGrid_Material .rpgPagerCell .rpgSliderLabel strong,
+      .RadPivotGrid_Material .rpgPagerCell .rpgPagerLabel strong {
+        font-weight: 500;
+        font-size: 1.167em;
+        line-height: 1.42857143;
+        color: #455A64; }
+    .RadPivotGrid_Material .rpgPagerCell .RadSlider {
+      margin: 7px 0; }
+
+.PivotGridReorderLeft_Material,
+.PivotGridReorderRight_Material,
+.PivotGridReorderTop_Material,
+.PivotGridReorderBottom_Material {
+  color: #03A9F4; }
+
+.PivotGridWindow_Material .rpgButtonOk,
+.PivotGridWindow_Material .rpgButtonCancel,
+.PivotGridWindow_Material .rpgFilterButtonOk,
+.PivotGridWindow_Material .rpgFilterButtonCancel {
+  padding: 8px 10px;
+  border: 0 none;
+  min-width: 64px;
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #f4f7f8;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-right: 8px; }
+  .PivotGridWindow_Material .rpgButtonOk:hover,
+  .PivotGridWindow_Material .rpgButtonCancel:hover,
+  .PivotGridWindow_Material .rpgFilterButtonOk:hover,
+  .PivotGridWindow_Material .rpgFilterButtonCancel:hover {
+    border-color: #ECEFF1;
+    color: #455A64;
+    background-color: #ECEFF1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0, 0, 0, 0.2); }
+  .PivotGridWindow_Material .rpgButtonOk:focus,
+  .PivotGridWindow_Material .rpgButtonCancel:focus,
+  .PivotGridWindow_Material .rpgFilterButtonOk:focus,
+  .PivotGridWindow_Material .rpgFilterButtonCancel:focus {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0, 0, 0, 0.2); }
+
+.PivotGridWindow_Material .rpgFilterWindowContainer .RadMenu .rmRootGroup.rmVertical {
+  float: left; }
+
+.PivotGridWindow_Material .RadMenu_Material {
+  background: none; }
+
+.PivotGridContextMenu_Material .rmLink:before {
+  min-width: 0; }
+
+html .PivotGridContextMenu_Material .rmVertical > .rmSeparator {
+  margin-left: 0; }
+
+.PivotGridContextMenu_Material .rmGroup span.rmLink {
+  padding: 6px 12px; }
+  .PivotGridContextMenu_Material .rmGroup span.rmLink:before {
+    margin-right: 5px; }
+
+.PivotGridToolTip_Material {
+  font-family: "Roboto", "Noto", sans-serif;
+  background: #ffffff;
+  border-color: #CFD8DC;
+  color: #455A64; }
+

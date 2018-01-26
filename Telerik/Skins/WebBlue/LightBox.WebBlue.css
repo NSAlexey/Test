@@ -1,0 +1,30 @@
+.RadLightBox_WebBlue {
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadLightBox_WebBlue .rltbWrapper {
+    border-color: #768ca5;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadLightBox_WebBlue .rltbDescOverlayTop,
+  .RadLightBox_WebBlue .rltbDescOverlayBottom {
+    background-color: rgba(255, 255, 255, 0.5); }
+  .RadLightBox_WebBlue .rltbClose,
+  .RadLightBox_WebBlue .rltbCloseIcon,
+  .RadLightBox_WebBlue .rltbPrevButton,
+  .RadLightBox_WebBlue .rltbNextButton {
+    background-image: url('LightBox/sprite.png'); }
+  .RadLightBox_WebBlue .rltbToolbar .rltbActionButton {
+    background-color: #d7e2e7; }
+  .RadLightBox_WebBlue .rltbToolbar .rltbActionButton:hover {
+    background-color: #bee3f6; }
+  .RadLightBox_WebBlue .rltbToolbar .rltbIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadLightBox_WebBlue .rltbMaximizeIcon {
+    background-position: 0px -2100px; }
+  .RadLightBox_WebBlue .rltbActionButton:hover .rltbMaximizeIcon {
+    background-position: -20px -2100px; }
+  .RadLightBox_WebBlue .rltbRestoreIcon {
+    background-position: 0px -2120px; }
+  .RadLightBox_WebBlue .rltbActionButton:hover .rltbRestoreIcon {
+    background-position: -20px -2120px; }
+

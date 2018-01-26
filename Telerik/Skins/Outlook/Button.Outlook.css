@@ -1,0 +1,50 @@
+.RadButton_Outlook {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+  .RadButton_Outlook.rbSkinnedButton, .RadButton_Outlook.rbVerticalButton,
+  .RadButton_Outlook .rbDecorated,
+  .RadButton_Outlook .rbSplitRight,
+  .RadButton_Outlook .rbSplitLeft {
+    background-image: url('Common/radFormSprite.png');
+    color: #000000; }
+  .RadButton_Outlook .rbToggleCheckbox,
+  .RadButton_Outlook .rbToggleCheckboxChecked,
+  .RadButton_Outlook .rbToggleCheckboxFilled,
+  .RadButton_Outlook .rbToggleRadio,
+  .RadButton_Outlook .rbToggleRadioChecked {
+    background-image: url('Common/radFormToggleSprite.png'); }
+  .RadButton_Outlook.rbToggleButton, .RadButton_Outlook.rbToggleButton.rbDisabled:hover {
+    color: #333333; }
+  .RadButton_Outlook.rbToggleButton:hover {
+    color: #000000; }
+  .RadButton_Outlook.rbLinkButton, .RadButton_Outlook.rbLinkButton.rbDisabled, .RadButton_Outlook.rbLinkButton.rbDisabled:hover, .RadButton_Outlook.rbLinkButton.rbDisabled:active, .RadButton_Outlook.rbLinkButton.rbDisabled:focus {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    background-position: 0 0; }
+  .RadButton_Outlook.rbLinkButton:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #fbc860; }
+  .RadButton_Outlook.rbLinkButton:active, .RadButton_Outlook.rbLinkButton:focus, .RadButton_Outlook.rbLinkButtonChecked, .RadButton_Outlook.rbLinkButtonChecked:hover {
+    border-color: #003c74;
+    color: #000000;
+    background-color: #ebe8e3;
+    background-image: linear-gradient(#fdfdfd, #ebe8e3);
+    box-shadow: inset 0 0 1px 2px #e59700; }
+  .RadButton_Outlook.rbLinkButton:hover .rbSplitLeft,
+  .RadButton_Outlook.rbLinkButton:hover .rbSplitRight {
+    background-color: #ebe8e3; }
+  .RadButton_Outlook.rbLinkButton .rbSplitLeft:hover,
+  .RadButton_Outlook.rbLinkButton .rbSplitRight:hover {
+    background-color: #ebe8e3; }
+  .RadButton_Outlook.rbLinkButton .rbSplitLeft:active,
+  .RadButton_Outlook.rbLinkButton .rbSplitLeft:focus,
+  .RadButton_Outlook.rbLinkButton .rbSplitRight:active,
+  .RadButton_Outlook.rbLinkButton .rbSplitRight:focus {
+    background-color: #ebe8e3;
+    border-color: #003c74; }
+

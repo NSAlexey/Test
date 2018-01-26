@@ -1,0 +1,30 @@
+.RadDropDownList_Office2010Blue {
+  color: #384e73; }
+  .RadDropDownList_Office2010Blue .rddlInner {
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf);
+    border-radius: 3px; }
+  .RadDropDownList_Office2010Blue .rddlHovered {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadDropDownList_Office2010Blue .rddlFocused {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.rddlPopup_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+  .rddlPopup_Office2010Blue .rddlItemHovered, .rddlPopup_Office2010Blue .rddlItemLoading {
+    color: #1e395b;
+    background-color: #ffe791; }
+  .rddlPopup_Office2010Blue .rddlItemSelected {
+    color: #1e395b;
+    background-color: #fff17c; }
+

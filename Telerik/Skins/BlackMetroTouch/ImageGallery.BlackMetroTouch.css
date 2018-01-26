@@ -1,0 +1,67 @@
+.RadImageGallery_BlackMetroTouch {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #ffffff; }
+  .RadImageGallery_BlackMetroTouch .rigDotList > a {
+    background: #000000;
+    border-color: #333333; }
+  .RadImageGallery_BlackMetroTouch .rigDotList .rigCurrentItem {
+    color: #0082cc; }
+  .RadImageGallery_BlackMetroTouch .rigToolbar {
+    color: #ffffff;
+    background-color: #222222; }
+  .RadImageGallery_BlackMetroTouch .rigCloseButton,
+  .RadImageGallery_BlackMetroTouch .rigDrawerButton {
+    color: #ffffff;
+    background-color: #222222; }
+  .RadImageGallery_BlackMetroTouch .rigProgressBar div {
+    background-color: #0082cc; }
+  .RadImageGallery_BlackMetroTouch .rigPager {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+    .RadImageGallery_BlackMetroTouch .rigPager a.rigCurrentPage {
+      border-color: #0082cc;
+      color: #0082cc; }
+  .RadImageGallery_BlackMetroTouch .rigTooltip {
+    background-color: #000000;
+    border-color: #333333; }
+    .RadImageGallery_BlackMetroTouch .rigTooltip:after {
+      border-top-color: #000000; }
+  .RadImageGallery_BlackMetroTouch .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_BlackMetroTouch .rigPlayIcon {
+    background-position: -14px -5014px; }
+  .RadImageGallery_BlackMetroTouch .rigActionButton:hover .rigPlayIcon {
+    background-position: -64px -5014px; }
+  .RadImageGallery_BlackMetroTouch .rigPauseIcon {
+    background-position: -14px -5064px; }
+  .RadImageGallery_BlackMetroTouch .rigActionButton:hover .rigPauseIcon {
+    background-position: -64px -5064px; }
+  .RadImageGallery_BlackMetroTouch .rigFullScrIcon {
+    background-position: -14px -5264px; }
+  .RadImageGallery_BlackMetroTouch .rigActionButton:hover .rigFullScrIcon {
+    background-position: -64px -5264px; }
+  .RadImageGallery_BlackMetroTouch .rigExtFullScrIcon {
+    background-position: -14px -5314px; }
+  .RadImageGallery_BlackMetroTouch .rigActionButton:hover .rigExtFullScrIcon {
+    background-position: -64px -5314px; }
+  .RadImageGallery_BlackMetroTouch .rigShowThumbnIcon {
+    background-position: -15px -5414px; }
+  .RadImageGallery_BlackMetroTouch .rigActionButton:hover .rigShowThumbnIcon {
+    background-position: -65px -5414px; }
+  .RadImageGallery_BlackMetroTouch .rigHideThumbnIcon {
+    background-position: -15px -5464px; }
+  .RadImageGallery_BlackMetroTouch .rigActionButton:hover .rigHideThumbnIcon {
+    background-position: -65px -5464px; }
+  .RadImageGallery_BlackMetroTouch .rigPrevButton,
+  .RadImageGallery_BlackMetroTouch .rigNextButton,
+  .RadImageGallery_BlackMetroTouch .rigScrollPrevIcon,
+  .RadImageGallery_BlackMetroTouch .rigScrollNextIcon,
+  .RadImageGallery_BlackMetroTouch .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+  .RadImageGallery_BlackMetroTouch .rigPrevButton {
+    left: 0; }
+  .RadImageGallery_BlackMetroTouch .rigNextButton {
+    right: 0; }
+

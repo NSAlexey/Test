@@ -1,0 +1,9 @@
+.RadRating_Office2010Blue a,
+.RadRating_Office2010Blue a span {
+  background-image: url('Rating/Sprite.png'); }
+
+@media print {
+  .RadRating_Office2010Blue a:before,
+  .RadRating_Office2010Blue a span:before {
+    content: url('Rating/Sprite.png'); } }
+

@@ -1,0 +1,82 @@
+.RadInput_WebBlue .riTextBox,
+.RadInput_WebBlue .riSelect,
+.RadInput_WebBlue .rcSelect,
+.RadInputMgr_WebBlue {
+  border-color: #6e8aa8;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_WebBlue .riEmpty,
+.RadInput_Empty_WebBlue {
+  color: rgba(51, 51, 51, 0.8); }
+
+.RadInput_WebBlue.RadInputHovered .riTextBox,
+.RadInput_WebBlue.RadInputHovered .riSelect,
+.RadInput_WebBlue.RadInputHovered .rcSelect,
+.RadInput_Hover_Default {
+  border-color: #1c9fcc;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_WebBlue.RadInputFocused .riTextBox,
+.RadInput_WebBlue.RadInputFocused .riSelect,
+.RadInput_WebBlue.RadInputFocused .rcSelect,
+.RadInput_Focused_WebBlue {
+  border-color: #3a869e;
+  color: #333333;
+  background-color: #ffffff; }
+
+.RadInput_WebBlue.RadInputError .riTextBox,
+.RadInput_WebBlue.RadInputError .riSelect,
+.RadInput_WebBlue.RadInputError .rcSelect,
+.RadInput_Error_WebBlue,
+.RadForm.rfdTextbox .RadInput_WebBlue .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Default[type="text"] {
+  border-color: #d24000;
+  color: #b32d34;
+  background-color: #ffffff; }
+
+.RadInput_WebBlue.RadInputError {
+  color: #b32d34; }
+
+.RadInput_WebBlue .riNegative, .RadInput_Negative_WebBlue {
+  color: #444; }
+
+.RadInput_WebBlue a,
+.RadInput_WebBlue.RadInputDisabled a:hover,
+.RadInput_WebBlue.RadInputDisabled a:active {
+  border-color: #6e8aa8;
+  color: #0d202b;
+  background-color: #d7e2e7;
+  background-image: linear-gradient(#e0e7ed, #c2d2dd 50%, #a3baca 50%, #d7e2e7);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45); }
+
+.RadInput_WebBlue a:hover {
+  border-color: #1c9fcc;
+  color: #0e3d4f;
+  background-color: #bee3f6;
+  background-image: linear-gradient(#d4eaf8, #baddf4 50%, #9edaf2 50%, #bee3f6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32); }
+
+.RadInput_WebBlue a:focus, .RadInput_WebBlue a:active {
+  border-color: #3a869e;
+  color: #ffffff;
+  background-color: #7abace;
+  background-image: linear-gradient(#8ebcd4, #64a3c0 50%, #368eb1 50%, #7abace);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.19); }
+
+.RadInput_WebBlue .riLabel {
+  color: #333333; }
+
+.RadInput_WebBlue .riResizeIcon {
+  background: transparent 0 0 no-repeat url('../WebBlue/Input/ResizeEdge.gif'); }
+
+.RadInputRTL_WebBlue .riError, .RadInputRTL_Error_WebBlue {
+  background-position: 3px -298px; }
+
+.RadInputRTL_WebBlue .riResizeIcon {
+  background-position: 0 -19px; }
+
+.RadForm.rfdTextbox .RadInputRTL_WebBlue .riError[type="text"], .RadForm.rfdTextbox .RadInputRTL_Error_WebBlue[type="text"] {
+  background-position: 3px -298px; }
+

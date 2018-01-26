@@ -1,0 +1,253 @@
+.RadSpreadsheet_Office2010Black {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Black .rssToolbarWrapper {
+    border-color: #2c2c2c;
+    color: #efefef;
+    background-color: #4b4b4b; }
+  .RadSpreadsheet_Office2010Black .rssTabstrip .rtsLevel1 {
+    border-color: #565656; }
+  .RadSpreadsheet_Office2010Black .rssTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+    border-color: #565656;
+    color: #000000;
+    background-color: #c7c7c7; }
+  .RadSpreadsheet_Office2010Black .rssFormulaBar {
+    border-color: #565656;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Black .k-syntax-startexp {
+    font-weight: bold; }
+  .RadSpreadsheet_Office2010Black .k-syntax-func {
+    font-weight: bold; }
+  .RadSpreadsheet_Office2010Black .k-syntax-paren-match {
+    background-color: #caf200; }
+  .RadSpreadsheet_Office2010Black .k-syntax-bool {
+    color: #a9169c; }
+  .RadSpreadsheet_Office2010Black .k-syntax-num {
+    color: #0099ff; }
+  .RadSpreadsheet_Office2010Black .k-syntax-str {
+    color: #38b714; }
+  .RadSpreadsheet_Office2010Black .k-syntax-ref {
+    color: #ff8822; }
+  .RadSpreadsheet_Office2010Black .k-syntax-error {
+    color: red; }
+  .RadSpreadsheet_Office2010Black .rssSheetsbar {
+    border-color: #2c2c2c;
+    color: #efefef;
+    background-color: #4b4b4b; }
+    .RadSpreadsheet_Office2010Black .rssSheetsbar .t-spreadsheet-sheets-bar-add:hover {
+      border-color: #ffcc1c;
+      color: #000000;
+      background-color: #fff3c9;
+      background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadSpreadsheet_Office2010Black .rssPane {
+    border-color: #5e5e5e;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Black .k-spreadsheet-vaxis,
+  .RadSpreadsheet_Office2010Black .k-spreadsheet-haxis {
+    border-color: #c5c5c5; }
+  .RadSpreadsheet_Office2010Black .rssTopCorner {
+    border-color: #4c4c4c;
+    color: #ffffff;
+    background-color: #606060; }
+  .RadSpreadsheet_Office2010Black .rssRowHeader,
+  .RadSpreadsheet_Office2010Black .rssColumnHeader {
+    border-color: #4c4c4c;
+    color: #ffffff;
+    background-color: #606060; }
+  .RadSpreadsheet_Office2010Black .rssRowHeader > div:hover,
+  .RadSpreadsheet_Office2010Black .rssColumnHeader > div:hover {
+    border-color: #ffcb11;
+    color: #000000;
+    background-color: #ffe790; }
+  .RadSpreadsheet_Office2010Black .rssRowHeader .k-selection-partial,
+  .RadSpreadsheet_Office2010Black .rssColumnHeader .k-selection-partial {
+    border-color: #c58a00;
+    color: #000000;
+    background-color: #ffe373; }
+    .RadSpreadsheet_Office2010Black .rssRowHeader .k-selection-partial:before,
+    .RadSpreadsheet_Office2010Black .rssColumnHeader .k-selection-partial:before {
+      border-color: #f7c840; }
+  .RadSpreadsheet_Office2010Black .rssSelection {
+    border-color: #f7c840;
+    background-color: rgba(247, 200, 64, 0.2);
+    box-shadow: 0 0 0 1px #f7c840; }
+    .RadSpreadsheet_Office2010Black .rssSelection:after {
+      border-color: #ffffff;
+      background-color: #f7c840; }
+  .RadSpreadsheet_Office2010Black .rssActiveCell {
+    border-color: #f7c840;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Black .k-auto-fill {
+    border-color: #f7c840;
+    box-shadow: inset 0 0 0 1px #f7c840; }
+  .RadSpreadsheet_Office2010Black .rssCellEditor {
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Black .k-spreadsheet-editor-button {
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+    .RadSpreadsheet_Office2010Black .k-spreadsheet-editor-button:hover {
+      border-color: #ffcc1c;
+      color: #000000;
+      background-color: #fff3c9;
+      background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadSpreadsheet_Office2010Black .k-spreadsheet-merged-cell {
+    background-color: #ffffff; }
+  .RadSpreadsheet_Office2010Black .k-resize-handle,
+  .RadSpreadsheet_Office2010Black .k-resize-hint-handle,
+  .RadSpreadsheet_Office2010Black .k-resize-hint-marker {
+    background-color: #c28b31; }
+  .RadSpreadsheet_Office2010Black .k-filter-range {
+    border-color: #c28b31; }
+  .RadSpreadsheet_Office2010Black .k-spreadsheet-filter {
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f);
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #565656; }
+  .RadSpreadsheet_Office2010Black .k-spreadsheet-filter:hover {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9);
+    box-shadow: inset 0 0 0 1px #ffcc1c; }
+
+.rssSkin .t-button,
+.rssSkin .rssButton {
+  border-color: #565656;
+  color: #000000;
+  background-color: #6f6f6f;
+  background-image: linear-gradient(#c7c7c7, #6f6f6f);
+  border-radius: 3px; }
+
+.rssSkin .t-button:hover,
+.rssSkin .t-button.t-state-hover,
+.rssSkin .rssButton.rssHovered {
+  border-color: #ffcc1c;
+  color: #000000;
+  background-color: #fff3c9;
+  background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+
+.rssSkin .rssButton.rssPrimary {
+  border-color: #c59901;
+  color: #000000;
+  background-color: #feed76;
+  background-image: linear-gradient(#feed76, #f7c840, #f8d04c); }
+
+.rssSkin .rssButton.rssPrimary.rssHovered {
+  border-color: #ffcc1c;
+  color: #000000;
+  background-color: #fff3c9;
+  background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+
+.rssSkin .t-tabstrip .t-state-hover {
+  border-color: #ffcb11;
+  color: #000000;
+  background-color: #ffe790;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe791);
+  border-top-color: #2c2c2c; }
+
+.rssSkin .t-tabstrip .t-state-active {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #ffffff;
+  background-image: none; }
+
+.rssSkin .t-spreadsheet-sheets-remove.t-state-hover {
+  color: #e50000; }
+
+.rssSkin .rssInput {
+  border-color: #565656;
+  color: #333333;
+  background-color: #ffffff; }
+
+.rssSkin .rssMenu .rssLink {
+  border-radius: 3px; }
+
+.rssSkin .rssMenu .rssHovered > .rssLink {
+  border-color: #ffcb12;
+  color: #000000;
+  background-color: #ffe791;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+
+.rssSkin .rssMenu .rssSelected > .rssLink {
+  border-color: #c38e00;
+  color: #000000;
+  background-color: #fff17c;
+  background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+
+.rssSkin .rssCollapsibleList .rssLink {
+  border-radius: 3px; }
+
+.rssSkin .rssCollapsibleList .rssHovered > .rssLink {
+  border-color: #ffcb12;
+  color: #000000;
+  background-color: #ffe791;
+  background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+
+.rssSkin .rssCollapsibleList .rssExpanded > .rssLink {
+  border-color: transparent;
+  color: inherit;
+  background: none; }
+
+.rssPopup {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #a6a6a6;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #5e5e5e; }
+  .rssPopup .rssFilterMenu:before {
+    border-color: #787878;
+    background: #919191; }
+  .rssPopup .rssSeparator {
+    border-color: #8c8c8c #bfbfbf #bfbfbf #8c8c8c; }
+
+.rssWindow {
+  border-color: #4c4c4c;
+  color: #ffffff;
+  background-color: #606060;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #4c4c4c; }
+  .rssWindow .rssWindowTitlebar {
+    border-color: #4c4c4c;
+    color: #ffffff;
+    background-color: #606060;
+    background-image: linear-gradient(#606060, #505050, #606060);
+    border-radius: 5px 5px 0 0; }
+  .rssWindow .rssWindowAction {
+    border-color: transparent; }
+  .rssWindow .rssWindowAction:hover {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9);
+    border-radius: 3px; }
+  .rssWindow .rssWindowContent {
+    border-color: #5e5e5e;
+    color: #333333;
+    background-color: #ffffff; }
+  .rssWindow .rssWindowTabstrip {
+    background-color: #4b4b4b; }
+    .rssWindow .rssWindowTabstrip .rtsLevel1 .rtsSelected .rtsLink {
+      color: #333333;
+      background: #ffffff; }
+  .rssWindow hr {
+    border-color: #5e5e5e; }
+
+.rssFormulaList {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #a6a6a6; }
+  .rssFormulaList .k-item.k-state-hover {
+    color: #000000;
+    background-color: #ffe791; }
+  .rssFormulaList .k-item.k-state-focused {
+    color: #000000;
+    background-color: #fff17c; }
+

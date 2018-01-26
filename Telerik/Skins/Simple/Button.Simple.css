@@ -1,0 +1,123 @@
+.RadButton_Simple {
+  height: auto;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 16px; }
+  .RadButton_Simple.rbSkinnedButton, .RadButton_Simple.rbVerticalButton, .RadButton_Simple.rbLinkButton,
+  .RadButton_Simple .rbSplitRight,
+  .RadButton_Simple .rbSplitLeft {
+    border-color: #c7c7c7;
+    color: #000000;
+    background-color: #ededed; }
+  .RadButton_Simple.rbSkinnedButton {
+    padding: 2px 0;
+    border-width: 1px;
+    border-style: solid; }
+    .RadButton_Simple.rbSkinnedButton:focus, .RadButton_Simple.rbSkinnedButton:active {
+      border-width: 1px; }
+  .RadButton_Simple .rbDecorated {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: auto;
+    line-height: inherit; }
+  .RadButton_Simple .rbPrimaryIcon {
+    top: 2px; }
+  .RadButton_Simple .rbSecondaryIcon {
+    top: 2px; }
+  .RadButton_Simple .rbToggleCheckbox,
+  .RadButton_Simple .rbToggleCheckboxChecked,
+  .RadButton_Simple .rbToggleCheckboxFilled,
+  .RadButton_Simple .rbToggleRadio,
+  .RadButton_Simple .rbToggleRadioChecked {
+    background-image: url('Common/radFormToggleSprite.png');
+    top: 2px; }
+  .RadButton_Simple.rbToggleButton {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-width: 0; }
+  .RadButton_Simple.rbToggleButton, .RadButton_Simple.rbToggleButton.rbDisabled:hover {
+    color: #333333; }
+  .RadButton_Simple.rbToggleButton:hover {
+    color: #882501; }
+  .RadButton_Simple.rbLinkButton.rbRounded {
+    border-radius: 0; }
+  .RadButton_Simple.rbNativeButton {
+    padding: 0; }
+  .RadButton_Simple.rbHovered, .RadButton_Simple.rbSkinnedButton:hover, .RadButton_Simple.rbVerticalButton:hover, .RadButton_Simple.rbLinkButton:hover {
+    border-color: #ffc350;
+    color: #882501;
+    background-color: #ffe79c; }
+  .RadButton_Simple.rbPressedButton, .RadButton_Simple.rbSkinnedButton:active, .RadButton_Simple.rbSkinnedButton:focus, .RadButton_Simple.rbVerticalButton:active, .RadButton_Simple.rbVerticalButton:focus, .RadButton_Simple.rbLinkButton:active, .RadButton_Simple.rbLinkButton:focus, .RadButton_Simple.rbSkinnedButtonChecked, .RadButton_Simple.rbSkinnedButtonChecked:hover, .RadButton_Simple.rbLinkButtonChecked, .RadButton_Simple.rbLinkButtonChecked:hover, .RadButton_Simple.rbVerticalButtonChecked, .RadButton_Simple.rbVerticalButtonChecked:hover {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+  .RadButton_Simple .rbSplitRight,
+  .RadButton_Simple .rbSplitLeft {
+    width: 16px;
+    background-image: url('Common/radActionsSprite.png');
+    background-color: #ededed; }
+  .RadButton_Simple .rbSplitRight,
+  .RadButton_Simple .rbSplitLeft,
+  .RadButton_Simple.rbDisabled .rbSplitLeft,
+  .RadButton_Simple.rbDisabled .rbSplitRight {
+    background-position: -2px -20px; }
+  .RadButton_Simple .rbSplitLeft:hover,
+  .RadButton_Simple .rbSplitRight:hover {
+    background-color: #ffe79c;
+    background-position: -2px -20px; }
+  .RadButton_Simple .rbSplitRight:active,
+  .RadButton_Simple .rbSplitRight:focus,
+  .RadButton_Simple .rbSplitLeft:active,
+  .RadButton_Simple .rbSplitLeft:focus {
+    background-color: #ffa517;
+    border-color: #ca4900;
+    background-position: -2px -20px; }
+  .RadButton_Simple .rbAdd,
+  .RadButton_Simple .rbRemove,
+  .RadButton_Simple .rbOk,
+  .RadButton_Simple .rbCancel,
+  .RadButton_Simple .rbPrevious,
+  .RadButton_Simple .rbNext,
+  .RadButton_Simple .rbSave,
+  .RadButton_Simple .rbConfig,
+  .RadButton_Simple .rbRefresh,
+  .RadButton_Simple .rbEdit {
+    background-image: url('../Common/Button/rbBasicIcons16x16Dark.png') !important; }
+  .RadButton_Simple .rbUpload,
+  .RadButton_Simple .rbDownload,
+  .RadButton_Simple .rbOpen,
+  .RadButton_Simple .rbAttach,
+  .RadButton_Simple .rbPrint,
+  .RadButton_Simple .rbSearch,
+  .RadButton_Simple .rbHelp,
+  .RadButton_Simple .rbCart,
+  .RadButton_Simple .rbRSS,
+  .RadButton_Simple .rbMail,
+  .RadButton_Simple .rbFB,
+  .RadButton_Simple .rbTwitter {
+    background-image: url('../Common/Button/rbExtendedIcons16x16Dark.png') !important; }
+  .RadButton_Simple .rbAdd24,
+  .RadButton_Simple .rbRemove24,
+  .RadButton_Simple .rbOk24,
+  .RadButton_Simple .rbCancel24,
+  .RadButton_Simple .rbPrevious24,
+  .RadButton_Simple .rbNext24,
+  .RadButton_Simple .rbSave24,
+  .RadButton_Simple .rbConfig24,
+  .RadButton_Simple .rbRefresh24,
+  .RadButton_Simple .rbEdit24 {
+    background-image: url('../Common/Button/rbBasicIcons24x24Dark.png') !important; }
+  .RadButton_Simple .rbUpload24,
+  .RadButton_Simple .rbDownload24,
+  .RadButton_Simple .rbOpen24,
+  .RadButton_Simple .rbAttach24,
+  .RadButton_Simple .rbPrint24,
+  .RadButton_Simple .rbSearch24,
+  .RadButton_Simple .rbHelp24,
+  .RadButton_Simple .rbCart24,
+  .RadButton_Simple .rbRSS24,
+  .RadButton_Simple .rbMail24,
+  .RadButton_Simple .rbFB24,
+  .RadButton_Simple .rbTwitter24 {
+    background-image: url('../Common/Button/rbExtendedIcons24x24Dark.png') !important; }
+

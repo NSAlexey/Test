@@ -1,0 +1,31 @@
+.RadRotator_Metro {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadRotator_Metro .rrClipRegion {
+    border-color: #e6e6e6;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadRotator_Metro .rrButton {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadRotator_Metro .rrButton:hover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadRotator_Metro .rrButton:focus {
+    box-shadow: inset 0 0 5px rgba(37, 160, 218, 0.5); }
+  .RadRotator_Metro .rrButton:active {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+  .RadRotator_Metro .rrButtonDisabled,
+  .RadRotator_Metro .rrButtonDisabled:hover,
+  .RadRotator_Metro .rrButtonDisabled:focus,
+  .RadRotator_Metro .rrButtonDisabled:active {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    box-shadow: none; }
+  .RadRotator_Metro .rrLoadingSign {
+    background: url('../Metro/Common/loading_small.gif') no-repeat center; }
+

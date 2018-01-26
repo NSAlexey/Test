@@ -1,0 +1,67 @@
+.RadTabStrip_Office2010Black {
+  color: #333333; }
+  .RadTabStrip_Office2010Black .rtsLevel1 {
+    border-color: #5e5e5e; }
+    .RadTabStrip_Office2010Black .rtsLevel1 .rtsLink {
+      border-color: #4c4c4c;
+      color: #ffffff;
+      background-color: #606060;
+      background-image: linear-gradient(#606060, #505050, #606060); }
+    .RadTabStrip_Office2010Black .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: #ffcb11;
+      color: #000000;
+      background-color: #ffe790;
+      background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+    .RadTabStrip_Office2010Black .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #5e5e5e;
+      color: #333333;
+      background-color: #ffffff;
+      background-image: none; }
+    .RadTabStrip_Office2010Black .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #4c4c4c;
+      box-shadow: inset 0 0 5px #4c4c4c; }
+  .RadTabStrip_Office2010Black .rtsLevel1 ~ .rtsLevel {
+    border-color: #5e5e5e;
+    color: #333333;
+    background-color: #ffffff; }
+    .RadTabStrip_Office2010Black .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #f7c840; }
+    .RadTabStrip_Office2010Black .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #e1aa09; }
+    .RadTabStrip_Office2010Black .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit;
+      text-decoration: underline; }
+    .RadTabStrip_Office2010Black .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #c58a00;
+      box-shadow: inset 0 0 5px #c58a00; }
+  .RadTabStrip_Office2010Black .rtsGhostTab {
+    border-color: #4c4c4c;
+    color: #ffffff;
+    background-color: #606060;
+    background-image: linear-gradient(#606060, #505050, #606060);
+    border-radius: 4px; }
+
+.RadTabStrip_Office2010Black.rtsTop .rtsLevel1 .rtsLink {
+  border-radius: 4px 4px 0 0; }
+
+.RadTabStrip_Office2010Black.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+  border-bottom-color: transparent; }
+
+.RadTabStrip_Office2010Black.rtsBottom .rtsLevel1 .rtsLink {
+  border-radius: 0 0 4px 4px; }
+
+.RadTabStrip_Office2010Black.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+  border-top-color: transparent; }
+
+.RadTabStrip_Office2010Black.rtsLeft .rtsLevel1 .rtsLink {
+  border-radius: 4px 0 0 4px; }
+
+.RadTabStrip_Office2010Black.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+  border-right-color: transparent; }
+
+.RadTabStrip_Office2010Black.rtsRight .rtsLevel1 .rtsLink {
+  border-radius: 0 4px 4px 0; }
+
+.RadTabStrip_Office2010Black.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+  border-left-color: transparent; }
+

@@ -1,0 +1,11 @@
+.RadDataForm_Bootstrap {
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .RadDataForm_Bootstrap .rdfLegend,
+  .RadDataForm_Bootstrap .rdfBorders {
+    border-color: #f2f2f2; }
+  .RadDataForm_Bootstrap .rdfHr {
+    color: #f2f2f2; }
+  .RadDataForm_Bootstrap .rdfFieldHint {
+    color: #b3b3b3; }
+

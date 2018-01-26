@@ -1,0 +1,35 @@
+.RadUploadProgressArea_Metro {
+  color: #333333;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUploadProgressArea_Metro .ruProgressHeader {
+    border-color: #e6e6e6;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadUploadProgressArea_Metro .ruActions {
+    border-color: #e6e6e6;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadUploadProgressArea_Metro .ruButton {
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadUploadProgressArea_Metro .ruButtonHover {
+    border-color: #cecece;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadUploadProgressArea_Metro .ruProgress {
+    border-color: #e5e5e5;
+    color: #767676;
+    background-color: #ffffff; }
+  .RadUploadProgressArea_Metro .ruCurrentFile {
+    color: #767676; }
+  .RadUploadProgressArea_Metro .ruBar {
+    border-color: #25a0da; }
+    .RadUploadProgressArea_Metro .ruBar div {
+      border-color: #25a0da;
+      background-image: url('Upload/ruProgress.gif'); }
+

@@ -1,0 +1,151 @@
+.RadSlider_Material {
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadSlider_Material .rslTrack {
+    background-color: #CFD8DC; }
+  .RadSlider_Material .rslSelectedregion {
+    background-color: #8BC34A; }
+  .RadSlider_Material a.rslDraghandle {
+    background-color: #8BC34A;
+    border-color: #8BC34A; }
+  .RadSlider_Material a.rslHandle,
+  .RadSlider_Material a.rslHandle:before {
+    color: #607D8B; }
+  .RadSlider_Material a.rslHandle:hover:before {
+    color: #263238; }
+  .RadSlider_Material .rslItem,
+  .RadSlider_Material .rslLargeTick span,
+  .RadSlider_Material .rslItemsWrapper .rslItemSelected {
+    color: #607D8B; }
+  .RadSlider_Material .rslHorizontal .rslItem {
+    background-image: url('../Material/Slider/ItemHorizontalBgr.gif'); }
+  .RadSlider_Material .rslVertical .rslItem {
+    background-image: url('../Material/Slider/ItemVerticalBgr.gif'); }
+  .RadSlider_Material .rslTop .rslSmallTick,
+  .RadSlider_Material .rslBottom .rslSmallTick {
+    background-image: url('../Material/Slider/SmallChangeHorizontal.gif'); }
+  .RadSlider_Material .rslTop .rslLargeTick,
+  .RadSlider_Material .rslBottom .rslLargeTick {
+    background-image: url('../Material/Slider/LargeChangeHorizontal.gif'); }
+  .RadSlider_Material .rslLeft .rslSmallTick,
+  .RadSlider_Material .rslRight .rslSmallTick {
+    background-image: url('../Material/Slider/SmallChangeVertical.gif'); }
+  .RadSlider_Material .rslLeft .rslLargeTick,
+  .RadSlider_Material .rslRight .rslLargeTick {
+    background-image: url('../Material/Slider/LargelChangeVertical.gif'); }
+  .RadSlider_Material .rslMiddle .rslSmallTick {
+    background-image: url('../Material/Slider/SmallChangeMiddleHorizontal.gif'); }
+  .RadSlider_Material .rslLargeTick {
+    background-image: url('../Material/Slider/LargeChangeMiddleHorizontal.gif'); }
+  .RadSlider_Material .rslCenter .rslSmallTick {
+    background-image: url('../Material/Slider/SmallChangeCenterVertical.gif'); }
+  .RadSlider_Material .rslCenter .rslLargeTick {
+    background-image: url('../Material/Slider/LargelChangeCenterVertical.gif'); }
+  .RadSlider_Material.RadSlider .rslTrack,
+  .RadSlider_Material.RadSlider .rslSelectedregion {
+    border-radius: 0;
+    border-width: 0; }
+  .RadSlider_Material a.rslHandle {
+    border: none; }
+  .RadSlider_Material .rslBottom div.rslTrack {
+    bottom: 0.77071429em; }
+  .RadSlider_Material .rslTrack a.rslDraghandle {
+    width: 0.85714286em;
+    height: 0.85714286em;
+    border-radius: 3.21428571em;
+    overflow: visible; }
+  .RadSlider_Material .rslDraghandle:focus:before {
+    content: "";
+    display: inline-block;
+    width: 2.42857143em;
+    height: 2.42857143em;
+    background-color: rgba(139, 195, 74, 0.25);
+    position: absolute;
+    top: -0.78571429em;
+    left: -0.78571429em;
+    border-radius: 45px; }
+  .RadSlider_Material .rslDraghandle:focus:active:before,
+  .RadSlider_Material .rslDraghandle.rslDraghandleActive:before {
+    background-color: transparent; }
+  .RadSlider_Material .rslTrack a.rslDraghandle:after {
+    border-radius: 3.21429em;
+    width: 0.85714286em;
+    height: 0.85714286em;
+    top: -0.07142857em;
+    left: -0.07142857em;
+    content: '';
+    background-color: #8BC34A;
+    display: inline-block;
+    position: absolute;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+  .RadSlider_Material .rslTrack a.rslDraghandle:active:after,
+  .RadSlider_Material .rslTrack a.rslDraghandleActive:after {
+    width: 1.42857143em;
+    height: 1.42857143em;
+    top: -0.35714286em;
+    left: -0.26785714em; }
+  .RadSlider_Material .rslItem,
+  .RadSlider_Material .rslLargeTick span {
+    font-size: 0.85714286em;
+    font-family: "Roboto", "Noto", sans-serif;
+    font-weight: 500; }
+  .RadSlider_Material .rslHorizontal .rslTrack {
+    height: 0.14285714em !important;
+    margin: 0; }
+  .RadSlider_Material .rslHorizontal .rslSelectedregion {
+    height: 0.14285714em; }
+  .RadSlider_Material .rslHorizontal.rslTop a.rslHandle {
+    top: .52em;
+    top: .9em\9; }
+  .RadSlider_Material .rslHorizontal a.rslHandle {
+    margin-top: -.65em; }
+  .RadSlider_Material .rslHorizontal _:-ms-fullscreen, :root .RadSlider_Material .rslHorizontal.rslTop a.rslHandle {
+    top: .75em; }
+  .RadSlider_Material .rslHorizontal.rslMiddle a.rslHandle {
+    top: 1.02em;
+    margin-top: -0.85714286em \9; }
+  .RadSlider_Material .rslHorizontal _:-ms-fullscreen, :root .RadSlider_Material .rslHorizontal.rslMiddle a.rslHandle {
+    margin-top: -0.85714286em;
+    top: 50%; }
+  .RadSlider_Material .rslHorizontal.rslBottom a.rslHandle {
+    bottom: .1em;
+    bottom: .2em\9; }
+  .RadSlider_Material .rslHorizontal _:-ms-fullscreen, :root .RadSlider_Material .rslHorizontal.rslBottom a.rslHandle {
+    top: auto;
+    bottom: .20em; }
+  .RadSlider_Material .rslHorizontal.rslBottom .rslItemsWrapper {
+    bottom: .9em; }
+  .RadSlider_Material .rslHorizontal a.rslDecrease {
+    left: -0.28571429em; }
+  .RadSlider_Material .rslHorizontal a.rslIncrease {
+    right: -0.07142857em; }
+  .RadSlider_Material .rslHorizontal.rslTop .rslItemsWrapper {
+    top: .75em; }
+  .RadSlider_Material .rslHorizontal.rslMiddle .rslItemsWrapper {
+    top: -0.28571429em; }
+  .RadSlider_Material .rslHorizontal .rslTrack a.rslDraghandle {
+    margin-top: auto;
+    top: -0.35714286em; }
+  .RadSlider_Material .rslVertical .rslTrack {
+    width: 0.14285714em !important;
+    margin-left: -0.07142857em; }
+  .RadSlider_Material .rslVertical .rslSelectedregion {
+    width: 0.14285714em; }
+  .RadSlider_Material .rslVertical a.rslDraghandle {
+    margin-left: -0.35714286em; }
+  .RadSlider_Material .rslVertical .rslHandle.rslDecrease {
+    margin-top: -0.28571429em; }
+  .RadSlider_Material .rslVertical .rslHandle.rslIncrease {
+    bottom: -0.28571429em; }
+  .RadSlider_Material .rslVertical.rslLeft .rslItemsWrapper,
+  .RadSlider_Material .rslVertical.rslLeft .rslLargeTick span,
+  .RadSlider_Material .rslVertical.rslLeft .rslLargeTick span.rslBRItemText {
+    left: 1.92857143em; }
+  .RadSlider_Material .rslVertical.rslLeft a.rslHandle {
+    left: 1.45em; }
+  .RadSlider_Material .rslVertical.rslRight a.rslHandle {
+    right: .25em; }
+  .RadSlider_Material .rslHandle.t-ripple-effect-icon {
+    position: absolute !important; }
+  .RadSlider_Material a.rslHandle.t-ripple-effect-icon span {
+    border-radius: 50%; }

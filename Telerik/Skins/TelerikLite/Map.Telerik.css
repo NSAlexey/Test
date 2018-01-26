@@ -1,0 +1,49 @@
+.RadMap_Telerik .k-navigator {
+  border-color: #cccccc;
+  color: #000000;
+  background-color: #eeeeee;
+  background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadMap_Telerik .k-button {
+  border-color: #cccccc;
+  color: #000000;
+  background-color: #eeeeee;
+  background-image: linear-gradient(#fdfdfd, #dddddd 50%, #cbcbcb 50%, #eeeeee);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4); }
+
+.RadMap_Telerik .k-button:hover,
+.RadMap_Telerik .k-navigator > .k-button:hover {
+  border-color: #47ba22;
+  color: #000000;
+  background-color: #a2ea8b;
+  background-image: linear-gradient(#d2f8c5, #bcf1ab 50%, #b9f0a7 50%, #a2ea8b);
+  box-shadow: none; }
+
+.RadMap_Telerik .k-button:active,
+.RadMap_Telerik .k-button:focus,
+.RadMap_Telerik .k-navigator > .k-button:active,
+.RadMap_Telerik .k-navigator > .k-button:focus {
+  border-color: #4d862c;
+  color: #000000;
+  background-color: #63ac39;
+  background-image: linear-gradient(#a8d687, #8cc569 50%, #65b33f 50%, #63ac39);
+  box-shadow: inset 0 0 0 1px rgba(209, 248, 197, 0.18); }
+
+.RadMap_Telerik .k-marker {
+  color: #66b340; }
+
+.RadMap_Telerik.k-tooltip {
+  border-color: #8e8e8e;
+  color: #000000;
+  background-color: #ffffff; }
+  .RadMap_Telerik.k-tooltip .k-tooltip-button {
+    color: #000000;
+    background-color: #eeeeee; }
+  .RadMap_Telerik.k-tooltip .k-tooltip-button:hover {
+    color: #66b340; }
+
+@media \0screen\,screen\9 {
+  .RadMap_Telerik .k-icon {
+    background-image: url('../Telerik/Common/radActionsSprite.png'); } }
+

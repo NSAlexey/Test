@@ -1,0 +1,66 @@
+.RadTabStrip_Black {
+  color: #ffffff; }
+  .RadTabStrip_Black .rtsLevel1 {
+    border-color: #131313; }
+    .RadTabStrip_Black .rtsLevel1 .rtsLink {
+      border-color: #0e0e0e;
+      color: #ffffff;
+      background-color: #1b1b1b;
+      background-image: linear-gradient(#353535, #1b1b1b); }
+    .RadTabStrip_Black .rtsLevel1 .rtsHovered .rtsLink {
+      border-color: black;
+      color: #ffffff;
+      background-color: black;
+      background-image: linear-gradient(#1a1a1a, black); }
+    .RadTabStrip_Black .rtsLevel1 .rtsSelected .rtsLink {
+      border-color: #131313;
+      color: #9eda29;
+      background-color: #464646;
+      background-image: linear-gradient(#202020, #464646); }
+    .RadTabStrip_Black .rtsLevel1 .rtsFocused .rtsLink {
+      border-color: #131313;
+      box-shadow: inset 0 0 5px #131313; }
+  .RadTabStrip_Black .rtsLevel1 ~ .rtsLevel {
+    border-color: #131313;
+    color: #ffffff;
+    background-color: #464646; }
+    .RadTabStrip_Black .rtsLevel1 ~ .rtsLevel .rtsLink {
+      color: #9eda29; }
+    .RadTabStrip_Black .rtsLevel1 ~ .rtsLevel .rtsHovered .rtsLink {
+      color: #709c1b; }
+    .RadTabStrip_Black .rtsLevel1 ~ .rtsLevel .rtsSelected .rtsLink {
+      color: inherit; }
+    .RadTabStrip_Black .rtsLevel1 ~ .rtsLevel .rtsFocused .rtsLink {
+      border-color: #131313;
+      box-shadow: inset 0 0 5px #131313; }
+  .RadTabStrip_Black .rtsGhostTab {
+    border-color: #0e0e0e;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    background-image: linear-gradient(#353535, #1b1b1b);
+    border-radius: 4px; }
+
+.RadTabStrip_Black.rtsTop .rtsLevel1 .rtsLink {
+  border-radius: 4px 4px 0 0; }
+
+.RadTabStrip_Black.rtsTop .rtsLevel1 .rtsSelected .rtsLink {
+  border-bottom-color: transparent; }
+
+.RadTabStrip_Black.rtsBottom .rtsLevel1 .rtsLink {
+  border-radius: 0 0 4px 4px; }
+
+.RadTabStrip_Black.rtsBottom .rtsLevel1 .rtsSelected .rtsLink {
+  border-top-color: transparent; }
+
+.RadTabStrip_Black.rtsLeft .rtsLevel1 .rtsLink {
+  border-radius: 4px 0 0 4px; }
+
+.RadTabStrip_Black.rtsLeft .rtsLevel1 .rtsSelected .rtsLink {
+  border-right-color: transparent; }
+
+.RadTabStrip_Black.rtsRight .rtsLevel1 .rtsLink {
+  border-radius: 0 4px 4px 0; }
+
+.RadTabStrip_Black.rtsRight .rtsLevel1 .rtsSelected .rtsLink {
+  border-left-color: transparent; }
+

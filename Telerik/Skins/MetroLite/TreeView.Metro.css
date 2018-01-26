@@ -1,0 +1,19 @@
+.RadTreeView_Metro {
+  color: #333333;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadTreeView_Metro .rtChkTristate:hover {
+    color: #25a0da; }
+  .RadTreeView_Metro .rtLoadingIcon {
+    background-image: url('../Metro/Common/loading_small.gif'); }
+  .RadTreeView_Metro .rtPlusHover,
+  .RadTreeView_Metro .rtMinusHover {
+    color: #25a0da; }
+  .RadTreeView_Metro .rtHover .rtIn {
+    border-color: #e7e7e7;
+    color: #000000;
+    background-color: #e7e7e7; }
+  .RadTreeView_Metro .rtSelected .rtIn {
+    border-color: #25a0da;
+    color: #ffffff;
+    background-color: #25a0da; }
+

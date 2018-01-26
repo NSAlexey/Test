@@ -1,0 +1,25 @@
+.RadListView_Outlook {
+  border-color: #89aee5;
+  color: #333333;
+  background-color: #ffffff; }
+  .RadListView_Outlook .rlvHeader th {
+    border-color: #5d8fd8;
+    color: #000000;
+    background-color: #7ea6e0;
+    background-image: linear-gradient(#e3eeff, #7ea6e0); }
+  .RadListView_Outlook .rlvI {
+    border-color: #89aee5; }
+  .RadListView_Outlook .rlvA {
+    background: #f2f2f2;
+    border-color: #89aee5; }
+  .RadListView_Outlook .rlvISel {
+    background: #97b8e8;
+    color: #000000;
+    border-color: #97b8e8; }
+  .RadListView_Outlook .rlvDrag {
+    background-image: url('../Outlook/ListView/drag.gif'); }
+  .RadListView_Outlook .rlvInput {
+    border-color: #003c74;
+    color: #333333;
+    background-color: #ffffff; }
+

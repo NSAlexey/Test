@@ -1,0 +1,31 @@
+.RadMenu_Office2010Black .rmRootToggle {
+  border-color: #565656;
+  color: #000000;
+  background-color: #6f6f6f;
+  background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+
+.RadMenu_Office2010Black .rmRootToggle:active,
+.RadMenu_Office2010Black .rmRootToggle.rmExpanded {
+  border-color: #c59901;
+  color: #000000;
+  background-color: #feed76;
+  background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+
+.RadMenuPopup_Office2010Black {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #a6a6a6; }
+  .RadMenuPopup_Office2010Black:before {
+    border-bottom-color: #5e5e5e; }
+  .RadMenuPopup_Office2010Black:after {
+    border-bottom-color: #a6a6a6; }
+  .RadMenuPopup_Office2010Black .rmItem {
+    border-color: #5e5e5e; }
+  .RadMenuPopup_Office2010Black .rmItem.rmSelected {
+    color: #000000;
+    background-color: #fff17c; }
+  .RadMenuPopup_Office2010Black .rmLoading:after {
+    background-color: rgba(166, 166, 166, 0.5); }
+  .RadMenuPopup_Office2010Black .rmLoadingIcon:after {
+    background-image: url('../Office2010Black/Common/loading_small.gif'); }
+

@@ -1,0 +1,22 @@
+.RadTreeView_Black {
+  color: #ffffff; }
+  .RadTreeView_Black .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_Black .rtChkTristate:hover {
+    color: #9eda29; }
+  .RadTreeView_Black .rtLoadingIcon {
+    background-image: url('../Black/Common/loading_small.gif'); }
+  .RadTreeView_Black .rtPlusHover,
+  .RadTreeView_Black .rtMinusHover {
+    color: #9eda29; }
+  .RadTreeView_Black .rtHover .rtIn {
+    border-color: black;
+    color: #ffffff;
+    background-color: black;
+    background-image: linear-gradient(#1a1a1a, black); }
+  .RadTreeView_Black .rtSelected .rtIn {
+    border-color: #131313;
+    color: #9eda29;
+    background-color: #202020;
+    background-image: linear-gradient(#3a3a3a, #202020); }
+

@@ -1,0 +1,97 @@
+.RadToolTip_Glow {
+  border: 1px solid #35434b;
+  background-color: #35434b;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px #35434b; }
+  .RadToolTip_Glow table.rtWrapper tr.rtVisibleTitleBar td {
+    height: 26px; }
+  .RadToolTip_Glow .rtWrapperTopCenter div.rtTitlebar {
+    font-family: "Segoue UI Light", "Segoue UI", Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 0 0 7px; }
+  .RadToolTip_Glow.rtLoading {
+    background: url('Common/loading.gif') no-repeat center;
+    box-shadow: none; }
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -15px -1965px;
+    width: 20px;
+    height: 20px;
+    border-radius: 45px;
+    margin: -5px -3px 0 0;
+    *background-color: #ffba43; }
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton:hover,
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton:active,
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton:focus {
+    background-position: -15px -1965px; }
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton span {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffba43;
+    background-position: 0 0;
+    background-image: linear-gradient(#ffba43, #dd9415);
+    *background-image: none;
+    *background-color: transparent;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 45px; }
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton:hover span,
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton:active span,
+  .RadToolTip_Glow table.rtWrapper tr td a.rtCloseButton:focus span {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    background-color: #ffa800;
+    background-image: linear-gradient(#ffa800, #d07f00);
+    *background-image: none;
+    *background-color: transparent;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 45px; }
+  .RadToolTip_Glow table.rtWrapper td.rtWrapperContent {
+    background-color: transparent;
+    color: #e2e8eb; }
+  .RadToolTip_Glow div.rtTitlebar {
+    color: #e2e8eb; }
+  .RadToolTip_Glow.rtVisibleCallout div.rtCallout {
+    background-image: url('ToolTip/Callouts.png');
+    width: 11px;
+    height: 9px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopRight,
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopCenter,
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopLeft {
+    background-position: 0 0;
+    margin-top: -9px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopRight {
+    background-position: 0 -14px;
+    margin-left: -40px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutTopLeft {
+    background-position: 0 -24px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutMiddleRight {
+    height: 11px;
+    background-position: 5px -33px;
+    margin-left: -5px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutMiddleLeft {
+    height: 11px;
+    background-position: -3px -44px;
+    margin-left: -8px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomCenter,
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomLeft {
+    height: 11px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomCenter {
+    background-position: 0 -54px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomRight {
+    background-position: 0 -65px;
+    height: 13px;
+    margin-top: -6px; }
+  .RadToolTip_Glow.rtVisibleCallout .rtCallout.rtCalloutBottomLeft {
+    background-position: 0 -78px;
+    height: 13px;
+    margin-top: -3px; }
+  .RadToolTip_Glow.RadToolTip_rtl table.rtShadow .rtCloseButton,
+  .RadToolTip_Glow.RadToolTip_rtl table.rtShadow .rtCloseButton:hover {
+    left: -8px; }
+

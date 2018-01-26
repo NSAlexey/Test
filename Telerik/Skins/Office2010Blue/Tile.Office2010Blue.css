@@ -1,0 +1,19 @@
+.RadTile_Office2010Blue {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #384e73;
+  background-color: #bfcddf; }
+  .RadTile_Office2010Blue .rtilePeekContent {
+    background-color: #bfcddf; }
+  .RadTile_Office2010Blue.rtileSelected .rtileSelectedIcon {
+    background-image: url('Tile/rtileSprite.png'); }
+  .RadTile_Office2010Blue.rtileHovered {
+    border-color: #515151; }
+  .RadTile_Office2010Blue.rtileSelected {
+    border-color: #3a71b7; }
+  .RadTile_Office2010Blue.rtileSelected.rtileHovered {
+    border-color: #2e5990; }
+  .RadTile_Office2010Blue.rtileLoading,
+  .RadTile_Office2010Blue .rtileLoading {
+    background-image: url('Common/loading_small.gif'); }
+

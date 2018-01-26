@@ -1,0 +1,102 @@
+.RadSplitter_Default {
+  border-color: #cccccc;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSplitter_Default .rspPane,
+  .RadSplitter_Default .rspPaneHorizontal {
+    border-color: #cccccc; }
+  .RadSplitter_Default .rspSlidePane {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Default .rspSlideHeader,
+  .RadSplitter_Default .rspSlideTitleContainer {
+    border-color: #cdcdcd;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: url('Splitter/slideTitleContainerBgr.gif');
+    background-repeat: repeat-x; }
+  .RadSplitter_Default .rspSlideTitleContainer,
+  .RadSplitter_Default .rspSlideHeaderIconWrapper {
+    border-bottom: 1px solid #cdcdcd; }
+  .RadSplitter_Default .rspSlideHeaderDockIcon,
+  .RadSplitter_Default .rspSlideHeaderUndockIcon,
+  .RadSplitter_Default .rspSlideHeaderCollapseIcon,
+  .RadSplitter_Default .rspCollapseBarExpand,
+  .RadSplitter_Default .rspCollapseBarCollapse,
+  .RadSplitter_Default .rspCollapseBarHorizontalExpand,
+  .RadSplitter_Default .rspCollapseBarHorizontalCollapse {
+    background-image: url('Splitter/ExpandCollapseBarsCommands.gif'); }
+  .RadSplitter_Default .rspSlideContent {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadSplitter_Default .rspResizeBar,
+  .RadSplitter_Default .rspSlideContainerResize {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(to left, white, #e6e6e6); }
+  .RadSplitter_Default .rspResizeBarOver,
+  .RadSplitter_Default .rspSlideContainerResizeOver {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(to left, gainsboro, #c2c2c2); }
+  .RadSplitter_Default .rspResizeBarHorizontal,
+  .RadSplitter_Default .rspSlideContainerResizeHorizontal {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: linear-gradient(white, #e6e6e6); }
+  .RadSplitter_Default .rspResizeBarOverHorizontal,
+  .RadSplitter_Default .rspSlideContainerResizeOverHorizontal {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .RadSplitter_Default .rspCollapseBarExpand,
+  .RadSplitter_Default .rspCollapseBarCollapse {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6; }
+  .RadSplitter_Default .rspCollapseBarExpandOver,
+  .RadSplitter_Default .rspCollapseBarCollapseOver {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2; }
+  .RadSplitter_Default .rspTabsContainer {
+    background-color: #e6e6e6; }
+  .RadSplitter_Default .rspPaneTabContainer {
+    border-color: #b3b3b3;
+    color: #333333;
+    background-color: #e6e6e6;
+    background-image: url('Splitter/ExpandCollapseBarsCommands.gif'); }
+  .RadSplitter_Default .rspTop .rspPaneTabContainer,
+  .RadSplitter_Default .rspBottom .rspPaneTabContainer {
+    background-image: url('Splitter/slideTitleContainerBgr.gif');
+    background-repeat: repeat-x; }
+  .RadSplitter_Default .rspPaneTabContainer:hover {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(to left, gainsboro, #c2c2c2); }
+  .RadSplitter_Default .rspTop .rspPaneTabContainer:hover,
+  .RadSplitter_Default .rspBottom .rspPaneTabContainer:hover {
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .RadSplitter_Default .rspPaneTabContainerExpanded {
+    border-color: #676767;
+    color: #ffffff;
+    background-color: #808080;
+    background-image: linear-gradient(to left, #9a9a9a, #808080); }
+  .RadSplitter_Default .rspTop .rspPaneTabContainerExpanded,
+  .RadSplitter_Default .rspBottom .rspPaneTabContainerExpanded {
+    background-image: linear-gradient(#9a9a9a, #808080); }
+  .RadSplitter_Default .rspTabsContainer .rspPaneTabContainerDocked {
+    border-color: darkgray;
+    color: #000000;
+    background-color: #c2c2c2;
+    background-image: linear-gradient(gainsboro, #c2c2c2); }
+  .RadSplitter_Default .rspLoading {
+    background-image: url('Common/loading.gif'); }
+

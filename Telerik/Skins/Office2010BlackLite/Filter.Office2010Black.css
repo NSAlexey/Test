@@ -1,0 +1,56 @@
+.RadFilter_Office2010Black {
+  color: #333333; }
+  .RadFilter_Office2010Black .rfMid,
+  .RadFilter_Office2010Black .rfTools {
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .RadFilter_Office2010Black .rfOper:hover,
+  .RadFilter_Office2010Black .rfField:hover,
+  .RadFilter_Office2010Black .rfExp:hover,
+  .RadFilter_Office2010Black .rfAddExp:hover,
+  .RadFilter_Office2010Black .rfAddGr:hover {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadFilter_Office2010Black .rfOper:focus,
+  .RadFilter_Office2010Black .rfField:focus,
+  .RadFilter_Office2010Black .rfExp:focus,
+  .RadFilter_Office2010Black .rfAddExp:focus,
+  .RadFilter_Office2010Black .rfAddGr:focus,
+  .RadFilter_Office2010Black .rfOper:active,
+  .RadFilter_Office2010Black .rfField:active,
+  .RadFilter_Office2010Black .rfExp:active,
+  .RadFilter_Office2010Black .rfAddExp:active,
+  .RadFilter_Office2010Black .rfAddGr:active {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .RadFilter_Office2010Black .rfDel:hover,
+  .RadFilter_Office2010Black .rfDel:focus,
+  .RadFilter_Office2010Black .rfDel:active {
+    color: #e50000; }
+  .RadFilter_Office2010Black .rfText {
+    border-color: #565656;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadFilter_Office2010Black .rfPreview strong {
+    color: #5ec232; }
+  .RadFilter_Office2010Black .rfPreview em,
+  .RadFilter_Office2010Black .rfPreview .rfBr {
+    color: #3e80ed; }
+  .RadFilter_Office2010Black .rfApply a,
+  .RadFilter_Office2010Black .rfApply span {
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f);
+    border-radius: 3px; }
+  .RadFilter_Office2010Black .rfLast .rfDiv:after,
+  .RadFilter_Office2010Black .rfLines li li:before,
+  .RadFilter_Office2010Black .rfLines li li .rfDiv:before {
+    border-color: #919191; }
+

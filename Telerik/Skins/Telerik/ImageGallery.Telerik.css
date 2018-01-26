@@ -1,0 +1,39 @@
+.RadImageGallery_Telerik {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333; }
+  .RadImageGallery_Telerik .rigDotList > a {
+    background: #ffffff;
+    border-color: #cccccc; }
+  .RadImageGallery_Telerik .rigDotList .rigCurrentItem {
+    color: #66b340; }
+  .RadImageGallery_Telerik .rigToolbar {
+    color: #000000;
+    background-color: #b1b1b1; }
+  .RadImageGallery_Telerik .rigCloseButton,
+  .RadImageGallery_Telerik .rigDrawerButton {
+    color: #000000;
+    background-color: #b1b1b1; }
+  .RadImageGallery_Telerik .rigProgressBar div {
+    background-color: #66b340; }
+  .RadImageGallery_Telerik .rigPager {
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #ededed; }
+    .RadImageGallery_Telerik .rigPager a.rigCurrentPage {
+      border-color: #66b340;
+      color: #66b340; }
+  .RadImageGallery_Telerik .rigTooltip {
+    background-color: #ffffff;
+    border-color: #cccccc; }
+    .RadImageGallery_Telerik .rigTooltip:after {
+      border-top-color: #ffffff; }
+  .RadImageGallery_Telerik .rigIcon {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadImageGallery_Telerik .rigPrevButton,
+  .RadImageGallery_Telerik .rigNextButton,
+  .RadImageGallery_Telerik .rigScrollPrevIcon,
+  .RadImageGallery_Telerik .rigScrollNextIcon,
+  .RadImageGallery_Telerik .rigCloseIcon {
+    background-image: url('LightBox/sprite.png'); }
+

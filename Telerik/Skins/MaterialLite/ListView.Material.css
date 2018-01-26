@@ -1,0 +1,61 @@
+.RadListView_Material {
+  border-color: #CFD8DC;
+  color: #455A64;
+  background-color: #ffffff;
+  font-family: "Roboto", "Noto", sans-serif; }
+  .RadListView_Material button.rlvActionButton {
+    color: #455A64;
+    font-size: 16px;
+    box-shadow: none; }
+    .RadListView_Material button.rlvActionButton:hover {
+      box-shadow: none;
+      color: #455A64; }
+  .RadListView_Material .rlvA {
+    background: #ffffff; }
+  .RadListView_Material .rlvISel {
+    background: #E1F5FE;
+    color: #455A64; }
+    .RadListView_Material .rlvISel .rlvBSel .rbIcon,
+    .RadListView_Material .rlvISel .rlvActionButton {
+      color: #455A64; }
+  .RadListView_Material .rlvDrag {
+    background-image: url('../Material/ListView/drag.gif');
+    background-position: center center; }
+  .RadListView_Material div.rlvI, .RadListView_Material div.rlvIEmpty {
+    border-color: #CFD8DC; }
+  .RadListView_Material div.rlvA {
+    border-color: #CFD8DC #ffffff; }
+  .RadListView_Material div.rlvISel {
+    border-color: #E1F5FE; }
+  .RadListView_Material .rlvHeader th {
+    border: 0;
+    border-bottom: 1px solid #CFD8DC;
+    background: #ffffff; }
+  .RadListView_Material tr.rlvI > td, .RadListView_Material tr.rlvA > td, .RadListView_Material tr.rlvISel > td, .RadListView_Material tr.rlvIEmpty > td {
+    border: 0;
+    border-bottom: 1px solid; }
+  .RadListView_Material tr.rlvI td,
+  .RadListView_Material tr.rlvIEmpty td {
+    border-color: #CFD8DC #ffffff; }
+  .RadListView_Material tr.rlvA td {
+    border-color: #CFD8DC #ffffff; }
+  .RadListView_Material tr.rlvISel td {
+    border-color: #E1F5FE; }
+  .RadListView_Material td.rlvI, .RadListView_Material td.rlvA, .RadListView_Material td.rlvISel, .RadListView_Material td.rlvIEmpty {
+    border: 0;
+    border-right: 1px solid; }
+  .RadListView_Material td.rlvI, .RadListView_Material td.rlvIEmpty {
+    border-color: #f8fafb; }
+  .RadListView_Material td.rlvA {
+    border-color: #CFD8DC #ffffff; }
+  .RadListView_Material td.rlvISel {
+    border-color: #E1F5FE; }
+  .RadListView_Material .rlvFloated .rlvI, .RadListView_Material .rlvFloated .rlvISel, .RadListView_Material .rlvFloated .rlvIEdit {
+    border-color: #CFD8DC; }
+  .RadListView_Material .rlvFloated .rlvI {
+    border-color: #f8fafb; }
+  .RadListView_Material .rlvInput {
+    border-color: #CFD8DC;
+    color: #455A64;
+    background-color: transparent; }
+

@@ -1,0 +1,60 @@
+.RadColorPicker_Simple {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  /* RadColorPicker Simple skin */
+  /* Rounded corners and shadows */ }
+  .RadColorPicker_Simple .rcpViews,
+  .RadColorPicker_Simple .rcpHeader,
+  .RadColorPicker_Simple .rcpPageView {
+    background-color: #ededed; }
+  .RadColorPicker_Simple .rcpColorPreview,
+  .RadColorPicker_Simple .rcpInput,
+  .RadColorPicker_Simple .rcpHexInput,
+  .RadColorPicker_Simple .rcpMillionColorsPalette,
+  .RadColorPicker_Simple .rcpMillionColorsSlider div.rslTrack {
+    border-color: #7c7c7c;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadColorPicker_Simple .rcpPalette,
+  .RadColorPicker_Simple input,
+  .RadColorPicker_Simple a {
+    color: #333333; }
+  .RadColorPicker_Simple .rcpApplyButton,
+  .RadColorPicker_Simple .rcpButton {
+    background-color: #e2e2e2; }
+  .RadColorPicker_Simple .rcpApplyButton:hover,
+  .RadColorPicker_Simple .rcpButton:hover {
+    border-color: #ca8500;
+    background-color: #ffe79c; }
+  .RadColorPicker_Simple .rcpApplyButton:hover span,
+  .RadColorPicker_Simple .rcpButton:hover span {
+    color: #882501; }
+  .RadColorPicker_Simple .RadSlider_Simple a.rslDraghandle,
+  .RadColorPicker_Simple .RadSlider_Simple a.rslDraghandle:hover,
+  .RadColorPicker_Simple .RadSlider_Simple a.rslDraghandle:active,
+  .RadColorPicker_Simple .RadSlider_Simple a.rslDraghandle:focus {
+    background: #ffffff;
+    border: 0; }
+  .RadColorPicker_Simple .rcpHeader,
+  .RadColorPicker_Simple .rcpHeader .rcpImageButton,
+  .RadColorPicker_Simple .rcpRecentColors,
+  .RadColorPicker_Simple .rcpIcon a,
+  .RadColorPicker_Simple .rcpTabs a,
+  .RadColorPicker_Simple .rcpTabs a span,
+  .RadColorPicker_Simple .rcpButton,
+  .RadColorPicker_Simple .rcpButton span,
+  .RadColorPicker_Simple .rcpMillionColorsHandle,
+  .RadColorPicker_Simple .rcpSlider div.rslTrack,
+  .RadColorPicker_Simple .rcpSlider .rslTrack a.rslDraghandle,
+  .RadColorPicker_Simple div.rcpMillionColorsSlider div.rslVertical a.rslDraghandle {
+    background-image: url('ColorPicker/ColorPickerSprites.png');
+    background-repeat: no-repeat; }
+  .RadColorPicker_Simple .rcpPalette,
+  .RadColorPicker_Simple .rcpRoundedRight,
+  .RadColorPicker_Simple .rcpRoundedBottomRight,
+  .RadColorPicker_Simple .rcpRightShadow,
+  .RadColorPicker_Simple .rcpCornerShadow {
+    background-image: url('ColorPicker/rcpVerticalSprites.png'); }
+  .RadColorPicker_Simple .rcpRoundedBottomLeft,
+  .RadColorPicker_Simple .rcpBottomShadow {
+    background-image: url('ColorPicker/ColorPickerSprites.png'); }
+

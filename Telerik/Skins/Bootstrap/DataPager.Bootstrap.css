@@ -1,0 +1,73 @@
+.RadDataPager_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #fcfcfc;
+  padding: 7px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143; }
+  .RadDataPager_Bootstrap .rdpWrap {
+    padding: 0;
+    line-height: normal; }
+    .RadDataPager_Bootstrap .rdpWrap a img {
+      margin: 0 -1px; }
+  .RadDataPager_Bootstrap .RadComboBox {
+    height: 34px; }
+  .RadDataPager_Bootstrap .rdpPageFirst,
+  .RadDataPager_Bootstrap .rdpPagePrev,
+  .RadDataPager_Bootstrap .rdpPageNext,
+  .RadDataPager_Bootstrap .rdpPageLast,
+  .RadDataPager_Bootstrap .rdpPagerButton,
+  .RadDataPager_Bootstrap .rdpNumPart a {
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #cccccc;
+    border-left-width: 0;
+    box-sizing: content-box;
+    background-color: #ffffff;
+    color: #333333; }
+    .RadDataPager_Bootstrap .rdpPageFirst:hover,
+    .RadDataPager_Bootstrap .rdpPagePrev:hover,
+    .RadDataPager_Bootstrap .rdpPageNext:hover,
+    .RadDataPager_Bootstrap .rdpPageLast:hover,
+    .RadDataPager_Bootstrap .rdpPagerButton:hover,
+    .RadDataPager_Bootstrap .rdpNumPart a:hover {
+      border-color: #adadad;
+      color: #333333;
+      background-color: #e6e6e6; }
+  .RadDataPager_Bootstrap .rdpNumPart a {
+    text-align: center; }
+    .RadDataPager_Bootstrap .rdpNumPart a.rdpCurrentPage {
+      background-color: #337ab7;
+      border: 1px solid #2e6da4;
+      color: #ffffff; }
+  .RadDataPager_Bootstrap .rdpNumPart span {
+    padding: 5px 0;
+    display: inline-block;
+    float: none; }
+  .RadDataPager_Bootstrap .rdpPagerButton {
+    border-width: 1px;
+    border-radius: 4px; }
+  .RadDataPager_Bootstrap .rdpPagerLabel {
+    padding: 0 7px;
+    line-height: 32px; }
+  .RadDataPager_Bootstrap .rdpPageFirst,
+  .RadDataPager_Bootstrap .rdpPagePrev,
+  .RadDataPager_Bootstrap .rdpPageNext,
+  .RadDataPager_Bootstrap .rdpPageLast {
+    background-image: url('Common/radActionsSprite.png');
+    background-repeat: no-repeat; }
+  .RadDataPager_Bootstrap .rdpPageFirst {
+    border-left-width: 1px;
+    border-radius: 4px 0 0 4px;
+    background-position: -9px -709px; }
+  .RadDataPager_Bootstrap .rdpPagePrev {
+    background-position: -9px -109px; }
+  .RadDataPager_Bootstrap .rdpPageNext {
+    background-position: -9px -159px; }
+  .RadDataPager_Bootstrap .rdpPageLast {
+    border-radius: 0 4px 4px 0;
+    background-position: -9px -759px; }
+

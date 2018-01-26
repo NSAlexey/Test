@@ -1,0 +1,18 @@
+.RadNotification_Windows7 {
+  border-color: #aabfd6;
+  color: #1e395b;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadNotification_Windows7 .rnTitleBar {
+    border-color: #c1cdde;
+    color: #4c607a;
+    background-color: #f1f5fb;
+    background-image: linear-gradient(#f4f8fa, #e9f2fb 50%, #dde7f5 50%, #e4edf8);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f5fb', endColorstr='#f1f5fb',GradientType=0 );
+    border-bottom-color: inherit; }
+  .RadNotification_Windows7 .rnCommands a {
+    background-image: url('Common/radActionsSprite.png'); }
+  .RadNotification_Windows7.rnShadows {
+    box-shadow: 2px 2px 3px #aabfd6; }
+

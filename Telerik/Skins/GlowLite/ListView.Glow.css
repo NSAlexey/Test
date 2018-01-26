@@ -1,0 +1,25 @@
+.RadListView_Glow {
+  border-color: #1c2327;
+  color: #e2e8eb;
+  background-color: #35434b; }
+  .RadListView_Glow .rlvHeader th {
+    border-color: #182126;
+    color: #e2e8eb;
+    background-color: #1c262c;
+    background-image: linear-gradient(#303e46, #1c262c); }
+  .RadListView_Glow .rlvI {
+    border-color: #35434b; }
+  .RadListView_Glow .rlvA {
+    background: #2a363c;
+    border-color: #35434b; }
+  .RadListView_Glow .rlvISel {
+    background: #ffa915;
+    color: #000000;
+    border-color: #ffa915; }
+  .RadListView_Glow .rlvDrag {
+    background-image: url('../Glow/ListView/drag.gif'); }
+  .RadListView_Glow .rlvInput {
+    border-color: #35434b;
+    color: #fff;
+    background-color: #1c262c; }
+

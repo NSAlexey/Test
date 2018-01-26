@@ -1,0 +1,75 @@
+.RadSearchBox_Office2010Blue {
+  color: #384e73;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSearchBox_Office2010Blue .rsbInner {
+    border-radius: 3px;
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #ffffff; }
+    .RadSearchBox_Office2010Blue .rsbInner.rsbHovered {
+      border-color: #f2d359;
+      color: #384e73;
+      background-color: #ffffff; }
+    .RadSearchBox_Office2010Blue .rsbInner.rsbFocused {
+      border-color: #c38e00;
+      color: #384e73;
+      background-color: #ffffff; }
+  .RadSearchBox_Office2010Blue .rsbButton {
+    border-radius: 2px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    background-image: linear-gradient(transparent, transparent); }
+    .RadSearchBox_Office2010Blue .rsbButton:hover {
+      border-color: #f2d359;
+      color: #1e395b;
+      background-color: #fcf5d9;
+      background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+    .RadSearchBox_Office2010Blue .rsbButton:focus {
+      border-color: #c38e00;
+      color: #1e395b;
+      background-color: #ffef7c;
+      background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadSearchBox_Office2010Blue .rsbButtonSearch {
+    border-radius: 0 3px 3px 0; }
+    .RadSearchBox_Office2010Blue .rsbButtonSearch .rsbIcon {
+      background-image: url('Common/radActionsSprite.png');
+      background-position: -2px -1882px; }
+  .RadSearchBox_Office2010Blue .rsbSCInner {
+    border-radius: 3px 0 0 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadSearchBox_Office2010Blue .rsbSCIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -2px -422px; }
+  .RadSearchBox_Office2010Blue .rsbSCHovered {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSearchBox_Office2010Blue .rsbSCFocused {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadSearchBox_Office2010Blue .rsbLoadingIcon {
+    background-image: url('Common/loading_small.gif'); }
+
+.rsbPopup_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rsbPopup_Office2010Blue .rsbListItemHovered {
+    color: #1e395b;
+    background-color: #ffe791; }
+  .rsbPopup_Office2010Blue .rsbListItemSelected {
+    color: #1e395b;
+    background-color: #fff17c; }
+  .rsbPopup_Office2010Blue .rsbListItemLoading {
+    color: #1e395b;
+    background-color: #ffe791; }
+

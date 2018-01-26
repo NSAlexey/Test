@@ -1,0 +1,72 @@
+.RadSearchBox_Office2010Blue {
+  color: #384e73; }
+  .RadSearchBox_Office2010Blue .rsbInner {
+    border-radius: 3px;
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #ffffff; }
+    .RadSearchBox_Office2010Blue .rsbInner.rsbHovered {
+      border-color: #f2d359;
+      color: #384e73;
+      background-color: #ffffff; }
+    .RadSearchBox_Office2010Blue .rsbInner.rsbFocused {
+      border-color: #c38e00;
+      color: #384e73;
+      background-color: #ffffff; }
+  .RadSearchBox_Office2010Blue .rsbButton {
+    border-radius: 2px; }
+  .RadSearchBox_Office2010Blue .rsbLoadingIcon {
+    background-image: url('../Office2010Blue/Common/loading_small.gif'); }
+  .RadSearchBox_Office2010Blue .rsbButtonSearch {
+    border-radius: 0 3px 3px 0; }
+  .RadSearchBox_Office2010Blue .rsbSCInner {
+    border-radius: 3px 0 0 3px;
+    border-color: #9db2ce;
+    color: #384e73;
+    background-color: #bfcddf;
+    background-image: linear-gradient(#fafbfd, #bfcddf); }
+  .RadSearchBox_Office2010Blue .rsbLoadingIcon {
+    background-image: url('../Office2010Blue/Common/loading_small.gif'); }
+  .RadSearchBox_Office2010Blue .rsbHovered.rsbInner {
+    border-color: #f2d359;
+    color: #384e73;
+    background-color: #ffffff; }
+  .RadSearchBox_Office2010Blue .rsbHovered .rsbSCInner {
+    border-color: #f2d359; }
+  .RadSearchBox_Office2010Blue .rsbHovered.rsbSCInner, .RadSearchBox_Office2010Blue .rsbHovered.rsbButton {
+    border-color: #f2d359;
+    color: #1e395b;
+    background-color: #fcf5d9;
+    background-image: linear-gradient(#fceaab, #fae185, #fcf5d9); }
+  .RadSearchBox_Office2010Blue .rsbFocused.rsbInner {
+    border-color: #c38e00;
+    color: #384e73;
+    background-color: #ffffff; }
+  .RadSearchBox_Office2010Blue .rsbFocused .rsbSCInner,
+  .RadSearchBox_Office2010Blue .rsbFocused .rsbHovered.rsbButton {
+    border-color: #c38e00; }
+  .RadSearchBox_Office2010Blue .rsbFocused.rsbSCInner, .RadSearchBox_Office2010Blue .rsbFocused.rsbButton {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+  .RadSearchBox_Office2010Blue .rsbSelected.rsbButton {
+    border-color: #c38e00;
+    color: #1e395b;
+    background-color: #ffef7c;
+    background-image: linear-gradient(#ffe272, #ffd86b, #ffef7c); }
+
+.rsbPopup_Office2010Blue {
+  border-color: #9babc2;
+  color: #384e73;
+  background-color: #ffffff; }
+  .rsbPopup_Office2010Blue .rsbListItemHovered {
+    color: #1e395b;
+    background-color: #ffe791; }
+  .rsbPopup_Office2010Blue .rsbListItemSelected {
+    color: #1e395b;
+    background-color: #fff17c; }
+  .rsbPopup_Office2010Blue .rsbListItemLoading {
+    color: #1e395b;
+    background-color: #ffe791; }
+

@@ -1,0 +1,13 @@
+.RadSocialShare_Web20 {
+  border-color: #6788be;
+  color: #333333;
+  background-color: #e7f1ff;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSocialShare_Web20 .sshLinkItem:hover {
+    color: #12398a; }
+
+.RadComboBox_Web20.sshComboWrapper td.rcbArrowCellRight,
+.RadComboBox_Web20.sshComboWrapper .rcbFocused td.rcbArrowCellRight {
+  background-position: right -154px; }
+

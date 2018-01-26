@@ -1,0 +1,80 @@
+.RadDataPager_MetroTouch {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  padding-top: 8px;
+  font-size: 16px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  line-height: 34px;
+  font-weight: 100; }
+  .RadDataPager_MetroTouch .rdpPageFirst,
+  .RadDataPager_MetroTouch .rdpPagePrev,
+  .RadDataPager_MetroTouch .rdpPageNext,
+  .RadDataPager_MetroTouch .rdpPageLast {
+    width: 30px;
+    height: 30px;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9;
+    background-image: url('Common/radActionsSprite.png'); }
+    .RadDataPager_MetroTouch .rdpPageFirst:hover,
+    .RadDataPager_MetroTouch .rdpPagePrev:hover,
+    .RadDataPager_MetroTouch .rdpPageNext:hover,
+    .RadDataPager_MetroTouch .rdpPageLast:hover {
+      border-color: #cecece;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadDataPager_MetroTouch .rdpPageFirst:active,
+    .RadDataPager_MetroTouch .rdpPagePrev:active,
+    .RadDataPager_MetroTouch .rdpPageNext:active,
+    .RadDataPager_MetroTouch .rdpPageLast:active {
+      border-color: #25a0da;
+      color: #ffffff;
+      background-color: #25a0da; }
+  .RadDataPager_MetroTouch .rdpPageFirst,
+  .RadDataPager_MetroTouch .rdpPageFirst:hover {
+    background-position: -11px -711px; }
+  .RadDataPager_MetroTouch .rdpPagePrev,
+  .RadDataPager_MetroTouch .rdpPagePrev:hover {
+    background-position: -11px -111px; }
+  .RadDataPager_MetroTouch .rdpPageNext,
+  .RadDataPager_MetroTouch .rdpPageNext:hover {
+    background-position: -11px -161px; }
+  .RadDataPager_MetroTouch .rdpPageLast,
+  .RadDataPager_MetroTouch .rdpPageLast:hover {
+    background-position: -11px -761px; }
+  .RadDataPager_MetroTouch .rdpPagerButton {
+    height: 36px;
+    border-color: #e0e0e0;
+    color: #000000;
+    background-color: #f9f9f9; }
+  .RadDataPager_MetroTouch .rdpNumPart a,
+  .RadDataPager_MetroTouch .rdpPagerButton,
+  .RadDataPager_MetroTouch .rdpWrap,
+  .RadDataPager_MetroTouch .rdpWrapRight,
+  .RadDataPager_MetroTouch .rdpWrapNone {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 34px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDataPager_MetroTouch .rdpNumPart a {
+    padding: 0;
+    min-width: 28px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    line-height: 28px;
+    text-align: center; }
+    .RadDataPager_MetroTouch .rdpNumPart a:hover {
+      border-color: #cecece;
+      color: #000000;
+      background-color: #e7e7e7; }
+    .RadDataPager_MetroTouch .rdpNumPart a.rdpCurrentPage {
+      border-color: #25a0da;
+      color: #25a0da;
+      background: none; }
+  .RadDataPager_MetroTouch .rdpNumPart a span {
+    float: none;
+    padding: 0; }
+

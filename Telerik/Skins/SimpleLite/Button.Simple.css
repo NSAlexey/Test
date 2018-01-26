@@ -1,0 +1,76 @@
+.RadButton_Simple.rbRounded,
+.RadButton_Simple .rbSplitPart {
+  border-radius: 0; }
+
+.RadButton_Simple.rbButton, .RadButton_Simple.rbButton.rbDisabled,
+.RadButton_Simple .rbSplitPart {
+  border-color: #c7c7c7;
+  color: #000000;
+  background-color: #ededed; }
+
+.RadButton_Simple.rbButton.rbHovered, .RadButton_Simple.rbButton.rbToggled.rbHovered,
+.RadButton_Simple.rbButton .rbHovered {
+  border-color: #ffc350;
+  color: #882501;
+  background-color: #ffe79c; }
+
+.RadButton_Simple.rbButton:focus {
+  box-shadow: inset 0 0 5px rgba(202, 73, 0, 0.5); }
+
+.RadButton_Simple.rbButton.rbSelected, .RadButton_Simple.rbButton.rbToggled,
+.RadButton_Simple.rbSelected .rbHovered {
+  border-color: #ca4900;
+  color: #882501;
+  background-color: #ffa517; }
+
+.RadButton_Simple.rbButton:hover,
+.RadButton_Simple.rbButton.rbHovered .rbSplitPart {
+  border-color: #ffc350; }
+
+.RadButton_Simple.rbButton.rbSelected,
+.RadButton_Simple.rbButton.rbSelected:active .rbSplitPart {
+  border-color: #ca4900; }
+
+.RadButton_Simple.rbCheckBox .rbText,
+.RadButton_Simple.rbRadioButton .rbText,
+.RadButton_Simple.rbToggleButton .rbText {
+  color: #333333; }
+
+.RadButton_Simple .rbToggleCheckboxChecked,
+.RadButton_Simple .rbToggleCheckboxFilled,
+.RadButton_Simple .rbToggleRadioChecked {
+  color: #882501; }
+
+.RadButton_Simple.rbHovered .rbToggleCheckboxChecked,
+.RadButton_Simple.rbHovered .rbToggleCheckboxFilled,
+.RadButton_Simple.rbHovered .rbToggleRadioChecked {
+  color: #3c1000; }
+
+.RadButton_Simple:focus .rbToggleCheckbox:before,
+.RadButton_Simple:focus .rbToggleRadio:before {
+  box-shadow: 0 0 1px 1px rgba(51, 51, 51, 0.5); }
+
+.RadButton_Simple:focus .rbToggleCheckboxChecked:before,
+.RadButton_Simple:focus .rbToggleCheckboxFilled:before,
+.RadButton_Simple:focus .rbToggleRadioChecked:before {
+  box-shadow: 0 0 1px 1px rgba(136, 37, 1, 0.5); }
+
+.RadButton_Simple.rbPrimaryButton {
+  border-color: #e69600;
+  color: #000000;
+  background-color: #ffcd33; }
+  .RadButton_Simple.rbPrimaryButton.rbHovered, .RadButton_Simple.rbPrimaryButton.rbToggled.rbHovered, .RadButton_Simple.rbPrimaryButton.rbFocused {
+    border-color: #ffc350;
+    color: #882501;
+    background-color: #ffe79c;
+    box-shadow: none; }
+  .RadButton_Simple.rbPrimaryButton.rbSelected, .RadButton_Simple.rbPrimaryButton.rbToggled {
+    border-color: #ca4900;
+    color: #882501;
+    background-color: #ffa517; }
+
+.RadButton_Simple.rbPrimaryButton.rbDisabled {
+  border-color: #e69600;
+  color: #000000;
+  background-color: #ffcd33; }
+

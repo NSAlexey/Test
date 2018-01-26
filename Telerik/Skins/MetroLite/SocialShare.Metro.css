@@ -1,0 +1,9 @@
+.RadSocialShare_Metro {
+  border-color: #e6e6e6;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 0;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSocialShare_Metro .sshLinkItem:hover {
+    color: #25a0da; }
+

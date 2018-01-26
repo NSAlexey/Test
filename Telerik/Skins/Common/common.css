@@ -1,0 +1,85 @@
+.t-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0 none;
+  font-size: 1em;
+  text-decoration: none;
+  list-style: none; }
+
+.t-link {
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer; }
+
+.t-button {
+  margin: 0;
+  padding: 6px;
+  border-width: 1px;
+  border-style: solid;
+  line-height: 1.428571429;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block; }
+  .t-button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+
+.t-link > .t-icon,
+.t-button > .t-icon {
+  vertical-align: middle;
+  margin-top: -3px; }
+
+.RadControl .t-button,
+.RadGrid .t-button,
+.RadTreeList .t-button,
+.RadCalendar .t-button {
+  vertical-align: middle;
+  font: inherit; }
+
+.RadControl .t-button-icontext .t-text,
+.RadGrid .t-button-icontext .t-text,
+.RadTreeList .t-button-icontext .t-text,
+.RadCalendar .t-button-icontext .t-text {
+  display: table-cell;
+  padding: 0 6px 0 5px; }
+
+.RadControl_Bootstrap .t-button,
+.RadGrid_Bootstrap .t-button,
+.RadTreeList_Bootstrap
+.RadCalendar_Bootstrap .t-button {
+  padding: 6px; }
+
+.t-tabstrip {
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+.t-tabstrip-items {
+  padding: 4px 4px 0; }
+
+.t-tabstrip-bottom > .t-tabstrip-items {
+  margin-top: -1px;
+  padding: 0 4px 4px; }
+
+.t-tabstrip-items .t-item {
+  margin: 0 -1px 0 0;
+  padding: 0;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative; }
+
+.t-tabstrip-bottom > .t-tabstrip-items .t-item {
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px; }
+
+.t-tabstrip-items .t-link {
+  padding: 6px 15px;
+  display: inline-block;
+  vertical-align: middle; }
+

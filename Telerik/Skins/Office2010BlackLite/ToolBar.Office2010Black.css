@@ -1,0 +1,140 @@
+.RadToolBar_Office2010Black {
+  border-color: #565656;
+  color: #000000;
+  background-color: #6f6f6f;
+  background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .RadToolBar_Office2010Black .rtbSeparator {
+    border-color: rgba(86, 86, 86, 0.8) rgba(255, 255, 255, 0.6) rgba(255, 255, 255, 0.6) rgba(86, 86, 86, 0.8); }
+  .RadToolBar_Office2010Black .rtbButton {
+    border-radius: 3px; }
+  .RadToolBar_Office2010Black .rtbMore {
+    border-color: #565656;
+    color: #000000;
+    background-color: #6f6f6f;
+    background-image: linear-gradient(#c7c7c7, #6f6f6f); }
+  .RadToolBar_Office2010Black .rtbFocused .rtbButton,
+  .RadToolBar_Office2010Black .rtbFocused.rtbMore {
+    border-color: rgba(197, 153, 1, 0.5);
+    box-shadow: inset 0 0 0.3em rgba(197, 153, 1, 0.5); }
+  .RadToolBar_Office2010Black .rtbHovered .rtbButton:not(.rtbSplitButton) {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadToolBar_Office2010Black .rtbHovered .rtbSplitButton,
+  .RadToolBar_Office2010Black .rtbHovered .rtbArrow {
+    border-color: #ffcc1c; }
+  .RadToolBar_Office2010Black .rtbSplitButton .rtbHovered.rtbSplBtnActivator, .RadToolBar_Office2010Black .rtbSplitButton .rtbHovered.rtbArrow {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .RadToolBar_Office2010Black .rtbChecked .rtbButton,
+  .RadToolBar_Office2010Black .rtbExpanded .rtbButton,
+  .RadToolBar_Office2010Black .rtbExpanded .rtbButton.rtbMenuButton,
+  .RadToolBar_Office2010Black .rtbExpanded.rtbMore {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .RadToolBar_Office2010Black .rtbExpanded .rtbButton.rtbSplitButton .rtbSplBtnActivator,
+  .RadToolBar_Office2010Black .rtbExpanded .rtbButton.rtbSplitButton .rtbArrow {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .RadToolBar_Office2010Black .rtbPressed .rtbButton:not(.rtbSplitButton) {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .RadToolBar_Office2010Black .rtbPressed .rtbSplitButton,
+  .RadToolBar_Office2010Black .rtbPressed .rtbArrow {
+    border-color: #c59901; }
+  .RadToolBar_Office2010Black .rtbSplitButton .rtbPressed.rtbSplBtnActivator, .RadToolBar_Office2010Black .rtbSplitButton .rtbPressed.rtbArrow {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+
+.rtbPopup_Office2010Black {
+  border-color: #5e5e5e;
+  color: #333333;
+  background-color: #a6a6a6; }
+  .rtbPopup_Office2010Black .rtbLink,
+  .rtbPopup_Office2010Black .rtbInner {
+    border-radius: 3px; }
+  .rtbPopup_Office2010Black .rtbImage {
+    left: 5px; }
+  .rtbPopup_Office2010Black .rtbSeparator {
+    border-color: #8c8c8c #bfbfbf #bfbfbf #8c8c8c; }
+  .rtbPopup_Office2010Black .rtbFocused > .rtbLink {
+    border-color: rgba(195, 142, 0, 0.5);
+    box-shadow: inset 0 0 0.3em rgba(195, 142, 0, 0.5); }
+  .rtbPopup_Office2010Black .rtbFocused > .rtbInner {
+    border-color: rgba(197, 153, 1, 0.5);
+    box-shadow: inset 0 0 0.3em rgba(197, 153, 1, 0.5); }
+    .rtbPopup_Office2010Black .rtbFocused > .rtbInner .rtbArrow {
+      border-left-color: rgba(197, 153, 1, 0.5); }
+  .rtbPopup_Office2010Black .rtbHovered > .rtbLink {
+    border-color: #ffcb12;
+    color: #000000;
+    background-color: #ffe791;
+    background-image: linear-gradient(#ffe28e, #ffe175, #ffe791); }
+  .rtbPopup_Office2010Black .rtbHovered:not(.rtbSplitItem) > .rtbInner {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .rtbPopup_Office2010Black .rtbHovered.rtbSplitItem > .rtbInner,
+  .rtbPopup_Office2010Black .rtbHovered > .rtbInner .rtbArrow {
+    border-color: #ffcc1c; }
+  .rtbPopup_Office2010Black .rtbSplitItem .rtbHovered.rtbSplBtnActivator, .rtbPopup_Office2010Black .rtbSplitItem .rtbHovered.rtbArrow {
+    border-color: #ffcc1c;
+    color: #000000;
+    background-color: #fff3c9;
+    background-image: linear-gradient(#ffe68b, #ffe176, #fff3c9); }
+  .rtbPopup_Office2010Black .rtbSelected > .rtbLink {
+    border-color: #c38e00;
+    color: #000000;
+    background-color: #fff17c;
+    background-image: linear-gradient(#f9d14d, #f7c840, #fff17c); }
+  .rtbPopup_Office2010Black .rtbSelected > .rtbInner,
+  .rtbPopup_Office2010Black .rtbChecked > .rtbInner,
+  .rtbPopup_Office2010Black .rtbExpanded > .rtbInner,
+  .rtbPopup_Office2010Black .rtbExpanded > .rtbInner.rtbButton {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+    .rtbPopup_Office2010Black .rtbSelected > .rtbInner .rtbArrow,
+    .rtbPopup_Office2010Black .rtbChecked > .rtbInner .rtbArrow,
+    .rtbPopup_Office2010Black .rtbExpanded > .rtbInner .rtbArrow,
+    .rtbPopup_Office2010Black .rtbExpanded > .rtbInner.rtbButton .rtbArrow {
+      border-left-color: #c59901; }
+  .rtbPopup_Office2010Black .rtbExpanded.rtbSplitItem .rtbInner .rtbSplBtnActivator,
+  .rtbPopup_Office2010Black .rtbExpanded.rtbSplitItem .rtbInner .rtbArrow {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .rtbPopup_Office2010Black .rtbPressed:not(.rtbSplitItem) > .rtbInner {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .rtbPopup_Office2010Black .rtbExpanded .rtbButton.rtbMenuButton,
+  .rtbPopup_Office2010Black .rtbPressed.rtbSplitItem > .rtbInner,
+  .rtbPopup_Office2010Black .rtbPressed > .rtbInner .rtbArrow {
+    border-color: #c59901; }
+  .rtbPopup_Office2010Black .rtbSplitItem .rtbPressed.rtbSplBtnActivator, .rtbPopup_Office2010Black .rtbSplitItem .rtbPressed.rtbArrow {
+    border-color: #c59901;
+    color: #000000;
+    background-color: #feed76;
+    background-image: linear-gradient(#f8d04c, #f7c840, #feed76); }
+  .rtbPopup_Office2010Black .rtbMenu:before {
+    border-color: #787878;
+    background: #c4c4c4; }
+  .rtbPopup_Office2010Black.rtbShadows {
+    box-shadow: 3px 3px 3px #5e5e5e; }
+

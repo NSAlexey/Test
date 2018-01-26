@@ -1,0 +1,14 @@
+.RadNotification_BlackMetroTouch {
+  border-color: #333333;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadNotification_BlackMetroTouch .rnTitleBar {
+    border-color: #555555;
+    color: #ffffff;
+    background-color: #222222; }
+  .RadNotification_BlackMetroTouch .rnCommands a:hover {
+    color: #0082cc; }
+  .RadNotification_BlackMetroTouch.rnShadows {
+    box-shadow: 2px 2px 3px rgba(51, 51, 51, 0.5); }
+

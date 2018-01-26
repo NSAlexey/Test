@@ -1,0 +1,8 @@
+.ReminderDialog_Bootstrap {
+  border-color: #dedede;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 4px; }
+  .ReminderDialog_Bootstrap .rsTitle {
+    border-radius: 4px 4px 0 0; }
+
